@@ -1,0 +1,388 @@
+[
+  {
+    "id": "a11",
+    "ListenList": [],
+    "typeSets": ["A001"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "A11",
+        "metaDescription": "Thực sử dụng các mẫu câu đơn giản để hỏi và trả lời.",
+        "keywords": ["tiếng Anh A1", "hỏi và trả lời", "10.000 lượt nghe nói"]
+      }
+    },
+    "HDTB": {
+      "IF": { "IFname": "A11", "IFdes": "A12", "IF-audiocode": "A13" },
+      "HD": [
+        { "HD-01": "For here-" },
+        { "HD-01": "To go-" },
+        { "HD-01": "Two people-" },
+        { "HD-01": "Three people-" },
+        { "HD-01": "Four people-" },
+        { "HD-01": "Six people-" },
+        { "HD-01": "A window seat-" },
+        { "HD-01": "A quiet table-" },
+        { "HD-01": "A high chair for a child-" },
+        { "HD-01": "Fried rice-" },
+        { "HD-01": "Beef noodle soup-" },
+        { "HD-01": "Coffees and sandwich-" },
+        { "HD-01": "Wait-" },
+        { "HD-01": "Come back later-" },
+        { "HD-01": "Private room-" },
+        { "HD-01": "Regular table-" }
+      ],
+      "TB": [
+        [
+          "For here-",
+          "To go-",
+          "Two people-",
+          "Three people-",
+          "Four people-",
+          "Six people-",
+          "A window seat-",
+          "A quiet table-",
+          "A high chair for a child-",
+          "Fried rice-",
+          "Beef noodle soup-",
+          "Coffees and sandwich-",
+          "Wait-",
+          "Come back later-",
+          "Private room-",
+          "Regular table-"
+        ]
+      ],
+      "TV": [],
+      "IPA": []
+    },
+    "charactor": [
+      {
+        "type": "A001",
+        "fsp": "Hi",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "Would you like to dine in or take away? | For here or to go? | Are you eating here or taking it to go? |"
+            ],
+            "aw": [
+              "We'd like a table, please. | We want to eat here. | Dine in, please. |"
+            ],
+            "submit": ["For here-"],
+            "aw01": [
+              {
+                "st": "We'd like a table, please. | We want to eat here. | Dine in, please. |",
+                "id": "A13a1"
+              }
+            ]
+          },
+          {
+            "qs": [
+              "How many people are there? | How many guests? | Table for how many people? | How many people will be dining?"
+            ],
+            "aw": [
+              "Table for six. | There are six of us. | Six people, please. |"
+            ],
+            "submit": ["Six people-"],
+            "aw01": [
+              {
+                "st": "Table for six. | There are six of us. | Six people, please. |",
+                "id": "A13a20"
+              }
+            ]
+          },
+          {
+            "qs": [
+              "Would you like a private room? | Do you want to use a private dining room? | We also have a private room available. Would you like to use it? |"
+            ],
+            "aw": ["Yes, please."],
+            "submit": ["Private room-"],
+            "aw01": [{ "st": "Yes, please.", "id": "A13a21" }]
+          }
+        ],
+        "submit": ["For here-", "Six people-", "Private room-"],
+        "fspSets": [{ "st": "Hi", "id": "A13a0" }]
+      },
+      {
+        "type": "A001",
+        "fsp": "Hi",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "Would you like to dine in or take away? | For here or to go? | Are you eating here or taking it to go? |"
+            ],
+            "aw": [
+              "I'd like to order to go. | Take away, please. | We want to take it to go. | Packing, please."
+            ],
+            "submit": ["To go-"],
+            "aw01": [
+              {
+                "st": "I'd like to order to go. | Take away, please. | We want to take it to go. | Packing, please.",
+                "id": "A13a10"
+              }
+            ]
+          },
+          {
+            "qs": [
+              "What would you like to order? | What dishes would you like? | May I take your order? | What would you like to have?"
+            ],
+            "aw": ["I'd like fried rice. | | |"],
+            "submit": ["Fried rice-"],
+            "aw01": [{ "st": "I'd like fried rice. | | |", "id": "A13a11" }]
+          }
+        ],
+        "submit": ["To go-", "Fried rice-"],
+        "fspSets": [{ "st": "Hi", "id": "A13a3" }]
+      },
+      {
+        "type": "A001",
+        "fsp": "Hi",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "Would you like to dine in or take away? | For here or to go? | Are you eating here or taking it to go? |"
+            ],
+            "aw": [
+              "We'd like a table, please. | We want to eat here. | Dine in, please. |"
+            ],
+            "submit": ["For here-"],
+            "aw01": [
+              {
+                "st": "We'd like a table, please. | We want to eat here. | Dine in, please. |",
+                "id": "A13a1"
+              }
+            ]
+          },
+          {
+            "qs": [
+              "How many people are there? | How many guests? | Table for how many people? | How many people will be dining?"
+            ],
+            "aw": [
+              "Table for four. | There are four of us. | Four people, please. |"
+            ],
+            "submit": ["Four people-"],
+            "aw01": [
+              {
+                "st": "Table for four. | There are four of us. | Four people, please. |",
+                "id": "A13a8"
+              }
+            ]
+          }
+        ],
+        "submit": ["For here-", "Four people-"],
+        "fspSets": [{ "st": "Hi", "id": "A13a0" }]
+      },
+      {
+        "type": "A001",
+        "fsp": "Hi",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "Would you like to dine in or take away? | For here or to go? | Are you eating here or taking it to go? |"
+            ],
+            "aw": [
+              "I'd like to order to go. | Take away, please. | We want to take it to go. | Packing, please."
+            ],
+            "submit": ["To go-"],
+            "aw01": [
+              {
+                "st": "I'd like to order to go. | Take away, please. | We want to take it to go. | Packing, please.",
+                "id": "A13a13"
+              }
+            ]
+          },
+          {
+            "qs": [
+              "What would you like to order? | What dishes would you like? | May I take your order? | What would you like to have?"
+            ],
+            "aw": ["One beef noodle soup, please. | | |"],
+            "submit": ["Beef noodle soup-"],
+            "aw01": [
+              { "st": "One beef noodle soup, please. | | |", "id": "A13a14" }
+            ]
+          }
+        ],
+        "submit": ["To go-", "Beef noodle soup-"],
+        "fspSets": [{ "st": "Hi", "id": "A13a0" }]
+      },
+      {
+        "type": "A001",
+        "fsp": "Hi",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "Would you like to dine in or take away? | For here or to go? | Are you eating here or taking it to go? |"
+            ],
+            "aw": [
+              "We'd like a table, please. | We want to eat here. | Dine in, please. |"
+            ],
+            "submit": ["For here-"],
+            "aw01": [
+              {
+                "st": "We'd like a table, please. | We want to eat here. | Dine in, please. |",
+                "id": "A13a4"
+              }
+            ]
+          },
+          {
+            "qs": [
+              "How many people are there? | How many guests? | Table for how many people? | How many people will be dining?"
+            ],
+            "aw": [
+              "Table for six. | There are six of us. | Six people, please. |"
+            ],
+            "submit": ["Six people-"],
+            "aw01": [
+              {
+                "st": "Table for six. | There are six of us. | Six people, please. |",
+                "id": "A13a24"
+              }
+            ]
+          },
+          {
+            "qs": [
+              "Would you like a private room? | Do you want to use a private dining room? | We also have a private room available. Would you like to use it? |"
+            ],
+            "aw": ["No, a regular table is fine."],
+            "submit": ["Regular table-"],
+            "aw01": [{ "st": "No, a regular table is fine.", "id": "A13a25" }]
+          }
+        ],
+        "submit": ["For here-", "Six people-", "Regular table-"],
+        "fspSets": [{ "st": "Hi", "id": "A13a3" }]
+      },
+      {
+        "type": "A001",
+        "fsp": "Hi",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "Would you like to dine in or take away? | For here or to go? | Are you eating here or taking it to go? |"
+            ],
+            "aw": [
+              "We'd like a table, please. | We want to eat here. | Dine in, please. |"
+            ],
+            "submit": ["For here-"],
+            "aw01": [
+              {
+                "st": "We'd like a table, please. | We want to eat here. | Dine in, please. |",
+                "id": "A13a1"
+              }
+            ]
+          },
+          {
+            "qs": [
+              "How many people are there? | How many guests? | Table for how many people? | How many people will be dining?"
+            ],
+            "aw": [
+              "Table for two. | There are two of us. | Two people, please. |"
+            ],
+            "submit": ["Two people-"],
+            "aw01": [
+              {
+                "st": "Table for two. | There are two of us. | Two people, please. |",
+                "id": "A13a2"
+              }
+            ]
+          }
+        ],
+        "submit": ["For here-", "Two people-"],
+        "fspSets": [{ "st": "Hi", "id": "A13a0" }]
+      },
+      {
+        "type": "A001",
+        "fsp": "Hi",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "Would you like to dine in or take away? | For here or to go? | Are you eating here or taking it to go? |"
+            ],
+            "aw": [
+              "I'd like to order to go. | Take away, please. | We want to take it to go. | Packing, please."
+            ],
+            "submit": ["To go-"],
+            "aw01": [
+              {
+                "st": "I'd like to order to go. | Take away, please. | We want to take it to go. | Packing, please.",
+                "id": "A13a10"
+              }
+            ]
+          },
+          {
+            "qs": [
+              "What would you like to order? | What dishes would you like? | May I take your order? | What would you like to have?"
+            ],
+            "aw": ["Two coffees and one sandwich. | | |"],
+            "submit": ["Coffees and sandwich-"],
+            "aw01": [
+              { "st": "Two coffees and one sandwich. | | |", "id": "A13a17" }
+            ]
+          }
+        ],
+        "submit": ["To go-", "Coffees and sandwich-"],
+        "fspSets": [{ "st": "Hi", "id": "A13a3" }]
+      },
+      {
+        "type": "A001",
+        "fsp": "Hi",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "Would you like to dine in or take away? | For here or to go? | Are you eating here or taking it to go? |"
+            ],
+            "aw": [
+              "We'd like a table, please. | We want to eat here. | Dine in, please. |"
+            ],
+            "submit": ["For here-"],
+            "aw01": [
+              {
+                "st": "We'd like a table, please. | We want to eat here. | Dine in, please. |",
+                "id": "A13a4"
+              }
+            ]
+          },
+          {
+            "qs": [
+              "How many people are there? | How many guests? | Table for how many people? | How many people will be dining?"
+            ],
+            "aw": [
+              "Table for three. | There are three of us. | Three people, please. |"
+            ],
+            "submit": ["Three people-"],
+            "aw01": [
+              {
+                "st": "Table for three. | There are three of us. | Three people, please. |",
+                "id": "A13a5"
+              }
+            ]
+          }
+        ],
+        "submit": ["For here-", "Three people-"],
+        "fspSets": [{ "st": "Hi", "id": "A13a3" }]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  }
+]
