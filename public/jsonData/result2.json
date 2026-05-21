@@ -11,7 +11,7 @@
       }
     },
     "HDTB": {
-      "IF": { "IFname": "A11", "IFdes": "A12", "IF-audiocode": "A13-" },
+      "IF": { "IFname": "A11", "IFdes": "A12", "IF-audiocode": "A13_" },
       "HD": [
         { "HD-01": "For here-" },
         { "HD-01": "To go-" },
@@ -74,9 +74,9 @@
             ],
             "submit": ["For here-"],
             "aw01": [
-              { "st": "We'd like a table, please.", "id": "A13-a1b1" },
-              { "st": "We want to eat here.", "id": "A13-a1b2" },
-              { "st": "Dine in, please.", "id": "A13-a1b3" }
+              { "st": "We'd like a table, please.", "id": "A13_a1b1" },
+              { "st": "We want to eat here.", "id": "A13_a1b2" },
+              { "st": "Dine in, please.", "id": "A13_a1b3" }
             ]
           },
           {
@@ -93,9 +93,9 @@
             ],
             "submit": ["Six people-"],
             "aw01": [
-              { "st": "Table for six.", "id": "A13-a20b1" },
-              { "st": "There are six of us.", "id": "A13-a20b2" },
-              { "st": "Six people, please.", "id": "A13-a20b3" }
+              { "st": "Table for six.", "id": "A13_a20b1" },
+              { "st": "There are six of us.", "id": "A13_a20b2" },
+              { "st": "Six people, please.", "id": "A13_a20b3" }
             ]
           },
           {
@@ -106,11 +106,11 @@
             ],
             "aw": ["Yes, please."],
             "submit": ["Private room-"],
-            "aw01": [{ "st": "Yes, please.", "id": "A13-a21" }]
+            "aw01": [{ "st": "Yes, please.", "id": "A13_a21" }]
           }
         ],
         "submit": ["For here-", "Six people-", "Private room-"],
-        "fspSets": [{ "st": "Hi", "id": "A13-a0" }]
+        "fspSets": [{ "st": "Hi", "id": "A13_a0" }]
       },
       {
         "type": "A001",
@@ -133,10 +133,10 @@
             ],
             "submit": ["To go-"],
             "aw01": [
-              { "st": "I'd like to order to go.", "id": "A13-a13b1" },
-              { "st": "Take away, please.", "id": "A13-a13b2" },
-              { "st": "We want to take it to go.", "id": "A13-a13b3" },
-              { "st": "Packing, please.", "id": "A13-a13b4" }
+              { "st": "I'd like to order to go.", "id": "A13_a13b1" },
+              { "st": "Take away, please.", "id": "A13_a13b2" },
+              { "st": "We want to take it to go.", "id": "A13_a13b3" },
+              { "st": "Packing, please.", "id": "A13_a13b4" }
             ]
           },
           {
@@ -149,12 +149,12 @@
             "aw": ["One beef noodle soup, please."],
             "submit": ["Beef noodle soup-"],
             "aw01": [
-              { "st": "One beef noodle soup, please.", "id": "A13-a14b1" }
+              { "st": "One beef noodle soup, please.", "id": "A13_a14b1" }
             ]
           }
         ],
         "submit": ["To go-", "Beef noodle soup-"],
-        "fspSets": [{ "st": "Hi", "id": "A13-a0" }]
+        "fspSets": [{ "st": "Hi", "id": "A13_a0" }]
       },
       {
         "type": "A001",
@@ -177,10 +177,10 @@
             ],
             "submit": ["To go-"],
             "aw01": [
-              { "st": "I'd like to order to go.", "id": "A13-a10b1" },
-              { "st": "Take away, please.", "id": "A13-a10b2" },
-              { "st": "We want to take it to go.", "id": "A13-a10b3" },
-              { "st": "Packing, please.", "id": "A13-a10b4" }
+              { "st": "I'd like to order to go.", "id": "A13_a10b1" },
+              { "st": "Take away, please.", "id": "A13_a10b2" },
+              { "st": "We want to take it to go.", "id": "A13_a10b3" },
+              { "st": "Packing, please.", "id": "A13_a10b4" }
             ]
           },
           {
@@ -193,12 +193,12 @@
             "aw": ["Two coffees and one sandwich."],
             "submit": ["Coffees and sandwich-"],
             "aw01": [
-              { "st": "Two coffees and one sandwich.", "id": "A13-a17b1" }
+              { "st": "Two coffees and one sandwich.", "id": "A13_a17b1" }
             ]
           }
         ],
         "submit": ["To go-", "Coffees and sandwich-"],
-        "fspSets": [{ "st": "Hi", "id": "A13-a3" }]
+        "fspSets": [{ "st": "Hi", "id": "A13_a3" }]
       },
       {
         "type": "A001",
@@ -220,9 +220,9 @@
             ],
             "submit": ["For here-"],
             "aw01": [
-              { "st": "We'd like a table, please.", "id": "A13-a1b1" },
-              { "st": "We want to eat here.", "id": "A13-a1b2" },
-              { "st": "Dine in, please.", "id": "A13-a1b3" }
+              { "st": "We'd like a table, please.", "id": "A13_a1b1" },
+              { "st": "We want to eat here.", "id": "A13_a1b2" },
+              { "st": "Dine in, please.", "id": "A13_a1b3" }
             ]
           },
           {
@@ -239,14 +239,14 @@
             ],
             "submit": ["Four people-"],
             "aw01": [
-              { "st": "Table for four.", "id": "A13-a8b1" },
-              { "st": "There are four of us.", "id": "A13-a8b2" },
-              { "st": "Four people, please.", "id": "A13-a8b3" }
+              { "st": "Table for four.", "id": "A13_a8b1" },
+              { "st": "There are four of us.", "id": "A13_a8b2" },
+              { "st": "Four people, please.", "id": "A13_a8b3" }
             ]
           }
         ],
         "submit": ["For here-", "Four people-"],
-        "fspSets": [{ "st": "Hi", "id": "A13-a0" }]
+        "fspSets": [{ "st": "Hi", "id": "A13_a0" }]
       },
       {
         "type": "A001",
@@ -268,9 +268,9 @@
             ],
             "submit": ["For here-"],
             "aw01": [
-              { "st": "We'd like a table, please.", "id": "A13-a4b1" },
-              { "st": "We want to eat here.", "id": "A13-a4b2" },
-              { "st": "Dine in, please.", "id": "A13-a4b3" }
+              { "st": "We'd like a table, please.", "id": "A13_a4b1" },
+              { "st": "We want to eat here.", "id": "A13_a4b2" },
+              { "st": "Dine in, please.", "id": "A13_a4b3" }
             ]
           },
           {
@@ -287,14 +287,14 @@
             ],
             "submit": ["Three people-"],
             "aw01": [
-              { "st": "Table for three.", "id": "A13-a5b1" },
-              { "st": "There are three of us.", "id": "A13-a5b2" },
-              { "st": "Three people, please.", "id": "A13-a5b3" }
+              { "st": "Table for three.", "id": "A13_a5b1" },
+              { "st": "There are three of us.", "id": "A13_a5b2" },
+              { "st": "Three people, please.", "id": "A13_a5b3" }
             ]
           }
         ],
         "submit": ["For here-", "Three people-"],
-        "fspSets": [{ "st": "Hi", "id": "A13-a3" }]
+        "fspSets": [{ "st": "Hi", "id": "A13_a3" }]
       },
       {
         "type": "A001",
@@ -316,9 +316,9 @@
             ],
             "submit": ["For here-"],
             "aw01": [
-              { "st": "We'd like a table, please.", "id": "A13-a1b1" },
-              { "st": "We want to eat here.", "id": "A13-a1b2" },
-              { "st": "Dine in, please.", "id": "A13-a1b3" }
+              { "st": "We'd like a table, please.", "id": "A13_a1b1" },
+              { "st": "We want to eat here.", "id": "A13_a1b2" },
+              { "st": "Dine in, please.", "id": "A13_a1b3" }
             ]
           },
           {
@@ -335,14 +335,14 @@
             ],
             "submit": ["Two people-"],
             "aw01": [
-              { "st": "Table for two.", "id": "A13-a2b1" },
-              { "st": "There are two of us.", "id": "A13-a2b2" },
-              { "st": "Two people, please.", "id": "A13-a2b3" }
+              { "st": "Table for two.", "id": "A13_a2b1" },
+              { "st": "There are two of us.", "id": "A13_a2b2" },
+              { "st": "Two people, please.", "id": "A13_a2b3" }
             ]
           }
         ],
         "submit": ["For here-", "Two people-"],
-        "fspSets": [{ "st": "Hi", "id": "A13-a0" }]
+        "fspSets": [{ "st": "Hi", "id": "A13_a0" }]
       },
       {
         "type": "A001",
@@ -365,10 +365,10 @@
             ],
             "submit": ["To go-"],
             "aw01": [
-              { "st": "I'd like to order to go.", "id": "A13-a10b1" },
-              { "st": "Take away, please.", "id": "A13-a10b2" },
-              { "st": "We want to take it to go.", "id": "A13-a10b3" },
-              { "st": "Packing, please.", "id": "A13-a10b4" }
+              { "st": "I'd like to order to go.", "id": "A13_a10b1" },
+              { "st": "Take away, please.", "id": "A13_a10b2" },
+              { "st": "We want to take it to go.", "id": "A13_a10b3" },
+              { "st": "Packing, please.", "id": "A13_a10b4" }
             ]
           },
           {
@@ -380,11 +380,11 @@
             ],
             "aw": ["I'd like fried rice."],
             "submit": ["Fried rice-"],
-            "aw01": [{ "st": "I'd like fried rice.", "id": "A13-a11b1" }]
+            "aw01": [{ "st": "I'd like fried rice.", "id": "A13_a11b1" }]
           }
         ],
         "submit": ["To go-", "Fried rice-"],
-        "fspSets": [{ "st": "Hi", "id": "A13-a3" }]
+        "fspSets": [{ "st": "Hi", "id": "A13_a3" }]
       },
       {
         "type": "A001",
@@ -406,9 +406,9 @@
             ],
             "submit": ["For here-"],
             "aw01": [
-              { "st": "We'd like a table, please.", "id": "A13-a4b1" },
-              { "st": "We want to eat here.", "id": "A13-a4b2" },
-              { "st": "Dine in, please.", "id": "A13-a4b3" }
+              { "st": "We'd like a table, please.", "id": "A13_a4b1" },
+              { "st": "We want to eat here.", "id": "A13_a4b2" },
+              { "st": "Dine in, please.", "id": "A13_a4b3" }
             ]
           },
           {
@@ -425,9 +425,9 @@
             ],
             "submit": ["Six people-"],
             "aw01": [
-              { "st": "Table for six.", "id": "A13-a24b1" },
-              { "st": "There are six of us.", "id": "A13-a24b2" },
-              { "st": "Six people, please.", "id": "A13-a24b3" }
+              { "st": "Table for six.", "id": "A13_a24b1" },
+              { "st": "There are six of us.", "id": "A13_a24b2" },
+              { "st": "Six people, please.", "id": "A13_a24b3" }
             ]
           },
           {
@@ -438,11 +438,11 @@
             ],
             "aw": ["No, a regular table is fine."],
             "submit": ["Regular table-"],
-            "aw01": [{ "st": "No, a regular table is fine.", "id": "A13-a25" }]
+            "aw01": [{ "st": "No, a regular table is fine.", "id": "A13_a25" }]
           }
         ],
         "submit": ["For here-", "Six people-", "Regular table-"],
-        "fspSets": [{ "st": "Hi", "id": "A13-a3" }]
+        "fspSets": [{ "st": "Hi", "id": "A13_a3" }]
       }
     ],
     "charactor_UP_01": [],

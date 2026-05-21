@@ -252,7 +252,7 @@ export default function Header({ sttRoom, STTcfonnectFN }) {
                 "Kiến thức cốt lõi",
                 coreKnowledgeSets,
                 { name: "name", link: "link", preName: "preName" },
-                null,
+                null
               )}
               {/* {returnDropdown(
                 "Sử dụng tiếng anh",
@@ -264,13 +264,13 @@ export default function Header({ sttRoom, STTcfonnectFN }) {
                 "Giáo án giao tiếp",
                 pracEnSets.concat(yy1A),
                 { name: "name", link: "link", preName: "preName" },
-                null,
+                null
               )}{" "}
               {returnDropdown(
                 "Khác",
                 levele_img_barlist.concat(words_3000, a_prac_100),
                 { name: "name", link: "link", preName: "preName" },
-                null,
+                null
               )}
               {/* {returnDropdown(
                 "Học 3000 từ với đoạn hội thoại và câu chuyện!",
@@ -361,7 +361,7 @@ function returnDropdown(name, inputSets, keysSets, link) {
                 {"  "} {e[keysSets.name]}
               </NavDropdown.Item>
             );
-          })(),
+          })()
         )}
       </div>
     </NavDropdown>

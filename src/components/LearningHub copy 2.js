@@ -85,7 +85,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
     try {
       navigate(
         `/learninghub/${id}?ls=${currentIndex}&&id=div_01_prac_ghep_am&&st=` +
-          choose_a_st.split(" ").join("-"),
+          choose_a_st.split(" ").join("-")
       );
     } catch (error) {}
   }, [choose_a_st]);
@@ -370,7 +370,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
             <meta
               name="keywords"
               content={`Cùng thực hành, cung thuc hanh, ${arrayToString(
-                dataLearning[currentIndex]?.SEO?.seo?.keywords,
+                dataLearning[currentIndex]?.SEO?.seo?.keywords
               )}, ${id}`}
             />
           </Helmet>
@@ -382,7 +382,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 className="control-select"
                 onChange={(e) => {
                   navigate(
-                    `/learninghub/${id}?ls=${currentIndex}&&id=${e.target.value}`,
+                    `/learninghub/${id}?ls=${currentIndex}&&id=${e.target.value}`
                   );
                 }}
               >
@@ -459,7 +459,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                   currentIndex,
                   setCurrentIndex,
                   navigate,
-                  id,
+                  id
                 )}
                 <TableHD
                   data={dataLearning[currentIndex]?.HDTB?.HD}
@@ -473,7 +473,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                         }&&id=div_01_prac_ghep_am&&st=${e
                           .toString()
                           .split(" ")
-                          .join("-")}`,
+                          .join("-")}`
                       );
                     } catch (error) {}
                   }}
@@ -490,7 +490,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                         }&&id=div_01_prac_ghep_am&&st=${e
                           .toString()
                           .split(" ")
-                          .join("-")}`,
+                          .join("-")}`
                       );
                     } catch (error) {}
                   }}
@@ -517,7 +517,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                           navigate(
                             `/learninghub/${id}?ls=${currentIndex}&&scrollY=${
                               params.get("scrollY") || 0
-                            }&&id=div_01_content_table_to_practice`,
+                            }&&id=div_01_content_table_to_practice`
                           );
                         }}
                         className="btn btn-modern btn-gradient-info"
@@ -537,7 +537,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                               ? decodeElement.textContent
                               : "";
                             const params = new URLSearchParams(
-                              window.location.search,
+                              window.location.search
                             );
                             const stParam = params.get("st") || "";
                             const fullURL =
@@ -575,7 +575,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                               ? decodeElement.textContent
                               : "";
                             const params = new URLSearchParams(
-                              window.location.search,
+                              window.location.search
                             );
                             const stParam = params.get("st") || "";
                             const fullURL =
@@ -593,13 +593,13 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                                   '<i class="bi bi-check-lg me-2"></i>Đã sao chép!';
                                 button.className = button.className.replace(
                                   "btn-gradient-info",
-                                  "btn-gradient-success",
+                                  "btn-gradient-success"
                                 );
                                 setTimeout(() => {
                                   button.innerHTML = originalText;
                                   button.className = button.className.replace(
                                     "btn-gradient-success",
-                                    "btn-gradient-info",
+                                    "btn-gradient-info"
                                   );
                                 }, 2000);
                               })
@@ -648,7 +648,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                     <div className="reference-card">
                       {StringSimilarityMatcher(
                         CMDlist,
-                        dataLearning[currentIndex]?.HDTB?.IPA,
+                        dataLearning[currentIndex]?.HDTB?.IPA
                       )}
                     </div>
 
@@ -694,7 +694,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                             { imale: 0, ifemale: 2 },
                             "Sorry, what did you say?",
                             1,
-                            [{ id: "sorryFemale" }],
+                            [{ id: "sorryFemale" }]
                           );
                         }}
                       >
@@ -990,7 +990,7 @@ function rShowLessonTABLE(
   currentIndex,
   setCurrentIndex,
   navigate,
-  id,
+  id
 ) {
   try {
     return (
@@ -1032,7 +1032,7 @@ function rShowLessonTABLE(
                 currentIndex,
                 setCurrentIndex,
                 navigate,
-                id,
+                id
               )}
             </div>
           </div>
@@ -1067,7 +1067,7 @@ function renderContentOftable(
   currentIndex,
   setCurrentIndex,
   navigate,
-  id,
+  id
 ) {
   try {
     if (!dataLearning) return null;

@@ -11,6 +11,7 @@
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "dotenv": "^16.4.5",
+    "html2canvas": "^1.4.1",
     "idb": "^8.0.3",
     "jquerry": "^0.0.1-security",
     "jquery": "^3.7.1",
