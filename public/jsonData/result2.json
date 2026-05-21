@@ -28,7 +28,7 @@
         { "HD-01": "Wait-" },
         { "HD-01": "Come back later-" },
         { "HD-01": "Private room-" },
-        { "HD-01": "Eegular table-" }
+        { "HD-01": "Regular table-" }
       ],
       "TB": [
         [
@@ -47,7 +47,7 @@
           "Wait-",
           "Come back later-",
           "Private room-",
-          "Eegular table-"
+          "Regular table-"
         ]
       ],
       "TV": [],
