@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
-function TableHD({ data, data_TB, HINT, fnOnclick }) {
-  // Add global style to prevent text selection in this component
+function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
   useEffect(() => {
     const style = document.createElement("style");
     style.innerHTML = `
@@ -13,11 +12,11 @@ function TableHD({ data, data_TB, HINT, fnOnclick }) {
       }
     `;
     document.head.appendChild(style);
-
     return () => {
       document.head.removeChild(style);
     };
   }, []);
+
   try {
     const colorMapping = {
       X: "green",
@@ -27,12 +26,11 @@ function TableHD({ data, data_TB, HINT, fnOnclick }) {
       XXX: "black",
     };
 
-    // Extract headers from the keys of the first object
     const headers = data.length > 0 ? Object.keys(data[0]) : [];
 
-    // Format data_TB into a flat array of strings
-    const data_TB_newformat = data_TB.flatMap((row) =>
-      row.map((item) => String(item))
+    // Flatten data_TB to strings for quick lookup
+    const data_TB_flat = data_TB.flatMap((row) =>
+      row.map((item) => String(item)),
     );
 
     return (
@@ -41,15 +39,20 @@ function TableHD({ data, data_TB, HINT, fnOnclick }) {
         style={{
           textAlign: "left",
           whiteSpace: "pre-line",
-          margin: "5%",
-          width: "90%",
+          margin: "0 4%",
+          width: "92%",
           cursor: "pointer",
-          border: "1px solid black",
-          borderRadius: "5px",
+          border: "1px solid #d0d5dd",
+          borderRadius: "8px",
+          borderCollapse: "separate",
+          borderSpacing: 0,
+          fontSize: "clamp(14px, 3.5vw, 16px)",
           WebkitUserSelect: "none",
           MozUserSelect: "none",
           msUserSelect: "none",
           userSelect: "none",
+          marginTop: "8px",
+          marginBottom: "4px",
         }}
         onCopy={(e) => e.preventDefault()}
       >
@@ -58,24 +61,27 @@ function TableHD({ data, data_TB, HINT, fnOnclick }) {
             <tr key={rowIndex}>
               {headers.map((header, colIndex) => {
                 const cellValue = String(row[header] || "");
-                const isHighlighted = data_TB_newformat.includes(cellValue);
+                const isAnswerCell = data_TB_flat.includes(cellValue);
+                // Selected = was an answer cell AND is in PushAW
+                const isSelected = isAnswerCell && PushAW.includes(cellValue);
                 const hasAsterisk = cellValue.includes("(*)");
                 const hasQuestion = cellValue.includes("?");
 
                 return (
                   <td
+                    key={colIndex}
                     style={{
                       fontWeight: hasQuestion ? "bold" : "initial",
-                      fontSize: hasAsterisk ? "larger" : "large",
-                      color: hasAsterisk ? "blue" : "inherit",
+                      fontSize: hasAsterisk ? "larger" : undefined,
+                      color: hasAsterisk ? "#1a56db" : "inherit",
                       WebkitUserSelect: "none",
                       MozUserSelect: "none",
                       msUserSelect: "none",
                       userSelect: "none",
+                      padding: "6px 4px",
                     }}
-                    key={colIndex}
                     onClick={() => {
-                      if (isHighlighted) {
+                      if (isAnswerCell) {
                         fnOnclick(cellValue, "submit");
                       } else {
                         fnOnclick(row[header], "none");
@@ -89,38 +95,41 @@ function TableHD({ data, data_TB, HINT, fnOnclick }) {
                           backgroundColor: colorMapping[row[header]],
                           borderRadius: "5px",
                         }}
-                      ></span>
+                      />
                     ) : isImageUrl(row[header]) ? (
                       <img
                         src={row[header]}
                         alt={`element-${rowIndex}`}
                         style={imageStyle}
                       />
-                    ) : (
-                      <div
-                        style={
-                          isHighlighted
-                            ? {
-                                borderBottom: "4px solid blue",
-                                borderLeft: "1px solid blue",
-                                padding: "15px",
-                                borderRadius: "8px",
-                                backgroundColor: "#f0f8ff",
-                                boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-                              }
-                            : {}
-                        }
-                      >
-                        {isHighlighted && (
-                          <i
-                            style={{ color: "green" }}
-                            className="bi bi-hand-index-thumb"
-                          >
-                            {" "}
-                          </i>
-                        )}{" "}
+                    ) : isSelected ? (
+                      // ── SELECTED STATE ──────────────────────────
+                      <div style={selectedCellStyle}>
+                        <span
+                          style={{
+                            color: "#16a34a",
+                            fontWeight: 700,
+                            marginRight: 4,
+                          }}
+                        >
+                          ✓
+                        </span>
+                        {row[header]}
+                      </div>
+                    ) : isAnswerCell ? (
+                      // ── AVAILABLE ANSWER STATE ──────────────────
+                      <div style={answerCellStyle}>
+                        <i
+                          style={{ color: "#2563eb" }}
+                          className="bi bi-hand-index-thumb"
+                        >
+                          {" "}
+                        </i>
                         {row[header]}{" "}
                       </div>
+                    ) : (
+                      // ── NORMAL CELL ─────────────────────────────
+                      <div>{row[header]}</div>
                     )}
                   </td>
                 );
@@ -138,16 +147,39 @@ function TableHD({ data, data_TB, HINT, fnOnclick }) {
 
 export default TableHD;
 
-// Helper functions
+// ── Helpers ──────────────────────────────────────────────────────────
 const isImageUrl = (url) => {
   if (typeof url !== "string") return false;
   return /\.(jpeg|jpg|gif|png|webp|svg)$/i.test(url);
 };
 
 const imageStyle = {
-  maxWidth: "250px",
-  maxHeight: "250px",
+  maxWidth: "min(220px, 45vw)",
+  maxHeight: "220px",
   objectFit: "cover",
-  borderRadius: "4px",
-  border: "2px solid green",
+  borderRadius: "6px",
+  border: "2px solid #16a34a",
+};
+
+// Available-to-click answer: blue underline style
+const answerCellStyle = {
+  borderBottom: "3px solid #2563eb",
+  borderLeft: "2px solid #93c5fd",
+  padding: "10px 12px",
+  borderRadius: "8px",
+  backgroundColor: "#eff6ff",
+  boxShadow: "0 2px 5px rgba(37,99,235,0.10)",
+  transition: "background 0.2s",
+};
+
+// Already selected answer: green filled style
+const selectedCellStyle = {
+  padding: "10px 12px",
+  borderRadius: "8px",
+  backgroundColor: "#dcfce7",
+  border: "2px solid #16a34a",
+  boxShadow: "0 2px 5px rgba(22,163,74,0.18)",
+  fontWeight: 600,
+  color: "#14532d",
+  transition: "background 0.2s",
 };

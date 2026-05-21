@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams, useLocation, useNavigate, json } from "react-router-dom";
+import { useParams, useLocation, useNavigate } from "react-router-dom";
 import { socket } from "../App";
 import "bootstrap/dist/css/bootstrap.min.css";
 import PracticeDIV from "./pracPages/B101_FINAL_PROJECTS";
@@ -11,6 +11,7 @@ import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
 import DataPracticeComponent from "./pracPages/C_RoomOffline_LAYDULIEUTH";
+
 const Room = ({ setSttRoom }) => {
   const { roomCode, currentIndex } = useParams();
   const locationSet = useLocation();
@@ -21,159 +22,91 @@ const Room = ({ setSttRoom }) => {
     objList: [0, 1, 2, 3, 4, 5, 6],
     reverse: 1,
   });
-
   const [StartToGetData, setStartToGetData] = useState(false);
-
   const [IndexSets, setIndexSets] = useState(null);
-
   const [userClient, setUserClient] = useState(null);
-
   const [allReady, setAllReady] = useState(false);
-
-  // const [AllReadyForPlay, setAllReadyForPlay] = useState(false);
-
   const [IsPause, setIsPause] = useState(false);
-
   const [numberBegin, setNumberBegin] = useState(0);
   const [SttCoundown, setSttCoundown] = useState("00");
-
   const [DataPracticingCharactor, setDataPracticingCharactor] = useState(null);
   const [DataPracticingOverRoll, setDataPracticingOverRoll] = useState(null);
   const [Score, setScore] = useState(
     getNumberWithDailyExpiry(
-      "score" + (params.get("b") + params.get("a") || "")
-    ) || 0
+      "score" + (params.get("b") + params.get("a") || ""),
+    ) || 0,
   );
   const [NumberOneByOneHost, setNumberOneByOneHost] = useState(0);
-
   const [Message, setMessage] = useState(null);
-
   const navigate = useNavigate();
 
+  // ── Score effect (logic giữ nguyên) ──────────────────────────────────────
   useEffect(() => {
-    // Early return if Score is not a valid number
-    if (typeof Score !== "number" || isNaN(Score)) {
-      console.warn("Invalid Score value:", Score);
-      return;
-    }
-
+    if (typeof Score !== "number" || isNaN(Score)) return;
     const executeScoreEffect = async () => {
       try {
-        // === SAVE SCORE SECTION ===
         const saveScoreToStorage = () => {
           try {
-            // Safe parameter extraction
             const paramB = params?.get?.("b") || "";
             const paramA = params?.get?.("a") || "";
             const scoreKey = `score${paramB}${paramA}`;
-            const scoreToSave = Math.max(0, Score); // Ensure non-negative
-
-            // Check if saveNumberWithDailyExpiry function exists
+            const scoreToSave = Math.max(0, Score);
             if (typeof saveNumberWithDailyExpiry === "function") {
               saveNumberWithDailyExpiry(scoreKey, scoreToSave);
             } else {
-              console.warn("saveNumberWithDailyExpiry function not available");
-              // Fallback to localStorage
               localStorage.setItem(
                 scoreKey,
-                JSON.stringify({
-                  value: scoreToSave,
-                  timestamp: Date.now(),
-                })
+                JSON.stringify({ value: scoreToSave, timestamp: Date.now() }),
               );
             }
           } catch (storageError) {
-            console.error("Error saving score to storage:", storageError);
+            console.error("Error saving score:", storageError);
           }
         };
-
-        // === SOCKET EMISSION SECTION ===
         const emitSocketMessage = () => {
           try {
-            // Only emit if Score is positive and socket exists
-            if (Score <= 0 || !socket || typeof socket.emit !== "function") {
+            if (Score <= 0 || !socket || typeof socket.emit !== "function")
               return;
-            }
-
-            // Safe localStorage access
-            let idDinhDanh = null;
-            let nameDinhDanh = null;
-
+            let idDinhDanh = null,
+              nameDinhDanh = null;
             try {
               idDinhDanh = localStorage.getItem("dinhDanh");
               nameDinhDanh = localStorage.getItem("nameDinhDanh");
-            } catch (localStorageError) {
-              console.warn("LocalStorage access failed:", localStorageError);
-            }
-
-            // Prepare display name with fallbacks
+            } catch (e) {}
             const displayName =
               nameDinhDanh ||
               (idDinhDanh ? String(idDinhDanh).slice(0, 4) : "") ||
               "Anonymous";
-
-            // Validate data before emitting
-            const messageData = {
+            socket.emit("messageReg", {
               text: `[${Score}] Điểm | `,
               time: String(displayName),
               type: "notify",
               id: idDinhDanh || null,
-            };
-
-            socket.emit("messageReg", messageData);
+            });
           } catch (socketError) {
-            console.error("Error emitting socket message:", socketError);
+            console.error("Error emitting socket:", socketError);
           }
         };
-
-        // === EMAIL NOTIFICATION SECTION ===
         const sendEmailNotification = async () => {
           try {
-            // Check conditions for email sending
-            if (Score === 0 || Score % 10 !== 0 || !LinkAPI) {
-              return;
-            }
-
-            // Validate required functions
-            if (typeof formatTime !== "function") {
-              console.warn("formatTime function not available for email");
-              return;
-            }
-
-            // Safe localStorage access
+            if (Score === 0 || Score % 10 !== 0 || !LinkAPI) return;
+            if (typeof formatTime !== "function") return;
             let nameValue = "NAMENULL";
             try {
               nameValue = localStorage.getItem("nameDinhDanh") || "NAMENULL";
-            } catch (localStorageError) {
-              console.warn(
-                "LocalStorage access failed for email:",
-                localStorageError
-              );
-            }
-
-            // Safe parameter extraction and time formatting
-            let timeParam = "N/A";
-            let formattedTime = new Date().toLocaleString();
-
+            } catch (e) {}
+            let timeParam = "N/A",
+              formattedTime = new Date().toLocaleString();
             try {
-              const rawTimeParam = params?.get?.("time");
-              if (rawTimeParam) {
-                timeParam = decodeURIComponent(rawTimeParam);
-              }
-            } catch (decodeError) {
-              console.warn("Time parameter decode failed:", decodeError);
-            }
-
+              const raw = params?.get?.("time");
+              if (raw) timeParam = decodeURIComponent(raw);
+            } catch (e) {}
             try {
               formattedTime = formatTime(new Date());
-            } catch (formatError) {
-              console.warn("Time formatting failed:", formatError);
-            }
-
-            // Build request body safely
+            } catch (e) {}
             const requestBody = {
               subjectText: [
-                String(nameValue),
+                nameValue,
                 "UPDATE",
                 String(Score),
                 String(timeParam),
@@ -183,17 +116,8 @@ const Room = ({ setSttRoom }) => {
               contentText: String(window.location.href),
               toEmail: "pvkadien0209@gmail.com",
             };
-
-            // Validate request body
-            if (!requestBody.subjectText || !requestBody.contentText) {
-              throw new Error("Invalid request body data");
-            }
-
-            // Create abort controller for timeout
             const controller = new AbortController();
-            const timeoutId = setTimeout(() => controller.abort(), 15000); // 15s timeout
-
-            // Make API request
+            const timeoutId = setTimeout(() => controller.abort(), 15000);
             const response = await fetch(`${LinkAPI}mail-homework`, {
               method: "POST",
               headers: {
@@ -203,28 +127,14 @@ const Room = ({ setSttRoom }) => {
               body: JSON.stringify(requestBody),
               signal: controller.signal,
             });
-
             clearTimeout(timeoutId);
-
-            // Check response (but don't throw for non-critical email)
-            if (!response.ok) {
-              console.warn(
-                `Email API responded with status ${response.status}`
-              );
-            } else {
-              console.log("Email notification sent successfully");
-            }
+            if (!response.ok)
+              console.warn(`Email API status ${response.status}`);
           } catch (emailError) {
-            // Don't throw - email is not critical
-            if (emailError.name === "AbortError") {
-              console.warn("Email request timeout");
-            } else {
-              console.error("Error sending email notification:", emailError);
-            }
+            if (emailError.name === "AbortError") console.warn("Email timeout");
+            else console.error("Error sending email:", emailError);
           }
         };
-
-        // Execute all operations
         saveScoreToStorage();
         emitSocketMessage();
         await sendEmailNotification();
@@ -232,32 +142,17 @@ const Room = ({ setSttRoom }) => {
         console.error("General error in score effect:", generalError);
       }
     };
-
-    // Execute the async function
     executeScoreEffect();
-  }, [Score]); // Only re-run when Score changes
+  }, [Score]);
 
-  // Note: Other dependencies (params, socket, LinkAPI, formatTime, saveNumberWithDailyExpiry)
-  // are accessed directly from closure and assumed to be stable or acceptable to use stale values
-  // useEffect(() => {
-  //   try {
-  //     const idSocket = socket.id.slice(0, 4);
-  //     socket.emit("messageReg", { text: "[" + idSocket + "] " + Message });
-  //   } catch (error) {}
-  // }, [Message]);
   useEffect(() => {
-    if (numberBegin !== 0) {
-      setSttCoundown("01");
-    }
+    if (numberBegin !== 0) setSttCoundown("01");
   }, [numberBegin]);
-
   useEffect(() => {
     setSttRoom(true);
   }, []);
   useEffect(() => {
-    if (SttCoundown === "01") {
-      SpeechRecognition.stopListening();
-    }
+    if (SttCoundown === "01") SpeechRecognition.stopListening();
   }, [SttCoundown]);
 
   const fetchTitle = async () => {
@@ -268,43 +163,31 @@ const Room = ({ setSttRoom }) => {
       } else {
         response = await fetch(`/jsonData/${roomInfo.fileName}.json`);
       }
-
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
+      if (!response.ok) throw new Error("Network response was not ok");
       const data = await response.json();
-
       setDataPracticingOverRoll(data);
-
       let firstList = [currentIndex || 0];
-
       const aParam = params.get("a");
       if (aParam === "all") {
         firstList = Array.from({ length: data.length }, (_, i) => i);
       } else if (aParam) {
         try {
           const newList = parseStringToNumbers(aParam);
-          if (newList && newList.length > 0) {
-            firstList = newList;
-          }
+          if (newList && newList.length > 0) firstList = newList;
         } catch (error) {
           console.warn('Failed to parse "a" parameter:', error.message);
         }
       }
-
-      const get_data_interleaveCharacters = interleaveCharacters(
+      const get_data = interleaveCharacters(
         data,
         firstList,
         params.get("b"),
         params.get("up"),
         params.get("random"),
-        params.get("fsp")
+        params.get("fsp"),
       );
-
-      setDataPracticingCharactor(
-        get_data_interleaveCharacters.interleaveCharacters_DATA
-      );
-      setIndexSets(get_data_interleaveCharacters.IndexSets);
+      setDataPracticingCharactor(get_data.interleaveCharacters_DATA);
+      setIndexSets(get_data.IndexSets);
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -314,6 +197,32 @@ const Room = ({ setSttRoom }) => {
     socket.emit("updateOneELEMENT", roomCode, socket.id, key, value, mode);
   };
 
+  // ── Chụp ảnh div tổng ────────────────────────────────────────────────────
+  const handleCapture = async () => {
+    try {
+      const html2canvas = (await import("html2canvas")).default;
+      const element = document.getElementById("roomUltiDiv");
+      if (!element) {
+        alert("Không tìm thấy vùng cần chụp!");
+        return;
+      }
+      const canvas = await html2canvas(element, {
+        scale: 2,
+        useCORS: true,
+        backgroundColor: "#ffffff",
+      });
+      const link = document.createElement("a");
+      link.download = `ket-qua-${localStorage.getItem("nameDinhDanh") || "thuchanh"}.png`;
+      link.href = canvas.toDataURL("image/png");
+      link.click();
+    } catch (e) {
+      alert(
+        "Vui lòng dùng tính năng chụp màn hình của thiết bị để lưu kết quả!",
+      );
+    }
+  };
+
+  // ── Screen states ─────────────────────────────────────────────────────────
   if (!StartToGetData) {
     return (
       <div
@@ -332,102 +241,45 @@ const Room = ({ setSttRoom }) => {
           setStartToGetData={setStartToGetData}
           fetchTitle={fetchTitle}
         />
-
-        {/* <h1 style={{ marginBottom: "20px" }}>Dữ liệu thực hành</h1>
-
-        <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-          <img
-            src="https://i.postimg.cc/Bv9MGGy8/favicon-ico.png"
-            width={"220px"}
-            style={{
-              border: "1px solid blue",
-              borderRadius: "15px",
-              cursor: "pointer",
-            }}
-            onClick={() => {
-              navigate(
-                "/learninghub/" +
-                  roomCode +
-                  "?ls=" +
-                  currentIndex +
-                  "&&Fid=div_01_content_table_to_practice"
-              );
-            }}
-          />
-
-          <button
-            onClick={() => {
-              setStartToGetData(true);
-              fetchTitle();
-            }}
-            style={{
-              padding: "12px 24px",
-              fontSize: "large",
-              backgroundColor: "#0070f3",
-              color: "white",
-              border: "none",
-              borderRadius: "8px",
-              cursor: "pointer",
-              boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-              transition: "background-color 0.3s ease",
-            }}
-            onMouseOver={(e) =>
-              (e.currentTarget.style.backgroundColor = "#0059c1")
-            }
-            onMouseOut={(e) =>
-              (e.currentTarget.style.backgroundColor = "#0070f3")
-            }
-          >
-            Bấm để bắt đầu lấy dữ liệu thực hành
-          </button>
-        </div> */}
       </div>
     );
   }
 
   if (params && IndexSets && params.get("qstable")) {
     return (
-      <>
-        <div style={{ padding: "5%", fontSize: "larger" }}>
-          <h1 style={{ color: "blue" }}>
-            Buổi phỏng vấn qua video giữa học viên và người hướng dẫn
-          </h1>
-
-          <h5>
-            Nhiệm vụ của các học viên trong buổi phỏng vấn này bao gồm:
-            <br />
-            + Lắng nghe những câu hỏi từ người hướng dẫn;
-            <br />
-            + Sử dụng bảng thông tin để hỗ trợ quá trình trả lời;
-            <br />+ Phân tích tình huống, đặt câu hỏi để làm rõ thông tin và tìm
-            kiếm đáp án hợp lý.
-          </h5>
-
-          <i>
-            Qua quá trình trao đổi, người hướng dẫn sẽ có cơ hội đánh giá quá
-            trình thực hành, sự tiến bộ của học viên cũng như xác định những
-            điểm yếu cần cải thiện. Đây không chỉ là kết quả cụ thể từ một quá
-            trình rèn luyện mà còn là tài liệu để người thầy, cô có thể xây dựng
-            những phương án hỗ trợ hiệu quả hơn, giúp học viên đạt được kết quả
-            tốt nhất trong hành trình học tập.
-          </i>
-          <hr />
-          {IndexSets.map((e, i) => (
-            <div>
-              <b>
-                {i + 1}.{DataPracticingCharactor[e].fsp}
-              </b>
-              <hr />
-              {DataPracticingCharactor[e].data.map((e1, i1) => (
-                <div style={{ padding: "0 5px" }}>
-                  {e1.qs} ==== {e1.aw}
-                </div>
-              ))}
-              <hr />
-            </div>
-          ))}
-        </div>
-      </>
+      <div style={{ padding: "5%", fontSize: "larger" }}>
+        <h1 style={{ color: "blue" }}>
+          Buổi phỏng vấn qua video giữa học viên và người hướng dẫn
+        </h1>
+        <h5>
+          Nhiệm vụ của các học viên trong buổi phỏng vấn này bao gồm:
+          <br />
+          + Lắng nghe những câu hỏi từ người hướng dẫn;
+          <br />
+          + Sử dụng bảng thông tin để hỗ trợ quá trình trả lời;
+          <br />+ Phân tích tình huống, đặt câu hỏi để làm rõ thông tin và tìm
+          kiếm đáp án hợp lý.
+        </h5>
+        <i>
+          Qua quá trình trao đổi, người hướng dẫn sẽ có cơ hội đánh giá quá
+          trình thực hành...
+        </i>
+        <hr />
+        {IndexSets.map((e, i) => (
+          <div key={i}>
+            <b>
+              {i + 1}.{DataPracticingCharactor[e].fsp}
+            </b>
+            <hr />
+            {DataPracticingCharactor[e].data.map((e1, i1) => (
+              <div key={i1} style={{ padding: "0 5px" }}>
+                {e1.qs} ==== {e1.aw}
+              </div>
+            ))}
+            <hr />
+          </div>
+        ))}
+      </div>
     );
   }
 
@@ -435,7 +287,7 @@ const Room = ({ setSttRoom }) => {
     return (
       <div className="container mt-3">
         <h1>Đang tải thông tin bài thực hành</h1>
-        <h1>Vui lòng Đợi trong giây lát</h1>
+        <h1>Vui lòng đợi trong giây lát</h1>
       </div>
     );
   }
@@ -443,635 +295,365 @@ const Room = ({ setSttRoom }) => {
     return (
       <div className="container mt-3">
         <h1>Đang tải dữ liệu thực hành. Vui lòng đợi trong giây lát!</h1>
-        <h1>
-          Tùy thuộc vào tốc độ internet và cấu hình máy tính, việc tải và sắp
-          xếp dữ liệu thực hành sẽ mất ít thời gian.{" "}
-        </h1>
       </div>
     );
   }
 
+  // ── Helpers for compact info bar ──────────────────────────────────────────
+  const savedName = localStorage.getItem("nameDinhDanh") || "—";
+  const timeParam = params.get("time")
+    ? decodeURIComponent(params.get("time")).slice(0, 9)
+    : null;
+  const noteParam = params.get("note");
+  const isStarted = SttCoundown === "01" || numberBegin === 0;
+
+  // ── Main practice view ────────────────────────────────────────────────────
   return (
-    <div
-      style={{
-        border: "1px solid green",
-        borderRadius: "5px",
-        padding: "20px 20px",
-        display: "flex",
-        maxHeight: "100vh",
-      }}
-    >
-      <div
-        id="roomUltiDiv"
-        style={{
-          flex: 1,
-          display: "flex",
-          flexDirection: "column",
-          padding: "0px",
-          gap: "5px",
-          maxWidth: "600px",
-          margin: "0 auto",
-          height: "96vh",
-        }}
-      >
-        {/* Header Section */}
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "15px",
-            marginBottom: "10px",
-            height: "100px",
-          }}
-        >
-          <div style={{ flex: 1 }}>
-            {" "}
-            <img
-              src="https://i.postimg.cc/Bv9MGGy8/favicon-ico.png"
-              width="60px"
-              height="60px"
-              style={{
-                border: "1px solid blue",
-                borderRadius: "15px",
-                cursor: "pointer",
-                flexShrink: 0,
-              }}
-              onClick={() => {
-                navigate(
-                  "/learninghub/" +
-                    roomCode +
-                    "?ls=" +
-                    currentIndex +
-                    "&&Fid=div_01_content_table_to_practice"
-                );
-              }}
-            />
-          </div>
-          <div style={{ flex: 1 }}>
-            {/* Start Button */}
-            {(SttCoundown === "01" || numberBegin === 0) && (
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  marginTop: "20px",
-                }}
+    <>
+      <style>{`
+        .room-root {
+          display: flex;
+          flex-direction: column;
+          height: 100vh;
+          overflow: hidden;
+          background: #f5f6fa;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+
+        /* ── Compact top bar ── */
+        .room-topbar {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          padding: 6px 10px;
+          background: #e6ccff;
+          border-bottom: 1px solid #d0aaff;
+          flex-shrink: 0;
+          min-height: 44px;
+          overflow: hidden;
+        }
+        .room-topbar-logo {
+          width: 30px;
+          height: 30px;
+          border-radius: 7px;
+          border: 1.5px solid #7c3aed;
+          object-fit: cover;
+          cursor: pointer;
+          flex-shrink: 0;
+          transition: transform 0.15s;
+        }
+        .room-topbar-logo:active { transform: scale(0.93); }
+
+        .room-topbar-info {
+          display: flex;
+          align-items: center;
+          gap: 0;
+          flex: 1;
+          overflow: hidden;
+          flex-wrap: nowrap;
+        }
+        .room-info-chip {
+          display: flex;
+          align-items: center;
+          gap: 3px;
+          padding: 2px 7px;
+          border-radius: 20px;
+          font-size: 0.72rem;
+          font-weight: 600;
+          white-space: nowrap;
+          flex-shrink: 0;
+        }
+        .room-info-chip.name   { background: rgba(124,58,237,0.12); color: #5b21b6; }
+        .room-info-chip.score  { background: rgba(37,99,235,0.12);  color: #1d4ed8; font-size: 0.8rem; font-weight: 800; }
+        .room-info-chip.turns  { background: rgba(5,150,105,0.1);   color: #065f46; }
+        .room-info-chip.time   { background: rgba(217,119,6,0.1);   color: #92400e; }
+        .room-info-chip.code   { background: rgba(100,116,139,0.1); color: #475569; }
+        .room-info-sep { color: #b8a0e0; font-size: 0.65rem; padding: 0 1px; flex-shrink: 0; }
+
+        /* ── Camera button ── */
+        .room-cam-btn {
+          width: 36px;
+          height: 36px;
+          border-radius: 10px;
+          background: #7c3aed;
+          border: none;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-shrink: 0;
+          transition: background 0.15s, transform 0.1s;
+          box-shadow: 0 2px 6px rgba(124,58,237,0.35);
+        }
+        .room-cam-btn:active { transform: scale(0.93); background: #6d28d9; }
+
+        /* ── Start person button (inside welcome card) ── */
+        .room-start-person {
+          width: 72px;
+          height: 72px;
+          border-radius: 50%;
+          background: #7c3aed;
+          border: none;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 18px auto 0;
+          box-shadow: 0 4px 16px rgba(124,58,237,0.4);
+          transition: transform 0.15s, background 0.15s;
+          animation: person-pulse 2s ease-in-out infinite;
+        }
+        .room-start-person:active { transform: scale(0.93); animation: none; background: #6d28d9; }
+
+        @keyframes person-pulse {
+          0%, 100% { box-shadow: 0 4px 16px rgba(124,58,237,0.4); }
+          50%       { box-shadow: 0 4px 26px rgba(124,58,237,0.65); }
+        }
+
+        /* ── Practice area ── */
+        .room-body {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          overflow: hidden;
+          position: relative;
+          min-height: 0;
+        }
+        .room-practice-wrap {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          overflow: hidden;
+          border: 1px solid #ddd;
+          border-radius: 0;
+          background: #fff0e6;
+          position: relative;
+        }
+        .room-practice-inner {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          padding: 12px;
+          overflow: hidden;
+        }
+
+        /* Welcome overlay */
+        .room-welcome-overlay {
+          position: absolute;
+          inset: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background: rgba(255, 240, 230, 0.96);
+          backdrop-filter: blur(4px);
+          z-index: 10;
+          padding: 20px;
+        }
+        .room-welcome-card {
+          background: rgba(255,255,255,0.95);
+          border-radius: 20px;
+          padding: 24px 20px;
+          text-align: center;
+          max-width: 420px;
+          width: 100%;
+          box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+          margin-bottom: 100px;
+        }
+        .room-welcome-card h2 {
+          font-size: 1.4rem;
+          color: #2c3e50;
+          margin: 0 0 8px;
+          font-weight: 800;
+        }
+        .room-welcome-card p {
+          font-size: 0.9rem;
+          color: #6b7a90;
+          margin: 0;
+          line-height: 1.5;
+        }
+
+        /* ── Desktop enhancements ── */
+        @media (min-width: 700px) {
+          .room-root { flex-direction: column; }
+          .room-topbar { padding: 8px 16px; gap: 12px; }
+          .room-topbar-logo { width: 34px; height: 34px; }
+          .room-info-chip { font-size: 0.78rem; padding: 3px 9px; }
+          .room-info-chip.score { font-size: 0.88rem; }
+          .room-practice-inner { padding: 16px 20px; }
+          .room-welcome-card { padding: 32px 28px; }
+          .room-welcome-card h2 { font-size: 1.7rem; }
+          .room-start-fab { width: 64px; height: 64px; }
+        }
+      `}</style>
+
+      <div className="room-root" id="roomUltiDiv">
+        {/* ── Compact top bar: logo | name | score | turns | time | code | camera ── */}
+        <div className="room-topbar">
+          <img
+            src="https://i.postimg.cc/Bv9MGGy8/favicon-ico.png"
+            className="room-topbar-logo"
+            alt="logo"
+            onClick={() =>
+              navigate(
+                `/learninghub/${roomCode}?ls=${currentIndex}&&Fid=div_01_content_table_to_practice`,
+              )
+            }
+          />
+
+          <div className="room-topbar-info">
+            <span className="room-info-chip name">
+              <svg
+                width="10"
+                height="10"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
-                <button
-                  className="btn btn-primary"
-                  style={{
-                    borderRadius: "50%",
-                    width: "60px",
-                    height: "60px",
-                    fontSize: "24px",
-                    fontWeight: "bold",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    boxShadow: "0 4px 8px rgba(0,0,0,0.2)",
-                  }}
-                  onClick={() => {
-                    if (numberBegin === 0) {
-                      setNumberBegin((D) => D + 1);
-                      setTimeout(() => {
-                        setSttCoundown("02");
-                      }, 100);
-                    } else {
-                      setSttCoundown("02");
-                    }
-                  }}
-                >
-                  +
-                </button>
-              </div>
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                <circle cx="12" cy="7" r="4" />
+              </svg>
+              {savedName}
+            </span>
+
+            <span className="room-info-sep">·</span>
+
+            <span className="room-info-chip score">{Score}đ</span>
+
+            <span className="room-info-sep">·</span>
+
+            <span className="room-info-chip turns">×{numberBegin}</span>
+
+            {timeParam && (
+              <>
+                <span className="room-info-sep">·</span>
+                <span className="room-info-chip time">{timeParam}</span>
+              </>
+            )}
+
+            {noteParam && (
+              <>
+                <span className="room-info-sep">·</span>
+                <span className="room-info-chip code">
+                  {noteParam} <em style={{ opacity: 0.7 }}>{currentIndex}</em>
+                </span>
+              </>
             )}
           </div>
-        </div>
-        {/* Score Card */}
-        <div
-          style={{
-            backgroundColor: "#e6ccff",
-            borderRadius: "15px",
-            border: "1px solid black",
-            padding: "10px",
-          }}
-        >
-          <div
-            style={{
-              fontSize: "14px",
-              fontStyle: "italic",
-              marginBottom: "5px",
-            }}
+
+          {/* Camera button — chụp ảnh div tổng */}
+          <button
+            className="room-cam-btn"
+            onClick={handleCapture}
+            title="Chụp ảnh kết quả"
           >
-            {params.get("time")
-              ? decodeURIComponent(params.get("time")).slice(0, 9)
-              : null}
-          </div>
-          <h5>{localStorage.getItem("nameDinhDanh") || "Chưa nhập tên"}</h5>
-          <h3 style={{ color: "blue" }}>
-            <b> Điểm ({Score})</b> /Lượt {numberBegin}
-          </h3>
-        </div>
-        {/* Info Section */}
-        <div
-          style={{
-            backgroundColor: "#f8f9fa",
-            padding: "15px",
-            borderRadius: "10px",
-            border: "1px solid #dee2e6",
-          }}
-        >
-          <div style={{ marginBottom: "10px" }}>
-            <strong>Thời gian:</strong> {formatTime(new Date())}
-          </div>
-          <div style={{ marginBottom: "10px" }}>
-            <strong>Mã bài tập:</strong> {params.get("note")}{" "}
-            <em>{currentIndex}</em>
-          </div>
-          <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
-            <span style={{ fontSize: "small", fontWeight: "bold" }}>
-              {params.get("a")}
-            </span>
-            <span style={{ fontSize: "small", fontStyle: "italic" }}>
-              {splitIntoChunks(params.get("b"))}
-            </span>
-          </div>
-        </div>
-
-        {/* Submit Section */}
-        <div
-          id="NOPBAITAP"
-          style={{
-            backgroundColor: "#fff3cd",
-            padding: "20px",
-            borderRadius: "10px",
-            border: "1px solid #ffeaa7",
-          }}
-        >
-          <div style={{ marginBottom: "15px" }}>
-            <button
-              onClick={(e) => {
-                // Prevent double click
-                if (e.target.disabled) return;
-
-                try {
-                  // Validate inputs first
-                  if (!Score || Score <= 0) {
-                    alert("Cần có điểm số để nộp bài");
-                    return;
-                  }
-
-                  if (!LinkAPI) {
-                    alert("Lỗi: Thiếu cấu hình API");
-                    return;
-                  }
-
-                  if (typeof formatTime !== "function") {
-                    alert("Lỗi: Hàm formatTime không hợp lệ");
-                    return;
-                  }
-
-                  // Get button reference safely
-                  const submitButton = e.target;
-                  const originalText = submitButton.innerHTML;
-
-                  // Disable button during submission
-                  submitButton.disabled = true;
-                  submitButton.innerHTML = "ĐANG NỘP BÀI...";
-                  submitButton.style.cursor = "not-allowed";
-
-                  // Get input values with safety checks
-                  const nameValue = (() => {
-                    try {
-                      return localStorage.getItem("nameDinhDanh") || "NAMENULL";
-                    } catch (error) {
-                      console.warn("LocalStorage access failed:", error);
-                      return "NAMENULL";
-                    }
-                  })();
-
-                  // Safe parameter extraction
-                  const timeParam = (() => {
-                    try {
-                      const param = params?.get?.("time");
-                      return param ? decodeURIComponent(param) : "N/A";
-                    } catch (error) {
-                      console.warn("Time parameter decode failed:", error);
-                      return "N/A";
-                    }
-                  })();
-
-                  // Safe time formatting
-                  const currentTime = (() => {
-                    try {
-                      return formatTime(new Date());
-                    } catch (error) {
-                      console.warn("Time formatting failed:", error);
-                      return new Date().toLocaleString();
-                    }
-                  })();
-
-                  const requestBody = {
-                    subjectText: [
-                      nameValue,
-                      "SUBMIT",
-                      Score,
-                      timeParam,
-                      currentTime,
-                      `Link: ${window.location.href}`,
-                    ].join(" | "),
-                    contentText: window.location.href,
-                    toEmail: "pvkadien0209@gmail.com",
-                  };
-
-                  // Create abort controller for timeout
-                  const controller = new AbortController();
-                  const timeoutId = setTimeout(() => {
-                    controller.abort();
-                  }, 30000); // 30 second timeout
-
-                  fetch(LinkAPI + "mail-homework", {
-                    method: "POST",
-                    headers: {
-                      "Content-Type": "application/json",
-                      Accept: "application/json",
-                    },
-                    body: JSON.stringify(requestBody),
-                    signal: controller.signal,
-                  })
-                    .then((response) => {
-                      clearTimeout(timeoutId);
-
-                      if (!response.ok) {
-                        throw new Error(
-                          `HTTP ${response.status}: ${response.statusText}`
-                        );
-                      }
-
-                      return response.json();
-                    })
-                    .then((json) => {
-                      if (json && json.success) {
-                        const roomUltiDiv =
-                          document.getElementById("roomUltiDiv");
-
-                        if (roomUltiDiv !== null) {
-                          Object.assign(roomUltiDiv.style, {
-                            flexGrow: "12",
-                            border: "1px solid #ccc",
-                            borderRadius: "12px",
-                            padding: "16px",
-                            backgroundColor: "#ffffff",
-                            boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
-                            transition: "all 0.3s ease-in-out",
-                            backgroundColor: "pink",
-                          });
-                        }
-
-                        const container = document.getElementById("NOPBAITAP");
-                        if (container) {
-                          container.innerHTML = `
-                    <div style="text-align: center; padding: 20px; background-color: #d4edda; border: 1px solid #c3e6cb; border-radius: 10px;">
-                      <h2 style="color: #155724; margin: 0 0 15px 0;">✅ Đã nộp bài tập thành công!</h2>
-                      <h1 style="color: #007bff; margin: 20px 0;">Điểm số: ${Score}</h1>
-                      <p style="font-size: 16px; color: #6c757d; margin: 0 0 15px 0;">Chụp gửi kết quả (khung màu hồng) cho thầy cô!</p>
-                      <button 
-                        onclick="window.location.reload()" 
-                        style="padding: 8px 16px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;"
-                      >
-                        Làm lại bài khác
-                      </button>
-                    </div>
-                  `;
-                        }
-
-                        // Reset score safely
-                        if (typeof setScore === "function") {
-                          setScore(0);
-                        } else {
-                          console.warn("setScore function not available");
-                        }
-                      } else {
-                        throw new Error(
-                          json?.message || "Nộp bài không thành công"
-                        );
-                      }
-                    })
-                    .catch((error) => {
-                      clearTimeout(timeoutId);
-                      console.error("Lỗi khi nộp bài:", error);
-
-                      // Determine error message
-                      let errorMessage = "Có lỗi xảy ra, vui lòng thử lại sau";
-
-                      if (error.name === "AbortError") {
-                        errorMessage = "Yêu cầu bị timeout, vui lòng thử lại";
-                      } else if (
-                        error.message?.includes("NetworkError") ||
-                        error.message?.includes("Failed to fetch")
-                      ) {
-                        errorMessage =
-                          "Lỗi kết nối mạng, vui lòng kiểm tra internet";
-                      } else if (
-                        error.message &&
-                        !error.message.includes("HTTP")
-                      ) {
-                        errorMessage = error.message;
-                      }
-
-                      alert(errorMessage);
-                    })
-                    .finally(() => {
-                      // Re-enable button safely
-                      if (submitButton && !submitButton.isConnected === false) {
-                        submitButton.disabled = false;
-                        submitButton.innerHTML = originalText;
-                        submitButton.style.cursor =
-                          Score > 0 ? "pointer" : "not-allowed";
-                      }
-                    });
-                } catch (error) {
-                  console.error("Lỗi submit:", error);
-                  alert("Có lỗi xảy ra, vui lòng thử lại sau");
-
-                  // Re-enable button in catch block
-                  const submitButton = e.target;
-                  if (submitButton) {
-                    submitButton.disabled = Score <= 0; // Only enable if score > 0
-                    submitButton.innerHTML = "NỘP BÀI TẬP VỀ NHÀ";
-                    submitButton.style.cursor =
-                      Score > 0 ? "pointer" : "not-allowed";
-                  }
-                }
-              }}
-              className={`btn ${Score > 0 ? "btn-danger" : "btn-secondary"}`}
-              disabled={Score <= 0}
-              style={{
-                width: "100%",
-                padding: "12px",
-                fontSize: "16px",
-                fontWeight: "bold",
-                borderRadius: "8px",
-                cursor: Score > 0 ? "pointer" : "not-allowed",
-                ...(Score <= 0 ? { opacity: 0.6 } : {}),
-              }}
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="white"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
-              BẤM ĐỂ NỘP BÀI TẬP VỀ NHÀ
-            </button>
-
-            <div
-              style={{
-                marginTop: "8px",
-                fontSize: "14px",
-                fontStyle: "italic",
-                color: "#856404",
-              }}
-            >
-              GỬI ĐIỂM SỐ KẾT QUẢ VỀ EMAIL CỦA THẦY
-            </div>
-
-            {Score <= 0 && (
-              <div
-                style={{
-                  marginTop: "8px",
-                  fontSize: "12px",
-                  color: "#dc3545",
-                }}
-              >
-                * Cần có điểm số để nộp bài
-              </div>
-            )}
-          </div>
+              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+              <circle cx="12" cy="13" r="4" />
+            </svg>
+          </button>
         </div>
-      </div>
 
-      <div
-        style={{
-          flex: 8,
-          display: "flex",
-          flexDirection: "column",
-          padding: "10px",
-          gap: "10px",
-          minHeight: 0, // Quan trọng để flex item có thể co lại
-        }}
-      >
-        {/* Main Practice Container */}
-        <div
-          style={{
-            flex: 1,
-            display: "flex",
-            flexDirection: "column",
-            border: "1px solid #ddd",
-            borderRadius: "15px",
-            backgroundColor: "#fff0e6",
-            boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
-            overflow: "hidden",
-            position: "relative",
-          }}
-        >
-          {/* Header Bar - Optional status/info */}
-          {SttCoundown === "02" && (
-            <div
-              style={{
-                padding: "",
-                backgroundColor: "#f8f9fa",
-                borderBottom: "1px solid #dee2e6",
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-                fontSize: "14px",
-                color: "#6c757d",
-              }}
-            ></div>
-          )}
-          {/* Practice Content Area */}
-          <div
-            style={{
-              flex: 1,
-              display: "flex",
-              flexDirection: "column",
-              padding: SttCoundown === "02" ? "20px" : "0",
-              overflow: "hidden",
-              position: "relative",
-            }}
-          >
-            {/* Active Practice Component */}
+        {/* ── Main practice body ── */}
+        <div className="room-body">
+          <div className="room-practice-wrap">
+            {/* Active practice component */}
             {SttCoundown === "02" && (
-              <div
-                style={{
-                  flex: 1,
-                  display: "flex",
-                  flexDirection: "column",
-                  overflow: "hidden",
-                }}
-              >
-                <PracticeDIV
-                  DataPracticingOverRoll={DataPracticingOverRoll}
-                  DataPracticingCharactor={DataPracticingCharactor}
-                  Score={Score}
-                  setScore={setScore}
-                  numberBegin={numberBegin}
-                  indexSets={
-                    IndexSets
-                      ? IndexSets[(numberBegin - 1) % IndexSets.length]
-                      : numberBegin - 1
-                  }
-                  TimeDefault={params.get("t") || 120}
-                  regRate={params.get("r") || 0.5}
-                  regRate_01={params.get("r01") || 0.6}
-                  handleIncrementReadyClick={() => setNumberBegin((D) => D + 1)}
-                  IsPause={false}
-                  NumberOneByOneHost={0}
-                  tableView={params.get("tb") || "Normal"}
-                  setMessage={setMessage}
-                  roomCode={roomCode}
-                />
-              </div>
-            )}
-
-            {/* Welcome/Start Screen */}
-            {(SttCoundown === "01" || numberBegin === 0) && (
-              <div
-                style={{
-                  position: "absolute",
-                  top: 0,
-                  left: 0,
-                  right: 0,
-                  bottom: 0,
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  backgroundColor: "rgba(255, 240, 230, 0.95)",
-                  backdropFilter: "blur(5px)",
-                }}
-              >
-                {/* Welcome Message */}
+              <div className="room-practice-inner">
                 <div
                   style={{
-                    textAlign: "center",
-                    marginBottom: "40px",
-                    padding: "20px",
-                    backgroundColor: "rgba(255, 255, 255, 0.9)",
-                    borderRadius: "20px",
-                    boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
-                    maxWidth: "500px",
-                  }}
-                >
-                  <h2
-                    style={{
-                      fontSize: "28px",
-                      color: "#2c3e50",
-                      marginBottom: "15px",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    🎯 Sẵn sàng luyện tập?
-                  </h2>
-                  <p
-                    style={{
-                      fontSize: "16px",
-                      color: "#6c757d",
-                      marginBottom: "10px",
-                    }}
-                  >
-                    Nhấn vào hình bên dưới để bắt đầu phiên luyện tập
-                  </p>
-                  <div
-                    style={{
-                      display: "flex",
-                      gap: "20px",
-                      justifyContent: "center",
-                      marginTop: "15px",
-                      fontSize: "14px",
-                      color: "#6c757d",
-                    }}
-                  >
-                    <span>⏱️ Thời gian: {params.get("t") || 120}s</span>
-                    <span>📊 Độ khó: {params.get("r") || 0.5}</span>
-                    <span>🎲 Chế độ: {params.get("tb") || "Normal"}</span>
-                  </div>
-                </div>
-
-                {/* Start Button */}
-                <button
-                  className="btn btn-primary"
-                  style={{
-                    borderRadius: "50%",
-                    width: "180px",
-                    height: "180px",
-                    fontSize: "40px",
-                    fontWeight: "bold",
-                    color: "white",
-                    border: "4px solid #007bff",
-                    backgroundImage:
-                      "url('https://i.postimg.cc/s2GYz4SL/David-20.jpg')",
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    boxShadow: "0 8px 20px rgba(0,123,255,0.3)",
-                    transition: "all 0.3s ease",
-                    cursor: "pointer",
-                    position: "relative",
+                    flex: 1,
+                    display: "flex",
+                    flexDirection: "column",
                     overflow: "hidden",
                   }}
-                  onMouseEnter={(e) => {
-                    e.target.style.transform = "scale(1.05)";
-                    e.target.style.boxShadow =
-                      "0 12px 30px rgba(0,123,255,0.4)";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.target.style.transform = "scale(1)";
-                    e.target.style.boxShadow = "0 8px 20px rgba(0,123,255,0.3)";
-                  }}
-                  onClick={() => {
-                    try {
-                      const paramNote = (
-                        params?.get("note") || ""
-                      ).toUpperCase();
+                >
+                  <PracticeDIV
+                    DataPracticingOverRoll={DataPracticingOverRoll}
+                    DataPracticingCharactor={DataPracticingCharactor}
+                    Score={Score}
+                    setScore={setScore}
+                    numberBegin={numberBegin}
+                    indexSets={
+                      IndexSets
+                        ? IndexSets[(numberBegin - 1) % IndexSets.length]
+                        : numberBegin - 1
+                    }
+                    TimeDefault={params.get("t") || 120}
+                    regRate={params.get("r") || 0.5}
+                    regRate_01={params.get("r01") || 0.6}
+                    handleIncrementReadyClick={() =>
+                      setNumberBegin((D) => D + 1)
+                    }
+                    IsPause={false}
+                    NumberOneByOneHost={0}
+                    tableView={params.get("tb") || "Normal"}
+                    setMessage={setMessage}
+                    roomCode={roomCode}
+                  />
+                </div>
+              </div>
+            )}
 
-                      sendMessageToServer(
-                        "Vào thực hành! Lượt (" +
-                          (numberBegin ?? 0) +
-                          ") | " +
-                          (Score ?? 0) +
-                          "  | " +
-                          paramNote,
-                        null,
-                        "group10"
-                      );
+            {/* Welcome / start overlay — shown before first start */}
+            {(SttCoundown === "01" || numberBegin === 0) && (
+              <div className="room-welcome-overlay">
+                <div className="room-welcome-card">
+                  <h2>
+                    {numberBegin === 0
+                      ? "Sẵn sàng thực hành?"
+                      : "Tiếp tục lượt mới"}
+                  </h2>
+                  <p>
+                    {numberBegin === 0
+                      ? "Bấm vào để bắt đầu lượt đầu tiên"
+                      : `Lượt ${numberBegin} vừa kết thúc — bấm để tiếp tục`}
+                  </p>
+                  {/* Person icon button — ngay dưới text */}
+                  <button
+                    className="room-start-person"
+                    onClick={() => {
                       if (numberBegin === 0) {
                         setNumberBegin((D) => D + 1);
-                        setTimeout(() => {
-                          setSttCoundown("02");
-                        }, 100);
+                        setTimeout(() => setSttCoundown("02"), 100);
                       } else {
                         setSttCoundown("02");
                       }
-                    } catch (error) {
-                      console.log("NÚT BẤM AVATAR THỰC HÀNH", error);
-                    }
-                  }}
-                ></button>
-
-                {/* Additional Info */}
-                <div
-                  style={{
-                    marginTop: "30px",
-                    textAlign: "center",
-                    fontSize: "14px",
-                    color: "#6c757d",
-                  }}
-                >
-                  <p>
-                    💡 Mẹo: Tập trung và thực hiện chính xác để đạt điểm cao!
-                  </p>
+                    }}
+                  >
+                    <svg
+                      width="32"
+                      height="32"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="white"
+                      strokeWidth="1.8"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                      <circle cx="12" cy="7" r="4" />
+                    </svg>
+                  </button>
                 </div>
               </div>
             )}
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
@@ -1083,7 +665,7 @@ function interleaveCharacters(
   filerSets,
   upCode,
   random,
-  fsp
+  fsp,
 ) {
   const numberGetPerOne = Math.floor(200 / index_sets_t_get_pracData.length);
 
@@ -1102,7 +684,7 @@ function interleaveCharacters(
     let resTemp = getArrayElements(
       filer_type_o_charactor(data_all[e][getUpCode], filerSets, fsp),
       numberCut,
-      numberGetPerOne
+      numberGetPerOne,
     );
     arrRes_gd_1.push(resTemp);
   });

@@ -1,44 +1,22 @@
 import React from "react";
 
-// Function to check if the element is an image URL
 const isImageUrl = (url) => {
   return /\.(jpeg|jpg|gif|png|webp|svg)$/.test(url);
 };
 
-const TableTB = ({ data }) => {
+const TablePushAW = ({ data }) => {
   try {
-    const containerStyle = {
-      display: "flex",
-      flexWrap: "wrap",
-      gap: "10px",
-      cursor: "pointer",
-    };
-
-    const textStyle = {
-      padding: "10px",
-      border: "2px solid green",
-      borderRadius: "4px",
-      backgroundColor: "#f9f9f9",
-      maxWidth: "150px",
-      textAlign: "center",
-    };
-
-    const imageStyle = {
-      maxWidth: "150px",
-      maxHeight: "150px",
-      objectFit: "cover",
-      borderRadius: "4px",
-      border: "2px solid green",
-    };
-
     return (
       <div style={containerStyle}>
         {data.map((element, index) => (
-          <div key={index}>
+          <div key={index} style={chipWrapStyle}>
             {isImageUrl(element) ? (
-              <img src={element} alt={`element-${index}`} style={imageStyle} />
+              <img src={element} alt={`aw-${index}`} style={imageStyle} />
             ) : (
-              <div style={textStyle}>{element.slice(0, 5)} . . .</div>
+              <div style={chipStyle}>
+                <span style={checkStyle}>✓</span>
+                {element.length > 18 ? element.slice(0, 16) + "…" : element}
+              </div>
             )}
           </div>
         ))}
@@ -49,4 +27,47 @@ const TableTB = ({ data }) => {
   }
 };
 
-export default TableTB;
+export default TablePushAW;
+
+const containerStyle = {
+  display: "flex",
+  flexWrap: "wrap",
+  gap: "8px",
+  padding: "4px 0",
+};
+
+const chipWrapStyle = {
+  display: "inline-flex",
+  alignItems: "center",
+};
+
+const chipStyle = {
+  display: "flex",
+  alignItems: "center",
+  gap: "5px",
+  padding: "7px 13px",
+  background: "linear-gradient(135deg, #16a34a 0%, #15803d 100%)",
+  color: "#fff",
+  borderRadius: "20px",
+  fontSize: "14px",
+  fontWeight: 600,
+  boxShadow: "0 2px 6px rgba(22,163,74,0.3)",
+  whiteSpace: "nowrap",
+  maxWidth: "200px",
+  overflow: "hidden",
+  textOverflow: "ellipsis",
+};
+
+const checkStyle = {
+  fontSize: "12px",
+  opacity: 0.9,
+};
+
+const imageStyle = {
+  width: "56px",
+  height: "56px",
+  objectFit: "cover",
+  borderRadius: "10px",
+  border: "2px solid #16a34a",
+  boxShadow: "0 2px 6px rgba(22,163,74,0.3)",
+};
