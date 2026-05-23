@@ -260,33 +260,98 @@ const InAppBrowserWarning = ({ browserType, onDismiss }) => {
                 flexShrink: 0,
               }}
             >
+              {/* Globe icon — biểu tượng "Open in browser" phổ biến nhất */}
               <svg
-                width="14"
-                height="14"
+                width="16"
+                height="16"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="white"
-                strokeWidth="2.5"
+                strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
               >
-                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
-                <polyline points="15 3 21 3 21 9" />
-                <line x1="10" y1="14" x2="21" y2="3" />
+                <circle cx="12" cy="12" r="10" />
+                <line x1="2" y1="12" x2="22" y2="12" />
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
               </svg>
             </div>
-            <div>
+            <div style={{ flex: 1 }}>
               <div
                 style={{
                   fontSize: "0.82rem",
                   fontWeight: 700,
                   color: "#1a2b4a",
+                  marginBottom: 4,
                 }}
               >
-                Chọn <em>"Mở bằng trình duyệt"</em>
+                Tìm biểu tượng {/* Inline globe badge */}
+                <span
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: 3,
+                    background: "#ecfdf5",
+                    border: "1.5px solid #6ee7b7",
+                    borderRadius: 6,
+                    padding: "1px 6px",
+                    verticalAlign: "middle",
+                  }}
+                >
+                  <svg
+                    width="11"
+                    height="11"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#059669"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="2" y1="12" x2="22" y2="12" />
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                  </svg>
+                  <span
+                    style={{
+                      fontSize: "0.72rem",
+                      fontWeight: 700,
+                      color: "#059669",
+                    }}
+                  >
+                    quả cầu
+                  </span>
+                </span>
               </div>
-              <div style={{ fontSize: "0.75rem", color: "#6b7280" }}>
-                hoặc "Open in browser"
+              {/* Browser label variants */}
+              <div
+                style={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  gap: "4px",
+                }}
+              >
+                {[
+                  "Mở bằng Safari",
+                  "Open in Chrome",
+                  "Mở bằng trình duyệt",
+                  "Open in browser",
+                ].map((label) => (
+                  <span
+                    key={label}
+                    style={{
+                      fontSize: "0.66rem",
+                      background: "#f1f5f9",
+                      color: "#475569",
+                      borderRadius: 5,
+                      padding: "1px 6px",
+                      fontWeight: 600,
+                      whiteSpace: "nowrap",
+                    }}
+                  >
+                    {label}
+                  </span>
+                ))}
               </div>
             </div>
             <div

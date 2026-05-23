@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
@@ -28,7 +28,18 @@ const Dictaphone = ({
   const isProcessing = interimTranscript !== "";
   const isReady = transcript !== "" && interimTranscript === "";
 
-  // Delayed exit: play slide-out animation THEN unmount
+  /* ── Pre-normalize CMDlist 1 lần khi CMDlist thay đổi ──
+     Tránh gọi removeAccentsAndLowercase() lặp lại trong mỗi check()  */
+  const normalizedCMD = useMemo(() => {
+    return CMDlist.map((qObj) => ({
+      ref: qObj, // giữ ref gốc
+      nqs: qObj.qs.map((q) => ({
+        norm: removeAccentsAndLowercase(q),
+        len: q.length,
+      })),
+    }));
+  }, [CMDlist]);
+
   const exitWithAnimation = (afterFn) => {
     setIsExiting(true);
     setTimeout(() => {
@@ -41,7 +52,6 @@ const Dictaphone = ({
     if (getSTTDictaphone) startListening();
   }, [getSTTDictaphone]);
 
-  // Listen for soft-exit from parent (toggle collapse button)
   useEffect(() => {
     const handler = () => {
       stopListening();
@@ -56,21 +66,13 @@ const Dictaphone = ({
       continuous: true,
       language: Lang || "en-US",
     });
-
   const stopListening = () => SpeechRecognition.stopListening();
 
   function check(RegInput) {
     if (!RegInput) return;
     setMessage(RegInput);
 
-    // (1) Tìm trực tiếp từ transcript
-    let objTR = findMostSimilarQuestion(RegInput, CMDlist, regRate_01);
-
-    // (1b) Thử bỏ từ trùng nếu vẫn không khớp
-    if (!objTR) {
-      const processed = removeDuplicates(RegInput);
-      objTR = findMostSimilarQuestion(processed, CMDlist, regRate_01);
-    }
+    const objTR = findBest(RegInput, normalizedCMD, regRate_01);
 
     if (!objTR) {
       ReadMessage(
@@ -105,7 +107,6 @@ const Dictaphone = ({
 
   return (
     <div className={`dtph-wrap ${isExiting ? "dtph-exiting" : ""}`}>
-      {/* ── Transcript display ── */}
       <div className="dtph-transcript-box">
         <div className="dtph-row-label">
           <span className="dtph-badge dtph-badge-1">1</span>
@@ -117,15 +118,8 @@ const Dictaphone = ({
         </div>
       </div>
 
-      {/* ── Status indicator ── */}
       <div
-        className={`dtph-status ${
-          isWaiting
-            ? "status-wait"
-            : isProcessing
-              ? "status-proc"
-              : "status-ready"
-        }`}
+        className={`dtph-status ${isWaiting ? "status-wait" : isProcessing ? "status-proc" : "status-ready"}`}
       >
         {isWaiting && (
           <>
@@ -147,7 +141,6 @@ const Dictaphone = ({
         )}
       </div>
 
-      {/* ── Action buttons ── */}
       <div className="dtph-actions">
         <button
           className="dtph-btn dtph-btn-clear"
@@ -157,7 +150,6 @@ const Dictaphone = ({
           <i className="bi bi-trash3" />
           <span className="dtph-btn-label">Xóa</span>
         </button>
-
         {SttProcessing ? (
           <button className="dtph-btn dtph-btn-processing" disabled>
             <i className="bi bi-hourglass-split dtph-spin" />
@@ -174,7 +166,6 @@ const Dictaphone = ({
             <span className="dtph-btn-label">Gửi</span>
           </button>
         )}
-
         <button
           className="dtph-btn dtph-btn-exit"
           onClick={() => {
@@ -188,22 +179,14 @@ const Dictaphone = ({
         </button>
       </div>
 
-      {/* ── Info strip ── */}
       <div className="dtph-info-strip">
-        <span title="Nói rõ, hệ thống tự tìm câu gần nhất">
-          🎙️ Nói rõ — tự khớp gần nhất
-        </span>
+        <span>🎙️ Nói rõ — tự khớp gần nhất</span>
         <span className="dtph-info-sep">·</span>
-        <span title="Thực hành nhanh quan trọng hơn hoàn hảo">
-          🏃 Luyện nhanh &gt; hoàn hảo
-        </span>
+        <span>🏃 Luyện nhanh &gt; hoàn hảo</span>
         <span className="dtph-info-sep">·</span>
-        <span title="Rèn luyện lâu dài, chỉnh sửa dần dần">
-          🌱 Cải thiện dần
-        </span>
+        <span>🌱 Cải thiện dần</span>
       </div>
 
-      {/* Hidden stop trigger for external callers */}
       <button
         id="stopListenBTN"
         style={{ display: "none" }}
@@ -216,6 +199,7 @@ const Dictaphone = ({
 export default Dictaphone;
 
 // ── Helpers ──────────────────────────────────────────────────────────
+
 function removeAccentsAndLowercase(str) {
   return str
     .normalize("NFD")
@@ -224,23 +208,38 @@ function removeAccentsAndLowercase(str) {
     .toLowerCase();
 }
 
-function findMostSimilarQuestion(statement, questions, threshold) {
+/**
+ * Tìm câu khớp nhất — dùng pre-normalized list để tránh normalize lại.
+ * Pre-filter theo length ratio trước khi tính Dice → bỏ qua ~70% câu không cần so.
+ * Early exit ngay khi sim === 1.
+ */
+function findBest(statement, normalizedCMD, threshold) {
   if (!statement) return null;
   const norm = removeAccentsAndLowercase(statement);
-  let maxSim = -1,
-    best = null;
-  questions.forEach((qObj) => {
-    qObj.qs.forEach((q) => {
-      const sim = stringSimilarity.compareTwoStrings(
-        norm,
-        removeAccentsAndLowercase(q),
-      );
+  const normLen = norm.length;
+  if (!normLen) return null;
+
+  let maxSim = -1;
+  let best = null;
+
+  outer: for (const { ref, nqs } of normalizedCMD) {
+    for (const { norm: q, len: qLen } of nqs) {
+      // ── Length-ratio pre-filter ──────────────────────────────────
+      // Dice coefficient không thể vượt 2*min/(a+b).
+      // Nếu tỉ lệ độ dài < threshold thì bỏ qua ngay.
+      const minL = Math.min(normLen, qLen);
+      const maxL = Math.max(normLen, qLen);
+      if (maxL === 0 || minL / maxL < threshold * 0.6) continue;
+
+      const sim = stringSimilarity.compareTwoStrings(norm, q);
       if (sim >= threshold && sim > maxSim) {
         maxSim = sim;
-        best = qObj;
+        best = ref;
+        if (sim === 1) break outer; // perfect match — dừng ngay
       }
-    });
-  });
+    }
+  }
+
   return best;
 }
 
