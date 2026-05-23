@@ -3,10 +3,11 @@ import { useNavigate } from "react-router-dom";
 
 /* ─────────────────────────────────────────────
    HELPER: detect Zalo / Messenger in-app browser
+   FIX: mở rộng regex — UA thực tế của Zalo chỉ chứa "Zalo"
    ───────────────────────────────────────────── */
 const detectInAppBrowser = () => {
   const ua = navigator.userAgent || "";
-  if (/ZaloApp|ZaloBrowser/i.test(ua)) return "zalo";
+  if (/Zalo/i.test(ua)) return "zalo";
   if (/FBAN|FBAV|FB_IAB|FBIOS|FBANDROID/i.test(ua)) return "messenger";
   if (/Instagram/i.test(ua)) return "instagram";
   return null;
@@ -24,11 +25,13 @@ const detectBrowser = () => {
   if (/Chrome/i.test(ua)) return "chrome";
   if (/Firefox/i.test(ua)) return "firefox";
   if (/Safari/i.test(ua)) return "safari";
-  return "chrome"; // fallback
+  return "chrome";
 };
 
 /* ─────────────────────────────────────────────
    SUB-COMPONENT: In-App Browser Warning Overlay
+   FIX: render trước .dpc-root, dùng position relative
+        để tránh Zalo clamp fixed overlay
    ───────────────────────────────────────────── */
 const InAppBrowserWarning = ({ browserType, onDismiss }) => {
   const appName =
@@ -41,15 +44,14 @@ const InAppBrowserWarning = ({ browserType, onDismiss }) => {
   return (
     <div
       style={{
-        position: "fixed",
-        inset: 0,
+        position: "relative",
         zIndex: 9999,
-        background: "rgba(0,0,0,0.72)",
-        backdropFilter: "blur(4px)",
+        background: "rgba(0,0,0,0.82)",
+        minHeight: "100vh",
         display: "flex",
         alignItems: "flex-end",
         justifyContent: "center",
-        padding: "0 0 0 0",
+        padding: 0,
       }}
     >
       <div
@@ -122,7 +124,7 @@ const InAppBrowserWarning = ({ browserType, onDismiss }) => {
                 marginBottom: 2,
               }}
             >
-              Trình duyệt {appName}
+              Trình duyệt trong {appName}
             </div>
             <div
               style={{ fontSize: "1.05rem", fontWeight: 800, color: "#1a2b4a" }}
@@ -188,7 +190,6 @@ const InAppBrowserWarning = ({ browserType, onDismiss }) => {
                 flexShrink: 0,
               }}
             >
-              {/* 3-dot icon */}
               <svg width="14" height="14" viewBox="0 0 24 24" fill="white">
                 <circle cx="12" cy="5" r="2" />
                 <circle cx="12" cy="12" r="2" />
@@ -340,7 +341,6 @@ const InAppBrowserWarning = ({ browserType, onDismiss }) => {
           Tôi đã hiểu
         </button>
       </div>
-
       <style>{`@keyframes slideUp { from{transform:translateY(100%);opacity:0} to{transform:translateY(0);opacity:1} }`}</style>
     </div>
   );
@@ -350,7 +350,7 @@ const InAppBrowserWarning = ({ browserType, onDismiss }) => {
    SUB-COMPONENT: Mic Permission Card
    ───────────────────────────────────────────── */
 const MicPermissionCard = () => {
-  const [micState, setMicState] = useState("unknown"); // granted | denied | prompt | unknown
+  const [micState, setMicState] = useState("unknown");
   const [showGuide, setShowGuide] = useState(false);
   const [requesting, setRequesting] = useState(false);
   const browser = detectBrowser();
@@ -386,7 +386,6 @@ const MicPermissionCard = () => {
     }
   };
 
-  /* Instructions per browser */
   const guideSteps = {
     chrome: [
       {
@@ -420,9 +419,9 @@ const MicPermissionCard = () => {
       { icon: "🔄", text: 'Tải lại trang và bấm "Cho phép"' },
     ],
   };
+
   const steps = guideSteps[browser] || guideSteps["chrome"];
 
-  /* Status colors & labels */
   const statusMap = {
     granted: {
       color: "#059669",
@@ -457,6 +456,7 @@ const MicPermissionCard = () => {
       sub: "Micro chưa được kiểm tra",
     },
   };
+
   const s = statusMap[micState] || statusMap.unknown;
 
   return (
@@ -503,7 +503,6 @@ const MicPermissionCard = () => {
         </button>
       </div>
 
-      {/* CTA based on state */}
       {micState === "prompt" && (
         <button
           onClick={requestMic}
@@ -552,7 +551,6 @@ const MicPermissionCard = () => {
           >
             {showGuide ? "▲ Ẩn hướng dẫn" : "🛠 Hướng dẫn bật lại micro"}
           </button>
-
           {showGuide && (
             <div
               style={{
@@ -647,12 +645,13 @@ const DataPracticeComponent = ({
   const [isEditingName, setIsEditingName] = useState(false);
   const [startToGetData, setStartToGetDataLocal] = useState(false);
   const [hasExistingName, setHasExistingName] = useState(false);
-
-  // ── NEW: in-app browser detection ──
   const [inAppBrowserType, setInAppBrowserType] = useState(null);
   const [showInAppWarning, setShowInAppWarning] = useState(false);
 
   useEffect(() => {
+    // DEBUG: kiểm tra UA thực tế — xóa sau khi xác nhận hoạt động
+    console.log("[DPC] userAgent:", navigator.userAgent);
+
     const savedName = localStorage.getItem("nameDinhDanh") || "";
     if (savedName) {
       setUserName(savedName);
@@ -663,8 +662,9 @@ const DataPracticeComponent = ({
       setIsEditingName(false);
     }
 
-    // Detect in-app browser on mount
+    // Detect in-app browser
     const detected = detectInAppBrowser();
+    console.log("[DPC] inAppBrowser detected:", detected);
     if (detected) {
       setInAppBrowserType(detected);
       setShowInAppWarning(true);
@@ -675,6 +675,7 @@ const DataPracticeComponent = ({
     const value = e.target.value;
     if (value.length <= 8) setUserName(value);
   };
+
   const saveUserName = () => {
     const trimmedName = userName.trim();
     if (trimmedName) {
@@ -685,7 +686,9 @@ const DataPracticeComponent = ({
       alert("Vui lòng nhập tên!");
     }
   };
+
   const handleEditName = () => setIsEditingName(true);
+
   const handleFetchTitle = () => {
     if (!hasExistingName) {
       alert("Vui lòng nhập tên trước khi lấy dữ liệu!");
@@ -1081,7 +1084,8 @@ const DataPracticeComponent = ({
         }
       `}</style>
 
-      {/* ── NEW: In-app browser warning overlay ── */}
+      {/* ── In-app browser warning — render TRƯỚC .dpc-root
+           để không bị Zalo clamp position:fixed ── */}
       {showInAppWarning && inAppBrowserType && (
         <InAppBrowserWarning
           browserType={inAppBrowserType}
@@ -1089,272 +1093,77 @@ const DataPracticeComponent = ({
         />
       )}
 
-      <div className="dpc-root">
-        {/* Header */}
-        <div className="dpc-header">
-          <img
-            src="https://i.postimg.cc/Bv9MGGy8/favicon-ico.png"
-            className="dpc-header-logo"
-            alt="logo"
-          />
-          <div className="dpc-header-text">
-            <h1>Dữ liệu thực hành</h1>
-            <p>PVD English Learning Hub</p>
+      {/* Chỉ render nội dung chính khi đã dismiss warning */}
+      {!showInAppWarning && (
+        <div className="dpc-root">
+          {/* Header */}
+          <div className="dpc-header">
+            <img
+              src="https://i.postimg.cc/Bv9MGGy8/favicon-ico.png"
+              className="dpc-header-logo"
+              alt="logo"
+            />
+            <div className="dpc-header-text">
+              <h1>Dữ liệu thực hành</h1>
+              <p>PVD English Learning Hub</p>
+            </div>
           </div>
-        </div>
 
-        {/* Step progress tracker */}
-        <div className="dpc-steps">
-          {/* Step 1 */}
-          <div className="dpc-step">
-            <div
-              className={`dpc-step-num ${hasExistingName ? "done" : "active"}`}
-            >
-              {hasExistingName ? (
-                <svg
-                  width="12"
-                  height="12"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="white"
-                  strokeWidth="3.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <polyline points="20 6 9 17 4 12" />
-                </svg>
-              ) : (
-                "1"
-              )}
-            </div>
-            <div>
+          {/* Step progress tracker */}
+          <div className="dpc-steps">
+            {/* Step 1 */}
+            <div className="dpc-step">
               <div
-                className={`dpc-step-label ${hasExistingName ? "done" : "active"}`}
+                className={`dpc-step-num ${hasExistingName ? "done" : "active"}`}
               >
-                Nhập tên
-              </div>
-            </div>
-          </div>
-          <div className="dpc-step-arrow">›</div>
-          {/* Step 2 */}
-          <div className="dpc-step">
-            <div
-              className={`dpc-step-num ${!hasExistingName ? "idle" : "active"}`}
-            >
-              2
-            </div>
-            <div>
-              <div
-                className={`dpc-step-label ${!hasExistingName ? "idle" : "active"}`}
-              >
-                Lấy dữ liệu
-              </div>
-            </div>
-          </div>
-          <div className="dpc-step-arrow">›</div>
-          {/* Step 3 */}
-          <div className="dpc-step">
-            <div className="dpc-step-num idle">
-              <svg
-                width="11"
-                height="11"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
-                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
-              </svg>
-            </div>
-            <div>
-              <div className="dpc-step-label idle">Thực hành</div>
-            </div>
-          </div>
-        </div>
-
-        <div className="dpc-layout-wrap">
-          {/* ── LEFT: Hero action card ── */}
-          <div>
-            {needsName ? (
-              <div className="dpc-hero step-name">
-                <div className="dpc-hero-badge name">
+                {hasExistingName ? (
                   <svg
-                    width="11"
-                    height="11"
+                    width="12"
+                    height="12"
                     viewBox="0 0 24 24"
                     fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <circle cx="12" cy="12" r="10" />
-                    <line x1="12" y1="8" x2="12" y2="12" />
-                    <line x1="12" y1="16" x2="12.01" y2="16" />
-                  </svg>
-                  Bước 1 — cần làm ngay
-                </div>
-                <p className="dpc-hero-title">Nhập tên của bạn</p>
-                <p className="dpc-hero-sub">
-                  Tên dùng để lưu tiến độ thực hành (tối đa 8 ký tự)
-                </p>
-                <div className="dpc-input-wrap">
-                  <input
-                    type="text"
-                    value={userName}
-                    onChange={handleNameChange}
-                    placeholder="Gõ tên vào đây..."
-                    maxLength={8}
-                    className="dpc-main-input"
-                    onKeyPress={(e) => {
-                      if (e.key === "Enter") saveUserName();
-                    }}
-                    autoFocus
-                  />
-                  <span className="dpc-char-count">{userName.length}/8</span>
-                </div>
-                <button className="dpc-btn-save" onClick={saveUserName}>
-                  <svg
-                    width="18"
-                    height="18"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2.5"
+                    stroke="white"
+                    strokeWidth="3.5"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   >
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Lưu tên &amp; tiếp tục
-                </button>
+                ) : (
+                  "1"
+                )}
               </div>
-            ) : (
-              <div className="dpc-hero step-fetch">
-                <div className="dpc-hero-badge fetch">
-                  <svg
-                    width="11"
-                    height="11"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <circle cx="12" cy="12" r="10" />
-                    <line x1="12" y1="8" x2="12" y2="12" />
-                    <line x1="12" y1="16" x2="12.01" y2="16" />
-                  </svg>
-                  Bước 2 — cần làm ngay
-                </div>
-                <p className="dpc-hero-title">Lấy dữ liệu thực hành</p>
-                <p className="dpc-hero-sub">
-                  Tải nội dung mới nhất về máy để bắt đầu
-                </p>
-                <div className="dpc-name-confirmed">
-                  <div className="avatar">{userName.charAt(0)}</div>
-                  <div className="info">
-                    <small>Tên đã lưu</small>
-                    <strong>{userName}</strong>
-                  </div>
-                  <button
-                    className="dpc-btn-edit-small"
-                    onClick={handleEditName}
-                  >
-                    Đổi tên
-                  </button>
-                </div>
-                <button
-                  className={`dpc-btn-fetch ${startToGetData ? "loading" : ""}`}
-                  onClick={handleFetchTitle}
-                  disabled={startToGetData}
+              <div>
+                <div
+                  className={`dpc-step-label ${hasExistingName ? "done" : "active"}`}
                 >
-                  {startToGetData ? (
-                    <>
-                      <svg
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="white"
-                        strokeWidth="2.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        style={{ animation: "spin 0.8s linear infinite" }}
-                      >
-                        <polyline points="23 4 23 10 17 10" />
-                        <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" />
-                      </svg>
-                      Đang lấy dữ liệu...
-                    </>
-                  ) : (
-                    <>
-                      <span>Lấy dữ liệu ngay</span>
-                      <div className="dpc-btn-fetch-arrow">
-                        <svg
-                          width="14"
-                          height="14"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="white"
-                          strokeWidth="3"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="M5 12h14M12 5l7 7-7 7" />
-                        </svg>
-                      </div>
-                    </>
-                  )}
-                </button>
+                  Nhập tên
+                </div>
               </div>
-            )}
-          </div>
-
-          {/* ── RIGHT: Secondary cards ── */}
-          <div className="dpc-secondary">
-            {/* Navigate card */}
-            <div className="dpc-card-sm">
-              <p className="dpc-card-sm-title">Trang thực hành</p>
-              <img
-                src="https://i.postimg.cc/Bv9MGGy8/favicon-ico.png"
-                className={`dpc-logo-sm ${hasExistingName ? "active" : "dimmed"}`}
-                onClick={() => {
-                  if (hasExistingName) {
-                    navigate(
-                      "/learninghub/" +
-                        (roomCode || "DEMO123") +
-                        "?ls=" +
-                        (currentIndex || 0) +
-                        "&&Fid=div_01_content_table_to_practice",
-                    );
-                  } else {
-                    alert("Vui lòng nhập tên trước khi tiếp tục!");
-                  }
-                }}
-                alt="PVD logo"
-              />
-              <button
-                className={`dpc-nav-sm ${hasExistingName ? "" : "dimmed"}`}
-                onClick={() => {
-                  if (hasExistingName) {
-                    navigate(
-                      "/learninghub/" +
-                        (roomCode || "DEMO123") +
-                        "?ls=" +
-                        (currentIndex || 0) +
-                        "&&Fid=div_01_content_table_to_practice",
-                    );
-                  }
-                }}
+            </div>
+            <div className="dpc-step-arrow">›</div>
+            {/* Step 2 */}
+            <div className="dpc-step">
+              <div
+                className={`dpc-step-num ${!hasExistingName ? "idle" : "active"}`}
               >
+                2
+              </div>
+              <div>
+                <div
+                  className={`dpc-step-label ${!hasExistingName ? "idle" : "active"}`}
+                >
+                  Lấy dữ liệu
+                </div>
+              </div>
+            </div>
+            <div className="dpc-step-arrow">›</div>
+            {/* Step 3 */}
+            <div className="dpc-step">
+              <div className="dpc-step-num idle">
                 <svg
-                  width="13"
-                  height="13"
+                  width="11"
+                  height="11"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -1362,55 +1171,253 @@ const DataPracticeComponent = ({
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <path d="M5 12h14M12 5l7 7-7 7" />
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
                 </svg>
-                Về trang chủ
-              </button>
+              </div>
+              <div>
+                <div className="dpc-step-label idle">Thực hành</div>
+              </div>
+            </div>
+          </div>
+
+          <div className="dpc-layout-wrap">
+            {/* ── LEFT: Hero action card ── */}
+            <div>
+              {needsName ? (
+                <div className="dpc-hero step-name">
+                  <div className="dpc-hero-badge name">
+                    <svg
+                      width="11"
+                      height="11"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <circle cx="12" cy="12" r="10" />
+                      <line x1="12" y1="8" x2="12" y2="12" />
+                      <line x1="12" y1="16" x2="12.01" y2="16" />
+                    </svg>
+                    Bước 1 — cần làm ngay
+                  </div>
+                  <p className="dpc-hero-title">Nhập tên của bạn</p>
+                  <p className="dpc-hero-sub">
+                    Tên dùng để lưu tiến độ thực hành (tối đa 8 ký tự)
+                  </p>
+                  <div className="dpc-input-wrap">
+                    <input
+                      type="text"
+                      value={userName}
+                      onChange={handleNameChange}
+                      placeholder="Gõ tên vào đây..."
+                      maxLength={8}
+                      className="dpc-main-input"
+                      onKeyPress={(e) => {
+                        if (e.key === "Enter") saveUserName();
+                      }}
+                      autoFocus
+                    />
+                    <span className="dpc-char-count">{userName.length}/8</span>
+                  </div>
+                  <button className="dpc-btn-save" onClick={saveUserName}>
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    Lưu tên &amp; tiếp tục
+                  </button>
+                </div>
+              ) : (
+                <div className="dpc-hero step-fetch">
+                  <div className="dpc-hero-badge fetch">
+                    <svg
+                      width="11"
+                      height="11"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <circle cx="12" cy="12" r="10" />
+                      <line x1="12" y1="8" x2="12" y2="12" />
+                      <line x1="12" y1="16" x2="12.01" y2="16" />
+                    </svg>
+                    Bước 2 — cần làm ngay
+                  </div>
+                  <p className="dpc-hero-title">Lấy dữ liệu thực hành</p>
+                  <p className="dpc-hero-sub">
+                    Tải nội dung mới nhất về máy để bắt đầu
+                  </p>
+                  <div className="dpc-name-confirmed">
+                    <div className="avatar">{userName.charAt(0)}</div>
+                    <div className="info">
+                      <small>Tên đã lưu</small>
+                      <strong>{userName}</strong>
+                    </div>
+                    <button
+                      className="dpc-btn-edit-small"
+                      onClick={handleEditName}
+                    >
+                      Đổi tên
+                    </button>
+                  </div>
+                  <button
+                    className={`dpc-btn-fetch ${startToGetData ? "loading" : ""}`}
+                    onClick={handleFetchTitle}
+                    disabled={startToGetData}
+                  >
+                    {startToGetData ? (
+                      <>
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="white"
+                          strokeWidth="2.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          style={{ animation: "spin 0.8s linear infinite" }}
+                        >
+                          <polyline points="23 4 23 10 17 10" />
+                          <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" />
+                        </svg>
+                        Đang lấy dữ liệu...
+                      </>
+                    ) : (
+                      <>
+                        <span>Lấy dữ liệu ngay</span>
+                        <div className="dpc-btn-fetch-arrow">
+                          <svg
+                            width="14"
+                            height="14"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="white"
+                            strokeWidth="3"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                          </svg>
+                        </div>
+                      </>
+                    )}
+                  </button>
+                </div>
+              )}
             </div>
 
-            {/* Guide card */}
-            <div className="dpc-card-sm">
-              <p className="dpc-card-sm-title">Hướng dẫn</p>
-              <ul className="dpc-guide-mini">
-                {needsName ? (
-                  <>
-                    <li>
-                      <span className="dpc-guide-dot b">1</span>Nhập tên &amp;
-                      bấm <strong>Lưu tên</strong>
-                    </li>
-                    <li>
-                      <span className="dpc-guide-dot g">2</span>Bấm{" "}
-                      <strong>Lấy dữ liệu</strong> để tải nội dung
-                    </li>
-                    <li>
-                      <span className="dpc-guide-dot o">3</span>Vào trang thực
-                      hành để học
-                    </li>
-                  </>
-                ) : (
-                  <>
-                    <li>
-                      <span className="dpc-guide-dot g">✓</span>Tên đã lưu —{" "}
-                      <strong>bấm Lấy dữ liệu</strong>
-                    </li>
-                    <li>
-                      <span className="dpc-guide-dot b">→</span>Sau đó vào trang
-                      thực hành
-                    </li>
-                    <li>
-                      <span className="dpc-guide-dot o">i</span>Đổi tên nếu cần
-                      bằng nút nhỏ
-                    </li>
-                  </>
-                )}
-              </ul>
-            </div>
+            {/* ── RIGHT: Secondary cards ── */}
+            <div className="dpc-secondary">
+              {/* Navigate card */}
+              <div className="dpc-card-sm">
+                <p className="dpc-card-sm-title">Trang thực hành</p>
+                <img
+                  src="https://i.postimg.cc/Bv9MGGy8/favicon-ico.png"
+                  className={`dpc-logo-sm ${hasExistingName ? "active" : "dimmed"}`}
+                  onClick={() => {
+                    if (hasExistingName) {
+                      navigate(
+                        "/learninghub/" +
+                          (roomCode || "DEMO123") +
+                          "?ls=" +
+                          (currentIndex || 0) +
+                          "&&Fid=div_01_content_table_to_practice",
+                      );
+                    } else {
+                      alert("Vui lòng nhập tên trước khi tiếp tục!");
+                    }
+                  }}
+                  alt="PVD logo"
+                />
+                <button
+                  className={`dpc-nav-sm ${hasExistingName ? "" : "dimmed"}`}
+                  onClick={() => {
+                    if (hasExistingName) {
+                      navigate(
+                        "/learninghub/" +
+                          (roomCode || "DEMO123") +
+                          "?ls=" +
+                          (currentIndex || 0) +
+                          "&&Fid=div_01_content_table_to_practice",
+                      );
+                    }
+                  }}
+                >
+                  <svg
+                    width="13"
+                    height="13"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                  Về trang chủ
+                </button>
+              </div>
 
-            {/* ── NEW: Mic permission card ── */}
-            <MicPermissionCard />
+              {/* Guide card */}
+              <div className="dpc-card-sm">
+                <p className="dpc-card-sm-title">Hướng dẫn</p>
+                <ul className="dpc-guide-mini">
+                  {needsName ? (
+                    <>
+                      <li>
+                        <span className="dpc-guide-dot b">1</span>Nhập tên &amp;
+                        bấm <strong>Lưu tên</strong>
+                      </li>
+                      <li>
+                        <span className="dpc-guide-dot g">2</span>Bấm{" "}
+                        <strong>Lấy dữ liệu</strong> để tải nội dung
+                      </li>
+                      <li>
+                        <span className="dpc-guide-dot o">3</span>Vào trang thực
+                        hành để học
+                      </li>
+                    </>
+                  ) : (
+                    <>
+                      <li>
+                        <span className="dpc-guide-dot g">✓</span>Tên đã lưu —{" "}
+                        <strong>bấm Lấy dữ liệu</strong>
+                      </li>
+                      <li>
+                        <span className="dpc-guide-dot b">→</span>Sau đó vào
+                        trang thực hành
+                      </li>
+                      <li>
+                        <span className="dpc-guide-dot o">i</span>Đổi tên nếu
+                        cần bằng nút nhỏ
+                      </li>
+                    </>
+                  )}
+                </ul>
+              </div>
+
+              {/* Mic permission card */}
+              <MicPermissionCard />
+            </div>
           </div>
         </div>
-      </div>
+      )}
     </>
   );
 };
