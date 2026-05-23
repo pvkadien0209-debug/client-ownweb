@@ -18,27 +18,28 @@ const Dictaphone = ({
   setStartSTT,
   setMessage,
 }) => {
-  const { interimTranscript, transcript, listening, resetTranscript } =
-    useSpeechRecognition({ continuous: true, interimResults: true });
-
-  const [SttProcessing, setSttProcessing] = useState(false);
+  // ── Chỉ cần transcript (bỏ interimTranscript) ──────────────────────
+  const { transcript, resetTranscript } = useSpeechRecognition({
+    continuous: true,
+  });
   const [isExiting, setIsExiting] = useState(false);
 
-  const isWaiting = transcript === "" && interimTranscript === "";
-  const isProcessing = interimTranscript !== "";
-  const isReady = transcript !== "" && interimTranscript === "";
-
-  /* ── Pre-normalize CMDlist 1 lần khi CMDlist thay đổi ──
-     Tránh gọi removeAccentsAndLowercase() lặp lại trong mỗi check()  */
+  /* ── Pre-normalize CMDlist 1 lần khi CMDlist thay đổi ─────────────── */
   const normalizedCMD = useMemo(() => {
     return CMDlist.map((qObj) => ({
-      ref: qObj, // giữ ref gốc
+      ref: qObj,
       nqs: qObj.qs.map((q) => ({
         norm: removeAccentsAndLowercase(q),
         len: q.length,
       })),
     }));
   }, [CMDlist]);
+
+  /* ── Threshold tối thiểu 50% ───────────────────────────────────────── */
+  const THRESHOLD = Math.max(
+    typeof regRate_01 === "number" ? regRate_01 : 0.5,
+    0.5,
+  );
 
   const exitWithAnimation = (afterFn) => {
     setIsExiting(true);
@@ -66,15 +67,21 @@ const Dictaphone = ({
       continuous: true,
       language: Lang || "en-US",
     });
+
   const stopListening = () => SpeechRecognition.stopListening();
 
+  /* ── CHECK: so sánh transcript với CMDlist ─────────────────────────
+     - Tìm câu giống nhất (sim > 50%)
+     - Dùng ReadMessage với id mp3 từ aw01 (hỗ trợ mobile)             */
   function check(RegInput) {
-    if (!RegInput) return;
-    setMessage(RegInput);
+    const input = (RegInput || "").trim();
+    if (!input) return;
 
-    const objTR = findBest(RegInput, normalizedCMD, regRate_01);
+    setMessage(input);
+    const objTR = findBest(input, normalizedCMD, THRESHOLD);
 
     if (!objTR) {
+      // Không tìm được câu khớp trên 50%
       ReadMessage(
         ObjVoices,
         "Sorry, what did you say?",
@@ -82,14 +89,26 @@ const Dictaphone = ({
         GENDER === 1 ? [{ id: "sorryFemale" }] : [{ id: "sorryMale" }],
       );
     } else {
-      const answer = objTR.aw?.[Math.floor(Math.random() * objTR.aw.length)];
-      if (answer)
+      /* ── Chọn answer ngẫu nhiên, lấy đúng aw01 cùng index ──────────
+         aw:  ["We'd like a table.", "Dine in, please.", ...]
+         aw01:[{ st:"We'd like a table.", id:"A13_a1b1" }, ...]
+         → phải cùng index để id mp3 khớp với câu nói ra               */
+      const awArr = objTR.aw || [];
+      const aw01Arr = objTR.aw01 || [];
+      const randomIndex = Math.floor(Math.random() * (awArr.length || 1));
+      const answer = awArr[randomIndex];
+      const audioEntry = aw01Arr[randomIndex]; // { st, id }
+
+      if (answer) {
         ReadMessage(
           ObjVoices,
           answer,
           GENDER,
-          objTR.aw01 ? [{ id: objTR.aw01 }] : undefined,
+          // Mobile chỉ dùng mp3 theo id → truyền [{ id }]
+          audioEntry?.id ? [{ id: audioEntry.id }] : undefined,
         );
+      }
+
       if (objTR.action?.[0]) {
         if (objTR.action[0] === "WRONG") {
           const btn = document.getElementById("btnBoQua");
@@ -105,42 +124,23 @@ const Dictaphone = ({
     exitWithAnimation();
   }
 
+  const hasTranscript = transcript.trim().length > 0;
+
   return (
     <div className={`dtph-wrap ${isExiting ? "dtph-exiting" : ""}`}>
+      {/* ── Phần transcript: nói → hiện ra ── */}
       <div className="dtph-transcript-box">
         <div className="dtph-row-label">
-          <span className="dtph-badge dtph-badge-1">1</span>
+          <span className="dtph-badge dtph-badge-1">🎙️</span>
           <span className="dtph-transcript-text">
-            {transcript || interimTranscript || (
+            {transcript || (
               <span className="dtph-placeholder">Hãy nói gì đó…</span>
             )}
           </span>
         </div>
       </div>
 
-      <div
-        className={`dtph-status ${isWaiting ? "status-wait" : isProcessing ? "status-proc" : "status-ready"}`}
-      >
-        {isWaiting && (
-          <>
-            <span className="dtph-status-dot" />
-            Đang nghe…
-          </>
-        )}
-        {isProcessing && (
-          <>
-            <span className="dtph-status-dot dtph-pulse" />
-            Chờ…
-          </>
-        )}
-        {isReady && (
-          <>
-            <span className="dtph-status-dot dtph-ready-dot" />
-            Sẵn sàng gửi
-          </>
-        )}
-      </div>
-
+      {/* ── Nút hành động ── */}
       <div className="dtph-actions">
         <button
           className="dtph-btn dtph-btn-clear"
@@ -150,22 +150,18 @@ const Dictaphone = ({
           <i className="bi bi-trash3" />
           <span className="dtph-btn-label">Xóa</span>
         </button>
-        {SttProcessing ? (
-          <button className="dtph-btn dtph-btn-processing" disabled>
-            <i className="bi bi-hourglass-split dtph-spin" />
-            <span className="dtph-btn-label">Xử lý…</span>
-          </button>
-        ) : (
-          <button
-            className="dtph-btn dtph-btn-submit"
-            disabled={isProcessing || isWaiting}
-            onClick={() => check(transcript)}
-            title="Gửi câu trả lời"
-          >
-            <i className="bi bi-send-check" />
-            <span className="dtph-btn-label">Gửi</span>
-          </button>
-        )}
+
+        {/* CHECK: chỉ active khi đã có transcript */}
+        <button
+          className="dtph-btn dtph-btn-submit"
+          disabled={!hasTranscript}
+          onClick={() => check(transcript)}
+          title="Kiểm tra câu trả lời"
+        >
+          <i className="bi bi-check2-circle" />
+          <span className="dtph-btn-label">Check</span>
+        </button>
+
         <button
           className="dtph-btn dtph-btn-exit"
           onClick={() => {
@@ -180,11 +176,11 @@ const Dictaphone = ({
       </div>
 
       <div className="dtph-info-strip">
-        <span>🎙️ Nói rõ — tự khớp gần nhất</span>
+        <span>🎙️ Nói → bấm Check</span>
+        <span className="dtph-info-sep">·</span>
+        <span>≥ 50% khớp mới tính</span>
         <span className="dtph-info-sep">·</span>
         <span>🏃 Luyện nhanh &gt; hoàn hảo</span>
-        <span className="dtph-info-sep">·</span>
-        <span>🌱 Cải thiện dần</span>
       </div>
 
       <button
@@ -209,9 +205,8 @@ function removeAccentsAndLowercase(str) {
 }
 
 /**
- * Tìm câu khớp nhất — dùng pre-normalized list để tránh normalize lại.
- * Pre-filter theo length ratio trước khi tính Dice → bỏ qua ~70% câu không cần so.
- * Early exit ngay khi sim === 1.
+ * Tìm câu khớp nhất — pre-filter theo length ratio, early exit khi sim===1.
+ * Trả về object gốc (ref) từ CMDlist nếu sim >= threshold, ngược lại null.
  */
 function findBest(statement, normalizedCMD, threshold) {
   if (!statement) return null;
@@ -224,9 +219,7 @@ function findBest(statement, normalizedCMD, threshold) {
 
   outer: for (const { ref, nqs } of normalizedCMD) {
     for (const { norm: q, len: qLen } of nqs) {
-      // ── Length-ratio pre-filter ──────────────────────────────────
-      // Dice coefficient không thể vượt 2*min/(a+b).
-      // Nếu tỉ lệ độ dài < threshold thì bỏ qua ngay.
+      // Length-ratio pre-filter: Dice không thể vượt 2*min/(a+b)
       const minL = Math.min(normLen, qLen);
       const maxL = Math.max(normLen, qLen);
       if (maxL === 0 || minL / maxL < threshold * 0.6) continue;
@@ -235,22 +228,9 @@ function findBest(statement, normalizedCMD, threshold) {
       if (sim >= threshold && sim > maxSim) {
         maxSim = sim;
         best = ref;
-        if (sim === 1) break outer; // perfect match — dừng ngay
+        if (sim === 1) break outer; // perfect match
       }
     }
   }
-
   return best;
-}
-
-function removeDuplicates(sentence) {
-  const seen = new Set();
-  return sentence
-    .split(" ")
-    .filter((w) => {
-      if (seen.has(w)) return false;
-      seen.add(w);
-      return true;
-    })
-    .join(" ");
 }
