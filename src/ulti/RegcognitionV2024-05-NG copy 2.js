@@ -5,6 +5,8 @@ import SpeechRecognition, {
 import stringSimilarity from "string-similarity";
 import ReadMessage from "./ReadMessage_2024";
 
+let commands = [];
+
 const Dictaphone = ({
   getSTTDictaphone,
   setGetSTTDictaphone,
@@ -14,19 +16,21 @@ const Dictaphone = ({
   addElementIfNotExist,
   ObjVoices,
   Lang,
+  regRate,
   regRate_01,
   setStartSTT,
   setMessage,
 }) => {
   const { interimTranscript, transcript, listening, resetTranscript } =
-    useSpeechRecognition({ continuous: true, interimResults: true });
+    useSpeechRecognition({ commands, continuous: true, interimResults: true });
 
+  const [otherGetInterim, setotherGetInterim] = useState("");
   const [SttProcessing, setSttProcessing] = useState(false);
   const [isExiting, setIsExiting] = useState(false);
 
-  const isWaiting = transcript === "" && interimTranscript === "";
-  const isProcessing = interimTranscript !== "";
-  const isReady = transcript !== "" && interimTranscript === "";
+  const isWaiting = interimTranscript === "" && otherGetInterim === "";
+  const isProcessing = interimTranscript !== "" && otherGetInterim === "";
+  const isReady = otherGetInterim !== "";
 
   // Delayed exit: play slide-out animation THEN unmount
   const exitWithAnimation = (afterFn) => {
@@ -36,6 +40,40 @@ const Dictaphone = ({
       setGetSTTDictaphone(false);
     }, 290);
   };
+
+  useEffect(() => {
+    let cmd_short = [],
+      cmd_long = [];
+    CMDlist.forEach((e0) => {
+      e0.qs.forEach((e1) => {
+        (e1.length > 40 ? cmd_long : cmd_short).push(e1);
+      });
+    });
+    commands = [
+      {
+        command: cmd_short,
+        callback: (command) => {
+          try {
+            setotherGetInterim(command);
+          } catch {}
+        },
+        isFuzzyMatch: true,
+        fuzzyMatchingThreshold: regRate,
+        bestMatchOnly: true,
+      },
+      {
+        command: cmd_long,
+        callback: (command) => {
+          try {
+            setotherGetInterim(command);
+          } catch {}
+        },
+        isFuzzyMatch: true,
+        fuzzyMatchingThreshold: regRate > 0.7 ? regRate : 0.7,
+        bestMatchOnly: true,
+      },
+    ];
+  }, [CMDlist]);
 
   useEffect(() => {
     if (getSTTDictaphone) startListening();
@@ -56,22 +94,18 @@ const Dictaphone = ({
       continuous: true,
       language: Lang || "en-US",
     });
-
   const stopListening = () => SpeechRecognition.stopListening();
 
   function check(RegInput) {
     if (!RegInput) return;
     setMessage(RegInput);
-
-    // (1) Tìm trực tiếp từ transcript
     let objTR = findMostSimilarQuestion(RegInput, CMDlist, regRate_01);
-
-    // (1b) Thử bỏ từ trùng nếu vẫn không khớp
+    if (!objTR)
+      objTR = findMostSimilarQuestion(otherGetInterim, CMDlist, regRate_01);
     if (!objTR) {
       const processed = removeDuplicates(RegInput);
       objTR = findMostSimilarQuestion(processed, CMDlist, regRate_01);
     }
-
     if (!objTR) {
       ReadMessage(
         ObjVoices,
@@ -98,7 +132,7 @@ const Dictaphone = ({
         }
       }
     }
-
+    // exit with slide-out
     stopListening();
     exitWithAnimation();
   }
@@ -110,8 +144,18 @@ const Dictaphone = ({
         <div className="dtph-row-label">
           <span className="dtph-badge dtph-badge-1">1</span>
           <span className="dtph-transcript-text">
-            {transcript || interimTranscript || (
+            {transcript || (
               <span className="dtph-placeholder">Hãy nói gì đó…</span>
+            )}
+          </span>
+        </div>
+        <div className="dtph-row-label">
+          <span className="dtph-badge dtph-badge-2">2</span>
+          <span className="dtph-interim-text">
+            {isProcessing ? (
+              <span className="dtph-processing">⏳ Đang nhận dạng…</span>
+            ) : (
+              otherGetInterim || <span className="dtph-placeholder">—</span>
             )}
           </span>
         </div>
@@ -119,13 +163,7 @@ const Dictaphone = ({
 
       {/* ── Status indicator ── */}
       <div
-        className={`dtph-status ${
-          isWaiting
-            ? "status-wait"
-            : isProcessing
-              ? "status-proc"
-              : "status-ready"
-        }`}
+        className={`dtph-status ${isWaiting ? "status-wait" : isProcessing ? "status-proc" : "status-ready"}`}
       >
         {isWaiting && (
           <>
@@ -136,7 +174,7 @@ const Dictaphone = ({
         {isProcessing && (
           <>
             <span className="dtph-status-dot dtph-pulse" />
-            Chờ…
+            Chờ 3s…
           </>
         )}
         {isReady && (
@@ -166,7 +204,7 @@ const Dictaphone = ({
         ) : (
           <button
             className="dtph-btn dtph-btn-submit"
-            disabled={isProcessing || isWaiting}
+            disabled={isProcessing}
             onClick={() => check(transcript)}
             title="Gửi câu trả lời"
           >
@@ -190,8 +228,8 @@ const Dictaphone = ({
 
       {/* ── Info strip ── */}
       <div className="dtph-info-strip">
-        <span title="Nói rõ, hệ thống tự tìm câu gần nhất">
-          🎙️ Nói rõ — tự khớp gần nhất
+        <span title="Chỉ cần (1) hoặc (2) đúng là đủ">
+          💡 (1) hoặc (2) đúng là đủ
         </span>
         <span className="dtph-info-sep">·</span>
         <span title="Thực hành nhanh quan trọng hơn hoàn hảo">
@@ -223,7 +261,6 @@ function removeAccentsAndLowercase(str) {
     .replace(/[.,?]/g, "")
     .toLowerCase();
 }
-
 function findMostSimilarQuestion(statement, questions, threshold) {
   if (!statement) return null;
   const norm = removeAccentsAndLowercase(statement);
@@ -243,7 +280,6 @@ function findMostSimilarQuestion(statement, questions, threshold) {
   });
   return best;
 }
-
 function removeDuplicates(sentence) {
   const seen = new Set();
   return sentence
