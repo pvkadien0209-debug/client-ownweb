@@ -1,24 +1,19 @@
-import {
-  useEffect,
-  useState,
-  useContext,
-  useMemo,
-  useCallback,
-  useRef,
-} from "react";
+import { useEffect, useState, useContext } from "react";
 import "./B101_FINAL_PROJECTS.css";
 import ReadMessage from "../../ulti/ReadMessage_2024";
 import Dictaphone from "../../ulti/RegcognitionV2024-05-NG";
+import TableTB from "./B101_FINAL_TABLE-TB";
 import TableHD from "./B101_FINAL_TABLE-HD";
+import TablePushAW from "./B101_FINAL_TABLE-PUSHAW";
 import StartButton from "./B101_FINAL_StartButton";
 import RegButton from "./B101_FINAL_BUTTON_REG";
+import TableDisplay from "./B101_FINAL_TableDisplay";
 import { ObjREADContext } from "../../App";
 import isImageUrl from "../../ulti/isImageUrl";
 import useImagePreloader from "../useImagePreloader";
 import helper_fn_localStorage from "../../ulti/helper_fn_localStorage";
-
+const colors = ["red", "orange", "black", "green", "blue", "indigo", "violet"];
 let stt_justone_plus = false;
-
 function FINAL_PROJECT({
   DataPracticingOverRoll,
   DataPracticingCharactor,
@@ -36,11 +31,11 @@ function FINAL_PROJECT({
   setMessage,
   roomCode,
 }) {
-  const ObjREAD = useContext(ObjREADContext);
-
   const [StartSTT, setStartSTT] = useState(true);
   const [INDEXtoPlay, setINDEXtoPlay] = useState(-1);
+  const [imageUrls, setImageUrls] = useState([]);
   const [IsMobile, setIsMobile] = useState(false);
+  const [AlldataToPractice] = useState(DataPracticingCharactor);
   const [playData, setPlayData] = useState(null);
   const [HINT, setHINT] = useState(null);
   const [Submit, setSubmit] = useState(null);
@@ -56,92 +51,39 @@ function FINAL_PROJECT({
   );
   const [getSTTDictaphone, setGetSTTDictaphone] = useState(false);
   const [bottomOpen, setBottomOpen] = useState(false);
+  const ObjREAD = useContext(ObjREADContext);
   const [styleMain, setStyles] = useState({
     opacity: 0,
     transition: "opacity 1s ease",
   });
-
-  const resizeTimer = useRef(null);
-
-  // ── Không cần useState — dùng thẳng prop ──────────────────────────
-  // AlldataToPractice → DataPracticingCharactor
-
-  // ── useMemo: tính imageUrls 1 lần, không dùng useState+useEffect ──
-  const imageUrls = useMemo(() => {
-    if (IsMobile) return [];
-    const urls = [];
-    DataPracticingOverRoll.forEach((e) => {
-      e.HDTB.TB.forEach((url) => urls.push(...url));
+  const addElementIfNotExist = (element) => {
+    setPushAW((prevArray) => {
+      if (!prevArray.includes(element)) return [...prevArray, element];
+      return prevArray;
     });
-    return urls;
-  }, [DataPracticingOverRoll, IsMobile]);
-
-  useImagePreloader(imageUrls);
-
-  // ── useMemo: table of content — không tính lại mỗi render ─────────
-  const tableOfContent = useMemo(
-    () => fn_f_allTable_t_tableOfContent(DataPracticingOverRoll),
-    [DataPracticingOverRoll],
-  );
-
-  // ── useMemo: nav slice — không tính lại trong .map() ──────────────
-  const navSlice = useMemo(() => {
-    const cur = OnTable ?? 0;
-    const total = DataPracticingOverRoll.length;
-    let start = Math.max(0, cur - 4);
-    let end = Math.min(total, cur + 5);
-    if (end - start < 9) {
-      if (start === 0) end = Math.min(9, total);
-      else start = Math.max(0, total - 9);
-    }
-    return { start, end };
-  }, [OnTable, DataPracticingOverRoll.length]);
-
-  // ── useCallback: stable ref → tránh child re-render ───────────────
-  const addElementIfNotExist = useCallback((element) => {
-    setPushAW((prev) => (prev.includes(element) ? prev : [...prev, element]));
-  }, []);
-
-  // ── Debounced resize ───────────────────────────────────────────────
-  const checkScreenSize = useCallback(() => {
-    clearTimeout(resizeTimer.current);
-    resizeTimer.current = setTimeout(() => {
-      const mobile = window.innerWidth <= 768;
-      setIsMobile(mobile);
-      if (!mobile) setBottomOpen(true);
-    }, 120); // chỉ setState sau 120ms dừng resize
-  }, []);
-
-  // ── Effects ───────────────────────────────────────────────────────
-
+  };
   useEffect(() => {
     setTimeout(() => setStyles((p) => ({ ...p, opacity: 1 })), 200);
   }, []);
-
   useEffect(() => {
     helper_fn_localStorage.saveNumberToLocalStorage(roomCode, OnTable);
-  }, [OnTable, roomCode]);
-
-  useEffect(() => {
-    // initial check (không debounce lần đầu)
+  }, [OnTable]);
+  const checkScreenSize = () => {
     const mobile = window.innerWidth <= 768;
     setIsMobile(mobile);
     if (!mobile) setBottomOpen(true);
-
+  };
+  useEffect(() => {
+    checkScreenSize();
     window.addEventListener("resize", checkScreenSize);
-    return () => {
-      window.removeEventListener("resize", checkScreenSize);
-      clearTimeout(resizeTimer.current);
-    };
-  }, [checkScreenSize]);
-
+    return () => window.removeEventListener("resize", checkScreenSize);
+  }, []);
   useEffect(() => {
     if (IsPause) {
       setStyles((p) => ({ ...p, opacity: 0 }));
       setTimeout(() => setStartSTT(true), 1000);
     }
   }, [IsPause]);
-
   useEffect(() => {
     if (!IsPause) {
       if (numberBegin !== 0) {
@@ -152,25 +94,36 @@ function FINAL_PROJECT({
       setStyles((p) => ({ ...p, opacity: 0 }));
       setTimeout(() => setStartSTT(true), 1000);
     }
-  }, [numberBegin]); // eslint-disable-line
-
+  }, [numberBegin]);
+  useEffect(() => {
+    if (!IsMobile) {
+      let urls = [];
+      DataPracticingOverRoll.forEach((e) => {
+        e.HDTB.TB.forEach((url) => {
+          urls = urls.concat(url);
+        });
+      });
+      setImageUrls(urls);
+    }
+  }, [DataPracticingOverRoll, IsMobile]);
+  useImagePreloader(imageUrls);
   useEffect(() => {
     if (StartSTT) {
       setPlayData(null);
       setGetSTTDictaphone(false);
       if (INDEXtoPlay !== -1) handleIncrementReadyClick();
-    } else if (INDEXtoPlay >= 0) {
-      try {
-        setPlayData(
-          DataPracticingCharactor[INDEXtoPlay % DataPracticingCharactor.length],
-        );
-      } catch {}
+    } else {
+      if (INDEXtoPlay >= 0) {
+        try {
+          setPlayData(
+            AlldataToPractice[INDEXtoPlay % AlldataToPractice.length],
+          );
+        } catch {}
+      }
     }
-  }, [StartSTT, INDEXtoPlay]); // eslint-disable-line
-
+  }, [StartSTT, INDEXtoPlay, AlldataToPractice]);
   useEffect(() => {
     if (playData === null) {
-      // React 18 tự batch — vẫn gom lại cho rõ
       setHINT(null);
       setSubmit(null);
       setCMD(null);
@@ -195,38 +148,38 @@ function FINAL_PROJECT({
         );
       }
     }
-  }, [playData]); // eslint-disable-line
-
+  }, [playData, ObjREAD]);
   useEffect(() => {
-    if (stt_justone_plus || Submit === null || PushAW.length === 0) return;
-    const checkIndex = checkArrays(Submit, PushAW);
-    if (checkIndex === 1) {
-      stt_justone_plus = true;
-      setStyles((p) => ({ ...p, opacity: 0 }));
-      setTimeout(() => {
-        setStartSTT(true);
-        setScore((D) => D + 1);
-      }, 1000);
-    } else if (checkIndex === 2) {
-      setStyles((p) => ({ ...p, opacity: 0 }));
-      setTimeout(() => {
-        setStartSTT(true);
+    if (stt_justone_plus) return;
+    if (Submit !== null && PushAW.length > 0) {
+      const checkIndex = checkArrays(Submit, PushAW);
+      if (checkIndex === 1) {
+        stt_justone_plus = true;
+        setStyles((p) => ({ ...p, opacity: 0 }));
+        setTimeout(() => {
+          setStartSTT(true);
+          setScore((D) => D + 1);
+        }, 1000);
+      } else if (checkIndex === 2) {
+        setStyles((p) => ({ ...p, opacity: 0 }));
+        setTimeout(() => {
+          setStartSTT(true);
+          setScore((D) => D - 1);
+        }, 1000);
+      } else if (checkIndex === 3) {
         setScore((D) => D - 1);
-      }, 1000);
-    } else if (checkIndex === 3) {
-      setScore((D) => D - 1);
+      }
     }
-  }, [Submit, PushAW]); // eslint-disable-line
-
+  }, [Submit, PushAW]);
   useEffect(() => {
-    if (getSTTDictaphone) disableButtonFsp();
-    else {
+    if (getSTTDictaphone) {
+      disableButtonFsp();
+    } else {
       enableButtonFsp();
       setBottomOpen(true);
     }
   }, [getSTTDictaphone]);
-
-  // ── Mode 1 ────────────────────────────────────────────────────────
+  // ─── Mode 1 ───────────────────────────────────────────────────────
   if (NumberOneByOneHost === 1) {
     try {
       return (
@@ -279,8 +232,7 @@ function FINAL_PROJECT({
       );
     } catch {}
   }
-
-  // ── Mode 2 ────────────────────────────────────────────────────────
+  // ─── Mode 2 ───────────────────────────────────────────────────────
   if (NumberOneByOneHost === 2) {
     try {
       return (
@@ -327,8 +279,7 @@ function FINAL_PROJECT({
       );
     } catch {}
   }
-
-  // ── Main mode ─────────────────────────────────────────────────────
+  // ─── Main mode ────────────────────────────────────────────────────
   try {
     return (
       <div
@@ -368,7 +319,18 @@ function FINAL_PROJECT({
                   All
                 </button>
                 {DataPracticingOverRoll.map((e, i) => {
-                  if (i < navSlice.start || i >= navSlice.end) return null;
+                  let start = Math.max(0, (OnTable ?? 0) - 4);
+                  let end = Math.min(
+                    DataPracticingOverRoll.length,
+                    (OnTable ?? 0) + 5,
+                  );
+                  if (end - start < 9) {
+                    if (start === 0)
+                      end = Math.min(9, DataPracticingOverRoll.length);
+                    else if (end === DataPracticingOverRoll.length)
+                      start = Math.max(0, DataPracticingOverRoll.length - 9);
+                  }
+                  if (i < start || i >= end) return null;
                   return (
                     <button
                       key={i}
@@ -380,7 +342,6 @@ function FINAL_PROJECT({
                   );
                 })}
               </div>
-
               {PushAW.length > 0 && (
                 <div className="fp-pushaw-strip">
                   <span className="fp-pushaw-label">✓ Đã chọn:</span>
@@ -400,47 +361,78 @@ function FINAL_PROJECT({
                   )}
                 </div>
               )}
-
               <div className="fp-table-scroll">
-                {(tableView === "Normal" ||
-                  tableView.toLowerCase() === "tv") && (
-                  <TableHD
-                    data={
-                      OnTable !== null
-                        ? DataPracticingOverRoll[OnTable]["HDTB"][
-                            tableView === "Normal" ? "HD" : "TV"
-                          ]
-                        : tableOfContent
-                    }
-                    data_TB={
-                      OnTable !== null
-                        ? DataPracticingOverRoll[OnTable]["HDTB"]["TB"]
-                        : []
-                    }
-                    HINT={OnTable !== null ? HINT : null}
-                    PushAW={OnTable !== null ? PushAW : []}
-                    fnOnclick={(e, cmd) => {
-                      if (OnTable !== null) {
+                {tableView === "Normal" &&
+                  (OnTable !== null ? (
+                    <TableHD
+                      data={DataPracticingOverRoll[OnTable]["HDTB"]["HD"]}
+                      data_TB={DataPracticingOverRoll[OnTable]["HDTB"]["TB"]}
+                      HINT={HINT}
+                      PushAW={PushAW}
+                      fnOnclick={(e, cmd) => {
                         try {
                           if (cmd === "submit") addElementIfNotExist(e);
                         } catch {}
-                      } else {
+                      }}
+                    />
+                  ) : (
+                    <TableHD
+                      data={fn_f_allTable_t_tableOfContent(
+                        DataPracticingOverRoll,
+                      )}
+                      data_TB={[]}
+                      HINT={null}
+                      PushAW={[]}
+                      fnOnclick={(e) => {
                         const m = e.match(/\((\d+)\)/);
                         if (m) setOnTable(parseInt(m[1], 10) - 1);
-                      }
-                    }}
-                  />
-                )}
+                      }}
+                    />
+                  ))}
+                {tableView.toLowerCase() === "tv" &&
+                  (OnTable !== null ? (
+                    <TableHD
+                      data={DataPracticingOverRoll[OnTable]["HDTB"]["TV"]}
+                      data_TB={DataPracticingOverRoll[OnTable]["HDTB"]["TB"]}
+                      HINT={HINT}
+                      PushAW={PushAW}
+                      fnOnclick={(e, cmd) => {
+                        try {
+                          if (cmd === "submit") addElementIfNotExist(e);
+                        } catch {}
+                      }}
+                    />
+                  ) : (
+                    <TableHD
+                      data={fn_f_allTable_t_tableOfContent(
+                        DataPracticingOverRoll,
+                      )}
+                      data_TB={[]}
+                      HINT={null}
+                      PushAW={[]}
+                      fnOnclick={(e) => {
+                        const m = e.match(/\((\d+)\)/);
+                        if (m) setOnTable(parseInt(m[1], 10) - 1);
+                      }}
+                    />
+                  ))}
                 <div style={{ height: "16px" }} />
               </div>
             </div>
 
             {/* ── BOTTOM: Speech panel ── */}
+            {/*
+              Layout (top → bottom):
+                [1] fp-panel-body   — speech in/out (Dictaphone) hoặc clue/hint  ← TOP
+                [2] fp-panel-header — bar "Thu gọn" cố định                      ← BOTTOM
+            */}
             <div
               className={`fp-bottom-panel ${getSTTDictaphone ? "speaking" : bottomOpen ? "open" : "closed"}`}
             >
+              {/* ── [1] Body: speech content (rendered when open/speaking) ── */}
               {(bottomOpen || getSTTDictaphone) && (
                 <div className="fp-panel-body">
+                  {/* c/ Speech in/out — LUÔN Ở TRÊN CÙNG */}
                   {playData !== null && (
                     <div className="fp-speech-area">
                       {getSTTDictaphone ? (
@@ -458,9 +450,12 @@ function FINAL_PROJECT({
                           setMessage={setMessage}
                         />
                       ) : (
+                        /* b/ Avatar "Bắt đầu nói" — nằm trên bar */
                         <div className="fp-reg-prompt">
                           <RegButton
-                            setGetSTTDictaphone={setGetSTTDictaphone}
+                            setGetSTTDictaphone={(v) =>
+                              setGetSTTDictaphone(v)
+                            }
                           />
                           <span className="fp-reg-hint">
                             Nhấn để bắt đầu nói
@@ -470,6 +465,7 @@ function FINAL_PROJECT({
                     </div>
                   )}
 
+                  {/* Clue box */}
                   {Clue && !isImageUrl(Clue) && (
                     <div className="fp-clue-box">
                       <span>📌</span>
@@ -478,6 +474,7 @@ function FINAL_PROJECT({
                     </div>
                   )}
 
+                  {/* Hint image / text / thumb */}
                   {playData?.hint ? (
                     isImageUrl(playData.hint) ? (
                       <img
@@ -493,7 +490,8 @@ function FINAL_PROJECT({
                           <div style={{ whiteSpace: "pre-line" }}>
                             {
                               playData.hint.split("zzzz")[
-                                numberBegin % playData.hint.split("zzzz").length
+                                numberBegin %
+                                  playData.hint.split("zzzz").length
                               ]
                             }
                           </div>
@@ -513,7 +511,9 @@ function FINAL_PROJECT({
                 </div>
               )}
 
+              {/* ── [2] Header bar — CỐ ĐỊNH Ở DƯỚI CÙNG ── */}
               <div className="fp-panel-header">
+                {/* a/ Bar "Thu gọn" */}
                 <button
                   className="fp-toggle-btn"
                   onClick={() => {
@@ -534,14 +534,12 @@ function FINAL_PROJECT({
                       : "🎙 Luyện nói"}
                   </span>
                 </button>
-
                 {!bottomOpen && Clue && !isImageUrl(Clue) && (
                   <span className="fp-collapsed-clue">
                     📌 {String(Clue).slice(0, 24)}
                     {Clue.length > 24 ? "…" : ""}
                   </span>
                 )}
-
                 <div className="fp-panel-actions">
                   {!getSTTDictaphone && (
                     <button
@@ -580,7 +578,9 @@ function FINAL_PROJECT({
                     onClick={(e) => {
                       e.stopPropagation();
                       try {
-                        document.getElementById("stopListenBTN")?.click();
+                        const stopBtn =
+                          document.getElementById("stopListenBTN");
+                        if (stopBtn) stopBtn.click();
                         setStyles((p) => ({ ...p, opacity: 0 }));
                         setTimeout(() => {
                           setStartSTT(true);
@@ -609,11 +609,7 @@ function FINAL_PROJECT({
     return null;
   }
 }
-
 export default FINAL_PROJECT;
-
-// ── Helpers ───────────────────────────────────────────────────────────
-
 function checkArrays(array01, array02) {
   const allInArray02 = array01.every((e) => array02.includes(e));
   const extra = array02.filter((e) => !array01.includes(e));
@@ -622,7 +618,6 @@ function checkArrays(array01, array02) {
   if (allInArray02 && extra.length < 2) return 1;
   return 0;
 }
-
 function enableButtonFsp() {
   const b = document.getElementById("BtnFsp");
   if (b) {
@@ -631,7 +626,6 @@ function enableButtonFsp() {
     b.style.opacity = "1";
   }
 }
-
 function disableButtonFsp() {
   const b = document.getElementById("BtnFsp");
   if (b) {
@@ -640,9 +634,8 @@ function disableButtonFsp() {
     b.style.opacity = "0.2";
   }
 }
-
 function fn_f_allTable_t_tableOfContent(input) {
-  const resSets = [];
+  let resSets = [];
   input.forEach((e, i) => {
     if (i % 4 === 0) resSets.push({});
     resSets[resSets.length - 1]["id" + (i % 4)] =
