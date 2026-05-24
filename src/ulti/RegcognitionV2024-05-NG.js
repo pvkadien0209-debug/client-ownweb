@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo } from "react";
+import React, { useEffect, useRef, useState, useMemo } from "react";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
@@ -18,11 +18,15 @@ const Dictaphone = ({
   setStartSTT,
   setMessage,
 }) => {
-  // ── Chỉ cần transcript (bỏ interimTranscript) ──────────────────────
-  const { transcript, resetTranscript } = useSpeechRecognition({
+  const { transcript, resetTranscript, listening } = useSpeechRecognition({
     continuous: true,
   });
   const [isExiting, setIsExiting] = useState(false);
+
+  // ── FIX 3: ref giữ trạng thái "đang active session" để guard restart ──
+  const isActiveRef = useRef(false);
+  // ── FIX 3: timeout ref để restart khi mobile tự ngắt ──────────────────
+  const restartTimerRef = useRef(null);
 
   /* ── Pre-normalize CMDlist 1 lần khi CMDlist thay đổi ─────────────── */
   const normalizedCMD = useMemo(() => {
@@ -42,6 +46,8 @@ const Dictaphone = ({
   );
 
   const exitWithAnimation = (afterFn) => {
+    isActiveRef.current = false;
+    clearRestartTimer();
     setIsExiting(true);
     setTimeout(() => {
       afterFn?.();
@@ -49,9 +55,44 @@ const Dictaphone = ({
     }, 290);
   };
 
+  /* ── FIX 1 + FIX 2: reset transcript trước, delay 350ms rồi mới start ─
+     Mobile cần khoảng thời gian sau khi session trước đã fully closed.
+     350ms đủ cho cả Android Chrome lẫn iOS Safari.                       */
   useEffect(() => {
-    if (getSTTDictaphone) startListening();
+    if (getSTTDictaphone) {
+      isActiveRef.current = true;
+      setIsExiting(false);
+      resetTranscript();                     // FIX 1: xóa transcript cũ
+      const t = setTimeout(() => {
+        if (isActiveRef.current) startListening(); // FIX 2: delay 350ms
+      }, 350);
+      return () => clearTimeout(t);
+    } else {
+      isActiveRef.current = false;
+      clearRestartTimer();
+    }
   }, [getSTTDictaphone]);
+
+  /* ── FIX 3: mobile tự dừng recognition sau silence → tự restart ───────
+     listening === false  +  session đang active  +  chưa exiting
+     → restart sau 200ms (tránh vòng lặp nếu đang tắt thật)              */
+  useEffect(() => {
+    if (!listening && isActiveRef.current && !isExiting) {
+      restartTimerRef.current = setTimeout(() => {
+        if (isActiveRef.current) startListening();
+      }, 200);
+    }
+    return () => clearRestartTimer();
+  }, [listening]);
+
+  /* ── Cleanup toàn bộ khi component unmount ────────────────────────── */
+  useEffect(() => {
+    return () => {
+      isActiveRef.current = false;
+      clearRestartTimer();
+      SpeechRecognition.stopListening();
+    };
+  }, []);
 
   useEffect(() => {
     const handler = () => {
@@ -62,13 +103,23 @@ const Dictaphone = ({
     return () => window.removeEventListener("dtph-soft-exit", handler);
   }, []);
 
+  const clearRestartTimer = () => {
+    if (restartTimerRef.current) {
+      clearTimeout(restartTimerRef.current);
+      restartTimerRef.current = null;
+    }
+  };
+
   const startListening = () =>
     SpeechRecognition.startListening({
       continuous: true,
       language: Lang || "en-US",
     });
 
-  const stopListening = () => SpeechRecognition.stopListening();
+  const stopListening = () => {
+    clearRestartTimer();
+    SpeechRecognition.stopListening();
+  };
 
   /* ── CHECK: so sánh transcript với CMDlist ─────────────────────────
      - Tìm câu giống nhất (sim > 50%)
@@ -81,7 +132,6 @@ const Dictaphone = ({
     const objTR = findBest(input, normalizedCMD, THRESHOLD);
 
     if (!objTR) {
-      // Không tìm được câu khớp trên 50%
       ReadMessage(
         ObjVoices,
         "Sorry, what did you say?",
@@ -89,22 +139,17 @@ const Dictaphone = ({
         GENDER === 1 ? [{ id: "sorryFemale" }] : [{ id: "sorryMale" }],
       );
     } else {
-      /* ── Chọn answer ngẫu nhiên, lấy đúng aw01 cùng index ──────────
-         aw:  ["We'd like a table.", "Dine in, please.", ...]
-         aw01:[{ st:"We'd like a table.", id:"A13_a1b1" }, ...]
-         → phải cùng index để id mp3 khớp với câu nói ra               */
       const awArr = objTR.aw || [];
       const aw01Arr = objTR.aw01 || [];
       const randomIndex = Math.floor(Math.random() * (awArr.length || 1));
       const answer = awArr[randomIndex];
-      const audioEntry = aw01Arr[randomIndex]; // { st, id }
+      const audioEntry = aw01Arr[randomIndex];
 
       if (answer) {
         ReadMessage(
           ObjVoices,
           answer,
           GENDER,
-          // Mobile chỉ dùng mp3 theo id → truyền [{ id }]
           audioEntry?.id ? [{ id: audioEntry.id }] : undefined,
         );
       }
@@ -131,7 +176,10 @@ const Dictaphone = ({
       {/* ── Phần transcript: nói → hiện ra ── */}
       <div className="dtph-transcript-box">
         <div className="dtph-row-label">
-          <span className="dtph-badge dtph-badge-1">🎙️</span>
+          {/* FIX 3: hiển thị đúng trạng thái mic thực tế (listening state) */}
+          <span className="dtph-badge dtph-badge-1">
+            {listening ? "🎙️" : "⏸️"}
+          </span>
           <span className="dtph-transcript-text">
             {transcript || (
               <span className="dtph-placeholder">Hãy nói gì đó…</span>
@@ -219,7 +267,6 @@ function findBest(statement, normalizedCMD, threshold) {
 
   outer: for (const { ref, nqs } of normalizedCMD) {
     for (const { norm: q, len: qLen } of nqs) {
-      // Length-ratio pre-filter: Dice không thể vượt 2*min/(a+b)
       const minL = Math.min(normLen, qLen);
       const maxL = Math.max(normLen, qLen);
       if (maxL === 0 || minL / maxL < threshold * 0.6) continue;
@@ -228,7 +275,7 @@ function findBest(statement, normalizedCMD, threshold) {
       if (sim >= threshold && sim > maxSim) {
         maxSim = sim;
         best = ref;
-        if (sim === 1) break outer; // perfect match
+        if (sim === 1) break outer;
       }
     }
   }
