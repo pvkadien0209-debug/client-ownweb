@@ -10,7 +10,7 @@ import SpeechRecognition, {
 } from "react-speech-recognition";
 import stringSimilarity from "string-similarity";
 import ReadMessage from "./ReadMessage_2024";
-
+import $ from "jquery";
 /* ══════════════════════════════════════════════════════════════════════
    NGUYÊN TẮC
    • Mic KHÔNG tự bật — user bấm "Bắt đầu nghe" mới chạy
@@ -53,8 +53,9 @@ const Dictaphone = ({
 
   // transcriptRef: luôn sync với transcript, check() đọc từ đây
   const transcriptRef = useRef("");
+  let dataCheck = "";
   useEffect(() => {
-    transcriptRef.current = transcript;
+    dataCheck = transcript;
   }, [transcript]);
 
   // micEnabled: ý định user (true = đang muốn nghe)
@@ -172,6 +173,7 @@ const Dictaphone = ({
     log("⏹ User bấm Dừng mic", "warn");
     micEnabledRef.current = false;
     setMicEnabled(false);
+
     SpeechRecognition.stopListening();
   };
 
@@ -188,15 +190,9 @@ const Dictaphone = ({
      CHECK
      ① capture từ ref  →  ② resetTranscript ngay  →  ③ xử lý async
   ══════════════════════════════════════════════════════════════════ */
-  function check() {
+  function check(inputData) {
     // ── Đồng thời: capture + stop + reset ──────────────────────────
-    const input = transcriptRef.current.trim();
-    SpeechRecognition.stopListening(); // ← cùng tick với capture
-    resetTranscript();
-    transcriptRef.current = "";
-    micEnabledRef.current = false;
-    setMicEnabled(false);
-    log("⏹ stopListening + reset — cùng lúc bấm Check", "warn");
+    const input = inputData?.trim() || "";
 
     if (!input) {
       log("check() — input rỗng", "warn");
@@ -291,7 +287,7 @@ const Dictaphone = ({
         </button>
 
         {/* CHECK */}
-        <button
+        {/* <button
           className="dtph-btn dtph-btn-submit"
           disabled={!hasTranscript}
           onClick={check}
@@ -299,7 +295,7 @@ const Dictaphone = ({
         >
           <i className="bi bi-check2-circle" />
           <span className="dtph-btn-label">Check</span>
-        </button>
+        </button> */}
 
         {/* BẮT ĐẦU / DỪNG mic — 2 nút riêng biệt, rõ ràng */}
         {!micEnabled ? (
@@ -314,11 +310,14 @@ const Dictaphone = ({
         ) : (
           <button
             className="dtph-btn dtph-btn-mic-stop"
-            onClick={handleStopMic}
+            onClick={() => {
+              check(transcript);
+              handleStopMic();
+            }}
             title="Dừng mic"
           >
             <i className="bi bi-stop-circle" />
-            <span className="dtph-btn-label">Dừng mic</span>
+            <span className="dtph-btn-label">Dùng câu & Dừng mic</span>
           </button>
         )}
 
