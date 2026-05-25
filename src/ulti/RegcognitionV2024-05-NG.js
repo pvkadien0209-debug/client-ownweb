@@ -38,6 +38,8 @@ const Dictaphone = ({
   const { transcript, resetTranscript, listening } = useSpeechRecognition();
 
   const [micEnabled, setMicEnabled] = useState(false);
+  // isClosing: CHỈ true khi bấm Thoát — check() KHÔNG bao giờ set true
+  const [isClosing, setIsClosing] = useState(false);
   const [showDebug, setShowDebug] = useState(false);
   const [logs, setLogs] = useState([]);
 
@@ -127,25 +129,25 @@ const Dictaphone = ({
     setMicEnabled(false);
   };
 
-  /* ── Thoát ──────────────────────────────────────────────────────── */
+  /* ── Thoát — DUY NHẤT nơi ẩn div ───────────────────────────────── */
   const hardExit = () => {
-    log("🚪 hardExit", "warn");
+    if (isClosing) return; // tránh gọi 2 lần
+    setIsClosing(true);
+    log("🚪 hardExit → ẩn div", "warn");
     SpeechRecognition.stopListening();
-    setGetSTTDictaphone(false);
+    setGetSTTDictaphone(false); // ← CHỈ dòng này ẩn div
   };
 
   /* ══════════════════════════════════════════════════════════════════
      CHECK — nhận transcript trực tiếp, gọi resetTranscript ngay
   ══════════════════════════════════════════════════════════════════ */
   const handleCheckAndStop = () => {
-    // 1. Stop + reset ngay lập tức
+    // KHÔNG gọi hardExit, KHÔNG setGetSTTDictaphone → div giữ nguyên
     SpeechRecognition.stopListening();
     const input = transcript.trim();
     resetTranscript();
     setMicEnabled(false);
-    log("⏹ stop + reset", "warn");
-
-    // 2. Xử lý
+    log("⏹ stop + reset — div GIỮ NGUYÊN", "warn");
     check(input);
   };
 

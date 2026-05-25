@@ -157,7 +157,7 @@ function FINAL_PROJECT({
   useEffect(() => {
     if (StartSTT) {
       setPlayData(null);
-      setGetSTTDictaphone(false);
+      // setGetSTTDictaphone(false);
       if (INDEXtoPlay !== -1) handleIncrementReadyClick();
     } else if (INDEXtoPlay >= 0) {
       try {
@@ -285,44 +285,44 @@ function FINAL_PROJECT({
     try {
       return (
         <div style={{ padding: "12px" }}>
+          {/* NEXT chỉ hiện khi có playData */}
           {playData !== null && (
-            <div>
-              <button
-                className="btn btn-outline-primary fp-btn-lg"
-                onClick={() => {
-                  setStyles((p) => ({ ...p, opacity: 0 }));
-                  setTimeout(() => {
-                    setStartSTT(true);
-                    setScore((D) => D - 1);
-                  }, 1000);
-                }}
-              >
-                NEXT
-              </button>
-              <div
-                className={`transition-container ${getSTTDictaphone ? "show-dictaphone" : "show-regbutton"}`}
-              >
-                {getSTTDictaphone ? (
-                  <Dictaphone
-                    getSTTDictaphone={setGetSTTDictaphone}
-                    setGetSTTDictaphone={setGetSTTDictaphone}
-                    CMDlist={CMD}
-                    GENDER={GENDER}
-                    setScore={setScore}
-                    addElementIfNotExist={addElementIfNotExist}
-                    ObjVoices={ObjREAD}
-                    Lang={Lang}
-                    regRate={regRate}
-                    regRate_01={regRate_01}
-                    setStartSTT={setStartSTT}
-                    setMessage={setMessage}
-                  />
-                ) : (
-                  <RegButton setGetSTTDictaphone={setGetSTTDictaphone} />
-                )}
-              </div>
-            </div>
+            <button
+              className="btn btn-outline-primary fp-btn-lg"
+              onClick={() => {
+                setStyles((p) => ({ ...p, opacity: 0 }));
+                setTimeout(() => {
+                  setStartSTT(true);
+                  setScore((D) => D - 1);
+                }, 1000);
+              }}
+            >
+              NEXT
+            </button>
           )}
+          {/* Dictaphone LUÔN hiển thị khi getSTTDictaphone=true, bất kể playData */}
+          <div
+            className={`transition-container ${getSTTDictaphone ? "show-dictaphone" : "show-regbutton"}`}
+          >
+            {getSTTDictaphone ? (
+              <Dictaphone
+                getSTTDictaphone={getSTTDictaphone}
+                setGetSTTDictaphone={setGetSTTDictaphone}
+                CMDlist={CMD}
+                GENDER={GENDER}
+                setScore={setScore}
+                addElementIfNotExist={addElementIfNotExist}
+                ObjVoices={ObjREAD}
+                Lang={Lang}
+                regRate={regRate}
+                regRate_01={regRate_01}
+                setStartSTT={setStartSTT}
+                setMessage={setMessage}
+              />
+            ) : playData !== null ? (
+              <RegButton setGetSTTDictaphone={setGetSTTDictaphone} />
+            ) : null}
+          </div>
         </div>
       );
     } catch {}
@@ -441,34 +441,34 @@ function FINAL_PROJECT({
             >
               {(bottomOpen || getSTTDictaphone) && (
                 <div className="fp-panel-body">
-                  {playData !== null && (
-                    <div className="fp-speech-area">
-                      {getSTTDictaphone ? (
-                        <Dictaphone
-                          getSTTDictaphone={setGetSTTDictaphone}
+                  {/* Dictaphone LUÔN render khi getSTTDictaphone=true
+                       dù playData=null (chuyển câu) — div nói không bị ẩn */}
+                  <div className="fp-speech-area">
+                    {getSTTDictaphone ? (
+                      <Dictaphone
+                        getSTTDictaphone={getSTTDictaphone}
+                        setGetSTTDictaphone={setGetSTTDictaphone}
+                        CMDlist={CMD}
+                        GENDER={GENDER}
+                        setScore={setScore}
+                        addElementIfNotExist={addElementIfNotExist}
+                        ObjVoices={ObjREAD}
+                        Lang={Lang}
+                        regRate={regRate}
+                        regRate_01={regRate_01}
+                        setMessage={setMessage}
+                      />
+                    ) : playData !== null ? (
+                      <div className="fp-reg-prompt">
+                        <RegButton
                           setGetSTTDictaphone={setGetSTTDictaphone}
-                          CMDlist={CMD}
-                          GENDER={GENDER}
-                          setScore={setScore}
-                          addElementIfNotExist={addElementIfNotExist}
-                          ObjVoices={ObjREAD}
-                          Lang={Lang}
-                          regRate={regRate}
-                          regRate_01={regRate_01}
-                          setMessage={setMessage}
                         />
-                      ) : (
-                        <div className="fp-reg-prompt">
-                          <RegButton
-                            setGetSTTDictaphone={setGetSTTDictaphone}
-                          />
-                          <span className="fp-reg-hint">
-                            Nhấn để bắt đầu nói
-                          </span>
-                        </div>
-                      )}
-                    </div>
-                  )}
+                        <span className="fp-reg-hint">
+                          Nhấn để bắt đầu nói
+                        </span>
+                      </div>
+                    ) : null}
+                  </div>
 
                   {Clue && !isImageUrl(Clue) && (
                     <div className="fp-clue-box">
