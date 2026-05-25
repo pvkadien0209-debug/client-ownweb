@@ -435,167 +435,6 @@ function FINAL_PROJECT({
               </div>
             </div>
 
-            {/* ── BOTTOM: Speech panel ── */}
-            <div
-              className={`fp-bottom-panel ${getSTTDictaphone ? "speaking" : bottomOpen ? "open" : "closed"}`}
-            >
-              {(bottomOpen || getSTTDictaphone) && (
-                <div className="fp-panel-body">
-                  {/* Dictaphone LUÔN render khi getSTTDictaphone=true
-                       dù playData=null (chuyển câu) — div nói không bị ẩn */}
-                  <div className="fp-speech-area">
-                    {getSTTDictaphone ? (
-                      <Dictaphone
-                        getSTTDictaphone={getSTTDictaphone}
-                        setGetSTTDictaphone={setGetSTTDictaphone}
-                        CMDlist={CMD}
-                        GENDER={GENDER}
-                        setScore={setScore}
-                        addElementIfNotExist={addElementIfNotExist}
-                        ObjVoices={ObjREAD}
-                        Lang={Lang}
-                        regRate={regRate}
-                        regRate_01={regRate_01}
-                        setMessage={setMessage}
-                      />
-                    ) : playData !== null ? (
-                      <div className="fp-reg-prompt">
-                        <RegButton
-                          setGetSTTDictaphone={setGetSTTDictaphone}
-                        />
-                        <span className="fp-reg-hint">
-                          Nhấn để bắt đầu nói
-                        </span>
-                      </div>
-                    ) : null}
-                  </div>
-
-                  {Clue && !isImageUrl(Clue) && (
-                    <div className="fp-clue-box">
-                      <span>📌</span>
-                      <b>Gợi ý: </b>
-                      <span style={{ color: "#1a56db" }}>{Clue}</span>
-                    </div>
-                  )}
-
-                  {playData?.hint ? (
-                    isImageUrl(playData.hint) ? (
-                      <img
-                        className="fp-hint-img"
-                        src={playData.hint}
-                        loading="lazy"
-                        alt="hint"
-                      />
-                    ) : (
-                      <div className="fp-hint-text">
-                        <div className="fp-hint-title">💡 Gợi ý</div>
-                        {playData.hint.includes("zzzz") ? (
-                          <div style={{ whiteSpace: "pre-line" }}>
-                            {
-                              playData.hint.split("zzzz")[
-                                numberBegin % playData.hint.split("zzzz").length
-                              ]
-                            }
-                          </div>
-                        ) : (
-                          <div>{playData.hint}</div>
-                        )}
-                      </div>
-                    )
-                  ) : playData?.img ? (
-                    <img
-                      className="fp-thumb-img"
-                      src={playData.img}
-                      loading="lazy"
-                      alt="thumb"
-                    />
-                  ) : null}
-                </div>
-              )}
-
-              <div className="fp-panel-header">
-                <button
-                  className="fp-toggle-btn"
-                  onClick={() => {
-                    if (getSTTDictaphone) {
-                      window.dispatchEvent(new CustomEvent("dtph-soft-exit"));
-                      setTimeout(() => setBottomOpen(false), 320);
-                    } else {
-                      setBottomOpen((b) => !b);
-                    }
-                  }}
-                >
-                  <span className="fp-toggle-arrow">
-                    {bottomOpen || getSTTDictaphone ? "▼" : "▲"}
-                  </span>
-                  <span className="fp-toggle-label">
-                    {bottomOpen || getSTTDictaphone
-                      ? "Thu gọn"
-                      : "🎙 Luyện nói"}
-                  </span>
-                </button>
-
-                {!bottomOpen && Clue && !isImageUrl(Clue) && (
-                  <span className="fp-collapsed-clue">
-                    📌 {String(Clue).slice(0, 24)}
-                    {Clue.length > 24 ? "…" : ""}
-                  </span>
-                )}
-
-                <div className="fp-panel-actions">
-                  {!getSTTDictaphone && (
-                    <button
-                      id="BtnFsp"
-                      className="fp-icon-btn fp-speak-btn"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        try {
-                          ReadMessage(
-                            ObjREAD,
-                            playData.fsp,
-                            GENDER,
-                            playData.fspSets,
-                          );
-                        } catch {}
-                      }}
-                      title="Nghe mẫu"
-                    >
-                      <i className="bi bi-chat-left-dots" />
-                    </button>
-                  )}
-                  <button
-                    className="fp-icon-btn fp-mic-btn"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      setGetSTTDictaphone(true);
-                      setBottomOpen(true);
-                    }}
-                    title="Bắt đầu nói"
-                  >
-                    <i className="bi bi-mic-fill" />
-                  </button>
-                  <button
-                    id="btnBoQua"
-                    className="fp-icon-btn fp-skip-btn"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      try {
-                        document.getElementById("stopListenBTN")?.click();
-                        setStyles((p) => ({ ...p, opacity: 0 }));
-                        setTimeout(() => {
-                          setStartSTT(true);
-                          setScore((D) => D - 1);
-                        }, 1000);
-                      } catch {}
-                    }}
-                    title="Bỏ qua"
-                  >
-                    ⏭
-                  </button>
-                </div>
-              </div>
-            </div>
-
             <button
               style={{ display: "none" }}
               id="setGetSTTDictaphone"
@@ -603,6 +442,160 @@ function FINAL_PROJECT({
             />
           </>
         )}
+        {/* ── BOTTOM: Speech panel ── */}
+        <div
+          className={`fp-bottom-panel ${getSTTDictaphone ? "speaking" : bottomOpen ? "open" : "closed"}`}
+        >
+          {(bottomOpen || getSTTDictaphone) && (
+            <div className="fp-panel-body">
+              {/* Dictaphone LUÔN render khi getSTTDictaphone=true
+                 dù playData=null (chuyển câu) — div nói không bị ẩn */}
+              <div className="fp-speech-area">
+                {getSTTDictaphone ? (
+                  <Dictaphone
+                    getSTTDictaphone={getSTTDictaphone}
+                    setGetSTTDictaphone={setGetSTTDictaphone}
+                    CMDlist={CMD}
+                    GENDER={GENDER}
+                    setScore={setScore}
+                    addElementIfNotExist={addElementIfNotExist}
+                    ObjVoices={ObjREAD}
+                    Lang={Lang}
+                    regRate={regRate}
+                    regRate_01={regRate_01}
+                    setMessage={setMessage}
+                  />
+                ) : playData !== null ? (
+                  <div className="fp-reg-prompt">
+                    <RegButton setGetSTTDictaphone={setGetSTTDictaphone} />
+                    <span className="fp-reg-hint">Nhấn để bắt đầu nói</span>
+                  </div>
+                ) : null}
+              </div>
+
+              {Clue && !isImageUrl(Clue) && (
+                <div className="fp-clue-box">
+                  <span>📌</span>
+                  <b>Gợi ý: </b>
+                  <span style={{ color: "#1a56db" }}>{Clue}</span>
+                </div>
+              )}
+
+              {playData?.hint ? (
+                isImageUrl(playData.hint) ? (
+                  <img
+                    className="fp-hint-img"
+                    src={playData.hint}
+                    loading="lazy"
+                    alt="hint"
+                  />
+                ) : (
+                  <div className="fp-hint-text">
+                    <div className="fp-hint-title">💡 Gợi ý</div>
+                    {playData.hint.includes("zzzz") ? (
+                      <div style={{ whiteSpace: "pre-line" }}>
+                        {
+                          playData.hint.split("zzzz")[
+                            numberBegin % playData.hint.split("zzzz").length
+                          ]
+                        }
+                      </div>
+                    ) : (
+                      <div>{playData.hint}</div>
+                    )}
+                  </div>
+                )
+              ) : playData?.img ? (
+                <img
+                  className="fp-thumb-img"
+                  src={playData.img}
+                  loading="lazy"
+                  alt="thumb"
+                />
+              ) : null}
+            </div>
+          )}
+
+          <div className="fp-panel-header">
+            <button
+              className="fp-toggle-btn"
+              onClick={() => {
+                if (getSTTDictaphone) {
+                  window.dispatchEvent(new CustomEvent("dtph-soft-exit"));
+                  setTimeout(() => setBottomOpen(false), 320);
+                } else {
+                  setBottomOpen((b) => !b);
+                }
+              }}
+            >
+              <span className="fp-toggle-arrow">
+                {bottomOpen || getSTTDictaphone ? "▼" : "▲"}
+              </span>
+              <span className="fp-toggle-label">
+                {bottomOpen || getSTTDictaphone ? "Thu gọn" : "🎙 Luyện nói"}
+              </span>
+            </button>
+
+            {!bottomOpen && Clue && !isImageUrl(Clue) && (
+              <span className="fp-collapsed-clue">
+                📌 {String(Clue).slice(0, 24)}
+                {Clue.length > 24 ? "…" : ""}
+              </span>
+            )}
+
+            <div className="fp-panel-actions">
+              {!getSTTDictaphone && (
+                <button
+                  id="BtnFsp"
+                  className="fp-icon-btn fp-speak-btn"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    try {
+                      ReadMessage(
+                        ObjREAD,
+                        playData.fsp,
+                        GENDER,
+                        playData.fspSets,
+                      );
+                    } catch {}
+                  }}
+                  title="Nghe mẫu"
+                >
+                  <i className="bi bi-chat-left-dots" />
+                </button>
+              )}
+              <button
+                className="fp-icon-btn fp-mic-btn"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setGetSTTDictaphone(true);
+                  setBottomOpen(true);
+                }}
+                title="Bắt đầu nói"
+              >
+                <i className="bi bi-mic-fill" />
+              </button>
+              <button
+                id="btnBoQua"
+                className="fp-icon-btn fp-skip-btn"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  try {
+                    document.getElementById("stopListenBTN")?.click();
+                    setStyles((p) => ({ ...p, opacity: 0 }));
+                    setTimeout(() => {
+                      setStartSTT(true);
+                      setScore((D) => D - 1);
+                    }, 1000);
+                  } catch {}
+                }}
+                title="Bỏ qua"
+              >
+                ⏭
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     );
   } catch {

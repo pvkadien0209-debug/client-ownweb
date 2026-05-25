@@ -160,47 +160,45 @@ const Dictaphone = ({
     log(`🔍 "${input}"`, "check");
     setMessage(input);
 
-    setTimeout(() => {
-      const objTR = findBest(input, normalizedCMD, THRESHOLD);
+    const objTR = findBest(input, normalizedCMD, THRESHOLD);
 
-      if (!objTR) {
-        log(`❌ không khớp`, "error");
-        ReadMessage(
-          ObjVoices,
-          "Sorry, what did you say?",
-          GENDER,
-          GENDER === 1 ? [{ id: "sorryFemale" }] : [{ id: "sorryMale" }],
-        );
-        return;
+    if (!objTR) {
+      log(`❌ không khớp`, "error");
+      ReadMessage(
+        ObjVoices,
+        "Sorry, what did you say?",
+        GENDER,
+        GENDER === 1 ? [{ id: "sorryFemale" }] : [{ id: "sorryMale" }],
+      );
+      return;
+    }
+
+    const awArr = objTR.aw || [];
+    const aw01Arr = objTR.aw01 || [];
+    const idx = Math.floor(Math.random() * (awArr.length || 1));
+    const answer = awArr[idx];
+    const audio = aw01Arr[idx];
+
+    log(`✅ "${answer}" | ${audio?.id || "TTS"}`, "ok");
+    if (answer)
+      ReadMessage(
+        ObjVoices,
+        answer,
+        GENDER,
+        audio?.id ? [{ id: audio.id }] : undefined,
+      );
+
+    if (objTR.action?.[0]) {
+      if (objTR.action[0] === "WRONG") {
+        log("⚡ WRONG", "warn");
+        const btn = document.getElementById("btnBoQua");
+        if (btn) btn.click();
+        else setScore((S) => S - 2);
+      } else {
+        log(`⚡ addElement(${objTR.action[0]})`, "ok");
+        addElementIfNotExist(objTR.action[0]);
       }
-
-      const awArr = objTR.aw || [];
-      const aw01Arr = objTR.aw01 || [];
-      const idx = Math.floor(Math.random() * (awArr.length || 1));
-      const answer = awArr[idx];
-      const audio = aw01Arr[idx];
-
-      log(`✅ "${answer}" | ${audio?.id || "TTS"}`, "ok");
-      if (answer)
-        ReadMessage(
-          ObjVoices,
-          answer,
-          GENDER,
-          audio?.id ? [{ id: audio.id }] : undefined,
-        );
-
-      if (objTR.action?.[0]) {
-        if (objTR.action[0] === "WRONG") {
-          log("⚡ WRONG", "warn");
-          const btn = document.getElementById("btnBoQua");
-          if (btn) btn.click();
-          else setScore((S) => S - 2);
-        } else {
-          log(`⚡ addElement(${objTR.action[0]})`, "ok");
-          addElementIfNotExist(objTR.action[0]);
-        }
-      }
-    }, 0);
+    }
   }
 
   /* ════════════════════════════════════════════════════════════════
