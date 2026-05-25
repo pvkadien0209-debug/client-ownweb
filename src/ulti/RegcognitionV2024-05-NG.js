@@ -4,6 +4,7 @@ import SpeechRecognition, {
 } from "react-speech-recognition";
 import stringSimilarity from "string-similarity";
 import ReadMessage from "./ReadMessage_2024";
+import { json } from "react-router-dom";
 
 /* ── Debug helpers ──────────────────────────────────────────────────── */
 const MAX_LOGS = 50;
@@ -156,8 +157,8 @@ const Dictaphone = ({
     //   log("check() — rỗng", "warn");
     //   return;
     // }
-    alert(1);
-    log(`🔍 "${input}"`, "check");
+    alert(input, JSON.stringify(normalizedCMD));
+    // log(`🔍 "${input}"`, "check");
     // setMessage(input);
 
     // const objTR = findBest(input, normalizedCMD, THRESHOLD);
