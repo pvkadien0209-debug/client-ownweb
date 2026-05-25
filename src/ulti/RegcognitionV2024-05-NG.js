@@ -5,6 +5,18 @@ import SpeechRecognition, {
 import stringSimilarity from "string-similarity";
 import ReadMessage from "./ReadMessage_2024";
 
+/* ════════════════════════════════════════════════════════════════════════
+   NGUYÊN TẮC HOẠT ĐỘNG (mobile-safe)
+   ─────────────────────────────────
+   • Mic BẬT 1 lần khi component mount, KHÔNG bao giờ tắt giữa chừng
+   • check() chỉ gọi resetTranscript() — KHÔNG đụng đến mic
+   • Chuyển câu mới (CMDlist thay đổi) → KHÔNG đụng đến mic
+   • Mobile tự ngắt sau silence → auto-restart ngầm (useEffect listening)
+   • Duy nhất 2 cách tắt mic thật sự:
+       1. User bấm nút "Tắt mic"  (toggle tạm)
+       2. User bấm "Thoát"        (đóng hẳn component)
+════════════════════════════════════════════════════════════════════════ */
+
 const Dictaphone = ({
   getSTTDictaphone,
   setGetSTTDictaphone,
@@ -18,95 +30,83 @@ const Dictaphone = ({
   setStartSTT,
   setMessage,
 }) => {
-  const { transcript, resetTranscript, listening } = useSpeechRecognition({
-    continuous: true,
-  });
+  const { transcript, resetTranscript, listening } = useSpeechRecognition();
+
+  // micEnabled: ý định của user (bật/tắt chủ động)
+  // listening:  trạng thái thật của Web Speech API
+  const [micEnabled, setMicEnabled] = useState(true);
   const [isExiting, setIsExiting] = useState(false);
 
-  // ── FIX 3: ref giữ trạng thái "đang active session" để guard restart ──
-  const isActiveRef = useRef(false);
-  // ── FIX 3: timeout ref để restart khi mobile tự ngắt ──────────────────
-  const restartTimerRef = useRef(null);
+  // Ref để các useEffect không bị stale closure
+  const micEnabledRef = useRef(true);
+  const restartRef = useRef(null);
 
-  /* ── Pre-normalize CMDlist 1 lần khi CMDlist thay đổi ─────────────── */
+  /* ── Pre-normalize CMDlist ─────────────────────────────────────────── */
   const normalizedCMD = useMemo(() => {
-    return CMDlist.map((qObj) => ({
+    return (CMDlist || []).map((qObj) => ({
       ref: qObj,
-      nqs: qObj.qs.map((q) => ({
+      nqs: (qObj.qs || []).map((q) => ({
         norm: removeAccentsAndLowercase(q),
         len: q.length,
       })),
     }));
-  }, [CMDlist]);
+  }, [CMDlist]); // ← CMDlist thay đổi chỉ re-normalize, KHÔNG tắt mic
 
-  /* ── Threshold tối thiểu 50% ───────────────────────────────────────── */
   const THRESHOLD = Math.max(
     typeof regRate_01 === "number" ? regRate_01 : 0.5,
     0.5,
   );
 
-  const exitWithAnimation = (afterFn) => {
-    isActiveRef.current = false;
-    clearRestartTimer();
-    setIsExiting(true);
-    setTimeout(() => {
-      afterFn?.();
-      setGetSTTDictaphone(false);
-    }, 290);
-  };
-
-  /* ── FIX 1 + FIX 2: reset transcript trước, delay 350ms rồi mới start ─
-     Mobile cần khoảng thời gian sau khi session trước đã fully closed.
-     350ms đủ cho cả Android Chrome lẫn iOS Safari.                       */
+  /* ════════════════════════════════════════════════════════════════════
+     1. MOUNT / UNMOUNT
+     ─ Khi component hiện ra: bật mic 1 lần (delay 300ms cho mobile)
+     ─ Khi unmount: dọn hết timer + tắt mic
+  ════════════════════════════════════════════════════════════════════ */
   useEffect(() => {
-    if (getSTTDictaphone) {
-      isActiveRef.current = true;
-      setIsExiting(false);
-      resetTranscript();                     // FIX 1: xóa transcript cũ
-      const t = setTimeout(() => {
-        if (isActiveRef.current) startListening(); // FIX 2: delay 350ms
-      }, 350);
-      return () => clearTimeout(t);
-    } else {
-      isActiveRef.current = false;
-      clearRestartTimer();
-    }
-  }, [getSTTDictaphone]);
+    if (!getSTTDictaphone) return;
 
-  /* ── FIX 3: mobile tự dừng recognition sau silence → tự restart ───────
-     listening === false  +  session đang active  +  chưa exiting
-     → restart sau 200ms (tránh vòng lặp nếu đang tắt thật)              */
-  useEffect(() => {
-    if (!listening && isActiveRef.current && !isExiting) {
-      restartTimerRef.current = setTimeout(() => {
-        if (isActiveRef.current) startListening();
-      }, 200);
-    }
-    return () => clearRestartTimer();
-  }, [listening]);
+    micEnabledRef.current = true;
+    setMicEnabled(true);
+    setIsExiting(false);
+    resetTranscript();
 
-  /* ── Cleanup toàn bộ khi component unmount ────────────────────────── */
-  useEffect(() => {
+    const t = setTimeout(() => startListening(), 300);
+
     return () => {
-      isActiveRef.current = false;
-      clearRestartTimer();
+      clearTimeout(t);
+      clearRestart();
       SpeechRecognition.stopListening();
     };
-  }, []);
+  }, [getSTTDictaphone]); // eslint-disable-line
 
+  /* ════════════════════════════════════════════════════════════════════
+     2. AUTO-RESTART — mobile tự ngắt sau silence
+     ─ Chỉ restart khi: mic đang tắt (listening=false) + user chưa tắt
+       chủ động (micEnabled=true) + component chưa đóng (!isExiting)
+  ════════════════════════════════════════════════════════════════════ */
   useEffect(() => {
-    const handler = () => {
-      stopListening();
-      exitWithAnimation();
-    };
+    if (!listening && micEnabledRef.current && !isExiting) {
+      restartRef.current = setTimeout(() => {
+        if (micEnabledRef.current) startListening();
+      }, 300);
+    }
+    return () => clearRestart();
+  }, [listening]); // eslint-disable-line
+
+  /* ════════════════════════════════════════════════════════════════════
+     3. SOFT-EXIT từ bên ngoài (event dtph-soft-exit)
+  ════════════════════════════════════════════════════════════════════ */
+  useEffect(() => {
+    const handler = () => hardExit();
     window.addEventListener("dtph-soft-exit", handler);
     return () => window.removeEventListener("dtph-soft-exit", handler);
-  }, []);
+  }, []); // eslint-disable-line
 
-  const clearRestartTimer = () => {
-    if (restartTimerRef.current) {
-      clearTimeout(restartTimerRef.current);
-      restartTimerRef.current = null;
+  /* ── Internal helpers ─────────────────────────────────────────────── */
+  const clearRestart = () => {
+    if (restartRef.current) {
+      clearTimeout(restartRef.current);
+      restartRef.current = null;
     }
   };
 
@@ -116,14 +116,35 @@ const Dictaphone = ({
       language: Lang || "en-US",
     });
 
-  const stopListening = () => {
-    clearRestartTimer();
-    SpeechRecognition.stopListening();
+  /* ── Toggle mic (bật / tắt chủ động) ─────────────────────────────── */
+  const toggleMic = () => {
+    if (micEnabled) {
+      // Tắt mic chủ động
+      micEnabledRef.current = false;
+      setMicEnabled(false);
+      clearRestart();
+      SpeechRecognition.stopListening();
+    } else {
+      // Bật lại mic
+      micEnabledRef.current = true;
+      setMicEnabled(true);
+      resetTranscript();
+      startListening();
+    }
   };
 
-  /* ── CHECK: so sánh transcript với CMDlist ─────────────────────────
-     - Tìm câu giống nhất (sim > 50%)
-     - Dùng ReadMessage với id mp3 từ aw01 (hỗ trợ mobile)             */
+  /* ── Thoát hẳn component ──────────────────────────────────────────── */
+  const hardExit = () => {
+    micEnabledRef.current = false;
+    clearRestart();
+    SpeechRecognition.stopListening();
+    setIsExiting(true);
+    setTimeout(() => setGetSTTDictaphone(false), 290);
+  };
+
+  /* ════════════════════════════════════════════════════════════════════
+     4. CHECK — KHÔNG đụng đến mic, chỉ resetTranscript
+  ════════════════════════════════════════════════════════════════════ */
   function check(RegInput) {
     const input = (RegInput || "").trim();
     if (!input) return;
@@ -141,16 +162,16 @@ const Dictaphone = ({
     } else {
       const awArr = objTR.aw || [];
       const aw01Arr = objTR.aw01 || [];
-      const randomIndex = Math.floor(Math.random() * (awArr.length || 1));
-      const answer = awArr[randomIndex];
-      const audioEntry = aw01Arr[randomIndex];
+      const idx = Math.floor(Math.random() * (awArr.length || 1));
+      const answer = awArr[idx];
+      const audio = aw01Arr[idx];
 
       if (answer) {
         ReadMessage(
           ObjVoices,
           answer,
           GENDER,
-          audioEntry?.id ? [{ id: audioEntry.id }] : undefined,
+          audio?.id ? [{ id: audio.id }] : undefined,
         );
       }
 
@@ -165,24 +186,31 @@ const Dictaphone = ({
       }
     }
 
-    stopListening();
-    exitWithAnimation();
+    // ✅ Chỉ xóa text — mic KHÔNG bị đụng
+    resetTranscript();
   }
 
+  /* ════════════════════════════════════════════════════════════════════
+     RENDER
+  ════════════════════════════════════════════════════════════════════ */
   const hasTranscript = transcript.trim().length > 0;
+
+  // Trạng thái mic hiển thị cho user
+  const micStatus = !micEnabled
+    ? { icon: "🔇", label: "Mic đang tắt", css: "dtph-mic-off" }
+    : listening
+      ? { icon: "🎙️", label: "Đang nghe…", css: "dtph-mic-on" }
+      : { icon: "⏳", label: "Đang kết nối…", css: "dtph-mic-wait" };
 
   return (
     <div className={`dtph-wrap ${isExiting ? "dtph-exiting" : ""}`}>
-      {/* ── Phần transcript: nói → hiện ra ── */}
+      {/* ── Trạng thái mic + transcript ── */}
       <div className="dtph-transcript-box">
-        <div className="dtph-row-label">
-          {/* FIX 3: hiển thị đúng trạng thái mic thực tế (listening state) */}
-          <span className="dtph-badge dtph-badge-1">
-            {listening ? "🎙️" : "⏸️"}
-          </span>
+        <div className={`dtph-row-label ${micStatus.css}`}>
+          <span className="dtph-badge">{micStatus.icon}</span>
           <span className="dtph-transcript-text">
             {transcript || (
-              <span className="dtph-placeholder">Hãy nói gì đó…</span>
+              <span className="dtph-placeholder">{micStatus.label}</span>
             )}
           </span>
         </div>
@@ -190,6 +218,7 @@ const Dictaphone = ({
 
       {/* ── Nút hành động ── */}
       <div className="dtph-actions">
+        {/* Xóa text */}
         <button
           className="dtph-btn dtph-btn-clear"
           onClick={() => resetTranscript()}
@@ -199,7 +228,7 @@ const Dictaphone = ({
           <span className="dtph-btn-label">Xóa</span>
         </button>
 
-        {/* CHECK: chỉ active khi đã có transcript */}
+        {/* Check */}
         <button
           className="dtph-btn dtph-btn-submit"
           disabled={!hasTranscript}
@@ -210,12 +239,22 @@ const Dictaphone = ({
           <span className="dtph-btn-label">Check</span>
         </button>
 
+        {/* Toggle mic — bật / tắt chủ động */}
+        <button
+          className={`dtph-btn ${micEnabled ? "dtph-btn-mic-on" : "dtph-btn-mic-off"}`}
+          onClick={toggleMic}
+          title={micEnabled ? "Tắt mic" : "Bật mic"}
+        >
+          <i className={`bi ${micEnabled ? "bi-mic" : "bi-mic-mute"}`} />
+          <span className="dtph-btn-label">
+            {micEnabled ? "Mic" : "Bật mic"}
+          </span>
+        </button>
+
+        {/* Thoát hẳn */}
         <button
           className="dtph-btn dtph-btn-exit"
-          onClick={() => {
-            stopListening();
-            exitWithAnimation();
-          }}
+          onClick={hardExit}
           title="Thoát"
         >
           <i className="bi bi-x-circle" />
@@ -224,17 +263,16 @@ const Dictaphone = ({
       </div>
 
       <div className="dtph-info-strip">
-        <span>🎙️ Nói → bấm Check</span>
+        <span>Nói → Check → nói tiếp</span>
         <span className="dtph-info-sep">·</span>
         <span>≥ 50% khớp mới tính</span>
-        <span className="dtph-info-sep">·</span>
-        <span>🏃 Luyện nhanh &gt; hoàn hảo</span>
       </div>
 
+      {/* Hidden stop button cho external caller */}
       <button
         id="stopListenBTN"
         style={{ display: "none" }}
-        onClick={stopListening}
+        onClick={hardExit}
       />
     </div>
   );
@@ -242,20 +280,18 @@ const Dictaphone = ({
 
 export default Dictaphone;
 
-// ── Helpers ──────────────────────────────────────────────────────────
+/* ══════════════════════════════════════════════════════════════════════
+   HELPERS
+══════════════════════════════════════════════════════════════════════ */
 
 function removeAccentsAndLowercase(str) {
   return str
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[.,?]/g, "")
+    .replace(/[.,?!]/g, "")
     .toLowerCase();
 }
 
-/**
- * Tìm câu khớp nhất — pre-filter theo length ratio, early exit khi sim===1.
- * Trả về object gốc (ref) từ CMDlist nếu sim >= threshold, ngược lại null.
- */
 function findBest(statement, normalizedCMD, threshold) {
   if (!statement) return null;
   const norm = removeAccentsAndLowercase(statement);
@@ -275,7 +311,7 @@ function findBest(statement, normalizedCMD, threshold) {
       if (sim >= threshold && sim > maxSim) {
         maxSim = sim;
         best = ref;
-        if (sim === 1) break outer;
+        if (sim === 1) break outer; // perfect match → dừng sớm
       }
     }
   }
