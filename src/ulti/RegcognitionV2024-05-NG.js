@@ -1,23 +1,9 @@
-import React, {
-  useEffect,
-  useRef,
-  useState,
-  useMemo,
-  useCallback,
-} from "react";
+import React, { useEffect, useState, useMemo, useCallback } from "react";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
 import stringSimilarity from "string-similarity";
 import ReadMessage from "./ReadMessage_2024";
-import $ from "jquery";
-/* ══════════════════════════════════════════════════════════════════════
-   NGUYÊN TẮC
-   • Mic KHÔNG tự bật — user bấm "Bắt đầu nghe" mới chạy
-   • Một khi đã bật: mic ở liên tục, KHÔNG auto-restart
-   • check() đọc transcriptRef → resetTranscript → xử lý async
-   • Chỉ 2 cách tắt mic: nút "Dừng mic" hoặc nút "Thoát"
-══════════════════════════════════════════════════════════════════════ */
 
 /* ── Debug helpers ──────────────────────────────────────────────────── */
 const MAX_LOGS = 50;
@@ -51,21 +37,9 @@ const Dictaphone = ({
 }) => {
   const { transcript, resetTranscript, listening } = useSpeechRecognition();
 
-  // transcriptRef: luôn sync với transcript, check() đọc từ đây
-  const transcriptRef = useRef("");
-  let dataCheck = "";
-  useEffect(() => {
-    dataCheck = transcript;
-  }, [transcript]);
-
-  // micEnabled: ý định user (true = đang muốn nghe)
-  const [micEnabled, setMicEnabled] = useState(false); // ← mặc định OFF
-  const [isExiting, setIsExiting] = useState(false);
+  const [micEnabled, setMicEnabled] = useState(false);
   const [showDebug, setShowDebug] = useState(false);
   const [logs, setLogs] = useState([]);
-
-  const micEnabledRef = useRef(false); // sync với micEnabled
-  const logEndRef = useRef(null);
 
   /* ── Logger ─────────────────────────────────────────────────────── */
   const log = useCallback((msg, type = "info") => {
@@ -94,57 +68,32 @@ const Dictaphone = ({
     0.5,
   );
 
-  /* ── startListening — hàm gọi API ──────────────────────────────── */
-  const startListening = useCallback(() => {
-    SpeechRecognition.startListening({
-      continuous: true,
-      language: Lang || "en-US",
-    });
-    log("🎙️ startListening() được gọi", "ok");
-  }, [Lang, log]);
-
-  /* ══════════════════════════════════════════════════════════════════
-     MOUNT — chỉ reset state, KHÔNG bật mic
-  ══════════════════════════════════════════════════════════════════ */
+  /* ── Mount: reset, KHÔNG tự bật mic ────────────────────────────── */
   useEffect(() => {
     if (!getSTTDictaphone) return;
-    log("▶ Component mount — chờ user bấm Bắt đầu nghe", "info");
-    micEnabledRef.current = false;
+    log("▶ mount — chờ bấm Bắt đầu", "info");
     setMicEnabled(false);
-    setIsExiting(false);
     resetTranscript();
-    transcriptRef.current = "";
-
     return () => {
-      micEnabledRef.current = false;
       SpeechRecognition.stopListening();
-      log("◀ unmount — mic dừng", "warn");
+      log("◀ unmount", "warn");
     };
   }, [getSTTDictaphone]); // eslint-disable-line
 
-  /* ══════════════════════════════════════════════════════════════════
-     THEO DÕI listening — CHỈ LOG, không auto-restart
-  ══════════════════════════════════════════════════════════════════ */
+  /* ── Log listening state ────────────────────────────────────────── */
   useEffect(() => {
-    if (listening) {
-      log("✅ listening = TRUE", "ok");
-    } else {
-      log("⚠️ listening = FALSE — mic đã dừng", "warn");
-      // Không auto-restart — user phải bấm lại thủ công nếu muốn
-    }
+    log(
+      listening ? "✅ listening = TRUE" : "⚠️ listening = FALSE",
+      listening ? "ok" : "warn",
+    );
   }, [listening]); // eslint-disable-line
 
-  /* ── Log transcript mới (debug) ─────────────────────────────────── */
+  /* ── Log transcript ─────────────────────────────────────────────── */
   useEffect(() => {
     if (transcript.trim()) log(`🗣 "${transcript.trim()}"`, "info");
   }, [transcript]); // eslint-disable-line
 
-  /* ── Auto-scroll debug ──────────────────────────────────────────── */
-  useEffect(() => {
-    if (showDebug) logEndRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [logs, showDebug]);
-
-  /* ── Soft-exit event ────────────────────────────────────────────── */
+  /* ── Soft-exit ──────────────────────────────────────────────────── */
   useEffect(() => {
     const h = () => {
       log("dtph-soft-exit", "warn");
@@ -154,59 +103,66 @@ const Dictaphone = ({
     return () => window.removeEventListener("dtph-soft-exit", h);
   }, []); // eslint-disable-line
 
-  /* ══════════════════════════════════════════════════════════════════
-     BẮT ĐẦU NGHE — user bấm thủ công
-  ══════════════════════════════════════════════════════════════════ */
+  /* ── startListening ─────────────────────────────────────────────── */
+  const startListening = () => {
+    SpeechRecognition.startListening({
+      continuous: true,
+      language: Lang || "en-US",
+    });
+    log("🎙️ startListening()", "ok");
+  };
+
+  /* ── BẮT ĐẦU ───────────────────────────────────────────────────── */
   const handleStartMic = () => {
-    log("▶ User bấm Bắt đầu nghe", "ok");
-    micEnabledRef.current = true;
-    setMicEnabled(true);
+    log("▶ Bắt đầu nghe", "ok");
     resetTranscript();
-    transcriptRef.current = "";
+    setMicEnabled(true);
     startListening();
   };
 
-  /* ══════════════════════════════════════════════════════════════════
-     DỪNG MIC — user bấm thủ công
-  ══════════════════════════════════════════════════════════════════ */
+  /* ── DỪNG (không check) ─────────────────────────────────────────── */
   const handleStopMic = () => {
-    log("⏹ User bấm Dừng mic", "warn");
-    micEnabledRef.current = false;
-    setMicEnabled(false);
-
+    log("⏹ Dừng mic", "warn");
     SpeechRecognition.stopListening();
+    setMicEnabled(false);
   };
 
-  /* ── hardExit ───────────────────────────────────────────────────── */
+  /* ── Thoát ──────────────────────────────────────────────────────── */
   const hardExit = () => {
     log("🚪 hardExit", "warn");
-    micEnabledRef.current = false;
     SpeechRecognition.stopListening();
-    setIsExiting(true);
-    setTimeout(() => setGetSTTDictaphone(false), 290);
+    setGetSTTDictaphone(false);
   };
 
   /* ══════════════════════════════════════════════════════════════════
-     CHECK
-     ① capture từ ref  →  ② resetTranscript ngay  →  ③ xử lý async
+     CHECK — nhận transcript trực tiếp, gọi resetTranscript ngay
   ══════════════════════════════════════════════════════════════════ */
-  function check(inputData) {
-    // ── Đồng thời: capture + stop + reset ──────────────────────────
-    const input = inputData?.trim() || "";
+  const handleCheckAndStop = () => {
+    // 1. Stop + reset ngay lập tức
+    SpeechRecognition.stopListening();
+    const input = transcript.trim();
+    resetTranscript();
+    setMicEnabled(false);
+    log("⏹ stop + reset", "warn");
 
+    // 2. Xử lý
+    check(input);
+  };
+
+  function check(input) {
     if (!input) {
-      log("check() — input rỗng", "warn");
+      log("check() — rỗng", "warn");
       return;
     }
 
-    log(`🔍 check: "${input}"`, "check");
+    log(`🔍 "${input}"`, "check");
     setMessage(input);
 
     setTimeout(() => {
       const objTR = findBest(input, normalizedCMD, THRESHOLD);
 
       if (!objTR) {
-        log(`❌ không khớp (threshold=${THRESHOLD})`, "error");
+        log(`❌ không khớp`, "error");
         ReadMessage(
           ObjVoices,
           "Sorry, what did you say?",
@@ -222,7 +178,7 @@ const Dictaphone = ({
       const answer = awArr[idx];
       const audio = aw01Arr[idx];
 
-      log(`✅ khớp → "${answer}" | ${audio?.id || "TTS"}`, "ok");
+      log(`✅ "${answer}" | ${audio?.id || "TTS"}`, "ok");
       if (answer)
         ReadMessage(
           ObjVoices,
@@ -233,7 +189,7 @@ const Dictaphone = ({
 
       if (objTR.action?.[0]) {
         if (objTR.action[0] === "WRONG") {
-          log("⚡ WRONG action", "warn");
+          log("⚡ WRONG", "warn");
           const btn = document.getElementById("btnBoQua");
           if (btn) btn.click();
           else setScore((S) => S - 2);
@@ -250,20 +206,19 @@ const Dictaphone = ({
   ════════════════════════════════════════════════════════════════ */
   const hasTranscript = transcript.trim().length > 0;
 
-  // Trạng thái hiển thị
   const micStatus = !micEnabled
     ? { icon: "🔇", label: "Chưa bắt đầu nghe", cls: "dtph-mic-off" }
     : listening
       ? { icon: "🎙️", label: "Đang nghe…", cls: "dtph-mic-on" }
-      : { icon: "⏳", label: "Đang kết nối mic…", cls: "dtph-mic-wait" };
+      : { icon: "⏳", label: "Đang kết nối…", cls: "dtph-mic-wait" };
 
   return (
-    <div className={`dtph-wrap ${isExiting ? "dtph-exiting" : ""}`}>
-      {/* ── Transcript box ── */}
+    <div className="dtph-wrap">
+      {/* ── Transcript ── */}
       <div className="dtph-transcript-box">
         <div className={`dtph-row-label ${micStatus.cls}`}>
           <span className="dtph-badge">{micStatus.icon}</span>
-          <span className="dtph-transcript-text" id="dtph-display-text">
+          <span className="dtph-transcript-text">
             {transcript || (
               <span className="dtph-placeholder">{micStatus.label}</span>
             )}
@@ -271,33 +226,19 @@ const Dictaphone = ({
         </div>
       </div>
 
-      {/* ── Nút chính ── */}
+      {/* ── Nút ── */}
       <div className="dtph-actions">
         {/* XÓA */}
         <button
           className="dtph-btn dtph-btn-clear"
-          onClick={() => {
-            resetTranscript();
-            transcriptRef.current = "";
-          }}
-          title="Xóa text"
+          onClick={() => resetTranscript()}
+          title="Xóa"
         >
           <i className="bi bi-trash3" />
           <span className="dtph-btn-label">Xóa</span>
         </button>
 
-        {/* CHECK */}
-        {/* <button
-          className="dtph-btn dtph-btn-submit"
-          disabled={!hasTranscript}
-          onClick={check}
-          title="Check"
-        >
-          <i className="bi bi-check2-circle" />
-          <span className="dtph-btn-label">Check</span>
-        </button> */}
-
-        {/* BẮT ĐẦU / DỪNG mic — 2 nút riêng biệt, rõ ràng */}
+        {/* BẮT ĐẦU / CHECK+DỪNG */}
         {!micEnabled ? (
           <button
             className="dtph-btn dtph-btn-mic-start"
@@ -310,14 +251,12 @@ const Dictaphone = ({
         ) : (
           <button
             className="dtph-btn dtph-btn-mic-stop"
-            onClick={() => {
-              check(transcript);
-              handleStopMic();
-            }}
-            title="Dừng mic"
+            disabled={!hasTranscript}
+            onClick={handleCheckAndStop}
+            title="Check & Dừng"
           >
             <i className="bi bi-stop-circle" />
-            <span className="dtph-btn-label">Dùng câu & Dừng mic</span>
+            <span className="dtph-btn-label">Check</span>
           </button>
         )}
 
@@ -334,7 +273,9 @@ const Dictaphone = ({
 
       <div className="dtph-info-strip">
         {micEnabled ? (
-          <span>Nói → Check → nói tiếp (mic luôn bật)</span>
+          <span>
+            Nói → bấm <strong>Check</strong> → bấm lại để tiếp tục
+          </span>
         ) : (
           <span>
             Bấm <strong>Bắt đầu</strong> để bật mic
@@ -387,7 +328,6 @@ const Dictaphone = ({
               </span>
             </div>
           ))}
-          <div ref={logEndRef} />
         </div>
       )}
 
