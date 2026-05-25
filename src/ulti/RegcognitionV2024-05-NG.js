@@ -91,9 +91,9 @@ const Dictaphone = ({
   }, [listening]); // eslint-disable-line
 
   /* ── Log transcript ─────────────────────────────────────────────── */
-  useEffect(() => {
-    if (transcript.trim()) log(`🗣 "${transcript.trim()}"`, "info");
-  }, [transcript]); // eslint-disable-line
+  // useEffect(() => {
+  //   if (transcript.trim()) log(`🗣 "${transcript.trim()}"`, "info");
+  // }, [transcript]); // eslint-disable-line
 
   /* ── Soft-exit ──────────────────────────────────────────────────── */
   useEffect(() => {
@@ -144,61 +144,61 @@ const Dictaphone = ({
   const handleCheckAndStop = () => {
     // KHÔNG gọi hardExit, KHÔNG setGetSTTDictaphone → div giữ nguyên
     SpeechRecognition.stopListening();
-    const input = "I dont know";
+    const input = document.getElementById("dtphTranscript")?.textContent || "";
     resetTranscript();
     setMicEnabled(false);
     log("⏹ stop + reset — div GIỮ NGUYÊN", "warn");
-    check(input);
+    check("là sao ta");
   };
 
   function check(input) {
-    if (!input) {
-      log("check() — rỗng", "warn");
-      return;
-    }
-
+    // if (!input) {
+    //   log("check() — rỗng", "warn");
+    //   return;
+    // }
+    alert(1);
     log(`🔍 "${input}"`, "check");
-    setMessage(input);
+    // setMessage(input);
 
-    const objTR = findBest(input, normalizedCMD, THRESHOLD);
+    // const objTR = findBest(input, normalizedCMD, THRESHOLD);
 
-    if (!objTR) {
-      log(`❌ không khớp`, "error");
-      ReadMessage(
-        ObjVoices,
-        "Sorry, what did you say?",
-        GENDER,
-        GENDER === 1 ? [{ id: "sorryFemale" }] : [{ id: "sorryMale" }],
-      );
-      return;
-    }
+    // if (!objTR) {
+    //   log(`❌ không khớp`, "error");
+    //   ReadMessage(
+    //     ObjVoices,
+    //     "Sorry, what did you say?",
+    //     GENDER,
+    //     GENDER === 1 ? [{ id: "sorryFemale" }] : [{ id: "sorryMale" }],
+    //   );
+    //   return;
+    // }
 
-    const awArr = objTR.aw || [];
-    const aw01Arr = objTR.aw01 || [];
-    const idx = Math.floor(Math.random() * (awArr.length || 1));
-    const answer = awArr[idx];
-    const audio = aw01Arr[idx];
+    // const awArr = objTR.aw || [];
+    // const aw01Arr = objTR.aw01 || [];
+    // const idx = Math.floor(Math.random() * (awArr.length || 1));
+    // const answer = awArr[idx];
+    // const audio = aw01Arr[idx];
 
-    log(`✅ "${answer}" | ${audio?.id || "TTS"}`, "ok");
-    if (answer)
-      ReadMessage(
-        ObjVoices,
-        answer,
-        GENDER,
-        audio?.id ? [{ id: audio.id }] : undefined,
-      );
+    // log(`✅ "${answer}" | ${audio?.id || "TTS"}`, "ok");
+    // if (answer)
+    //   ReadMessage(
+    //     ObjVoices,
+    //     answer,
+    //     GENDER,
+    //     audio?.id ? [{ id: audio.id }] : undefined,
+    //   );
 
-    if (objTR.action?.[0]) {
-      if (objTR.action[0] === "WRONG") {
-        log("⚡ WRONG", "warn");
-        const btn = document.getElementById("btnBoQua");
-        if (btn) btn.click();
-        else setScore((S) => S - 2);
-      } else {
-        log(`⚡ addElement(${objTR.action[0]})`, "ok");
-        addElementIfNotExist(objTR.action[0]);
-      }
-    }
+    // if (objTR.action?.[0]) {
+    //   if (objTR.action[0] === "WRONG") {
+    //     log("⚡ WRONG", "warn");
+    //     const btn = document.getElementById("btnBoQua");
+    //     if (btn) btn.click();
+    //     else setScore((S) => S - 2);
+    //   } else {
+    //     log(`⚡ addElement(${objTR.action[0]})`, "ok");
+    //     addElementIfNotExist(objTR.action[0]);
+    //   }
+    // }
   }
 
   /* ════════════════════════════════════════════════════════════════
@@ -218,8 +218,8 @@ const Dictaphone = ({
       <div className="dtph-transcript-box">
         <div className={`dtph-row-label ${micStatus.cls}`}>
           <span className="dtph-badge">{micStatus.icon}</span>
-          <span className="dtph-transcript-text">
-            {transcript || (
+          <span className="dtph-transcript-text" id="dtphTranscript">
+            {<span id="dtphTranscript">{transcript}</span> || (
               <span className="dtph-placeholder">{micStatus.label}</span>
             )}
           </span>
