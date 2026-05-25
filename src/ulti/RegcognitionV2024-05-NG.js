@@ -144,7 +144,7 @@ const Dictaphone = ({
   const handleCheckAndStop = () => {
     // KHÔNG gọi hardExit, KHÔNG setGetSTTDictaphone → div giữ nguyên
     SpeechRecognition.stopListening();
-    const input = transcript.trim();
+    const input = "I dont know";
     resetTranscript();
     setMicEnabled(false);
     log("⏹ stop + reset — div GIỮ NGUYÊN", "warn");
