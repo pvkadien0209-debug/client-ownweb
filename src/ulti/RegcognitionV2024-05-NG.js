@@ -149,7 +149,7 @@ const Dictaphone = ({
     resetTranscript();
     setMicEnabled(false);
     log("⏹ stop + reset — div GIỮ NGUYÊN", "warn");
-    check("là sao ta");
+    check(input);
   };
 
   function check(input) {
@@ -157,7 +157,7 @@ const Dictaphone = ({
     //   log("check() — rỗng", "warn");
     //   return;
     // }
-    alert(input, JSON.stringify(normalizedCMD));
+    alert(input + " | " + JSON.stringify(CMDlist) + " | " + THRESHOLD);
     // log(`🔍 "${input}"`, "check");
     // setMessage(input);
 
