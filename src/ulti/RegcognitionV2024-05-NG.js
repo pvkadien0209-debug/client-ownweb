@@ -3,7 +3,7 @@ import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
 import stringSimilarity from "string-similarity";
-import ReadMessage from "./ReadMessage_2024";
+import ReadMessage from "./ReadMessageMp3_2026";
 import { json } from "react-router-dom";
 
 /* ── Debug helpers ──────────────────────────────────────────────────── */
@@ -157,49 +157,40 @@ const Dictaphone = ({
     //   log("check() — rỗng", "warn");
     //   return;
     // }
-    alert(input + " | " + JSON.stringify(CMDlist) + " | " + THRESHOLD);
+    // alert(input + " | " + JSON.stringify(CMDlist) + " | " + THRESHOLD);
     // log(`🔍 "${input}"`, "check");
     // setMessage(input);
 
-    // const objTR = findBest(input, normalizedCMD, THRESHOLD);
+    const objTR = findBest(input, CMDlist, 0.4) || {};
+    alert(JSON.stringify(objTR));
+    if (!objTR || !objTR.qs) {
+      log(`❌ không khớp`, "error");
+      ReadMessage(
+        GENDER === 1 ? [{ id: "sorryFemale" }] : [{ id: "sorryMale" }],
+      );
+      return;
+    }
 
-    // if (!objTR) {
-    //   log(`❌ không khớp`, "error");
-    //   ReadMessage(
-    //     ObjVoices,
-    //     "Sorry, what did you say?",
-    //     GENDER,
-    //     GENDER === 1 ? [{ id: "sorryFemale" }] : [{ id: "sorryMale" }],
-    //   );
-    //   return;
-    // }
+    const awArr = objTR.aw || [];
+    const aw01Arr = objTR.aw01 || [];
+    const idx = Math.floor(Math.random() * (awArr.length || 1));
+    const answer = awArr[idx];
+    const audio = aw01Arr[idx];
 
-    // const awArr = objTR.aw || [];
-    // const aw01Arr = objTR.aw01 || [];
-    // const idx = Math.floor(Math.random() * (awArr.length || 1));
-    // const answer = awArr[idx];
-    // const audio = aw01Arr[idx];
+    log(`✅ "${answer}" | ${audio?.id || "TTS"}`, "ok");
+    if (answer) ReadMessage(audio?.id ? [{ id: audio.id }] : undefined);
 
-    // log(`✅ "${answer}" | ${audio?.id || "TTS"}`, "ok");
-    // if (answer)
-    //   ReadMessage(
-    //     ObjVoices,
-    //     answer,
-    //     GENDER,
-    //     audio?.id ? [{ id: audio.id }] : undefined,
-    //   );
-
-    // if (objTR.action?.[0]) {
-    //   if (objTR.action[0] === "WRONG") {
-    //     log("⚡ WRONG", "warn");
-    //     const btn = document.getElementById("btnBoQua");
-    //     if (btn) btn.click();
-    //     else setScore((S) => S - 2);
-    //   } else {
-    //     log(`⚡ addElement(${objTR.action[0]})`, "ok");
-    //     addElementIfNotExist(objTR.action[0]);
-    //   }
-    // }
+    if (objTR.action?.[0]) {
+      if (objTR.action[0] === "WRONG") {
+        log("⚡ WRONG", "warn");
+        const btn = document.getElementById("btnBoQua");
+        if (btn) btn.click();
+        else setScore((S) => S - 2);
+      } else {
+        log(`⚡ addElement(${objTR.action[0]})`, "ok");
+        addElementIfNotExist(objTR.action[0]);
+      }
+    }
   }
 
   /* ════════════════════════════════════════════════════════════════
@@ -356,27 +347,23 @@ function normalizeStr(str) {
 
 function findBest(statement, normalizedCMD, threshold) {
   if (!statement) return null;
-  const norm = normalizeStr(statement);
-  const normLen = norm.length;
-  if (!normLen) return null;
+
   let maxSim = -1,
     best = null;
-  outer: for (const { ref, nqs } of normalizedCMD) {
-    for (const { norm: q, len: qLen } of nqs) {
-      const minL = Math.min(normLen, qLen);
-      const maxL = Math.max(normLen, qLen);
-      if (maxL === 0 || minL / maxL < threshold * 0.6) continue;
-      const sim = stringSimilarity.compareTwoStrings(norm, q);
+
+  for (const obj of normalizedCMD) {
+    for (const q of obj.qs) {
+      const sim = stringSimilarity.compareTwoStrings(statement, q);
       if (sim >= threshold && sim > maxSim) {
         maxSim = sim;
-        best = ref;
-        if (sim === 1) break outer;
+        best = obj;
+        if (sim === 1) return best;
       }
     }
   }
+
   return best;
 }
-
 /* ── Debug styles ─────────────────────────────────────────────────── */
 const S = {
   row: {
