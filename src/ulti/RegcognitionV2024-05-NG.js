@@ -162,7 +162,7 @@ const Dictaphone = ({
     // setMessage(input);
 
     const objTR = findBest(input, CMDlist, 0.4) || {};
-    alert(JSON.stringify(objTR));
+    // alert(JSON.stringify(objTR));
     if (!objTR || !objTR.qs) {
       log(`❌ không khớp`, "error");
       ReadMessage(
