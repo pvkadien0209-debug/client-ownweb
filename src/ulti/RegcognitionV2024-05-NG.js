@@ -56,27 +56,17 @@ export default Dictaphone;
 /* ══════════════════════════════════════════════════════════════════
    HELPERS
 ══════════════════════════════════════════════════════════════════ */
-function normalizeStr(str) {
-  return str
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[.,?!]/g, "")
-    .toLowerCase();
-}
 
 function findBest(statement, cmdList, threshold) {
   if (!statement || !Array.isArray(cmdList)) return null;
-  const normStatement = normalizeStr(statement);
+  const normStatement = statement;
 
   let maxSim = -1;
   let best = null;
 
   for (const obj of cmdList) {
     for (const q of obj.qs || []) {
-      const sim = stringSimilarity.compareTwoStrings(
-        normStatement,
-        normalizeStr(q),
-      );
+      const sim = stringSimilarity.compareTwoStrings(normStatement, q);
       if (sim >= threshold && sim > maxSim) {
         maxSim = sim;
         best = obj;

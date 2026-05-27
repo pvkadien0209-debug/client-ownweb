@@ -1,92 +1,155 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
 
 /* ════════════════════════════════════════════════════════════════════
-   DictaphoneONLY
-   Nhiệm vụ duy nhất: ghi nhận transcript & điều khiển mic
-   KHÔNG xử lý logic check / scoring / navigation
+   DictaphoneONLY — footer bar
+   Layout: [Reset | Tiếp]  [transcript…]  [Bật/Tắt toggle]
 ════════════════════════════════════════════════════════════════════ */
 const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
   const { transcript, resetTranscript, listening } = useSpeechRecognition();
   const [micEnabled, setMicEnabled] = useState(false);
 
-  /* ── Start ──────────────────────────────────────────────────────── */
-  const handleStart = () => {
-    resetTranscript();
-    SpeechRecognition.startListening({ continuous: true, language: lang });
-    setMicEnabled(true);
+  /* ── Auto-detect mobile browser tự dừng ────────────────────────
+     Khi micEnabled=true nhưng listening tắt → reset cờ để nút
+     tự chuyển sang trạng thái "cần bật lại"
+  ─────────────────────────────────────────────────────────────── */
+  useEffect(() => {
+    if (micEnabled && !listening) {
+      setMicEnabled(false);
+    }
+  }, [listening]); // eslint-disable-line
+
+  /* ── Toggle Bật / Tắt ───────────────────────────────────────── */
+  const handleToggle = () => {
+    if (micEnabled) {
+      // Đang bật → tắt
+      SpeechRecognition.stopListening();
+      setMicEnabled(false);
+    } else {
+      // Đang tắt → bật
+      resetTranscript();
+      SpeechRecognition.startListening({ continuous: true, language: lang });
+      setMicEnabled(true);
+    }
   };
 
-  /* ── Dừng ───────────────────────────────────────────────────────── */
-  const handleStop = () => {
-    const textTransript = document.getElementById("dtphTranscript");
-    if (textTransript) textTransript.innerText = transcript.trim();
+  /* ── Tiếp: gửi transcript đi xử lý → reset → nghe câu mới ──── */
+  const handleNext = () => {
+    const current = transcript.trim();
 
+    // Ghi vào DOM để Dictaphone-check đọc
+    const el = document.getElementById("dtphTranscript");
+    if (el) el.innerText = current;
+
+    // Kích hoạt check sau khi DOM cập nhật
     setTimeout(() => {
-      const btn = document.getElementById("checkBTN");
-      if (btn) btn.click();
+      document.getElementById("checkBTN")?.click();
     }, 100);
-    SpeechRecognition.stopListening();
-    setMicEnabled(false);
-    if (onTranscript) onTranscript(transcript);
+
+    if (onTranscript) onTranscript(current);
+
+    // Reset và tiếp tục nghe câu mới
+    resetTranscript();
+    // SpeechRecognition.stopListening();
+    // setTimeout(() => {
+    //   SpeechRecognition.startListening({ continuous: true, language: lang });
+    //   setMicEnabled(true);
+    // }, 200);
   };
 
-  /* ── Status ─────────────────────────────────────────────────────── */
-  const status = !micEnabled
-    ? { icon: "🔇", label: "Bấm Bắt đầu để nghe", cls: "dtph-off" }
-    : listening
-      ? { icon: "🎙️", label: "Đang nghe…", cls: "dtph-on" }
-      : { icon: "⏳", label: "Đang kết nối lại…", cls: "dtph-wait" };
+  /* ── Reset: xóa transcript, giữ nguyên trạng thái mic ──────── */
+  const handleReset = () => {
+    resetTranscript();
+  };
+
+  /* ── Trạng thái toggle button ───────────────────────────────── */
+  // micEnabled=false              → "Bật"   (xanh)
+  // micEnabled=true, listening    → "Tắt"   (đỏ, pulse)
+  // micEnabled=false sau auto-stop → "Bật lại" (cam) — handled by useEffect above
+  const autoStopped = !micEnabled && transcript.trim().length > 0;
+  const toggleState = micEnabled
+    ? { label: "Tắt", cls: "dtph-toggle-on", icon: "bi-mic-fill" }
+    : autoStopped
+      ? { label: "Bật lại", cls: "dtph-toggle-warn", icon: "bi-mic" }
+      : { label: "Bật", cls: "dtph-toggle-off", icon: "bi-mic-mute-fill" };
+
+  const hasText = transcript.trim().length > 0;
 
   return (
     <>
       <style>{`
-        /* ── Container ── */
-        .dtph-footer-inner {
+        /* ── Wrapper ── */
+        .dtph-bar {
           display: flex;
           align-items: center;
-          gap: 8px;
           width: 100%;
-          padding: 0 8px;
+          gap: 6px;
+          padding: 0 6px;
           box-sizing: border-box;
           min-height: 0;
         }
 
-        /* ── Status icon ── */
-        .dtph-status-icon {
-          font-size: 1.1rem;
+        /* ══ LEFT: Reset + Tiếp ══ */
+        .dtph-left {
+          display: flex;
+          gap: 4px;
           flex-shrink: 0;
-          width: 28px;
-          text-align: center;
-          position: relative;
         }
-        .dtph-on .dtph-status-icon::after {
-          content: '';
-          position: absolute;
-          inset: -4px;
-          border-radius: 50%;
-          background: rgba(52, 211, 153, 0.25);
-          animation: dtph-pulse 1.4s ease-in-out infinite;
+        .dtph-sm-btn {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 1px;
+          border: none;
+          border-radius: 9px;
+          cursor: pointer;
+          width: 44px;
+          height: 44px;
+          font-size: 0.58rem;
+          font-weight: 700;
+          letter-spacing: 0.02em;
+          transition: transform 0.12s, opacity 0.12s;
+          -webkit-tap-highlight-color: transparent;
+          flex-shrink: 0;
         }
-        @keyframes dtph-pulse {
-          0%, 100% { opacity: 1; transform: scale(1); }
-          50%       { opacity: 0.4; transform: scale(1.4); }
+        .dtph-sm-btn:active  { transform: scale(0.90); }
+        .dtph-sm-btn:disabled {
+          opacity: 0.35;
+          cursor: not-allowed;
+        }
+        .dtph-sm-btn i { font-size: 1rem; line-height: 1; }
+
+        .dtph-btn-reset {
+          background: rgba(100,116,139,0.28);
+          color: #94a3b8;
+          border: 1px solid rgba(148,163,184,0.2);
+        }
+        .dtph-btn-next {
+          background: linear-gradient(135deg, #a78bfa, #7c3aed);
+          color: #fff;
+          box-shadow: 0 2px 8px rgba(124,58,237,0.4);
         }
 
-        /* ── Transcript text area ── */
-        .dtph-text-wrap {
+        /* ══ CENTER: Transcript ══ */
+        .dtph-center {
           flex: 1;
           min-width: 0;
           display: flex;
           align-items: center;
-          background: rgba(0,0,0,0.18);
+          background: rgba(0,0,0,0.20);
           border-radius: 10px;
           padding: 5px 10px;
-          min-height: 34px;
-          max-height: 52px;
+          min-height: 36px;
+          max-height: 54px;
           overflow: hidden;
+          border: 1px solid transparent;
+          transition: border-color 0.25s;
+        }
+        .dtph-bar.is-listening .dtph-center {
+          border-color: rgba(52,211,153,0.35);
         }
         .dtph-transcript-text {
           font-size: 0.82rem;
@@ -99,60 +162,12 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
           -webkit-box-orient: vertical;
         }
         .dtph-placeholder-text {
-          font-size: 0.78rem;
-          color: rgba(226,232,240,0.45);
+          font-size: 0.76rem;
+          color: rgba(226,232,240,0.38);
           font-style: italic;
         }
 
-        /* ── Buttons group ── */
-        .dtph-btn-group {
-          display: flex;
-          gap: 5px;
-          flex-shrink: 0;
-        }
-        .dtph-ctrl-btn {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          gap: 1px;
-          border: none;
-          border-radius: 10px;
-          cursor: pointer;
-          padding: 4px 7px;
-          min-width: 46px;
-          height: 44px;
-          font-size: 0.62rem;
-          font-weight: 700;
-          letter-spacing: 0.02em;
-          transition: transform 0.12s, opacity 0.12s;
-          -webkit-tap-highlight-color: transparent;
-        }
-        .dtph-ctrl-btn:active { transform: scale(0.92); opacity: 0.85; }
-        .dtph-ctrl-btn i { font-size: 1rem; }
-
-        .dtph-btn-start {
-          background: linear-gradient(135deg, #34d399, #059669);
-          color: #fff;
-          box-shadow: 0 2px 8px rgba(5,150,105,0.4);
-        }
-        .dtph-btn-stop {
-          background: linear-gradient(135deg, #f87171, #dc2626);
-          color: #fff;
-          box-shadow: 0 2px 8px rgba(220,38,38,0.35);
-        }
-        .dtph-btn-next {
-          background: linear-gradient(135deg, #60a5fa, #2563eb);
-          color: #fff;
-          box-shadow: 0 2px 8px rgba(37,99,235,0.35);
-        }
-        .dtph-ctrl-btn:disabled {
-          opacity: 0.4;
-          cursor: not-allowed;
-          box-shadow: none;
-        }
-
-        /* ── Listening indicator dot ── */
+        /* live blink dot */
         .dtph-live-dot {
           display: inline-block;
           width: 6px;
@@ -163,57 +178,119 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
           vertical-align: middle;
           animation: dtph-blink 1s step-start infinite;
         }
-        @keyframes dtph-blink {
-          50% { opacity: 0; }
+        @keyframes dtph-blink { 50% { opacity: 0; } }
+
+        /* ══ RIGHT: Toggle Bật/Tắt ══ */
+        .dtph-toggle-btn {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 1px;
+          border: none;
+          border-radius: 11px;
+          cursor: pointer;
+          width: 52px;
+          height: 52px;
+          font-size: 0.6rem;
+          font-weight: 800;
+          letter-spacing: 0.03em;
+          flex-shrink: 0;
+          transition: transform 0.12s, box-shadow 0.2s;
+          -webkit-tap-highlight-color: transparent;
+        }
+        .dtph-toggle-btn:active { transform: scale(0.90); }
+        .dtph-toggle-btn i { font-size: 1.15rem; line-height: 1; }
+
+        /* OFF → Bật */
+        .dtph-toggle-off {
+          background: linear-gradient(135deg, #34d399, #059669);
+          color: #fff;
+          box-shadow: 0 2px 10px rgba(5,150,105,0.38);
+        }
+        /* ON → Tắt (với pulse) */
+        .dtph-toggle-on {
+          background: linear-gradient(135deg, #f87171, #dc2626);
+          color: #fff;
+          box-shadow: 0 2px 10px rgba(220,38,38,0.4);
+          animation: dtph-toggle-pulse 1.6s ease-in-out infinite;
+        }
+        @keyframes dtph-toggle-pulse {
+          0%, 100% { box-shadow: 0 2px 10px rgba(220,38,38,0.4); }
+          50%       { box-shadow: 0 2px 20px rgba(220,38,38,0.75); }
+        }
+        /* AUTO-STOPPED → Bật lại (cam cảnh báo) */
+        .dtph-toggle-warn {
+          background: linear-gradient(135deg, #fbbf24, #d97706);
+          color: #1c1917;
+          box-shadow: 0 2px 10px rgba(217,119,6,0.45);
+          animation: dtph-toggle-warn-pulse 0.9s ease-in-out infinite;
+        }
+        @keyframes dtph-toggle-warn-pulse {
+          0%, 100% { box-shadow: 0 2px 10px rgba(217,119,6,0.45); }
+          50%       { box-shadow: 0 2px 20px rgba(217,119,6,0.8); }
         }
       `}</style>
 
-      <div className={`dtph-footer-inner ${status.cls}`}>
-        {/* Status icon */}
-        <div className="dtph-status-icon">{status.icon}</div>
+      <div className={`dtph-bar ${listening ? "is-listening" : ""}`}>
+        {/* ══ LEFT: Toggle Bật/Tắt ══ */}
+        <button
+          className={`dtph-toggle-btn ${toggleState.cls}`}
+          onClick={handleToggle}
+          title={toggleState.label}
+        >
+          <i className={`bi ${toggleState.icon}`} />
+          <span>{toggleState.label}</span>
+        </button>
 
-        {/* Transcript display */}
-        <div className="dtph-text-wrap">
-          {transcript.trim() ? (
-            <span className="dtph-transcript-text" id="dtphTranscript">
+        {/* ══ CENTER: Transcript ══ */}
+        <div className="dtph-center">
+          {hasText ? (
+            <span className="dtph-transcript-text">
               {transcript}
               {listening && <span className="dtph-live-dot" />}
             </span>
           ) : (
-            <span className="dtph-placeholder-text">{status.label}</span>
+            <span className="dtph-placeholder-text">
+              {micEnabled
+                ? listening
+                  ? "Đang nghe…"
+                  : "Đang kết nối…"
+                : "Bấm Bật để bắt đầu"}
+            </span>
           )}
         </div>
 
-        {/* Control buttons */}
-        <div className="dtph-btn-group">
-          {!micEnabled ? (
-            /* ── Bắt đầu ── */
-            <button
-              className="dtph-ctrl-btn dtph-btn-start"
-              onClick={handleStart}
-            >
-              <i className="bi bi-mic-fill" />
-              <span>Nghe</span>
-            </button>
-          ) : (
-            <>
-              <button
-                className="dtph-ctrl-btn dtph-btn-stop"
-                onClick={handleStop}
-              >
-                <i className="bi bi-stop-circle" />
-                <span>Dừng</span>
-              </button>
-            </>
-          )}
+        {/* ══ RIGHT: Xóa + Tiếp ══ */}
+        <div className="dtph-left">
+          {/* Xóa */}
+          <button
+            className="dtph-sm-btn dtph-btn-reset"
+            onClick={handleReset}
+            title="Xóa transcript"
+          >
+            <i className="bi bi-trash3" />
+            <span>Xóa</span>
+          </button>
+
+          {/* Tiếp — chỉ enable khi có text */}
+          <button
+            className="dtph-sm-btn dtph-btn-next"
+            onClick={handleNext}
+            disabled={!hasText}
+            title="Gửi & nghe câu mới"
+          >
+            <i className="bi bi-arrow-right-circle" />
+            <span>Gửi</span>
+          </button>
         </div>
       </div>
 
-      {/* Hidden stop trigger (giữ tương thích với code cũ nếu cần) */}
+      {/* Hidden trigger — tương thích với code cũ */}
       <button
         id="stopListenBTN"
         style={{ display: "none" }}
-        onClick={handleStop}
+        onClick={handleToggle}
       />
     </>
   );
