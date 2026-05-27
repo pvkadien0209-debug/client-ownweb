@@ -27,15 +27,15 @@ function setButtonState(id, on) {
 }
 
 function enableButton() {
-  setButtonState("RegButton", true);
-  setButtonState("BtnFsp", true);
+  // Audio xong → bật lại STT
+  setTimeout(() => {
+    document.getElementById("sttStartBTN")?.click();
+  }, 350);
 }
+
 function disableButton() {
-  setButtonState("RegButton", false);
-  setButtonState("BtnFsp", false);
-  try {
-    document.getElementById("setGetSTTDictaphone").click();
-  } catch {}
+  // Audio sắp phát → tắt STT ngay
+  document.getElementById("sttStopBTN")?.click();
 }
 
 export default function ReadMessageMp3(audio) {

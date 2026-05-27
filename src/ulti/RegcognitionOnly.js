@@ -286,11 +286,30 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
         </div>
       </div>
 
-      {/* Hidden trigger — tương thích với code cũ */}
+      {/* Hidden triggers */}
       <button
         id="stopListenBTN"
         style={{ display: "none" }}
         onClick={handleToggle}
+      />
+      <button
+        id="sttStopBTN"
+        style={{ display: "none" }}
+        onClick={() => {
+          SpeechRecognition.stopListening();
+          setMicEnabled(false);
+        }}
+      />
+      <button
+        id="sttStartBTN"
+        style={{ display: "none" }}
+        onClick={() => {
+          SpeechRecognition.startListening({
+            continuous: true,
+            language: lang,
+          });
+          setMicEnabled(true);
+        }}
       />
     </>
   );
