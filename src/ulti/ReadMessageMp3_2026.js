@@ -40,6 +40,18 @@ function disableButton() {
 
 export default function ReadMessageMp3(audio) {
   if (!Array.isArray(audio) || !audio.length) return;
-  const id = audio[Math.floor(Math.random() * audio.length)].id;
-  playAudio(id, disableButton, enableButton);
+  const idx = Math.floor(Math.random() * audio.length);
+  const id = audio[idx].id;
+  const textAudio = audio[idx].st;
+
+  const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+  if (isMobile) {
+    // Điện thoại → hiển thị text
+    const el = document.getElementById("aw01Textcontent");
+    if (el) el.textContent = textAudio;
+  } else {
+    // Desktop / laptop → phát audio
+    playAudio(id, disableButton, enableButton);
+  }
 }
