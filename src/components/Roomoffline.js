@@ -7,11 +7,8 @@ import CountdownTimer from "./pracPages/B101_FINAL_CounterTime";
 import LinkAPI from "../ulti/T0_linkApi";
 import sendMessageToServer from "../ulti/sendMessage";
 import shuffleArray from "../ulti/shuffleArray";
-import SpeechRecognition, {
-  useSpeechRecognition,
-} from "react-speech-recognition";
 import DataPracticeComponent from "./pracPages/C_RoomOffline_LAYDULIEUTH";
-
+import Dictaphone from "../ulti/RegcognitionOnly";
 const Room = ({ setSttRoom }) => {
   const { roomCode, currentIndex } = useParams();
   const locationSet = useLocation();
@@ -151,9 +148,6 @@ const Room = ({ setSttRoom }) => {
   useEffect(() => {
     setSttRoom(true);
   }, []);
-  useEffect(() => {
-    if (SttCoundown === "01") SpeechRecognition.stopListening();
-  }, [SttCoundown]);
 
   const fetchTitle = async () => {
     try {
@@ -195,31 +189,6 @@ const Room = ({ setSttRoom }) => {
 
   const handleUpdateNewElenment = (key, value, mode) => {
     socket.emit("updateOneELEMENT", roomCode, socket.id, key, value, mode);
-  };
-
-  // ── Chụp ảnh div tổng ────────────────────────────────────────────────────
-  const handleCapture = async () => {
-    try {
-      const html2canvas = (await import("html2canvas")).default;
-      const element = document.getElementById("roomUltiDiv");
-      if (!element) {
-        alert("Không tìm thấy vùng cần chụp!");
-        return;
-      }
-      const canvas = await html2canvas(element, {
-        scale: 2,
-        useCORS: true,
-        backgroundColor: "#ffffff",
-      });
-      const link = document.createElement("a");
-      link.download = `ket-qua-${localStorage.getItem("nameDinhDanh") || "thuchanh"}.png`;
-      link.href = canvas.toDataURL("image/png");
-      link.click();
-    } catch (e) {
-      alert(
-        "Vui lòng dùng tính năng chụp màn hình của thiết bị để lưu kết quả!",
-      );
-    }
   };
 
   // ── Screen states ─────────────────────────────────────────────────────────
@@ -473,6 +442,30 @@ const Room = ({ setSttRoom }) => {
           line-height: 1.5;
         }
 
+        /* ══════════════════════════════════════════════════════════
+           ── Footer: transcript bar — luôn dính đáy màn hình ──
+        ══════════════════════════════════════════════════════════ */
+        .room-footer {
+          flex-shrink: 0;
+          display: flex;
+          align-items: center;
+          width: 100%;
+          background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+          border-top: 1.5px solid rgba(124, 58, 237, 0.4);
+          padding: 6px 4px;
+          min-height: 60px;
+          box-sizing: border-box;
+          z-index: 20;
+          box-shadow: 0 -3px 16px rgba(0, 0, 0, 0.25);
+        }
+        /* iPhone home-bar safe area */
+        @supports (padding-bottom: env(safe-area-inset-bottom)) {
+          .room-footer {
+            padding-bottom: calc(6px + env(safe-area-inset-bottom));
+            min-height: calc(60px + env(safe-area-inset-bottom));
+          }
+        }
+
         /* ── Desktop enhancements ── */
         @media (min-width: 700px) {
           .room-root { flex-direction: column; }
@@ -484,11 +477,12 @@ const Room = ({ setSttRoom }) => {
           .room-welcome-card { padding: 32px 28px; }
           .room-welcome-card h2 { font-size: 1.7rem; }
           .room-start-fab { width: 64px; height: 64px; }
+          .room-footer { min-height: 56px; padding: 6px 12px; }
         }
       `}</style>
 
       <div className="room-root" id="roomUltiDiv">
-        {/* ── Compact top bar: logo | name | score | turns | time | code | camera ── */}
+        {/* ── Compact top bar: logo | name | score | turns | time | code */}
         <div className="room-topbar">
           <img
             src="https://i.postimg.cc/Bv9MGGy8/favicon-ico.png"
@@ -500,7 +494,6 @@ const Room = ({ setSttRoom }) => {
               )
             }
           />
-
           <div className="room-topbar-info">
             <span className="room-info-chip name">
               <svg
@@ -543,27 +536,6 @@ const Room = ({ setSttRoom }) => {
               </>
             )}
           </div>
-
-          {/* Camera button — chụp ảnh div tổng */}
-          <button
-            className="room-cam-btn"
-            onClick={handleCapture}
-            title="Chụp ảnh kết quả"
-          >
-            <svg
-              width="18"
-              height="18"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="white"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
-              <circle cx="12" cy="13" r="4" />
-            </svg>
-          </button>
         </div>
 
         {/* ── Main practice body ── */}
@@ -651,6 +623,11 @@ const Room = ({ setSttRoom }) => {
               </div>
             )}
           </div>
+        </div>
+
+        {/* ── Footer: always-visible transcript listener ── */}
+        <div className="room-footer">
+          <Dictaphone />
         </div>
       </div>
     </>

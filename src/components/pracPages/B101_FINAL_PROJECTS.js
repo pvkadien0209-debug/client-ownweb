@@ -304,6 +304,7 @@ function FINAL_PROJECT({
           <div
             className={`transition-container ${getSTTDictaphone ? "show-dictaphone" : "show-regbutton"}`}
           >
+            DDDDDDDDDDDĐ
             {getSTTDictaphone ? (
               <Dictaphone
                 getSTTDictaphone={getSTTDictaphone}
@@ -448,31 +449,6 @@ function FINAL_PROJECT({
         >
           {(bottomOpen || getSTTDictaphone) && (
             <div className="fp-panel-body">
-              {/* Dictaphone LUÔN render khi getSTTDictaphone=true
-                 dù playData=null (chuyển câu) — div nói không bị ẩn */}
-              <div className="fp-speech-area">
-                {getSTTDictaphone ? (
-                  <Dictaphone
-                    getSTTDictaphone={getSTTDictaphone}
-                    setGetSTTDictaphone={setGetSTTDictaphone}
-                    CMDlist={CMD}
-                    GENDER={GENDER}
-                    setScore={setScore}
-                    addElementIfNotExist={addElementIfNotExist}
-                    ObjVoices={ObjREAD}
-                    Lang={Lang}
-                    regRate={regRate}
-                    regRate_01={regRate_01}
-                    setMessage={setMessage}
-                  />
-                ) : playData !== null ? (
-                  <div className="fp-reg-prompt">
-                    <RegButton setGetSTTDictaphone={setGetSTTDictaphone} />
-                    <span className="fp-reg-hint">Nhấn để bắt đầu nói</span>
-                  </div>
-                ) : null}
-              </div>
-
               {Clue && !isImageUrl(Clue) && (
                 <div className="fp-clue-box">
                   <span>📌</span>
@@ -544,44 +520,26 @@ function FINAL_PROJECT({
             )}
 
             <div className="fp-panel-actions">
-              {!getSTTDictaphone && (
-                <button
-                  id="BtnFsp"
-                  className="fp-icon-btn fp-speak-btn"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    try {
-                      ReadMessage(
-                        ObjREAD,
-                        playData.fsp,
-                        GENDER,
-                        playData.fspSets,
-                      );
-                    } catch {}
-                  }}
-                  title="Nghe mẫu"
-                >
-                  <i className="bi bi-chat-left-dots" />
-                </button>
-              )}
-              <button
-                className="fp-icon-btn fp-mic-btn"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  setGetSTTDictaphone(true);
-                  setBottomOpen(true);
-                }}
-                title="Bắt đầu nói"
-              >
-                <i className="bi bi-mic-fill" />
-              </button>
+              <Dictaphone
+                getSTTDictaphone={getSTTDictaphone}
+                setGetSTTDictaphone={setGetSTTDictaphone}
+                CMDlist={CMD}
+                GENDER={GENDER}
+                setScore={setScore}
+                addElementIfNotExist={addElementIfNotExist}
+                ObjVoices={ObjREAD}
+                Lang={Lang}
+                regRate={regRate}
+                regRate_01={regRate_01}
+                setStartSTT={setStartSTT}
+                setMessage={setMessage}
+              />
               <button
                 id="btnBoQua"
                 className="fp-icon-btn fp-skip-btn"
                 onClick={(e) => {
                   e.stopPropagation();
                   try {
-                    document.getElementById("stopListenBTN")?.click();
                     setStyles((p) => ({ ...p, opacity: 0 }));
                     setTimeout(() => {
                       setStartSTT(true);
