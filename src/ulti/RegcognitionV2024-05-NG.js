@@ -17,9 +17,9 @@ const Dictaphone = ({ CMDlist, GENDER, setScore, addElementIfNotExist }) => {
     const objTR = findBest(input, CMDlist, 0.4);
 
     if (!objTR || !objTR.qs) {
-      ReadMessage(
-        GENDER === 1 ? [{ id: "sorryFemale" }] : [{ id: "sorryMale" }],
-      );
+      // ReadMessage(
+      //   GENDER === 1 ? [{ id: "sorryFemale" }] : [{ id: "sorryMale" }],
+      // );
       return;
     }
 
@@ -29,7 +29,7 @@ const Dictaphone = ({ CMDlist, GENDER, setScore, addElementIfNotExist }) => {
     const answer = awArr[idx];
     const audio = aw01Arr[idx];
 
-    if (answer) ReadMessage(audio?.id ? [{ id: audio.id }] : undefined);
+    // if (answer) ReadMessage(audio?.id ? [{ id: audio.id }] : undefined);
 
     if (objTR.action?.[0]) {
       if (objTR.action[0] === "WRONG") {
