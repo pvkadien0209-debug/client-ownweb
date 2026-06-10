@@ -1,5 +1,5 @@
 import React, { useEffect, useState, createContext } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import Header from "./components/A1_Header";
 import Lobby from "./components/Lobby";
@@ -141,8 +141,54 @@ const App = () => {
               <Route
                 path="*"
                 element={
-                  <main style={{ padding: "1rem" }}>
-                    <p>There's nothing here!</p>
+                  <main
+                    style={{
+                      minHeight: "100vh",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      background: "var(--brand-bg, #f6f7fb)",
+                      padding: "1rem",
+                    }}
+                  >
+                    <div
+                      style={{
+                        textAlign: "center",
+                        background: "#fff",
+                        borderRadius: 16,
+                        padding: "2.5rem 2rem",
+                        maxWidth: 420,
+                        width: "100%",
+                        boxShadow:
+                          "0 1px 3px rgba(15,23,42,.06), 0 6px 18px rgba(15,23,42,.05)",
+                        border: "1px solid #e2e8f0",
+                      }}
+                    >
+                      <i
+                        className="bi bi-compass"
+                        style={{ fontSize: "3rem", color: "#4f46e5" }}
+                      ></i>
+                      <h4 style={{ margin: "1rem 0 .5rem", color: "#1e293b" }}>
+                        Không tìm thấy trang
+                      </h4>
+                      <p style={{ color: "#64748b", marginBottom: "1.25rem" }}>
+                        Đường dẫn này không tồn tại hoặc đã được di chuyển.
+                      </p>
+                      <Link
+                        to="/"
+                        style={{
+                          display: "inline-block",
+                          background: "#4f46e5",
+                          color: "#fff",
+                          textDecoration: "none",
+                          fontWeight: 600,
+                          padding: ".7rem 1.5rem",
+                          borderRadius: 12,
+                        }}
+                      >
+                        Về trang chủ
+                      </Link>
+                    </div>
                   </main>
                 }
               />

@@ -202,8 +202,8 @@ function ModernLandingPage() {
     container: {
       fontFamily: "'Inter', 'Segoe UI', sans-serif",
       lineHeight: 1.7,
-      color: "#1a1a1a",
-      background: "linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)",
+      color: "#1e293b",
+      background: "#f6f7fb",
       minHeight: "100vh",
       padding: "2rem 0",
     },
@@ -212,10 +212,12 @@ function ModernLandingPage() {
       justifyContent: "center",
       gap: "0.5rem",
       marginBottom: "3rem",
-      background: "rgba(255, 255, 255, 0.9)",
+      background: "#ffffff",
       padding: "0.5rem",
       borderRadius: "16px",
-      boxShadow: "0 4px 20px rgba(0,0,0,0.1)",
+      boxShadow:
+        "0 1px 3px rgba(15, 23, 42, 0.06), 0 6px 18px rgba(15, 23, 42, 0.05)",
+      border: "1px solid #e2e8f0",
       maxWidth: "400px",
       margin: "0 auto 3rem auto",
     },
@@ -226,120 +228,136 @@ function ModernLandingPage() {
       background: "transparent",
       cursor: "pointer",
       fontWeight: "500",
-      transition: "all 0.3s ease",
+      transition: "all 0.2s ease",
       fontSize: "0.95rem",
       color: "#64748b",
     },
     tabBtnActive: {
-      background: "linear-gradient(135deg, #667eea, #764ba2)",
+      background: "#4f46e5",
       color: "white",
-      boxShadow: "0 2px 10px rgba(102, 126, 234, 0.3)",
-      transform: "translateY(-1px)",
+      boxShadow: "0 2px 10px rgba(79, 70, 229, 0.3)",
     },
     content: {
-      maxWidth: "1200px",
+      maxWidth: "1100px",
       margin: "0 auto",
-      padding: "2rem",
+      padding: "1.5rem",
     },
     hero: {
       textAlign: "center",
-      marginBottom: "4rem",
+      marginBottom: "3rem",
       padding: "3rem 2rem",
-      background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      background:
+        "radial-gradient(900px 400px at 85% -10%, rgba(255,255,255,0.12), transparent 60%), linear-gradient(150deg, #312e81 0%, #4f46e5 100%)",
       borderRadius: "24px",
-      boxShadow: "0 20px 60px rgba(102, 126, 234, 0.2)",
+      boxShadow: "0 20px 60px rgba(79, 70, 229, 0.2)",
     },
     heroTitle: {
-      fontSize: "clamp(2rem, 5vw, 3.5rem)",
-      fontWeight: "700",
+      fontSize: "clamp(1.75rem, 5vw, 3rem)",
+      fontWeight: "800",
       color: "white",
       marginBottom: "1rem",
-      textShadow: "0 2px 20px rgba(0,0,0,0.1)",
+      letterSpacing: "-0.02em",
     },
     highlight: {
-      background: "linear-gradient(135deg, #ff6b6b, #ee5a24)",
+      background: "rgba(255, 255, 255, 0.12)",
+      border: "1px solid rgba(255, 255, 255, 0.25)",
       color: "white",
-      padding: "1.5rem 2rem",
+      padding: "1.1rem 1.75rem",
       borderRadius: "16px",
-      fontSize: "clamp(1.2rem, 3vw, 1.8rem)",
+      fontSize: "clamp(1.1rem, 3vw, 1.6rem)",
       fontWeight: "800",
-      margin: "2rem 0",
-      boxShadow: "0 8px 32px rgba(255, 107, 107, 0.3)",
-      transform: "translateY(0)",
-      transition: "transform 0.3s ease",
+      margin: "1.5rem auto 0",
+      maxWidth: "640px",
+      letterSpacing: "0.02em",
     },
-    section: {
-      background: "rgba(255, 255, 255, 0.95)",
-      backdropFilter: "blur(20px)",
-      borderRadius: "20px",
-      padding: "3rem",
-      marginBottom: "3rem",
-      boxShadow: "0 20px 60px rgba(0,0,0,0.1)",
-      border: "1px solid rgba(255, 255, 255, 0.2)",
-    },
-    sectionTitle: {
-      fontSize: "clamp(1.5rem, 4vw, 2.2rem)",
+    highlightInSection: {
+      background: "#eef2ff",
+      border: "1px solid #c7d2fe",
+      color: "#3730a3",
+      padding: "1rem 1.5rem",
+      borderRadius: "14px",
+      fontSize: "clamp(1.05rem, 2.5vw, 1.35rem)",
       fontWeight: "700",
-      color: "#2c3e50",
-      marginBottom: "2rem",
+      margin: "1.5rem 0",
       textAlign: "center",
     },
+    section: {
+      background: "#ffffff",
+      borderRadius: "20px",
+      padding: "clamp(1.5rem, 4vw, 2.75rem)",
+      marginBottom: "2rem",
+      boxShadow:
+        "0 1px 3px rgba(15, 23, 42, 0.06), 0 6px 18px rgba(15, 23, 42, 0.05)",
+      border: "1px solid #e2e8f0",
+    },
+    sectionTitle: {
+      fontSize: "clamp(1.4rem, 4vw, 2rem)",
+      fontWeight: "800",
+      color: "#1e293b",
+      marginBottom: "1.5rem",
+      textAlign: "center",
+      letterSpacing: "-0.01em",
+    },
     stepTitle: {
-      color: "#667eea",
-      fontSize: "1.3rem",
-      fontWeight: "600",
-      marginBottom: "1rem",
+      color: "#4f46e5",
+      fontSize: "1.2rem",
+      fontWeight: "700",
+      marginBottom: "0.75rem",
     },
     text: {
-      fontSize: "1.1rem",
-      color: "#4a5568",
-      marginBottom: "1.5rem",
-      lineHeight: 1.8,
+      fontSize: "1.05rem",
+      color: "#475569",
+      marginBottom: "1.25rem",
+      lineHeight: 1.75,
     },
     note: {
-      background: "linear-gradient(135deg, #f8f9ff, #e8ecff)",
-      padding: "1.5rem",
+      background: "#eef2ff",
+      padding: "1.1rem 1.35rem",
       borderRadius: "12px",
+      borderLeft: "4px solid #4f46e5",
       fontStyle: "italic",
-      color: "#5a67d8",
-      marginTop: "1rem",
-      border: "1px solid #e2e8ff",
+      color: "#3730a3",
+      marginTop: "0.75rem",
     },
     table: {
       width: "100%",
       borderCollapse: "collapse",
-      marginBottom: "2rem",
+      marginBottom: "1.75rem",
       background: "white",
       borderRadius: "12px",
       overflow: "hidden",
-      boxShadow: "0 4px 20px rgba(0,0,0,0.1)",
+      boxShadow: "0 1px 3px rgba(15, 23, 42, 0.08)",
+      border: "1px solid #e2e8f0",
     },
     tableHeader: {
-      background: "linear-gradient(135deg, #667eea, #764ba2)",
+      background: "#4f46e5",
       color: "white",
-      fontWeight: "600",
+      fontWeight: "700",
     },
     tableCell: {
-      padding: "1rem",
+      padding: "0.85rem 0.5rem",
       textAlign: "center",
       borderBottom: "1px solid #e2e8f0",
+      fontSize: "1rem",
     },
     contactSection: {
-      background: "linear-gradient(135deg, #48bb78, #38a169)",
+      background: "linear-gradient(150deg, #065f46 0%, #059669 100%)",
       color: "white",
       textAlign: "center",
-      padding: "3rem",
+      padding: "clamp(2rem, 5vw, 3rem)",
       borderRadius: "20px",
-      marginTop: "3rem",
+      marginTop: "2.5rem",
+      boxShadow: "0 20px 60px rgba(5, 150, 105, 0.2)",
     },
     list: {
       paddingLeft: "1.5rem",
-      marginBottom: "1.5rem",
+      marginBottom: "1.25rem",
     },
     listItem: {
-      marginBottom: "0.8rem",
-      fontSize: "1.1rem",
-      color: "#4a5568",
+      marginBottom: "0.7rem",
+      fontSize: "1.05rem",
+      color: "#475569",
+      lineHeight: 1.7,
     },
   };
 
@@ -355,7 +373,7 @@ function ModernLandingPage() {
           <h2 style={styles.sectionTitle}>{section.title}</h2>
 
           {section.highlight && (
-            <div style={styles.highlight}>{section.highlight}</div>
+            <div style={styles.highlightInSection}>{section.highlight}</div>
           )}
 
           {section.content &&
@@ -386,6 +404,7 @@ function ModernLandingPage() {
                       ...styles.text,
                       textAlign: "center",
                       fontWeight: "bold",
+                      color: "#4f46e5",
                     }}
                   >
                     {step.cycle}
@@ -406,10 +425,12 @@ function ModernLandingPage() {
       ))}
 
       <div style={styles.contactSection}>
-        <h2 style={{ fontSize: "2rem", marginBottom: "1rem" }}>
+        <h2
+          style={{ fontSize: "1.75rem", marginBottom: "1rem", fontWeight: 800 }}
+        >
           {homeContent.contact.title}
         </h2>
-        <div style={{ fontSize: "1.3rem", fontWeight: "600" }}>
+        <div style={{ fontSize: "1.25rem", fontWeight: "600" }}>
           {homeContent.contact.highlight}
         </div>
       </div>
@@ -428,7 +449,7 @@ function ModernLandingPage() {
           <h2 style={styles.sectionTitle}>{section.title}</h2>
 
           {section.highlight && (
-            <div style={styles.highlight}>{section.highlight}</div>
+            <div style={styles.highlightInSection}>{section.highlight}</div>
           )}
 
           {section.subtitle && (
@@ -436,7 +457,7 @@ function ModernLandingPage() {
               style={{
                 ...styles.stepTitle,
                 textAlign: "center",
-                fontSize: "1.5rem",
+                fontSize: "1.35rem",
               }}
             >
               {section.subtitle}
@@ -472,9 +493,10 @@ function ModernLandingPage() {
                 {step.example && (
                   <div
                     style={{
-                      background: "#f7fafc",
-                      padding: "1rem",
-                      borderRadius: "8px",
+                      background: "#f8fafc",
+                      border: "1px solid #e2e8f0",
+                      padding: "1rem 1.25rem",
+                      borderRadius: "12px",
                       margin: "1rem 0",
                     }}
                   >
@@ -501,7 +523,7 @@ function ModernLandingPage() {
             ))}
 
           {section.phonetics && (
-            <div>
+            <div style={{ overflowX: "auto" }}>
               <table style={styles.table}>
                 <thead>
                   <tr style={styles.tableHeader}>
@@ -601,7 +623,7 @@ function ModernLandingPage() {
       <div style={styles.content}>
         {renderHomeContent()}
 
-        <hr />
+        <hr style={{ border: "none", margin: "2rem 0" }} />
         {renderKnowGhepAmContent()}
         {/* {activeTab === "home" && }
         {activeTab === "ghepam" &&} */}

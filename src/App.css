@@ -1,3 +1,25 @@
+/* ====== Design tokens dùng chung toàn app ====== */
+:root {
+  --brand-primary: #4f46e5;
+  --brand-primary-dark: #3730a3;
+  --brand-primary-soft: #eef2ff;
+  --brand-ink: #1e293b;
+  --brand-muted: #64748b;
+  --brand-bg: #f6f7fb;
+  --brand-card: #ffffff;
+  --brand-border: #e2e8f0;
+  --brand-radius: 14px;
+  --brand-shadow: 0 1px 3px rgba(15, 23, 42, 0.06),
+    0 6px 18px rgba(15, 23, 42, 0.05);
+  --brand-shadow-lg: 0 10px 40px rgba(15, 23, 42, 0.12);
+}
+
+body {
+  background: var(--brand-bg);
+  color: var(--brand-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
 .App {
   text-align: center;
 }
@@ -45,7 +67,7 @@
 }
 
 .divFlexH1:hover {
-  color: blue;
+  color: var(--brand-primary);
 }
 
 .transition-container {
@@ -63,4 +85,11 @@
 .transition-container.show-regbutton {
   opacity: 1;
   transform: translateY(0); /* Hiện lên */
+}
+
+/* Tôn trọng người dùng tắt animation */
+@media (prefers-reduced-motion: reduce) {
+  .transition-container {
+    transition: none;
+  }
 }

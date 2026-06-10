@@ -175,7 +175,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
         /* ====== Thanh điều hướng dạng pill (cuộn ngang, dính trên cùng) ====== */
         .lh-nav {
           position: sticky;
-          top: 0;
+          top: 8vh;
           z-index: 100;
           display: flex;
           gap: 0.5rem;

@@ -37,37 +37,43 @@ const VideoSlideshow = ({ ID }) => {
   };
 
   if (videos.length === 0)
-    return <div className="text-center">Đang tải video...</div>;
+    return (
+      <div className="text-center py-5 text-muted">
+        <div className="spinner-border spinner-border-sm me-2" role="status">
+          <span className="visually-hidden">Loading...</span>
+        </div>
+        Đang tải video…
+      </div>
+    );
 
   return (
     <div className="position-relative">
-      <div className="video-container mb-3">
+      <div className="video-frame mb-3">
         <iframe
-          width="100%"
-          height="400"
           src={`https://www.youtube.com/embed/${videos[currentVideoIndex]?.snippet?.resourceId?.videoId}`}
           title={videos[currentVideoIndex]?.snippet?.title}
           frameBorder="0"
           allowFullScreen
-          className="rounded shadow-lg"
         ></iframe>
       </div>
 
       <div className="d-flex justify-content-between align-items-center">
-        <button className="btn btn-outline-primary" onClick={prevVideo}>
-          <i className="bi bi-chevron-left"></i> Trước
+        <button className="btn btn-video-nav" onClick={prevVideo}>
+          <i className="bi bi-chevron-left"></i>
+          <span className="d-none d-sm-inline ms-1">Trước</span>
         </button>
-        <span className="text-muted">
+        <span className="video-counter">
           {currentVideoIndex + 1} / {videos.length}
         </span>
-        <button className="btn btn-outline-primary" onClick={nextVideo}>
-          Sau <i className="bi bi-chevron-right"></i>
+        <button className="btn btn-video-nav" onClick={nextVideo}>
+          <span className="d-none d-sm-inline me-1">Sau</span>
+          <i className="bi bi-chevron-right"></i>
         </button>
       </div>
 
-      <h5 className="mt-3 text-center text-dark">
+      <h6 className="mt-3 text-center video-title">
         {videos[currentVideoIndex]?.snippet?.title}
-      </h5>
+      </h6>
     </div>
   );
 };
@@ -98,10 +104,10 @@ const RegistrationForm = () => {
     try {
       const requestBody = {
         subjectText: `Đăng ký khóa học tiếng Anh | SĐT: ${phoneNumber} | ${formatTime(
-          new Date()
+          new Date(),
         )}`,
         contentText: `Khách hàng đăng ký với số điện thoại: ${phoneNumber}\nThời gian: ${formatTime(
-          new Date()
+          new Date(),
         )}\nLink: ${window.location.href}`,
         toEmail: "pvkadien0209@gmail.com",
       };
@@ -136,7 +142,7 @@ const RegistrationForm = () => {
       <div className="text-center py-5">
         <div
           className="card border-0 shadow-lg mx-auto"
-          style={{ maxWidth: "500px" }}
+          style={{ maxWidth: "500px", borderRadius: 16 }}
         >
           <div className="card-body p-5">
             <i
@@ -164,7 +170,7 @@ const RegistrationForm = () => {
     <div className="text-center py-5">
       <div
         className="card border-0 shadow-lg mx-auto"
-        style={{ maxWidth: "500px" }}
+        style={{ maxWidth: "500px", borderRadius: 16 }}
       >
         <div className="card-body p-5">
           <i
@@ -217,15 +223,30 @@ const RegistrationForm = () => {
   );
 };
 
+// Đối tượng phù hợp với khóa học — hiển thị dạng card thay vì các dòng h3
+const audiences = [
+  {
+    icon: "bi-mortarboard",
+    text: "Sinh viên, học sinh kém tự tin hoặc không có khả năng nghe nói.",
+  },
+  {
+    icon: "bi-briefcase",
+    text: "Người đi làm cần nghe nói cơ bản.",
+  },
+  {
+    icon: "bi-airplane",
+    text: "Người chuẩn bị sang nước ngoài định cư, xuất khẩu lao động.",
+  },
+  {
+    icon: "bi-journal-bookmark",
+    text: "Sinh viên, học sinh muốn luyện 1000 hoặc 3000 từ vựng căn bản để vững chắc nền tảng.",
+  },
+];
+
 // Component chính
 const EnglishLandingPage = () => {
   return (
-    <div
-      className="min-vh-100"
-      style={{
-        background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-      }}
-    >
+    <div className="min-vh-100 home-page">
       <div style={{ height: "8vh" }}></div>
       {/* Bootstrap CSS */}
       <link
@@ -236,43 +257,236 @@ const EnglishLandingPage = () => {
         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
         rel="stylesheet"
       />
+      <style>{`
+        .home-page {
+          background: #f6f7fb;
+          color: #1e293b;
+        }
+        /* ====== Hero ====== */
+        .home-hero {
+          background:
+            radial-gradient(1100px 500px at 85% -10%, rgba(255,255,255,0.14), transparent 60%),
+            linear-gradient(150deg, #312e81 0%, #4f46e5 100%);
+          color: #fff;
+          padding: 4.5rem 0 5.5rem;
+          position: relative;
+          overflow: hidden;
+        }
+        .home-hero-badge {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.5rem;
+          background: rgba(255, 255, 255, 0.14);
+          border: 1px solid rgba(255, 255, 255, 0.25);
+          border-radius: 999px;
+          padding: 0.4rem 1rem;
+          font-size: 0.9rem;
+          font-weight: 500;
+          margin-bottom: 1.25rem;
+        }
+        .home-hero h1 {
+          font-weight: 800;
+          letter-spacing: -0.02em;
+          font-size: clamp(1.9rem, 5vw, 3.2rem);
+          line-height: 1.2;
+          margin-bottom: 1rem;
+        }
+        .home-hero .hero-sub {
+          color: rgba(255, 255, 255, 0.85);
+          font-size: 1.1rem;
+          max-width: 640px;
+          margin: 0 auto 2.25rem;
+        }
+        .audience-card {
+          background: rgba(255, 255, 255, 0.1);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          border-radius: 16px;
+          padding: 1.1rem 1.25rem;
+          height: 100%;
+          display: flex;
+          align-items: flex-start;
+          gap: 0.85rem;
+          text-align: left;
+          backdrop-filter: blur(6px);
+          transition: background 0.2s ease, transform 0.2s ease;
+        }
+        .audience-card:hover {
+          background: rgba(255, 255, 255, 0.16);
+          transform: translateY(-2px);
+        }
+        .audience-card i {
+          font-size: 1.4rem;
+          flex-shrink: 0;
+          background: rgba(255, 255, 255, 0.18);
+          width: 2.6rem;
+          height: 2.6rem;
+          border-radius: 12px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .audience-card p {
+          margin: 0;
+          font-size: 0.98rem;
+          line-height: 1.55;
+          color: rgba(255, 255, 255, 0.95);
+        }
+        .hero-cta {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.5rem;
+          background: #fff;
+          color: #3730a3;
+          font-weight: 700;
+          border: none;
+          border-radius: 14px;
+          padding: 0.85rem 1.75rem;
+          text-decoration: none;
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+          transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+        .hero-cta:hover {
+          color: #3730a3;
+          transform: translateY(-2px);
+          box-shadow: 0 14px 36px rgba(0, 0, 0, 0.25);
+        }
+        /* ====== Section chung ====== */
+        .home-section-title {
+          font-weight: 800;
+          letter-spacing: -0.01em;
+          color: #1e293b;
+          text-align: center;
+          font-size: clamp(1.5rem, 4vw, 2.1rem);
+          margin-bottom: 0.75rem;
+        }
+        .home-section-sub {
+          color: #64748b;
+          text-align: center;
+          max-width: 560px;
+          margin: 0 auto 2.25rem;
+        }
+        .home-card {
+          background: #fff;
+          border: 1px solid #e2e8f0;
+          border-radius: 20px;
+          box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06),
+            0 6px 18px rgba(15, 23, 42, 0.05);
+          padding: 1.75rem;
+        }
+        /* ====== Video ====== */
+        .video-frame {
+          position: relative;
+          width: 100%;
+          padding-top: 56.25%;
+          border-radius: 16px;
+          overflow: hidden;
+          background: #0f172a;
+          box-shadow: 0 10px 40px rgba(15, 23, 42, 0.15);
+        }
+        .video-frame iframe {
+          position: absolute;
+          inset: 0;
+          width: 100%;
+          height: 100%;
+          border: 0;
+        }
+        .btn-video-nav {
+          border: 1.5px solid #e2e8f0;
+          border-radius: 12px;
+          color: #4f46e5;
+          font-weight: 600;
+          padding: 0.5rem 1rem;
+          min-height: 44px;
+          background: #fff;
+          transition: background 0.15s ease, border-color 0.15s ease;
+        }
+        .btn-video-nav:hover {
+          background: #eef2ff;
+          border-color: #c7d2fe;
+          color: #3730a3;
+        }
+        .video-counter {
+          color: #64748b;
+          font-variant-numeric: tabular-nums;
+          font-weight: 500;
+        }
+        .video-title {
+          color: #1e293b;
+          font-weight: 600;
+        }
+        .home-footer {
+          background: #0f172a;
+          color: rgba(255, 255, 255, 0.7);
+          padding: 2rem 0;
+          text-align: center;
+        }
+        @media (max-width: 576px) {
+          .home-hero {
+            padding: 3rem 0 3.5rem;
+          }
+          .home-card {
+            padding: 1.25rem;
+          }
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .audience-card,
+          .hero-cta {
+            transition: none;
+          }
+        }
+      `}</style>
 
       {/* Hero Section */}
 
       {/* <Register /> */}
-      <section className="py-5 text-center text-white">
+      <section className="home-hero text-center">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
-              <h1 className="display-4 fw-bold mb-4">
-                Chuyên rèn tiếng anh nghe nói online dành cho:
+            <div className="col-lg-10">
+              <span className="home-hero-badge">
+                <i className="bi bi-soundwave"></i>
+                Rèn tiếng Anh nghe nói online
+              </span>
+              <h1>
+                Nghe nói tự tin bằng
+                <br />
+                thực hành thật, không lý thuyết suông
               </h1>
-              <h3>
-                + Sinh viên, học sinh kém tự tin hoặc không có khả năng nghe
-                nói.
-              </h3>
-              <h3>+ Người đi làm cần nghe nói cơ bản.</h3>
-              <h3>
-                + Người chuẩn bị sang nước ngoài định cư, xuất khẩu lao động.
-              </h3>{" "}
-              <h3>
-                + Sinh viên, học sinh muốn luyện 1000 hoặc 3000 từ vựng căn bản
-                để vững chắc nền tảng.
-              </h3>
+              <p className="hero-sub">
+                Khóa thực hành dành cho người mất gốc và người cần giao tiếp cơ
+                bản — luyện trực tiếp với công cụ nhận diện giọng nói.
+              </p>
+              <div className="row g-3 mb-4">
+                {audiences.map((a, i) => (
+                  <div className="col-md-6" key={i}>
+                    <div className="audience-card">
+                      <i className={`bi ${a.icon}`}></i>
+                      <p>{a.text}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <a href="#video-ketqua" className="hero-cta">
+                <i className="bi bi-play-circle"></i>
+                Xem kết quả học viên
+              </a>
             </div>
           </div>
         </div>
       </section>
 
       {/* Video Section */}
-      <section className="py-5">
+      <section className="py-5" id="video-ketqua">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
-              <div className="bg-white rounded-4 shadow-lg p-4">
-                <h2 className="h3 mb-5 opacity-75">
-                  Kết quả trực quan trong thời gian ngắn
-                </h2>
+              <h2 className="home-section-title">
+                Kết quả trực quan trong thời gian ngắn
+              </h2>
+              <p className="home-section-sub">
+                Học viên thực hành thật — kết quả ghi nhận thật.
+              </p>
+              <div className="home-card">
                 <VideoSlideshow ID={PLAYLIST_ID} />
               </div>
             </div>
@@ -287,10 +501,13 @@ const EnglishLandingPage = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
-              <div className="bg-white rounded-4 shadow-lg p-4">
-                <h2 className="h3 mb-5 opacity-75">
-                  HƯỚNG DẪN GHÉP ÂM CHI TIẾT TẬN TÂM
-                </h2>
+              <h2 className="home-section-title">
+                Hướng dẫn ghép âm chi tiết, tận tâm
+              </h2>
+              <p className="home-section-sub">
+                Video hướng dẫn từng bước cho người mới bắt đầu.
+              </p>
+              <div className="home-card">
                 <VideoSlideshow ID={PLAYLIST_ID_HD} />
               </div>
             </div>
@@ -314,10 +531,10 @@ const EnglishLandingPage = () => {
       </section>
       <ModernLandingPage />
       {/* Footer */}
-      <footer className="py-4 text-center text-white opacity-75">
+      <footer className="home-footer">
         <div className="container">
           <p className="mb-0">
-            © 2025 Khóa học tiếng Anh hiệu quả - Liên hệ ngay để được tư vấn
+            © 2025 Khóa học tiếng Anh hiệu quả — Liên hệ ngay để được tư vấn
             miễn phí
           </p>
         </div>
