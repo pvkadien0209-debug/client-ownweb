@@ -13,20 +13,7 @@ import read_by_Tts from "../ulti/readMessage_TtsServer";
 import Getlink from "./LearningHub_getlink";
 import { socket } from "../App";
 import YouTubeVideoSearch from "./LearningHub/YouTubeVideoSearch";
-
 const colors = ["red", "orange", "black", "green", "blue", "indigo", "violet"];
-
-// Danh sách chức năng — dùng chung cho thanh điều hướng dạng pill
-const NAV_ITEMS = [
-  { value: "div_01_content_table_to_practice", icon: "bi-table", label: "Chọn bài học", step: "1" },
-  { value: "div_01_prac_ghep_am", icon: "bi-music-note-beamed", label: "Ghép âm" },
-  { value: "div_01_content_to_learn", icon: "bi-book", label: "Nội dung" },
-  { value: "div_01_prac_luyen_am", icon: "bi-chat-square-text", label: "Nguyên tắc ghép âm" },
-  { value: "div_01_prac_hoc_thuoc", icon: "bi-lightbulb", label: "Học thuộc" },
-  { value: "div_01_prac_phuongphaphoc", icon: "bi-mortarboard", label: "Phương pháp học" },
-  { value: "div_01_prac_bangnhap", icon: "bi-link-45deg", label: "Custom link", step: "2" },
-  { value: "div_01_prac_vaothuchanh", icon: "bi-play-circle", label: "Vào thực hành", step: "3" },
-];
 
 const LearningHub = ({ setSttRoom, STTconnectFN }) => {
   const { id } = useParams();
@@ -42,9 +29,6 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
   const [CMDlist, setCMDlist] = useState("Hi how are you");
   const [StartToGetData, setStartToGetData] = useState(false);
   const navigate = useNavigate();
-
-  // id của section đang mở — để highlight pill đang active
-  const activeId = params.get("id") || "div_01_content_table_to_practice";
 
   useEffect(() => {
     const fetchTitle = async () => {
@@ -71,12 +55,14 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
 
   useEffect(() => {
     handle_div(params.get("id"));
+
     if (params.get("id") === "div_01_prac_ghep_am") {
       window.scrollTo({
         top: 0,
         // behavior: "smooth", // cuộn mượt
       });
     }
+
     if (params.get("id") === "div_01_content_table_to_practice") {
       window.scrollTo({
         top: params.get("scrollY") || 0,
@@ -109,13 +95,13 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
       <div className="d-flex justify-content-center align-items-center vh-100">
         <div className="text-center">
           <div
-            className="spinner-border mb-3"
+            className="spinner-border text-primary mb-3"
             role="status"
-            style={{ width: "3rem", height: "3rem", color: "#4f46e5" }}
+            style={{ width: "3rem", height: "3rem" }}
           >
             <span className="visually-hidden">Loading...</span>
           </div>
-          <h5 className="text-muted fw-normal">Đang tải dữ liệu…</h5>
+          <h4 className="text-muted">Đang tải dữ liệu...</h4>
         </div>
       </div>
     );
@@ -123,18 +109,10 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
 
   if (error) {
     return (
-      <div className="container mt-5" style={{ maxWidth: 480 }}>
+      <div className="container mt-5">
         <div className="alert alert-danger text-center" role="alert">
-          <i className="bi bi-exclamation-triangle-fill d-block fs-1 mb-2"></i>
-          <p className="mb-3">
-            Gặp lỗi trong quá trình xử lí dữ liệu, vui lòng thử lại.
-          </p>
-          <button
-            className="btn btn-outline-danger"
-            onClick={() => window.location.reload()}
-          >
-            <i className="bi bi-arrow-clockwise me-2"></i>Tải lại trang
-          </button>
+          <i className="bi bi-exclamation-triangle-fill me-2"></i>
+          Gặp lỗi trong quá trình xử lí dữ liệu, vui lòng thử lại.
         </div>
       </div>
     );
@@ -151,242 +129,165 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
         rel="stylesheet"
       />
+
       <style jsx>{`
-        :root {
-          --lh-primary: #4f46e5;
-          --lh-primary-soft: #eef2ff;
-          --lh-ink: #1e293b;
-          --lh-muted: #64748b;
-          --lh-bg: #f6f7fb;
-          --lh-card: #ffffff;
-          --lh-border: #e2e8f0;
-          --lh-radius: 14px;
-          --lh-shadow: 0 1px 3px rgba(15, 23, 42, 0.06),
-            0 6px 18px rgba(15, 23, 42, 0.05);
-        }
         .learning-hub-container {
           margin-top: 8vh;
-          padding: 1.25rem 4% 4rem;
-          background: var(--lh-bg);
+          padding: 5%;
+          background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
           min-height: 100vh;
-          color: var(--lh-ink);
         }
 
-        /* ====== Thanh điều hướng dạng pill (cuộn ngang, dính trên cùng) ====== */
-        .lh-nav {
-          position: sticky;
-          top: 0;
-          z-index: 100;
-          display: flex;
-          gap: 0.5rem;
-          overflow-x: auto;
-          padding: 0.6rem 0.25rem;
-          margin: 0 -0.25rem 1.25rem;
-          background: linear-gradient(var(--lh-bg) 85%, transparent);
-          -webkit-overflow-scrolling: touch;
-          scrollbar-width: none;
-        }
-        .lh-nav::-webkit-scrollbar {
-          display: none;
-        }
-        .lh-pill {
-          flex: 0 0 auto;
-          display: inline-flex;
-          align-items: center;
-          gap: 0.45rem;
-          padding: 0.55rem 1rem;
-          border-radius: 999px;
-          border: 1.5px solid var(--lh-border);
-          background: var(--lh-card);
-          color: var(--lh-ink);
-          font-size: 0.92rem;
+        .control-select {
+          background: white;
+          border: 2px solid #667eea;
+          border-radius: 12px;
+          padding: 0.75rem 1rem;
+          font-size: 1.1rem;
           font-weight: 500;
-          white-space: nowrap;
-          transition: all 0.2s ease;
-          cursor: pointer;
-        }
-        .lh-pill:active {
-          transform: scale(0.96);
-        }
-        .lh-pill.active {
-          background: var(--lh-primary);
-          border-color: var(--lh-primary);
-          color: #fff;
-          box-shadow: 0 4px 12px rgba(79, 70, 229, 0.35);
-        }
-        .lh-pill .lh-step {
-          display: inline-flex;
-          align-items: center;
-          justify-content: center;
-          width: 1.2rem;
-          height: 1.2rem;
-          border-radius: 50%;
-          font-size: 0.7rem;
-          font-weight: 700;
-          background: var(--lh-primary-soft);
-          color: var(--lh-primary);
-        }
-        .lh-pill.active .lh-step {
-          background: rgba(255, 255, 255, 0.25);
-          color: #fff;
+          transition: all 0.3s ease;
+          box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
         }
 
-        /* ====== Các section ====== */
+        .control-select:focus {
+          border-color: #667eea;
+          box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+          outline: none;
+        }
+
         .divlearnHub {
-          background: var(--lh-card);
-          border-radius: var(--lh-radius);
-          box-shadow: var(--lh-shadow);
-          border: 1px solid var(--lh-border);
-          transition:
-            opacity 0.25s ease,
-            padding 0.25s ease;
+          background: white;
+          border-radius: 16px;
+          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+          border: 1px solid #e9ecef;
+          transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
           overflow: hidden;
         }
+
         .content-section {
-          background: var(--lh-card);
-          border-radius: var(--lh-radius);
-        }
-        .practice-section {
-          background: var(--lh-card);
-          border-radius: var(--lh-radius);
-        }
-        .info-section {
-          background: var(--lh-card);
-          border-radius: var(--lh-radius);
+          background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+          color: white;
+          border-radius: 16px;
+          padding: 2rem;
         }
 
-        /* ====== Nút ====== */
+        .practice-section {
+          background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+          color: white;
+          border-radius: 16px;
+          padding: 2rem;
+        }
+
+        .info-section {
+          background: #f8f9fa;
+          border-radius: 16px;
+          padding: 2rem;
+          border-left: 4px solid #667eea;
+        }
+
         .btn-modern {
           border-radius: 12px;
-          padding: 0.7rem 1.25rem;
+          padding: 0.75rem 1.5rem;
           font-weight: 600;
+          transition: all 0.3s ease;
           border: none;
-          transition:
-            transform 0.15s ease,
-            box-shadow 0.15s ease;
-          min-height: 44px; /* vùng chạm tối thiểu trên mobile */
-        }
-        .btn-modern:active {
-          transform: scale(0.97);
-        }
-        .btn-gradient-primary {
-          background: var(--lh-primary);
-          color: #fff;
-          box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
-        }
-        .btn-gradient-success {
-          background: #059669;
-          color: #fff;
-          box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
-        }
-        .btn-gradient-warning {
-          background: #d97706;
-          color: #fff;
-          box-shadow: 0 4px 12px rgba(217, 119, 6, 0.3);
-        }
-        .btn-gradient-info {
-          background: #0284c7;
-          color: #fff;
-          box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
-        }
-        .btn-gradient-primary:hover,
-        .btn-gradient-success:hover,
-        .btn-gradient-warning:hover,
-        .btn-gradient-info:hover {
-          color: #fff;
-          filter: brightness(1.07);
-        }
-        .control-buttons {
-          gap: 0.6rem;
-          margin-bottom: 1.25rem;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         }
 
-        /* ====== Ô nhập phiên âm ====== */
+        .btn-modern:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-gradient-primary {
+          background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+          color: white;
+        }
+
+        .btn-gradient-success {
+          background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+          color: white;
+        }
+
+        .btn-gradient-warning {
+          background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+          color: white;
+        }
+
+        .btn-gradient-info {
+          background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+          color: white;
+        }
+
+        .control-buttons {
+          gap: 0.75rem;
+          margin-bottom: 1.5rem;
+        }
+
         .textarea-practice {
-          background: #fff;
-          color: var(--lh-ink);
-          border: 2px solid var(--lh-primary);
+          background: linear-gradient(135deg, #1e90ff 0%, #0077ff 100%);
+          color: white;
+          border: none;
           border-radius: 12px;
-          font-size: clamp(1.35rem, 4vw, 2rem);
+          font-size: 2.25rem;
           font-weight: 700;
-          padding: 0.85rem 1rem;
-          box-shadow: var(--lh-shadow);
-          transition:
-            box-shadow 0.2s ease,
-            border-color 0.2s ease;
+          text-decoration: underline;
+          box-shadow: 0 8px 25px rgba(30, 144, 255, 0.3);
+          transition: all 0.3s ease;
         }
-        .textarea-practice::placeholder {
-          color: #94a3b8;
-          font-weight: 400;
-          font-size: 1rem;
-          text-decoration: none;
-        }
+
         .textarea-practice:focus {
           outline: none;
-          border-color: var(--lh-primary);
-          box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.18);
+          box-shadow: 0 12px 35px rgba(30, 144, 255, 0.4);
+          transform: scale(1.02);
         }
 
-        /* ====== Thẻ thông tin ====== */
         .info-card {
-          background: var(--lh-card);
+          background: white;
           border-radius: 12px;
-          padding: 1.1rem 1.25rem;
-          box-shadow: var(--lh-shadow);
-          border: 1px solid var(--lh-border);
-          border-left: 4px solid var(--lh-primary);
+          padding: 1.5rem;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+          border-left: 4px solid #667eea;
           margin-bottom: 1rem;
         }
+
         .reference-card {
-          background: var(--lh-primary-soft);
+          background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
           border-radius: 12px;
-          padding: 1.1rem 1.25rem;
-          border: 1px solid #c7d2fe;
+          padding: 1.5rem;
+          border: 1px solid #e1bee7;
           margin-top: 1rem;
         }
+
         .vowel-guide {
-          background: #fff;
+          background: linear-gradient(135deg, #bbdefb 0%, #c8e6c9 100%);
           border-radius: 12px;
-          padding: 0.85rem;
+          padding: 1rem;
           text-align: center;
-          margin: 0.75rem 0;
-          border: 2px dashed var(--lh-primary);
-          letter-spacing: 0.15em;
-        }
-        .step-guide {
-          background: #fffbeb;
-          border-radius: 12px;
-          padding: 1.1rem 1.25rem;
-          border-left: 4px solid #d97706;
-          margin: 0.75rem 0;
-        }
-        .lesson-title {
-          color: var(--lh-primary);
-          font-weight: 700;
-          text-align: center;
-          margin-bottom: 1.5rem;
-          line-height: 1.3;
-        }
-        .practice-sentence {
-          color: var(--lh-primary);
-          font-size: clamp(1.5rem, 5vw, 2.25rem);
-          font-weight: 700;
-          line-height: 1.35;
-          word-break: break-word;
-          margin: 0;
+          margin: 1rem 0;
+          border: 2px solid #4fc3f7;
         }
 
-        /* ====== YouTube ====== */
+        .lesson-title {
+          background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          font-weight: 700;
+          text-align: center;
+          margin-bottom: 2rem;
+        }
+
         .youtube-container {
           position: relative;
           overflow: hidden;
           width: 100%;
           padding-top: 56.25%;
-          border-radius: var(--lh-radius);
-          box-shadow: var(--lh-shadow);
-          margin-bottom: 1.5rem;
-          background: #0f172a;
+          border-radius: 16px;
+          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+          margin-bottom: 2rem;
         }
+
         .youtube-container iframe {
           position: absolute;
           top: 15%;
@@ -399,53 +300,58 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
           border-radius: 12px;
         }
 
-        /* ====== Select ====== */
-        .lesson-select,
-        .control-select {
-          background: var(--lh-card);
-          border: 1.5px solid var(--lh-border);
+        .lesson-select {
+          background: white;
+          border: 2px solid #667eea;
           border-radius: 12px;
-          padding: 0.7rem 1rem;
+          padding: 0.75rem 1rem;
           font-size: 1rem;
-          box-shadow: var(--lh-shadow);
-          min-height: 44px;
+          box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
         }
-        .lesson-select:focus,
-        .control-select:focus {
-          border-color: var(--lh-primary);
-          box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.18);
+
+        .lesson-select:focus {
+          border-color: #667eea;
+          box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
           outline: none;
         }
+
+        // .step-guide {
+        //   background: linear-gradient(135deg, #fff3e0 0%, #f3e5f5 100%);
+        //   border-radius: 12px;
+        //   padding: 1.5rem;
+        //   border-left: 4px solid #ff9800;
+        //   margin: 1rem 0;
+        // }
+
         .status-check {
-          background: var(--lh-card);
+          background: white;
           border-radius: 12px;
-          padding: 1.1rem 1.25rem;
-          border: 1px solid var(--lh-border);
+          padding: 1rem;
+          border: 1px solid #e9ecef;
           margin: 1rem 0;
         }
 
         @media (max-width: 768px) {
           .learning-hub-container {
-            padding: 0.75rem 3% 5rem;
+            padding: 3%;
             margin-top: 6vh;
           }
+
           .control-buttons {
             flex-direction: column;
           }
+
+          .textarea-practice {
+            font-size: 1.5rem;
+          }
+
           .btn-modern {
             width: 100%;
-            margin-bottom: 0.25rem;
-          }
-        }
-        @media (prefers-reduced-motion: reduce) {
-          .divlearnHub,
-          .lh-pill,
-          .btn-modern,
-          .textarea-practice {
-            transition: none;
+            margin-bottom: 0.5rem;
           }
         }
       `}</style>
+
       <HelmetProvider>
         <div className="learning-hub-container">
           <Helmet>
@@ -468,26 +374,49 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
               )}, ${id}`}
             />
           </Helmet>
+
           <section>
-            {/* ====== Điều hướng chức năng: pill cuộn ngang, dính trên cùng ====== */}
-            <nav className="lh-nav" aria-label="Chức năng học tập">
-              {NAV_ITEMS.map((item) => (
-                <button
-                  key={item.value}
-                  type="button"
-                  className={`lh-pill ${activeId === item.value ? "active" : ""}`}
-                  onClick={() => {
-                    navigate(
-                      `/learninghub/${id}?ls=${currentIndex}&&id=${item.value}`,
-                    );
-                  }}
-                >
-                  <i className={`bi ${item.icon}`}></i>
-                  {item.label}
-                  {item.step ? <span className="lh-step">{item.step}</span> : null}
-                </button>
-              ))}
-            </nav>
+            {/* Control Section */}
+            <div className="mb-4">
+              <select
+                className="control-select"
+                onChange={(e) => {
+                  navigate(
+                    `/learninghub/${id}?ls=${currentIndex}&&id=${e.target.value}`,
+                  );
+                }}
+              >
+                <option value="div_01_content_table_to_practice">
+                  <i className="bi bi-list-ul me-2"></i>Chọn chức năng
+                </option>
+                <option value="div_01_content_to_learn">
+                  <i className="bi bi-book me-2"></i>Nội dung
+                </option>
+                <option value="div_01_content_table_to_practice">
+                  <i className="bi bi-table me-2"></i>Chọn bài học (1)
+                </option>
+                <option value="div_01_prac_ghep_am">
+                  <i className="bi bi-music-note-beamed me-2"></i>Ghép âm
+                </option>
+                <option value="div_01_prac_luyen_am">
+                  <i className="bi bi-chat-square-text me-2"></i>Nguyên tắc ghép
+                  âm
+                </option>
+                <option value="div_01_prac_hoc_thuoc">
+                  <i className="bi bi-brain me-2"></i>Học thuộc
+                </option>
+                <option value="div_01_prac_phuongphaphoc">
+                  <i className="bi bi-lightbulb me-2"></i>Phương pháp học
+                </option>
+                <option value="div_01_prac_bangnhap">
+                  <i className="bi bi-link-45deg me-2"></i>Custom link thực hành
+                  (2)
+                </option>
+                <option value="div_01_prac_vaothuchanh">
+                  <i className="bi bi-play-circle me-2"></i>Vào thực hành (3)
+                </option>
+              </select>
+            </div>
 
             <div className="d-flex">
               {/* Content Section */}
@@ -502,9 +431,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
               >
                 <div
                   style={{
-                    fontSize: "1.35rem",
+                    fontSize: "1.875rem",
                     fontWeight: "400",
-                    lineHeight: 1.6,
                     whiteSpace: "pre-line",
                   }}
                 >
@@ -521,7 +449,9 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 className="divlearnHub"
                 style={{
                   flex: 8,
-                  padding: "1.5rem",
+                  background:
+                    "linear-gradient(135deg, #e8f5e8 0%, #f0f8ff 100%)",
+                  padding: "2rem",
                 }}
               >
                 {rShowLessonTABLE(
@@ -580,49 +510,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
               >
                 <div className="row">
                   <div className="col-lg-6">
-                    {/* Câu đang luyện — đưa lên đầu, là thứ người học cần thấy trước */}
-                    <div className="info-card">
-                      <div className="text-muted small mb-1">
-                        <i className="bi bi-chat-quote me-1"></i>Câu đang luyện
-                      </div>
-                      <h1 id="getCMDLIST" className="practice-sentence">
-                        {choose_a_st ? choose_a_st : CMDlist}
-                      </h1>
-                    </div>
-
-                    {/* Ô nhập phiên âm */}
-                    <textarea
-                      className="textarea-practice w-100"
-                      id="clearClassForTable"
-                      rows="4"
-                      placeholder="Nhập phiên âm tại đây…"
-                    ></textarea>
-
-                    {/* Kết quả tham khảo */}
-                    {StringSimilarityMatcher(
-                      CMDlist,
-                      dataLearning[currentIndex]?.HDTB?.IPA,
-                    )}
-
-                    {/* Gợi ý 4 bước */}
-                    <div className="step-guide">
-                      <h6 className="mb-2 fw-bold">
-                        <i className="bi bi-lightbulb me-2"></i>4 bước: Đoán –
-                        Tra – Tìm – Ghép
-                      </h6>
-                      <p className="small text-muted mb-2">
-                        "Tìm" là tìm đầu tiên · Đọc giữ nhịp theo quy tắc 4 ngón
-                        bàn tay phải
-                      </p>
-                      <div className="vowel-guide">
-                        <h5 style={{ color: "#4f46e5", margin: 0 }}>
-                          <strong>U – E – O – A – i – Ơ</strong>
-                        </h5>
-                      </div>
-                    </div>
-
-                    {/* Nút điều khiển — gom xuống dưới nội dung chính */}
-                    <div className="d-flex flex-wrap control-buttons mt-3">
+                    {/* Control Buttons */}
+                    <div className="d-flex flex-wrap control-buttons">
                       <button
                         onClick={() => {
                           navigate(
@@ -635,6 +524,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                       >
                         <i className="bi bi-arrow-left me-2"></i>Quay lại bảng
                       </button>
+
                       <button
                         onClick={() => {
                           try {
@@ -656,8 +546,10 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                               stParam +
                               "&&note=" +
                               encodeURIComponent(DeCodeText);
+
                             const groupChatID =
                               localStorage.getItem("groupChat") || "all";
+
                             socket.emit("message", {
                               text: "LUYỆN TẬP CÂU: " + stParam + fullURL,
                               time:
@@ -673,6 +565,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                       >
                         <i className="bi bi-share me-2"></i>Gửi link
                       </button>
+
                       <button
                         onClick={(e) => {
                           try {
@@ -722,18 +615,80 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                         <i className="bi bi-clipboard me-2"></i>Copy link
                       </button>
                     </div>
+
+                    {/* Guide Section */}
+                    <div className="step-guide">
+                      <h5 className="mb-3">
+                        <i className="bi bi-lightbulb me-2"></i>4 bước: Đoán -
+                        Tra - Tìm - Ghép
+                      </h5>
+                      <div className="vowel-guide">
+                        <h4 style={{ color: "#1976d2", margin: 0 }}>
+                          <strong>U - E - O - A - i - Ơ</strong>
+                        </h4>
+                      </div>
+                    </div>
+
+                    {/* Practice Text */}
+                    <div className="info-card">
+                      <h1 id="getCMDLIST" className="text-primary mb-3">
+                        {choose_a_st ? choose_a_st : CMDlist}
+                      </h1>
+                    </div>
+
+                    {/* Practice Textarea */}
+                    <textarea
+                      className="textarea-practice w-100"
+                      id="clearClassForTable"
+                      rows="6"
+                      placeholder="Nhập phiên âm tại đây..."
+                    ></textarea>
+
+                    {/* Similarity Matcher */}
+                    <div className="reference-card">
+                      {StringSimilarityMatcher(
+                        CMDlist,
+                        dataLearning[currentIndex]?.HDTB?.IPA,
+                      )}
+                    </div>
+
+                    {/* Instructions */}
+                    <div className="row mt-4">
+                      <div className="col-md-6">
+                        <div className="info-card">
+                          <h6 className="text-primary">
+                            <i className="bi bi-search me-2"></i>
+                            "Tìm" là tìm đầu tiên:
+                          </h6>
+                          <div className="vowel-guide">
+                            <strong style={{ color: "#1976d2" }}>
+                              U - E - O - A - i - Ơ
+                            </strong>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="info-card">
+                          <h6 className="text-success">
+                            <i className="bi bi-hand-index me-2"></i>
+                            Đọc giữ nhịp theo quy tắc 4 ngón bàn tay phải
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+
                     <i id="DeCode" className="d-none"></i>
                   </div>
+
                   <div className="col-lg-6">
                     <Dictaphone CMDlist={CMDlist} />
+
                     <hr className="my-4" />
+
                     {/* Audio Test */}
                     <div className="status-check">
-                      <h6 className="text-muted mb-3">
-                        <i className="bi bi-gear me-2"></i>Kiểm tra thiết bị
-                      </h6>
                       <button
-                        className="btn btn-modern btn-gradient-warning mb-2 w-100"
+                        className="btn btn-modern btn-gradient-warning mb-3"
                         onClick={() => {
                           ReadMessage(
                             { imale: 0, ifemale: 2 },
@@ -751,8 +706,9 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                         Có nghe âm thanh máy nói "Sorry, what did you say?" là
                         ổn
                       </p>
+
                       <button
-                        className="btn btn-modern btn-gradient-warning w-100"
+                        className="btn btn-modern btn-gradient-warning"
                         onClick={() => {
                           kiemtramic();
                         }}
@@ -766,7 +722,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 </div>
               </div>
 
-              {/* Other sections */}
+              {/* Other sections with enhanced styling */}
               <div
                 id="div_01_prac_luyen_am"
                 className="divlearnHub info-section"
@@ -779,6 +735,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
               >
                 <NguyenTacghepam />
               </div>
+
               <div
                 id="div_01_prac_hoc_thuoc"
                 className="divlearnHub info-section"
@@ -792,7 +749,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 <div className="text-center">
                   <h1 className="lesson-title">Học thuộc lòng!</h1>
                   <div className="info-card text-start">
-                    <p className="lead mb-0">
+                    <p className="lead">
                       <i className="bi bi-lightbulb text-warning me-2"></i>
                       Là một cách bổ trợ{" "}
                       <strong>trực tiếp, nhanh chóng và hiệu quả</strong> cho
@@ -801,36 +758,40 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                       phải thực hành để đạt đến ngưỡng giao tiếp được.
                     </p>
                   </div>
+
                   <div className="step-guide text-start">
-                    <h6 className="fw-bold mb-1">
+                    <h5>
                       <i className="bi bi-1-circle me-2"></i>
                       Bước 1: Hãy chép mỗi câu phía dưới đây ra giấy một lần.
-                    </h6>
+                    </h5>
                   </div>
+
                   <div className="step-guide text-start">
-                    <h6 className="fw-bold mb-1">
+                    <h5>
                       <i className="bi bi-2-circle me-2"></i>
                       Bước 2: Bấm vào Nút <strong>
                         Learning by heart!
                       </strong>{" "}
                       bên dưới.
-                    </h6>
-                    <p className="mb-0 small text-muted">
+                    </h5>
+                    <p>
                       Máy sẽ đọc từng câu một, bạn có 10 giây để nghe và chép
                       lại ra giấy (có thể ghi tắt).
                     </p>
                   </div>
+
                   <button
                     onClick={() => {
                       navigate(`/learningbyheart/${id}/${currentIndex}`);
                     }}
-                    className="btn btn-modern btn-gradient-primary btn-lg mt-2"
+                    className="btn btn-modern btn-gradient-primary btn-lg"
                   >
                     <i className="bi bi-heart me-2"></i>
                     Learning by heart
                   </button>
                 </div>
               </div>
+
               <div
                 id="div_01_prac_phuongphaphoc"
                 className="divlearnHub info-section"
@@ -843,58 +804,61 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
               >
                 <h1 className="lesson-title">Phương pháp học hiệu quả</h1>
                 <div className="info-card">
-                  <h4 className="text-primary mb-4 fw-semibold lh-base">
+                  <h2 className="text-primary mb-4">
                     Thực hành lặp lại (có ghi nhận phản hồi-sửa chửa) là con
                     đường phải đi qua để đạt được kĩ năng. Hãy lấy kỉ luật và
                     cùng thực hành chung làm động lực.
-                  </h4>
+                  </h2>
+
                   <div className="row">
                     <div className="col-md-6">
                       <div className="step-guide">
-                        <h6 className="fw-bold">
-                          <i className="bi bi-bullseye me-2"></i>
+                        <h5>
+                          <i className="bi bi-target me-2"></i>
                           Mục tiêu tối thiểu
-                        </h6>
-                        <p className="mb-0">
+                        </h5>
+                        <p>
                           Để biết nghe nói là{" "}
                           <strong>10.000 lượt nghe nói</strong>.
                         </p>
                       </div>
+
                       <div className="step-guide">
-                        <h6 className="fw-bold">
+                        <h5>
                           <i className="bi bi-calendar-day me-2"></i>
                           Mục tiêu hàng ngày
-                        </h6>
-                        <p className="mb-0">
+                        </h5>
+                        <p>
                           Mỗi buổi thực hành ít cũng phải trên{" "}
                           <strong>100 lượt nghe nói</strong>.
                         </p>
                       </div>
                     </div>
+
                     <div className="col-md-6">
                       <div className="step-guide">
-                        <h6 className="fw-bold">
+                        <h5>
                           <i className="bi bi-arrow-repeat me-2"></i>
                           Ôn tập kiến thức cốt lõi
-                        </h6>
-                        <p className="mb-0">
+                        </h5>
+                        <p>
                           Mỗi buổi học đều nên nhắc lại các kiến thức về tách
                           ghép âm.
                         </p>
                       </div>
+
                       <div className="step-guide">
-                        <h6 className="fw-bold">
+                        <h5>
                           <i className="bi bi-ear me-2"></i>
                           Thực hành nghe và ghép
-                        </h6>
-                        <p className="mb-0">
-                          Luyện tập ghép âm và tách âm thường xuyên.
-                        </p>
+                        </h5>
+                        <p>Luyện tập ghép âm và tách âm thường xuyên.</p>
                       </div>
                     </div>
                   </div>
-                  <div className="alert alert-warning mt-2" role="alert">
-                    <h6 className="fw-bold">
+
+                  <div className="alert alert-warning" role="alert">
+                    <h6>
                       <i className="bi bi-exclamation-triangle me-2"></i>
                       Lưu ý quan trọng:
                     </h6>
@@ -914,6 +878,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                   </div>
                 </div>
               </div>
+
               <div
                 id="div_01_prac_bangnhap"
                 className="divlearnHub info-section"
@@ -931,6 +896,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                   typeSet={dataLearning[currentIndex]?.typeSets || ["A1"]}
                 />
               </div>
+
               <div
                 id="div_01_prac_vaothuchanh"
                 className="divlearnHub info-section"
@@ -979,12 +945,14 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
     </>
   );
 };
+
 export default LearningHub;
 
 // Utility Functions
 function createArrayFromNumber(n) {
   return Array.from({ length: n + 1 }, (_, index) => index);
 }
+
 function generateBootstrapList(sentences, choose_a_st, setchoose_a_st) {
   try {
     if (!Array.isArray(sentences)) {
@@ -1003,7 +971,10 @@ function generateBootstrapList(sentences, choose_a_st, setchoose_a_st) {
           }}
           className="form-select lesson-select"
         >
-          <option value={""}>Các câu trong bài thực hành</option>
+          <option value={""}>
+            <i className="bi bi-list me-2"></i>
+            Các câu trong bài thực hành
+          </option>
           {listItems}
         </select>
       </div>
@@ -1013,6 +984,7 @@ function generateBootstrapList(sentences, choose_a_st, setchoose_a_st) {
     return null;
   }
 }
+
 function rShowLessonTABLE(
   dataLearning,
   currentIndex,
@@ -1025,52 +997,53 @@ function rShowLessonTABLE(
       <div>
         <div className="text-center mb-4">
           {dataLearning.length > 1 ? (
-            <div
-              className="text-uppercase small fw-bold mb-1"
-              style={{ color: "#64748b", letterSpacing: "0.12em" }}
-            >
+            <h2 className="lesson-title">
+              <i className="bi bi-book me-2"></i>
               Bài {convertToRoman(parseInt(currentIndex) + 1)}
-            </div>
+            </h2>
           ) : null}
           <h1 className="lesson-title">
             {dataLearning[currentIndex]?.SEO?.seo?.metaTitle}
           </h1>
-          {dataLearning.length > 1 ? (
-            <div className="d-flex justify-content-center mb-4">
-              <div style={{ width: "100%", maxWidth: "420px" }}>
-                {renderContentOftable(
-                  dataLearning,
-                  currentIndex,
-                  setCurrentIndex,
-                  navigate,
-                  id,
-                )}
+
+          {dataLearning[currentIndex].youtubeSrc ? (
+            <div className="youtube-container">
+              <iframe
+                src={dataLearning[currentIndex].youtubeSrc}
+                allowFullScreen
+              ></iframe>
+              <div className="text-center mt-3">
+                <small className="text-muted">
+                  <i className="bi bi-info-circle me-1"></i>
+                  Video được trích dẫn với mục đích tư liệu học tập.
+                  <br />
+                  Nguồn: {dataLearning[currentIndex].youtubeSrc}
+                </small>
               </div>
             </div>
           ) : null}
-          {dataLearning[currentIndex].youtubeSrc ? (
-            <>
-              <div className="youtube-container">
-                <iframe
-                  src={dataLearning[currentIndex].youtubeSrc}
-                  allowFullScreen
-                  title="Video bài học"
-                ></iframe>
-              </div>
-              <small className="text-muted d-block mb-3">
-                <i className="bi bi-info-circle me-1"></i>
-                Video được trích dẫn với mục đích tư liệu học tập. Nguồn:{" "}
-                {dataLearning[currentIndex].youtubeSrc}
-              </small>
-            </>
-          ) : null}
         </div>
+
+        {dataLearning.length > 1 ? (
+          <div className="d-flex justify-content-center mb-4">
+            <div style={{ width: "300px" }}>
+              {renderContentOftable(
+                dataLearning,
+                currentIndex,
+                setCurrentIndex,
+                navigate,
+                id,
+              )}
+            </div>
+          </div>
+        ) : null}
       </div>
     );
   } catch (error) {
     return null;
   }
 }
+
 function renderContent(dataLearning, currentIndex) {
   try {
     if (!dataLearning[currentIndex]) return null;
@@ -1088,6 +1061,7 @@ function renderContent(dataLearning, currentIndex) {
     return null;
   }
 }
+
 function renderContentOftable(
   dataLearning,
   currentIndex,
@@ -1104,7 +1078,6 @@ function renderContentOftable(
           navigate(`/learninghub/${id}?ls=${e.target.value}`);
         }}
         className="lesson-select w-100"
-        aria-label="Chọn bài học"
       >
         {dataLearning.map((item, index) => (
           <option key={index} value={index}>
@@ -1117,10 +1090,12 @@ function renderContentOftable(
     return null;
   }
 }
+
 function arrayToString(array) {
   if (!Array.isArray(array)) return "";
   return array.join(", ");
 }
+
 function convertToRoman(num) {
   const romanNumerals = [
     { value: 1000, symbol: "M" },
@@ -1146,6 +1121,7 @@ function convertToRoman(num) {
   }
   return roman;
 }
+
 function handle_div(id) {
   if (!id) {
     id = "div_01_content_table_to_practice";
@@ -1163,12 +1139,13 @@ function handle_div(id) {
     targetDiv.style.opacity = "1";
     targetDiv.style.flex = "8";
     targetDiv.style.width = "80wh";
-    targetDiv.style.padding = "20px";
+    targetDiv.style.padding = "24px";
     targetDiv.style.pointerEvents = "auto";
   } else {
     console.warn("No div found with the id:", id);
   }
 }
+
 function kiemtramic() {
   try {
     navigator.permissions
@@ -1209,6 +1186,7 @@ function kiemtramic() {
     console.error("Lỗi khi kiểm tra micro:", error);
   }
 }
+
 function StringSimilarityMatcher(inputString, phrasesArray) {
   if (
     !phrasesArray ||
@@ -1225,6 +1203,7 @@ function StringSimilarityMatcher(inputString, phrasesArray) {
         mockSimilarityScoreRate = e;
       }
     });
+
     // Check if we found a match
     if (mockSimilarityScoreRate) {
       const ipa02 = mockSimilarityScoreRate["IPA-02"] || "";
@@ -1240,9 +1219,9 @@ function StringSimilarityMatcher(inputString, phrasesArray) {
             <i className="bi bi-search me-2"></i>
             Tham khảo:
           </h6>
-          <div className="row g-2">
-            <div className="col-12 col-md-4">
-              <div className="info-card h-100 mb-0">
+          <div className="row">
+            <div className="col-md-4">
+              <div className="info-card">
                 <h6 className="text-info">
                   <i className="bi bi-translate me-2"></i>
                   Dịch thô:
@@ -1252,8 +1231,8 @@ function StringSimilarityMatcher(inputString, phrasesArray) {
                 </p>
               </div>
             </div>
-            <div className="col-6 col-md-4">
-              <div className="info-card h-100 mb-0">
+            <div className="col-md-4">
+              <div className="info-card">
                 <h6 className="text-success">
                   <i className="bi bi-globe-europe-africa me-2"></i>
                   Phiên âm UK:
@@ -1263,8 +1242,8 @@ function StringSimilarityMatcher(inputString, phrasesArray) {
                 </p>
               </div>
             </div>
-            <div className="col-6 col-md-4">
-              <div className="info-card h-100 mb-0">
+            <div className="col-md-4">
+              <div className="info-card">
                 <h6 className="text-warning">
                   <i className="bi bi-globe-americas me-2"></i>
                   Phiên âm US:

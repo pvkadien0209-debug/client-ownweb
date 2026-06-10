@@ -49,7 +49,7 @@ const Dictaphone = ({ CMDlist, GENDER, setScore, addElementIfNotExist }) => {
   return (
     <div style={{ display: "" }}>
       <div id="dtphTranscript" />
-      <button id="checkBTN" onClick={() => check(getInput())} />
+      <button style={{ display: "none" }} id="checkBTN" onClick={() => check(getInput())} />
     </div>
   );
 };
