@@ -14,7 +14,7 @@ const Dictaphone = ({ CMDlist, GENDER, setScore, addElementIfNotExist }) => {
 
   /* ── Check ───────────────────────────────────────────────────── */
   function check(input) {
-    const objTR = findBest(input, CMDlist, 0.4);
+    const objTR = findBest(input, CMDlist, 0.5);
 
     if (!objTR || !objTR.qs) {
       ReadMessage(
@@ -49,7 +49,11 @@ const Dictaphone = ({ CMDlist, GENDER, setScore, addElementIfNotExist }) => {
   return (
     <div style={{ display: "" }}>
       <div id="dtphTranscript" />
-      <button style={{ display: "none" }} id="checkBTN" onClick={() => check(getInput())} />
+      <button
+        style={{ display: "none" }}
+        id="checkBTN"
+        onClick={() => check(getInput())}
+      />
     </div>
   );
 };

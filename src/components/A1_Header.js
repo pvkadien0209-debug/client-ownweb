@@ -195,6 +195,27 @@ const pracEnSets = [
   },
   {
     root: "learninghub",
+    preName: "Phản xạ nâng cao",
+    name: "Luyện phản xạ đặt câu hỏi (1)",
+    link: "0a_y1",
+    id: "trungcap1",
+  },
+  {
+    root: "learninghub",
+    preName: "Phản xạ nâng cao",
+    name: "Luyện phản xạ đặt câu hỏi (2)",
+    link: "0a_y1",
+    id: "trungcap1",
+  },
+  {
+    root: "learninghub",
+    preName: "Phản xạ nâng cao",
+    name: "Luyện phản xạ đặt câu hỏi (3)",
+    link: "0a_y1",
+    id: "trungcap1",
+  },
+  {
+    root: "learninghub",
     preName: "Learning A2",
     name: "Thực hành nghe, xử lý và lặp lại |Chủ đề: Mô tả với bố cục",
     link: "yyy_mota_bo_cuc_4",
