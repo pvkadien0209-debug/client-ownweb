@@ -536,6 +536,12 @@ const Room = ({ setSttRoom }) => {
               </>
             )}
             <div id="chartContainer" />
+            <span>
+              {" "}
+              {DataPracticingCharactor
+                ? DataPracticingCharactor.length
+                : 0}{" "}
+            </span>
           </div>
         </div>
 
