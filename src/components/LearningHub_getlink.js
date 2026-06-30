@@ -33,7 +33,7 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
   // Tạo danh sách bài học từ 0 đến numLessonSetLength-1
   const availableLessons = Array.from(
     { length: numLessonSetLength },
-    (_, i) => i
+    (_, i) => i,
   );
   // Cập nhật link khi có thay đổi
   useEffect(() => {
@@ -47,7 +47,7 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
       r1Value,
       isRandomEnabled,
       Note,
-      timeValue
+      timeValue,
     );
     setGeneratedLink(link);
   }, [
@@ -160,7 +160,7 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
     r1Value,
     isRandomEnabled,
     Note,
-    timeValue
+    timeValue,
   ) {
     if (!id || isNaN(index)) return "";
     // Tạo base link
@@ -267,49 +267,8 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
     if (!selectedTypes || selectedTypes.length === 0) {
       return "";
     }
-    // Nhóm các type theo chữ cái đầu tiên
-    const groupedTypes = {};
-    selectedTypes.forEach((type) => {
-      const prefix = type.charAt(0);
-      if (!groupedTypes[prefix]) {
-        groupedTypes[prefix] = [];
-      }
-      const num = parseInt(type.substring(1));
-      groupedTypes[prefix].push(num);
-    });
-    // Tối ưu hóa từng nhóm
-    const optimizedParts = [];
-    for (const prefix in groupedTypes) {
-      const numbers = groupedTypes[prefix].sort((a, b) => a - b);
-      // Kiểm tra xem có lấy tất cả các giá trị từ 1-25 không
-      if (
-        numbers.length === 25 &&
-        numbers.every((val, idx) => val === idx + 1)
-      ) {
-        optimizedParts.push(`${prefix}*`);
-        continue;
-      }
-      // Tìm và tạo các dải số liên tục
-      let i = 0;
-      while (i < numbers.length) {
-        let start = numbers[i];
-        let end = start;
-        // Tìm dải số liên tục
-        while (i + 1 < numbers.length && numbers[i + 1] === end + 1) {
-          end = numbers[++i];
-        }
-        // Thêm vào kết quả theo định dạng phù hợp
-        if (start === end) {
-          optimizedParts.push(`${prefix}${start}`);
-        } else if (end - start >= 2) {
-          optimizedParts.push(`${prefix}${start}-${end}`);
-        } else {
-          optimizedParts.push(`${prefix}${start}`, `${prefix}${end}`);
-        }
-        i++;
-      }
-    }
-    return optimizedParts.join("zz");
+    // Giữ nguyên tên type (A0001a, A0001b...), chỉ join bằng "zz"
+    return [...selectedTypes].sort().join("zz");
   }
   // Hàm sao chép link vào clipboard
   const copyToClipboard = () => {
@@ -572,8 +531,8 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
             {tableType === "normal"
               ? "Bình thường"
               : tableType === "vietnamese"
-              ? "Tiếng Việt"
-              : "Bảng trống"}
+                ? "Tiếng Việt"
+                : "Bảng trống"}
           </p>
           {timeValue !== null && (
             <p className="mb-1">

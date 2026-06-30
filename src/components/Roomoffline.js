@@ -535,6 +535,7 @@ const Room = ({ setSttRoom }) => {
                 </span>
               </>
             )}
+            <div id="chartContainer" />
           </div>
         </div>
 

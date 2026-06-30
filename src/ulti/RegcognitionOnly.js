@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
-
 /* ════════════════════════════════════════════════════════════════════
    DictaphoneONLY — footer bar
    Layout: [Reset | Tiếp]  [transcript…]  [Bật/Tắt toggle]
@@ -10,7 +9,6 @@ import SpeechRecognition, {
 const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
   const { transcript, resetTranscript, listening } = useSpeechRecognition();
   const [micEnabled, setMicEnabled] = useState(false);
-
   /* ── Auto-detect mobile browser tự dừng ────────────────────────
      Khi micEnabled=true nhưng listening tắt → reset cờ để nút
      tự chuyển sang trạng thái "cần bật lại"
@@ -20,7 +18,6 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
       setMicEnabled(false);
     }
   }, [listening]); // eslint-disable-line
-
   /* ── Toggle Bật / Tắt ───────────────────────────────────────── */
   const handleToggle = () => {
     if (micEnabled) {
@@ -34,22 +31,17 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
       setMicEnabled(true);
     }
   };
-
   /* ── Tiếp: gửi transcript đi xử lý → reset → nghe câu mới ──── */
   const handleNext = () => {
     const current = transcript.trim();
-
     // Ghi vào DOM để Dictaphone-check đọc
     const el = document.getElementById("dtphTranscript");
     if (el) el.innerText = current;
-
     // Kích hoạt check sau khi DOM cập nhật
     setTimeout(() => {
       document.getElementById("checkBTN")?.click();
     }, 100);
-
     if (onTranscript) onTranscript(current);
-
     // Reset và tiếp tục nghe câu mới
     resetTranscript();
     // SpeechRecognition.stopListening();
@@ -58,12 +50,10 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
     //   setMicEnabled(true);
     // }, 200);
   };
-
   /* ── Reset: xóa transcript, giữ nguyên trạng thái mic ──────── */
   const handleReset = () => {
     resetTranscript();
   };
-
   /* ── Trạng thái toggle button ───────────────────────────────── */
   // micEnabled=false              → "Bật"   (xanh)
   // micEnabled=true, listening    → "Tắt"   (đỏ, pulse)
@@ -74,9 +64,7 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
     : autoStopped
       ? { label: "Bật lại", cls: "dtph-toggle-warn", icon: "bi-mic" }
       : { label: "Bật", cls: "dtph-toggle-off", icon: "bi-mic-mute-fill" };
-
   const hasText = transcript.trim().length > 0;
-
   return (
     <>
       <style>{`
@@ -90,7 +78,6 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
           box-sizing: border-box;
           min-height: 0;
         }
-
         /* ══ LEFT: Reset + Tiếp ══ */
         .dtph-left {
           display: flex;
@@ -121,7 +108,6 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
           cursor: not-allowed;
         }
         .dtph-sm-btn i { font-size: 1rem; line-height: 1; }
-
         .dtph-btn-reset {
           background: rgba(100,116,139,0.28);
           color: #94a3b8;
@@ -132,13 +118,13 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
           color: #fff;
           box-shadow: 0 2px 8px rgba(124,58,237,0.4);
         }
-
         /* ══ CENTER: Transcript ══ */
         .dtph-center {
           flex: 1;
           min-width: 0;
           display: flex;
           align-items: center;
+          justify-content: flex-end;
           background: rgba(0,0,0,0.20);
           border-radius: 10px;
           padding: 5px 10px;
@@ -147,6 +133,7 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
           overflow: hidden;
           border: 1px solid transparent;
           transition: border-color 0.25s;
+          text-align: right;
         }
         .dtph-bar.is-listening .dtph-center {
           border-color: rgba(52,211,153,0.35);
@@ -160,13 +147,17 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
           display: -webkit-box;
           -webkit-line-clamp: 2;
           -webkit-box-orient: vertical;
+          text-align: right;
+          width: 100%;
         }
         .dtph-placeholder-text {
           font-size: 0.76rem;
           color: rgba(226,232,240,0.38);
           font-style: italic;
+          text-align: right;
+          width: 100%;
+          display: block;
         }
-
         /* live blink dot */
         .dtph-live-dot {
           display: inline-block;
@@ -179,7 +170,6 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
           animation: dtph-blink 1s step-start infinite;
         }
         @keyframes dtph-blink { 50% { opacity: 0; } }
-
         /* ══ RIGHT: Toggle Bật/Tắt ══ */
         .dtph-toggle-btn {
           display: flex;
@@ -201,7 +191,6 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
         }
         .dtph-toggle-btn:active { transform: scale(0.90); }
         .dtph-toggle-btn i { font-size: 1.15rem; line-height: 1; }
-
         /* OFF → Bật */
         .dtph-toggle-off {
           background: linear-gradient(135deg, #34d399, #059669);
@@ -231,18 +220,7 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
           50%       { box-shadow: 0 2px 20px rgba(217,119,6,0.8); }
         }
       `}</style>
-
       <div className={`dtph-bar ${listening ? "is-listening" : ""}`}>
-        {/* ══ LEFT: Toggle Bật/Tắt ══ */}
-        <button
-          className={`dtph-toggle-btn ${toggleState.cls}`}
-          onClick={handleToggle}
-          title={toggleState.label}
-        >
-          <i className={`bi ${toggleState.icon}`} />
-          <span>{toggleState.label}</span>
-        </button>
-
         {/* ══ CENTER: Transcript ══ */}
         <div className="dtph-center">
           {hasText ? (
@@ -260,7 +238,15 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
             </span>
           )}
         </div>
-
+        {/* ══ LEFT: Toggle Bật/Tắt ══ */}
+        <button
+          className={`dtph-toggle-btn ${toggleState.cls}`}
+          onClick={handleToggle}
+          title={toggleState.label}
+        >
+          <i className={`bi ${toggleState.icon}`} />
+          <span>{toggleState.label}</span>
+        </button>
         {/* ══ RIGHT: Xóa + Tiếp ══ */}
         <div className="dtph-left">
           {/* Xóa */}
@@ -272,7 +258,6 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
             <i className="bi bi-trash3" />
             <span>Xóa</span>
           </button>
-
           {/* Tiếp — chỉ enable khi có text */}
           <button
             className="dtph-sm-btn dtph-btn-next"
@@ -285,7 +270,6 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
           </button>
         </div>
       </div>
-
       {/* Hidden triggers */}
       <button
         id="stopListenBTN"
@@ -314,5 +298,4 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
     </>
   );
 };
-
 export default DictaphoneONLY;

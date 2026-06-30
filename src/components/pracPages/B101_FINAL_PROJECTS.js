@@ -530,6 +530,19 @@ function FINAL_PROJECT({
                 setStartSTT={setStartSTT}
                 setMessage={setMessage}
               />
+
+              <button
+                id="ngheLaiBtn"
+                className="btn btn-outline-primary fp-btn-lg"
+                onClick={() => {
+                  try {
+                    ReadMessage(playData.fspSets);
+                  } catch {}
+                }}
+                title="Nghe lại"
+              >
+                Nghe lại
+              </button>
               <button
                 id="btnBoQua"
                 className="fp-icon-btn fp-skip-btn"
