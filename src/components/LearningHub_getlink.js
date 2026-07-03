@@ -380,7 +380,7 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
         </div>
       </div>
       {/* Phần chọn thời gian */}
-      <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+      {/* <div className="mb-6 p-4 bg-gray-50 rounded-lg">
         <h2 className="text-lg font-semibold mb-2">Thời gian (t=)</h2>
         <div className="flex flex-wrap gap-2">
           <button
@@ -408,9 +408,9 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
             LƯU Ý: Thời gian được tính bằng giây.
           </p>
         </div>
-      </div>
+      </div> */}
       {/* Phần chọn tỷ lệ cho đúng (2) */}
-      <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+      {/* <div className="mb-6 p-4 bg-gray-50 rounded-lg">
         <h2 className="text-lg font-semibold mb-2">Tỷ lệ cho đúng (2) (r=)</h2>
         <div className="flex flex-wrap space-x-2">
           <button
@@ -433,9 +433,9 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
             </button>
           ))}
         </div>
-      </div>
+      </div> */}
       {/* Phần chọn tỷ lệ cho đúng (1) */}
-      <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+      {/* <div className="mb-6 p-4 bg-gray-50 rounded-lg">
         <h2 className="text-lg font-semibold mb-2">
           Tỷ lệ cho đúng (1) (r01=)
         </h2>
@@ -460,7 +460,7 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
             </button>
           ))}
         </div>
-      </div>
+      </div> */}
       {/* Phần chọn trộn lẫn */}
       <div className="mb-6 p-4 bg-gray-50 rounded-lg">
         <h2 className="text-lg font-semibold mb-2">Trộn lẫn (random=)</h2>

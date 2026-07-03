@@ -535,8 +535,11 @@ const Room = ({ setSttRoom }) => {
                 </span>
               </>
             )}
-            <div id="chartContainer" />
-            <span>
+            <div
+              style={{ marginRight: "20px", marginLeft: "20px" }}
+              id="chartContainer"
+            />
+            <span style={{ marginRight: "20px", marginLeft: "20px" }}>
               {" "}
               {DataPracticingCharactor
                 ? DataPracticingCharactor.length
