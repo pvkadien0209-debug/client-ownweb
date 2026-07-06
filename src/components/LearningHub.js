@@ -18,14 +18,41 @@ const colors = ["red", "orange", "black", "green", "blue", "indigo", "violet"];
 
 // Danh sách chức năng — dùng chung cho thanh điều hướng dạng pill
 const NAV_ITEMS = [
-  { value: "div_01_content_table_to_practice", icon: "bi-table", label: "Chọn bài học", step: "1" },
-  { value: "div_01_prac_ghep_am", icon: "bi-music-note-beamed", label: "Ghép âm" },
+  {
+    value: "div_01_content_table_to_practice",
+    icon: "bi-table",
+    label: "Chọn bài học",
+    step: "1",
+  },
+  {
+    value: "div_01_prac_ghep_am",
+    icon: "bi-music-note-beamed",
+    label: "Ghép âm",
+  },
   { value: "div_01_content_to_learn", icon: "bi-book", label: "Nội dung" },
-  { value: "div_01_prac_luyen_am", icon: "bi-chat-square-text", label: "Nguyên tắc ghép âm" },
+  {
+    value: "div_01_prac_luyen_am",
+    icon: "bi-chat-square-text",
+    label: "Nguyên tắc ghép âm",
+  },
   { value: "div_01_prac_hoc_thuoc", icon: "bi-lightbulb", label: "Học thuộc" },
-  { value: "div_01_prac_phuongphaphoc", icon: "bi-mortarboard", label: "Phương pháp học" },
-  { value: "div_01_prac_bangnhap", icon: "bi-link-45deg", label: "Custom link", step: "2" },
-  { value: "div_01_prac_vaothuchanh", icon: "bi-play-circle", label: "Vào thực hành", step: "3" },
+  {
+    value: "div_01_prac_phuongphaphoc",
+    icon: "bi-mortarboard",
+    label: "Phương pháp học",
+  },
+  {
+    value: "div_01_prac_bangnhap",
+    icon: "bi-link-45deg",
+    label: "Custom link",
+    step: "2",
+  },
+  {
+    value: "div_01_prac_vaothuchanh",
+    icon: "bi-play-circle",
+    label: "Vào thực hành",
+    step: "3",
+  },
 ];
 
 const LearningHub = ({ setSttRoom, STTconnectFN }) => {
@@ -161,8 +188,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
           --lh-card: #ffffff;
           --lh-border: #e2e8f0;
           --lh-radius: 14px;
-          --lh-shadow: 0 1px 3px rgba(15, 23, 42, 0.06),
-            0 6px 18px rgba(15, 23, 42, 0.05);
+          --lh-shadow:
+            0 1px 3px rgba(15, 23, 42, 0.06), 0 6px 18px rgba(15, 23, 42, 0.05);
         }
         .learning-hub-container {
           margin-top: 8vh;
@@ -484,7 +511,9 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 >
                   <i className={`bi ${item.icon}`}></i>
                   {item.label}
-                  {item.step ? <span className="lh-step">{item.step}</span> : null}
+                  {item.step ? (
+                    <span className="lh-step">{item.step}</span>
+                  ) : null}
                 </button>
               ))}
             </nav>
@@ -508,6 +537,13 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                     whiteSpace: "pre-line",
                   }}
                 >
+                  <TableHD
+                    data={dataLearning[currentIndex]?.HDTB?.HT}
+                    data_TB={[]}
+                    HINT={"HINT"}
+                    fnOnclick={(e) => {}}
+                  />
+
                   {dataLearning[currentIndex]?.HDTB?.IF?.IFdes}
                   {dataLearning[currentIndex] ? (
                     <div>{renderContent(dataLearning, currentIndex)}</div>
