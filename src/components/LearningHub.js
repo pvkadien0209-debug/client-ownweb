@@ -537,14 +537,14 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                     whiteSpace: "pre-line",
                   }}
                 >
+                  {" "}
+                  {dataLearning[currentIndex]?.HDTB?.IF?.IFdes}
                   <TableHD
                     data={dataLearning[currentIndex]?.HDTB?.HT}
                     data_TB={[]}
                     HINT={"HINT"}
                     fnOnclick={(e) => {}}
                   />
-
-                  {dataLearning[currentIndex]?.HDTB?.IF?.IFdes}
                   {dataLearning[currentIndex] ? (
                     <div>{renderContent(dataLearning, currentIndex)}</div>
                   ) : null}
