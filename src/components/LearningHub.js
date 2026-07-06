@@ -826,45 +826,24 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 }}
               >
                 <div className="text-center">
-                  <h1 className="lesson-title">Học thuộc lòng!</h1>
-                  <div className="info-card text-start">
-                    <p className="lead mb-0">
-                      <i className="bi bi-lightbulb text-warning me-2"></i>
-                      Là một cách bổ trợ{" "}
-                      <strong>trực tiếp, nhanh chóng và hiệu quả</strong> cho
-                      quá trình thực hành nghe nói. Tuy có hơi nhàm chán nhưng
-                      bù lại sẽ <strong>rút ngắn đáng kể</strong> số lần cần
-                      phải thực hành để đạt đến ngưỡng giao tiếp được.
-                    </p>
-                  </div>
-                  <div className="step-guide text-start">
-                    <h6 className="fw-bold mb-1">
-                      <i className="bi bi-1-circle me-2"></i>
-                      Bước 1: Hãy chép mỗi câu phía dưới đây ra giấy một lần.
-                    </h6>
-                  </div>
-                  <div className="step-guide text-start">
-                    <h6 className="fw-bold mb-1">
-                      <i className="bi bi-2-circle me-2"></i>
-                      Bước 2: Bấm vào Nút <strong>
-                        Learning by heart!
-                      </strong>{" "}
-                      bên dưới.
-                    </h6>
-                    <p className="mb-0 small text-muted">
-                      Máy sẽ đọc từng câu một, bạn có 10 giây để nghe và chép
-                      lại ra giấy (có thể ghi tắt).
-                    </p>
-                  </div>
-                  <button
-                    onClick={() => {
-                      navigate(`/learningbyheart/${id}/${currentIndex}`);
+                  <h1 className="lesson-title">Học thuộc các câu!</h1>
+                  <TableHD
+                    data={dataLearning[currentIndex]?.HDTB?.MC}
+                    data_TB={[]}
+                    HINT={"HINT"}
+                    fnOnclick={(e) => {
+                      try {
+                        navigate(
+                          `/learninghub/${id}?ls=${currentIndex}&&scrollY=${
+                            window.scrollY
+                          }&&id=div_01_prac_ghep_am&&st=${e
+                            .toString()
+                            .split(" ")
+                            .join("-")}`,
+                        );
+                      } catch (error) {}
                     }}
-                    className="btn btn-modern btn-gradient-primary btn-lg mt-2"
-                  >
-                    <i className="bi bi-heart me-2"></i>
-                    Learning by heart
-                  </button>
+                  />
                 </div>
               </div>
               <div
