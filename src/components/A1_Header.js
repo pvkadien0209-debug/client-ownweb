@@ -393,7 +393,7 @@ export default function Header({ sttRoom, STTcfonnectFN }) {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
                 {returnDropdown(
-                  "Kiến thức cốt lõi",
+                  "Học kiến thức",
                   coreKnowledgeSets,
                   { name: "name", link: "link", preName: "preName" },
                   null,
@@ -405,17 +405,22 @@ export default function Header({ sttRoom, STTcfonnectFN }) {
                   null
                 )} */}
                 {returnDropdown(
-                  "Giáo án giao tiếp",
-                  pracEnSets.concat(yy1A),
+                  "Rèn kỹ năng",
+                  pracEnSets.concat(
+                    yy1A,
+                    levele_img_barlist,
+                    words_3000,
+                    a_prac_100,
+                  ),
                   { name: "name", link: "link", preName: "preName" },
                   null,
                 )}{" "}
-                {returnDropdown(
+                {/* {returnDropdown(
                   "Khác",
                   levele_img_barlist.concat(words_3000, a_prac_100),
                   { name: "name", link: "link", preName: "preName" },
                   null,
-                )}
+                )} */}
                 {/* {returnDropdown(
                   "Học 3000 từ với đoạn hội thoại và câu chuyện!",
                   words_3000,
@@ -460,7 +465,7 @@ export default function Header({ sttRoom, STTcfonnectFN }) {
                   null
                 )} */}
               </Nav>
-              <Move />
+              {/* <Move /> */}
             </Navbar.Collapse>
           </Navbar>
         </div>

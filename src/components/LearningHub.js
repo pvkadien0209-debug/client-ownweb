@@ -35,7 +35,7 @@ const NAV_ITEMS = [
     icon: "bi-chat-square-text",
     label: "Nguyên tắc ghép âm",
   },
-  { value: "div_01_prac_hoc_thuoc", icon: "bi-lightbulb", label: "Học thuộc" },
+  { value: "div_01_prac_hoc_thuoc", icon: "bi-lightbulb", label: "Mẫu câu" },
   {
     value: "div_01_prac_phuongphaphoc",
     icon: "bi-mortarboard",
@@ -826,7 +826,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 }}
               >
                 <div className="text-center">
-                  <h1 className="lesson-title">Học thuộc các câu!</h1>
+                  <h1 className="lesson-title">Rèn luyện kỹ năng đặt câu!</h1>
                   <TableHD
                     data={dataLearning[currentIndex]?.HDTB?.MC}
                     data_TB={[]}
