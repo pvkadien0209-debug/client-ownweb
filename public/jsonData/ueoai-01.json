@@ -1,0 +1,1239 @@
+[
+  {
+    "id": "lam-quen-ghep-am",
+    "ListenList": [],
+    "typeSets": ["A1", "A2"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "Làm quen ghép âm",
+        "metaDescription": "Rèn kĩ năng - thuộc kiến thức",
+        "keywords": [
+          "thực hành giao tiếp",
+          "thực hành hội thoại",
+          "thực hành tiếng anh"
+        ]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "Làm quen ghép âm",
+        "IFdes": "Mục tiêu: Làm quen với ghép âm với ueoai-ơ. \nĐể làm được: \n(1) Được giải thích và hiểu được vì sao ghép âm lại giúp rút ngắn quá trình luyện tập nghe nói. \n(2) Được hướng dẫn và hiểu được quy trình ghép âm đơn giản.\n(3) Đọc được từ nguyên âm đơn giản\n(4) Nghe và xác định được nguyên âm trong từ",
+        "IF-audiocode": "ueoaio_"
+      },
+      "HD": [
+        {
+          "HD-01": "stt",
+          "HD-02": "IPA",
+          "HD-03": "Cách đọc gần đúng",
+          "HD-04": "Cách đọc gần với tiếng việt",
+          "HD-05": "Ví dụ 1",
+          "HD-06": "Phiên âm 1",
+          "HD-07": "Ví dụ 2",
+          "HD-08": "Phiên âm 2",
+          "HD-09": "Ví dụ 3",
+          "HD-10": "Phiên âm 3"
+        },
+        {
+          "HD-01": 1,
+          "HD-02": "/eɪ/",
+          "HD-03": "ê → i",
+          "HD-04": "Êy",
+          "HD-05": "day",
+          "HD-06": "/deɪ/",
+          "HD-07": "make",
+          "HD-08": "/meɪk/",
+          "HD-09": "play",
+          "HD-10": "/pleɪ/"
+        },
+        {
+          "HD-01": 2,
+          "HD-02": "/aɪ/",
+          "HD-03": "a → i",
+          "HD-04": "Ai",
+          "HD-05": "my",
+          "HD-06": "/maɪ/",
+          "HD-07": "like",
+          "HD-08": "/laɪk/",
+          "HD-09": "fly",
+          "HD-10": "/flaɪ/"
+        },
+        {
+          "HD-01": 3,
+          "HD-02": "/ɔɪ/",
+          "HD-03": "o → i",
+          "HD-04": "Oi",
+          "HD-05": "boy",
+          "HD-06": "/bɔɪ/",
+          "HD-07": "toy",
+          "HD-08": "/tɔɪ/",
+          "HD-09": "voice",
+          "HD-10": "/vɔɪs/"
+        },
+        {
+          "HD-01": 4,
+          "HD-02": "/aʊ/",
+          "HD-03": "a → u",
+          "HD-04": "Ao",
+          "HD-05": "now",
+          "HD-06": "/naʊ/",
+          "HD-07": "house",
+          "HD-08": "/haʊs/",
+          "HD-09": "mouse",
+          "HD-10": "/maʊs/"
+        },
+        {
+          "HD-01": 5,
+          "HD-02": "/əʊ/ (Anh-Anh) hoặc /oʊ/ (Anh-Mỹ)",
+          "HD-03": "ơ → u",
+          "HD-04": "Ơu",
+          "HD-05": "go",
+          "HD-06": "/ɡəʊ/",
+          "HD-07": "home",
+          "HD-08": "/həʊm/",
+          "HD-09": "know",
+          "HD-10": "/nəʊ/"
+        },
+        {
+          "HD-01": 6,
+          "HD-02": "/ɪə/",
+          "HD-03": "i → ơ",
+          "HD-04": "i-ờ",
+          "HD-05": "ear",
+          "HD-06": "/ɪə/",
+          "HD-07": "here",
+          "HD-08": "/hɪə/",
+          "HD-09": "beer",
+          "HD-10": "/bɪə/"
+        },
+        {
+          "HD-01": 7,
+          "HD-02": "/eə/",
+          "HD-03": "e → ơ",
+          "HD-04": "e-ờ",
+          "HD-05": "air",
+          "HD-06": "/eə/",
+          "HD-07": "care",
+          "HD-08": "/keə/",
+          "HD-09": "where",
+          "HD-10": "/weə/"
+        },
+        {
+          "HD-01": 8,
+          "HD-02": "/ʊə/",
+          "HD-03": "u → ơ",
+          "HD-04": "u-ờ",
+          "HD-05": "poor",
+          "HD-06": "/pʊə/",
+          "HD-07": "sure",
+          "HD-08": "/ʃʊə/",
+          "HD-09": "tour",
+          "HD-10": "/tʊə/"
+        }
+      ],
+      "TB": [["Êy", "Ai", "Oi", "Ao", "Ơu", "i-ờ", "e-ờ", "u-ờ"]],
+      "TV": [],
+      "IPA": [],
+      "HT": [
+        {
+          "HT-01": "Loading …",
+          "HT-02": "Loading …",
+          "HT-03": "Loading …",
+          "HT-04": "Loading …",
+          "HT-05": "Loading …"
+        }
+      ],
+      "MC": [
+        {
+          "MC-01": "Loading …",
+          "MC-02": "Loading …",
+          "MC-03": "Loading …",
+          "MC-04": "Loading …"
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. voice",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["voice"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. voice", "id": "ueoaio_a16" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. day",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. day"],
+            "submit": ["Êy"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. day",
+                "id": "ueoaio_a48"
+              }
+            ]
+          }
+        ],
+        "submit": ["Êy"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. day",
+            "id": "ueoaio_a48"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. make",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["make"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. make", "id": "ueoaio_a2" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. tour",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. tour"],
+            "submit": ["u-ờ"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. tour",
+                "id": "ueoaio_a94"
+              }
+            ]
+          }
+        ],
+        "submit": ["u-ờ"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. tour",
+            "id": "ueoaio_a94"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. my",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. my"],
+            "submit": ["Ai"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. my",
+                "id": "ueoaio_a54"
+              }
+            ]
+          }
+        ],
+        "submit": ["Ai"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. my",
+            "id": "ueoaio_a54"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. tour",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["tour"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. tour", "id": "ueoaio_a46" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. mouse",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. mouse"],
+            "submit": ["Ao"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. mouse",
+                "id": "ueoaio_a70"
+              }
+            ]
+          }
+        ],
+        "submit": ["Ao"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. mouse",
+            "id": "ueoaio_a70"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. play",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["play"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. play", "id": "ueoaio_a4" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. boy",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. boy"],
+            "submit": ["Oi"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. boy",
+                "id": "ueoaio_a60"
+              }
+            ]
+          }
+        ],
+        "submit": ["Oi"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. boy",
+            "id": "ueoaio_a60"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. day",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["day"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. day", "id": "ueoaio_a0" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. care",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. care"],
+            "submit": ["e-ờ"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. care",
+                "id": "ueoaio_a86"
+              }
+            ]
+          }
+        ],
+        "submit": ["e-ờ"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. care",
+            "id": "ueoaio_a86"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. home",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["home"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. home", "id": "ueoaio_a26" }]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. house",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["house"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. house", "id": "ueoaio_a20" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. voice",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. voice"],
+            "submit": ["Oi"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. voice",
+                "id": "ueoaio_a64"
+              }
+            ]
+          }
+        ],
+        "submit": ["Oi"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. voice",
+            "id": "ueoaio_a64"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. air",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["air"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. air", "id": "ueoaio_a36" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. go",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. go"],
+            "submit": ["Ơu"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. go",
+                "id": "ueoaio_a72"
+              }
+            ]
+          }
+        ],
+        "submit": ["Ơu"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. go",
+            "id": "ueoaio_a72"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. beer",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["beer"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. beer", "id": "ueoaio_a34" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. make",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. make"],
+            "submit": ["Êy"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. make",
+                "id": "ueoaio_a50"
+              }
+            ]
+          }
+        ],
+        "submit": ["Êy"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. make",
+            "id": "ueoaio_a50"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. poor",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["poor"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. poor", "id": "ueoaio_a42" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. poor",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. poor"],
+            "submit": ["u-ờ"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. poor",
+                "id": "ueoaio_a90"
+              }
+            ]
+          }
+        ],
+        "submit": ["u-ờ"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. poor",
+            "id": "ueoaio_a90"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. like",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["like"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. like", "id": "ueoaio_a8" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. where",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. where"],
+            "submit": ["e-ờ"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. where",
+                "id": "ueoaio_a88"
+              }
+            ]
+          }
+        ],
+        "submit": ["e-ờ"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. where",
+            "id": "ueoaio_a88"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. play",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. play"],
+            "submit": ["Êy"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. play",
+                "id": "ueoaio_a52"
+              }
+            ]
+          }
+        ],
+        "submit": ["Êy"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. play",
+            "id": "ueoaio_a52"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. now",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["now"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. now", "id": "ueoaio_a18" }]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. go",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["go"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. go", "id": "ueoaio_a24" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. ear",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. ear"],
+            "submit": ["i-ờ"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. ear",
+                "id": "ueoaio_a78"
+              }
+            ]
+          }
+        ],
+        "submit": ["i-ờ"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. ear",
+            "id": "ueoaio_a78"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. care",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["care"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. care", "id": "ueoaio_a38" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. here",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. here"],
+            "submit": ["i-ờ"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. here",
+                "id": "ueoaio_a80"
+              }
+            ]
+          }
+        ],
+        "submit": ["i-ờ"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. here",
+            "id": "ueoaio_a80"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. where",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["where"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. where", "id": "ueoaio_a40" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. home",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. home"],
+            "submit": ["Ơu"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. home",
+                "id": "ueoaio_a74"
+              }
+            ]
+          }
+        ],
+        "submit": ["Ơu"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. home",
+            "id": "ueoaio_a74"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. beer",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. beer"],
+            "submit": ["i-ờ"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. beer",
+                "id": "ueoaio_a82"
+              }
+            ]
+          }
+        ],
+        "submit": ["i-ờ"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. beer",
+            "id": "ueoaio_a82"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. fly",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["fly"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. fly", "id": "ueoaio_a10" }]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. know",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["know"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. know", "id": "ueoaio_a28" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. fly",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. fly"],
+            "submit": ["Ai"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. fly",
+                "id": "ueoaio_a58"
+              }
+            ]
+          }
+        ],
+        "submit": ["Ai"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. fly",
+            "id": "ueoaio_a58"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. ear",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["ear"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. ear", "id": "ueoaio_a30" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. air",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. air"],
+            "submit": ["e-ờ"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. air",
+                "id": "ueoaio_a84"
+              }
+            ]
+          }
+        ],
+        "submit": ["e-ờ"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. air",
+            "id": "ueoaio_a84"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. mouse",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["mouse"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. mouse", "id": "ueoaio_a22" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. like",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. like"],
+            "submit": ["Ai"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. like",
+                "id": "ueoaio_a56"
+              }
+            ]
+          }
+        ],
+        "submit": ["Ai"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. like",
+            "id": "ueoaio_a56"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. sure",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["sure"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. sure", "id": "ueoaio_a44" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. toy",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. toy"],
+            "submit": ["Oi"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. toy",
+                "id": "ueoaio_a62"
+              }
+            ]
+          }
+        ],
+        "submit": ["Oi"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. toy",
+            "id": "ueoaio_a62"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. know",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. know"],
+            "submit": ["Ơu"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. know",
+                "id": "ueoaio_a76"
+              }
+            ]
+          }
+        ],
+        "submit": ["Ơu"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. know",
+            "id": "ueoaio_a76"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. here",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["here"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. here", "id": "ueoaio_a32" }]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. boy",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["boy"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. boy", "id": "ueoaio_a12" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. now",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. now"],
+            "submit": ["Ao"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. now",
+                "id": "ueoaio_a66"
+              }
+            ]
+          }
+        ],
+        "submit": ["Ao"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. now",
+            "id": "ueoaio_a66"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. house",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. house"],
+            "submit": ["Ao"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. house",
+                "id": "ueoaio_a68"
+              }
+            ]
+          }
+        ],
+        "submit": ["Ao"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. house",
+            "id": "ueoaio_a68"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. toy",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["toy"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. toy", "id": "ueoaio_a14" }]
+      },
+      {
+        "type": "A1",
+        "fsp": "Repeat this words. my",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["my"],
+            "aw": ["yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "yes", "id": "ueoaio_a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Repeat this words. my", "id": "ueoaio_a6" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Please choose the correct vowel of the word. sure",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["sorry"],
+            "aw": ["Please choose the correct vowel of the word. sure"],
+            "submit": ["u-ờ"],
+            "aw01": [
+              {
+                "st": "Please choose the correct vowel of the word. sure",
+                "id": "ueoaio_a92"
+              }
+            ]
+          }
+        ],
+        "submit": ["u-ờ"],
+        "fspSets": [
+          {
+            "st": "Please choose the correct vowel of the word. sure",
+            "id": "ueoaio_a92"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  }
+]

@@ -377,7 +377,7 @@ function FINAL_PROJECT({
                 })}
               </div>
 
-              {PushAW.length > 0 && (
+              {/* {PushAW.length > 0 && (
                 <div className="fp-pushaw-strip">
                   <span className="fp-pushaw-label">✓ Đã chọn:</span>
                   {PushAW.map((item, i) =>
@@ -395,7 +395,7 @@ function FINAL_PROJECT({
                     ),
                   )}
                 </div>
-              )}
+              )} */}
 
               <div className="fp-table-scroll">
                 {(tableView === "Normal" ||

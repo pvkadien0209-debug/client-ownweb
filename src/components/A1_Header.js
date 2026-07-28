@@ -49,13 +49,13 @@ const prac_to_work = [
 ];
 
 const pracEnSets = [
-  // {
-  //   root: "learninghub",
-  //   preName: "(D) Vỡ lòng",
-  //   name: "Các câu cơ bản",
-  //   link: "endp01",
-  //   id: "socapI",
-  // },
+  {
+    root: "learninghub",
+    preName: "Ghép âm:",
+    name: "Làm quen cơ bản",
+    link: "ueoai-01",
+    id: "socapI",
+  },
   {
     root: "learninghub",
     preName: "(D) Vỡ lòng",

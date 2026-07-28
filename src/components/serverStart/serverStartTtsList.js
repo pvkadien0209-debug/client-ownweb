@@ -103,7 +103,9 @@ function TTSStartButton() {
     <div style={{ margin: "10%", padding: "50px", backgroundColor: "grey" }}>
       <button onClick={() => handleStart()}>START TO TTSLIST</button>
 
-      <button onClick={() => handleStartTV()}>START TO TTSLISTTV</button>
+      <button onClick={() => handleStartTV()}>
+        START TO TTSLISTTV(code, text,lang = en or vi)
+      </button>
 
       <button onClick={() => handleTESTFffmeg()}>TEST FFMPEG</button>
 

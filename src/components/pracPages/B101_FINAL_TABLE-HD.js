@@ -240,15 +240,13 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
                 key={rowIndex}
                 className="thd-row"
                 style={{
-                  backgroundColor:
-                    rowIndex % 2 === 0 ? theme.bg : theme.rowAlt,
+                  backgroundColor: rowIndex % 2 === 0 ? theme.bg : theme.rowAlt,
                 }}
               >
                 {headers.map((header, colIndex) => {
                   const cellValue = String(row[header] || "");
                   const isAnswerCell = data_TB_flat.includes(cellValue);
-                  const isSelected =
-                    isAnswerCell && PushAW.includes(cellValue);
+                  const isSelected = isAnswerCell && PushAW.includes(cellValue);
                   const hasAsterisk = cellValue.includes("(*)");
                   const hasQuestion = cellValue.includes("?");
 
@@ -338,14 +336,23 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
 
         {/* ── Popup: Answers detail ───────────────────────────────── */}
         {showAnswersPopup && (
-          <PopupOverlay onClose={() => setShowAnswersPopup(false)} theme={theme}>
+          <PopupOverlay
+            onClose={() => setShowAnswersPopup(false)}
+            theme={theme}
+          >
             <PopupHeader
               icon="bi-check2-circle"
               title={`Đáp án đã chọn (${answeredCount})`}
               theme={theme}
               onClose={() => setShowAnswersPopup(false)}
             />
-            <div style={{ padding: "12px 16px", maxHeight: "60vh", overflowY: "auto" }}>
+            <div
+              style={{
+                padding: "12px 16px",
+                maxHeight: "60vh",
+                overflowY: "auto",
+              }}
+            >
               {answeredCount === 0 ? (
                 <div
                   style={{
@@ -402,14 +409,24 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
 
         {/* ── Popup: Settings ─────────────────────────────────────── */}
         {showSettingsPopup && (
-          <PopupOverlay onClose={() => setShowSettingsPopup(false)} theme={theme}>
+          <PopupOverlay
+            onClose={() => setShowSettingsPopup(false)}
+            theme={theme}
+          >
             <PopupHeader
               icon="bi-gear"
               title="Cài đặt hiển thị"
               theme={theme}
               onClose={() => setShowSettingsPopup(false)}
             />
-            <div style={{ padding: "16px", display: "flex", flexDirection: "column", gap: "18px" }}>
+            <div
+              style={{
+                padding: "16px",
+                display: "flex",
+                flexDirection: "column",
+                gap: "18px",
+              }}
+            >
               {/* Font size */}
               <div>
                 <label
@@ -423,8 +440,13 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
                 >
                   Kích thước chữ: {settings.fontSize}px
                 </label>
-                <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-                  <i className="bi bi-fonts" style={{ color: theme.textMuted, fontSize: "13px" }} />
+                <div
+                  style={{ display: "flex", alignItems: "center", gap: "10px" }}
+                >
+                  <i
+                    className="bi bi-fonts"
+                    style={{ color: theme.textMuted, fontSize: "13px" }}
+                  />
                   <input
                     type="range"
                     min={12}
@@ -432,11 +454,17 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
                     step={1}
                     value={settings.fontSize}
                     onChange={(e) =>
-                      setSettings((s) => ({ ...s, fontSize: Number(e.target.value) }))
+                      setSettings((s) => ({
+                        ...s,
+                        fontSize: Number(e.target.value),
+                      }))
                     }
                     style={{ flex: 1, accentColor: theme.accent }}
                   />
-                  <i className="bi bi-fonts" style={{ color: theme.textMuted, fontSize: "20px" }} />
+                  <i
+                    className="bi bi-fonts"
+                    style={{ color: theme.textMuted, fontSize: "20px" }}
+                  />
                 </div>
               </div>
 
@@ -468,11 +496,18 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
                         padding: "8px 10px",
                         borderRadius: "6px",
                         border: `1.5px solid ${
-                          settings.density === opt.key ? theme.accent : theme.border
+                          settings.density === opt.key
+                            ? theme.accent
+                            : theme.border
                         }`,
                         backgroundColor:
-                          settings.density === opt.key ? theme.answerBg : "transparent",
-                        color: settings.density === opt.key ? theme.accent : theme.text,
+                          settings.density === opt.key
+                            ? theme.answerBg
+                            : "transparent",
+                        color:
+                          settings.density === opt.key
+                            ? theme.accent
+                            : theme.text,
                         fontSize: "13px",
                         fontWeight: settings.density === opt.key ? 700 : 500,
                         cursor: "pointer",
@@ -517,11 +552,18 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
                         padding: "8px 10px",
                         borderRadius: "6px",
                         border: `1.5px solid ${
-                          settings.themeMode === opt.key ? theme.accent : theme.border
+                          settings.themeMode === opt.key
+                            ? theme.accent
+                            : theme.border
                         }`,
                         backgroundColor:
-                          settings.themeMode === opt.key ? theme.answerBg : "transparent",
-                        color: settings.themeMode === opt.key ? theme.accent : theme.text,
+                          settings.themeMode === opt.key
+                            ? theme.answerBg
+                            : "transparent",
+                        color:
+                          settings.themeMode === opt.key
+                            ? theme.accent
+                            : theme.text,
                         fontSize: "13px",
                         fontWeight: settings.themeMode === opt.key ? 700 : 500,
                         cursor: "pointer",
@@ -583,7 +625,10 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
                       type="color"
                       value={settings.customText}
                       onChange={(e) =>
-                        setSettings((s) => ({ ...s, customText: e.target.value }))
+                        setSettings((s) => ({
+                          ...s,
+                          customText: e.target.value,
+                        }))
                       }
                       style={{
                         width: "100%",
@@ -611,7 +656,10 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
                   cursor: "pointer",
                 }}
               >
-                <i className="bi bi-arrow-counterclockwise" style={{ marginRight: 4 }} />
+                <i
+                  className="bi bi-arrow-counterclockwise"
+                  style={{ marginRight: 4 }}
+                />
                 Khôi phục mặc định
               </button>
             </div>
@@ -677,7 +725,15 @@ function PopupHeader({ icon, title, theme, onClose }) {
         backgroundColor: theme.headerBg ?? theme.surface,
       }}
     >
-      <div style={{ display: "flex", alignItems: "center", gap: "8px", fontWeight: 700, fontSize: "15px" }}>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: "8px",
+          fontWeight: 700,
+          fontSize: "15px",
+        }}
+      >
         <i className={icon} />
         {title}
       </div>
