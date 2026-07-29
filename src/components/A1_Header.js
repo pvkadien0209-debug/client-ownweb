@@ -207,11 +207,19 @@ const pracEnSets = [
     link: "0a_y1a",
     id: "trungcap1",
   },
+
   {
     root: "learninghub",
     preName: "Phản xạ nâng cao",
-    name: "Luyện phản xạ đặt câu hỏi (1b)",
+    name: "Luyện bảng tiếng việt (1b)",
     link: "0a_y1b",
+    id: "trungcap1",
+  },
+  {
+    root: "learninghub",
+    preName: "Phản xạ nâng cao",
+    name: "Luyện tổ hợp câu, nhận biết yếu tố mở rộng (1c)",
+    link: "0a_y1c",
     id: "trungcap1",
   },
   {
