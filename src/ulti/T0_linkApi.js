@@ -5,7 +5,7 @@ if (typeof window !== "undefined" && window.location.hostname === "localhost") {
   LinkAPI = "http://localhost:5000/";
 } else {
   console.log("Not Local");
-  LinkAPI = "https://seo-onlineplay-new2024-server-428bb40ca879.herokuapp.com/";
+  LinkAPI = "https://pvd-e-app-73380f304a78.herokuapp.com/";
 }
 
 export default LinkAPI;

@@ -7,7 +7,7 @@ import {
   useRef,
 } from "react";
 import "./B101_FINAL_PROJECTS.css";
-import ReadMessage from "../../ulti/ReadMessageMp3_2026";
+import ReadMessage from "../../ulti/ReadMessage_2024";
 import Dictaphone from "../../ulti/RegcognitionV2024-05-NG";
 import TableHD from "./B101_FINAL_TABLE-HD";
 import StartButton from "./B101_FINAL_StartButton";
@@ -187,7 +187,12 @@ function FINAL_PROJECT({
       setGENDER(playData.gender === "female" ? 1 : 0);
       setLang(playData.lang === "VN" ? "vi-VN" : "en-US");
       if ((!IsMobile && NumberOneByOneHost === 0) || playData.fspSets) {
-        ReadMessage(playData.fspSets);
+        ReadMessage(
+          ObjREAD,
+          playData.fsp,
+          playData.gender === "female" ? 1 : 0,
+          playData.fspSets,
+        );
       }
     }
   }, [playData]); // eslint-disable-line
@@ -535,7 +540,12 @@ function FINAL_PROJECT({
                 className="btn btn-outline-primary fp-btn-lg"
                 onClick={() => {
                   try {
-                    ReadMessage(playData.fspSets);
+                    ReadMessage(
+                      ObjREAD,
+                      playData.fsp,
+                      playData.gender === "female" ? 1 : 0,
+                      playData.fspSets,
+                    );
                   } catch {}
                 }}
                 title="Nghe lại"
