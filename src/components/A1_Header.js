@@ -51,6 +51,20 @@ const prac_to_work = [
 const pracEnSets = [
   {
     root: "learninghub",
+    preName: "KET",
+    name: "Ghép âm - Nguyên âm đôi (Full bảng)",
+    link: "ket_nguyenamdoi_01",
+    id: "socap1",
+  },
+  {
+    root: "learninghub",
+    preName: "KET",
+    name: "Ghép âm - Nguyên âm đôi (Bảng trống)",
+    link: "ket_nguyenamdoi_01b",
+    id: "socap1",
+  },
+  {
+    root: "learninghub",
     preName: "Ghép âm:",
     name: "Làm quen cơ bản",
     link: "ueoai-01",
