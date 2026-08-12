@@ -29,7 +29,7 @@ import TTSStartButton from "./components/serverStart/serverStartTtsList";
 const LinkAPI =
   window.location.hostname === "localhost"
     ? "http://localhost:5000"
-    : "https://seo-onlineplay-new2024-server-428bb40ca879.herokuapp.com/";
+    : "https://pvd-e-app-73380f304a78.herokuapp.com/";
 
 const socket = io(LinkAPI, {
   transports: ["websocket", "polling", "flashsocket"],
