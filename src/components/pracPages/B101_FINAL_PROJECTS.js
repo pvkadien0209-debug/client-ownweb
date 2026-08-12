@@ -530,7 +530,6 @@ function FINAL_PROJECT({
                 setStartSTT={setStartSTT}
                 setMessage={setMessage}
               />
-
               <button
                 id="ngheLaiBtn"
                 className="btn btn-outline-primary fp-btn-lg"
@@ -560,6 +559,7 @@ function FINAL_PROJECT({
               >
                 ⏭
               </button>
+              <span>____________</span>
             </div>
           </div>
         </div>

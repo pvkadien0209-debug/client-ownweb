@@ -17,13 +17,13 @@ const ChatWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [unreadCount, setUnreadCount] = useState(0);
   const [currentGroup, setCurrentGroup] = useState(
-    localStorage.getItem("groupChat") || "all"
+    localStorage.getItem("groupChat") || "all",
   );
   const [userName, setUserName] = useState(
-    localStorage.getItem("nameDinhDanh") || ""
+    localStorage.getItem("nameDinhDanh") || "",
   );
   const [isEditingName, setIsEditingName] = useState(
-    !localStorage.getItem("nameDinhDanh")
+    !localStorage.getItem("nameDinhDanh"),
   );
   const chatEndRef = useRef(null);
   const navigate = useNavigate();
@@ -55,7 +55,7 @@ const ChatWidget = () => {
       if (newMessage.type === "notify") {
         setNotifyHistory((prevHistory) => {
           const filteredHistory = prevHistory.filter(
-            (item) => item.id !== newMessage.id
+            (item) => item.id !== newMessage.id,
           );
           return [newMessage, ...filteredHistory];
         });
@@ -515,8 +515,15 @@ const ChatWidget = () => {
               </div>
               <i
                 className="bi bi-chevron-down"
-                style={{ fontSize: "1.2rem" }}
-              ></i>
+                style={{
+                  fontSize: "0.7rem",
+                  borderRadius: "15px",
+                  padding: "10px",
+                  background: "#ffffff33",
+                }}
+              >
+                Đóng khung chat
+              </i>
             </div>
 
             {/* Chat Messages */}
@@ -563,7 +570,7 @@ const ChatWidget = () => {
                                         e.includes("/phamvandien.id.vn");
                                       const isCurrentPhamVanDien =
                                         window.location.href.includes(
-                                          "/phamvandien.id.vn"
+                                          "/phamvandien.id.vn",
                                         );
                                       if (
                                         (isPhamVanDien &&
@@ -584,7 +591,7 @@ const ChatWidget = () => {
                                     } catch (err) {
                                       console.error(
                                         "Lỗi URL không hợp lệ:",
-                                        err
+                                        err,
                                       );
                                     }
                                   }}
@@ -596,7 +603,7 @@ const ChatWidget = () => {
                               </div>
                             ) : (
                               e
-                            )
+                            ),
                           )
                         : msg.text}
                     </div>

@@ -62,7 +62,7 @@ const Room = ({ setSttRoom }) => {
         };
         const emitSocketMessage = () => {
           try {
-            if (Score <= 0 || !socket || typeof socket.emit !== "function")
+            if (Score < 0 || !socket || typeof socket.emit !== "function")
               return;
             let idDinhDanh = null,
               nameDinhDanh = null;

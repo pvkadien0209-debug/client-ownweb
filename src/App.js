@@ -97,7 +97,7 @@ const App = () => {
         <Router>
           {/* <div style={{ height: "8vh" }}></div> */}
           <div className="chat-app">
-            {/* <ChatWidget /> */}
+            <ChatWidget />
             <Routes>
               <Route
                 path="/room/:roomCode"

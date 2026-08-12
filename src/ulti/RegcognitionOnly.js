@@ -268,6 +268,7 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
             <i className="bi bi-arrow-right-circle" />
             <span>Gửi</span>
           </button>
+          AAAAAAAAAAAAAAAAAAAAAa
         </div>
       </div>
       {/* Hidden triggers */}
