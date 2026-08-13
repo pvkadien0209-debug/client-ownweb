@@ -15,7 +15,11 @@
       }
     },
     "HDTB": {
-      "IF": { "IFname": null, "IFdes": null, "IF-audiocode": "GA01_" },
+      "IF": {
+        "IFname": "Ghép âm cơ bản - 8 nguyên âm đôi",
+        "IFdes": null,
+        "IF-audiocode": "GA01_"
+      },
       "HD": [
         {
           "HD-01": "eɪ/Ei",
