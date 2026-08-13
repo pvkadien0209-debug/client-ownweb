@@ -31,6 +31,7 @@ const Room = ({ setSttRoom }) => {
   const [Score, setScore] = useState(0);
   const [NumberOneByOneHost, setNumberOneByOneHost] = useState(0);
   const [Message, setMessage] = useState(null);
+  const [IsReading, setIsReading] = useState(false);
   const navigate = useNavigate();
 
   // ── Score effect (logic giữ nguyên) ──────────────────────────────────────
@@ -581,6 +582,7 @@ const Room = ({ setSttRoom }) => {
                       setNumberBegin((D) => D + 1)
                     }
                     IsPause={false}
+                    IsReading={IsReading}
                     NumberOneByOneHost={0}
                     tableView={params.get("tb") || "Normal"}
                     setMessage={setMessage}
@@ -605,8 +607,10 @@ const Room = ({ setSttRoom }) => {
                       : `Lượt ${numberBegin} vừa kết thúc — bấm để tiếp tục`}
                   </p>
                   {/* Person icon button — ngay dưới text */}
+
                   <button
                     className="room-start-person"
+                    disabled={IsReading}
                     onClick={() => {
                       if (numberBegin === 0) {
                         setNumberBegin((D) => D + 1);
@@ -630,6 +634,11 @@ const Room = ({ setSttRoom }) => {
                       <circle cx="12" cy="7" r="4" />
                     </svg>
                   </button>
+                  {IsReading && (
+                    <p style={{ color: "#7c3aed", fontWeight: "600" }}>
+                      Đang đọc nội dung, vui lòng chờ...
+                    </p>
+                  )}
                 </div>
               </div>
             )}
@@ -639,6 +648,22 @@ const Room = ({ setSttRoom }) => {
         {/* ── Footer: always-visible transcript listener ── */}
         <div className="room-footer">
           <Dictaphone />
+          <div style={{ display: "none" }}>
+            <button
+              id="readingFalse"
+              onClick={() => setIsReading(false)}
+              style={{ marginLeft: "10px" }}
+            >
+              Toggle Reading FALSE
+            </button>
+            <button
+              id="readingTrue"
+              onClick={() => setIsReading(true)}
+              style={{ marginLeft: "10px" }}
+            >
+              Toggle Reading TRUE
+            </button>
+          </div>
         </div>
       </div>
     </>

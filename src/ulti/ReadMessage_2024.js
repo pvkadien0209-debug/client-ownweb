@@ -69,6 +69,8 @@ function setButtonState(buttonId, isEnabled) {
 function enableButton() {
   setButtonState("RegButton", true);
   setButtonState("BtnFsp", true);
+  const buttonReadingFalse = document.getElementById("readingFalse");
+  buttonReadingFalse.click();
 }
 
 // Disable specific buttons
@@ -78,6 +80,9 @@ function disableButton() {
     setButtonState("BtnFsp", false);
     const button = document.getElementById("setGetSTTDictaphone");
     button.click();
+
+    const buttonReadingTrue = document.getElementById("readingTrue");
+    buttonReadingTrue.click();
   } catch (error) {}
 
   //

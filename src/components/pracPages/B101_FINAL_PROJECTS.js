@@ -31,6 +31,7 @@ function FINAL_PROJECT({
   regRate_01,
   handleIncrementReadyClick,
   IsPause,
+  IsReading,
   NumberOneByOneHost,
   tableView,
   setMessage,
@@ -538,6 +539,7 @@ function FINAL_PROJECT({
               <button
                 id="ngheLaiBtn"
                 className="btn btn-outline-primary fp-btn-lg"
+                disabled={IsReading}
                 onClick={() => {
                   try {
                     ReadMessage(
