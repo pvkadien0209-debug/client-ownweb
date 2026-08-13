@@ -244,14 +244,14 @@ function cleanExpiredScoresAndOldItems() {
       const isInSkipList = skipKeys.includes(key);
 
       // 1. Xử lý key chứa 'score'
-      if (isScoreKey && (isExpired || isTooOld4h || hasNoTimeInfo)) {
-        localStorage.removeItem(key);
-        i--;
-        continue;
-      }
+      // if (isScoreKey && (isExpired || isTooOld4h || hasNoTimeInfo)) {
+      //   localStorage.removeItem(key);
+      //   i--;
+      //   continue;
+      // }
 
       // 2. Nếu key không nằm trong danh sách loại trừ:
-      if (!isInSkipList) {
+      if (!isInSkipList && !isScoreKey) {
         // Xóa nếu quá 10 tiếng hoặc không có createdAt
         // if (isTooOld10h || !createdAt) {
         //   localStorage.removeItem(key);

@@ -28,11 +28,7 @@ const Room = ({ setSttRoom }) => {
   const [SttCoundown, setSttCoundown] = useState("00");
   const [DataPracticingCharactor, setDataPracticingCharactor] = useState(null);
   const [DataPracticingOverRoll, setDataPracticingOverRoll] = useState(null);
-  const [Score, setScore] = useState(
-    getNumberWithDailyExpiry(
-      "score" + (params.get("b") + params.get("a") || ""),
-    ) || 0,
-  );
+  const [Score, setScore] = useState(0);
   const [NumberOneByOneHost, setNumberOneByOneHost] = useState(0);
   const [Message, setMessage] = useState(null);
   const navigate = useNavigate();
@@ -46,15 +42,20 @@ const Room = ({ setSttRoom }) => {
           try {
             const paramB = params?.get?.("b") || "";
             const paramA = params?.get?.("a") || "";
-            const scoreKey = `score${paramB}${paramA}`;
-            const scoreToSave = Math.max(0, Score);
-            if (typeof saveNumberWithDailyExpiry === "function") {
-              saveNumberWithDailyExpiry(scoreKey, scoreToSave);
-            } else {
-              localStorage.setItem(
-                scoreKey,
-                JSON.stringify({ value: scoreToSave, timestamp: Date.now() }),
-              );
+            const scoreKey = `score${roomCode}${paramB}${paramA}`;
+
+            if (Score > 1) {
+              saveNumberWithDailyExpiry(scoreKey, Score);
+            }
+
+            if (Score === 1) {
+              const currentScore =
+                typeof getNumberWithDailyExpiry === "function"
+                  ? getNumberWithDailyExpiry(scoreKey) || 0
+                  : JSON.parse(localStorage.getItem(scoreKey) || '{"value":0}')
+                      .value || 0;
+
+              setScore(currentScore + 1);
             }
           } catch (storageError) {
             console.error("Error saving score:", storageError);
@@ -805,13 +806,10 @@ function saveNumberWithDailyExpiry(key, value) {
   const now = new Date();
 
   // Thời gian hết hạn tính bằng mili giây
-  const expiry = now.getTime() + 20 * 60 * 1000;
 
   const item = {
     value: value,
-    expiry: expiry,
   };
-
   localStorage.setItem(key, JSON.stringify(item));
 }
 
@@ -819,7 +817,7 @@ function getNumberWithDailyExpiry(key) {
   const itemStr = localStorage.getItem(key);
 
   // Kiểm tra nếu không có dữ liệu
-  if (!itemStr) return null;
+  if (!itemStr) return 0;
 
   const item = JSON.parse(itemStr);
   const now = new Date().getTime();
@@ -827,7 +825,7 @@ function getNumberWithDailyExpiry(key) {
   // Kiểm tra nếu hết hạn
   if (now > item.expiry) {
     localStorage.removeItem(key); // Xóa dữ liệu hết hạn
-    return null;
+    return 0;
   }
 
   return item.value; // Trả về số nếu chưa hết hạn
