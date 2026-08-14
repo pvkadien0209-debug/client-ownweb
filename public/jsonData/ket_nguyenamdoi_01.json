@@ -1,11 +1,11 @@
 [
   {
-    "id": "thuc-hanh-hoc-noi-dung",
+    "id": "ghep-am-co-ban--8-nguyen-am-doi",
     "ListenList": [],
     "typeSets": ["A1", "A2", "A3", "A4", "A5", "A6", "A7"],
     "SEO": {
       "seo": {
-        "metaTitle": "Thực hành nội dung",
+        "metaTitle": "Ghép âm cơ bản - 8 nguyên âm đôi",
         "metaDescription": "Rèn kĩ năng - thuộc kiến thức",
         "keywords": [
           "thực hành giao tiếp",
@@ -17,7 +17,7 @@
     "HDTB": {
       "IF": {
         "IFname": "Ghép âm cơ bản - 8 nguyên âm đôi",
-        "IFdes": null,
+        "IFdes": "Mục tiêu: \n1/ Hiểu được ghép âm và tách âm\n2/ Rèn luyện thuần thục bài thực hành\n3/ Rèn luyện lại nâng cao hơn và đều đặn 1-2 lần/10 ngày để nhắc lại và khắc sâu hơn.",
         "IF-audiocode": "GA01_"
       },
       "HD": [
@@ -163,869 +163,17 @@
     },
     "charactor": [
       {
-        "type": "A7",
-        "fsp": "hair",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "name": "Emily",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["hair"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["eə/E-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "eə/E-ờ"],
-        "fspSets": [{ "st": "hair", "id": "GA01_a180" }]
-      },
-      {
         "type": "A2",
-        "fsp": "my",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
-        "name": "Joshua",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["my"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["aɪ/Ai"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "aɪ/Ai"],
-        "fspSets": [{ "st": "my", "id": "GA01_a57" }]
-      },
-      {
-        "type": "A6",
-        "fsp": "dear",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
+        "fsp": "five",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
         "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
         "name": "Jessica",
         "gender": "female",
         "data": [
           {
-            "qs": ["dear"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["ɪə/I-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "ɪə/I-ờ"],
-        "fspSets": [{ "st": "dear", "id": "GA01_a156" }]
-      },
-      {
-        "type": "A1",
-        "fsp": "face",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
-        "name": "Michael",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["face"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["eɪ/Ei"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "eɪ/Ei"],
-        "fspSets": [{ "st": "face", "id": "GA01_a9" }]
-      },
-      {
-        "type": "A4",
-        "fsp": "snow",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
-        "name": "Jennifer",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["snow"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["əʊ/Ơu"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "əʊ/Ơu"],
-        "fspSets": [{ "st": "snow", "id": "GA01_a114" }]
-      },
-      {
-        "type": "A3",
-        "fsp": "toy",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "name": "Emily",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["toy"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["ɔɪ/Oi"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "ɔɪ/Oi"],
-        "fspSets": [{ "st": "toy", "id": "GA01_a60" }]
-      },
-      {
-        "type": "A5",
-        "fsp": "sound",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
-        "name": "Christopher",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["sound"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["aʊ/Au"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "aʊ/Au"],
-        "fspSets": [{ "st": "sound", "id": "GA01_a141" }]
-      },
-      {
-        "type": "A2",
-        "fsp": "bike",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
-        "name": "Michael",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["bike"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["aɪ/Ai"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "aɪ/Ai"],
-        "fspSets": [{ "st": "bike", "id": "GA01_a39" }]
-      },
-      {
-        "type": "A4",
-        "fsp": "nose",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
-        "name": "David",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["nose"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["əʊ/Ơu"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "əʊ/Ơu"],
-        "fspSets": [{ "st": "nose", "id": "GA01_a93" }]
-      },
-      {
-        "type": "A1",
-        "fsp": "make",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
-        "name": "David",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["make"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["eɪ/Ei"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "eɪ/Ei"],
-        "fspSets": [{ "st": "make", "id": "GA01_a3" }]
-      },
-      {
-        "type": "A7",
-        "fsp": "bear",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
-        "name": "Sarah",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["bear"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["eə/E-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "eə/E-ờ"],
-        "fspSets": [{ "st": "bear", "id": "GA01_a192" }]
-      },
-      {
-        "type": "A6",
-        "fsp": "ear",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
-        "name": "Joshua",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["ear"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["ɪə/I-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "ɪə/I-ờ"],
-        "fspSets": [{ "st": "ear", "id": "GA01_a177" }]
-      },
-      {
-        "type": "A3",
-        "fsp": "coin",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
-        "name": "Jessica",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["coin"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["ɔɪ/Oi"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "ɔɪ/Oi"],
-        "fspSets": [{ "st": "coin", "id": "GA01_a66" }]
-      },
-      {
-        "type": "A5",
-        "fsp": "now",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "name": "Emily",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["now"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["aʊ/Au"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "aʊ/Au"],
-        "fspSets": [{ "st": "now", "id": "GA01_a120" }]
-      },
-      {
-        "type": "A1",
-        "fsp": "game",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
-        "name": "Sarah",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["game"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["eɪ/Ei"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "eɪ/Ei"],
-        "fspSets": [{ "st": "game", "id": "GA01_a12" }]
-      },
-      {
-        "type": "A7",
-        "fsp": "wear",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
-        "name": "Andrew",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["wear"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["eə/E-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "eə/E-ờ"],
-        "fspSets": [{ "st": "wear", "id": "GA01_a195" }]
-      },
-      {
-        "type": "A4",
-        "fsp": "road",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
-        "name": "Andrew",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["road"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["əʊ/Ơu"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "əʊ/Ơu"],
-        "fspSets": [{ "st": "road", "id": "GA01_a105" }]
-      },
-      {
-        "type": "A2",
-        "fsp": "night",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
-        "name": "Andrew",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["night"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["aɪ/Ai"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "aɪ/Ai"],
-        "fspSets": [{ "st": "night", "id": "GA01_a45" }]
-      },
-      {
-        "type": "A6",
-        "fsp": "fear",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
-        "name": "Christopher",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["fear"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["ɪə/I-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "ɪə/I-ờ"],
-        "fspSets": [{ "st": "fear", "id": "GA01_a171" }]
-      },
-      {
-        "type": "A5",
-        "fsp": "mouse",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
-        "name": "Andrew",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["mouse"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["aʊ/Au"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "aʊ/Au"],
-        "fspSets": [{ "st": "mouse", "id": "GA01_a135" }]
-      },
-      {
-        "type": "A3",
-        "fsp": "join",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
-        "name": "Christopher",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["join"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["ɔɪ/Oi"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "ɔɪ/Oi"],
-        "fspSets": [{ "st": "join", "id": "GA01_a81" }]
-      },
-      {
-        "type": "A3",
-        "fsp": "voice",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
-        "name": "Sarah",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["voice"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["ɔɪ/Oi"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "ɔɪ/Oi"],
-        "fspSets": [{ "st": "voice", "id": "GA01_a72" }]
-      },
-      {
-        "type": "A2",
-        "fsp": "smile",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
-        "name": "Christopher",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["smile"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["aɪ/Ai"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "aɪ/Ai"],
-        "fspSets": [{ "st": "smile", "id": "GA01_a51" }]
-      },
-      {
-        "type": "A5",
-        "fsp": "house",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
-        "name": "Joshua",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["house"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["aʊ/Au"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "aʊ/Au"],
-        "fspSets": [{ "st": "house", "id": "GA01_a147" }]
-      },
-      {
-        "type": "A1",
-        "fsp": "rain",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
-        "name": "Andrew",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["rain"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["eɪ/Ei"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "eɪ/Ei"],
-        "fspSets": [{ "st": "rain", "id": "GA01_a15" }]
-      },
-      {
-        "type": "A7",
-        "fsp": "share",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
-        "name": "Jennifer",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["share"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["eə/E-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "eə/E-ờ"],
-        "fspSets": [{ "st": "share", "id": "GA01_a204" }]
-      },
-      {
-        "type": "A4",
-        "fsp": "home",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "name": "Emily",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["home"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["əʊ/Ơu"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "əʊ/Ơu"],
-        "fspSets": [{ "st": "home", "id": "GA01_a90" }]
-      },
-      {
-        "type": "A6",
-        "fsp": "clear",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
-        "name": "Sarah",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["clear"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["ɪə/I-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "ɪə/I-ờ"],
-        "fspSets": [{ "st": "clear", "id": "GA01_a162" }]
-      },
-      {
-        "type": "A6",
-        "fsp": "beard",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
-        "name": "Jennifer",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["beard"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["ɪə/I-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "ɪə/I-ờ"],
-        "fspSets": [{ "st": "beard", "id": "GA01_a174" }]
-      },
-      {
-        "type": "A7",
-        "fsp": "care",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
-        "name": "Christopher",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["care"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["eə/E-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "eə/E-ờ"],
-        "fspSets": [{ "st": "care", "id": "GA01_a201" }]
-      },
-      {
-        "type": "A5",
-        "fsp": "town",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
-        "name": "Jessica",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["town"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["aʊ/Au"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "aʊ/Au"],
-        "fspSets": [{ "st": "town", "id": "GA01_a126" }]
-      },
-      {
-        "type": "A3",
-        "fsp": "boy",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
-        "name": "Joshua",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["boy"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["ɔɪ/Oi"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "ɔɪ/Oi"],
-        "fspSets": [{ "st": "boy", "id": "GA01_a87" }]
-      },
-      {
-        "type": "A1",
-        "fsp": "name",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
-        "name": "Joshua",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["name"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["eɪ/Ei"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "eɪ/Ei"],
-        "fspSets": [{ "st": "name", "id": "GA01_a27" }]
-      },
-      {
-        "type": "A4",
-        "fsp": "know",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
-        "name": "Michael",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["know"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["əʊ/Ơu"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "əʊ/Ơu"],
-        "fspSets": [{ "st": "know", "id": "GA01_a99" }]
-      },
-      {
-        "type": "A2",
-        "fsp": "like",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "name": "Emily",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["like"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
           },
           {
             "qs": ["hi"],
@@ -1034,448 +182,21 @@
             "aw01": [{ "st": "hi", "id": "GA01_a2" }]
           }
         ],
-        "submit": ["FN01", "aɪ/Ai"],
-        "fspSets": [{ "st": "like", "id": "GA01_a30" }]
-      },
-      {
-        "type": "A2",
-        "fsp": "right",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
-        "name": "Ashley",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["right"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["aɪ/Ai"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "aɪ/Ai"],
-        "fspSets": [{ "st": "right", "id": "GA01_a48" }]
-      },
-      {
-        "type": "A5",
-        "fsp": "about",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
-        "name": "Jennifer",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["about"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["aʊ/Au"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "aʊ/Au"],
-        "fspSets": [{ "st": "about", "id": "GA01_a144" }]
-      },
-      {
-        "type": "A6",
-        "fsp": "here",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
-        "name": "Ashley",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["here"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["ɪə/I-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "ɪə/I-ờ"],
-        "fspSets": [{ "st": "here", "id": "GA01_a168" }]
-      },
-      {
-        "type": "A1",
-        "fsp": "train",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
-        "name": "Ashley",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["train"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["eɪ/Ei"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "eɪ/Ei"],
-        "fspSets": [{ "st": "train", "id": "GA01_a18" }]
-      },
-      {
-        "type": "A4",
-        "fsp": "phone",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
-        "name": "Jessica",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["phone"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["əʊ/Ơu"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "əʊ/Ơu"],
-        "fspSets": [{ "st": "phone", "id": "GA01_a96" }]
-      },
-      {
-        "type": "A7",
-        "fsp": "where",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
-        "name": "Ashley",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["where"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["eə/E-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "eə/E-ờ"],
-        "fspSets": [{ "st": "where", "id": "GA01_a198" }]
-      },
-      {
-        "type": "A3",
-        "fsp": "enjoy",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
-        "name": "David",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["enjoy"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["ɔɪ/Oi"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "ɔɪ/Oi"],
-        "fspSets": [{ "st": "enjoy", "id": "GA01_a63" }]
-      },
-      {
-        "type": "A3",
-        "fsp": "oil",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
-        "name": "Jennifer",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["oil"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["ɔɪ/Oi"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "ɔɪ/Oi"],
-        "fspSets": [{ "st": "oil", "id": "GA01_a84" }]
-      },
-      {
-        "type": "A1",
-        "fsp": "day",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "name": "Emily",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["day"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["eɪ/Ei"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "eɪ/Ei"],
-        "fspSets": [{ "st": "day", "id": "GA01_a0" }]
-      },
-      {
-        "type": "A2",
-        "fsp": "time",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
-        "name": "David",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["time"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["aɪ/Ai"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "aɪ/Ai"],
-        "fspSets": [{ "st": "time", "id": "GA01_a33" }]
-      },
-      {
-        "type": "A5",
-        "fsp": "flower",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
-        "name": "Ashley",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["flower"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["aʊ/Au"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "aʊ/Au"],
-        "fspSets": [{ "st": "flower", "id": "GA01_a138" }]
-      },
-      {
-        "type": "A4",
-        "fsp": "coat",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
-        "name": "Christopher",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["coat"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["əʊ/Ơu"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "əʊ/Ơu"],
-        "fspSets": [{ "st": "coat", "id": "GA01_a111" }]
-      },
-      {
-        "type": "A7",
-        "fsp": "pair",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
-        "name": "Jessica",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["pair"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["eə/E-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "eə/E-ờ"],
-        "fspSets": [{ "st": "pair", "id": "GA01_a186" }]
-      },
-      {
-        "type": "A6",
-        "fsp": "near",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "name": "Emily",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["near"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["ɪə/I-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "ɪə/I-ờ"],
-        "fspSets": [{ "st": "near", "id": "GA01_a150" }]
-      },
-      {
-        "type": "A2",
-        "fsp": "child",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
-        "name": "Jennifer",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["child"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["aɪ/Ai"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "aɪ/Ai"],
-        "fspSets": [{ "st": "child", "id": "GA01_a54" }]
-      },
-      {
-        "type": "A3",
-        "fsp": "point",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
-        "name": "Michael",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["point"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["ɔɪ/Oi"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "ɔɪ/Oi"],
-        "fspSets": [{ "st": "point", "id": "GA01_a69" }]
-      },
-      {
-        "type": "A5",
-        "fsp": "brown",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
-        "name": "Sarah",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["brown"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["aʊ/Au"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "aʊ/Au"],
-        "fspSets": [{ "st": "brown", "id": "GA01_a132" }]
+        "submit": ["aɪ/Ai"],
+        "fspSets": [{ "st": "five", "id": "GA01_a36" }]
       },
       {
         "type": "A1",
         "fsp": "eight",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
         "data": [
           {
-            "qs": ["eight"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
           },
           {
             "qs": ["hi"],
@@ -1484,423 +205,90 @@
             "aw01": [{ "st": "hi", "id": "GA01_a5" }]
           }
         ],
-        "submit": ["FN01", "eɪ/Ei"],
+        "submit": ["eɪ/Ei"],
         "fspSets": [{ "st": "eight", "id": "GA01_a21" }]
       },
       {
         "type": "A6",
-        "fsp": "year",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
-        "name": "Michael",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["year"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["ɪə/I-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "ɪə/I-ờ"],
-        "fspSets": [{ "st": "year", "id": "GA01_a159" }]
-      },
-      {
-        "type": "A7",
-        "fsp": "chair",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
-        "name": "David",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["chair"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["eə/E-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "eə/E-ờ"],
-        "fspSets": [{ "st": "chair", "id": "GA01_a183" }]
-      },
-      {
-        "type": "A4",
-        "fsp": "go",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
-        "name": "Joshua",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["go"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["əʊ/Ơu"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "əʊ/Ơu"],
-        "fspSets": [{ "st": "go", "id": "GA01_a117" }]
-      },
-      {
-        "type": "A7",
-        "fsp": "fair",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
-        "name": "Michael",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["fair"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["eə/E-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "eə/E-ờ"],
-        "fspSets": [{ "st": "fair", "id": "GA01_a189" }]
-      },
-      {
-        "type": "A4",
-        "fsp": "open",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
-        "name": "Sarah",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["open"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["əʊ/Ơu"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "əʊ/Ơu"],
-        "fspSets": [{ "st": "open", "id": "GA01_a102" }]
-      },
-      {
-        "type": "A6",
-        "fsp": "idea",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
-        "name": "Andrew",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["idea"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["ɪə/I-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "ɪə/I-ờ"],
-        "fspSets": [{ "st": "idea", "id": "GA01_a165" }]
-      },
-      {
-        "type": "A5",
-        "fsp": "how",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
-        "name": "David",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["how"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["aʊ/Au"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "aʊ/Au"],
-        "fspSets": [{ "st": "how", "id": "GA01_a123" }]
-      },
-      {
-        "type": "A2",
-        "fsp": "white",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
-        "name": "Sarah",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["white"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["aɪ/Ai"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "aɪ/Ai"],
-        "fspSets": [{ "st": "white", "id": "GA01_a42" }]
-      },
-      {
-        "type": "A1",
-        "fsp": "great",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
+        "fsp": "beard",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
         "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
         "name": "Jennifer",
         "gender": "female",
         "data": [
           {
-            "qs": ["great"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["eɪ/Ei"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "eɪ/Ei"],
-        "fspSets": [{ "st": "great", "id": "GA01_a24" }]
-      },
-      {
-        "type": "A3",
-        "fsp": "noise",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
-        "name": "Andrew",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["noise"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["ɔɪ/Oi"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "ɔɪ/Oi"],
-        "fspSets": [{ "st": "noise", "id": "GA01_a75" }]
-      },
-      {
-        "type": "A6",
-        "fsp": "hear",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
-        "name": "David",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["hear"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
           },
           {
             "qs": ["hi"],
             "aw": ["hi"],
             "submit": ["ɪə/I-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "ɪə/I-ờ"],
-        "fspSets": [{ "st": "hear", "id": "GA01_a153" }]
-      },
-      {
-        "type": "A1",
-        "fsp": "take",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
-        "name": "Jessica",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["take"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["eɪ/Ei"],
             "aw01": [{ "st": "hi", "id": "GA01_a2" }]
           }
         ],
-        "submit": ["FN01", "eɪ/Ei"],
-        "fspSets": [{ "st": "take", "id": "GA01_a6" }]
-      },
-      {
-        "type": "A7",
-        "fsp": "air",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
-        "name": "Joshua",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["air"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["eə/E-ờ"],
-            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
-          }
-        ],
-        "submit": ["FN01", "eə/E-ờ"],
-        "fspSets": [{ "st": "air", "id": "GA01_a207" }]
-      },
-      {
-        "type": "A3",
-        "fsp": "choice",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
-        "name": "Ashley",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["choice"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["ɔɪ/Oi"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "ɔɪ/Oi"],
-        "fspSets": [{ "st": "choice", "id": "GA01_a78" }]
-      },
-      {
-        "type": "A2",
-        "fsp": "five",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
-        "name": "Jessica",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["five"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["aɪ/Ai"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "aɪ/Ai"],
-        "fspSets": [{ "st": "five", "id": "GA01_a36" }]
+        "submit": ["ɪə/I-ờ"],
+        "fspSets": [{ "st": "beard", "id": "GA01_a174" }]
       },
       {
         "type": "A4",
-        "fsp": "boat",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
-        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
-        "name": "Ashley",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["boat"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a1" }]
-          },
-          {
-            "qs": ["hi"],
-            "aw": ["hi"],
-            "submit": ["əʊ/Ơu"],
-            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
-          }
-        ],
-        "submit": ["FN01", "əʊ/Ơu"],
-        "fspSets": [{ "st": "boat", "id": "GA01_a108" }]
-      },
-      {
-        "type": "A5",
-        "fsp": "down",
-        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ; và (2) Lặp lại từ vừa nghe!",
+        "fsp": "know",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
         "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
         "name": "Michael",
         "gender": "male",
         "data": [
           {
-            "qs": ["down"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA01_a4" }]
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["əʊ/Ơu"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["əʊ/Ơu"],
+        "fspSets": [{ "st": "know", "id": "GA01_a99" }]
+      },
+      {
+        "type": "A7",
+        "fsp": "pair",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["eə/E-ờ"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["eə/E-ờ"],
+        "fspSets": [{ "st": "pair", "id": "GA01_a186" }]
+      },
+      {
+        "type": "A5",
+        "fsp": "how",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
           },
           {
             "qs": ["hi"],
@@ -1909,8 +297,1480 @@
             "aw01": [{ "st": "hi", "id": "GA01_a5" }]
           }
         ],
-        "submit": ["FN01", "aʊ/Au"],
+        "submit": ["aʊ/Au"],
+        "fspSets": [{ "st": "how", "id": "GA01_a123" }]
+      },
+      {
+        "type": "A3",
+        "fsp": "noise",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["ɔɪ/Oi"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["ɔɪ/Oi"],
+        "fspSets": [{ "st": "noise", "id": "GA01_a75" }]
+      },
+      {
+        "type": "A7",
+        "fsp": "fair",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["eə/E-ờ"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["eə/E-ờ"],
+        "fspSets": [{ "st": "fair", "id": "GA01_a189" }]
+      },
+      {
+        "type": "A1",
+        "fsp": "great",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["eɪ/Ei"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["eɪ/Ei"],
+        "fspSets": [{ "st": "great", "id": "GA01_a24" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "bike",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["aɪ/Ai"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["aɪ/Ai"],
+        "fspSets": [{ "st": "bike", "id": "GA01_a39" }]
+      },
+      {
+        "type": "A3",
+        "fsp": "voice",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["ɔɪ/Oi"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["ɔɪ/Oi"],
+        "fspSets": [{ "st": "voice", "id": "GA01_a72" }]
+      },
+      {
+        "type": "A6",
+        "fsp": "dear",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["ɪə/I-ờ"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["ɪə/I-ờ"],
+        "fspSets": [{ "st": "dear", "id": "GA01_a156" }]
+      },
+      {
+        "type": "A5",
+        "fsp": "house",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["aʊ/Au"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["aʊ/Au"],
+        "fspSets": [{ "st": "house", "id": "GA01_a147" }]
+      },
+      {
+        "type": "A4",
+        "fsp": "open",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["əʊ/Ơu"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["əʊ/Ơu"],
+        "fspSets": [{ "st": "open", "id": "GA01_a102" }]
+      },
+      {
+        "type": "A4",
+        "fsp": "boat",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["əʊ/Ơu"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["əʊ/Ơu"],
+        "fspSets": [{ "st": "boat", "id": "GA01_a108" }]
+      },
+      {
+        "type": "A7",
+        "fsp": "care",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["eə/E-ờ"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["eə/E-ờ"],
+        "fspSets": [{ "st": "care", "id": "GA01_a201" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "like",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["aɪ/Ai"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["aɪ/Ai"],
+        "fspSets": [{ "st": "like", "id": "GA01_a30" }]
+      },
+      {
+        "type": "A1",
+        "fsp": "face",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["eɪ/Ei"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["eɪ/Ei"],
+        "fspSets": [{ "st": "face", "id": "GA01_a9" }]
+      },
+      {
+        "type": "A3",
+        "fsp": "choice",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["ɔɪ/Oi"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["ɔɪ/Oi"],
+        "fspSets": [{ "st": "choice", "id": "GA01_a78" }]
+      },
+      {
+        "type": "A6",
+        "fsp": "near",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["ɪə/I-ờ"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["ɪə/I-ờ"],
+        "fspSets": [{ "st": "near", "id": "GA01_a150" }]
+      },
+      {
+        "type": "A5",
+        "fsp": "mouse",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["aʊ/Au"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["aʊ/Au"],
+        "fspSets": [{ "st": "mouse", "id": "GA01_a135" }]
+      },
+      {
+        "type": "A6",
+        "fsp": "here",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["ɪə/I-ờ"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["ɪə/I-ờ"],
+        "fspSets": [{ "st": "here", "id": "GA01_a168" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "smile",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["aɪ/Ai"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["aɪ/Ai"],
+        "fspSets": [{ "st": "smile", "id": "GA01_a51" }]
+      },
+      {
+        "type": "A7",
+        "fsp": "hair",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["eə/E-ờ"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["eə/E-ờ"],
+        "fspSets": [{ "st": "hair", "id": "GA01_a180" }]
+      },
+      {
+        "type": "A1",
+        "fsp": "train",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["eɪ/Ei"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["eɪ/Ei"],
+        "fspSets": [{ "st": "train", "id": "GA01_a18" }]
+      },
+      {
+        "type": "A3",
+        "fsp": "toy",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["ɔɪ/Oi"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["ɔɪ/Oi"],
+        "fspSets": [{ "st": "toy", "id": "GA01_a60" }]
+      },
+      {
+        "type": "A4",
+        "fsp": "nose",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["əʊ/Ơu"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["əʊ/Ơu"],
+        "fspSets": [{ "st": "nose", "id": "GA01_a93" }]
+      },
+      {
+        "type": "A5",
+        "fsp": "sound",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["aʊ/Au"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["aʊ/Au"],
+        "fspSets": [{ "st": "sound", "id": "GA01_a141" }]
+      },
+      {
+        "type": "A4",
+        "fsp": "coat",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["əʊ/Ơu"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["əʊ/Ơu"],
+        "fspSets": [{ "st": "coat", "id": "GA01_a111" }]
+      },
+      {
+        "type": "A5",
+        "fsp": "now",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["aʊ/Au"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["aʊ/Au"],
+        "fspSets": [{ "st": "now", "id": "GA01_a120" }]
+      },
+      {
+        "type": "A1",
+        "fsp": "rain",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["eɪ/Ei"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["eɪ/Ei"],
+        "fspSets": [{ "st": "rain", "id": "GA01_a15" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "right",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["aɪ/Ai"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["aɪ/Ai"],
+        "fspSets": [{ "st": "right", "id": "GA01_a48" }]
+      },
+      {
+        "type": "A3",
+        "fsp": "join",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["ɔɪ/Oi"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["ɔɪ/Oi"],
+        "fspSets": [{ "st": "join", "id": "GA01_a81" }]
+      },
+      {
+        "type": "A6",
+        "fsp": "fear",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["ɪə/I-ờ"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["ɪə/I-ờ"],
+        "fspSets": [{ "st": "fear", "id": "GA01_a171" }]
+      },
+      {
+        "type": "A7",
+        "fsp": "wear",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["eə/E-ờ"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["eə/E-ờ"],
+        "fspSets": [{ "st": "wear", "id": "GA01_a195" }]
+      },
+      {
+        "type": "A4",
+        "fsp": "go",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["əʊ/Ơu"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["əʊ/Ơu"],
+        "fspSets": [{ "st": "go", "id": "GA01_a117" }]
+      },
+      {
+        "type": "A1",
+        "fsp": "name",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["eɪ/Ei"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["eɪ/Ei"],
+        "fspSets": [{ "st": "name", "id": "GA01_a27" }]
+      },
+      {
+        "type": "A3",
+        "fsp": "enjoy",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["ɔɪ/Oi"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["ɔɪ/Oi"],
+        "fspSets": [{ "st": "enjoy", "id": "GA01_a63" }]
+      },
+      {
+        "type": "A5",
+        "fsp": "town",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["aʊ/Au"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["aʊ/Au"],
+        "fspSets": [{ "st": "town", "id": "GA01_a126" }]
+      },
+      {
+        "type": "A6",
+        "fsp": "idea",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["ɪə/I-ờ"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["ɪə/I-ờ"],
+        "fspSets": [{ "st": "idea", "id": "GA01_a165" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "night",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["aɪ/Ai"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["aɪ/Ai"],
+        "fspSets": [{ "st": "night", "id": "GA01_a45" }]
+      },
+      {
+        "type": "A7",
+        "fsp": "share",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["eə/E-ờ"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["eə/E-ờ"],
+        "fspSets": [{ "st": "share", "id": "GA01_a204" }]
+      },
+      {
+        "type": "A6",
+        "fsp": "hear",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["ɪə/I-ờ"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["ɪə/I-ờ"],
+        "fspSets": [{ "st": "hear", "id": "GA01_a153" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "time",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["aɪ/Ai"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["aɪ/Ai"],
+        "fspSets": [{ "st": "time", "id": "GA01_a33" }]
+      },
+      {
+        "type": "A4",
+        "fsp": "snow",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["əʊ/Ơu"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["əʊ/Ơu"],
+        "fspSets": [{ "st": "snow", "id": "GA01_a114" }]
+      },
+      {
+        "type": "A3",
+        "fsp": "oil",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["ɔɪ/Oi"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["ɔɪ/Oi"],
+        "fspSets": [{ "st": "oil", "id": "GA01_a84" }]
+      },
+      {
+        "type": "A5",
+        "fsp": "down",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["aʊ/Au"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["aʊ/Au"],
         "fspSets": [{ "st": "down", "id": "GA01_a129" }]
+      },
+      {
+        "type": "A7",
+        "fsp": "air",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["eə/E-ờ"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["eə/E-ờ"],
+        "fspSets": [{ "st": "air", "id": "GA01_a207" }]
+      },
+      {
+        "type": "A1",
+        "fsp": "make",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["eɪ/Ei"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["eɪ/Ei"],
+        "fspSets": [{ "st": "make", "id": "GA01_a3" }]
+      },
+      {
+        "type": "A5",
+        "fsp": "flower",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["aʊ/Au"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["aʊ/Au"],
+        "fspSets": [{ "st": "flower", "id": "GA01_a138" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "child",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["aɪ/Ai"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["aɪ/Ai"],
+        "fspSets": [{ "st": "child", "id": "GA01_a54" }]
+      },
+      {
+        "type": "A4",
+        "fsp": "road",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["əʊ/Ơu"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["əʊ/Ơu"],
+        "fspSets": [{ "st": "road", "id": "GA01_a105" }]
+      },
+      {
+        "type": "A1",
+        "fsp": "day",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["eɪ/Ei"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["eɪ/Ei"],
+        "fspSets": [{ "st": "day", "id": "GA01_a0" }]
+      },
+      {
+        "type": "A3",
+        "fsp": "coin",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["ɔɪ/Oi"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["ɔɪ/Oi"],
+        "fspSets": [{ "st": "coin", "id": "GA01_a66" }]
+      },
+      {
+        "type": "A6",
+        "fsp": "year",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["ɪə/I-ờ"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["ɪə/I-ờ"],
+        "fspSets": [{ "st": "year", "id": "GA01_a159" }]
+      },
+      {
+        "type": "A7",
+        "fsp": "where",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["eə/E-ờ"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["eə/E-ờ"],
+        "fspSets": [{ "st": "where", "id": "GA01_a198" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "white",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["aɪ/Ai"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["aɪ/Ai"],
+        "fspSets": [{ "st": "white", "id": "GA01_a42" }]
+      },
+      {
+        "type": "A1",
+        "fsp": "game",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["eɪ/Ei"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["eɪ/Ei"],
+        "fspSets": [{ "st": "game", "id": "GA01_a12" }]
+      },
+      {
+        "type": "A3",
+        "fsp": "point",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["ɔɪ/Oi"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["ɔɪ/Oi"],
+        "fspSets": [{ "st": "point", "id": "GA01_a69" }]
+      },
+      {
+        "type": "A7",
+        "fsp": "chair",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["eə/E-ờ"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["eə/E-ờ"],
+        "fspSets": [{ "st": "chair", "id": "GA01_a183" }]
+      },
+      {
+        "type": "A5",
+        "fsp": "brown",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["aʊ/Au"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["aʊ/Au"],
+        "fspSets": [{ "st": "brown", "id": "GA01_a132" }]
+      },
+      {
+        "type": "A6",
+        "fsp": "ear",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["ɪə/I-ờ"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["ɪə/I-ờ"],
+        "fspSets": [{ "st": "ear", "id": "GA01_a177" }]
+      },
+      {
+        "type": "A4",
+        "fsp": "phone",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["əʊ/Ơu"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["əʊ/Ơu"],
+        "fspSets": [{ "st": "phone", "id": "GA01_a96" }]
+      },
+      {
+        "type": "A4",
+        "fsp": "home",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["əʊ/Ơu"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["əʊ/Ơu"],
+        "fspSets": [{ "st": "home", "id": "GA01_a90" }]
+      },
+      {
+        "type": "A3",
+        "fsp": "boy",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["ɔɪ/Oi"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["ɔɪ/Oi"],
+        "fspSets": [{ "st": "boy", "id": "GA01_a87" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "my",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a4" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["aɪ/Ai"],
+            "aw01": [{ "st": "hi", "id": "GA01_a5" }]
+          }
+        ],
+        "submit": ["aɪ/Ai"],
+        "fspSets": [{ "st": "my", "id": "GA01_a57" }]
+      },
+      {
+        "type": "A1",
+        "fsp": "take",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["eɪ/Ei"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["eɪ/Ei"],
+        "fspSets": [{ "st": "take", "id": "GA01_a6" }]
+      },
+      {
+        "type": "A7",
+        "fsp": "bear",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["eə/E-ờ"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["eə/E-ờ"],
+        "fspSets": [{ "st": "bear", "id": "GA01_a192" }]
+      },
+      {
+        "type": "A5",
+        "fsp": "about",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["aʊ/Au"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["aʊ/Au"],
+        "fspSets": [{ "st": "about", "id": "GA01_a144" }]
+      },
+      {
+        "type": "A6",
+        "fsp": "clear",
+        "hint": "Yêu cầu: Nghe từ được đề cập (1) Chọn Nguyên âm đôi của từ;",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["hello"],
+            "aw": ["hello"],
+            "aw01": [{ "st": "hello", "id": "GA01_a1" }]
+          },
+          {
+            "qs": ["hi"],
+            "aw": ["hi"],
+            "submit": ["ɪə/I-ờ"],
+            "aw01": [{ "st": "hi", "id": "GA01_a2" }]
+          }
+        ],
+        "submit": ["ɪə/I-ờ"],
+        "fspSets": [{ "st": "clear", "id": "GA01_a162" }]
       }
     ],
     "charactor_UP_01": [],
