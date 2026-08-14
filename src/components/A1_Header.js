@@ -51,16 +51,23 @@ const prac_to_work = [
 const pracEnSets = [
   {
     root: "learninghub",
-    preName: "KET",
-    name: "Ghép âm - Nguyên âm đôi (Full bảng)",
+    preName: "Ghép âm",
+    name: "Nguyên âm đôi (Full.Table)",
     link: "ket_nguyenamdoi_01",
     id: "socap1",
   },
   {
     root: "learninghub",
-    preName: "KET",
-    name: "Ghép âm - Nguyên âm đôi (Bảng trống)",
+    preName: "Ghép âm",
+    name: "Nguyên âm đôi (No.Table)",
     link: "ket_nguyenamdoi_01b",
+    id: "socap1",
+  },
+  {
+    root: "learninghub",
+    preName: "Ghép âm",
+    name: "Repeating (1)",
+    link: "ket_nguyenamdoi_repeat_01A",
     id: "socap1",
   },
   {
@@ -406,9 +413,9 @@ export default function Header({ sttRoom, STTcfonnectFN }) {
                   width={42}
                   height={42}
                   style={{ marginRight: 10, borderRadius: 10 }}
-                  alt="Logo Cùng thực hành"
+                  alt="Logo PVD"
                 />
-                <b className="app-brand-text">Cùng thực hành</b>
+                <b className="app-brand-text">Rèn Nghe Nói</b>
               </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
