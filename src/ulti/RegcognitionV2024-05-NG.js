@@ -167,12 +167,16 @@ export default Dictaphone;
 ══════════════════════════════════════════════════════════════════ */
 function findBest(statement, cmdList, threshold) {
   if (!statement || !Array.isArray(cmdList)) return null;
-  const normStatement = statement;
+  const normStatement = statement.toLowerCase();
   let maxSim = -1;
   let best = null;
+
   for (const obj of cmdList) {
     for (const q of obj.qs || []) {
-      const sim = stringSimilarity.compareTwoStrings(normStatement, q);
+      if (!q) continue;
+      const normQ = q.toLowerCase();
+      const sim = stringSimilarity.compareTwoStrings(normStatement, normQ);
+
       if (sim >= threshold && sim > maxSim) {
         maxSim = sim;
         best = obj;
@@ -183,6 +187,7 @@ function findBest(statement, cmdList, threshold) {
       }
     }
   }
+
   if (best) best._sim = maxSim;
   return best;
 }

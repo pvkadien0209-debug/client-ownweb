@@ -647,7 +647,7 @@ const Room = ({ setSttRoom }) => {
 
         {/* ── Footer: always-visible transcript listener ── */}
         <div className="room-footer">
-          <Dictaphone />
+          <Dictaphone IsReading={IsReading} />
           <div style={{ display: "none" }}>
             <button
               id="readingFalse"

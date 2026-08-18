@@ -79,6 +79,13 @@ const pracEnSets = [
   },
   {
     root: "learninghub",
+    preName: "Information Framework",
+    name: "KET A2-key Speaking Part 1 (Dịch)",
+    link: "infoFramework_KET_001_dich_tv",
+    id: "socap1",
+  },
+  {
+    root: "learninghub",
     preName: "Ghép âm:",
     name: "Làm quen cơ bản",
     link: "ueoai-01",

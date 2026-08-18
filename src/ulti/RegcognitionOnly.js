@@ -6,7 +6,7 @@ import SpeechRecognition, {
    DictaphoneONLY — footer bar
    Layout: [Reset | Tiếp]  [transcript…]  [Bật/Tắt toggle]
 ════════════════════════════════════════════════════════════════════ */
-const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
+const DictaphoneONLY = ({ IsReading, lang = "en-US", onTranscript }) => {
   const { transcript, resetTranscript, listening } = useSpeechRecognition();
   const [micEnabled, setMicEnabled] = useState(false);
   /* ── Auto-detect mobile browser tự dừng ────────────────────────
@@ -242,10 +242,17 @@ const DictaphoneONLY = ({ lang = "en-US", onTranscript }) => {
         <button
           className={`dtph-toggle-btn ${toggleState.cls}`}
           onClick={handleToggle}
+          disabled={IsReading}
           title={toggleState.label}
         >
-          <i className={`bi ${toggleState.icon}`} />
-          <span>{toggleState.label}</span>
+          {IsReading ? (
+            "Chờ đọc xong"
+          ) : (
+            <>
+              <i className={`bi ${toggleState.icon}`} />{" "}
+              <span>{toggleState.label}</span>
+            </>
+          )}
         </button>
         {/* ══ RIGHT: Xóa + Tiếp ══ */}
         <div className="dtph-left">
