@@ -429,14 +429,14 @@ export default function Header({ sttRoom, STTcfonnectFN }) {
                   style={{ marginRight: 10, borderRadius: 10 }}
                   alt="Logo PVD"
                 />
-                <b className="app-brand-text">Rèn Nghe Nói</b>
+                <b className="app-brand-text">Môi trường để rèn luyện</b>
               </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
                 {returnDropdown(
-                  "Học kiến thức",
+                  "Học 2",
                   coreKnowledgeSets,
                   { name: "name", link: "link", preName: "preName" },
                   null,
@@ -448,7 +448,7 @@ export default function Header({ sttRoom, STTcfonnectFN }) {
                   null
                 )} */}
                 {returnDropdown(
-                  "Rèn kỹ năng",
+                  "Rèn 8",
                   pracEnSets.concat(
                     yy1A,
                     levele_img_barlist,

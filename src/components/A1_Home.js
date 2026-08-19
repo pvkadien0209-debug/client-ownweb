@@ -445,16 +445,16 @@ const EnglishLandingPage = () => {
             <div className="col-lg-10">
               <span className="home-hero-badge">
                 <i className="bi bi-soundwave"></i>
-                Rèn tiếng Anh nghe nói online
+                Rèn tiếng Anh nghe nói
               </span>
               <h1>
-                Nghe nói tự tin bằng
+                Chúng ta không thiếu nơi để "HỌC"
                 <br />
-                thực hành thật, không lý thuyết suông
+                Chúng ta thực cần tìm "NƠI RÈN LUYỆN"
               </h1>
               <p className="hero-sub">
-                Khóa thực hành dành cho người mất gốc và người cần giao tiếp cơ
-                bản — luyện trực tiếp với công cụ nhận diện giọng nói.
+                Khóa rèn luyện dành cho người từ mất gốc hoặc chỉ cần giao tiếp
+                cơ bản đến cần lấy chứng chỉ— Ứng dụng công nghệ AI.
               </p>
               <div className="row g-3 mb-4">
                 {audiences.map((a, i) => (
