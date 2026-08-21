@@ -1,6 +1,6 @@
 import React from "react";
 import stringSimilarity from "string-similarity";
-import ReadMessage from "./ReadMessageMp3_2026";
+import ReadMessage from "./ReadMessage_2024";
 /* ════════════════════════════════════════════════════════════════════
    Dictaphone — chỉ xử lý check logic
    KHÔNG có speech-to-text, KHÔNG có mic UI
@@ -112,7 +112,13 @@ function renderChart() {
     };
   }
 }
-const Dictaphone = ({ CMDlist, GENDER, setScore, addElementIfNotExist }) => {
+const Dictaphone = ({
+  CMDlist,
+  GENDER,
+  setScore,
+  addElementIfNotExist,
+  ObjVoices,
+}) => {
   /* ── Đọc text từ DOM ─────────────────────────────────────────── */
   const getInput = () =>
     document.getElementById("dtphTranscript")?.textContent?.trim() || "";
@@ -121,9 +127,10 @@ const Dictaphone = ({ CMDlist, GENDER, setScore, addElementIfNotExist }) => {
     const objTR = findBest(input, CMDlist, 0.5);
     if (!objTR || !objTR.qs) {
       ReadMessage(
-        GENDER === 1
-          ? [{ id: "sorryFemale", st: "what do you mean?" }]
-          : [{ id: "sorryMale", st: "what do you mean?" }],
+        ObjVoices,
+        "Sorry, what did you say?",
+        GENDER,
+        GENDER === 1 ? [{ id: "sorryFemale" }] : [{ id: "sorryMale" }],
       );
       return;
     }
@@ -138,7 +145,12 @@ const Dictaphone = ({ CMDlist, GENDER, setScore, addElementIfNotExist }) => {
     const answer = awArr[idx];
     const audio = aw01Arr[idx];
     if (answer)
-      ReadMessage(audio?.id ? [{ id: audio.id, st: audio.st }] : undefined);
+      ReadMessage(
+        ObjVoices,
+        answer,
+        GENDER,
+        audio?.id ? [{ id: audio.id, st: audio.st }] : undefined,
+      );
     if (objTR.action?.[0]) {
       if (objTR.action[0] === "WRONG") {
         const btn = document.getElementById("btnBoQua");

@@ -456,6 +456,9 @@ const EnglishLandingPage = () => {
                 Khóa rèn luyện dành cho người từ mất gốc hoặc chỉ cần giao tiếp
                 cơ bản đến cần lấy chứng chỉ— Ứng dụng công nghệ AI.
               </p>
+              <h1>HỌC 2 - RÈN 8</h1>
+              <h3>Rèn kỹ năng – Dựng tự tin.</h3>
+
               <div className="row g-3 mb-4">
                 {audiences.map((a, i) => (
                   <div className="col-md-6" key={i}>
