@@ -232,7 +232,7 @@ const DictaphoneONLY = ({ IsReading, lang = "en-US", onTranscript }) => {
             <span className="dtph-placeholder-text">
               {micEnabled
                 ? listening
-                  ? "Đang nghe…"
+                  ? "Đang nghe… | Đọc duy nhất 1 từ hệ thống sẽ nhận dạng chậm hơn đôi chút!"
                   : "Đang kết nối…"
                 : "Bấm Bật để bắt đầu"}
             </span>

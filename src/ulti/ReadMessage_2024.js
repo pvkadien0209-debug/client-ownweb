@@ -68,7 +68,7 @@ function disableButton() {
   try {
     setButtonState("RegButton", false);
     setButtonState("BtnFsp", false);
-    const button = document.getElementById("setGetSTTDictaphone");
+    const button = document.getElementById("sttStopBTN");
     button.click();
     const buttonReadingTrue = document.getElementById("readingTrue");
     buttonReadingTrue.click();
