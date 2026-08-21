@@ -1,4 +1,5 @@
 import { useEffect, useState, useRef, useCallback } from "react";
+
 // ── Theme presets ────────────────────────────────────────────────────
 const THEME_PRESETS = {
   light: {
@@ -34,7 +35,9 @@ const THEME_PRESETS = {
     accent: "#3b82f6",
   },
 };
+
 const STORAGE_KEY = "tableHD_settings_v1";
+
 const DEFAULT_SETTINGS = {
   fontSize: 15,
   themeMode: "light", // "light" | "dark" | "custom"
@@ -42,8 +45,7 @@ const DEFAULT_SETTINGS = {
   customText: "#1e293b",
   density: "compact", // "compact" | "comfortable"
 };
-// Marker dùng để đánh dấu 1 row cần merge toàn bộ cột thành 1 cell
-const MERGE_MARKER = "[MERGE]";
+
 function loadSettings() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -54,6 +56,7 @@ function loadSettings() {
     return DEFAULT_SETTINGS;
   }
 }
+
 function saveSettings(settings) {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(settings));
@@ -61,19 +64,23 @@ function saveSettings(settings) {
     // ignore storage errors (private mode, quota, etc.)
   }
 }
+
 function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
   const [settings, setSettings] = useState(DEFAULT_SETTINGS);
   const [showAnswersPopup, setShowAnswersPopup] = useState(false);
   const [showSettingsPopup, setShowSettingsPopup] = useState(false);
   const containerRef = useRef(null);
+
   // Load persisted settings once on mount
   useEffect(() => {
     setSettings(loadSettings());
   }, []);
+
   // Persist whenever settings change
   useEffect(() => {
     saveSettings(settings);
   }, [settings]);
+
   useEffect(() => {
     const style = document.createElement("style");
     style.innerHTML = `
@@ -99,10 +106,12 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
       document.head.removeChild(style);
     };
   }, []);
+
   const closeAllPopups = useCallback(() => {
     setShowAnswersPopup(false);
     setShowSettingsPopup(false);
   }, []);
+
   try {
     // ── Resolve active theme colors ─────────────────────────────────
     const theme =
@@ -116,8 +125,10 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
               text: settings.customText,
               surface: settings.customBg,
             };
+
     const isCompact = settings.density === "compact";
     const cellPad = isCompact ? "4px 6px" : "8px 10px";
+
     const colorMapping = {
       X: "green",
       XX: "dodgerblue",
@@ -125,12 +136,16 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
       MM: "purple",
       XXX: "black",
     };
+
     const headers = data.length > 0 ? Object.keys(data[0]) : [];
+
     // Flatten data_TB to strings for quick lookup
     const data_TB_flat = data_TB.flatMap((row) =>
       row.map((item) => String(item)),
     );
+
     const answeredCount = PushAW.length;
+
     return (
       <div
         ref={containerRef}
@@ -172,6 +187,7 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
             <i className="bi bi-check2-circle" />
             Đã chọn ({answeredCount})
           </button>
+
           <button
             onClick={() => setShowSettingsPopup(true)}
             style={{
@@ -195,6 +211,7 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
           </button>
         </div>
         {/* ── Main data table ──────────────────────────────────────── */}
+
         <table
           className="table no-copy-table"
           style={{
@@ -218,30 +235,28 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
           onCopy={(e) => e.preventDefault()}
         >
           <tbody>
-            {data.map((row, rowIndex) => {
-              // ── Row có [MERGE] ở cell đầu tiên: gộp toàn bộ cột thành 1 cell ──
-              const firstHeader = headers[0];
-              const isMergeRow =
-                firstHeader !== undefined &&
-                String(row[firstHeader] ?? "").trim() === MERGE_MARKER;
-              if (isMergeRow) {
-                const mergedText = headers
-                  .slice(1)
-                  .map((h) => row[h])
-                  .filter((v) => v !== undefined && v !== null && v !== "")
-                  .join(" ");
-                return (
-                  <tr
-                    key={rowIndex}
-                    className="thd-row"
-                    style={{
-                      backgroundColor:
-                        rowIndex % 2 === 0 ? theme.bg : theme.rowAlt,
-                    }}
-                  >
+            {data.map((row, rowIndex) => (
+              <tr
+                key={rowIndex}
+                className="thd-row"
+                style={{
+                  backgroundColor: rowIndex % 2 === 0 ? theme.bg : theme.rowAlt,
+                }}
+              >
+                {headers.map((header, colIndex) => {
+                  const cellValue = String(row[header] || "");
+                  const isAnswerCell = data_TB_flat.includes(cellValue);
+                  const isSelected = isAnswerCell && PushAW.includes(cellValue);
+                  const hasAsterisk = cellValue.includes("(*)");
+                  const hasQuestion = cellValue.includes("?");
+
+                  return (
                     <td
-                      colSpan={headers.length}
+                      key={colIndex}
                       style={{
+                        fontWeight: hasQuestion ? "bold" : "initial",
+                        fontSize: hasAsterisk ? "larger" : undefined,
+                        color: hasAsterisk ? theme.accent : "inherit",
                         WebkitUserSelect: "none",
                         MozUserSelect: "none",
                         msUserSelect: "none",
@@ -249,110 +264,73 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
                         padding: cellPad,
                         borderBottom: `1px solid ${theme.border}`,
                       }}
+                      onClick={() => {
+                        if (isAnswerCell) {
+                          fnOnclick(cellValue, "submit");
+                        } else {
+                          fnOnclick(row[header], "none");
+                        }
+                      }}
                     >
-                      {mergedText}
+                      {colorMapping[row[header]] ? (
+                        <span
+                          style={{
+                            padding: "0 25px",
+                            backgroundColor: colorMapping[row[header]],
+                            borderRadius: "5px",
+                          }}
+                        />
+                      ) : isImageUrl(row[header]) ? (
+                        <img
+                          src={row[header]}
+                          alt={`element-${rowIndex}`}
+                          style={imageStyle}
+                        />
+                      ) : isSelected ? (
+                        // ── SELECTED STATE (compact inline) ──────
+                        <span
+                          style={{
+                            ...selectedCellStyle(theme),
+                            padding: isCompact ? "2px 6px" : "4px 8px",
+                          }}
+                        >
+                          <i
+                            className="bi bi-check-circle-fill"
+                            style={{
+                              color: theme.selectedBorder,
+                              marginRight: 4,
+                              fontSize: "0.9em",
+                            }}
+                          />
+                          {row[header]}
+                        </span>
+                      ) : isAnswerCell ? (
+                        // ── AVAILABLE ANSWER STATE (compact inline) ──
+                        <span
+                          style={{
+                            ...answerCellStyle(theme),
+                            padding: isCompact ? "2px 6px" : "4px 8px",
+                          }}
+                        >
+                          <i
+                            className="bi bi-hand-index-thumb"
+                            style={{
+                              color: theme.answerBorder,
+                              marginRight: 4,
+                              fontSize: "0.9em",
+                            }}
+                          />
+                          {row[header]}
+                        </span>
+                      ) : (
+                        // ── NORMAL CELL ───────────────────────────
+                        <span>{row[header]}</span>
+                      )}
                     </td>
-                  </tr>
-                );
-              }
-              return (
-                <tr
-                  key={rowIndex}
-                  className="thd-row"
-                  style={{
-                    backgroundColor:
-                      rowIndex % 2 === 0 ? theme.bg : theme.rowAlt,
-                  }}
-                >
-                  {headers.map((header, colIndex) => {
-                    const cellValue = String(row[header] || "");
-                    const isAnswerCell = data_TB_flat.includes(cellValue);
-                    const isSelected =
-                      isAnswerCell && PushAW.includes(cellValue);
-                    const hasAsterisk = cellValue.includes("(*)");
-                    const hasQuestion = cellValue.includes("?");
-                    return (
-                      <td
-                        key={colIndex}
-                        style={{
-                          fontWeight: hasQuestion ? "bold" : "initial",
-                          fontSize: hasAsterisk ? "larger" : undefined,
-                          color: hasAsterisk ? theme.accent : "inherit",
-                          WebkitUserSelect: "none",
-                          MozUserSelect: "none",
-                          msUserSelect: "none",
-                          userSelect: "none",
-                          padding: cellPad,
-                          borderBottom: `1px solid ${theme.border}`,
-                        }}
-                        onClick={() => {
-                          if (isAnswerCell) {
-                            fnOnclick(cellValue, "submit");
-                          } else {
-                            fnOnclick(row[header], "none");
-                          }
-                        }}
-                      >
-                        {colorMapping[row[header]] ? (
-                          <span
-                            style={{
-                              padding: "0 25px",
-                              backgroundColor: colorMapping[row[header]],
-                              borderRadius: "5px",
-                            }}
-                          />
-                        ) : isImageUrl(row[header]) ? (
-                          <img
-                            src={row[header]}
-                            alt={`element-${rowIndex}`}
-                            style={imageStyle}
-                          />
-                        ) : isSelected ? (
-                          // ── SELECTED STATE (compact inline) ──────
-                          <span
-                            style={{
-                              ...selectedCellStyle(theme),
-                              padding: isCompact ? "2px 6px" : "4px 8px",
-                            }}
-                          >
-                            <i
-                              className="bi bi-check-circle-fill"
-                              style={{
-                                color: theme.selectedBorder,
-                                marginRight: 4,
-                                fontSize: "0.9em",
-                              }}
-                            />
-                            {row[header]}
-                          </span>
-                        ) : isAnswerCell ? (
-                          // ── AVAILABLE ANSWER STATE (compact inline) ──
-                          <span
-                            style={{
-                              ...answerCellStyle(theme),
-                              padding: isCompact ? "2px 6px" : "4px 8px",
-                            }}
-                          >
-                            <i
-                              className="bi bi-hand-index-thumb"
-                              style={{
-                                color: theme.answerBorder,
-                                marginRight: 4,
-                                fontSize: "0.9em",
-                              }}
-                            />
-                            {row[header]}
-                          </span>
-                        ) : (
-                          // ── NORMAL CELL ───────────────────────────
-                          <span>{row[header]}</span>
-                        )}
-                      </td>
-                    );
-                  })}
-                </tr>
-              );
-            })}
+                  );
+                })}
+              </tr>
+            ))}
           </tbody>
         </table>
         {/* ── Popup: Answers detail ───────────────────────────────── */}
@@ -487,6 +465,7 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
                   />
                 </div>
               </div>
+
               {/* Density */}
               <div>
                 <label
@@ -537,6 +516,7 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
                   ))}
                 </div>
               </div>
+
               {/* Theme mode */}
               <div>
                 <label
@@ -593,6 +573,7 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
                   ))}
                 </div>
               </div>
+
               {/* Custom color pickers - only when custom mode active */}
               {settings.themeMode === "custom" && (
                 <div
@@ -658,6 +639,7 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
                   </div>
                 </div>
               )}
+
               {/* Reset */}
               <button
                 onClick={() => setSettings(DEFAULT_SETTINGS)}
@@ -688,7 +670,9 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
     return null;
   }
 }
+
 export default TableHD;
+
 // ── Popup primitives ────────────────────────────────────────────────
 function PopupOverlay({ children, onClose, theme }) {
   return (
@@ -726,6 +710,7 @@ function PopupOverlay({ children, onClose, theme }) {
     </div>
   );
 }
+
 function PopupHeader({ icon, title, theme, onClose }) {
   return (
     <div
@@ -768,11 +753,13 @@ function PopupHeader({ icon, title, theme, onClose }) {
     </div>
   );
 }
+
 // ── Helpers ──────────────────────────────────────────────────────────
 const isImageUrl = (url) => {
   if (typeof url !== "string") return false;
   return /\.(jpeg|jpg|gif|png|webp|svg)$/i.test(url);
 };
+
 const imageStyle = {
   maxWidth: "min(220px, 45vw)",
   maxHeight: "220px",
@@ -780,6 +767,7 @@ const imageStyle = {
   borderRadius: "6px",
   border: "2px solid #16a34a",
 };
+
 // Available-to-click answer: compact inline pill
 const answerCellStyle = (theme) => ({
   display: "inline-flex",
@@ -789,6 +777,7 @@ const answerCellStyle = (theme) => ({
   border: `1px solid ${theme.answerBorder}`,
   color: theme.text,
 });
+
 // Already selected answer: compact inline pill
 const selectedCellStyle = (theme) => ({
   display: "inline-flex",

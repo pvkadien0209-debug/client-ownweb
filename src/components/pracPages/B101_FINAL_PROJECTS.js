@@ -382,7 +382,6 @@ function FINAL_PROJECT({
                   );
                 })}
               </div>
-
               {/* {PushAW.length > 0 && (
                 <div className="fp-pushaw-strip">
                   <span className="fp-pushaw-label">✓ Đã chọn:</span>
