@@ -51,6 +51,13 @@ const prac_to_work = [
 const pracEnSets = [
   {
     root: "learninghub",
+    preName: "Ghép âm:",
+    name: "Làm quen cơ bản",
+    link: "ueoai-01",
+    id: "socapI",
+  },
+  {
+    root: "learninghub",
     preName: "Ghép âm",
     name: "Nguyên âm đôi (Full.Table)",
     link: "ket_nguyenamdoi_01",
@@ -66,7 +73,7 @@ const pracEnSets = [
   {
     root: "learninghub",
     preName: "Ghép âm",
-    name: "Repeating (1)",
+    name: "Luyện nghe và lặp lại cụm từ",
     link: "ket_nguyenamdoi_repeat_01A",
     id: "socap1",
   },
@@ -84,13 +91,7 @@ const pracEnSets = [
     link: "infoFramework_KET_001_dich_tv",
     id: "socap1",
   },
-  {
-    root: "learninghub",
-    preName: "Ghép âm:",
-    name: "Làm quen cơ bản",
-    link: "ueoai-01",
-    id: "socapI",
-  },
+
   {
     root: "learninghub",
     preName: "(D) Vỡ lòng",
