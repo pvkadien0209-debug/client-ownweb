@@ -177,18 +177,23 @@ export default Dictaphone;
 /* ══════════════════════════════════════════════════════════════════
    HELPERS
 ══════════════════════════════════════════════════════════════════ */
-function findBest(statement, cmdList, threshold) {
+function countWordsInStatement(str) {
+  return str.trim().split(/\s+/).length;
+}
+
+function findBest(statement, cmdList, threshold, minLengthRatio = 0.7) {
   if (!statement || !Array.isArray(cmdList)) return null;
   const normStatement = statement.toLowerCase();
+  const statementWordCount = countWordsInStatement(normStatement);
   let maxSim = -1;
   let best = null;
-
   for (const obj of cmdList) {
     for (const q of obj.qs || []) {
       if (!q) continue;
       const normQ = q.toLowerCase();
+      const qWordCount = countWordsInStatement(normQ);
+      if (statementWordCount / qWordCount < minLengthRatio) continue;
       const sim = stringSimilarity.compareTwoStrings(normStatement, normQ);
-
       if (sim >= threshold && sim > maxSim) {
         maxSim = sim;
         best = obj;
@@ -199,7 +204,6 @@ function findBest(statement, cmdList, threshold) {
       }
     }
   }
-
   if (best) best._sim = maxSim;
   return best;
 }

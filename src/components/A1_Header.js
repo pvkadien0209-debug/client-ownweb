@@ -91,7 +91,13 @@ const pracEnSets = [
     link: "infoFramework_KET_001_dich_tv",
     id: "socap1",
   },
-
+  {
+    root: "learninghub",
+    preName: "Sentence patterns",
+    name: "Marie Curie",
+    link: "ps_001",
+    id: "socap1",
+  },
   {
     root: "learninghub",
     preName: "(D) Vỡ lòng",

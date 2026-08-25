@@ -1,0 +1,428 @@
+[
+  {
+    "audioCode": "PS01_a0",
+    "text": "Where was she born?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a2",
+    "text": "That is a wrong answer!",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a3",
+    "text": "When was she born?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a5",
+    "text": "That is a wrong answer!",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a6",
+    "text": "Where did she later move?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a9",
+    "text": "Why did she move to France?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a12",
+    "text": "What did she study?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a15",
+    "text": "What did she research?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a18",
+    "text": "What Nobel Prizes did she win?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a21",
+    "text": "What difficulties did she face?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a24",
+    "text": "What can we learn from her life?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a27",
+    "text": "Who was Marie Curie?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a30",
+    "text": "Is this sentence correct or incorrect? She was born in Warsaw, Poland.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a33",
+    "text": "Is this sentence correct or incorrect? She was born in 1867.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a36",
+    "text": "Is this sentence correct or incorrect? She later moved to France.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a39",
+    "text": "Is this sentence correct or incorrect? She moved to France to continue her education.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a42",
+    "text": "Is this sentence correct or incorrect? She studied science and mathematics.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a45",
+    "text": "Is this sentence correct or incorrect? She researched radioactivity.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a48",
+    "text": "Is this sentence correct or incorrect? She won the Nobel Prize in Physics and the Nobel Prize in Chemistry.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a51",
+    "text": "Is this sentence correct or incorrect? She faced difficulties in scientific research and barriers in education and professional life.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a54",
+    "text": "Is this sentence correct or incorrect? We can learn that curiosity, hard work and persistence are important for success.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a57",
+    "text": "Is this sentence correct or incorrect? She was one of the most important scientists in modern history.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a60",
+    "text": "Is this sentence correct or incorrect? She was born in Paris, France.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a63",
+    "text": "Is this sentence correct or incorrect? She was born in 1911.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a66",
+    "text": "Is this sentence correct or incorrect? She later moved to Germany.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a69",
+    "text": "Is this sentence correct or incorrect? She moved to France to stop her education.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a72",
+    "text": "Is this sentence correct or incorrect? She studied literature and music.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a75",
+    "text": "Is this sentence correct or incorrect? She researched ancient history.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a78",
+    "text": "Is this sentence correct or incorrect? She won the Nobel Prizes in Literature and Peace.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a81",
+    "text": "Is this sentence correct or incorrect? She had no difficulties in her education or career.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a84",
+    "text": "Is this sentence correct or incorrect? We can learn that intelligence alone is enough for success.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a87",
+    "text": "Is this sentence correct or incorrect? She was one of the most important politicians in modern history.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a90",
+    "text": "Which sentence shares the same structure as the sentence...She was born in Warsaw, Poland, in 1867.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a93",
+    "text": "Which sentence shares the same structure as the sentence...She later moved to France to continue her education.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a96",
+    "text": "Which sentence shares the same structure as the sentence...She studied science and mathematics.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a99",
+    "text": "Which sentence shares the same structure as the sentence...She became deeply interested in scientific research.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a102",
+    "text": "Which sentence shares the same structure as the sentence...Marie Curie is best known for her research on radioactivity.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a105",
+    "text": "Which sentence shares the same structure as the sentence...She worked hard to understand this unusual phenomenon.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a108",
+    "text": "Which sentence shares the same structure as the sentence...Her research led to important discoveries.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a111",
+    "text": "Which sentence shares the same structure as the sentence...Her research helped scientists learn more about radioactive elements.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a114",
+    "text": "Which sentence shares the same structure as the sentence...She received the Nobel Prize in Physics in 1903.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a117",
+    "text": "Which sentence shares the same structure as the sentence...She later won another Nobel Prize in Chemistry.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a120",
+    "text": "Which sentence shares the same structure as the sentence...Her achievements were important not only because she received major awards, but also because her research contributed to science and medicine.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a123",
+    "text": "Which sentence shares the same structure as the sentence...Her research contributed to the development of modern science and medicine.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a126",
+    "text": "Which sentence shares the same structure as the sentence...Her work helped create a better understanding of radiation.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a129",
+    "text": "Which sentence shares the same structure as the sentence...What I find most impressive about Marie Curie is her determination.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a132",
+    "text": "Which sentence shares the same structure as the sentence...Women faced many barriers in education and professional life.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a135",
+    "text": "Which sentence shares the same structure as the sentence...She continued working and studying instead of giving up.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a138",
+    "text": "Which sentence shares the same structure as the sentence...Marie Curie's life teaches us that success does not come only from intelligence.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a141",
+    "text": "Which sentence shares the same structure as the sentence...Curiosity, hard work and persistence are also important.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a144",
+    "text": "Which sentence shares the same structure as the sentence...She continues to inspire people today.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a147",
+    "text": "Which sentence shares the same structure as the sentence...Mandela was born in South Africa in 1918.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a150",
+    "text": "Which sentence shares the same structure as the sentence...He moved to Hanoi to find a job.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a153",
+    "text": "Which sentence shares the same structure as the sentence...She studied English and history.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a156",
+    "text": "Which sentence shares the same structure as the sentence...He became very interested in photography.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a159",
+    "text": "Which sentence shares the same structure as the sentence...Paris is best known for its famous landmarks.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a162",
+    "text": "Which sentence shares the same structure as the sentence...They worked hard to achieve their goal.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a165",
+    "text": "Which sentence shares the same structure as the sentence...Exercise can lead to better health.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a168",
+    "text": "Which sentence shares the same structure as the sentence...This course helps students improve their English.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a171",
+    "text": "Which sentence shares the same structure as the sentence...He received an award for his work.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a174",
+    "text": "Which sentence shares the same structure as the sentence...He later received another important award.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a177",
+    "text": "Which sentence shares the same structure as the sentence...The trip was valuable not only because it was fun, but also because I learned a lot.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a180",
+    "text": "Which sentence shares the same structure as the sentence...Education contributes to social development.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a183",
+    "text": "Which sentence shares the same structure as the sentence...Experience helps create a better understanding of people.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a186",
+    "text": "Which sentence shares the same structure as the sentence...What I find most interesting about this city is its history.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a189",
+    "text": "Which sentence shares the same structure as the sentence...Young people face many challenges today.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a192",
+    "text": "Which sentence shares the same structure as the sentence...He continued practicing instead of stopping.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a195",
+    "text": "Which sentence shares the same structure as the sentence...His experience teaches us that mistakes are part of learning.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a198",
+    "text": "Which sentence shares the same structure as the sentence...Patience, practice and discipline are essential.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PS01_a201",
+    "text": "Which sentence shares the same structure as the sentence...His work continues to influence young scientists.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  { "audioCode": "PS01_a1b1", "text": "Ok", "lang": 101, "rate": 0.75 },
+  { "audioCode": "PS01_a1b2", "text": "Good", "lang": 101, "rate": 0.75 },
+  { "audioCode": "PS01_a1b3", "text": "Very good", "lang": 101, "rate": 0.75 },
+  { "audioCode": "PS01_a4b1", "text": "Ok", "lang": 102, "rate": 0.75 },
+  { "audioCode": "PS01_a4b2", "text": "Good", "lang": 102, "rate": 0.75 },
+  { "audioCode": "PS01_a4b3", "text": "Very good", "lang": 102, "rate": 0.75 }
+]
