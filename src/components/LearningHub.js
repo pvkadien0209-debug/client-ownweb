@@ -637,7 +637,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                     {/* Kết quả tham khảo */}
                     {StringSimilarityMatcher(
                       CMDlist,
-                      dataLearning[currentIndex]?.HDTB?.IPA,
+                      dataLearning[currentIndex]?.HDTB?.IP,
                     )}
 
                     {/* Gợi ý 4 bước */}
@@ -1232,6 +1232,21 @@ function StringSimilarityMatcher(inputString, phrasesArray) {
   ) {
     return null;
   }
+
+  // Helper: dán thêm nội dung vào textarea đã có, không ghi đè
+  const appendToTextarea = (text) => {
+    if (!text) return;
+    const textarea = document.getElementById("clearClassForTable");
+    if (textarea) {
+      const current = textarea.value || "";
+      // Nếu đã có nội dung thì thêm dấu cách trước khi nối
+      textarea.value = current ? current + " " + text : text;
+      // Focus lại để người dùng thấy con trỏ ở cuối
+      textarea.focus();
+      textarea.selectionStart = textarea.selectionEnd = textarea.value.length;
+    }
+  };
+
   try {
     let mockSimilarityScoreRate;
     phrasesArray.forEach((e) => {
@@ -1262,8 +1277,19 @@ function StringSimilarityMatcher(inputString, phrasesArray) {
                   <i className="bi bi-translate me-2"></i>
                   Dịch thô:
                 </h6>
-                <p className="mb-0" style={{ color: "black" }}>
+                <p
+                  className="mb-0 d-flex align-items-center gap-2"
+                  style={{ color: "black" }}
+                >
                   <strong>{ipa02}</strong>
+                  <button
+                    type="button"
+                    className="btn btn-sm btn-outline-info py-0 px-1"
+                    title="Dán vào ô phiên âm"
+                    onClick={() => appendToTextarea(ipa02)}
+                  >
+                    <i className="bi bi-plus-lg"></i>
+                  </button>
                 </p>
               </div>
             </div>
@@ -1273,8 +1299,19 @@ function StringSimilarityMatcher(inputString, phrasesArray) {
                   <i className="bi bi-globe-europe-africa me-2"></i>
                   Phiên âm UK:
                 </h6>
-                <p className="mb-0" style={{ color: "black" }}>
+                <p
+                  className="mb-0 d-flex align-items-center gap-2"
+                  style={{ color: "black" }}
+                >
                   <strong>{ipa03}</strong>
+                  <button
+                    type="button"
+                    className="btn btn-sm btn-outline-success py-0 px-1"
+                    title="Dán vào ô phiên âm"
+                    onClick={() => appendToTextarea(ipa03)}
+                  >
+                    <i className="bi bi-plus-lg"></i>
+                  </button>
                 </p>
               </div>
             </div>
@@ -1284,8 +1321,19 @@ function StringSimilarityMatcher(inputString, phrasesArray) {
                   <i className="bi bi-globe-americas me-2"></i>
                   Phiên âm US:
                 </h6>
-                <p className="mb-0" style={{ color: "black" }}>
+                <p
+                  className="mb-0 d-flex align-items-center gap-2"
+                  style={{ color: "black" }}
+                >
                   <strong>{ipa04}</strong>
+                  <button
+                    type="button"
+                    className="btn btn-sm btn-outline-warning py-0 px-1"
+                    title="Dán vào ô phiên âm"
+                    onClick={() => appendToTextarea(ipa04)}
+                  >
+                    <i className="bi bi-plus-lg"></i>
+                  </button>
                 </p>
               </div>
             </div>

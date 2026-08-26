@@ -285,114 +285,102 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
   };
   return (
     <div className="p-4 max-w-4xl mx-auto border border-gray-300 rounded-lg">
-      <div className="row">
-        <div className="col-4">
-          {/* Phần chọn bài học */}
-          <div className="mb-6 p-4 bg-gray-50 rounded-lg">
-            <div className="flex items-center mb-2">
-              <h2 className="text-lg font-semibold">Chọn bài học (a=)</h2>
-              <button
-                onClick={handleAllLessonToggle}
-                className="btn btn-primary ml-2"
-              >
-                {selectedLessons.length === availableLessons.length
-                  ? "Bỏ chọn tất cả"
-                  : "Chọn tất cả"}
-              </button>
-            </div>
-            <div className="grid grid-cols-5 gap-2 sm:grid-cols-10">
-              {availableLessons.map((lesson) => (
-                <button
-                  key={`lesson-${lesson}`}
-                  onClick={() => handleLessonToggle(lesson)}
-                  className={`p-2 rounded border ${
-                    selectedLessons.includes(lesson)
-                      ? "btn btn-primary"
-                      : "btn btn-light"
-                  }`}
-                >
-                  Bài {lesson + 1}
-                </button>
-              ))}
-            </div>
-          </div>
-          {/* Phần chọn type */}
-          {Object.keys(groupedTypes).length > 0 && (
-            <div className="row mb-6">
-              <h2 className="text-xl font-bold mb-4">Bảng chọn Type (b=)</h2>
-              {Object.keys(groupedTypes).map((prefix) => (
-                <div
-                  key={prefix}
-                  className="col-4 mb-4 p-4 bg-gray-50 rounded-lg"
-                >
-                  <div className="flex items-center mb-2">
-                    <h3 className="text-lg font-semibold">Nhóm {prefix}</h3>
-                    <button
-                      onClick={() => handleGroupToggle(prefix)}
-                      className="btn btn-primary ml-2"
-                    >
-                      {groupedTypes[prefix].every((t) =>
-                        selectedTypes.includes(t),
-                      )
-                        ? "Bỏ chọn tất cả"
-                        : "Chọn tất cả"}
-                    </button>
-                  </div>
-                  <div className="grid grid-cols-5 gap-2 sm:grid-cols-8">
-                    {groupedTypes[prefix].map((type) => (
-                      <button
-                        key={type}
-                        onClick={() => handleTypeToggle(type)}
-                        className={`p-2 rounded border ${
-                          selectedTypes.includes(type)
-                            ? "btn btn-primary"
-                            : "btn"
-                        }`}
-                      >
-                        {type}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          )}
+      <h1 className="text-2xl font-bold mb-4">Custom link bài thực hành!</h1>
+      {/* Phần chọn bài học */}
+      <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+        <div className="flex items-center mb-2">
+          <h2 className="text-lg font-semibold">Chọn bài học (a=)</h2>
+          <button
+            onClick={handleAllLessonToggle}
+            className="btn btn-primary ml-2"
+          >
+            {selectedLessons.length === availableLessons.length
+              ? "Bỏ chọn tất cả"
+              : "Chọn tất cả"}
+          </button>
         </div>
-
-        <div className="col-4">
-          {" "}
-          {/* Phần chọn loại bảng */}
-          <div className="mb-6 p-4 bg-gray-50 rounded-lg">
-            <h2 className="text-lg font-semibold mb-2">Chọn loại bảng (tb=)</h2>
-            <div className="flex space-x-4">
-              <button
-                onClick={() => setTableType("normal")}
-                className={`px-4 py-2 rounded border ${
-                  tableType === "normal" ? "btn btn-primary" : "btn"
-                }`}
-              >
-                Mặc định
-              </button>
-              <button
-                onClick={() => setTableType("vietnamese")}
-                className={`px-4 py-2 rounded border ${
-                  tableType === "vietnamese" ? "btn btn-primary" : "btn"
-                }`}
-              >
-                Tiếng Việt (tb=tv)
-              </button>
-              <button
-                onClick={() => setTableType("empty")}
-                className={`px-4 py-2 rounded border ${
-                  tableType === "empty" ? "btn btn-primary" : "btn"
-                }`}
-              >
-                Bảng trống (tb=null)
-              </button>
+        <div className="grid grid-cols-5 gap-2 sm:grid-cols-10">
+          {availableLessons.map((lesson) => (
+            <button
+              key={`lesson-${lesson}`}
+              onClick={() => handleLessonToggle(lesson)}
+              className={`p-2 rounded border ${
+                selectedLessons.includes(lesson)
+                  ? "btn btn-primary"
+                  : "btn btn-light"
+              }`}
+            >
+              Bài {lesson + 1}
+            </button>
+          ))}
+        </div>
+      </div>
+      {/* Phần chọn type */}
+      {Object.keys(groupedTypes).length > 0 && (
+        <div className="row mb-6">
+          <h2 className="text-xl font-bold mb-4">Bảng chọn Type (b=)</h2>
+          {Object.keys(groupedTypes).map((prefix) => (
+            <div key={prefix} className="col-4 mb-4 p-4 bg-gray-50 rounded-lg">
+              <div className="flex items-center mb-2">
+                <h3 className="text-lg font-semibold">Nhóm {prefix}</h3>
+                <button
+                  onClick={() => handleGroupToggle(prefix)}
+                  className="btn btn-primary ml-2"
+                >
+                  {groupedTypes[prefix].every((t) => selectedTypes.includes(t))
+                    ? "Bỏ chọn tất cả"
+                    : "Chọn tất cả"}
+                </button>
+              </div>
+              <div className="grid grid-cols-5 gap-2 sm:grid-cols-8">
+                {groupedTypes[prefix].map((type) => (
+                  <button
+                    key={type}
+                    onClick={() => handleTypeToggle(type)}
+                    className={`p-2 rounded border ${
+                      selectedTypes.includes(type) ? "btn btn-primary" : "btn"
+                    }`}
+                  >
+                    {type}
+                  </button>
+                ))}
+              </div>
             </div>
-          </div>
-          {/* Phần chọn thời gian */}
-          {/* <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+          ))}
+        </div>
+      )}
+      {/* Phần chọn loại bảng */}
+      <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+        <h2 className="text-lg font-semibold mb-2">Chọn loại bảng (tb=)</h2>
+        <div className="flex space-x-4">
+          <button
+            onClick={() => setTableType("normal")}
+            className={`px-4 py-2 rounded border ${
+              tableType === "normal" ? "btn btn-primary" : "btn"
+            }`}
+          >
+            Mặc định
+          </button>
+          <button
+            onClick={() => setTableType("vietnamese")}
+            className={`px-4 py-2 rounded border ${
+              tableType === "vietnamese" ? "btn btn-primary" : "btn"
+            }`}
+          >
+            Tiếng Việt (tb=tv)
+          </button>
+          <button
+            onClick={() => setTableType("empty")}
+            className={`px-4 py-2 rounded border ${
+              tableType === "empty" ? "btn btn-primary" : "btn"
+            }`}
+          >
+            Bảng trống (tb=null)
+          </button>
+        </div>
+      </div>
+      {/* Phần chọn thời gian */}
+      {/* <div className="mb-6 p-4 bg-gray-50 rounded-lg">
         <h2 className="text-lg font-semibold mb-2">Thời gian (t=)</h2>
         <div className="flex flex-wrap gap-2">
           <button
@@ -421,8 +409,8 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
           </p>
         </div>
       </div> */}
-          {/* Phần chọn tỷ lệ cho đúng (2) */}
-          {/* <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+      {/* Phần chọn tỷ lệ cho đúng (2) */}
+      {/* <div className="mb-6 p-4 bg-gray-50 rounded-lg">
         <h2 className="text-lg font-semibold mb-2">Tỷ lệ cho đúng (2) (r=)</h2>
         <div className="flex flex-wrap space-x-2">
           <button
@@ -446,8 +434,8 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
           ))}
         </div>
       </div> */}
-          {/* Phần chọn tỷ lệ cho đúng (1) */}
-          {/* <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+      {/* Phần chọn tỷ lệ cho đúng (1) */}
+      {/* <div className="mb-6 p-4 bg-gray-50 rounded-lg">
         <h2 className="text-lg font-semibold mb-2">
           Tỷ lệ cho đúng (1) (r01=)
         </h2>
@@ -473,110 +461,99 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
           ))}
         </div>
       </div> */}
-          {/* Phần chọn trộn lẫn */}
-          <div className="mb-6 p-4 bg-gray-50 rounded-lg">
-            <h2 className="text-lg font-semibold mb-2">Trộn lẫn (random=)</h2>
-            <div className="flex space-x-4">
-              {" "}
-              <button
-                onClick={handleRandomDefault}
-                className={`px-4 py-2 rounded border ${
-                  isRandomEnabled ? "btn" : "btn btn-primary"
-                }`}
-              >
-                Mặc định
-              </button>
-              <button
-                onClick={handleRandomToggle}
-                className={`px-4 py-2 rounded border ${
-                  isRandomEnabled ? "btn btn-primary" : "btn"
-                }`}
-              >
-                Trộn lẫn
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-4">
+      {/* Phần chọn trộn lẫn */}
+      <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+        <h2 className="text-lg font-semibold mb-2">Trộn lẫn (random=)</h2>
+        <div className="flex space-x-4">
           {" "}
-          {/* Phần hiển thị kết quả */}
-          <div className="mt-4 p-4 bg-gray-100 rounded">
-            <h3 className="text-lg font-semibold mb-2">
-              Link đã tạo:{" "}
-              {Note ? (
-                <span className="text-green-600 font-medium">
-                  (Đã có ghi chú)
-                </span>
-              ) : (
-                <span
-                  className="text-red-500 font-medium"
-                  style={{ color: "red" }}
-                >
-                  (Chưa có ghi chú)
-                </span>
-              )}
-            </h3>
-            <div className="flex items-center">
-              <div className="flex-grow p-2 bg-white border rounded overflow-x-auto">
-                {generatedLink || "roomoffline/" + id + "/" + numIndex}
-              </div>
-              <button
-                id="copyid"
-                onClick={copyToClipboard}
-                className="btn btn-primary"
-              >
-                Copy
-              </button>
-            </div>
-            <div className="mt-4">
-              <p className="mb-1">
-                <strong>Bài học đã chọn:</strong> {selectedLessons.length} /{" "}
-                {numLessonSetLength}
-              </p>
-              <p className="mb-1">
-                <strong>Type đã chọn:</strong> {selectedTypes.length}
-              </p>
-              <p className="mb-1">
-                <strong>Loại bảng:</strong>{" "}
-                {tableType === "normal"
-                  ? "Bình thường"
-                  : tableType === "vietnamese"
-                    ? "Tiếng Việt"
-                    : "Bảng trống"}
-              </p>
-              {timeValue !== null && (
-                <p className="mb-1">
-                  <strong>Thời gian:</strong> {timeValue} giây
-                </p>
-              )}
-              {r2Value !== null && (
-                <p className="mb-1">
-                  <strong>Tỷ lệ cho đúng (2):</strong> {r2Value}
-                </p>
-              )}
-              {r1Value !== null && (
-                <p className="mb-1">
-                  <strong>Tỷ lệ cho đúng (1):</strong> {r1Value}
-                </p>
-              )}
-              {isRandomEnabled && (
-                <p className="mb-1">
-                  <strong>Trộn lẫn:</strong> Có
-                </p>
-              )}
-            </div>
-            <div className="mb-6 p-4 bg-gray-50 rounded-lg">
-              <h2 className="text-lg font-semibold mb-2">GHI CHÚ BÀI TẬP</h2>
-              <input
-                type="text"
-                placeholder="Nhập ghi chú bài tập"
-                value={Note}
-                className="form-control"
-                onChange={handleChange}
-              />
-            </div>
+          <button
+            onClick={handleRandomDefault}
+            className={`px-4 py-2 rounded border ${
+              isRandomEnabled ? "btn" : "btn btn-primary"
+            }`}
+          >
+            Mặc định
+          </button>
+          <button
+            onClick={handleRandomToggle}
+            className={`px-4 py-2 rounded border ${
+              isRandomEnabled ? "btn btn-primary" : "btn"
+            }`}
+          >
+            Trộn lẫn
+          </button>
+        </div>
+      </div>
+      <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+        <h2 className="text-lg font-semibold mb-2">GHI CHÚ BÀI TẬP</h2>
+        <input
+          type="text"
+          placeholder="Nhập ghi chú bài tập"
+          value={Note}
+          className="form-control"
+          onChange={handleChange}
+        />
+      </div>
+      {/* Phần hiển thị kết quả */}
+      <div className="mt-4 p-4 bg-gray-100 rounded">
+        <h3 className="text-lg font-semibold mb-2">
+          Link đã tạo:{" "}
+          {Note ? (
+            <span className="text-green-600 font-medium">(Đã có ghi chú)</span>
+          ) : (
+            <span className="text-red-500 font-medium" style={{ color: "red" }}>
+              (Chưa có ghi chú)
+            </span>
+          )}
+        </h3>
+        <div className="flex items-center">
+          <div className="flex-grow p-2 bg-white border rounded overflow-x-auto">
+            {generatedLink || "roomoffline/" + id + "/" + numIndex}
           </div>
+          <button
+            id="copyid"
+            onClick={copyToClipboard}
+            className="btn btn-primary"
+          >
+            Copy
+          </button>
+        </div>
+        <div className="mt-4">
+          <p className="mb-1">
+            <strong>Bài học đã chọn:</strong> {selectedLessons.length} /{" "}
+            {numLessonSetLength}
+          </p>
+          <p className="mb-1">
+            <strong>Type đã chọn:</strong> {selectedTypes.length}
+          </p>
+          <p className="mb-1">
+            <strong>Loại bảng:</strong>{" "}
+            {tableType === "normal"
+              ? "Bình thường"
+              : tableType === "vietnamese"
+                ? "Tiếng Việt"
+                : "Bảng trống"}
+          </p>
+          {timeValue !== null && (
+            <p className="mb-1">
+              <strong>Thời gian:</strong> {timeValue} giây
+            </p>
+          )}
+          {r2Value !== null && (
+            <p className="mb-1">
+              <strong>Tỷ lệ cho đúng (2):</strong> {r2Value}
+            </p>
+          )}
+          {r1Value !== null && (
+            <p className="mb-1">
+              <strong>Tỷ lệ cho đúng (1):</strong> {r1Value}
+            </p>
+          )}
+          {isRandomEnabled && (
+            <p className="mb-1">
+              <strong>Trộn lẫn:</strong> Có
+            </p>
+          )}
         </div>
       </div>
     </div>
