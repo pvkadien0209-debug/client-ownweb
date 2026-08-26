@@ -77,12 +77,18 @@ const DictaphoneONLY = ({ IsReading, lang = "en-US", onTranscript }) => {
           padding: 0 6px;
           box-sizing: border-box;
           min-height: 0;
+          transition: align-items 0.1s;
+        }
+        .dtph-bar.is-listening {
+          align-items: flex-start;
         }
         /* ══ LEFT: Reset + Tiếp ══ */
         .dtph-left {
           display: flex;
           gap: 4px;
           flex-shrink: 0;
+          align-self: flex-start;
+          margin-top: 2px;
         }
         .dtph-sm-btn {
           display: flex;
@@ -109,39 +115,44 @@ const DictaphoneONLY = ({ IsReading, lang = "en-US", onTranscript }) => {
         }
         .dtph-sm-btn i { font-size: 1rem; line-height: 1; }
         .dtph-btn-reset {
-          background: rgba(100,116,139,0.28);
-          color: #94a3b8;
-          border: 1px solid rgba(148,163,184,0.2);
+          background: rgba(148,163,184,0.35);
+          color: #f1f5f9;
+          border: 1px solid rgba(226,232,240,0.35);
         }
         .dtph-btn-next {
-          background: linear-gradient(135deg, #a78bfa, #7c3aed);
+          background: linear-gradient(135deg, #c4b5fd, #8b5cf6);
           color: #fff;
-          box-shadow: 0 2px 8px rgba(124,58,237,0.4);
+          box-shadow: 0 2px 10px rgba(139,92,246,0.55);
         }
-        /* ══ CENTER: Transcript ══ */
+        /* ══ CENTER: Transcript — dùng height thật để animate mượt ══ */
         .dtph-center {
           flex: 1;
           min-width: 0;
           display: flex;
           align-items: center;
           justify-content: flex-end;
-          background: rgba(0,0,0,0.20);
+          background: rgba(255,255,255,0.08);
           border-radius: 10px;
           padding: 5px 10px;
-          min-height: 36px;
-          max-height: 54px;
+          height: 44px;
           overflow: hidden;
-          border: 1px solid transparent;
-          transition: border-color 0.25s;
+          border: 1px solid rgba(255,255,255,0.08);
+          transition: height 0.45s ease-in-out, border-color 0.25s, background 0.25s;
           text-align: right;
+          box-sizing: border-box;
         }
         .dtph-bar.is-listening .dtph-center {
-          border-color: rgba(52,211,153,0.35);
+          height: 200px;
+          align-items: center;
+          justify-content: center;
+          background: radial-gradient(ellipse at center, rgba(52,211,153,0.14), rgba(255,255,255,0.05));
+          border-color: rgba(74,222,168,0.55);
+          box-shadow: 0 0 0 1px rgba(74,222,168,0.15) inset, 0 0 24px rgba(52,211,153,0.15);
         }
         .dtph-transcript-text {
           font-size: 0.82rem;
           line-height: 1.35;
-          color: #e2e8f0;
+          color: #f1f5f9;
           word-break: break-word;
           overflow: hidden;
           display: -webkit-box;
@@ -149,24 +160,44 @@ const DictaphoneONLY = ({ IsReading, lang = "en-US", onTranscript }) => {
           -webkit-box-orient: vertical;
           text-align: right;
           width: 100%;
+          font-weight: 600;
+          transition: font-size 0.3s ease-in-out, text-align 0.3s;
+        }
+        .dtph-bar.is-listening .dtph-transcript-text {
+          font-size: 1.75rem;
+          line-height: 1.5;
+          font-weight: 800;
+          -webkit-line-clamp: 30;
+          text-align: center;
+          color: #fff;
+          text-shadow: 0 0 18px rgba(52,211,153,0.5), 0 2px 6px rgba(0,0,0,0.35);
+          letter-spacing: 0.01em;
         }
         .dtph-placeholder-text {
           font-size: 0.76rem;
-          color: rgba(226,232,240,0.38);
+          color: rgba(241,245,249,0.5);
           font-style: italic;
           text-align: right;
           width: 100%;
           display: block;
+          transition: font-size 0.3s ease-in-out, text-align 0.3s;
+        }
+        .dtph-bar.is-listening .dtph-placeholder-text {
+          font-size: 1.25rem;
+          text-align: center;
+          color: rgba(255,255,255,0.85);
+          font-weight: 600;
         }
         /* live blink dot */
         .dtph-live-dot {
           display: inline-block;
-          width: 6px;
-          height: 6px;
+          width: 7px;
+          height: 7px;
           border-radius: 50%;
-          background: #34d399;
-          margin-left: 5px;
+          background: #4ade80;
+          margin-left: 6px;
           vertical-align: middle;
+          box-shadow: 0 0 8px rgba(74,222,128,0.9);
           animation: dtph-blink 1s step-start infinite;
         }
         @keyframes dtph-blink { 50% { opacity: 0; } }
@@ -186,38 +217,40 @@ const DictaphoneONLY = ({ IsReading, lang = "en-US", onTranscript }) => {
           font-weight: 800;
           letter-spacing: 0.03em;
           flex-shrink: 0;
+          align-self: flex-start;
+          margin-top: 2px;
           transition: transform 0.12s, box-shadow 0.2s;
           -webkit-tap-highlight-color: transparent;
         }
         .dtph-toggle-btn:active { transform: scale(0.90); }
         .dtph-toggle-btn i { font-size: 1.15rem; line-height: 1; }
-        /* OFF → Bật */
+        /* OFF → Bật (xanh lá tươi) */
         .dtph-toggle-off {
-          background: linear-gradient(135deg, #34d399, #059669);
-          color: #fff;
-          box-shadow: 0 2px 10px rgba(5,150,105,0.38);
+          background: linear-gradient(135deg, #6ee7b7, #10b981);
+          color: #063d2c;
+          box-shadow: 0 2px 12px rgba(16,185,129,0.55);
         }
-        /* ON → Tắt (với pulse) */
+        /* ON → Tắt (đỏ-hồng tươi, pulse) */
         .dtph-toggle-on {
-          background: linear-gradient(135deg, #f87171, #dc2626);
+          background: linear-gradient(135deg, #fca5a5, #ef4444);
           color: #fff;
-          box-shadow: 0 2px 10px rgba(220,38,38,0.4);
+          box-shadow: 0 2px 12px rgba(239,68,68,0.55);
           animation: dtph-toggle-pulse 1.6s ease-in-out infinite;
         }
         @keyframes dtph-toggle-pulse {
-          0%, 100% { box-shadow: 0 2px 10px rgba(220,38,38,0.4); }
-          50%       { box-shadow: 0 2px 20px rgba(220,38,38,0.75); }
+          0%, 100% { box-shadow: 0 2px 12px rgba(239,68,68,0.55); }
+          50%       { box-shadow: 0 2px 26px rgba(239,68,68,0.9); }
         }
-        /* AUTO-STOPPED → Bật lại (cam cảnh báo) */
+        /* AUTO-STOPPED → Bật lại (cam vàng tươi) */
         .dtph-toggle-warn {
-          background: linear-gradient(135deg, #fbbf24, #d97706);
+          background: linear-gradient(135deg, #fde047, #f59e0b);
           color: #1c1917;
-          box-shadow: 0 2px 10px rgba(217,119,6,0.45);
+          box-shadow: 0 2px 12px rgba(245,158,11,0.55);
           animation: dtph-toggle-warn-pulse 0.9s ease-in-out infinite;
         }
         @keyframes dtph-toggle-warn-pulse {
-          0%, 100% { box-shadow: 0 2px 10px rgba(217,119,6,0.45); }
-          50%       { box-shadow: 0 2px 20px rgba(217,119,6,0.8); }
+          0%, 100% { box-shadow: 0 2px 12px rgba(245,158,11,0.55); }
+          50%       { box-shadow: 0 2px 26px rgba(245,158,11,0.9); }
         }
       `}</style>
       <div className={`dtph-bar ${listening ? "is-listening" : ""}`}>
@@ -232,7 +265,7 @@ const DictaphoneONLY = ({ IsReading, lang = "en-US", onTranscript }) => {
             <span className="dtph-placeholder-text">
               {micEnabled
                 ? listening
-                  ? "Đang nghe… | Đọc duy nhất 1 từ hệ thống sẽ nhận dạng chậm hơn đôi chút!"
+                  ? "Đang nghe… | Khi đọc duy nhất 1 từ có thể hệ thống sẽ nhận dạng chậm hơn đôi chút!"
                   : "Đang kết nối…"
                 : "Bấm Bật để bắt đầu"}
             </span>

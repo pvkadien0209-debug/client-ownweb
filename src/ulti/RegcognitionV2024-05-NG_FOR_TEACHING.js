@@ -6,18 +6,16 @@ import SpeechRecognition, {
 import LinkAPI from "./T0_linkApi";
 import read_by_Tts from "./readMessage_TtsServer";
 import YouTubeVideoSearch from "../components/LearningHub/YouTubeVideoSearch";
-
+import Nguyentacghepam from "../components/A1_NguyentacGhepam";
 const ViewRes = ({ resultSt = [] }) => {
   // Use React hooks for animation effect
   const [prevResultLength, setPrevResultLength] = useState(0);
-
   // Effect to track result length changes
   useEffect(() => {
     if (resultSt && resultSt.length !== prevResultLength) {
       setPrevResultLength(resultSt?.length || 0);
     }
   }, [resultSt, prevResultLength]);
-
   try {
     // Define transition styles for smoother updates
     const containerStyle = {
@@ -32,7 +30,6 @@ const ViewRes = ({ resultSt = [] }) => {
       color: "#212529", // Changed from black to dark gray
       border: "1px solid #dee2e6", // Added border for better definition
     };
-
     // Common styles for result items with transitions
     const itemBaseStyle = {
       marginRight: "4px",
@@ -43,7 +40,6 @@ const ViewRes = ({ resultSt = [] }) => {
         "color 1s ease, transform 1s ease, opacity 1s ease, background-color 1s ease",
       animation: "fadeIn 1s ease-in-out",
     };
-
     // Add keyframe animation for new items
     const keyframes = `
       @keyframes fadeIn {
@@ -56,7 +52,6 @@ const ViewRes = ({ resultSt = [] }) => {
         100% { background-color: transparent; }
       }
     `;
-
     return (
       <div style={containerStyle}>
         <style>{keyframes}</style>
@@ -71,7 +66,6 @@ const ViewRes = ({ resultSt = [] }) => {
                   animationFillMode: "both",
                 }
               : {};
-
             if (item.stt === false) {
               // Unmatched items - darker gray with background
               return (
@@ -163,7 +157,6 @@ const ViewRes = ({ resultSt = [] }) => {
     );
   }
 };
-
 const Dictaphone = ({ CMDlist }) => {
   // State management
   const [numberTry, setNumberTry] = useState(0);
@@ -171,15 +164,13 @@ const Dictaphone = ({ CMDlist }) => {
   const [cmdApartChat, setCmdApartChat] = useState("");
   const [idDinhDanh] = useState(() => localStorage.getItem("dinhDanh"));
   const [nameDinhDanh] = useState(
-    () => localStorage.getItem("nameDinhDanh") || ""
+    () => localStorage.getItem("nameDinhDanh") || "",
   );
   const [resultSt, setresultSt] = useState("");
   const [sttProcessing, setsttProcessing] = useState(false);
   const [sttListenFromServer, setsttListenFromServer] = useState(false);
-
   // Tab state
   const [activeTab, setActiveTab] = useState(1);
-
   // Memoize commands to prevent unnecessary re-creation
   const commands = useMemo(
     () => [
@@ -198,31 +189,26 @@ const Dictaphone = ({ CMDlist }) => {
         bestMatchOnly: true,
       },
     ],
-    [CMDlist]
+    [CMDlist],
   );
-
   // Speech recognition hook with memoized commands
   const { interimTranscript, transcript, listening, resetTranscript } =
     useSpeechRecognition({ commands });
-
   // Reset states when number of tries changes
   useEffect(() => {
     setresultSt("");
   }, [numberTry]);
-
   // Reset number of tries and function set when command list changes
   useEffect(() => {
     setNumberTry(0);
     setresultSt("");
   }, [CMDlist]);
-
   useEffect(() => {
     // Early return if transcript is too long (more than 2x the command length)
     if (transcript.length > CMDlist.length * 3) {
       stopListening();
       return;
     }
-
     if (interimTranscript === "" && transcript !== "" && CMDlist?.trim()) {
       try {
         let obj1 = {
@@ -250,7 +236,6 @@ const Dictaphone = ({ CMDlist }) => {
       }
     }
   }, [interimTranscript, transcript, CMDlist]);
-
   // Speech recognition control functions
   const startListening = useCallback(() => {
     SpeechRecognition.startListening({
@@ -258,11 +243,9 @@ const Dictaphone = ({ CMDlist }) => {
       language: "en-US",
     });
   }, []);
-
   const stopListening = useCallback(() => {
     SpeechRecognition.stopListening();
   }, []);
-
   // Send results handler
   const handleSendResults = useCallback(() => {
     stopListening();
@@ -281,13 +264,11 @@ const Dictaphone = ({ CMDlist }) => {
     stopListening,
     resetTranscript,
   ]);
-
   // Reset handler
   const handleReset = useCallback(() => {
     resetTranscript();
     setNumberTry((prev) => prev + 1);
   }, [resetTranscript]);
-
   // UI styles
   const containerStyles = {
     border: "1px solid #dee2e6", // Lighter border
@@ -296,7 +277,6 @@ const Dictaphone = ({ CMDlist }) => {
     backgroundColor: "#ffffff", // Pure white background
     boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
   };
-
   const disabledAreaStyles = {
     borderRadius: "10px",
     opacity: 0.6, // Slightly less opacity
@@ -305,7 +285,6 @@ const Dictaphone = ({ CMDlist }) => {
     cursor: "not-allowed",
     border: "1px solid #dee2e6",
   };
-
   // Tab button styles
   const tabButtonStyles = {
     display: "flex",
@@ -318,7 +297,6 @@ const Dictaphone = ({ CMDlist }) => {
     boxShadow: "inset 0 2px 4px rgba(0,0,0,0.1)",
     border: "1px solid #dee2e6",
   };
-
   const getTabButtonStyle = (tabNumber) => ({
     flex: 1,
     padding: "12px 24px",
@@ -334,7 +312,6 @@ const Dictaphone = ({ CMDlist }) => {
       activeTab === tabNumber ? "0 2px 8px rgba(0,123,255,0.3)" : "none",
     transform: activeTab === tabNumber ? "translateY(-1px)" : "none",
   });
-
   const tabContentStyles = {
     minHeight: "400px",
     padding: "20px",
@@ -343,7 +320,6 @@ const Dictaphone = ({ CMDlist }) => {
     boxShadow: "0 2px 4px rgba(0,0,0,0.05)",
     border: "1px solid #e9ecef",
   };
-
   const renderTabContent = () => {
     switch (activeTab) {
       case 1:
@@ -650,11 +626,16 @@ const Dictaphone = ({ CMDlist }) => {
             </div>
           </div>
         );
+      case 4:
+        return (
+          <div>
+            <Nguyentacghepam />
+          </div>
+        );
       default:
         return null;
     }
   };
-
   return (
     <div className="container mt-4" style={containerStyles}>
       {/* Tab Navigation */}
@@ -713,11 +694,28 @@ const Dictaphone = ({ CMDlist }) => {
         >
           🎥 Xem hướng dẫn
         </button>
+        <button
+          style={getTabButtonStyle(4)}
+          onClick={() => setActiveTab(4)}
+          onMouseOver={(e) => {
+            if (activeTab !== 4) {
+              e.target.style.backgroundColor = "#e9ecef";
+              e.target.style.color = "#495057";
+            }
+          }}
+          onMouseOut={(e) => {
+            if (activeTab !== 4) {
+              e.target.style.backgroundColor = "transparent";
+              e.target.style.color = "#495057";
+            }
+          }}
+        >
+          🧩 Nguyên tắc ghép âm
+        </button>
       </div>
       {/* Tab Content */}
       <div style={tabContentStyles}>{renderTabContent()}</div>
     </div>
   );
 };
-
 export default Dictaphone;
