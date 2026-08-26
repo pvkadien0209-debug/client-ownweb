@@ -59,6 +59,13 @@ const pracEnSets = [
   {
     root: "learninghub",
     preName: "Ghép âm",
+    name: "Beginning training!",
+    link: "ga_beginning_training",
+    id: "socap1",
+  },
+  {
+    root: "learninghub",
+    preName: "Ghép âm",
     name: "Nguyên âm đôi (Full.Table)",
     link: "ket_nguyenamdoi_01",
     id: "socap1",

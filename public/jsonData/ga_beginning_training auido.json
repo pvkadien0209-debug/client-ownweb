@@ -1,0 +1,1220 @@
+[
+  {
+    "audioCode": "BSFREE01_a0",
+    "text": "Sarah, What is your name?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a2",
+    "text": "Is there a mistake?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a3",
+    "text": "Sarah, Where are you from?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a5",
+    "text": "Is there a mistake?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a6",
+    "text": "Sarah, What do you do?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a9",
+    "text": "Sarah, How old are you?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a12",
+    "text": "Sarah, What do you say when you first meet?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a15",
+    "text": "David, What is your name?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a18",
+    "text": "David, Where are you from?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a21",
+    "text": "David, What do you do?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a24",
+    "text": "David, How old are you?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a27",
+    "text": "David, What do you say when you first meet?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a30",
+    "text": "Using the same sentence pattern. Hi! My name is David.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a33",
+    "text": "Using the same sentence pattern. I am from the USA.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a36",
+    "text": "Using the same sentence pattern. I am a teacher.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a39",
+    "text": "Using the same sentence pattern. I am 30 years old.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a42",
+    "text": "Using the same sentence pattern. Nice to meet you, Sarah.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a45",
+    "text": "Using the same sentence pattern. Hello! My name is Sarah.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a48",
+    "text": "Using the same sentence pattern. I am from Vietnam.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a51",
+    "text": "Using the same sentence pattern. I am a student.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a54",
+    "text": "Using the same sentence pattern. I am 20 years old.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a57",
+    "text": "Using the same sentence pattern. Nice to meet you, David.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a60",
+    "text": "Is the following sentence correct? Sarah, Hello! My name is Sarah.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a63",
+    "text": "Is the following sentence correct? Sarah, I am from Vietnam.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a66",
+    "text": "Is the following sentence correct? Sarah, I am a student.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a69",
+    "text": "Is the following sentence correct? Sarah, I am 20 years old.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a72",
+    "text": "Is the following sentence correct? Sarah, Nice to meet you, David.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a75",
+    "text": "Is the following sentence correct? Sarah, Hi! My name is David.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a78",
+    "text": "Is the following sentence correct? Sarah, I am from the USA.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a81",
+    "text": "Is the following sentence correct? Sarah, I am a teacher.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a84",
+    "text": "Is the following sentence correct? Sarah, I am 30 years old.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a87",
+    "text": "Is the following sentence correct? Sarah, Nice to meet you, Sarah.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a90",
+    "text": "Is the following sentence correct? David, Hi! My name is David.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a93",
+    "text": "Is the following sentence correct? David, I am from the USA.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a96",
+    "text": "Is the following sentence correct? David, I am a teacher.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a99",
+    "text": "Is the following sentence correct? David, I am 30 years old.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a102",
+    "text": "Is the following sentence correct? David, Nice to meet you, Sarah.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a105",
+    "text": "Is the following sentence correct? David, Hello! My name is Sarah.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a108",
+    "text": "Is the following sentence correct? David, I am from Vietnam.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a111",
+    "text": "Is the following sentence correct? David, I am a student.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a114",
+    "text": "Is the following sentence correct? David, I am 20 years old.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a117",
+    "text": "Is the following sentence correct? David, Nice to meet you, David.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a120",
+    "text": "Sarah, Who do you see?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a123",
+    "text": "Sarah, How do you feel today?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a126",
+    "text": "Sarah, Where are you going?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a129",
+    "text": "Sarah, What do you have this morning?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a132",
+    "text": "Sarah, When will you see your friend?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a135",
+    "text": "David, Who do you see?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a138",
+    "text": "David, How do you feel today?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a141",
+    "text": "David, Where are you going?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a144",
+    "text": "David, What do you have this morning?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a147",
+    "text": "David, When will you see your friend?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a150",
+    "text": "Using the same sentence pattern. It is nice to see Sarah.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a153",
+    "text": "Using the same sentence pattern. I am tired today.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a156",
+    "text": "Using the same sentence pattern. I am going to work now.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a159",
+    "text": "Using the same sentence pattern. I have a meeting this morning.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a162",
+    "text": "Using the same sentence pattern. See you tomorrow, Sarah.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a165",
+    "text": "Using the same sentence pattern. It is nice to see David.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a168",
+    "text": "Using the same sentence pattern. I am happy today.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a171",
+    "text": "Using the same sentence pattern. I am going to school now.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a174",
+    "text": "Using the same sentence pattern. I have class this morning.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a177",
+    "text": "Using the same sentence pattern. See you tomorrow, David.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a180",
+    "text": "Is the following sentence correct? Sarah, It is nice to see David.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a183",
+    "text": "Is the following sentence correct? Sarah, I am happy today.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a186",
+    "text": "Is the following sentence correct? Sarah, I am going to school now.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a189",
+    "text": "Is the following sentence correct? Sarah, I have class this morning.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a192",
+    "text": "Is the following sentence correct? Sarah, See you tomorrow, David.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a195",
+    "text": "Is the following sentence correct? Sarah, It is nice to see Sarah.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a198",
+    "text": "Is the following sentence correct? Sarah, I am tired today.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a201",
+    "text": "Is the following sentence correct? Sarah, I am going to work now.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a204",
+    "text": "Is the following sentence correct? Sarah, I have a meeting this morning.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a207",
+    "text": "Is the following sentence correct? Sarah, See you tomorrow, Sarah.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a210",
+    "text": "Is the following sentence correct? David, It is nice to see Sarah.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a213",
+    "text": "Is the following sentence correct? David, I am tired today.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a216",
+    "text": "Is the following sentence correct? David, I am going to work now.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a219",
+    "text": "Is the following sentence correct? David, I have a meeting this morning.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a222",
+    "text": "Is the following sentence correct? David, See you tomorrow, Sarah.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a225",
+    "text": "Is the following sentence correct? David, It is nice to see David.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a228",
+    "text": "Is the following sentence correct? David, I am happy today.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a231",
+    "text": "Is the following sentence correct? David, I am going to school now.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a234",
+    "text": "Is the following sentence correct? David, I have class this morning.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a237",
+    "text": "Is the following sentence correct? David, See you tomorrow, David.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a240",
+    "text": "Sarah, What kind of family do you have?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a243",
+    "text": "Sarah, How many people are in your family?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a246",
+    "text": "Sarah, What does your mother do?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a249",
+    "text": "Sarah, Where does your father work?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a252",
+    "text": "Sarah, Who do you live with?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a255",
+    "text": "David, What kind of family do you have?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a258",
+    "text": "David, How many people are in your family?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a261",
+    "text": "David, What does your mother do?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a264",
+    "text": "David, Where does your father work?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a267",
+    "text": "David, Who do you live with?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a270",
+    "text": "Using the same sentence pattern. I have a big family.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a273",
+    "text": "Using the same sentence pattern. There are six people in my family.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a276",
+    "text": "Using the same sentence pattern. My mother is a doctor.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a279",
+    "text": "Using the same sentence pattern. My father works in a hospital.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a282",
+    "text": "Using the same sentence pattern. I live with my grandparents.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a285",
+    "text": "Using the same sentence pattern. I have a small family.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a288",
+    "text": "Using the same sentence pattern. There are four people in my family.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a291",
+    "text": "Using the same sentence pattern. My mother is a teacher.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a294",
+    "text": "Using the same sentence pattern. My father works in a bank.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a297",
+    "text": "Using the same sentence pattern. I live with my parents.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a300",
+    "text": "Is the following sentence correct? Sarah, I have a small family.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a303",
+    "text": "Is the following sentence correct? Sarah, There are four people in my family.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a306",
+    "text": "Is the following sentence correct? Sarah, My mother is a teacher.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a309",
+    "text": "Is the following sentence correct? Sarah, My father works in a bank.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a312",
+    "text": "Is the following sentence correct? Sarah, I live with my parents.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a315",
+    "text": "Is the following sentence correct? Sarah, I have a big family.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a318",
+    "text": "Is the following sentence correct? Sarah, There are six people in my family.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a321",
+    "text": "Is the following sentence correct? Sarah, My mother is a doctor.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a324",
+    "text": "Is the following sentence correct? Sarah, My father works in a hospital.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a327",
+    "text": "Is the following sentence correct? Sarah, I live with my grandparents.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a330",
+    "text": "Is the following sentence correct? David, I have a big family.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a333",
+    "text": "Is the following sentence correct? David, There are six people in my family.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a336",
+    "text": "Is the following sentence correct? David, My mother is a doctor.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a339",
+    "text": "Is the following sentence correct? David, My father works in a hospital.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a342",
+    "text": "Is the following sentence correct? David, I live with my grandparents.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a345",
+    "text": "Is the following sentence correct? David, I have a small family.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a348",
+    "text": "Is the following sentence correct? David, There are four people in my family.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a351",
+    "text": "Is the following sentence correct? David, My mother is a teacher.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a354",
+    "text": "Is the following sentence correct? David, My father works in a bank.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a357",
+    "text": "Is the following sentence correct? David, I live with my parents.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a360",
+    "text": "Sarah, What food do you like?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a363",
+    "text": "Sarah, Where do you usually eat breakfast?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a366",
+    "text": "Sarah, What do you drink every morning?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a369",
+    "text": "Sarah, What is your favorite food?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a372",
+    "text": "Sarah, What food don't you like?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a375",
+    "text": "David, What food do you like?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a378",
+    "text": "David, Where do you usually eat breakfast?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a381",
+    "text": "David, What do you drink every morning?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a384",
+    "text": "David, What is your favorite food?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a387",
+    "text": "David, What food don't you like?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a390",
+    "text": "Using the same sentence pattern. I like noodles and beef.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a393",
+    "text": "Using the same sentence pattern. I usually eat breakfast at school.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a396",
+    "text": "Using the same sentence pattern. I drink tea every morning.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a399",
+    "text": "Using the same sentence pattern. My favorite food is noodles.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a402",
+    "text": "Using the same sentence pattern. I don't like sweet food.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a405",
+    "text": "Using the same sentence pattern. I like rice and chicken.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a408",
+    "text": "Using the same sentence pattern. I usually eat breakfast at home.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a411",
+    "text": "Using the same sentence pattern. I drink coffee every morning.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a414",
+    "text": "Using the same sentence pattern. My favorite food is pizza.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a417",
+    "text": "Using the same sentence pattern. I don't like spicy food.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a420",
+    "text": "Is the following sentence correct? Sarah, I like rice and chicken.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a423",
+    "text": "Is the following sentence correct? Sarah, I usually eat breakfast at home.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a426",
+    "text": "Is the following sentence correct? Sarah, I drink coffee every morning.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a429",
+    "text": "Is the following sentence correct? Sarah, My favorite food is pizza.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a432",
+    "text": "Is the following sentence correct? Sarah, I don't like spicy food.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a435",
+    "text": "Is the following sentence correct? Sarah, I like noodles and beef.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a438",
+    "text": "Is the following sentence correct? Sarah, I usually eat breakfast at school.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a441",
+    "text": "Is the following sentence correct? Sarah, I drink tea every morning.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a444",
+    "text": "Is the following sentence correct? Sarah, My favorite food is noodles.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a447",
+    "text": "Is the following sentence correct? Sarah, I don't like sweet food.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a450",
+    "text": "Is the following sentence correct? David, I like noodles and beef.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a453",
+    "text": "Is the following sentence correct? David, I usually eat breakfast at school.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a456",
+    "text": "Is the following sentence correct? David, I drink tea every morning.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a459",
+    "text": "Is the following sentence correct? David, My favorite food is noodles.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a462",
+    "text": "Is the following sentence correct? David, I don't like sweet food.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a465",
+    "text": "Is the following sentence correct? David, I like rice and chicken.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a468",
+    "text": "Is the following sentence correct? David, I usually eat breakfast at home.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a471",
+    "text": "Is the following sentence correct? David, I drink coffee every morning.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a474",
+    "text": "Is the following sentence correct? David, My favorite food is pizza.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a477",
+    "text": "Is the following sentence correct? David, I don't like spicy food.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a480",
+    "text": "Sarah, What are you looking for?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a483",
+    "text": "Sarah, What size do you want?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a486",
+    "text": "Sarah, What kind of T-shirt do you need?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a489",
+    "text": "Sarah, How much is this T-shirt?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a492",
+    "text": "Sarah, Which T-shirt do you like?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a495",
+    "text": "David, What are you looking for?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a498",
+    "text": "David, What size do you want?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a501",
+    "text": "David, What kind of T-shirt do you need?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a504",
+    "text": "David, How much is this T-shirt?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a507",
+    "text": "David, Which T-shirt do you like?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a510",
+    "text": "Using the same sentence pattern. I am looking for a black T-shirt.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a513",
+    "text": "Using the same sentence pattern. I want a large T-shirt.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a516",
+    "text": "Using the same sentence pattern. I need a sports T-shirt.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a519",
+    "text": "Using the same sentence pattern. This T-shirt is thirty dollars.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a522",
+    "text": "Using the same sentence pattern. I like this black T-shirt very much.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a525",
+    "text": "Using the same sentence pattern. I am looking for a blue T-shirt.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a528",
+    "text": "Using the same sentence pattern. I want a small T-shirt.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a531",
+    "text": "Using the same sentence pattern. I need a cotton T-shirt.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a534",
+    "text": "Using the same sentence pattern. This T-shirt is twenty dollars.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a537",
+    "text": "Using the same sentence pattern. I like this blue T-shirt very much.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a540",
+    "text": "Is the following sentence correct? Sarah, I am looking for a blue T-shirt.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a543",
+    "text": "Is the following sentence correct? Sarah, I want a small T-shirt.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a546",
+    "text": "Is the following sentence correct? Sarah, I need a cotton T-shirt.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a549",
+    "text": "Is the following sentence correct? Sarah, This T-shirt is twenty dollars.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a552",
+    "text": "Is the following sentence correct? Sarah, I like this blue T-shirt very much.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a555",
+    "text": "Is the following sentence correct? Sarah, I am looking for a black T-shirt.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a558",
+    "text": "Is the following sentence correct? Sarah, I want a large T-shirt.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a561",
+    "text": "Is the following sentence correct? Sarah, I need a sports T-shirt.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a564",
+    "text": "Is the following sentence correct? Sarah, This T-shirt is thirty dollars.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a567",
+    "text": "Is the following sentence correct? Sarah, I like this black T-shirt very much.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a570",
+    "text": "Is the following sentence correct? David, I am looking for a black T-shirt.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a573",
+    "text": "Is the following sentence correct? David, I want a large T-shirt.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a576",
+    "text": "Is the following sentence correct? David, I need a sports T-shirt.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a579",
+    "text": "Is the following sentence correct? David, This T-shirt is thirty dollars.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a582",
+    "text": "Is the following sentence correct? David, I like this black T-shirt very much.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a585",
+    "text": "Is the following sentence correct? David, I am looking for a blue T-shirt.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a588",
+    "text": "Is the following sentence correct? David, I want a small T-shirt.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a591",
+    "text": "Is the following sentence correct? David, I need a cotton T-shirt.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a594",
+    "text": "Is the following sentence correct? David, This T-shirt is twenty dollars.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "BSFREE01_a597",
+    "text": "Is the following sentence correct? David, I like this blue T-shirt very much.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  { "audioCode": "BSFREE01_a1b1", "text": "Yes", "lang": 101, "rate": 0.75 },
+  { "audioCode": "BSFREE01_a1b2", "text": "Good", "lang": 101, "rate": 0.75 },
+  { "audioCode": "BSFREE01_a1b3", "text": "Great", "lang": 101, "rate": 0.75 },
+  { "audioCode": "BSFREE01_a4b1", "text": "Yes", "lang": 102, "rate": 0.75 },
+  { "audioCode": "BSFREE01_a4b2", "text": "Good", "lang": 102, "rate": 0.75 },
+  { "audioCode": "BSFREE01_a4b3", "text": "Great", "lang": 102, "rate": 0.75 }
+]
