@@ -1247,6 +1247,15 @@ function StringSimilarityMatcher(inputString, phrasesArray) {
     }
   };
 
+  // Helper: xóa toàn bộ nội dung của một phần tử theo id
+  const clearTextareaById = (elementId) => {
+    const el = document.getElementById(elementId);
+    if (el) {
+      el.value = "";
+      el.focus();
+    }
+  };
+
   try {
     let mockSimilarityScoreRate;
     phrasesArray.forEach((e) => {
@@ -1266,10 +1275,26 @@ function StringSimilarityMatcher(inputString, phrasesArray) {
       }
       return (
         <div className="reference-card">
-          <h6 className="text-primary mb-3">
-            <i className="bi bi-search me-2"></i>
-            Tham khảo:
-          </h6>
+          <div className="row">
+            <div className="col-6">
+              <h6 className="text-info">
+                <i className="bi bi-info-circle me-2"></i>
+                Thông tin tham khảo:
+              </h6>
+            </div>
+            <div className="col-6">
+              {" "}
+              <button
+                type="button"
+                className="btn btn-sm btn-outline-info py-0 px-1"
+                title="Xóa text"
+                onClick={() => clearTextareaById("clearClassForTable")}
+              >
+                XXXX
+              </button>
+            </div>
+          </div>
+
           <div className="row g-2">
             <div className="col-12 col-md-4">
               <div className="info-card h-100 mb-0">
