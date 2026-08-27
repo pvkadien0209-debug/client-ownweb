@@ -80,10 +80,11 @@ function BangUEOAI() {
         </tbody>
       </table>
 
-      <b>
-        (1) Xác định UE OAI Ơ (2) Ghép trước, ghép sau (3) Đọc trước to rõ, sau
-        ngắn nhẹ, theo xu hướng âm từ trái sang phải, từ âm chính sang âm dấu!
-      </b>
+      <i>
+        Xuất phát từ phiên âm (1) Xác định UE OAI Ơ (2) Ghép trước, ghép sau (3)
+        Đọc trước to rõ, sau ngắn nhẹ, theo xu hướng âm từ trái sang phải, từ âm
+        chính sang âm dấu!
+      </i>
     </div>
   );
 }

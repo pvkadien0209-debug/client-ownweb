@@ -63,6 +63,7 @@ function StringSimilarityMatcher(inputString, phrasesArray) {
     });
     // Check if we found a match
     if (mockSimilarityScoreRate) {
+      const ipa01 = mockSimilarityScoreRate["IPA-01"] || "";
       const ipa02 = mockSimilarityScoreRate["IPA-02"] || "";
       const ipa03 = mockSimilarityScoreRate["IPA-03"] || "";
       const ipa04 = mockSimilarityScoreRate["IPA-04"] || "";
@@ -71,92 +72,73 @@ function StringSimilarityMatcher(inputString, phrasesArray) {
         decodeElement.textContent = ipa02 + "zzz" + ipa03 + "zzz" + ipa04;
       }
       return (
-        <div className="reference-card">
-          <div className="row">
-            <div className="col-6">
-              <h6 className="text-info">
-                <i className="bi bi-info-circle me-2"></i>
-                Thông tin tham khảo:
-              </h6>
-            </div>
-            <div className="col-6">
-              {" "}
+        <div className="reference-card py-2 px-3">
+          <div className="d-flex justify-content-between align-items-center mb-1">
+            <h6 className="text-info mb-0">
+              <i className="bi bi-info-circle me-1"></i>
+              Thông tin tham khảo:
+            </h6>
+            <button
+              type="button"
+              className="btn btn-sm btn-outline-info py-0 px-1"
+              title="Xóa text"
+              onClick={() => clearTextareaById("clearClassForTable")}
+            >
+              XXXX
+            </button>
+          </div>
+
+          <div className="d-flex flex-wrap align-items-center gap-3">
+            <div className="d-flex align-items-center gap-1">
+              <small className="text-info fw-semibold">Câu gốc:</small>
+              <strong style={{ color: "black" }}>{ipa01}</strong>
               <button
                 type="button"
                 className="btn btn-sm btn-outline-info py-0 px-1"
-                title="Xóa text"
-                onClick={() => clearTextareaById("clearClassForTable")}
+                title="Dán vào ô phiên âm"
+                onClick={() => appendToTextarea(ipa01)}
               >
-                XXXX
+                <i className="bi bi-plus-lg"></i>
               </button>
             </div>
-          </div>
-          <div className="row g-2">
-            <div className="col-12 col-md-4">
-              <div className="info-card h-100 mb-0">
-                <h6 className="text-info">
-                  <i className="bi bi-translate me-2"></i>
-                  Dịch thô:
-                </h6>
-                <p
-                  className="mb-0 d-flex align-items-center gap-2"
-                  style={{ color: "black" }}
-                >
-                  <strong>{ipa02}</strong>
-                  <button
-                    type="button"
-                    className="btn btn-sm btn-outline-info py-0 px-1"
-                    title="Dán vào ô phiên âm"
-                    onClick={() => appendToTextarea(ipa02)}
-                  >
-                    <i className="bi bi-plus-lg"></i>
-                  </button>
-                </p>
-              </div>
+
+            <div className="d-flex align-items-center gap-1">
+              <small className="text-info fw-semibold">Dịch thô:</small>
+              <strong style={{ color: "black" }}>{ipa02}</strong>
+              <button
+                type="button"
+                className="btn btn-sm btn-outline-info py-0 px-1"
+                title="Dán vào ô phiên âm"
+                onClick={() => appendToTextarea(ipa02)}
+              >
+                <i className="bi bi-plus-lg"></i>
+              </button>
             </div>
-            <div className="col-6 col-md-4">
-              <div className="info-card h-100 mb-0">
-                <h6 className="text-success">
-                  <i className="bi bi-globe-europe-africa me-2"></i>
-                  Phiên âm UK:
-                </h6>
-                <p
-                  className="mb-0 d-flex align-items-center gap-2"
-                  style={{ color: "black" }}
-                >
-                  <strong>{ipa03}</strong>
-                  <button
-                    type="button"
-                    className="btn btn-sm btn-outline-success py-0 px-1"
-                    title="Dán vào ô phiên âm"
-                    onClick={() => appendToTextarea(ipa03)}
-                  >
-                    <i className="bi bi-plus-lg"></i>
-                  </button>
-                </p>
-              </div>
+
+            <div className="d-flex align-items-center gap-1">
+              <small className="text-success fw-semibold">UK:</small>
+              <strong style={{ color: "black" }}>{ipa03}</strong>
+              <button
+                type="button"
+                className="btn btn-sm btn-outline-success py-0 px-1"
+                title="Dán vào ô phiên âm"
+                onClick={() => appendToTextarea(ipa03)}
+              >
+                <i className="bi bi-plus-lg"></i>
+              </button>
             </div>
-            <div className="col-6 col-md-4">
-              <div className="info-card h-100 mb-0">
-                <h6 className="text-warning">
-                  <i className="bi bi-globe-americas me-2"></i>
-                  Phiên âm US:
-                </h6>
-                <p
-                  className="mb-0 d-flex align-items-center gap-2"
-                  style={{ color: "black" }}
-                >
-                  <strong>{ipa04}</strong>
-                  <button
-                    type="button"
-                    className="btn btn-sm btn-outline-warning py-0 px-1"
-                    title="Dán vào ô phiên âm"
-                    onClick={() => appendToTextarea(ipa04)}
-                  >
-                    <i className="bi bi-plus-lg"></i>
-                  </button>
-                </p>
-              </div>
+
+            <div className="d-flex align-items-center gap-1">
+              <small className="text-warning fw-semibold">US:</small>
+              <strong style={{ color: "black" }}>{ipa04}</strong>
+              <button
+                type="button"
+                className="btn btn-sm btn-outline-warning py-0 px-1"
+                title="Dán vào ô phiên âm"
+                onClick={() => appendToTextarea(ipa04)}
+              >
+                <i className="bi bi-plus-lg"></i>
+              </button>
             </div>
           </div>
         </div>
@@ -584,6 +566,23 @@ const DictaphoneONLY = ({ IsReading, lang = "en-US", onTranscript, data }) => {
           border-color: #0284c7;
           box-shadow: 0 0 0 4px rgba(14,165,233,0.25);
         }
+          .ipa-ref-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.2rem;
+  table-layout: fixed;
+}
+.ipa-ref-table td {
+  border: 1px solid #dee2e6;
+  padding: 1px 2px;
+  line-height: 1.1;
+  text-align: center;
+}
+.ipa-ref-table .ipa-head td {
+  background: #eef7fb;
+  font-weight: 600;
+  color: #0d6efd;
+}
       `}</style>
       <div className={`dtph-bar ${listening ? "is-listening" : ""}`}>
         {/* ══ CENTER: Transcript ══ */}
@@ -700,16 +699,77 @@ const DictaphoneONLY = ({ IsReading, lang = "en-US", onTranscript, data }) => {
             </div>
 
             {/* Ô nhập phiên âm — trọng tâm popup, đích đến khi bấm dán */}
-            <div className="dtph-info-textarea-wrap">
-              <label className="dtph-info-textarea-label">
-                Phiên âm đã chọn:
-              </label>
-              <textarea
-                className="textarea-practice w-100"
-                id="clearClassForTable"
-                rows="6"
-                placeholder="Nhập phiên âm tại đây…"
-              ></textarea>
+            <div className="row g-3">
+              <div className="col-12 col-md-8">
+                <div className="dtph-info-textarea-wrap">
+                  <label className="dtph-info-textarea-label">
+                    Phiên âm đã chọn:
+                  </label>
+                  <textarea
+                    className="textarea-practice w-100"
+                    id="clearClassForTable"
+                    rows="6"
+                    placeholder="Nhập phiên âm tại đây…"
+                  ></textarea>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4">
+                <table className="ipa-ref-table">
+                  <tbody>
+                    <tr className="ipa-head">
+                      {["U", "E", "O", "A", "I", "Ơ"].map((h) => (
+                        <td key={h}>{h}</td>
+                      ))}
+                    </tr>
+                    <tr>
+                      <td>
+                        uː
+                        <br />ʊ
+                      </td>
+                      <td>
+                        e<br />ɛ
+                      </td>
+                      <td>
+                        ɒ<br />
+                        ɔː
+                      </td>
+                      <td>
+                        ɑː
+                        <br />æ<br />ʌ
+                      </td>
+                      <td>
+                        iː
+                        <br />ɪ
+                      </td>
+                      <td>
+                        ɜː
+                        <br />ə
+                      </td>
+                    </tr>
+                    <tr className="ipa-head">
+                      {["eɪ", "aɪ", "ɔɪ", "əʊ", "aʊ", "ɪə", "eə", "ʊə"].map(
+                        (h) => (
+                          <td key={h}>{h}</td>
+                        ),
+                      )}
+                    </tr>
+                    <tr>
+                      {["Ei", "Ai", "Oi", "Ơu", "Au", "I-ơ", "E-ơ", "U-ơ"].map(
+                        (v) => (
+                          <td key={v}>{v}</td>
+                        ),
+                      )}
+                    </tr>
+                  </tbody>
+                </table>
+
+                <i className="d-block small text-muted mt-1">
+                  Xuất phát từ phiên âm (1) Xác định UE OAI Ơ (2) Ghép trước,
+                  ghép sau (3) Đọc trước to rõ, sau ngắn nhẹ, theo xu hướng âm
+                  từ trái sang phải, từ âm chính sang âm dấu!
+                </i>
+              </div>
             </div>
           </div>
         </div>
