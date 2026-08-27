@@ -6,7 +6,7 @@ import SpeechRecognition, {
 import LinkAPI from "./T0_linkApi";
 import read_by_Tts from "./readMessage_TtsServer";
 import YouTubeVideoSearch from "../components/LearningHub/YouTubeVideoSearch";
-import Nguyentacghepam from "../components/A1_NguyentacGhepam";
+import Nguyentacghepam from "../components/A1_BangUEOAI";
 const ViewRes = ({ resultSt = [] }) => {
   // Use React hooks for animation effect
   const [prevResultLength, setPrevResultLength] = useState(0);
@@ -710,7 +710,7 @@ const Dictaphone = ({ CMDlist }) => {
             }
           }}
         >
-          🧩 Nguyên tắc ghép âm
+          🧩 Bảng Ghép âm
         </button>
       </div>
       {/* Tab Content */}
