@@ -176,12 +176,14 @@ const Room = ({ setSttRoom }) => {
           console.warn('Failed to parse "a" parameter:', error.message);
         }
       }
+      const random = params.get("random") === "true";
+
       const get_data = interleaveCharacters(
         data,
         firstList,
         params.get("b"),
         params.get("up"),
-        params.get("random"),
+        random,
         params.get("fsp"),
       );
       setDataPracticingCharactor(get_data.interleaveCharacters_DATA);

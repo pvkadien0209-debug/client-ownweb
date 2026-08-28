@@ -144,6 +144,8 @@ const Dictaphone = ({
     const idx = Math.floor(Math.random() * (awArr.length || 1));
     const answer = awArr[idx];
     const audio = aw01Arr[idx];
+    const el = document.getElementById("youmean");
+    if (el) el.innerText = "You mean: " + JSON.stringify(objTR.qs);
     if (answer)
       ReadMessage(
         ObjVoices,
@@ -164,7 +166,8 @@ const Dictaphone = ({
   /* ── Render: hidden DOM anchor + trigger button ──────────────── */
   return (
     <div style={{ display: "" }}>
-      <div id="dtphTranscript" />
+      <div id="youmean" />
+      <div style={{ display: "none" }} id="dtphTranscript" />
       <button
         style={{ display: "none" }}
         id="checkBTN"

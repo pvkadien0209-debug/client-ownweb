@@ -27,99 +27,8 @@
       "MC": [],
       "HD": [
         {
-          "HD-01": "[MERGE]",
-          "HD-02": "A Person Who Changed the World\n\nMarie Curie was one of the most important scientists in modern history. She was born in Warsaw, Poland, in 1867 and later moved to France to continue her education. She studied science and mathematics and became deeply interested in scientific research.\n\nMarie Curie is best known for her research on radioactivity. At a time when scientific research was still developing, she worked hard to understand this unusual phenomenon. Her research led to important discoveries and helped scientists learn more about radioactive elements. She received the Nobel Prize in Physics in 1903 and later won another Nobel Prize in Chemistry in 1911.\n\nHer achievements were important not only because she received major awards, but also because her research contributed to the development of modern science and medicine. Her work helped create a better understanding of radiation and its possible uses.\n\nWhat I find most impressive about Marie Curie is her determination. Scientific research was difficult, and women faced many barriers in education and professional life at that time. However, she continued working and studying instead of giving up.\n\nI think Marie Curie's life teaches us that success does not come only from intelligence. Curiosity, hard work and persistence are also important. For this reason, she is a person who changed the world and continues to inspire people today.",
-          "HD-03": "A clearer knowledge of radiation.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
           "HD-01": "X",
-          "HD-02": null,
-          "HD-03": "X",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": "STT",
-          "HD-02": "Keyword",
-          "HD-03": "Nội dung tóm tắt",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 1,
-          "HD-02": "WHO",
-          "HD-03": "Marie Curie là một trong những nhà khoa học quan trọng nhất trong lịch sử hiện đại.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 2,
-          "HD-02": "BACKGROUND",
-          "HD-03": "Bà sinh tại Warsaw, Ba Lan, năm 1867 và sau đó chuyển đến Pháp để tiếp tục học tập.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 3,
-          "HD-02": "EDUCATION",
-          "HD-03": "Bà học khoa học và toán học, sau đó đặc biệt quan tâm đến nghiên cứu khoa học.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 4,
-          "HD-02": "RESEARCH",
-          "HD-03": "Bà nổi tiếng với các nghiên cứu về hiện tượng phóng xạ.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 5,
-          "HD-02": "EFFORT",
-          "HD-03": "Bà làm việc chăm chỉ để tìm hiểu hiện tượng này khi nghiên cứu khoa học vẫn đang phát triển.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 6,
-          "HD-02": "DISCOVERY",
-          "HD-03": "Nghiên cứu của bà dẫn đến những phát hiện quan trọng và giúp các nhà khoa học hiểu thêm về các nguyên tố phóng xạ.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 7,
-          "HD-02": "ACHIEVEMENT",
-          "HD-03": "Bà nhận giải Nobel Vật lý năm 1903 và giải Nobel Hóa học năm 1911.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 8,
-          "HD-02": "CONTRIBUTION",
-          "HD-03": "Công trình của bà góp phần vào sự phát triển của khoa học và y học hiện đại.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 9,
-          "HD-02": "DIFFICULTY & DETERMINATION",
-          "HD-03": "Bà gặp nhiều khó khăn, đặc biệt trong bối cảnh phụ nữ phải đối mặt với nhiều rào cản, nhưng bà không bỏ cuộc.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 10,
-          "HD-02": "LESSON & INFLUENCE",
-          "HD-03": "Cuộc đời bà cho thấy thành công cần sự tò mò, chăm chỉ và kiên trì; bà tiếp tục truyền cảm hứng cho mọi người.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": "X",
-          "HD-02": null,
+          "HD-02": "BÀI TẬP 1: NỘI DUNG",
           "HD-03": "X",
           "HD-04": null,
           "HD-05": null
@@ -129,81 +38,81 @@
           "HD-02": "Hỏi",
           "HD-03": "Câu A",
           "HD-04": "Câu B",
-          "HD-05": null
+          "HD-05": "Câu C"
         },
         {
           "HD-01": "1",
           "HD-02": "Who was Marie Curie?",
-          "HD-03": "She was one of the most important scientists in modern history.",
+          "HD-03": null,
           "HD-04": "She was one of the most important politicians in modern history.",
-          "HD-05": null
+          "HD-05": "She was one of the most important scientists in modern history."
         },
         {
           "HD-01": "2",
           "HD-02": "Where was she born?",
           "HD-03": "She was born in Warsaw, Poland.",
-          "HD-04": "She was born in Paris, France.",
-          "HD-05": null
+          "HD-04": null,
+          "HD-05": "She was born in Paris, France."
         },
         {
           "HD-01": "3",
           "HD-02": "When was she born?",
-          "HD-03": "She was born in 1867.",
-          "HD-04": "She was born in 1911.",
+          "HD-03": "She was born in 1911.",
+          "HD-04": "She was born in 1867.",
           "HD-05": null
         },
         {
           "HD-01": "4",
           "HD-02": "Where did she later move?",
-          "HD-03": "She later moved to France.",
-          "HD-04": "She later moved to Germany.",
-          "HD-05": null
+          "HD-03": "She later moved to Germany.",
+          "HD-04": null,
+          "HD-05": "She later moved to France."
         },
         {
           "HD-01": "5",
           "HD-02": "Why did she move to France?",
           "HD-03": "She moved to France to continue her education.",
-          "HD-04": "She moved to France to stop her education.",
-          "HD-05": null
+          "HD-04": null,
+          "HD-05": "She moved to France to stop her education."
         },
         {
           "HD-01": "6",
           "HD-02": "What did she study?",
-          "HD-03": "She studied science and mathematics.",
-          "HD-04": "She studied literature and music.",
+          "HD-03": "She studied literature and music.",
+          "HD-04": "She studied science and mathematics.",
           "HD-05": null
         },
         {
           "HD-01": "7",
           "HD-02": "What did she research?",
-          "HD-03": "She researched ancient history.",
-          "HD-04": "She researched radioactivity.",
+          "HD-03": "She researched radioactivity.",
+          "HD-04": "She researched ancient history.",
           "HD-05": null
         },
         {
           "HD-01": "8",
           "HD-02": "What Nobel Prizes did she win?",
-          "HD-03": "She won the Nobel Prize in Physics and the Nobel Prize in Chemistry.",
-          "HD-04": "She won the Nobel Prizes in Literature and Peace.",
-          "HD-05": null
+          "HD-03": null,
+          "HD-04": "She won the Nobel Prize in Physics and the Nobel Prize in Chemistry.",
+          "HD-05": "She won the Nobel Prizes in Literature and Peace."
         },
         {
           "HD-01": "9",
           "HD-02": "What difficulties did she face?",
-          "HD-03": "She had no difficulties in her education or career.",
-          "HD-04": "She faced difficulties in scientific research and barriers in education and professional life.",
-          "HD-05": null
+          "HD-03": null,
+          "HD-04": "She had no difficulties in her education or career.",
+          "HD-05": "She faced difficulties in scientific research and barriers in education and professional life."
         },
         {
           "HD-01": "10",
           "HD-02": "What can we learn from her life?",
-          "HD-03": "We can learn that curiosity, hard work and persistence are important for success.",
+          "HD-03": null,
           "HD-04": "We can learn that intelligence alone is enough for success.",
-          "HD-05": null
+          "HD-05": "We can learn that curiosity, hard work and persistence are important for success."
         },
         {
           "HD-01": "X",
-          "HD-02": null,
+          "HD-02": "BÀI TẬP 2: MẪU CÂU",
           "HD-03": "X",
           "HD-04": null,
           "HD-05": null
@@ -212,155 +121,197 @@
           "HD-01": "Stt",
           "HD-02": "Cấu trúc câu trong bài đã dùng",
           "HD-03": "Nội dung trong bài",
-          "HD-04": "Ví dụ khác minh họa",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 1,
           "HD-02": "S + be + one of the + superlative + plural N",
           "HD-03": "Marie Curie was one of the most important scientists in modern history.",
-          "HD-04": "Hanoi is one of the largest cities in Vietnam.",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 2,
           "HD-02": "S + be born + in + place + in + year",
           "HD-03": "She was born in Warsaw, Poland, in 1867.",
-          "HD-04": "Mandela was born in South Africa in 1918.",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 3,
           "HD-02": "S + move to + place + to + V",
           "HD-03": "She later moved to France to continue her education.",
-          "HD-04": "He moved to Hanoi to find a job.",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 4,
           "HD-02": "S + V + O1 + and + O2",
           "HD-03": "She studied science and mathematics.",
-          "HD-04": "She studied English and history.",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 5,
           "HD-02": "S + become + Adv + interested in + N",
           "HD-03": "She became deeply interested in scientific research.",
-          "HD-04": "He became very interested in photography.",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 6,
           "HD-02": "S + be best known for + N",
           "HD-03": "Marie Curie is best known for her research on radioactivity.",
-          "HD-04": "Paris is best known for its famous landmarks.",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 7,
           "HD-02": "S + V + hard + to + V",
           "HD-03": "She worked hard to understand this unusual phenomenon.",
-          "HD-04": "They worked hard to achieve their goal.",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 8,
           "HD-02": "S + lead to + N",
           "HD-03": "Her research led to important discoveries.",
-          "HD-04": "Exercise can lead to better health.",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 9,
           "HD-02": "S + help + O + V",
           "HD-03": "Her research helped scientists learn more about radioactive elements.",
-          "HD-04": "This course helps students improve their English.",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 10,
           "HD-02": "S + receive + N",
           "HD-03": "She received the Nobel Prize in Physics in 1903.",
-          "HD-04": "He received an award for his work.",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 11,
           "HD-02": "S + later + V + another + N",
           "HD-03": "She later won another Nobel Prize in Chemistry.",
-          "HD-04": "He later received another important award.",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 12,
           "HD-02": "S + be + Adj + not only because..., but also because...",
           "HD-03": "Her achievements were important not only because she received major awards, but also because her research contributed to science and medicine.",
-          "HD-04": "The trip was valuable not only because it was fun, but also because I learned a lot.",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 13,
           "HD-02": "S + contribute to + N",
           "HD-03": "Her research contributed to the development of modern science and medicine.",
-          "HD-04": "Education contributes to social development.",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 14,
           "HD-02": "S + help create + N",
           "HD-03": "Her work helped create a better understanding of radiation.",
-          "HD-04": "Experience helps create a better understanding of people.",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 15,
           "HD-02": "What + S + find + Adj + about + N + is + N",
           "HD-03": "What I find most impressive about Marie Curie is her determination.",
-          "HD-04": "What I find most interesting about this city is its history.",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 16,
           "HD-02": "S + face + N",
           "HD-03": "Women faced many barriers in education and professional life.",
-          "HD-04": "Young people face many challenges today.",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 17,
           "HD-02": "S + continue + V-ing + instead of + V-ing",
           "HD-03": "She continued working and studying instead of giving up.",
-          "HD-04": "He continued practicing instead of stopping.",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 18,
           "HD-02": "S + teach + O + that + clause",
           "HD-03": "Marie Curie's life teaches us that success does not come only from intelligence.",
-          "HD-04": "His experience teaches us that mistakes are part of learning.",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 19,
           "HD-02": "N1 + N2 + and + N3 + be + Adj",
           "HD-03": "Curiosity, hard work and persistence are also important.",
-          "HD-04": "Patience, practice and discipline are essential.",
+          "HD-04": null,
           "HD-05": null
         },
         {
           "HD-01": 20,
           "HD-02": "S + continue + to + V",
           "HD-03": "She continues to inspire people today.",
-          "HD-04": "His work continues to influence young scientists.",
+          "HD-04": null,
           "HD-05": null
         },
         {
-          "HD-01": "X",
+          "HD-01": "Câu tương tự:",
           "HD-02": null,
-          "HD-03": "X",
+          "HD-03": null,
           "HD-04": null,
-          "HD-05": "X"
+          "HD-05": null
+        },
+        {
+          "HD-01": "",
+          "HD-02": "She studied English and history.",
+          "HD-03": "He moved to Hanoi to find a job.",
+          "HD-04": "Mandela was born in South Africa in 1918.",
+          "HD-05": "Hanoi is one of the largest cities in Vietnam."
+        },
+        {
+          "HD-01": "",
+          "HD-02": "They worked hard to achieve their goal.",
+          "HD-03": "He became very interested in photography.",
+          "HD-04": "Paris is best known for its famous landmarks.",
+          "HD-05": "Exercise can lead to better health."
+        },
+        {
+          "HD-01": "",
+          "HD-02": "This course helps students improve their English.",
+          "HD-03": "He later received another important award.",
+          "HD-04": "The trip was valuable not only because it was fun, but also because I learned a lot.",
+          "HD-05": "He received an award for his work."
+        },
+        {
+          "HD-01": "",
+          "HD-02": "What I find most interesting about this city is its history.",
+          "HD-03": "Young people face many challenges today.",
+          "HD-04": "Education contributes to social development.",
+          "HD-05": "Experience helps create a better understanding of people."
+        },
+        {
+          "HD-01": "",
+          "HD-02": "Patience, practice and discipline are essential.",
+          "HD-03": "He continued practicing instead of stopping.",
+          "HD-04": "His work continues to influence young scientists.",
+          "HD-05": "His experience teaches us that mistakes are part of learning."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "Bài tập 3",
+          "HD-03": "Hiểu sâu nghĩa của cụm từ",
+          "HD-04": null,
+          "HD-05": null
         },
         {
           "HD-01": "Stt",
@@ -372,65 +323,65 @@
         {
           "HD-01": "1",
           "HD-02": "“one of the most important scientists” means what?",
-          "HD-03": "She was an unimportant scientist.",
-          "HD-04": "She was the only important scientist.",
-          "HD-05": "She was among the most important scientists."
+          "HD-03": "She was among the most important scientists.",
+          "HD-04": "She was an unimportant scientist.",
+          "HD-05": "She was the only important scientist."
         },
         {
           "HD-01": "2",
           "HD-02": "“continue her education” means what?",
-          "HD-03": "Stop studying.",
-          "HD-04": "Leave school permanently.",
-          "HD-05": "Continue studying and learning."
+          "HD-03": "Leave school permanently.",
+          "HD-04": "Continue studying and learning.",
+          "HD-05": "Stop studying."
         },
         {
           "HD-01": "3",
           "HD-02": "“became deeply interested in scientific research” means what?",
-          "HD-03": "She lost interest in scientific research.",
-          "HD-04": "She disliked scientific research.",
-          "HD-05": "She developed a strong interest in scientific research."
+          "HD-03": "She developed a strong interest in scientific research.",
+          "HD-04": "She lost interest in scientific research.",
+          "HD-05": "She disliked scientific research."
         },
         {
           "HD-01": "4",
           "HD-02": "“is best known for” means what?",
           "HD-03": "She is famous for something unrelated.",
-          "HD-04": "She is particularly famous for.",
-          "HD-05": "She is unknown for."
+          "HD-04": "She is unknown for.",
+          "HD-05": "She is particularly famous for."
         },
         {
           "HD-01": "5",
           "HD-02": "“worked hard to understand” means what?",
-          "HD-03": "She understood it without any effort.",
+          "HD-03": "She avoided studying it.",
           "HD-04": "She made a great effort to understand.",
-          "HD-05": "She avoided studying it."
+          "HD-05": "She understood it without any effort."
         },
         {
           "HD-01": "6",
           "HD-02": "“led to important discoveries” means what?",
-          "HD-03": "Her research had no results.",
-          "HD-04": "Her research prevented discoveries.",
+          "HD-03": "Her research prevented discoveries.",
+          "HD-04": "Her research had no results.",
           "HD-05": "Her research resulted in important discoveries."
         },
         {
           "HD-01": "7",
           "HD-02": "“helped scientists learn more” means what?",
-          "HD-03": "It made scientists know less.",
+          "HD-03": "It helped scientists gain more knowledge.",
           "HD-04": "It stopped scientists from learning.",
-          "HD-05": "It helped scientists gain more knowledge."
+          "HD-05": "It made scientists know less."
         },
         {
           "HD-01": "8",
           "HD-02": "“received the Nobel Prize” means what?",
           "HD-03": "She refused the prize.",
-          "HD-04": "She applied for the prize but lost.",
-          "HD-05": "She was awarded the Nobel Prize."
+          "HD-04": "She was awarded the Nobel Prize.",
+          "HD-05": "She applied for the prize but lost."
         },
         {
           "HD-01": "9",
           "HD-02": "“not only because..., but also because...” means what?",
-          "HD-03": "There was only one reason.",
-          "HD-04": "Neither reason was important.",
-          "HD-05": "There were two important reasons."
+          "HD-03": "Neither reason was important.",
+          "HD-04": "There were two important reasons.",
+          "HD-05": "There was only one reason."
         },
         {
           "HD-01": "10",
@@ -442,23 +393,23 @@
         {
           "HD-01": "11",
           "HD-02": "“a better understanding of radiation” means what?",
-          "HD-03": "A clearer knowledge of radiation.",
+          "HD-03": "No knowledge about radiation.",
           "HD-04": "Less knowledge about radiation.",
-          "HD-05": "No knowledge about radiation."
+          "HD-05": "A clearer knowledge of radiation."
         },
         {
           "HD-01": "12",
           "HD-02": "“her determination” means what?",
-          "HD-03": "Her unwillingness to work.",
-          "HD-04": "Her lack of interest.",
-          "HD-05": "Her strong persistence in achieving her goals."
+          "HD-03": "Her strong persistence in achieving her goals.",
+          "HD-04": "Her unwillingness to work.",
+          "HD-05": "Her lack of interest."
         },
         {
           "HD-01": "13",
           "HD-02": "“faced many barriers” means what?",
           "HD-03": "Had an easy experience.",
-          "HD-04": "Experienced many difficulties or obstacles.",
-          "HD-05": "Avoided all difficulties."
+          "HD-04": "Avoided all difficulties.",
+          "HD-05": "Experienced many difficulties or obstacles."
         },
         {
           "HD-01": "14",
@@ -471,8 +422,8 @@
           "HD-01": "15",
           "HD-02": "“success does not come only from intelligence” means what?",
           "HD-03": "Intelligence alone is not enough for success.",
-          "HD-04": "Intelligence is the only requirement for success.",
-          "HD-05": "Intelligence has nothing to do with success."
+          "HD-04": "Intelligence has nothing to do with success.",
+          "HD-05": "Intelligence is the only requirement for success."
         },
         {
           "HD-01": "16",
@@ -491,306 +442,33 @@
         {
           "HD-01": "18",
           "HD-02": "“continues to inspire people today” means what?",
-          "HD-03": "Nobody remembers her today.",
+          "HD-03": "People are still motivated by her life and work.",
           "HD-04": "People stopped caring about her long ago.",
-          "HD-05": "People are still motivated by her life and work."
+          "HD-05": "Nobody remembers her today."
         },
         {
           "HD-01": "19",
           "HD-02": "“scientific research was difficult” means what?",
-          "HD-03": "Scientific research was always easy.",
-          "HD-04": "Scientific research was impossible.",
-          "HD-05": "Scientific research involved many challenges."
+          "HD-03": "Scientific research was impossible.",
+          "HD-04": "Scientific research involved many challenges.",
+          "HD-05": "Scientific research was always easy."
         },
         {
           "HD-01": "20",
           "HD-02": "“her work helped create a better understanding” means what?",
-          "HD-03": "Her work had nothing to do with the subject.",
-          "HD-04": "Her work made the subject more confusing.",
+          "HD-03": "Her work made the subject more confusing.",
+          "HD-04": "Her work had nothing to do with the subject.",
           "HD-05": "Her work helped people understand the subject more clearly."
-        },
-        {
-          "HD-01": "X",
-          "HD-02": null,
-          "HD-03": "X",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": "STT",
-          "HD-02": "Keyword cần diễn tả",
-          "HD-03": "Nội dung trong bài",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 1,
-          "HD-02": "WHO – Người đó là ai?",
-          "HD-03": "Marie Curie was one of the most important scientists in modern history.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 2,
-          "HD-02": "BACKGROUND – Xuất thân",
-          "HD-03": "She was born in Warsaw, Poland, in 1867.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 3,
-          "HD-02": "EDUCATION – Học tập",
-          "HD-03": "She later moved to France to continue her education. She studied science and mathematics.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 4,
-          "HD-02": "INTEREST – Mối quan tâm",
-          "HD-03": "She became deeply interested in scientific research.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 5,
-          "HD-02": "WORK – Công việc/nghiên cứu",
-          "HD-03": "She is best known for her research on radioactivity.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 6,
-          "HD-02": "EFFORT – Nỗ lực",
-          "HD-03": "She worked hard to understand this unusual phenomenon.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 7,
-          "HD-02": "ACHIEVEMENT – Thành tựu",
-          "HD-03": "Her research led to important discoveries. She received the Nobel Prize in Physics and later won another Nobel Prize in Chemistry.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 8,
-          "HD-02": "CONTRIBUTION – Đóng góp",
-          "HD-03": "Her research contributed to the development of modern science and medicine and helped create a better understanding of radiation.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 9,
-          "HD-02": "DIFFICULTY → RESPONSE – Khó khăn → phản ứng",
-          "HD-03": "Scientific research was difficult, and women faced many barriers. However, she continued working and studying instead of giving up.",
-          "HD-04": null,
-          "HD-05": null
-        },
-        {
-          "HD-01": 10,
-          "HD-02": "OPINION → LESSON → INFLUENCE – Nhận xét → bài học → ảnh hưởng",
-          "HD-03": "Her determination was impressive. Her life teaches us that success requires curiosity, hard work and persistence. She continues to inspire people today.",
-          "HD-04": null,
-          "HD-05": null
         }
       ]
     },
     "charactor": [
       {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...Patience, practice and discipline are essential.",
-        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
-        "name": "Ashley",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["Curiosity, hard work and persistence are also important."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["Patience, practice and discipline are essential."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...Patience, practice and discipline are essential.",
-            "id": "PS01_a198"
-          }
-        ]
-      },
-      {
-        "type": "A1",
-        "fsp": "What can we learn from her life?",
-        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
-        "name": "Jennifer",
-        "gender": "female",
-        "data": [
-          {
-            "qs": [
-              "We can learn that curiosity, hard work and persistence are important for success."
-            ],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": [
-              "We can learn that intelligence alone is enough for success."
-            ],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          { "st": "What can we learn from her life?", "id": "PS01_a24" }
-        ]
-      },
-      {
-        "type": "A2",
-        "fsp": "Is this sentence correct or incorrect? She studied science and mathematics.",
-        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
-        "name": "Sarah",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["correct"],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["incorrect"],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Is this sentence correct or incorrect? She studied science and mathematics.",
-            "id": "PS01_a42"
-          }
-        ]
-      },
-      {
-        "type": "A1",
-        "fsp": "Why did she move to France?",
-        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
-        "name": "Michael",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["She moved to France to continue her education."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": ["She moved to France to stop her education."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [{ "st": "Why did she move to France?", "id": "PS01_a9" }]
-      },
-      {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...He moved to Hanoi to find a job.",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "name": "Emily",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["She later moved to France to continue her education."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["He moved to Hanoi to find a job."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...He moved to Hanoi to find a job.",
-            "id": "PS01_a150"
-          }
-        ]
-      },
-      {
-        "type": "A2",
-        "fsp": "Is this sentence correct or incorrect? She later moved to Germany.",
-        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
-        "name": "Jessica",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["incorrect"],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["correct"],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Is this sentence correct or incorrect? She later moved to Germany.",
-            "id": "PS01_a66"
-          }
-        ]
-      },
-      {
+        "H0-01": 10,
+        "H0-02": "LESSON & INFLUENCE",
+        "H0-03": "Cuộc đời bà cho thấy thành công cần sự tò mò, chăm chỉ và kiên trì; bà tiếp tục truyền cảm hứng cho mọi người.",
+        "H0-04": null,
+        "H0-05": null,
         "type": "A2",
         "fsp": "Is this sentence correct or incorrect? She later moved to France.",
         "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
@@ -824,6 +502,51 @@
         ]
       },
       {
+        "H0-01": 16,
+        "H0-02": "S + face + N",
+        "H0-03": "Women faced many barriers in education and professional life.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Her work helped create a better understanding of radiation.",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Experience helps create a better understanding of people."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "Her work helped create a better understanding of radiation."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Her work helped create a better understanding of radiation.",
+            "id": "PS01_a126"
+          }
+        ]
+      },
+      {
+        "H0-01": 4,
+        "H0-02": "RESEARCH",
+        "H0-03": "Bà nổi tiếng với các nghiên cứu về hiện tượng phóng xạ.",
+        "H0-04": null,
+        "H0-05": null,
         "type": "A1",
         "fsp": "What Nobel Prizes did she win?",
         "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
@@ -856,781 +579,11 @@
         ]
       },
       {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...His work continues to influence young scientists.",
-        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
-        "name": "Christopher",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["She continues to inspire people today."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": ["His work continues to influence young scientists."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...His work continues to influence young scientists.",
-            "id": "PS01_a201"
-          }
-        ]
-      },
-      {
-        "type": "A2",
-        "fsp": "Is this sentence correct or incorrect? She won the Nobel Prizes in Literature and Peace.",
-        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
-        "name": "Ashley",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["incorrect"],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["correct"],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Is this sentence correct or incorrect? She won the Nobel Prizes in Literature and Peace.",
-            "id": "PS01_a78"
-          }
-        ]
-      },
-      {
-        "type": "A1",
-        "fsp": "What did she study?",
-        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
-        "name": "Sarah",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["She studied science and mathematics."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["She studied literature and music."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [{ "st": "What did she study?", "id": "PS01_a12" }]
-      },
-      {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...Young people face many challenges today.",
-        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
-        "name": "Michael",
-        "gender": "male",
-        "data": [
-          {
-            "qs": [
-              "Women faced many barriers in education and professional life."
-            ],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": ["Young people face many challenges today."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...Young people face many challenges today.",
-            "id": "PS01_a189"
-          }
-        ]
-      },
-      {
-        "type": "A1",
-        "fsp": "Who was Marie Curie?",
-        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
-        "name": "Joshua",
-        "gender": "male",
-        "data": [
-          {
-            "qs": [
-              "She was one of the most important scientists in modern history."
-            ],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": [
-              "She was one of the most important politicians in modern history."
-            ],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [{ "st": "Who was Marie Curie?", "id": "PS01_a27" }]
-      },
-      {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...He later received another important award.",
-        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
-        "name": "Jennifer",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["She later won another Nobel Prize in Chemistry."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["He later received another important award."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...He later received another important award.",
-            "id": "PS01_a174"
-          }
-        ]
-      },
-      {
-        "type": "A2",
-        "fsp": "Is this sentence correct or incorrect? She won the Nobel Prize in Physics and the Nobel Prize in Chemistry.",
-        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
-        "name": "Ashley",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["correct"],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["incorrect"],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Is this sentence correct or incorrect? She won the Nobel Prize in Physics and the Nobel Prize in Chemistry.",
-            "id": "PS01_a48"
-          }
-        ]
-      },
-      {
-        "type": "A2",
-        "fsp": "Is this sentence correct or incorrect? She researched radioactivity.",
-        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
-        "name": "Andrew",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["correct"],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": ["incorrect"],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Is this sentence correct or incorrect? She researched radioactivity.",
-            "id": "PS01_a45"
-          }
-        ]
-      },
-      {
-        "type": "A1",
-        "fsp": "Where did she later move?",
-        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
-        "name": "Jessica",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["She later moved to France."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["She later moved to Germany."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [{ "st": "Where did she later move?", "id": "PS01_a6" }]
-      },
-      {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...Curiosity, hard work and persistence are also important.",
-        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
-        "name": "Christopher",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["Patience, practice and discipline are essential."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": ["Curiosity, hard work and persistence are also important."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...Curiosity, hard work and persistence are also important.",
-            "id": "PS01_a141"
-          }
-        ]
-      },
-      {
-        "type": "A2",
-        "fsp": "Is this sentence correct or incorrect? She moved to France to continue her education.",
-        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
-        "name": "Michael",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["correct"],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": ["incorrect"],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Is this sentence correct or incorrect? She moved to France to continue her education.",
-            "id": "PS01_a39"
-          }
-        ]
-      },
-      {
-        "type": "A1",
-        "fsp": "What did she research?",
-        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
-        "name": "Andrew",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["She researched radioactivity."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": ["She researched ancient history."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [{ "st": "What did she research?", "id": "PS01_a15" }]
-      },
-      {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...She became deeply interested in scientific research.",
-        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
-        "name": "Michael",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["He became very interested in photography."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": ["She became deeply interested in scientific research."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...She became deeply interested in scientific research.",
-            "id": "PS01_a99"
-          }
-        ]
-      },
-      {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...Her research helped scientists learn more about radioactive elements.",
-        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
-        "name": "Christopher",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["This course helps students improve their English."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": [
-              "Her research helped scientists learn more about radioactive elements."
-            ],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...Her research helped scientists learn more about radioactive elements.",
-            "id": "PS01_a111"
-          }
-        ]
-      },
-      {
-        "type": "A1",
-        "fsp": "Where was she born?",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "name": "Emily",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["She was born in Warsaw, Poland."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["She was born in Paris, France."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [{ "st": "Where was she born?", "id": "PS01_a0" }]
-      },
-      {
-        "type": "A2",
-        "fsp": "Is this sentence correct or incorrect? She was born in Paris, France.",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "name": "Emily",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["incorrect"],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["correct"],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Is this sentence correct or incorrect? She was born in Paris, France.",
-            "id": "PS01_a60"
-          }
-        ]
-      },
-      {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...Paris is best known for its famous landmarks.",
-        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
-        "name": "Michael",
-        "gender": "male",
-        "data": [
-          {
-            "qs": [
-              "Marie Curie is best known for her research on radioactivity."
-            ],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": ["Paris is best known for its famous landmarks."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...Paris is best known for its famous landmarks.",
-            "id": "PS01_a159"
-          }
-        ]
-      },
-      {
-        "type": "A2",
-        "fsp": "Is this sentence correct or incorrect? She studied literature and music.",
-        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
-        "name": "Sarah",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["incorrect"],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["correct"],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Is this sentence correct or incorrect? She studied literature and music.",
-            "id": "PS01_a72"
-          }
-        ]
-      },
-      {
-        "type": "A1",
-        "fsp": "When was she born?",
-        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
-        "name": "David",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["She was born in 1867."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": ["She was born in 1911."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [{ "st": "When was she born?", "id": "PS01_a3" }]
-      },
-      {
-        "type": "A2",
-        "fsp": "Is this sentence correct or incorrect? We can learn that intelligence alone is enough for success.",
-        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
-        "name": "Jennifer",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["incorrect"],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["correct"],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Is this sentence correct or incorrect? We can learn that intelligence alone is enough for success.",
-            "id": "PS01_a84"
-          }
-        ]
-      },
-      {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...Her achievements were important not only because she received major awards, but also because her research contributed to science and medicine.",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "name": "Emily",
-        "gender": "female",
-        "data": [
-          {
-            "qs": [
-              "The trip was valuable not only because it was fun, but also because I learned a lot."
-            ],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": [
-              "Her achievements were important not only because she received major awards, but also because her research contributed to science and medicine."
-            ],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...Her achievements were important not only because she received major awards, but also because her research contributed to science and medicine.",
-            "id": "PS01_a120"
-          }
-        ]
-      },
-      {
-        "type": "A1",
-        "fsp": "What difficulties did she face?",
-        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
-        "name": "Christopher",
-        "gender": "male",
-        "data": [
-          {
-            "qs": [
-              "She faced difficulties in scientific research and barriers in education and professional life."
-            ],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": ["She had no difficulties in her education or career."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          { "st": "What difficulties did she face?", "id": "PS01_a21" }
-        ]
-      },
-      {
-        "type": "A2",
-        "fsp": "Is this sentence correct or incorrect? She had no difficulties in her education or career.",
-        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
-        "name": "Christopher",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["incorrect"],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": ["correct"],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Is this sentence correct or incorrect? She had no difficulties in her education or career.",
-            "id": "PS01_a81"
-          }
-        ]
-      },
-      {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...She was born in Warsaw, Poland, in 1867.",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "name": "Emily",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["Mandela was born in South Africa in 1918."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["She was born in Warsaw, Poland, in 1867."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...She was born in Warsaw, Poland, in 1867.",
-            "id": "PS01_a90"
-          }
-        ]
-      },
-      {
+        "H0-01": "8[RANDOM:2,3,4]",
+        "H0-02": "“received the Nobel Prize” means what?",
+        "H0-03": "She was awarded the Nobel Prize.",
+        "H0-04": "She applied for the prize but lost.",
+        "H0-05": "She refused the prize.",
         "type": "B1",
         "fsp": "Which sentence shares the same structure as the sentence...What I find most interesting about this city is its history.",
         "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
@@ -1668,346 +621,19 @@
         ]
       },
       {
+        "H0-01": "STT",
+        "H0-02": "Hỏi",
+        "H0-03": "Câu A",
+        "H0-04": "Câu B",
+        "H0-05": null,
         "type": "A2",
-        "fsp": "Is this sentence correct or incorrect? She was born in Warsaw, Poland.",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "name": "Emily",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["correct"],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["incorrect"],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Is this sentence correct or incorrect? She was born in Warsaw, Poland.",
-            "id": "PS01_a30"
-          }
-        ]
-      },
-      {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...She received the Nobel Prize in Physics in 1903.",
-        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
-        "name": "Jennifer",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["He received an award for his work."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["She received the Nobel Prize in Physics in 1903."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...She received the Nobel Prize in Physics in 1903.",
-            "id": "PS01_a114"
-          }
-        ]
-      },
-      {
-        "type": "A2",
-        "fsp": "Is this sentence correct or incorrect? We can learn that curiosity, hard work and persistence are important for success.",
-        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
-        "name": "Jennifer",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["correct"],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["incorrect"],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Is this sentence correct or incorrect? We can learn that curiosity, hard work and persistence are important for success.",
-            "id": "PS01_a54"
-          }
-        ]
-      },
-      {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...He became very interested in photography.",
-        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
-        "name": "Jessica",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["She became deeply interested in scientific research."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["He became very interested in photography."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...He became very interested in photography.",
-            "id": "PS01_a156"
-          }
-        ]
-      },
-      {
-        "type": "A2",
-        "fsp": "Is this sentence correct or incorrect? She moved to France to stop her education.",
-        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
-        "name": "Michael",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["incorrect"],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": ["correct"],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Is this sentence correct or incorrect? She moved to France to stop her education.",
-            "id": "PS01_a69"
-          }
-        ]
-      },
-      {
-        "type": "A2",
-        "fsp": "Is this sentence correct or incorrect? She was born in 1911.",
-        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
-        "name": "David",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["incorrect"],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": ["correct"],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Is this sentence correct or incorrect? She was born in 1911.",
-            "id": "PS01_a63"
-          }
-        ]
-      },
-      {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...She later won another Nobel Prize in Chemistry.",
-        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
-        "name": "Joshua",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["He later received another important award."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": ["She later won another Nobel Prize in Chemistry."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...She later won another Nobel Prize in Chemistry.",
-            "id": "PS01_a117"
-          }
-        ]
-      },
-      {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...Her research contributed to the development of modern science and medicine.",
-        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
-        "name": "David",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["Education contributes to social development."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": [
-              "Her research contributed to the development of modern science and medicine."
-            ],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...Her research contributed to the development of modern science and medicine.",
-            "id": "PS01_a123"
-          }
-        ]
-      },
-      {
-        "type": "A2",
-        "fsp": "Is this sentence correct or incorrect? She researched ancient history.",
-        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
-        "name": "Andrew",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["incorrect"],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": ["correct"],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Is this sentence correct or incorrect? She researched ancient history.",
-            "id": "PS01_a75"
-          }
-        ]
-      },
-      {
-        "type": "A2",
-        "fsp": "Is this sentence correct or incorrect? She was one of the most important scientists in modern history.",
-        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
-        "name": "Joshua",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["correct"],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": ["incorrect"],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Is this sentence correct or incorrect? She was one of the most important scientists in modern history.",
-            "id": "PS01_a57"
-          }
-        ]
-      },
-      {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...Marie Curie is best known for her research on radioactivity.",
+        "fsp": "Is this sentence correct or incorrect? She studied science and mathematics.",
         "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
         "name": "Sarah",
         "gender": "female",
         "data": [
           {
-            "qs": ["Paris is best known for its famous landmarks."],
+            "qs": ["correct"],
             "aw": ["Ok", "Good", "Very good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -2018,9 +644,7 @@
             ]
           },
           {
-            "qs": [
-              "Marie Curie is best known for her research on radioactivity."
-            ],
+            "qs": ["incorrect"],
             "aw": ["That is a wrong answer!"],
             "action": ["Wrong"],
             "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
@@ -2029,20 +653,96 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Which sentence shares the same structure as the sentence...Marie Curie is best known for her research on radioactivity.",
-            "id": "PS01_a102"
+            "st": "Is this sentence correct or incorrect? She studied science and mathematics.",
+            "id": "PS01_a42"
           }
         ]
       },
       {
+        "H0-01": 2,
+        "H0-02": "BACKGROUND",
+        "H0-03": "Bà sinh tại Warsaw, Ba Lan, năm 1867 và sau đó chuyển đến Pháp để tiếp tục học tập.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "A1",
+        "fsp": "What did she study?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["She studied science and mathematics."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["She studied literature and music."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What did she study?", "id": "PS01_a12" }]
+      },
+      {
+        "H0-01": "[RANDOM:1,2,3,4]",
+        "H0-02": "This course helps students improve their English.",
+        "H0-03": "He received an award for his work.",
+        "H0-04": "He later received another important award.",
+        "H0-05": "The trip was valuable not only because it was fun, but also because I learned a lot.",
         "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...She continued working and studying instead of giving up.",
-        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
-        "name": "Andrew",
+        "fsp": "Which sentence shares the same structure as the sentence...He moved to Hanoi to find a job.",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["She later moved to France to continue her education."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["He moved to Hanoi to find a job."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...He moved to Hanoi to find a job.",
+            "id": "PS01_a150"
+          }
+        ]
+      },
+      {
+        "H0-01": "X",
+        "H0-02": null,
+        "H0-03": "X",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "A1",
+        "fsp": "When was she born?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
         "gender": "male",
         "data": [
           {
-            "qs": ["He continued practicing instead of stopping."],
+            "qs": ["She was born in 1867."],
             "aw": ["Ok", "Good", "Very good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -2053,21 +753,21 @@
             ]
           },
           {
-            "qs": ["She continued working and studying instead of giving up."],
+            "qs": ["She was born in 1911."],
             "aw": ["That is a wrong answer!"],
             "action": ["Wrong"],
             "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
           }
         ],
         "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...She continued working and studying instead of giving up.",
-            "id": "PS01_a135"
-          }
-        ]
+        "fspSets": [{ "st": "When was she born?", "id": "PS01_a3" }]
       },
       {
+        "H0-01": 9,
+        "H0-02": "DIFFICULTY & DETERMINATION",
+        "H0-03": "Bà gặp nhiều khó khăn, đặc biệt trong bối cảnh phụ nữ phải đối mặt với nhiều rào cản, nhưng bà không bỏ cuộc.",
+        "H0-04": null,
+        "H0-05": null,
         "type": "A2",
         "fsp": "Is this sentence correct or incorrect? She was born in 1867.",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
@@ -2101,6 +801,82 @@
         ]
       },
       {
+        "H0-01": "STT",
+        "H0-02": "Keyword",
+        "H0-03": "Nội dung tóm tắt",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "A1",
+        "fsp": "Where did she later move?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["She later moved to France."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["She later moved to Germany."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where did she later move?", "id": "PS01_a6" }]
+      },
+      {
+        "H0-01": 10,
+        "H0-02": "S + receive + N",
+        "H0-03": "She received the Nobel Prize in Physics in 1903.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Her research led to important discoveries.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Exercise can lead to better health."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["Her research led to important discoveries."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Her research led to important discoveries.",
+            "id": "PS01_a108"
+          }
+        ]
+      },
+      {
+        "H0-01": 3,
+        "H0-02": "S + move to + place + to + V",
+        "H0-03": "She later moved to France to continue her education.",
+        "H0-04": null,
+        "H0-05": null,
         "type": "A2",
         "fsp": "Is this sentence correct or incorrect? She was one of the most important politicians in modern history.",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
@@ -2134,43 +910,15 @@
         ]
       },
       {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...She worked hard to understand this unusual phenomenon.",
-        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
-        "name": "Andrew",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["They worked hard to achieve their goal."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": ["She worked hard to understand this unusual phenomenon."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...She worked hard to understand this unusual phenomenon.",
-            "id": "PS01_a105"
-          }
-        ]
-      },
-      {
+        "H0-01": "X",
+        "H0-02": "BÀI TẬP 1: NỘI DUNG",
+        "H0-03": "X",
+        "H0-04": null,
+        "H0-05": null,
         "type": "A2",
-        "fsp": "Is this sentence correct or incorrect? She faced difficulties in scientific research and barriers in education and professional life.",
-        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
-        "name": "Christopher",
+        "fsp": "Is this sentence correct or incorrect? She moved to France to continue her education.",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
         "gender": "male",
         "data": [
           {
@@ -2194,124 +942,141 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Is this sentence correct or incorrect? She faced difficulties in scientific research and barriers in education and professional life.",
-            "id": "PS01_a51"
+            "st": "Is this sentence correct or incorrect? She moved to France to continue her education.",
+            "id": "PS01_a39"
           }
         ]
       },
       {
+        "H0-01": "13[RANDOM:2,3,4]",
+        "H0-02": "“faced many barriers” means what?",
+        "H0-03": "Experienced many difficulties or obstacles.",
+        "H0-04": "Had an easy experience.",
+        "H0-05": "Avoided all difficulties.",
         "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...Her work helped create a better understanding of radiation.",
-        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
-        "name": "Jessica",
-        "gender": "female",
+        "fsp": "Which sentence shares the same structure as the sentence...His work continues to influence young scientists.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
         "data": [
           {
-            "qs": ["Experience helps create a better understanding of people."],
+            "qs": ["She continues to inspire people today."],
             "aw": ["Ok", "Good", "Very good"],
             "submit": ["FN01"],
             "action": ["FN01"],
             "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
             ]
           },
+          {
+            "qs": ["His work continues to influence young scientists."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...His work continues to influence young scientists.",
+            "id": "PS01_a201"
+          }
+        ]
+      },
+      {
+        "H0-01": 5,
+        "H0-02": "EFFORT",
+        "H0-03": "Bà làm việc chăm chỉ để tìm hiểu hiện tượng này khi nghiên cứu khoa học vẫn đang phát triển.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "A1",
+        "fsp": "What difficulties did she face?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "She faced difficulties in scientific research and barriers in education and professional life."
+            ],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": ["She had no difficulties in her education or career."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What difficulties did she face?", "id": "PS01_a21" }
+        ]
+      },
+      {
+        "H0-01": "7[RANDOM:2,3,4]",
+        "H0-02": "“helped scientists learn more” means what?",
+        "H0-03": "It helped scientists gain more knowledge.",
+        "H0-04": "It made scientists know less.",
+        "H0-05": "It stopped scientists from learning.",
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Experience helps create a better understanding of people.",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
           {
             "qs": [
               "Her work helped create a better understanding of radiation."
             ],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...Her work helped create a better understanding of radiation.",
-            "id": "PS01_a126"
-          }
-        ]
-      },
-      {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...Education contributes to social development.",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "name": "Emily",
-        "gender": "female",
-        "data": [
-          {
-            "qs": [
-              "Her research contributed to the development of modern science and medicine."
-            ],
             "aw": ["Ok", "Good", "Very good"],
             "submit": ["FN01"],
             "action": ["FN01"],
             "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
             ]
           },
           {
-            "qs": ["Education contributes to social development."],
+            "qs": ["Experience helps create a better understanding of people."],
             "aw": ["That is a wrong answer!"],
             "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
           }
         ],
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Which sentence shares the same structure as the sentence...Education contributes to social development.",
-            "id": "PS01_a180"
+            "st": "Which sentence shares the same structure as the sentence...Experience helps create a better understanding of people.",
+            "id": "PS01_a183"
           }
         ]
       },
       {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...She continues to inspire people today.",
-        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
-        "name": "Jennifer",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["His work continues to influence young scientists."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["She continues to inspire people today."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...She continues to inspire people today.",
-            "id": "PS01_a144"
-          }
-        ]
-      },
-      {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...The trip was valuable not only because it was fun, but also because I learned a lot.",
+        "H0-01": 7,
+        "H0-02": "ACHIEVEMENT",
+        "H0-03": "Bà nhận giải Nobel Vật lý năm 1903 và giải Nobel Hóa học năm 1911.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "A1",
+        "fsp": "Who was Marie Curie?",
         "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
         "name": "Joshua",
         "gender": "male",
         "data": [
           {
             "qs": [
-              "Her achievements were important not only because she received major awards, but also because her research contributed to science and medicine."
+              "She was one of the most important scientists in modern history."
             ],
             "aw": ["Ok", "Good", "Very good"],
             "submit": ["FN01"],
@@ -2324,7 +1089,7 @@
           },
           {
             "qs": [
-              "The trip was valuable not only because it was fun, but also because I learned a lot."
+              "She was one of the most important politicians in modern history."
             ],
             "aw": ["That is a wrong answer!"],
             "action": ["Wrong"],
@@ -2332,22 +1097,22 @@
           }
         ],
         "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...The trip was valuable not only because it was fun, but also because I learned a lot.",
-            "id": "PS01_a177"
-          }
-        ]
+        "fspSets": [{ "st": "Who was Marie Curie?", "id": "PS01_a27" }]
       },
       {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...She studied science and mathematics.",
-        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
-        "name": "Jessica",
+        "H0-01": 2,
+        "H0-02": "S + be born + in + place + in + year",
+        "H0-03": "She was born in Warsaw, Poland, in 1867.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? We can learn that intelligence alone is enough for success.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
         "gender": "female",
         "data": [
           {
-            "qs": ["She studied English and history."],
+            "qs": ["incorrect"],
             "aw": ["Ok", "Good", "Very good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -2358,7 +1123,7 @@
             ]
           },
           {
-            "qs": ["She studied science and mathematics."],
+            "qs": ["correct"],
             "aw": ["That is a wrong answer!"],
             "action": ["Wrong"],
             "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
@@ -2367,12 +1132,88 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Which sentence shares the same structure as the sentence...She studied science and mathematics.",
-            "id": "PS01_a96"
+            "st": "Is this sentence correct or incorrect? We can learn that intelligence alone is enough for success.",
+            "id": "PS01_a84"
           }
         ]
       },
       {
+        "H0-01": "[MERGE]",
+        "H0-02": "A Person Who Changed the World\n\nMarie Curie was one of the most important scientists in modern history. She was born in Warsaw, Poland, in 1867 and later moved to France to continue her education. She studied science and mathematics and became deeply interested in scientific research.\n\nMarie Curie is best known for her research on radioactivity. At a time when scientific research was still developing, she worked hard to understand this unusual phenomenon. Her research led to important discoveries and helped scientists learn more about radioactive elements. She received the Nobel Prize in Physics in 1903 and later won another Nobel Prize in Chemistry in 1911.\n\nHer achievements were important not only because she received major awards, but also because her research contributed to the development of modern science and medicine. Her work helped create a better understanding of radiation and its possible uses.\n\nWhat I find most impressive about Marie Curie is her determination. Scientific research was difficult, and women faced many barriers in education and professional life at that time. However, she continued working and studying instead of giving up.\n\nI think Marie Curie's life teaches us that success does not come only from intelligence. Curiosity, hard work and persistence are also important. For this reason, she is a person who changed the world and continues to inspire people today.",
+        "H0-03": null,
+        "H0-04": null,
+        "H0-05": null,
+        "type": "A1",
+        "fsp": "Where was she born?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["She was born in Warsaw, Poland."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["She was born in Paris, France."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "Where was she born?", "id": "PS01_a0" }]
+      },
+      {
+        "H0-01": 8,
+        "H0-02": "CONTRIBUTION",
+        "H0-03": "Công trình của bà góp phần vào sự phát triển của khoa học và y học hiện đại.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? She was born in Warsaw, Poland.",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["correct"],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? She was born in Warsaw, Poland.",
+            "id": "PS01_a30"
+          }
+        ]
+      },
+      {
+        "H0-01": 18,
+        "H0-02": "S + teach + O + that + clause",
+        "H0-03": "Marie Curie's life teaches us that success does not come only from intelligence.",
+        "H0-04": null,
+        "H0-05": null,
         "type": "B1",
         "fsp": "Which sentence shares the same structure as the sentence...Women faced many barriers in education and professional life.",
         "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
@@ -2408,80 +1249,19 @@
         ]
       },
       {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...Her research led to important discoveries.",
-        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
-        "name": "Ashley",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["Exercise can lead to better health."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": ["Her research led to important discoveries."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...Her research led to important discoveries.",
-            "id": "PS01_a108"
-          }
-        ]
-      },
-      {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...She later moved to France to continue her education.",
-        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
-        "name": "David",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["He moved to Hanoi to find a job."],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a4b1" },
-              { "st": "Good", "id": "PS01_a4b2" },
-              { "st": "Very good", "id": "PS01_a4b3" }
-            ]
-          },
-          {
-            "qs": ["She later moved to France to continue her education."],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...She later moved to France to continue her education.",
-            "id": "PS01_a93"
-          }
-        ]
-      },
-      {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...Exercise can lead to better health.",
+        "H0-01": 3,
+        "H0-02": "EDUCATION",
+        "H0-03": "Bà học khoa học và toán học, sau đó đặc biệt quan tâm đến nghiên cứu khoa học.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "A1",
+        "fsp": "What did she research?",
         "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
         "name": "Andrew",
         "gender": "male",
         "data": [
           {
-            "qs": ["Her research led to important discoveries."],
+            "qs": ["She researched radioactivity."],
             "aw": ["Ok", "Good", "Very good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -2492,67 +1272,30 @@
             ]
           },
           {
-            "qs": ["Exercise can lead to better health."],
+            "qs": ["She researched ancient history."],
             "aw": ["That is a wrong answer!"],
             "action": ["Wrong"],
             "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
           }
         ],
         "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...Exercise can lead to better health.",
-            "id": "PS01_a165"
-          }
-        ]
+        "fspSets": [{ "st": "What did she research?", "id": "PS01_a15" }]
       },
       {
+        "H0-01": "9[RANDOM:2,3,4]",
+        "H0-02": "“not only because..., but also because...” means what?",
+        "H0-03": "There were two important reasons.",
+        "H0-04": "There was only one reason.",
+        "H0-05": "Neither reason was important.",
         "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...Marie Curie's life teaches us that success does not come only from intelligence.",
-        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
-        "name": "Ashley",
-        "gender": "female",
-        "data": [
-          {
-            "qs": [
-              "His experience teaches us that mistakes are part of learning."
-            ],
-            "aw": ["Ok", "Good", "Very good"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [
-              { "st": "Ok", "id": "PS01_a1b1" },
-              { "st": "Good", "id": "PS01_a1b2" },
-              { "st": "Very good", "id": "PS01_a1b3" }
-            ]
-          },
-          {
-            "qs": [
-              "Marie Curie's life teaches us that success does not come only from intelligence."
-            ],
-            "aw": ["That is a wrong answer!"],
-            "action": ["Wrong"],
-            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [
-          {
-            "st": "Which sentence shares the same structure as the sentence...Marie Curie's life teaches us that success does not come only from intelligence.",
-            "id": "PS01_a138"
-          }
-        ]
-      },
-      {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...What I find most impressive about Marie Curie is her determination.",
+        "fsp": "Which sentence shares the same structure as the sentence...Young people face many challenges today.",
         "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
         "name": "Michael",
         "gender": "male",
         "data": [
           {
             "qs": [
-              "What I find most interesting about this city is its history."
+              "Women faced many barriers in education and professional life."
             ],
             "aw": ["Ok", "Good", "Very good"],
             "submit": ["FN01"],
@@ -2564,9 +1307,7 @@
             ]
           },
           {
-            "qs": [
-              "What I find most impressive about Marie Curie is her determination."
-            ],
+            "qs": ["Young people face many challenges today."],
             "aw": ["That is a wrong answer!"],
             "action": ["Wrong"],
             "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
@@ -2575,20 +1316,25 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Which sentence shares the same structure as the sentence...What I find most impressive about Marie Curie is her determination.",
-            "id": "PS01_a129"
+            "st": "Which sentence shares the same structure as the sentence...Young people face many challenges today.",
+            "id": "PS01_a189"
           }
         ]
       },
       {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...They worked hard to achieve their goal.",
-        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
-        "name": "Sarah",
+        "H0-01": "8[RANDOM:2,3,4]",
+        "H0-02": "What Nobel Prizes did she win?",
+        "H0-03": "She won the Nobel Prize in Physics and the Nobel Prize in Chemistry.",
+        "H0-04": "She won the Nobel Prizes in Literature and Peace.",
+        "H0-05": null,
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? She later moved to Germany.",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
         "gender": "female",
         "data": [
           {
-            "qs": ["She worked hard to understand this unusual phenomenon."],
+            "qs": ["incorrect"],
             "aw": ["Ok", "Good", "Very good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -2599,7 +1345,7 @@
             ]
           },
           {
-            "qs": ["They worked hard to achieve their goal."],
+            "qs": ["correct"],
             "aw": ["That is a wrong answer!"],
             "action": ["Wrong"],
             "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
@@ -2608,20 +1354,105 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Which sentence shares the same structure as the sentence...They worked hard to achieve their goal.",
-            "id": "PS01_a162"
+            "st": "Is this sentence correct or incorrect? She later moved to Germany.",
+            "id": "PS01_a66"
           }
         ]
       },
       {
+        "H0-01": 14,
+        "H0-02": "S + help create + N",
+        "H0-03": "Her work helped create a better understanding of radiation.",
+        "H0-04": null,
+        "H0-05": null,
         "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...Mandela was born in South Africa in 1918.",
-        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
-        "name": "Joshua",
+        "fsp": "Which sentence shares the same structure as the sentence...Her achievements were important not only because she received major awards, but also because her research contributed to science and medicine.",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "The trip was valuable not only because it was fun, but also because I learned a lot."
+            ],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "Her achievements were important not only because she received major awards, but also because her research contributed to science and medicine."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Her achievements were important not only because she received major awards, but also because her research contributed to science and medicine.",
+            "id": "PS01_a120"
+          }
+        ]
+      },
+      {
+        "H0-01": "6[RANDOM:2,3,4]",
+        "H0-02": "What did she study?",
+        "H0-03": "She studied science and mathematics.",
+        "H0-04": "She studied literature and music.",
+        "H0-05": null,
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? She was born in Paris, France.",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["incorrect"],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? She was born in Paris, France.",
+            "id": "PS01_a60"
+          }
+        ]
+      },
+      {
+        "H0-01": 1,
+        "H0-02": "WHO",
+        "H0-03": "Marie Curie là một trong những nhà khoa học quan trọng nhất trong lịch sử hiện đại.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "A1",
+        "fsp": "Why did she move to France?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
         "gender": "male",
         "data": [
           {
-            "qs": ["She was born in Warsaw, Poland, in 1867."],
+            "qs": ["She moved to France to continue her education."],
             "aw": ["Ok", "Good", "Very good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -2632,21 +1463,59 @@
             ]
           },
           {
-            "qs": ["Mandela was born in South Africa in 1918."],
+            "qs": ["She moved to France to stop her education."],
             "aw": ["That is a wrong answer!"],
             "action": ["Wrong"],
             "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
           }
         ],
         "submit": ["FN01"],
+        "fspSets": [{ "st": "Why did she move to France?", "id": "PS01_a9" }]
+      },
+      {
+        "H0-01": "4[RANDOM:2,3,4]",
+        "H0-02": "Where did she later move?",
+        "H0-03": "She later moved to France.",
+        "H0-04": "She later moved to Germany.",
+        "H0-05": null,
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? We can learn that curiosity, hard work and persistence are important for success.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["correct"],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Which sentence shares the same structure as the sentence...Mandela was born in South Africa in 1918.",
-            "id": "PS01_a147"
+            "st": "Is this sentence correct or incorrect? We can learn that curiosity, hard work and persistence are important for success.",
+            "id": "PS01_a54"
           }
         ]
       },
       {
+        "H0-01": "10[RANDOM:2,3,4]",
+        "H0-02": "“contributed to the development of” means what?",
+        "H0-03": "Helped something develop.",
+        "H0-04": "Prevented something from developing.",
+        "H0-05": "Had no connection with development.",
         "type": "B1",
         "fsp": "Which sentence shares the same structure as the sentence...He continued practicing instead of stopping.",
         "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
@@ -2680,15 +1549,20 @@
         ]
       },
       {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...This course helps students improve their English.",
-        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
-        "name": "Ashley",
+        "H0-01": 6,
+        "H0-02": "DISCOVERY",
+        "H0-03": "Nghiên cứu của bà dẫn đến những phát hiện quan trọng và giúp các nhà khoa học hiểu thêm về các nguyên tố phóng xạ.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "A1",
+        "fsp": "What can we learn from her life?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
         "gender": "female",
         "data": [
           {
             "qs": [
-              "Her research helped scientists learn more about radioactive elements."
+              "We can learn that curiosity, hard work and persistence are important for success."
             ],
             "aw": ["Ok", "Good", "Very good"],
             "submit": ["FN01"],
@@ -2700,7 +1574,44 @@
             ]
           },
           {
-            "qs": ["This course helps students improve their English."],
+            "qs": [
+              "We can learn that intelligence alone is enough for success."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What can we learn from her life?", "id": "PS01_a24" }
+        ]
+      },
+      {
+        "H0-01": "4[RANDOM:2,3,4]",
+        "H0-02": "“is best known for” means what?",
+        "H0-03": "She is particularly famous for.",
+        "H0-04": "She is unknown for.",
+        "H0-05": "She is famous for something unrelated.",
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...He later received another important award.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["She later won another Nobel Prize in Chemistry."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["He later received another important award."],
             "aw": ["That is a wrong answer!"],
             "action": ["Wrong"],
             "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
@@ -2709,20 +1620,25 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Which sentence shares the same structure as the sentence...This course helps students improve their English.",
-            "id": "PS01_a168"
+            "st": "Which sentence shares the same structure as the sentence...He later received another important award.",
+            "id": "PS01_a174"
           }
         ]
       },
       {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...She studied English and history.",
-        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
-        "name": "David",
+        "H0-01": "9[RANDOM:2,3,4]",
+        "H0-02": "What difficulties did she face?",
+        "H0-03": "She faced difficulties in scientific research and barriers in education and professional life.",
+        "H0-04": "She had no difficulties in her education or career.",
+        "H0-05": null,
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? She moved to France to stop her education.",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
         "gender": "male",
         "data": [
           {
-            "qs": ["She studied science and mathematics."],
+            "qs": ["incorrect"],
             "aw": ["Ok", "Good", "Very good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -2733,7 +1649,7 @@
             ]
           },
           {
-            "qs": ["She studied English and history."],
+            "qs": ["correct"],
             "aw": ["That is a wrong answer!"],
             "action": ["Wrong"],
             "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
@@ -2742,20 +1658,25 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Which sentence shares the same structure as the sentence...She studied English and history.",
-            "id": "PS01_a153"
+            "st": "Is this sentence correct or incorrect? She moved to France to stop her education.",
+            "id": "PS01_a69"
           }
         ]
       },
       {
-        "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...He received an award for his work.",
+        "H0-01": "3[RANDOM:2,3,4]",
+        "H0-02": "When was she born?",
+        "H0-03": "She was born in 1867.",
+        "H0-04": "She was born in 1911.",
+        "H0-05": null,
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? She faced difficulties in scientific research and barriers in education and professional life.",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
         "data": [
           {
-            "qs": ["She received the Nobel Prize in Physics in 1903."],
+            "qs": ["correct"],
             "aw": ["Ok", "Good", "Very good"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -2766,7 +1687,7 @@
             ]
           },
           {
-            "qs": ["He received an award for his work."],
+            "qs": ["incorrect"],
             "aw": ["That is a wrong answer!"],
             "action": ["Wrong"],
             "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
@@ -2775,12 +1696,131 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Which sentence shares the same structure as the sentence...He received an award for his work.",
-            "id": "PS01_a171"
+            "st": "Is this sentence correct or incorrect? She faced difficulties in scientific research and barriers in education and professional life.",
+            "id": "PS01_a51"
           }
         ]
       },
       {
+        "H0-01": 7,
+        "H0-02": "S + V + hard + to + V",
+        "H0-03": "She worked hard to understand this unusual phenomenon.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...She became deeply interested in scientific research.",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["He became very interested in photography."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": ["She became deeply interested in scientific research."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...She became deeply interested in scientific research.",
+            "id": "PS01_a99"
+          }
+        ]
+      },
+      {
+        "H0-01": 9,
+        "H0-02": "S + help + O + V",
+        "H0-03": "Her research helped scientists learn more about radioactive elements.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...She worked hard to understand this unusual phenomenon.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["They worked hard to achieve their goal."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": ["She worked hard to understand this unusual phenomenon."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...She worked hard to understand this unusual phenomenon.",
+            "id": "PS01_a105"
+          }
+        ]
+      },
+      {
+        "H0-01": "7[RANDOM:2,3,4]",
+        "H0-02": "What did she research?",
+        "H0-03": "She researched radioactivity.",
+        "H0-04": "She researched ancient history.",
+        "H0-05": null,
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? She was born in 1911.",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["incorrect"],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": ["correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? She was born in 1911.",
+            "id": "PS01_a63"
+          }
+        ]
+      },
+      {
+        "H0-01": "11[RANDOM:2,3,4]",
+        "H0-02": "“a better understanding of radiation” means what?",
+        "H0-03": "A clearer knowledge of radiation.",
+        "H0-04": "Less knowledge about radiation.",
+        "H0-05": "No knowledge about radiation.",
         "type": "B1",
         "fsp": "Which sentence shares the same structure as the sentence...His experience teaches us that mistakes are part of learning.",
         "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
@@ -2818,15 +1858,594 @@
         ]
       },
       {
+        "H0-01": "1[RANDOM:2,3,4]",
+        "H0-02": "Who was Marie Curie?",
+        "H0-03": "She was one of the most important scientists in modern history.",
+        "H0-04": "She was one of the most important politicians in modern history.",
+        "H0-05": null,
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? She researched radioactivity.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["correct"],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? She researched radioactivity.",
+            "id": "PS01_a45"
+          }
+        ]
+      },
+      {
+        "H0-01": "2[RANDOM:2,3,4]",
+        "H0-02": "Where was she born?",
+        "H0-03": "She was born in Warsaw, Poland.",
+        "H0-04": "She was born in Paris, France.",
+        "H0-05": null,
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? She won the Nobel Prize in Physics and the Nobel Prize in Chemistry.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["correct"],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? She won the Nobel Prize in Physics and the Nobel Prize in Chemistry.",
+            "id": "PS01_a48"
+          }
+        ]
+      },
+      {
+        "H0-01": 4,
+        "H0-02": "S + V + O1 + and + O2",
+        "H0-03": "She studied science and mathematics.",
+        "H0-04": null,
+        "H0-05": null,
         "type": "B1",
-        "fsp": "Which sentence shares the same structure as the sentence...Experience helps create a better understanding of people.",
+        "fsp": "Which sentence shares the same structure as the sentence...She was born in Warsaw, Poland, in 1867.",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Mandela was born in South Africa in 1918."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["She was born in Warsaw, Poland, in 1867."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...She was born in Warsaw, Poland, in 1867.",
+            "id": "PS01_a90"
+          }
+        ]
+      },
+      {
+        "H0-01": "6[RANDOM:2,3,4]",
+        "H0-02": "“led to important discoveries” means what?",
+        "H0-03": "Her research resulted in important discoveries.",
+        "H0-04": "Her research prevented discoveries.",
+        "H0-05": "Her research had no results.",
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Education contributes to social development.",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "Her research contributed to the development of modern science and medicine."
+            ],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["Education contributes to social development."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Education contributes to social development.",
+            "id": "PS01_a180"
+          }
+        ]
+      },
+      {
+        "H0-01": 1,
+        "H0-02": "S + be + one of the + superlative + plural N",
+        "H0-03": "Marie Curie was one of the most important scientists in modern history.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? She had no difficulties in her education or career.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["incorrect"],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": ["correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? She had no difficulties in her education or career.",
+            "id": "PS01_a81"
+          }
+        ]
+      },
+      {
+        "H0-01": "3[RANDOM:2,3,4]",
+        "H0-02": "“became deeply interested in scientific research” means what?",
+        "H0-03": "She developed a strong interest in scientific research.",
+        "H0-04": "She lost interest in scientific research.",
+        "H0-05": "She disliked scientific research.",
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...He received an award for his work.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["She received the Nobel Prize in Physics in 1903."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": ["He received an award for his work."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...He received an award for his work.",
+            "id": "PS01_a171"
+          }
+        ]
+      },
+      {
+        "H0-01": "Stt",
+        "H0-02": "Cấu trúc câu trong bài đã dùng",
+        "H0-03": "Nội dung trong bài",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? She won the Nobel Prizes in Literature and Peace.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["incorrect"],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? She won the Nobel Prizes in Literature and Peace.",
+            "id": "PS01_a78"
+          }
+        ]
+      },
+      {
+        "H0-01": "[RANDOM:1,2,3,4]",
+        "H0-02": "Hanoi is one of the largest cities in Vietnam.",
+        "H0-03": "Mandela was born in South Africa in 1918.",
+        "H0-04": "He moved to Hanoi to find a job.",
+        "H0-05": "She studied English and history.",
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...She continues to inspire people today.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["His work continues to influence young scientists."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["She continues to inspire people today."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...She continues to inspire people today.",
+            "id": "PS01_a144"
+          }
+        ]
+      },
+      {
+        "H0-01": "10[RANDOM:2,3,4]",
+        "H0-02": "What can we learn from her life?",
+        "H0-03": "We can learn that curiosity, hard work and persistence are important for success.",
+        "H0-04": "We can learn that intelligence alone is enough for success.",
+        "H0-05": null,
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? She studied literature and music.",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["incorrect"],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? She studied literature and music.",
+            "id": "PS01_a72"
+          }
+        ]
+      },
+      {
+        "H0-01": "[RANDOM:1,2,3,4]",
+        "H0-02": "He continued practicing instead of stopping.",
+        "H0-03": "His experience teaches us that mistakes are part of learning.",
+        "H0-04": "Patience, practice and discipline are essential.",
+        "H0-05": "His work continues to influence young scientists.",
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...He became very interested in photography.",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["She became deeply interested in scientific research."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["He became very interested in photography."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...He became very interested in photography.",
+            "id": "PS01_a156"
+          }
+        ]
+      },
+      {
+        "H0-01": "X",
+        "H0-02": "BÀI TẬP 2: MẪU CÂU",
+        "H0-03": "X",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? She researched ancient history.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["incorrect"],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": ["correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? She researched ancient history.",
+            "id": "PS01_a75"
+          }
+        ]
+      },
+      {
+        "H0-01": "5[RANDOM:2,3,4]",
+        "H0-02": "Why did she move to France?",
+        "H0-03": "She moved to France to continue her education.",
+        "H0-04": "She moved to France to stop her education.",
+        "H0-05": null,
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? She was one of the most important scientists in modern history.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["correct"],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? She was one of the most important scientists in modern history.",
+            "id": "PS01_a57"
+          }
+        ]
+      },
+      {
+        "H0-01": 8,
+        "H0-02": "S + lead to + N",
+        "H0-03": "Her research led to important discoveries.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Marie Curie is best known for her research on radioactivity.",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Paris is best known for its famous landmarks."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "Marie Curie is best known for her research on radioactivity."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Marie Curie is best known for her research on radioactivity.",
+            "id": "PS01_a102"
+          }
+        ]
+      },
+      {
+        "H0-01": "[RANDOM:1,2,3,4]",
+        "H0-02": "Education contributes to social development.",
+        "H0-03": "Experience helps create a better understanding of people.",
+        "H0-04": "What I find most interesting about this city is its history.",
+        "H0-05": "Young people face many challenges today.",
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...She studied English and history.",
         "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
         "name": "David",
         "gender": "male",
         "data": [
           {
+            "qs": ["She studied science and mathematics."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": ["She studied English and history."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...She studied English and history.",
+            "id": "PS01_a153"
+          }
+        ]
+      },
+      {
+        "H0-01": "12[RANDOM:2,3,4]",
+        "H0-02": "“her determination” means what?",
+        "H0-03": "Her strong persistence in achieving her goals.",
+        "H0-04": "Her lack of interest.",
+        "H0-05": "Her unwillingness to work.",
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Patience, practice and discipline are essential.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Curiosity, hard work and persistence are also important."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["Patience, practice and discipline are essential."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Patience, practice and discipline are essential.",
+            "id": "PS01_a198"
+          }
+        ]
+      },
+      {
+        "H0-01": "X",
+        "H0-02": "Bài tập 3",
+        "H0-03": "Hiểu sâu nghĩa của cụm từ",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Paris is best known for its famous landmarks.",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
             "qs": [
-              "Her work helped create a better understanding of radiation."
+              "Marie Curie is best known for her research on radioactivity."
             ],
             "aw": ["Ok", "Good", "Very good"],
             "submit": ["FN01"],
@@ -2838,7 +2457,7 @@
             ]
           },
           {
-            "qs": ["Experience helps create a better understanding of people."],
+            "qs": ["Paris is best known for its famous landmarks."],
             "aw": ["That is a wrong answer!"],
             "action": ["Wrong"],
             "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
@@ -2847,8 +2466,596 @@
         "submit": ["FN01"],
         "fspSets": [
           {
-            "st": "Which sentence shares the same structure as the sentence...Experience helps create a better understanding of people.",
-            "id": "PS01_a183"
+            "st": "Which sentence shares the same structure as the sentence...Paris is best known for its famous landmarks.",
+            "id": "PS01_a159"
+          }
+        ]
+      },
+      {
+        "H0-01": 5,
+        "H0-02": "S + become + Adv + interested in + N",
+        "H0-03": "She became deeply interested in scientific research.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...She later moved to France to continue her education.",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["He moved to Hanoi to find a job."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": ["She later moved to France to continue her education."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...She later moved to France to continue her education.",
+            "id": "PS01_a93"
+          }
+        ]
+      },
+      {
+        "H0-01": "1[RANDOM:2,3,4]",
+        "H0-02": "“one of the most important scientists” means what?",
+        "H0-03": "She was among the most important scientists.",
+        "H0-04": "She was an unimportant scientist.",
+        "H0-05": "She was the only important scientist.",
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Exercise can lead to better health.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Her research led to important discoveries."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": ["Exercise can lead to better health."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Exercise can lead to better health.",
+            "id": "PS01_a165"
+          }
+        ]
+      },
+      {
+        "H0-01": 13,
+        "H0-02": "S + contribute to + N",
+        "H0-03": "Her research contributed to the development of modern science and medicine.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...She later won another Nobel Prize in Chemistry.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["He later received another important award."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": ["She later won another Nobel Prize in Chemistry."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...She later won another Nobel Prize in Chemistry.",
+            "id": "PS01_a117"
+          }
+        ]
+      },
+      {
+        "H0-01": 15,
+        "H0-02": "What + S + find + Adj + about + N + is + N",
+        "H0-03": "What I find most impressive about Marie Curie is her determination.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Her research contributed to the development of modern science and medicine.",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Education contributes to social development."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "Her research contributed to the development of modern science and medicine."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Her research contributed to the development of modern science and medicine.",
+            "id": "PS01_a123"
+          }
+        ]
+      },
+      {
+        "H0-01": 12,
+        "H0-02": "S + be + Adj + not only because..., but also because...",
+        "H0-03": "Her achievements were important not only because she received major awards, but also because her research contributed to science and medicine.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...She received the Nobel Prize in Physics in 1903.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["He received an award for his work."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["She received the Nobel Prize in Physics in 1903."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...She received the Nobel Prize in Physics in 1903.",
+            "id": "PS01_a114"
+          }
+        ]
+      },
+      {
+        "H0-01": "2[RANDOM:2,3,4]",
+        "H0-02": "“continue her education” means what?",
+        "H0-03": "Continue studying and learning.",
+        "H0-04": "Stop studying.",
+        "H0-05": "Leave school permanently.",
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...This course helps students improve their English.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "Her research helped scientists learn more about radioactive elements."
+            ],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["This course helps students improve their English."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...This course helps students improve their English.",
+            "id": "PS01_a168"
+          }
+        ]
+      },
+      {
+        "H0-01": 19,
+        "H0-02": "N1 + N2 + and + N3 + be + Adj",
+        "H0-03": "Curiosity, hard work and persistence are also important.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...She continued working and studying instead of giving up.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["He continued practicing instead of stopping."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": ["She continued working and studying instead of giving up."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...She continued working and studying instead of giving up.",
+            "id": "PS01_a135"
+          }
+        ]
+      },
+      {
+        "H0-01": "[RANDOM:1,2,3,4]",
+        "H0-02": "He became very interested in photography.",
+        "H0-03": "Paris is best known for its famous landmarks.",
+        "H0-04": "They worked hard to achieve their goal.",
+        "H0-05": "Exercise can lead to better health.",
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Mandela was born in South Africa in 1918.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["She was born in Warsaw, Poland, in 1867."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": ["Mandela was born in South Africa in 1918."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Mandela was born in South Africa in 1918.",
+            "id": "PS01_a147"
+          }
+        ]
+      },
+      {
+        "H0-01": 6,
+        "H0-02": "S + be best known for + N",
+        "H0-03": "Marie Curie is best known for her research on radioactivity.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...She studied science and mathematics.",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["She studied English and history."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["She studied science and mathematics."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...She studied science and mathematics.",
+            "id": "PS01_a96"
+          }
+        ]
+      },
+      {
+        "H0-01": "Stt",
+        "H0-02": "Hỏi",
+        "H0-03": "A",
+        "H0-04": "B",
+        "H0-05": "C",
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...They worked hard to achieve their goal.",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["She worked hard to understand this unusual phenomenon."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": ["They worked hard to achieve their goal."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...They worked hard to achieve their goal.",
+            "id": "PS01_a162"
+          }
+        ]
+      },
+      {
+        "H0-01": 11,
+        "H0-02": "S + later + V + another + N",
+        "H0-03": "She later won another Nobel Prize in Chemistry.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Her research helped scientists learn more about radioactive elements.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["This course helps students improve their English."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "Her research helped scientists learn more about radioactive elements."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Her research helped scientists learn more about radioactive elements.",
+            "id": "PS01_a111"
+          }
+        ]
+      },
+      {
+        "H0-01": "5[RANDOM:2,3,4]",
+        "H0-02": "“worked hard to understand” means what?",
+        "H0-03": "She made a great effort to understand.",
+        "H0-04": "She avoided studying it.",
+        "H0-05": "She understood it without any effort.",
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The trip was valuable not only because it was fun, but also because I learned a lot.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "Her achievements were important not only because she received major awards, but also because her research contributed to science and medicine."
+            ],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "The trip was valuable not only because it was fun, but also because I learned a lot."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The trip was valuable not only because it was fun, but also because I learned a lot.",
+            "id": "PS01_a177"
+          }
+        ]
+      },
+      {
+        "H0-01": "Câu tương tự:",
+        "H0-02": null,
+        "H0-03": null,
+        "H0-04": null,
+        "H0-05": null,
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Curiosity, hard work and persistence are also important.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Patience, practice and discipline are essential."],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": ["Curiosity, hard work and persistence are also important."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Curiosity, hard work and persistence are also important.",
+            "id": "PS01_a141"
+          }
+        ]
+      },
+      {
+        "H0-01": 17,
+        "H0-02": "S + continue + V-ing + instead of + V-ing",
+        "H0-03": "She continued working and studying instead of giving up.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...What I find most impressive about Marie Curie is her determination.",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "What I find most interesting about this city is its history."
+            ],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a4b1" },
+              { "st": "Good", "id": "PS01_a4b2" },
+              { "st": "Very good", "id": "PS01_a4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "What I find most impressive about Marie Curie is her determination."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...What I find most impressive about Marie Curie is her determination.",
+            "id": "PS01_a129"
+          }
+        ]
+      },
+      {
+        "H0-01": 20,
+        "H0-02": "S + continue + to + V",
+        "H0-03": "She continues to inspire people today.",
+        "H0-04": null,
+        "H0-05": null,
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Marie Curie's life teaches us that success does not come only from intelligence.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "His experience teaches us that mistakes are part of learning."
+            ],
+            "aw": ["Ok", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Ok", "id": "PS01_a1b1" },
+              { "st": "Good", "id": "PS01_a1b2" },
+              { "st": "Very good", "id": "PS01_a1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "Marie Curie's life teaches us that success does not come only from intelligence."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PS01_a2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Marie Curie's life teaches us that success does not come only from intelligence.",
+            "id": "PS01_a138"
           }
         ]
       }
