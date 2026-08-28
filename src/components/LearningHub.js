@@ -757,6 +757,44 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                       >
                         <i className="bi bi-clipboard me-2"></i>Copy link
                       </button>
+
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-info py-0 px-1"
+                        title="Gửi bài tập"
+                        onClick={() => {
+                          try {
+                            const element =
+                              document.getElementById("clearClassForTable");
+
+                            if (!element) {
+                              console.warn(
+                                "Không tìm thấy #clearClassForTable",
+                              );
+                              return;
+                            }
+
+                            const dataGET = element.value;
+
+                            socket.emit("messageReg", {
+                              text: `BTJSON${JSON.stringify({
+                                type: "gheptu",
+                                data: dataGET,
+                              })}`,
+                              time: null,
+                              type: "text",
+                              id: null,
+                            });
+                          } catch (error) {
+                            console.error(
+                              "Lỗi khi tạo bài tập ghép từ:",
+                              error,
+                            );
+                          }
+                        }}
+                      >
+                        Bài tập ghép từ#1
+                      </button>
                     </div>
                     <i id="DeCode" className="d-none"></i>
                   </div>

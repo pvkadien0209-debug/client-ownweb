@@ -29,7 +29,7 @@ const Room = ({ setSttRoom }) => {
   const [DataPracticingCharactor, setDataPracticingCharactor] = useState(null);
   const [DataPracticingOverRoll, setDataPracticingOverRoll] = useState(null);
   const [AllHDTBIPA, setAllHDTBIPA] = useState(null);
-
+  const [AllHDTBHD, setAllHDTBHD] = useState(null);
   const [Score, setScore] = useState(0);
   const [NumberOneByOneHost, setNumberOneByOneHost] = useState(0);
   const [Message, setMessage] = useState(null);
@@ -187,6 +187,7 @@ const Room = ({ setSttRoom }) => {
       setDataPracticingCharactor(get_data.interleaveCharacters_DATA);
       setIndexSets(get_data.IndexSets);
       setAllHDTBIPA(get_data.all_HDTB_IPA);
+      setAllHDTBHD(get_data.all_HDTB_HD);
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -650,7 +651,11 @@ const Room = ({ setSttRoom }) => {
 
         {/* ── Footer: always-visible transcript listener ── */}
         <div className="room-footer">
-          <Dictaphone IsReading={IsReading} data={AllHDTBIPA} />
+          <Dictaphone
+            IsReading={IsReading}
+            data={AllHDTBIPA}
+            dataTable={AllHDTBHD}
+          />
           <div style={{ display: "none" }}>
             <button
               id="readingFalse"
@@ -719,7 +724,9 @@ function interleaveCharacters(
   const all_HDTB_IPA = (Array.isArray(data_all) ? data_all : []).flatMap((e) =>
     Array.isArray(e?.HDTB?.IP) ? e.HDTB.IP : [],
   );
-
+  const all_HDTB_HD = (Array.isArray(data_all) ? data_all : []).flatMap((e) =>
+    Array.isArray(e?.HDTB?.HD) ? e.HDTB.HD : [],
+  );
   let getdata_indexSet = [];
   if (random === "true") {
     getdata_indexSet = generateRandomArray(arrRes.length, true);
@@ -730,6 +737,7 @@ function interleaveCharacters(
     interleaveCharacters_DATA: arrRes,
     indexSet_DATA: getdata_indexSet,
     all_HDTB_IPA,
+    all_HDTB_HD,
   };
 }
 function filer_type_o_charactor(charactorSets, filerTypeSetsStringValue, fsp) {

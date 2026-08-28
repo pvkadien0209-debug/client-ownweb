@@ -443,7 +443,9 @@ export default function Header({ sttRoom, STTcfonnectFN }) {
                   style={{ marginRight: 10, borderRadius: 10 }}
                   alt="Logo PVD"
                 />
-                <b className="app-brand-text">Môi trường để rèn luyện</b>
+                <b className="app-brand-text">
+                  Luật sư Ká Điện - Doanh nghiệp Ghép âm
+                </b>
               </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

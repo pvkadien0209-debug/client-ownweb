@@ -223,7 +223,7 @@ function FINAL_PROJECT({
     if (getSTTDictaphone) disableButtonFsp();
     else {
       enableButtonFsp();
-      setBottomOpen(true);
+      setBottomOpen(false);
     }
   }, [getSTTDictaphone]);
 
@@ -509,7 +509,9 @@ function FINAL_PROJECT({
                 {bottomOpen || getSTTDictaphone ? "▼" : "▲"}
               </span>
               <span className="fp-toggle-label">
-                {bottomOpen || getSTTDictaphone ? "Thu gọn" : "🎙 Luyện nói"}
+                {bottomOpen || getSTTDictaphone
+                  ? "Thu gọn"
+                  : "🎙 Thông tin thêm"}
               </span>
             </button>
 
@@ -535,6 +537,32 @@ function FINAL_PROJECT({
                 setStartSTT={setStartSTT}
                 setMessage={setMessage}
               />
+              {playData?.hint ? (
+                isImageUrl(playData.hint) ? (
+                  <img
+                    className="fp-hint-img"
+                    src={playData.hint}
+                    loading="lazy"
+                    alt="hint"
+                  />
+                ) : (
+                  <div className="fp-hint-text">
+                    <div className="fp-hint-title">💡 Gợi ý</div>
+                    {playData.hint.includes("zzzz") ? (
+                      <div style={{ whiteSpace: "pre-line" }}>
+                        {
+                          playData.hint.split("zzzz")[
+                            numberBegin % playData.hint.split("zzzz").length
+                          ]
+                        }
+                      </div>
+                    ) : (
+                      <div>{playData.hint}</div>
+                    )}
+                  </div>
+                )
+              ) : null}
+
               <button
                 id="ngheLaiBtn"
                 className="btn btn-outline-primary fp-btn-lg"

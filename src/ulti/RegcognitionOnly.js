@@ -2,160 +2,19 @@ import React, { useEffect, useState } from "react";
 import SpeechRecognition, {
   useSpeechRecognition,
 } from "react-speech-recognition";
-import { compareTwoStrings } from "string-similarity";
-
-/* ════════════════════════════════════════════════════════════════════
-   StringSimilarityMatcher — render bảng tham khảo phiên âm khớp nhất
-   với inputString trong phrasesArray (dùng bên trong popup INFO)
-════════════════════════════════════════════════════════════════════ */
-function StringSimilarityMatcher(inputString, phrasesArray) {
-  if (
-    !phrasesArray ||
-    !Array.isArray(phrasesArray) ||
-    phrasesArray.length === 0
-  ) {
-    return null;
-  }
-  // Helper: dán thêm nội dung vào textarea đã có, không ghi đè
-  const appendToTextarea = (text) => {
-    if (!text) return;
-    const textarea = document.getElementById("clearClassForTable");
-    if (textarea) {
-      const current = textarea.value || "";
-      textarea.value = current ? current + " " + text : text;
-      textarea.focus();
-      textarea.selectionStart = textarea.selectionEnd = textarea.value.length;
-    }
-  };
-  // Helper: xóa toàn bộ nội dung của một phần tử theo id
-  const clearTextareaById = (elementId) => {
-    const el = document.getElementById(elementId);
-    if (el) {
-      el.value = "";
-      el.focus();
-    }
-  };
-
-  // Chuẩn hóa chuỗi trước khi so sánh: lowercase, bỏ khoảng trắng thừa,
-  // bỏ dấu câu cuối câu (. ? ! ,) để "what is your name" khớp với
-  // "What is your name?"
-  const normalize = (str) =>
-    (str || "")
-      .toLowerCase()
-      .trim()
-      .replace(/[.?!,]/g, "")
-      .replace(/\s+/g, " ");
-
-  const normalizedInput = normalize(inputString);
-
-  try {
-    let mockSimilarityScoreRate;
-    let bestScore = 0;
-    phrasesArray.forEach((e) => {
-      const mockSimilarityScore = compareTwoStrings(
-        normalizedInput,
-        normalize(e["IPA-01"]),
-      );
-      if (mockSimilarityScore > 0.5 && mockSimilarityScore > bestScore) {
-        bestScore = mockSimilarityScore;
-        mockSimilarityScoreRate = e;
-      }
-    });
-    // Check if we found a match
-    if (mockSimilarityScoreRate) {
-      const ipa01 = mockSimilarityScoreRate["IPA-01"] || "";
-      const ipa02 = mockSimilarityScoreRate["IPA-02"] || "";
-      const ipa03 = mockSimilarityScoreRate["IPA-03"] || "";
-      const ipa04 = mockSimilarityScoreRate["IPA-04"] || "";
-      const decodeElement = document.getElementById("DeCode");
-      if (decodeElement) {
-        decodeElement.textContent = ipa02 + "zzz" + ipa03 + "zzz" + ipa04;
-      }
-      return (
-        <div className="reference-card py-2 px-3">
-          <div className="d-flex justify-content-between align-items-center mb-1">
-            <h6 className="text-info mb-0">
-              <i className="bi bi-info-circle me-1"></i>
-              Thông tin tham khảo:
-            </h6>
-            <button
-              type="button"
-              className="btn btn-sm btn-outline-info py-0 px-1"
-              title="Xóa text"
-              onClick={() => clearTextareaById("clearClassForTable")}
-            >
-              XXXX
-            </button>
-          </div>
-
-          <div className="d-flex flex-wrap align-items-center gap-3">
-            <div className="d-flex align-items-center gap-1">
-              <small className="text-info fw-semibold">Câu gốc:</small>
-              <strong style={{ color: "black" }}>{ipa01}</strong>
-              <button
-                type="button"
-                className="btn btn-sm btn-outline-info py-0 px-1"
-                title="Dán vào ô phiên âm"
-                onClick={() => appendToTextarea(ipa01)}
-              >
-                <i className="bi bi-plus-lg"></i>
-              </button>
-            </div>
-
-            <div className="d-flex align-items-center gap-1">
-              <small className="text-info fw-semibold">Dịch thô:</small>
-              <strong style={{ color: "black" }}>{ipa02}</strong>
-              <button
-                type="button"
-                className="btn btn-sm btn-outline-info py-0 px-1"
-                title="Dán vào ô phiên âm"
-                onClick={() => appendToTextarea(ipa02)}
-              >
-                <i className="bi bi-plus-lg"></i>
-              </button>
-            </div>
-
-            <div className="d-flex align-items-center gap-1">
-              <small className="text-success fw-semibold">UK:</small>
-              <strong style={{ color: "black" }}>{ipa03}</strong>
-              <button
-                type="button"
-                className="btn btn-sm btn-outline-success py-0 px-1"
-                title="Dán vào ô phiên âm"
-                onClick={() => appendToTextarea(ipa03)}
-              >
-                <i className="bi bi-plus-lg"></i>
-              </button>
-            </div>
-
-            <div className="d-flex align-items-center gap-1">
-              <small className="text-warning fw-semibold">US:</small>
-              <strong style={{ color: "black" }}>{ipa04}</strong>
-              <button
-                type="button"
-                className="btn btn-sm btn-outline-warning py-0 px-1"
-                title="Dán vào ô phiên âm"
-                onClick={() => appendToTextarea(ipa04)}
-              >
-                <i className="bi bi-plus-lg"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      );
-    }
-    return null;
-  } catch (error) {
-    console.error("Error in StringSimilarityMatcher:", error);
-    return null;
-  }
-}
+import InfoPopup from "./InfoPopup";
 
 /* ════════════════════════════════════════════════════════════════════
    DictaphoneONLY — footer bar
    Layout: [Reset | Tiếp]  [transcript…]  [Bật/Tắt toggle]
 ════════════════════════════════════════════════════════════════════ */
-const DictaphoneONLY = ({ IsReading, lang = "en-US", onTranscript, data }) => {
+const DictaphoneONLY = ({
+  IsReading,
+  lang = "en-US",
+  onTranscript,
+  data,
+  dataTable,
+}) => {
   const { transcript, resetTranscript, listening } = useSpeechRecognition();
   const [micEnabled, setMicEnabled] = useState(false);
 
@@ -240,6 +99,7 @@ const DictaphoneONLY = ({ IsReading, lang = "en-US", onTranscript, data }) => {
     : autoStopped
       ? { label: "Bật lại", cls: "dtph-toggle-warn", icon: "bi-mic" }
       : { label: "Bật", cls: "dtph-toggle-off", icon: "bi-mic-mute-fill" };
+
   const hasText = transcript.trim().length > 0;
 
   return (
@@ -430,159 +290,6 @@ const DictaphoneONLY = ({ IsReading, lang = "en-US", onTranscript, data }) => {
           0%, 100% { box-shadow: 0 2px 12px rgba(245,158,11,0.55); }
           50%       { box-shadow: 0 2px 26px rgba(245,158,11,0.9); }
         }
-        /* ══ POPUP INFO tra cứu phiên âm — to, sáng, tươi ══ */
-        .dtph-info-overlay {
-          position: fixed;
-          inset: 0;
-          background: rgba(30,41,59,0.55);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          z-index: 1050;
-          padding: 16px;
-        }
-        .dtph-info-modal {
-          background: linear-gradient(180deg, #ffffff, #f0f9ff);
-          border: 1px solid rgba(148,163,184,0.25);
-          border-radius: 18px;
-          width: 96vw;
-          height: 92vh;
-          max-width: 1100px;
-          overflow-y: auto;
-          padding: 20px;
-          box-shadow: 0 20px 60px rgba(15,23,42,0.35);
-          display: flex;
-          flex-direction: column;
-        }
-        .dtph-info-header {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          margin-bottom: 14px;
-          flex-shrink: 0;
-        }
-        .dtph-info-header h5 {
-          color: #0e7490;
-          font-weight: 800;
-        }
-        .dtph-info-close {
-          background: linear-gradient(135deg, #fca5a5, #ef4444);
-          border: none;
-          color: #fff;
-          width: 36px;
-          height: 36px;
-          border-radius: 10px;
-          cursor: pointer;
-          box-shadow: 0 2px 10px rgba(239,68,68,0.45);
-        }
-        .dtph-info-search-row {
-          display: flex;
-          gap: 8px;
-          margin-bottom: 14px;
-          flex-shrink: 0;
-        }
-        .dtph-info-search-input {
-          flex: 1;
-          border-radius: 10px;
-          border: 2px solid #7dd3fc;
-          padding: 10px 14px;
-          font-size: 1rem;
-        }
-        .dtph-info-search-input:focus {
-          outline: none;
-          border-color: #0ea5e9;
-          box-shadow: 0 0 0 3px rgba(14,165,233,0.2);
-        }
-        .dtph-info-search-btn {
-          border: none;
-          border-radius: 10px;
-          padding: 0 22px;
-          font-weight: 700;
-          color: #fff;
-          background: linear-gradient(135deg, #6ee7b7, #10b981);
-          box-shadow: 0 2px 12px rgba(16,185,129,0.5);
-          cursor: pointer;
-        }
-        .dtph-info-search-btn:active { transform: scale(0.96); }
-        .dtph-info-result-area {
-          flex: 1;
-          overflow-y: auto;
-          margin-bottom: 14px;
-        }
-        .dtph-info-empty {
-          color: #64748b;
-          font-style: italic;
-          text-align: center;
-          padding: 24px 0;
-        }
-        /* ══ Khu vực textarea phiên âm — trọng tâm của popup ══ */
-        .dtph-info-textarea-wrap {
-          flex-shrink: 0;
-          background: linear-gradient(180deg, #ecfeff, #d0f3ff);
-          border: 2px dashed #0ea5e9;
-          border-radius: 16px;
-          padding: 14px 16px 16px;
-          box-shadow: 0 6px 20px rgba(14,165,233,0.18);
-        }
-        .dtph-info-textarea-label {
-          font-weight: 800;
-          font-size: 1.05rem;
-          color: #0369a1;
-          margin-bottom: 8px;
-          display: flex;
-          align-items: center;
-          gap: 6px;
-          letter-spacing: 0.01em;
-        }
-        .dtph-info-textarea-label::before {
-          content: "";
-          display: inline-block;
-          width: 8px;
-          height: 8px;
-          border-radius: 50%;
-          background: #0ea5e9;
-          box-shadow: 0 0 8px rgba(14,165,233,0.8);
-        }
-        #clearClassForTable {
-          border: 3px solid #38bdf8;
-          border-radius: 12px;
-          padding: 16px 18px;
-          font-size: 2.5rem;
-          font-weight: 700;
-          line-height: 1.5;
-          color: #0c4a6e;
-          background: #ffffff;
-          height: 300px;
-          box-shadow: 0 2px 10px rgba(14,165,233,0.12) inset;
-          transition: border-color 0.2s, box-shadow 0.2s;
-        }
-        #clearClassForTable::placeholder {
-          color: #7dd3fc;
-          font-weight: 600;
-          font-style: italic;
-        }
-        #clearClassForTable:focus {
-          outline: none;
-          border-color: #0284c7;
-          box-shadow: 0 0 0 4px rgba(14,165,233,0.25);
-        }
-          .ipa-ref-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 1.2rem;
-  table-layout: fixed;
-}
-.ipa-ref-table td {
-  border: 1px solid #dee2e6;
-  padding: 1px 2px;
-  line-height: 1.1;
-  text-align: center;
-}
-.ipa-ref-table .ipa-head td {
-  background: #eef7fb;
-  font-weight: 600;
-  color: #0d6efd;
-}
       `}</style>
       <div className={`dtph-bar ${listening ? "is-listening" : ""}`}>
         {/* ══ CENTER: Transcript ══ */}
@@ -653,127 +360,17 @@ const DictaphoneONLY = ({ IsReading, lang = "en-US", onTranscript, data }) => {
         </div>
       </div>
 
-      {/* ══ Popup tra cứu phiên âm — to, sáng, tươi; chỉ nút X mới đóng được ══ */}
-      {showInfoPopup && (
-        <div className="dtph-info-overlay">
-          <div className="dtph-info-modal">
-            <div className="dtph-info-header">
-              <h5 className="mb-0">
-                <i className="bi bi-search me-2"></i>
-                Tra cứu phiên âm tham khảo
-              </h5>
-              <button className="dtph-info-close" onClick={handleCloseInfo}>
-                <i className="bi bi-x-lg"></i>
-              </button>
-            </div>
-
-            {/* Ô nhập tìm kiếm câu cần tra cứu => inputString + nút Tìm */}
-            <div className="dtph-info-search-row">
-              <input
-                type="text"
-                className="dtph-info-search-input"
-                placeholder="Nhập câu cần tra cứu…"
-                value={inputString}
-                onChange={(e) => setInputString(e.target.value)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter") handleSearchClick();
-                }}
-              />
-              <button
-                type="button"
-                className="dtph-info-search-btn"
-                onClick={handleSearchClick}
-              >
-                <i className="bi bi-search me-1"></i>
-                Tìm
-              </button>
-            </div>
-
-            {/* Kết quả tra cứu — chỉ hiện sau khi bấm Tìm; bấm ô kết quả sẽ dán vào textarea bên dưới */}
-            <div className="dtph-info-result-area">
-              {StringSimilarityMatcher(searchQuery, data) || (
-                <p className="dtph-info-empty">
-                  Nhập câu cần tra cứu và bấm "Tìm" để hiển thị kết quả…
-                </p>
-              )}
-            </div>
-
-            {/* Ô nhập phiên âm — trọng tâm popup, đích đến khi bấm dán */}
-            <div className="row g-3">
-              <div className="col-12 col-md-8">
-                <div className="dtph-info-textarea-wrap">
-                  <label className="dtph-info-textarea-label">
-                    Phiên âm đã chọn:
-                  </label>
-                  <textarea
-                    className="textarea-practice w-100"
-                    id="clearClassForTable"
-                    rows="6"
-                    placeholder="Nhập phiên âm tại đây…"
-                  ></textarea>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4">
-                <table className="ipa-ref-table">
-                  <tbody>
-                    <tr className="ipa-head">
-                      {["U", "E", "O", "A", "I", "Ơ"].map((h) => (
-                        <td key={h}>{h}</td>
-                      ))}
-                    </tr>
-                    <tr>
-                      <td>
-                        uː
-                        <br />ʊ
-                      </td>
-                      <td>
-                        e<br />ɛ
-                      </td>
-                      <td>
-                        ɒ<br />
-                        ɔː
-                      </td>
-                      <td>
-                        ɑː
-                        <br />æ<br />ʌ
-                      </td>
-                      <td>
-                        iː
-                        <br />ɪ
-                      </td>
-                      <td>
-                        ɜː
-                        <br />ə
-                      </td>
-                    </tr>
-                    <tr className="ipa-head">
-                      {["eɪ", "aɪ", "ɔɪ", "əʊ", "aʊ", "ɪə", "eə", "ʊə"].map(
-                        (h) => (
-                          <td key={h}>{h}</td>
-                        ),
-                      )}
-                    </tr>
-                    <tr>
-                      {["Ei", "Ai", "Oi", "Ơu", "Au", "I-ơ", "E-ơ", "U-ơ"].map(
-                        (v) => (
-                          <td key={v}>{v}</td>
-                        ),
-                      )}
-                    </tr>
-                  </tbody>
-                </table>
-
-                <i className="d-block small text-muted mt-1">
-                  Xuất phát từ phiên âm (1) Xác định UE OAI Ơ (2) Ghép trước,
-                  ghép sau (3) Đọc trước to rõ, sau ngắn nhẹ, theo xu hướng âm
-                  từ trái sang phải, từ âm chính sang âm dấu!
-                </i>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
+      {/* ══ Popup tra cứu phiên âm — tách riêng sang InfoPopup.js ══ */}
+      <InfoPopup
+        show={showInfoPopup}
+        onClose={handleCloseInfo}
+        inputString={inputString}
+        setInputString={setInputString}
+        searchQuery={searchQuery}
+        onSearch={handleSearchClick}
+        data={data}
+        dataTable={dataTable}
+      />
 
       {/* Hidden triggers */}
       <button

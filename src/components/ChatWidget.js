@@ -3,6 +3,7 @@ import { socket } from "../App";
 import ChatInput from "./ChatInput";
 import { useNavigate } from "react-router-dom";
 import SpeechRecognition from "react-speech-recognition";
+import ChatBaitap from "./ChatWidgetBaitap";
 import {
   handle_cmd_f_admin,
   tachStringTheoHttp,
@@ -27,6 +28,9 @@ const ChatWidget = () => {
   );
   const chatEndRef = useRef(null);
   const navigate = useNavigate();
+
+  /* ── Popup bài tập — lưu trực tiếp msg.text (chuỗi chứa BTJSON), null = đóng ── */
+  const [baitapPopup, setBaitapPopup] = useState(null);
 
   // Khởi tạo lịch sử chat cho tất cả các nhóm
   useEffect(() => {
@@ -62,25 +66,20 @@ const ChatWidget = () => {
       } else {
         // Xác định nhóm của tin nhắn (mặc định là 'all' nếu không có group)
         const messageGroup = newMessage.group || "all";
-
         setChatHistory((prevHistory) => ({
           ...prevHistory,
           [messageGroup]: [...(prevHistory[messageGroup] || []), newMessage],
         }));
-
         // Xử lý admin commands
         handle_cmd_f_admin(newMessage, navigate, setIsOpen);
       }
-
       if (!isOpen) {
         setUnreadCount((prevCount) => prevCount + 1);
       }
     });
-
     socket.on("onlineNumber", (newNumber) => {
       setOnlineNumber(newNumber);
     });
-
     socket.on("messageHistory", (history) => {
       let historyMessage = {
         all: [],
@@ -96,7 +95,6 @@ const ChatWidget = () => {
         group10: [],
       };
       let historyNotify = [];
-
       history.forEach((e) => {
         if (e.type && e.type === "notify") {
           historyNotify.push(e);
@@ -107,11 +105,9 @@ const ChatWidget = () => {
           }
         }
       });
-
       setChatHistory(historyMessage);
       setNotifyHistory(historyNotify);
     });
-
     return () => {
       socket.off("message");
       socket.off("onlineNumber");
@@ -194,6 +190,7 @@ const ChatWidget = () => {
     backgroundPosition: "calc(50% - 3px) center", // Moved 5px to the left from center
     backgroundRepeat: "no-repeat",
   };
+
   const headerStyle = {
     padding: "12px 16px",
     background: `linear-gradient(135deg, ${currentGroupColor} 0%, ${currentGroupColor}dd 100%)`,
@@ -405,7 +402,6 @@ const ChatWidget = () => {
                 </div>
               ))}
             </div>
-
             {/* User Name Section */}
             {isEditingName ? (
               <div style={notifyNameStyle}>
@@ -450,7 +446,6 @@ const ChatWidget = () => {
                 </div>
               </div>
             ) : null}
-
             {/* Group Selection */}
             <div style={groupSelectStyle}>
               <div className="d-flex align-items-center">
@@ -476,7 +471,6 @@ const ChatWidget = () => {
                 </select>
               </div>
             </div>
-
             {/* Chat Header */}
             <div
               style={headerStyle}
@@ -525,7 +519,6 @@ const ChatWidget = () => {
                 Đóng khung chat
               </i>
             </div>
-
             {/* Chat Messages */}
             <ul style={historyStyle} className="chat-scrollbar">
               {currentChatHistory.length === 0 ? (
@@ -605,7 +598,32 @@ const ChatWidget = () => {
                               e
                             ),
                           )
-                        : msg.text}
+                        : msg.text.includes("BTJSON")
+                          ? "Luật sư Ká Điện - Doanh nghiệp Ghép âm"
+                          : msg.text}
+
+                      {/* ── Nút BÀI TẬP# — hiện khi msg.text chứa BTJSON ── */}
+                      {msg.text.includes("BTJSON") && (
+                        <div className="mt-2">
+                          <button
+                            className="btn btn-sm"
+                            style={{
+                              borderRadius: "8px",
+                              background: `linear-gradient(135deg, ${currentGroupColor} 0%, ${currentGroupColor}dd 100%)`,
+                              border: "none",
+                              color: "white",
+                              fontWeight: 600,
+                            }}
+                            onClick={() => {
+                              SpeechRecognition.stopListening();
+                              setBaitapPopup(msg.text);
+                            }}
+                          >
+                            <i className="bi bi-pencil-square me-1"></i>
+                            BÀI TẬP#
+                          </button>
+                        </div>
+                      )}
                     </div>
                     <div
                       className="text-end mt-2"
@@ -629,6 +647,68 @@ const ChatWidget = () => {
           </>
         )}
       </div>
+
+      {/* ══ Popup Bài tập — luôn ưu tiên hiển thị hàng đầu ══ */}
+      {baitapPopup && (
+        <div
+          style={{
+            position: "fixed",
+            inset: 0,
+            background: "rgba(15,23,42,0.6)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            zIndex: 999,
+            padding: "16px",
+          }}
+        >
+          <div
+            style={{
+              background: "#fff",
+              borderRadius: "16px",
+              width: "96vw",
+              height: "92vh",
+              maxWidth: "1100px",
+              display: "flex",
+              flexDirection: "column",
+              overflow: "hidden",
+              boxShadow: "0 20px 60px rgba(15,23,42,0.4)",
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                padding: "12px 16px",
+                background: `linear-gradient(135deg, ${currentGroupColor} 0%, ${currentGroupColor}dd 100%)`,
+                color: "white",
+                flexShrink: 0,
+              }}
+            >
+              <span className="fw-semibold">
+                <i className="bi bi-pencil-square me-2"></i>
+                Bài tập
+              </span>
+              <button
+                className="btn btn-sm"
+                style={{
+                  background: "rgba(255,255,255,0.25)",
+                  border: "none",
+                  color: "white",
+                  borderRadius: "8px",
+                }}
+                onClick={() => setBaitapPopup(null)}
+              >
+                <i className="bi bi-x-lg"></i>
+              </button>
+            </div>
+            <div style={{ flex: 1, minHeight: 0, overflowY: "auto" }}>
+              <ChatBaitap data={baitapPopup} />
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 };
