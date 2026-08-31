@@ -568,7 +568,11 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                   id,
                 )}
                 <TableHD
-                  data={dataLearning[currentIndex]?.HDTB?.HD}
+                  data={
+                    dataLearning[currentIndex]?.HDTB?.H0
+                      ? dataLearning[currentIndex]?.HDTB?.H0
+                      : dataLearning[currentIndex]?.HDTB?.HD
+                  }
                   data_TB={[]}
                   HINT={"HINT"}
                   fnOnclick={(e) => {
