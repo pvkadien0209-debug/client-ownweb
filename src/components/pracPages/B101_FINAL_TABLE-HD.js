@@ -191,7 +191,7 @@ function TableHD({ data, data_TB, HINT, fnOnclick, PushAW = [] }) {
             title="Cài đặt hiển thị"
           >
             <i className="bi bi-gear" />
-            Cài đặt
+            Cài đặt | Mẹo Ctrl-F để tìm nhanh
           </button>
         </div>
         {/* ── Main data table ──────────────────────────────────────── */}

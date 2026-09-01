@@ -20,6 +20,257 @@
         "IFdes": "Mục tiêu: \n1/ Ứng dụng được ghép âm vô câu\n2/ Rèn luyện thuần thục bài thực hành",
         "IF-audiocode": "GA02_"
       },
+      "IP": [
+        {
+          "IPA-01": "make a great game",
+          "IPA-02": "tạo một trò chơi hay",
+          "IPA-03": "meɪk ə ɡreɪt ɡeɪm",
+          "IPA-04": "/"
+        },
+        {
+          "IPA-01": "take the train",
+          "IPA-02": "đi tàu hỏa",
+          "IPA-03": "teɪk ðə treɪn",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "take a break",
+          "IPA-02": "nghỉ giải lao",
+          "IPA-03": "teɪk ə breɪk",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "eight days",
+          "IPA-02": "tám ngày",
+          "IPA-03": "eɪt deɪz",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "a rainy day",
+          "IPA-02": "một ngày mưa",
+          "IPA-03": "ə ˈreɪni deɪ",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "a nice smile",
+          "IPA-02": "một nụ cười đẹp",
+          "IPA-03": "ə naɪs smaɪl",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "a white bike",
+          "IPA-02": "một chiếc xe đạp màu trắng",
+          "IPA-03": "ə waɪt baɪk",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "ride a bike",
+          "IPA-02": "đi xe đạp",
+          "IPA-03": "raɪd ə baɪk",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "have a good time",
+          "IPA-02": "có một khoảng thời gian vui vẻ",
+          "IPA-03": "hæv ə ɡʊd taɪm",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "go home at night",
+          "IPA-02": "về nhà vào ban đêm",
+          "IPA-03": "ɡəʊ həʊm æt naɪt",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "right on time",
+          "IPA-02": "đúng giờ",
+          "IPA-03": "raɪt ɒn taɪm",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "a happy child",
+          "IPA-02": "một đứa trẻ vui vẻ",
+          "IPA-03": "ə ˈhæpi ʧaɪld",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "a toy boy",
+          "IPA-02": "một cậu bé đồ chơi",
+          "IPA-03": "ə tɔɪ bɔɪ",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "enjoy the game",
+          "IPA-02": "tận hưởng trò chơi",
+          "IPA-03": "ɪnˈʤɔɪ ðə ɡeɪm",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "join the game",
+          "IPA-02": "tham gia trò chơi",
+          "IPA-03": "ʤɔɪn ðə ɡeɪm",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "make a choice",
+          "IPA-02": "đưa ra một lựa chọn",
+          "IPA-03": "meɪk ə ʧɔɪs",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "a clear voice",
+          "IPA-02": "một giọng nói rõ ràng",
+          "IPA-03": "ə klɪə vɔɪs",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "a loud noise",
+          "IPA-02": "một tiếng động lớn",
+          "IPA-03": "ə laʊd nɔɪz",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "point at the boy",
+          "IPA-02": "chỉ vào cậu bé",
+          "IPA-03": "pɔɪnt æt ðə bɔɪ",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "go home by boat",
+          "IPA-02": "về nhà bằng thuyền",
+          "IPA-03": "ɡəʊ həʊm baɪ bəʊt",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "open the door",
+          "IPA-02": "mở cửa",
+          "IPA-03": "ˈəʊpᵊn ðə dɔː",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "go down the road",
+          "IPA-02": "đi xuống con đường",
+          "IPA-03": "ɡəʊ daʊn ðə rəʊd",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "a brown coat",
+          "IPA-02": "một chiếc áo khoác màu nâu",
+          "IPA-03": "ə braʊn kəʊt",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "a phone call",
+          "IPA-02": "một cuộc gọi điện thoại",
+          "IPA-03": "ə fəʊn kɔːl",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "I know how.",
+          "IPA-02": "Tôi biết cách.",
+          "IPA-03": "aɪ nəʊ haʊ.",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "How about now?",
+          "IPA-02": "Bây giờ thì sao?",
+          "IPA-03": "haʊ əˈbaʊt naʊ?",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "a house in town",
+          "IPA-02": "một ngôi nhà trong thị trấn",
+          "IPA-03": "ə haʊs ɪn taʊn",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "a flower shop",
+          "IPA-02": "một cửa hàng hoa",
+          "IPA-03": "ə flaʊə ʃɒp",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "hear a clear voice",
+          "IPA-02": "nghe một giọng nói rõ ràng",
+          "IPA-03": "hɪər ə klɪə vɔɪs",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "near my home",
+          "IPA-02": "gần nhà tôi",
+          "IPA-03": "nɪə maɪ həʊm",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "a dear friend",
+          "IPA-02": "một người bạn thân",
+          "IPA-03": "ə dɪə frɛnd",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "this year",
+          "IPA-02": "năm nay",
+          "IPA-03": "ðɪs jɪə",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "a good idea",
+          "IPA-02": "một ý tưởng hay",
+          "IPA-03": "ə ɡʊd aɪˈdɪə",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "here and there",
+          "IPA-02": "đây đó",
+          "IPA-03": "hɪər ænd ðeə",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "face your fear",
+          "IPA-02": "đối mặt với nỗi sợ của bạn",
+          "IPA-03": "feɪs jɔː fɪə",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "long hair",
+          "IPA-02": "tóc dài",
+          "IPA-03": "lɒŋ heə",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "sit on a chair",
+          "IPA-02": "ngồi trên ghế",
+          "IPA-03": "sɪt ɒn ə ʧeə",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "share a pair",
+          "IPA-02": "chia sẻ một đôi",
+          "IPA-03": "ʃeər ə peə",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "wear a nice pair",
+          "IPA-02": "mang một đôi đẹp",
+          "IPA-03": "weər ə naɪs peə",
+          "IPA-04": null
+        },
+        {
+          "IPA-01": "a fair choice",
+          "IPA-02": "một lựa chọn hợp lý",
+          "IPA-03": "ə feə ʧɔɪs",
+          "IPA-04": null
+        }
+      ],
+      "TB": [],
+      "TV": [
+        { "TV-01": "|||" },
+        { "TV-01": "Hướng dẫn" },
+        { "TV-01": "Type:[A1-8]" },
+        { "TV-01": "Nghe và lặp lại từng cụm 5 câu." }
+      ],
+      "HT": [],
+      "MC": [],
       "HD": [
         {
           "HD-00": 1,
@@ -261,323 +512,9 @@
           "HD-02": "fair, choice",
           "HD-03": "một lựa chọn hợp lý"
         }
-      ],
-      "TB": [],
-      "TV": [
-        { "TV-01": "|||" },
-        { "TV-01": "Hướng dẫn" },
-        { "TV-01": "Type:[A1-8]" },
-        { "TV-01": "Nghe và lặp lại từng cụm 5 câu." }
-      ],
-      "IPA": [{ "IPA-01": "/", "IPA-02": "/", "IPA-03": "/", "IPA-04": "/" }],
-      "HT": [],
-      "MC": []
+      ]
     },
     "charactor": [
-      {
-        "type": "A4",
-        "fsp": "go home by boat",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
-        "name": "Jennifer",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["go home by boat"],
-            "aw": ["ok"],
-            "submit": ["FN04"],
-            "action": ["FN04"],
-            "aw01": [{ "st": "ok", "id": "GA02_a33" }]
-          }
-        ],
-        "submit": ["FN04"],
-        "fspSets": [{ "st": "go home by boat", "id": "GA02_a36" }]
-      },
-      {
-        "type": "A2",
-        "fsp": "a nice smile",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
-        "name": "Joshua",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["a nice smile"],
-            "aw": ["Good"],
-            "submit": ["FN02"],
-            "action": ["FN02"],
-            "aw01": [{ "st": "Good", "id": "GA02_a11" }]
-          }
-        ],
-        "submit": ["FN02"],
-        "fspSets": [{ "st": "a nice smile", "id": "GA02_a18" }]
-      },
-      {
-        "type": "A3",
-        "fsp": "enjoy the game",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
-        "name": "Jessica",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["enjoy the game"],
-            "aw": ["Great"],
-            "submit": ["FN03"],
-            "action": ["FN03"],
-            "aw01": [{ "st": "Great", "id": "GA02_a21" }]
-          }
-        ],
-        "submit": ["FN03"],
-        "fspSets": [{ "st": "enjoy the game", "id": "GA02_a24" }]
-      },
-      {
-        "type": "A6",
-        "fsp": "near my home",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
-        "name": "Jennifer",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["near my home"],
-            "aw": ["That is right!"],
-            "submit": ["FN06"],
-            "action": ["FN06"],
-            "aw01": [{ "st": "That is right!", "id": "GA02_a53" }]
-          }
-        ],
-        "submit": ["FN06"],
-        "fspSets": [{ "st": "near my home", "id": "GA02_a56" }]
-      },
-      {
-        "type": "A5",
-        "fsp": "go down the road",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "name": "Emily",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["go down the road"],
-            "aw": ["Fine"],
-            "submit": ["FN05"],
-            "action": ["FN05"],
-            "aw01": [{ "st": "Fine", "id": "GA02_a41" }]
-          }
-        ],
-        "submit": ["FN05"],
-        "fspSets": [{ "st": "go down the road", "id": "GA02_a40" }]
-      },
-      {
-        "type": "A7",
-        "fsp": "a dear friend",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
-        "name": "Sarah",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["a dear friend"],
-            "aw": ["That is OK."],
-            "submit": ["FN07"],
-            "action": ["FN07"],
-            "aw01": [{ "st": "That is OK.", "id": "GA02_a61" }]
-          }
-        ],
-        "submit": ["FN07"],
-        "fspSets": [{ "st": "a dear friend", "id": "GA02_a68" }]
-      },
-      {
-        "type": "A1",
-        "fsp": "take a break",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
-        "name": "David",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["take a break"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA02_a3" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [{ "st": "take a break", "id": "GA02_a2" }]
-      },
-      {
-        "type": "A8",
-        "fsp": "a fair choice",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
-        "name": "Jennifer",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["a fair choice"],
-            "aw": ["Very good."],
-            "submit": ["FN08"],
-            "action": ["FN08"],
-            "aw01": [{ "st": "Very good.", "id": "GA02_a73" }]
-          }
-        ],
-        "submit": ["FN08"],
-        "fspSets": [{ "st": "a fair choice", "id": "GA02_a76" }]
-      },
-      {
-        "type": "A8",
-        "fsp": "wear a nice pair",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
-        "name": "Christopher",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["wear a nice pair"],
-            "aw": ["Very good."],
-            "submit": ["FN08"],
-            "action": ["FN08"],
-            "aw01": [{ "st": "Very good.", "id": "GA02_a71" }]
-          }
-        ],
-        "submit": ["FN08"],
-        "fspSets": [{ "st": "wear a nice pair", "id": "GA02_a74" }]
-      },
-      {
-        "type": "A5",
-        "fsp": "open the door",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
-        "name": "Sarah",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["open the door"],
-            "aw": ["Fine"],
-            "submit": ["FN05"],
-            "action": ["FN05"],
-            "aw01": [{ "st": "Fine", "id": "GA02_a41" }]
-          }
-        ],
-        "submit": ["FN05"],
-        "fspSets": [{ "st": "open the door", "id": "GA02_a48" }]
-      },
-      {
-        "type": "A3",
-        "fsp": "a happy child",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "name": "Emily",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["a happy child"],
-            "aw": ["Great"],
-            "submit": ["FN03"],
-            "action": ["FN03"],
-            "aw01": [{ "st": "Great", "id": "GA02_a21" }]
-          }
-        ],
-        "submit": ["FN03"],
-        "fspSets": [{ "st": "a happy child", "id": "GA02_a20" }]
-      },
-      {
-        "type": "A6",
-        "fsp": "a flower shop",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
-        "name": "Ashley",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["a flower shop"],
-            "aw": ["That is right!"],
-            "submit": ["FN06"],
-            "action": ["FN06"],
-            "aw01": [{ "st": "That is right!", "id": "GA02_a53" }]
-          }
-        ],
-        "submit": ["FN06"],
-        "fspSets": [{ "st": "a flower shop", "id": "GA02_a52" }]
-      },
-      {
-        "type": "A7",
-        "fsp": "face your fear",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
-        "name": "Michael",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["face your fear"],
-            "aw": ["That is OK."],
-            "submit": ["FN07"],
-            "action": ["FN07"],
-            "aw01": [{ "st": "That is OK.", "id": "GA02_a63" }]
-          }
-        ],
-        "submit": ["FN07"],
-        "fspSets": [{ "st": "face your fear", "id": "GA02_a66" }]
-      },
-      {
-        "type": "A4",
-        "fsp": "point at the boy",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
-        "name": "Christopher",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["point at the boy"],
-            "aw": ["ok"],
-            "submit": ["FN04"],
-            "action": ["FN04"],
-            "aw01": [{ "st": "ok", "id": "GA02_a31" }]
-          }
-        ],
-        "submit": ["FN04"],
-        "fspSets": [{ "st": "point at the boy", "id": "GA02_a34" }]
-      },
-      {
-        "type": "A1",
-        "fsp": "a rainy day",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
-        "name": "Michael",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["a rainy day"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA02_a3" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [{ "st": "a rainy day", "id": "GA02_a6" }]
-      },
-      {
-        "type": "A2",
-        "fsp": "ride a bike",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
-        "name": "Ashley",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["ride a bike"],
-            "aw": ["Good"],
-            "submit": ["FN02"],
-            "action": ["FN02"],
-            "aw01": [{ "st": "Good", "id": "GA02_a13" }]
-          }
-        ],
-        "submit": ["FN02"],
-        "fspSets": [{ "st": "ride a bike", "id": "GA02_a12" }]
-      },
       {
         "type": "A3",
         "fsp": "join the game",
@@ -596,6 +533,25 @@
         ],
         "submit": ["FN03"],
         "fspSets": [{ "st": "join the game", "id": "GA02_a26" }]
+      },
+      {
+        "type": "A1",
+        "fsp": "make a great game",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["make a great game"],
+            "aw": ["Yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Yes", "id": "GA02_a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "make a great game", "id": "GA02_a8" }]
       },
       {
         "type": "A8",
@@ -617,53 +573,15 @@
         "fspSets": [{ "st": "share a pair", "id": "GA02_a72" }]
       },
       {
-        "type": "A1",
-        "fsp": "take the train",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "name": "Emily",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["take the train"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA02_a1" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [{ "st": "take the train", "id": "GA02_a0" }]
-      },
-      {
-        "type": "A5",
-        "fsp": "a phone call",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
-        "name": "Jessica",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["a phone call"],
-            "aw": ["Fine"],
-            "submit": ["FN05"],
-            "action": ["FN05"],
-            "aw01": [{ "st": "Fine", "id": "GA02_a41" }]
-          }
-        ],
-        "submit": ["FN05"],
-        "fspSets": [{ "st": "a phone call", "id": "GA02_a44" }]
-      },
-      {
         "type": "A6",
-        "fsp": "a house in town",
+        "fsp": "How about now?",
         "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
-        "name": "Andrew",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
         "gender": "male",
         "data": [
           {
-            "qs": ["a house in town"],
+            "qs": ["How about now?"],
             "aw": ["That is right!"],
             "submit": ["FN06"],
             "action": ["FN06"],
@@ -671,26 +589,26 @@
           }
         ],
         "submit": ["FN06"],
-        "fspSets": [{ "st": "a house in town", "id": "GA02_a50" }]
+        "fspSets": [{ "st": "How about now?", "id": "GA02_a58" }]
       },
       {
         "type": "A7",
-        "fsp": "here and there",
+        "fsp": "face your fear",
         "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
-        "name": "Jessica",
-        "gender": "female",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
         "data": [
           {
-            "qs": ["here and there"],
+            "qs": ["face your fear"],
             "aw": ["That is OK."],
             "submit": ["FN07"],
             "action": ["FN07"],
-            "aw01": [{ "st": "That is OK.", "id": "GA02_a61" }]
+            "aw01": [{ "st": "That is OK.", "id": "GA02_a63" }]
           }
         ],
         "submit": ["FN07"],
-        "fspSets": [{ "st": "here and there", "id": "GA02_a64" }]
+        "fspSets": [{ "st": "face your fear", "id": "GA02_a66" }]
       },
       {
         "type": "A2",
@@ -710,177 +628,6 @@
         ],
         "submit": ["FN02"],
         "fspSets": [{ "st": "have a good time", "id": "GA02_a14" }]
-      },
-      {
-        "type": "A4",
-        "fsp": "a loud noise",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
-        "name": "Ashley",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["a loud noise"],
-            "aw": ["ok"],
-            "submit": ["FN04"],
-            "action": ["FN04"],
-            "aw01": [{ "st": "ok", "id": "GA02_a33" }]
-          }
-        ],
-        "submit": ["FN04"],
-        "fspSets": [{ "st": "a loud noise", "id": "GA02_a32" }]
-      },
-      {
-        "type": "A2",
-        "fsp": "go home at night",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
-        "name": "Jennifer",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["go home at night"],
-            "aw": ["Good"],
-            "submit": ["FN02"],
-            "action": ["FN02"],
-            "aw01": [{ "st": "Good", "id": "GA02_a13" }]
-          }
-        ],
-        "submit": ["FN02"],
-        "fspSets": [{ "st": "go home at night", "id": "GA02_a16" }]
-      },
-      {
-        "type": "A5",
-        "fsp": "I know how.",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
-        "name": "Michael",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["I know how."],
-            "aw": ["Fine"],
-            "submit": ["FN05"],
-            "action": ["FN05"],
-            "aw01": [{ "st": "Fine", "id": "GA02_a43" }]
-          }
-        ],
-        "submit": ["FN05"],
-        "fspSets": [{ "st": "I know how.", "id": "GA02_a46" }]
-      },
-      {
-        "type": "A8",
-        "fsp": "long hair",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
-        "name": "Joshua",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["long hair"],
-            "aw": ["Very good."],
-            "submit": ["FN08"],
-            "action": ["FN08"],
-            "aw01": [{ "st": "Very good.", "id": "GA02_a71" }]
-          }
-        ],
-        "submit": ["FN08"],
-        "fspSets": [{ "st": "long hair", "id": "GA02_a78" }]
-      },
-      {
-        "type": "A1",
-        "fsp": "eight days",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
-        "name": "Jessica",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["eight days"],
-            "aw": ["Yes"],
-            "submit": ["FN01"],
-            "action": ["FN01"],
-            "aw01": [{ "st": "Yes", "id": "GA02_a1" }]
-          }
-        ],
-        "submit": ["FN01"],
-        "fspSets": [{ "st": "eight days", "id": "GA02_a4" }]
-      },
-      {
-        "type": "A4",
-        "fsp": "a clear voice",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
-        "name": "Andrew",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["a clear voice"],
-            "aw": ["ok"],
-            "submit": ["FN04"],
-            "action": ["FN04"],
-            "aw01": [{ "st": "ok", "id": "GA02_a31" }]
-          }
-        ],
-        "submit": ["FN04"],
-        "fspSets": [{ "st": "a clear voice", "id": "GA02_a30" }]
-      },
-      {
-        "type": "A7",
-        "fsp": "this year",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
-        "name": "Emily",
-        "gender": "female",
-        "data": [
-          {
-            "qs": ["this year"],
-            "aw": ["That is OK."],
-            "submit": ["FN07"],
-            "action": ["FN07"],
-            "aw01": [{ "st": "That is OK.", "id": "GA02_a61" }]
-          }
-        ],
-        "submit": ["FN07"],
-        "fspSets": [{ "st": "this year", "id": "GA02_a60" }]
-      },
-      {
-        "type": "A3",
-        "fsp": "a toy boy",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
-        "name": "David",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["a toy boy"],
-            "aw": ["Great"],
-            "submit": ["FN03"],
-            "action": ["FN03"],
-            "aw01": [{ "st": "Great", "id": "GA02_a23" }]
-          }
-        ],
-        "submit": ["FN03"],
-        "fspSets": [{ "st": "a toy boy", "id": "GA02_a22" }]
-      },
-      {
-        "type": "A6",
-        "fsp": "How about now?",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
-        "name": "Joshua",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["How about now?"],
-            "aw": ["That is right!"],
-            "submit": ["FN06"],
-            "action": ["FN06"],
-            "aw01": [{ "st": "That is right!", "id": "GA02_a51" }]
-          }
-        ],
-        "submit": ["FN06"],
-        "fspSets": [{ "st": "How about now?", "id": "GA02_a58" }]
       },
       {
         "type": "A4",
@@ -921,53 +668,72 @@
         "fspSets": [{ "st": "a brown coat", "id": "GA02_a42" }]
       },
       {
-        "type": "A7",
-        "fsp": "a good idea",
+        "type": "A2",
+        "fsp": "go home at night",
         "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
-        "name": "David",
-        "gender": "male",
-        "data": [
-          {
-            "qs": ["a good idea"],
-            "aw": ["That is OK."],
-            "submit": ["FN07"],
-            "action": ["FN07"],
-            "aw01": [{ "st": "That is OK.", "id": "GA02_a63" }]
-          }
-        ],
-        "submit": ["FN07"],
-        "fspSets": [{ "st": "a good idea", "id": "GA02_a62" }]
-      },
-      {
-        "type": "A3",
-        "fsp": "right on time",
-        "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
-        "name": "Sarah",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
         "gender": "female",
         "data": [
           {
-            "qs": ["right on time"],
-            "aw": ["Great"],
-            "submit": ["FN03"],
-            "action": ["FN03"],
-            "aw01": [{ "st": "Great", "id": "GA02_a21" }]
+            "qs": ["go home at night"],
+            "aw": ["Good"],
+            "submit": ["FN02"],
+            "action": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "GA02_a13" }]
           }
         ],
-        "submit": ["FN03"],
-        "fspSets": [{ "st": "right on time", "id": "GA02_a28" }]
+        "submit": ["FN02"],
+        "fspSets": [{ "st": "go home at night", "id": "GA02_a16" }]
       },
       {
-        "type": "A6",
-        "fsp": "hear a clear voice",
+        "type": "A5",
+        "fsp": "a phone call",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["a phone call"],
+            "aw": ["Fine"],
+            "submit": ["FN05"],
+            "action": ["FN05"],
+            "aw01": [{ "st": "Fine", "id": "GA02_a41" }]
+          }
+        ],
+        "submit": ["FN05"],
+        "fspSets": [{ "st": "a phone call", "id": "GA02_a44" }]
+      },
+      {
+        "type": "A8",
+        "fsp": "wear a nice pair",
         "hint": "Nghe và lặp lại!",
         "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
         "name": "Christopher",
         "gender": "male",
         "data": [
           {
-            "qs": ["hear a clear voice"],
+            "qs": ["wear a nice pair"],
+            "aw": ["Very good."],
+            "submit": ["FN08"],
+            "action": ["FN08"],
+            "aw01": [{ "st": "Very good.", "id": "GA02_a71" }]
+          }
+        ],
+        "submit": ["FN08"],
+        "fspSets": [{ "st": "wear a nice pair", "id": "GA02_a74" }]
+      },
+      {
+        "type": "A6",
+        "fsp": "a house in town",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["a house in town"],
             "aw": ["That is right!"],
             "submit": ["FN06"],
             "action": ["FN06"],
@@ -975,7 +741,102 @@
           }
         ],
         "submit": ["FN06"],
-        "fspSets": [{ "st": "hear a clear voice", "id": "GA02_a54" }]
+        "fspSets": [{ "st": "a house in town", "id": "GA02_a50" }]
+      },
+      {
+        "type": "A7",
+        "fsp": "a dear friend",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["a dear friend"],
+            "aw": ["That is OK."],
+            "submit": ["FN07"],
+            "action": ["FN07"],
+            "aw01": [{ "st": "That is OK.", "id": "GA02_a61" }]
+          }
+        ],
+        "submit": ["FN07"],
+        "fspSets": [{ "st": "a dear friend", "id": "GA02_a68" }]
+      },
+      {
+        "type": "A3",
+        "fsp": "a toy boy",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["a toy boy"],
+            "aw": ["Great"],
+            "submit": ["FN03"],
+            "action": ["FN03"],
+            "aw01": [{ "st": "Great", "id": "GA02_a23" }]
+          }
+        ],
+        "submit": ["FN03"],
+        "fspSets": [{ "st": "a toy boy", "id": "GA02_a22" }]
+      },
+      {
+        "type": "A4",
+        "fsp": "a clear voice",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["a clear voice"],
+            "aw": ["ok"],
+            "submit": ["FN04"],
+            "action": ["FN04"],
+            "aw01": [{ "st": "ok", "id": "GA02_a31" }]
+          }
+        ],
+        "submit": ["FN04"],
+        "fspSets": [{ "st": "a clear voice", "id": "GA02_a30" }]
+      },
+      {
+        "type": "A1",
+        "fsp": "eight days",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["eight days"],
+            "aw": ["Yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Yes", "id": "GA02_a1" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "eight days", "id": "GA02_a4" }]
+      },
+      {
+        "type": "A3",
+        "fsp": "enjoy the game",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["enjoy the game"],
+            "aw": ["Great"],
+            "submit": ["FN03"],
+            "action": ["FN03"],
+            "aw01": [{ "st": "Great", "id": "GA02_a21" }]
+          }
+        ],
+        "submit": ["FN03"],
+        "fspSets": [{ "st": "enjoy the game", "id": "GA02_a24" }]
       },
       {
         "type": "A2",
@@ -997,6 +858,253 @@
         "fspSets": [{ "st": "a white bike", "id": "GA02_a10" }]
       },
       {
+        "type": "A1",
+        "fsp": "take a break",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["take a break"],
+            "aw": ["Yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Yes", "id": "GA02_a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "take a break", "id": "GA02_a2" }]
+      },
+      {
+        "type": "A6",
+        "fsp": "near my home",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["near my home"],
+            "aw": ["That is right!"],
+            "submit": ["FN06"],
+            "action": ["FN06"],
+            "aw01": [{ "st": "That is right!", "id": "GA02_a53" }]
+          }
+        ],
+        "submit": ["FN06"],
+        "fspSets": [{ "st": "near my home", "id": "GA02_a56" }]
+      },
+      {
+        "type": "A5",
+        "fsp": "I know how.",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I know how."],
+            "aw": ["Fine"],
+            "submit": ["FN05"],
+            "action": ["FN05"],
+            "aw01": [{ "st": "Fine", "id": "GA02_a43" }]
+          }
+        ],
+        "submit": ["FN05"],
+        "fspSets": [{ "st": "I know how.", "id": "GA02_a46" }]
+      },
+      {
+        "type": "A7",
+        "fsp": "here and there",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["here and there"],
+            "aw": ["That is OK."],
+            "submit": ["FN07"],
+            "action": ["FN07"],
+            "aw01": [{ "st": "That is OK.", "id": "GA02_a61" }]
+          }
+        ],
+        "submit": ["FN07"],
+        "fspSets": [{ "st": "here and there", "id": "GA02_a64" }]
+      },
+      {
+        "type": "A4",
+        "fsp": "a loud noise",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["a loud noise"],
+            "aw": ["ok"],
+            "submit": ["FN04"],
+            "action": ["FN04"],
+            "aw01": [{ "st": "ok", "id": "GA02_a33" }]
+          }
+        ],
+        "submit": ["FN04"],
+        "fspSets": [{ "st": "a loud noise", "id": "GA02_a32" }]
+      },
+      {
+        "type": "A8",
+        "fsp": "a fair choice",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["a fair choice"],
+            "aw": ["Very good."],
+            "submit": ["FN08"],
+            "action": ["FN08"],
+            "aw01": [{ "st": "Very good.", "id": "GA02_a73" }]
+          }
+        ],
+        "submit": ["FN08"],
+        "fspSets": [{ "st": "a fair choice", "id": "GA02_a76" }]
+      },
+      {
+        "type": "A5",
+        "fsp": "go down the road",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["go down the road"],
+            "aw": ["Fine"],
+            "submit": ["FN05"],
+            "action": ["FN05"],
+            "aw01": [{ "st": "Fine", "id": "GA02_a41" }]
+          }
+        ],
+        "submit": ["FN05"],
+        "fspSets": [{ "st": "go down the road", "id": "GA02_a40" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "ride a bike",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["ride a bike"],
+            "aw": ["Good"],
+            "submit": ["FN02"],
+            "action": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "GA02_a13" }]
+          }
+        ],
+        "submit": ["FN02"],
+        "fspSets": [{ "st": "ride a bike", "id": "GA02_a12" }]
+      },
+      {
+        "type": "A1",
+        "fsp": "a rainy day",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["a rainy day"],
+            "aw": ["Yes"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [{ "st": "Yes", "id": "GA02_a3" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "a rainy day", "id": "GA02_a6" }]
+      },
+      {
+        "type": "A4",
+        "fsp": "point at the boy",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["point at the boy"],
+            "aw": ["ok"],
+            "submit": ["FN04"],
+            "action": ["FN04"],
+            "aw01": [{ "st": "ok", "id": "GA02_a31" }]
+          }
+        ],
+        "submit": ["FN04"],
+        "fspSets": [{ "st": "point at the boy", "id": "GA02_a34" }]
+      },
+      {
+        "type": "A6",
+        "fsp": "a flower shop",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["a flower shop"],
+            "aw": ["That is right!"],
+            "submit": ["FN06"],
+            "action": ["FN06"],
+            "aw01": [{ "st": "That is right!", "id": "GA02_a53" }]
+          }
+        ],
+        "submit": ["FN06"],
+        "fspSets": [{ "st": "a flower shop", "id": "GA02_a52" }]
+      },
+      {
+        "type": "A3",
+        "fsp": "a happy child",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["a happy child"],
+            "aw": ["Great"],
+            "submit": ["FN03"],
+            "action": ["FN03"],
+            "aw01": [{ "st": "Great", "id": "GA02_a21" }]
+          }
+        ],
+        "submit": ["FN03"],
+        "fspSets": [{ "st": "a happy child", "id": "GA02_a20" }]
+      },
+      {
+        "type": "A7",
+        "fsp": "a good idea",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["a good idea"],
+            "aw": ["That is OK."],
+            "submit": ["FN07"],
+            "action": ["FN07"],
+            "aw01": [{ "st": "That is OK.", "id": "GA02_a63" }]
+          }
+        ],
+        "submit": ["FN07"],
+        "fspSets": [{ "st": "a good idea", "id": "GA02_a62" }]
+      },
+      {
         "type": "A8",
         "fsp": "sit on a chair",
         "hint": "Nghe và lặp lại!",
@@ -1016,15 +1124,91 @@
         "fspSets": [{ "st": "sit on a chair", "id": "GA02_a70" }]
       },
       {
-        "type": "A1",
-        "fsp": "make a great game",
+        "type": "A4",
+        "fsp": "go home by boat",
         "hint": "Nghe và lặp lại!",
-        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
-        "name": "Sarah",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
         "gender": "female",
         "data": [
           {
-            "qs": ["make a great game"],
+            "qs": ["go home by boat"],
+            "aw": ["ok"],
+            "submit": ["FN04"],
+            "action": ["FN04"],
+            "aw01": [{ "st": "ok", "id": "GA02_a33" }]
+          }
+        ],
+        "submit": ["FN04"],
+        "fspSets": [{ "st": "go home by boat", "id": "GA02_a36" }]
+      },
+      {
+        "type": "A6",
+        "fsp": "hear a clear voice",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["hear a clear voice"],
+            "aw": ["That is right!"],
+            "submit": ["FN06"],
+            "action": ["FN06"],
+            "aw01": [{ "st": "That is right!", "id": "GA02_a51" }]
+          }
+        ],
+        "submit": ["FN06"],
+        "fspSets": [{ "st": "hear a clear voice", "id": "GA02_a54" }]
+      },
+      {
+        "type": "A7",
+        "fsp": "this year",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["this year"],
+            "aw": ["That is OK."],
+            "submit": ["FN07"],
+            "action": ["FN07"],
+            "aw01": [{ "st": "That is OK.", "id": "GA02_a61" }]
+          }
+        ],
+        "submit": ["FN07"],
+        "fspSets": [{ "st": "this year", "id": "GA02_a60" }]
+      },
+      {
+        "type": "A8",
+        "fsp": "long hair",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["long hair"],
+            "aw": ["Very good."],
+            "submit": ["FN08"],
+            "action": ["FN08"],
+            "aw01": [{ "st": "Very good.", "id": "GA02_a71" }]
+          }
+        ],
+        "submit": ["FN08"],
+        "fspSets": [{ "st": "long hair", "id": "GA02_a78" }]
+      },
+      {
+        "type": "A1",
+        "fsp": "take the train",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["take the train"],
             "aw": ["Yes"],
             "submit": ["FN01"],
             "action": ["FN01"],
@@ -1032,7 +1216,64 @@
           }
         ],
         "submit": ["FN01"],
-        "fspSets": [{ "st": "make a great game", "id": "GA02_a8" }]
+        "fspSets": [{ "st": "take the train", "id": "GA02_a0" }]
+      },
+      {
+        "type": "A5",
+        "fsp": "open the door",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["open the door"],
+            "aw": ["Fine"],
+            "submit": ["FN05"],
+            "action": ["FN05"],
+            "aw01": [{ "st": "Fine", "id": "GA02_a41" }]
+          }
+        ],
+        "submit": ["FN05"],
+        "fspSets": [{ "st": "open the door", "id": "GA02_a48" }]
+      },
+      {
+        "type": "A3",
+        "fsp": "right on time",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["right on time"],
+            "aw": ["Great"],
+            "submit": ["FN03"],
+            "action": ["FN03"],
+            "aw01": [{ "st": "Great", "id": "GA02_a21" }]
+          }
+        ],
+        "submit": ["FN03"],
+        "fspSets": [{ "st": "right on time", "id": "GA02_a28" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "a nice smile",
+        "hint": "Nghe và lặp lại!",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["a nice smile"],
+            "aw": ["Good"],
+            "submit": ["FN02"],
+            "action": ["FN02"],
+            "aw01": [{ "st": "Good", "id": "GA02_a11" }]
+          }
+        ],
+        "submit": ["FN02"],
+        "fspSets": [{ "st": "a nice smile", "id": "GA02_a18" }]
       }
     ],
     "charactor_UP_01": [],
