@@ -511,7 +511,9 @@ function FINAL_PROJECT({
               <span className="fp-toggle-label">
                 {bottomOpen || getSTTDictaphone
                   ? "Thu gọn"
-                  : "🎙 Thông tin thêm"}
+                  : playData?.hint
+                    ? "Gợi ý . . ."
+                    : "🎙 Thông tin thêm"}
               </span>
             </button>
 
@@ -537,7 +539,7 @@ function FINAL_PROJECT({
                 setStartSTT={setStartSTT}
                 setMessage={setMessage}
               />
-              {playData?.hint ? (
+              {/* {playData?.hint ? (
                 isImageUrl(playData.hint) ? (
                   <img
                     className="fp-hint-img"
@@ -561,7 +563,7 @@ function FINAL_PROJECT({
                     )}
                   </div>
                 )
-              ) : null}
+              ) : null} */}
 
               <button
                 id="ngheLaiBtn"
