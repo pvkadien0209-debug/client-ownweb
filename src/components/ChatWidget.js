@@ -621,7 +621,7 @@ const ChatWidget = () => {
                             }}
                           >
                             <i className="bi bi-pencil-square me-1"></i>
-                            BÀI TẬP# {numberMark}
+                            BÀI TẬP# {msg.time}
                           </button>
                         </div>
                       )}

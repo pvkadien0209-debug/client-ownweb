@@ -1045,7 +1045,14 @@ export default function InfoPopup({
                                 );
                                 return;
                               }
-
+                              const timestamp = new Date().toLocaleTimeString(
+                                [],
+                                {
+                                  hour: "2-digit",
+                                  minute: "2-digit",
+                                  second: "2-digit",
+                                },
+                              );
                               const dataGET = element.value;
                               let getCurrent =
                                 localStorage.getItem("groupChat") || "all";
@@ -1054,7 +1061,7 @@ export default function InfoPopup({
                                   type: "gheptu",
                                   data: dataGET,
                                 })}`,
-                                time: null,
+                                time: timestamp,
                                 type: "text",
                                 id: null,
                                 group: getCurrent,

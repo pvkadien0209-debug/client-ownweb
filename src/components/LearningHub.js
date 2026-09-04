@@ -779,15 +779,27 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                             }
 
                             const dataGET = element.value;
+                            const timestamp = new Date().toLocaleTimeString(
+                              [],
+                              {
+                                hour: "2-digit",
+                                minute: "2-digit",
+                                second: "2-digit",
+                              },
+                            );
+                            let getCurrent =
+                              localStorage.getItem("groupChat") || "all";
 
                             socket.emit("messageReg", {
                               text: `BTJSON${JSON.stringify({
                                 type: "gheptu",
                                 data: dataGET,
+                                note: "none",
                               })}`,
-                              time: null,
+                              time: timestamp,
                               type: "text",
                               id: null,
+                              group: getCurrent,
                             });
                           } catch (error) {
                             console.error(
@@ -797,7 +809,7 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                           }
                         }}
                       >
-                        Bài tập ghép từ#1
+                        Bài tập ghép từ #1
                       </button>
                     </div>
                     <i id="DeCode" className="d-none"></i>
