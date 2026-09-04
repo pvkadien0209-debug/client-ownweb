@@ -170,7 +170,7 @@ const Dictaphone = ({ CMDlist }) => {
   const [sttProcessing, setsttProcessing] = useState(false);
   const [sttListenFromServer, setsttListenFromServer] = useState(false);
   // Tab state
-  const [activeTab, setActiveTab] = useState(1);
+  const [activeTab, setActiveTab] = useState(4);
   // Memoize commands to prevent unnecessary re-creation
   const commands = useMemo(
     () => [

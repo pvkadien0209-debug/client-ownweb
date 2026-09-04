@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { compareTwoStrings } from "string-similarity";
 import { socket } from "../App";
-
+import BangUEOAI from "../components/A1_BangUEOAI";
 /* ════════════════════════════════════════════════════════════════════
    HÀM CHUẨN HÓA TEXT
 ════════════════════════════════════════════════════════════════════ */
@@ -924,66 +924,6 @@ export default function InfoPopup({
             </h5>
 
             <div className="dtph-info-header-actions">
-              <button
-                type="button"
-                className="btn btn-sm btn-outline-info py-0 px-1"
-                title="Xóa text"
-                onClick={() => clearTextareaById("clearClassForTable")}
-              >
-                Xóa text
-              </button>
-              {/* ═══════════════════════════════════════════════
-                        GỬI BÀI TẬP
-                    ═══════════════════════════════════════════════ */}
-              <button
-                type="button"
-                className="btn btn-sm btn-outline-info py-0 px-1"
-                title="Gửi bài tập"
-                onClick={() => {
-                  try {
-                    const element =
-                      document.getElementById("clearClassForTable");
-
-                    if (!element) {
-                      console.warn("Không tìm thấy #clearClassForTable");
-                      return;
-                    }
-
-                    const dataGET = element.value;
-
-                    socket.emit("messageReg", {
-                      text: `BTJSON${JSON.stringify({
-                        type: "gheptu",
-                        data: dataGET,
-                      })}`,
-                      time: null,
-                      type: "text",
-                      id: null,
-                    });
-                  } catch (error) {
-                    console.error("Lỗi khi tạo bài tập ghép từ:", error);
-                  }
-                }}
-              >
-                Bài tập ghép từ#1
-              </button>
-              <button
-                type="button"
-                className="dtph-info-resize-btn"
-                onClick={handleToggleRatio}
-                title={
-                  expanded ? "Thu gọn khu phiên âm" : "Mở rộng khu phiên âm"
-                }
-              >
-                <i
-                  className={`bi ${
-                    expanded ? "bi-arrows-collapse" : "bi-arrows-expand"
-                  }`}
-                ></i>
-
-                {expanded ? "Thu gọn" : "Mở rộng"}
-              </button>
-
               <button className="dtph-info-close" onClick={onClose}>
                 <i className="bi bi-x-lg"></i>
               </button>
@@ -1053,9 +993,89 @@ export default function InfoPopup({
                 {/* TEXTAREA */}
                 <div className="col-12 col-md-8 h-100">
                   <div className="dtph-info-textarea-wrap">
-                    <label className="dtph-info-textarea-label">
-                      Phiên âm đã chọn:
-                    </label>
+                    <div className="row">
+                      <div className="col-2">
+                        {" "}
+                        <button
+                          type="button"
+                          className="dtph-info-resize-btn"
+                          onClick={handleToggleRatio}
+                          title={
+                            expanded
+                              ? "Thu gọn khu phiên âm"
+                              : "Mở rộng khu phiên âm"
+                          }
+                        >
+                          <i
+                            className={`bi ${
+                              expanded
+                                ? "bi-arrows-collapse"
+                                : "bi-arrows-expand"
+                            }`}
+                          ></i>
+                        </button>
+                      </div>{" "}
+                      <div className="col-1">
+                        {" "}
+                        <button
+                          type="button"
+                          className="btn btn-sm btn-outline-info py-0 px-1"
+                          title="Xóa"
+                          onClick={() =>
+                            clearTextareaById("clearClassForTable")
+                          }
+                        >
+                          Xóa
+                        </button>
+                      </div>{" "}
+                      <div className="col-2">
+                        {" "}
+                        <button
+                          type="button"
+                          className="btn btn-sm btn-outline-info py-0 px-1"
+                          title="Gửi bài tập"
+                          onClick={() => {
+                            try {
+                              const element =
+                                document.getElementById("clearClassForTable");
+
+                              if (!element) {
+                                console.warn(
+                                  "Không tìm thấy #clearClassForTable",
+                                );
+                                return;
+                              }
+
+                              const dataGET = element.value;
+                              let getCurrent =
+                                localStorage.getItem("groupChat") || "all";
+                              socket.emit("messageReg", {
+                                text: `BTJSON${JSON.stringify({
+                                  type: "gheptu",
+                                  data: dataGET,
+                                })}`,
+                                time: null,
+                                type: "text",
+                                id: null,
+                                group: getCurrent,
+                              });
+                            } catch (error) {
+                              console.error(
+                                "Lỗi khi tạo bài tập ghép từ:",
+                                error,
+                              );
+                            }
+                          }}
+                        >
+                          BTGT#1
+                        </button>
+                      </div>{" "}
+                      <div className="col-5">
+                        <label className="dtph-info-textarea-label">
+                          Phiên âm đã chọn:
+                        </label>
+                      </div>
+                    </div>
 
                     <textarea
                       className="textarea-practice w-100"
@@ -1067,81 +1087,7 @@ export default function InfoPopup({
 
                 {/* IPA PANEL */}
                 <div className="col-12 col-md-4 h-100">
-                  <div className="dtph-ipa-panel">
-                    <table className="ipa-ref-table">
-                      <tbody>
-                        <tr className="ipa-head">
-                          {["U", "E", "O", "A", "I", "Ơ"].map((h) => (
-                            <td key={h}>{h}</td>
-                          ))}
-                        </tr>
-
-                        <tr>
-                          <td>
-                            uː
-                            <br />ʊ
-                          </td>
-
-                          <td>
-                            e
-                            <br />ɛ
-                          </td>
-
-                          <td>
-                            ɒ
-                            <br />
-                            ɔː
-                          </td>
-
-                          <td>
-                            ɑː
-                            <br />
-                            æ
-                            <br />ʌ
-                          </td>
-
-                          <td>
-                            iː
-                            <br />ɪ
-                          </td>
-
-                          <td>
-                            ɜː
-                            <br />ə
-                          </td>
-                        </tr>
-
-                        <tr className="ipa-head">
-                          {["eɪ", "aɪ", "ɔɪ", "əʊ", "aʊ", "ɪə", "eə", "ʊə"].map(
-                            (h) => (
-                              <td key={h}>{h}</td>
-                            ),
-                          )}
-                        </tr>
-
-                        <tr>
-                          {[
-                            "Ei",
-                            "Ai",
-                            "Oi",
-                            "Ơu",
-                            "Au",
-                            "I-ơ",
-                            "E-ơ",
-                            "U-ơ",
-                          ].map((v) => (
-                            <td key={v}>{v}</td>
-                          ))}
-                        </tr>
-                      </tbody>
-                    </table>
-
-                    <i className="d-block small text-muted mt-1">
-                      Xuất phát từ phiên âm (1) Xác định UE OAI Ơ (2) Ghép
-                      trước, ghép sau (3) Đọc trước to rõ, sau ngắn nhẹ, theo xu
-                      hướng âm từ trái sang phải, từ âm chính sang âm dấu!
-                    </i>
-                  </div>
+                  <BangUEOAI />
                 </div>
               </div>
             </div>

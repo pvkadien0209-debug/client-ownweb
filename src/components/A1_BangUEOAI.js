@@ -10,7 +10,7 @@ function BangUEOAI() {
     width: "100%",
     marginBottom: "6px",
   };
-  const ipaStyle = { color: "#999", fontSize: "12px" };
+  const ipaStyle = { color: "#999", fontSize: "16px" };
   const arrowStyle = { color: "#bbb", fontSize: "11px", margin: "0 2px" };
   const wordStyle = { color: "#000", fontWeight: "bold" };
 

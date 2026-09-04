@@ -444,7 +444,7 @@ export default function Header({ sttRoom, STTcfonnectFN }) {
                   alt="Logo PVD"
                 />
                 <b className="app-brand-text">
-                  Luật sư Ká Điện - Doanh nghiệp Ghép âm
+                  Ká Điện - Ghép âm
                 </b>
               </Link>
             </Navbar.Brand>

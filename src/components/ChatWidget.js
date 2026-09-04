@@ -32,6 +32,7 @@ const ChatWidget = () => {
   /* ── Popup bài tập — lưu trực tiếp msg.text (chuỗi chứa BTJSON), null = đóng ── */
   const [baitapPopup, setBaitapPopup] = useState(null);
 
+  let numberMark = 1;
   // Khởi tạo lịch sử chat cho tất cả các nhóm
   useEffect(() => {
     const initialChatHistory = {
@@ -599,7 +600,7 @@ const ChatWidget = () => {
                             ),
                           )
                         : msg.text.includes("BTJSON")
-                          ? "Luật sư Ká Điện - Doanh nghiệp Ghép âm"
+                          ? "Ká Điện - Ghép âm"
                           : msg.text}
 
                       {/* ── Nút BÀI TẬP# — hiện khi msg.text chứa BTJSON ── */}
@@ -620,7 +621,7 @@ const ChatWidget = () => {
                             }}
                           >
                             <i className="bi bi-pencil-square me-1"></i>
-                            BÀI TẬP#
+                            BÀI TẬP# {numberMark}
                           </button>
                         </div>
                       )}
