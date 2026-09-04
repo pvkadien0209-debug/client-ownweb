@@ -94,7 +94,8 @@ function BangUEOAI() {
 
       <i style={{ fontSize: "16px", color: "#555" }}>
         (0) Tìm phiên âm IPA → (1) Thay IPA bằng chữ tương ứng (in đen). (2) Đọc
-        trước to rõ, sau ngắn nhẹ, từ trái sang phải, từ âm chính sang âm dấu.
+        trước to rõ, sau ngắn nhẹ, âm gió. (3) Đọc theo xu hướng âm, từ trái
+        sang phải, từ âm chính sang âm dấu.
       </i>
     </div>
   );
