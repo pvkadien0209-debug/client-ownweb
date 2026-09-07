@@ -55,11 +55,11 @@ const YouTubeVideoSearch = ({ nameSeach = "How old are you?" }) => {
       // So sánh với title và titleSort
       const titleScore = compareTwoStrings(
         searchTerm.toLowerCase(),
-        video.title.toLowerCase()
+        video.title.toLowerCase(),
       );
       const titleSortScore = compareTwoStrings(
         searchTerm.toLowerCase(),
-        video.titleSort.toLowerCase()
+        video.titleSort.toLowerCase(),
       );
 
       // Lấy điểm cao nhất
@@ -86,11 +86,11 @@ const YouTubeVideoSearch = ({ nameSeach = "How old are you?" }) => {
       // So sánh với title và titleSort
       const titleScore = compareTwoStrings(
         searchTerm.toLowerCase(),
-        video.title.toLowerCase()
+        video.title.toLowerCase(),
       );
       const titleSortScore = compareTwoStrings(
         searchTerm.toLowerCase(),
-        video.titleSort.toLowerCase()
+        video.titleSort.toLowerCase(),
       );
 
       // Lấy điểm cao nhất
@@ -167,7 +167,7 @@ const YouTubeVideoSearch = ({ nameSeach = "How old are you?" }) => {
       } while (nextPageToken);
 
       console.log(
-        `Hoàn thành! Tổng cộng ${allVideos.length} video từ ${pageCount} trang`
+        `Hoàn thành! Tổng cộng ${allVideos.length} video từ ${pageCount} trang`,
       );
 
       // Xử lý dữ liệu
@@ -177,9 +177,9 @@ const YouTubeVideoSearch = ({ nameSeach = "How old are you?" }) => {
         const embedCode = `<iframe width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>`;
 
         let titleSort = title;
-        const parts = title.split(" | ");
-        if (parts.length >= 2) {
-          titleSort = parts[1].trim();
+        const match = title.match(/\|(.*?)\|/);
+        if (match) {
+          titleSort = match[1].trim();
         }
 
         return {
@@ -199,7 +199,7 @@ const YouTubeVideoSearch = ({ nameSeach = "How old are you?" }) => {
     } catch (error) {
       console.error("Lỗi khi tải danh sách phát:", error);
       setError(
-        "Không thể tải danh sách video. Vui lòng kiểm tra lại API key và playlist ID."
+        "Không thể tải danh sách video. Vui lòng kiểm tra lại API key và playlist ID.",
       );
       return [];
     } finally {
