@@ -220,10 +220,10 @@ function BangUEOAI() {
       `}</style>
       <i style={{ fontSize: "16px", color: "#555" }}>
         {[
-          "(B) Tìm phiên âm IPA → ",
-          "(1) Thay IPA bằng chữ tương ứng (in đen). ",
-          "(2) Đọc trước to rõ, sau ngắn nhẹ, âm gió. ",
-          "(3) Đọc theo xu hướng âm, từ trái sang phải, từ âm chính sang âm dấu.",
+          "(B1) Lấy phiên âm IPA → ",
+          "(B2) So chiếu với bảng UEOAI-ơ. ",
+          "(B3) Thực hiện 'ghép âm' a/Đọc trước to rõ, sau ngắn nhẹ, âm gió. ",
+          "(b) Đọc theo xu hướng âm, từ trái sang phải, từ âm chính sang âm dấu.",
         ].map((text, idx) => {
           const id = `instr-${idx}`;
           return (
