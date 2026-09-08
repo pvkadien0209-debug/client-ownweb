@@ -85,12 +85,83 @@ function BangUEOAI() {
     },
     [toggleHighlight],
   );
+
+  // copy "text" vào clipboard, có fallback cho trường hợp Clipboard API
+  // không khả dụng (trình duyệt cũ / trang không chạy trên HTTPS)
+  const copyToClipboard = useCallback((text) => {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).catch(() => {
+        // im lặng bỏ qua nếu bị từ chối quyền copy
+      });
+      return;
+    }
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    try {
+      document.execCommand("copy");
+    } catch (err) {
+      // im lặng bỏ qua nếu trình duyệt không hỗ trợ
+    }
+    document.body.removeChild(ta);
+  }, []);
+
+  // bấm vào ô (td) -> vừa toggle highlight của ô, vừa copy luôn chữ sau dấu mũi
+  // (span wordStyle) vào clipboard để dán ra chỗ khác
+  const handleCellClick = useCallback(
+    (id, word) => (e) => {
+      e.stopPropagation();
+      toggleHighlight(id);
+      copyToClipboard(word);
+    },
+    [toggleHighlight, copyToClipboard],
+  );
+
   // bấm nút gôm -> xoá hết highlight toàn bộ (thay cho double click trước đây)
   const clearAllHighlights = useCallback(() => {
     Object.values(blinkTimersRef.current).forEach(clearTimeout);
     blinkTimersRef.current = {};
     setActiveIds(new Set());
     setBlinkingIds(new Set());
+  }, []);
+
+  // trạng thái toàn màn hình (giống F11) + tắt scroll của trang khi đang full
+  const [isFullscreen, setIsFullscreen] = useState(false);
+
+  useEffect(() => {
+    const handleFullscreenChange = () => {
+      const fsEl =
+        document.fullscreenElement || document.webkitFullscreenElement;
+      setIsFullscreen(!!fsEl);
+      // tắt scroll trang khi full, trả lại như cũ khi thoát full
+      document.body.style.overflow = fsEl ? "hidden" : "";
+    };
+    document.addEventListener("fullscreenchange", handleFullscreenChange);
+    document.addEventListener("webkitfullscreenchange", handleFullscreenChange);
+    return () => {
+      document.removeEventListener("fullscreenchange", handleFullscreenChange);
+      document.removeEventListener(
+        "webkitfullscreenchange",
+        handleFullscreenChange,
+      );
+      document.body.style.overflow = "";
+    };
+  }, []);
+
+  const toggleFullscreen = useCallback(() => {
+    const fsEl = document.fullscreenElement || document.webkitFullscreenElement;
+    if (!fsEl) {
+      const el = document.documentElement;
+      const requestFs = el.requestFullscreen || el.webkitRequestFullscreen;
+      if (requestFs) requestFs.call(el);
+    } else {
+      const exitFs = document.exitFullscreen || document.webkitExitFullscreen;
+      if (exitFs) exitFs.call(document);
+    }
   }, []);
   const withHighlight = (style, id) => {
     const isBlinking = blinkingIds.has(id);
@@ -222,7 +293,7 @@ function BangUEOAI() {
                 <td
                   key={g.head}
                   style={withHighlight(cellStyle, tdId)}
-                  onClick={handleClick(tdId)}
+                  onClick={handleCellClick(tdId, g.word)}
                 >
                   <span style={ipaStyle}>{g.ipas.join(" / ")}</span>
                   <br />
@@ -247,7 +318,7 @@ function BangUEOAI() {
                 <td
                   key={g.ipa}
                   style={withHighlight(cellStyle, tdId)}
-                  onClick={handleClick(tdId)}
+                  onClick={handleCellClick(tdId, g.word)}
                 >
                   <span style={ipaStyle}>{g.ipa}</span>
                   <br />
@@ -275,6 +346,39 @@ function BangUEOAI() {
           </strong>
           .
         </i>{" "}
+        <button
+          type="button"
+          onClick={toggleFullscreen}
+          title={isFullscreen ? "Thoát toàn màn hình" : "Toàn màn hình"}
+          aria-label={isFullscreen ? "Thoát toàn màn hình" : "Toàn màn hình"}
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            justifyContent: "center",
+            verticalAlign: "middle",
+            width: "26px",
+            height: "26px",
+            padding: 0,
+            border: "1px solid #ccc",
+            borderRadius: "5px",
+            background: "#fff",
+            cursor: "pointer",
+          }}
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+            {isFullscreen ? (
+              <path
+                d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z"
+                fill="#555"
+              />
+            ) : (
+              <path
+                d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"
+                fill="#555"
+              />
+            )}
+          </svg>
+        </button>
       </div>
     </div>
   );
