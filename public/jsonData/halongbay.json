@@ -1,0 +1,2845 @@
+[
+  {
+    "id": "ha-long-bay",
+    "ListenList": [],
+    "typeSets": ["A1", "A2", "B1"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "HA LONG BAY",
+        "metaDescription": "Rèn kĩ năng - thuộc kiến thức",
+        "keywords": [
+          "thực hành giao tiếp",
+          "thực hành hội thoại",
+          "thực hành tiếng anh"
+        ]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "HA LONG BAY",
+        "IFdes": "Mục tiêu: \n1/ Rèn luyện thuần thục về nội dung, mẫu câu.\n2/ Nắm được cấu trúc trình bày một bài.\n2/ Tự trình bày trước người khác và quay video.",
+        "IF-audiocode": "PL01_hlb"
+      },
+      "IP": [{ "IPA-01": "/", "IPA-02": "/", "IPA-03": "/", "IPA-04": "/" }],
+      "TB": [],
+      "H0": [
+        {
+          "H0-01": "[MERGE]",
+          "H0-02": "**A Place That Amazes People**\n\nHa Long Bay is one of the most beautiful natural places in Vietnam. It is located in Quang Ninh Province, in the northeastern part of the country. The bay is famous for its emerald-green water and thousands of limestone islands and small islets.\n\nHa Long Bay has a long and interesting history. For centuries, local people have lived around the bay and depended on the sea for their daily lives. The area has also been connected with many traditional stories and legends, making it an important part of Vietnamese culture.\n\nWhat makes Ha Long Bay special is its unique natural landscape. The limestone islands have different shapes and sizes, and many of them contain caves with impressive rock formations. Visitors can travel around the bay by boat, explore caves and enjoy the peaceful scenery.\n\nHa Long Bay is important not only because of its natural beauty, but also because it attracts visitors from many parts of the world. Tourism contributes to the local economy and provides opportunities for people who work in hotels, restaurants, transportation and other services.\n\nWhat I find most impressive about Ha Long Bay is the combination of nature and history. The bay is not simply a beautiful place to visit; it also tells stories about the landscape, local communities and Vietnamese culture.\n\nI think Ha Long Bay teaches us that beautiful natural places should be protected. Tourism can bring many benefits, but people also need to take care of the environment. For this reason, Ha Long Bay continues to attract and inspire people today.",
+          "H0-03": null,
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": "X",
+          "H0-02": null,
+          "H0-03": "X",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": "STT",
+          "H0-02": "Keyword",
+          "H0-03": "Nội dung tóm tắt",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 1,
+          "H0-02": "WHAT / WHERE",
+          "H0-03": "Hạ Long Bay là một trong những địa điểm tự nhiên đẹp nhất Việt Nam, nằm ở tỉnh Quảng Ninh.",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 2,
+          "H0-02": "LOCATION",
+          "H0-03": "Vịnh nằm ở phía đông bắc Việt Nam và nổi tiếng với nước xanh ngọc cùng hàng nghìn đảo đá vôi.",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 3,
+          "H0-02": "HISTORY",
+          "H0-03": "Vịnh có lịch sử lâu đời; người dân địa phương đã sống quanh vịnh và phụ thuộc vào biển từ nhiều thế kỷ.",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 4,
+          "H0-02": "CULTURE",
+          "H0-03": "Khu vực này gắn với nhiều câu chuyện và truyền thuyết truyền thống, nên có ý nghĩa quan trọng đối với văn hóa Việt Nam.",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 5,
+          "H0-02": "LANDSCAPE",
+          "H0-03": "Cảnh quan đặc biệt với những đảo đá vôi có nhiều hình dạng, kích thước khác nhau và các hang động ấn tượng.",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 6,
+          "H0-02": "ACTIVITIES",
+          "H0-03": "Du khách có thể đi thuyền, khám phá hang động và tận hưởng phong cảnh yên bình.",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 7,
+          "H0-02": "IMPORTANCE",
+          "H0-03": "Vịnh quan trọng không chỉ vì vẻ đẹp tự nhiên mà còn vì thu hút du khách từ nhiều nơi trên thế giới.",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 8,
+          "H0-02": "CONTRIBUTION",
+          "H0-03": "Du lịch góp phần vào kinh tế địa phương và tạo cơ hội việc làm trong nhiều lĩnh vực dịch vụ.",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 9,
+          "H0-02": "IMPRESSION",
+          "H0-03": "Điều ấn tượng nhất là sự kết hợp giữa thiên nhiên và lịch sử.",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 10,
+          "H0-02": "LESSON & PROTECTION",
+          "H0-03": "Hạ Long Bay cho thấy những địa điểm thiên nhiên đẹp cần được bảo vệ; du lịch phát triển nhưng con người cũng phải chăm sóc môi trường.",
+          "H0-04": null,
+          "H0-05": null
+        }
+      ],
+      "TV": [],
+      "HT": [],
+      "MC": [],
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "BÀI TẬP 1: NỘI DUNG",
+          "HD-03": "X",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "STT",
+          "HD-02": "Hỏi",
+          "HD-03": "Câu A",
+          "HD-04": "Câu B",
+          "HD-05": null
+        },
+        {
+          "HD-01": "1",
+          "HD-02": "What is Ha Long Bay?",
+          "HD-03": null,
+          "HD-04": "It is one of the largest cities in Vietnam.",
+          "HD-05": "It is one of the most beautiful natural places in Vietnam."
+        },
+        {
+          "HD-01": "2",
+          "HD-02": "Where is Ha Long Bay located?",
+          "HD-03": "It is located in Ho Chi Minh City.",
+          "HD-04": "It is located in Quang Ninh Province.",
+          "HD-05": null
+        },
+        {
+          "HD-01": "3",
+          "HD-02": "Which part of Vietnam is it in?",
+          "HD-03": "It is in the northeastern part of Vietnam.",
+          "HD-04": null,
+          "HD-05": "It is in the southwestern part of Vietnam."
+        },
+        {
+          "HD-01": "4",
+          "HD-02": "What is the bay famous for?",
+          "HD-03": "It is famous for its modern buildings and highways.",
+          "HD-04": null,
+          "HD-05": "It is famous for its emerald-green water and limestone islands."
+        },
+        {
+          "HD-01": "5",
+          "HD-02": "How long has the bay had local communities?",
+          "HD-03": "Local people have lived around the bay for centuries.",
+          "HD-04": "Local people have lived there for only a few years.",
+          "HD-05": null
+        },
+        {
+          "HD-01": "6",
+          "HD-02": "What is the area connected with?",
+          "HD-03": "It is connected only with modern technology.",
+          "HD-04": "It is connected with many traditional stories and legends.",
+          "HD-05": null
+        },
+        {
+          "HD-01": "7",
+          "HD-02": "What makes Ha Long Bay special?",
+          "HD-03": null,
+          "HD-04": "Its large shopping centers make it special.",
+          "HD-05": "Its unique natural landscape makes it special."
+        },
+        {
+          "HD-01": "8",
+          "HD-02": "What can visitors do there?",
+          "HD-03": null,
+          "HD-04": "They can travel by boat, explore caves and enjoy the scenery.",
+          "HD-05": "They can visit factories and work in offices."
+        },
+        {
+          "HD-01": "9",
+          "HD-02": "How does tourism contribute to the local area?",
+          "HD-03": "It contributes to the local economy and provides job opportunities.",
+          "HD-04": null,
+          "HD-05": "It causes the local economy to disappear."
+        },
+        {
+          "HD-01": "10",
+          "HD-02": "What does Ha Long Bay teach us?",
+          "HD-03": "It teaches us that beautiful natural places should be protected.",
+          "HD-04": null,
+          "HD-05": "It teaches us that the environment does not need protection."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "BÀI TẬP 2: MẪU CÂU",
+          "HD-03": "X",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Stt",
+          "HD-02": "Cấu trúc câu trong bài đã dùng",
+          "HD-03": "Nội dung trong bài",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 1,
+          "HD-02": "S + be + one of the + superlative + plural N",
+          "HD-03": "Ha Long Bay is one of the most beautiful natural places in Vietnam.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 2,
+          "HD-02": "S + be + located in + place",
+          "HD-03": "It is located in Quang Ninh Province.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 3,
+          "HD-02": "S + be + Adj + for + N",
+          "HD-03": "The bay is famous for its emerald-green water.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 4,
+          "HD-02": "S + have + a/an + Adj + N",
+          "HD-03": "Ha Long Bay has a long and interesting history.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 5,
+          "HD-02": "S + have + V3 + around + place + for + period",
+          "HD-03": "Local people have lived around the bay for centuries.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 6,
+          "HD-02": "S + depend on + N + for + N",
+          "HD-03": "Local people depended on the sea for their daily lives.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 7,
+          "HD-02": "S + be connected with + N",
+          "HD-03": "The area has been connected with many traditional stories and legends.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 8,
+          "HD-02": "What + make + O + Adj + is + N",
+          "HD-03": "What makes Ha Long Bay special is its unique natural landscape.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 9,
+          "HD-02": "S + contain + N",
+          "HD-03": "Many islands contain caves with impressive rock formations.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 10,
+          "HD-02": "S + can + V + O",
+          "HD-03": "Visitors can explore caves and enjoy the peaceful scenery.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 11,
+          "HD-02": "S + attract + O",
+          "HD-03": "The bay attracts visitors from many parts of the world.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 12,
+          "HD-02": "S + contribute to + N",
+          "HD-03": "Tourism contributes to the local economy.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 13,
+          "HD-02": "S + provide + O + with + N",
+          "HD-03": "Tourism provides people with job opportunities.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 14,
+          "HD-02": "S + be + important + not only because..., but also because...",
+          "HD-03": "The bay is important not only because of its natural beauty, but also because it attracts visitors.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 15,
+          "HD-02": "What + S + find + most + Adj + about + N + is + N",
+          "HD-03": "What I find most impressive about Ha Long Bay is the combination of nature and history.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 16,
+          "HD-02": "S + be + not simply + N; it also + V",
+          "HD-03": "The bay is not simply a beautiful place to visit; it also tells stories about Vietnamese culture.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 17,
+          "HD-02": "S + bring + N + but + S + also + V",
+          "HD-03": "Tourism can bring many benefits, but people also need to take care of the environment.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 18,
+          "HD-02": "S + need to + V",
+          "HD-03": "People need to take care of the environment.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 19,
+          "HD-02": "S + teach + O + that + clause",
+          "HD-03": "Ha Long Bay teaches us that beautiful natural places should be protected.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 20,
+          "HD-02": "S + continue + to + V",
+          "HD-03": "Ha Long Bay continues to attract and inspire people today.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Câu tương tự:",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "",
+          "HD-02": "The city has a rich cultural history.",
+          "HD-03": "The hotel is located in the city center.",
+          "HD-04": "Da Nang is one of the most popular cities in Vietnam.",
+          "HD-05": "Hanoi is famous for its historical buildings."
+        },
+        {
+          "HD-01": "",
+          "HD-02": "People have lived in this village for hundreds of years.",
+          "HD-03": "What makes this city special is its friendly people.",
+          "HD-04": "The city is connected with many historical events.",
+          "HD-05": "Farmers depend on the land for their living."
+        },
+        {
+          "HD-01": "",
+          "HD-02": "The festival attracts tourists from different countries.",
+          "HD-03": "The museum contains many valuable paintings.",
+          "HD-04": "Visitors can walk around the old town.",
+          "HD-05": "Education contributes to social development."
+        },
+        {
+          "HD-01": "",
+          "HD-02": "The city is important not only because it is large, but also because it has a long history.",
+          "HD-03": "What I find most interesting about Hanoi is its culture.",
+          "HD-04": "The museum is not simply a tourist attraction; it also teaches visitors about history.",
+          "HD-05": "The program provides students with useful skills."
+        },
+        {
+          "HD-01": "",
+          "HD-02": "Visitors need to respect local rules.",
+          "HD-03": "The city continues to attract visitors every year.",
+          "HD-04": "Nature teaches us that everything is connected.",
+          "HD-05": "Development can bring opportunities, but people also need to protect nature."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "Bài tập 3",
+          "HD-03": "Hiểu sâu nghĩa của cụm từ",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Stt",
+          "HD-02": "Hỏi",
+          "HD-03": "A",
+          "HD-04": "B",
+          "HD-05": "C"
+        },
+        {
+          "HD-01": "1",
+          "HD-02": "“one of the most beautiful natural places” means what?",
+          "HD-03": "It is an ugly natural place.",
+          "HD-04": "It is the only beautiful place.",
+          "HD-05": "It is among the most beautiful natural places."
+        },
+        {
+          "HD-01": "2",
+          "HD-02": "“is located in Quang Ninh Province” means what?",
+          "HD-03": "It is far away from Quang Ninh Province.",
+          "HD-04": "It is situated in Quang Ninh Province.",
+          "HD-05": "It is located in Hanoi."
+        },
+        {
+          "HD-01": "3",
+          "HD-02": "“emerald-green water” means what?",
+          "HD-03": "Completely dry land.",
+          "HD-04": "Dark and dirty water.",
+          "HD-05": "Water with a bright green color like an emerald."
+        },
+        {
+          "HD-01": "4",
+          "HD-02": "“for centuries” means what?",
+          "HD-03": "For hundreds of years.",
+          "HD-04": "For only one year.",
+          "HD-05": "For a few days."
+        },
+        {
+          "HD-01": "5",
+          "HD-02": "“depended on the sea” means what?",
+          "HD-03": "Avoided the sea completely.",
+          "HD-04": "Relied on the sea.",
+          "HD-05": "Had no connection with the sea."
+        },
+        {
+          "HD-01": "6",
+          "HD-02": "“traditional stories and legends” means what?",
+          "HD-03": "News from yesterday.",
+          "HD-04": "Old stories passed down through generations.",
+          "HD-05": "Modern scientific reports."
+        },
+        {
+          "HD-01": "7",
+          "HD-02": "“unique natural landscape” means what?",
+          "HD-03": "A man-made shopping center.",
+          "HD-04": "An ordinary urban area.",
+          "HD-05": "A special and unusual natural environment."
+        },
+        {
+          "HD-01": "8",
+          "HD-02": "“impressive rock formations” means what?",
+          "HD-03": "Remarkable shapes of rocks.",
+          "HD-04": "Small pieces of plastic.",
+          "HD-05": "Modern buildings."
+        },
+        {
+          "HD-01": "9",
+          "HD-02": "“peaceful scenery” means what?",
+          "HD-03": "A noisy and crowded environment.",
+          "HD-04": "A dangerous place.",
+          "HD-05": "Calm and pleasant views."
+        },
+        {
+          "HD-01": "10",
+          "HD-02": "“attracts visitors” means what?",
+          "HD-03": "Makes people want to visit.",
+          "HD-04": "Prevents people from visiting.",
+          "HD-05": "Makes people leave immediately."
+        },
+        {
+          "HD-01": "11",
+          "HD-02": "“from many parts of the world” means what?",
+          "HD-03": "From one small village.",
+          "HD-04": "From many different countries and regions.",
+          "HD-05": "From only one city."
+        },
+        {
+          "HD-01": "12",
+          "HD-02": "“contributes to the local economy” means what?",
+          "HD-03": "Helps the local economy grow.",
+          "HD-04": "Has no effect on the local economy.",
+          "HD-05": "Damages the local economy."
+        },
+        {
+          "HD-01": "13",
+          "HD-02": "“provides opportunities” means what?",
+          "HD-03": "Makes something impossible.",
+          "HD-04": "Removes all chances.",
+          "HD-05": "Creates chances for people to do something."
+        },
+        {
+          "HD-01": "14",
+          "HD-02": "“the combination of nature and history” means what?",
+          "HD-03": "Nature and history are completely unrelated.",
+          "HD-04": "Nature and history exist together as important features.",
+          "HD-05": "Only history is important."
+        },
+        {
+          "HD-01": "15",
+          "HD-02": "“not simply a beautiful place” means what?",
+          "HD-03": "It is only a beautiful place.",
+          "HD-04": "It is more than just a beautiful place.",
+          "HD-05": "It is not beautiful at all."
+        },
+        {
+          "HD-01": "16",
+          "HD-02": "“take care of the environment” means what?",
+          "HD-03": "Protect and look after nature.",
+          "HD-04": "Damage the environment.",
+          "HD-05": "Ignore environmental problems."
+        },
+        {
+          "HD-01": "17",
+          "HD-02": "“tourism can bring many benefits” means what?",
+          "HD-03": "Tourism always causes serious problems.",
+          "HD-04": "Tourism creates no advantages.",
+          "HD-05": "Tourism can create many positive effects."
+        },
+        {
+          "HD-01": "18",
+          "HD-02": "“should be protected” means what?",
+          "HD-03": "People should take action to keep them safe.",
+          "HD-04": "People should ignore them.",
+          "HD-05": "People should destroy them."
+        },
+        {
+          "HD-01": "19",
+          "HD-02": "“continues to attract people” means what?",
+          "HD-03": "Nobody wants to visit it anymore.",
+          "HD-04": "It stopped attracting visitors long ago.",
+          "HD-05": "It still makes people want to visit."
+        },
+        {
+          "HD-01": "20",
+          "HD-02": "“continues to inspire people today” means what?",
+          "HD-03": "It has never influenced anyone.",
+          "HD-04": "People are still influenced and motivated by it.",
+          "HD-05": "People have completely forgotten it."
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "A1",
+        "fsp": "What does Ha Long Bay teach us?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "It teaches us that beautiful natural places should be protected."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "It teaches us that the environment does not need protection."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What does Ha Long Bay teach us?", "id": "PL01_hlba24" }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It is in the northeastern part of Vietnam.",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It is in the northeastern part of Vietnam.",
+            "id": "PL01_hlba33"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The museum is not simply a tourist attraction; it also teaches visitors about history.",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "The bay is not simply a beautiful place to visit; it also tells stories about Vietnamese culture."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "The museum is not simply a tourist attraction; it also teaches visitors about history."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The museum is not simply a tourist attraction; it also teaches visitors about history.",
+            "id": "PL01_hlba189"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "What makes Ha Long Bay special?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Its unique natural landscape makes it special."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["Its large shopping centers make it special."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What makes Ha Long Bay special?", "id": "PL01_hlba15" }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Ha Long Bay has a long and interesting history.",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The city has a rich cultural history."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["Ha Long Bay has a long and interesting history."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Ha Long Bay has a long and interesting history.",
+            "id": "PL01_hlba96"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It is connected only with modern technology.",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It is connected only with modern technology.",
+            "id": "PL01_hlba72"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "How does tourism contribute to the local area?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "It contributes to the local economy and provides job opportunities."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["It causes the local economy to disappear."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "How does tourism contribute to the local area?",
+            "id": "PL01_hlba21"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? Its large shopping centers make it special.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? Its large shopping centers make it special.",
+            "id": "PL01_hlba75"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Local people have lived around the bay for centuries.",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["People have lived in this village for hundreds of years."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["Local people have lived around the bay for centuries."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Local people have lived around the bay for centuries.",
+            "id": "PL01_hlba99"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Where is Ha Long Bay located?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["It is located in Quang Ninh Province."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["It is located in Ho Chi Minh City."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Where is Ha Long Bay located?", "id": "PL01_hlba0" }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Visitors need to respect local rules.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["People need to take care of the environment."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["Visitors need to respect local rules."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Visitors need to respect local rules.",
+            "id": "PL01_hlba195"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It is located in Ho Chi Minh City.",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It is located in Ho Chi Minh City.",
+            "id": "PL01_hlba60"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "What is the area connected with?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "It is connected with many traditional stories and legends."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["It is connected only with modern technology."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What is the area connected with?", "id": "PL01_hlba12" }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It is located in Quang Ninh Province.",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It is located in Quang Ninh Province.",
+            "id": "PL01_hlba30"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Visitors can walk around the old town.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "Visitors can explore caves and enjoy the peaceful scenery."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["Visitors can walk around the old town."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Visitors can walk around the old town.",
+            "id": "PL01_hlba171"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Which part of Vietnam is it in?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["It is in the northeastern part of Vietnam."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["It is in the southwestern part of Vietnam."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Which part of Vietnam is it in?", "id": "PL01_hlba3" }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It is one of the most beautiful natural places in Vietnam.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It is one of the most beautiful natural places in Vietnam.",
+            "id": "PL01_hlba57"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Hanoi is famous for its historical buildings.",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The bay is famous for its emerald-green water."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["Hanoi is famous for its historical buildings."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Hanoi is famous for its historical buildings.",
+            "id": "PL01_hlba150"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? They can travel by boat, explore caves and enjoy the scenery.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? They can travel by boat, explore caves and enjoy the scenery.",
+            "id": "PL01_hlba48"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "What is Ha Long Bay?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "It is one of the most beautiful natural places in Vietnam."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["It is one of the largest cities in Vietnam."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is Ha Long Bay?", "id": "PL01_hlba27" }]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Local people depended on the sea for their daily lives.",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Farmers depend on the land for their living."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["Local people depended on the sea for their daily lives."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Local people depended on the sea for their daily lives.",
+            "id": "PL01_hlba102"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...People need to take care of the environment.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Visitors need to respect local rules."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["People need to take care of the environment."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...People need to take care of the environment.",
+            "id": "PL01_hlba138"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "How long has the bay had local communities?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Local people have lived around the bay for centuries."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["Local people have lived there for only a few years."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "How long has the bay had local communities?",
+            "id": "PL01_hlba9"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It is famous for its modern buildings and highways.",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It is famous for its modern buildings and highways.",
+            "id": "PL01_hlba66"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "What is the bay famous for?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "It is famous for its emerald-green water and limestone islands."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["It is famous for its modern buildings and highways."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is the bay famous for?", "id": "PL01_hlba6" }]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The museum contains many valuable paintings.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "Many islands contain caves with impressive rock formations."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["The museum contains many valuable paintings."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The museum contains many valuable paintings.",
+            "id": "PL01_hlba168"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It causes the local economy to disappear.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It causes the local economy to disappear.",
+            "id": "PL01_hlba81"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "What can visitors do there?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "They can travel by boat, explore caves and enjoy the scenery."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["They can visit factories and work in offices."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What can visitors do there?", "id": "PL01_hlba18" }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It is famous for its emerald-green water and limestone islands.",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It is famous for its emerald-green water and limestone islands.",
+            "id": "PL01_hlba36"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Nature teaches us that everything is connected.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "Ha Long Bay teaches us that beautiful natural places should be protected."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["Nature teaches us that everything is connected."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Nature teaches us that everything is connected.",
+            "id": "PL01_hlba198"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It is in the southwestern part of Vietnam.",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It is in the southwestern part of Vietnam.",
+            "id": "PL01_hlba63"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The festival attracts tourists from different countries.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The bay attracts visitors from many parts of the world."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["The festival attracts tourists from different countries."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The festival attracts tourists from different countries.",
+            "id": "PL01_hlba174"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It teaches us that beautiful natural places should be protected.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It teaches us that beautiful natural places should be protected.",
+            "id": "PL01_hlba54"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Tourism can bring many benefits, but people also need to take care of the environment.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "Development can bring opportunities, but people also need to protect nature."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "Tourism can bring many benefits, but people also need to take care of the environment."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Tourism can bring many benefits, but people also need to take care of the environment.",
+            "id": "PL01_hlba135"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? Local people have lived there for only a few years.",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? Local people have lived there for only a few years.",
+            "id": "PL01_hlba69"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Tourism contributes to the local economy.",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Education contributes to social development."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["Tourism contributes to the local economy."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Tourism contributes to the local economy.",
+            "id": "PL01_hlba120"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? Local people have lived around the bay for centuries.",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? Local people have lived around the bay for centuries.",
+            "id": "PL01_hlba39"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Many islands contain caves with impressive rock formations.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The museum contains many valuable paintings."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "Many islands contain caves with impressive rock formations."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Many islands contain caves with impressive rock formations.",
+            "id": "PL01_hlba111"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It teaches us that the environment does not need protection.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It teaches us that the environment does not need protection.",
+            "id": "PL01_hlba84"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The bay is important not only because of its natural beauty, but also because it attracts visitors.",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "The city is important not only because it is large, but also because it has a long history."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "The bay is important not only because of its natural beauty, but also because it attracts visitors."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The bay is important not only because of its natural beauty, but also because it attracts visitors.",
+            "id": "PL01_hlba126"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The bay attracts visitors from many parts of the world.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The festival attracts tourists from different countries."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["The bay attracts visitors from many parts of the world."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The bay attracts visitors from many parts of the world.",
+            "id": "PL01_hlba117"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It is connected with many traditional stories and legends.",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It is connected with many traditional stories and legends.",
+            "id": "PL01_hlba42"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? Its unique natural landscape makes it special.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? Its unique natural landscape makes it special.",
+            "id": "PL01_hlba45"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Ha Long Bay continues to attract and inspire people today.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The city continues to attract visitors every year."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "Ha Long Bay continues to attract and inspire people today."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Ha Long Bay continues to attract and inspire people today.",
+            "id": "PL01_hlba144"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It is one of the largest cities in Vietnam.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It is one of the largest cities in Vietnam.",
+            "id": "PL01_hlba87"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The city continues to attract visitors every year.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "Ha Long Bay continues to attract and inspire people today."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["The city continues to attract visitors every year."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The city continues to attract visitors every year.",
+            "id": "PL01_hlba201"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? They can visit factories and work in offices.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? They can visit factories and work in offices.",
+            "id": "PL01_hlba78"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Ha Long Bay teaches us that beautiful natural places should be protected.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Nature teaches us that everything is connected."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "Ha Long Bay teaches us that beautiful natural places should be protected."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Ha Long Bay teaches us that beautiful natural places should be protected.",
+            "id": "PL01_hlba141"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...It is located in Quang Ninh Province.",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The hotel is located in the city center."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["It is located in Quang Ninh Province."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...It is located in Quang Ninh Province.",
+            "id": "PL01_hlba90"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It contributes to the local economy and provides job opportunities.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It contributes to the local economy and provides job opportunities.",
+            "id": "PL01_hlba51"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The bay is not simply a beautiful place to visit; it also tells stories about Vietnamese culture.",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "The museum is not simply a tourist attraction; it also teaches visitors about history."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "The bay is not simply a beautiful place to visit; it also tells stories about Vietnamese culture."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The bay is not simply a beautiful place to visit; it also tells stories about Vietnamese culture.",
+            "id": "PL01_hlba132"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...What makes Ha Long Bay special is its unique natural landscape.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What makes this city special is its friendly people."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "What makes Ha Long Bay special is its unique natural landscape."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...What makes Ha Long Bay special is its unique natural landscape.",
+            "id": "PL01_hlba108"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Visitors can explore caves and enjoy the peaceful scenery.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Visitors can walk around the old town."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "Visitors can explore caves and enjoy the peaceful scenery."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Visitors can explore caves and enjoy the peaceful scenery.",
+            "id": "PL01_hlba114"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Farmers depend on the land for their living.",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Local people depended on the sea for their daily lives."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["Farmers depend on the land for their living."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Farmers depend on the land for their living.",
+            "id": "PL01_hlba159"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...What makes this city special is its friendly people.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "What makes Ha Long Bay special is its unique natural landscape."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["What makes this city special is its friendly people."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...What makes this city special is its friendly people.",
+            "id": "PL01_hlba165"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Education contributes to social development.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Tourism contributes to the local economy."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["Education contributes to social development."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Education contributes to social development.",
+            "id": "PL01_hlba177"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...People have lived in this village for hundreds of years.",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Local people have lived around the bay for centuries."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["People have lived in this village for hundreds of years."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...People have lived in this village for hundreds of years.",
+            "id": "PL01_hlba156"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...What I find most impressive about Ha Long Bay is the combination of nature and history.",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["What I find most interesting about Hanoi is its culture."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "What I find most impressive about Ha Long Bay is the combination of nature and history."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...What I find most impressive about Ha Long Bay is the combination of nature and history.",
+            "id": "PL01_hlba129"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The city has a rich cultural history.",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Ha Long Bay has a long and interesting history."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["The city has a rich cultural history."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The city has a rich cultural history.",
+            "id": "PL01_hlba153"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The bay is famous for its emerald-green water.",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Hanoi is famous for its historical buildings."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["The bay is famous for its emerald-green water."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The bay is famous for its emerald-green water.",
+            "id": "PL01_hlba93"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The hotel is located in the city center.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["It is located in Quang Ninh Province."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["The hotel is located in the city center."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The hotel is located in the city center.",
+            "id": "PL01_hlba147"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The program provides students with useful skills.",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Tourism provides people with job opportunities."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["The program provides students with useful skills."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The program provides students with useful skills.",
+            "id": "PL01_hlba180"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The area has been connected with many traditional stories and legends.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The city is connected with many historical events."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "The area has been connected with many traditional stories and legends."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The area has been connected with many traditional stories and legends.",
+            "id": "PL01_hlba105"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The city is important not only because it is large, but also because it has a long history.",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "The bay is important not only because of its natural beauty, but also because it attracts visitors."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "The city is important not only because it is large, but also because it has a long history."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The city is important not only because it is large, but also because it has a long history.",
+            "id": "PL01_hlba183"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Tourism provides people with job opportunities.",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The program provides students with useful skills."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba4b1" },
+              { "st": "Good", "id": "PL01_hlba4b2" },
+              { "st": "Very good", "id": "PL01_hlba4b3" }
+            ]
+          },
+          {
+            "qs": ["Tourism provides people with job opportunities."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Tourism provides people with job opportunities.",
+            "id": "PL01_hlba123"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The city is connected with many historical events.",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "The area has been connected with many traditional stories and legends."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["The city is connected with many historical events."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The city is connected with many historical events.",
+            "id": "PL01_hlba162"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...What I find most interesting about Hanoi is its culture.",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "What I find most impressive about Ha Long Bay is the combination of nature and history."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": ["What I find most interesting about Hanoi is its culture."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...What I find most interesting about Hanoi is its culture.",
+            "id": "PL01_hlba186"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Development can bring opportunities, but people also need to protect nature.",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "Tourism can bring many benefits, but people also need to take care of the environment."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_hlba1b1" },
+              { "st": "Good", "id": "PL01_hlba1b2" },
+              { "st": "Very good", "id": "PL01_hlba1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "Development can bring opportunities, but people also need to protect nature."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_hlba2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Development can bring opportunities, but people also need to protect nature.",
+            "id": "PL01_hlba192"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  }
+]

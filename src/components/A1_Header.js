@@ -100,9 +100,16 @@ const pracEnSets = [
   },
   {
     root: "learninghub",
-    preName: "Sentence patterns",
+    preName: "Person",
     name: "Marie Curie",
     link: "ps_001",
+    id: "socap1",
+  },
+  {
+    root: "learninghub",
+    preName: "Place",
+    name: "Ha Long Bay",
+    link: "halongbay",
     id: "socap1",
   },
   {
@@ -443,9 +450,7 @@ export default function Header({ sttRoom, STTcfonnectFN }) {
                   style={{ marginRight: 10, borderRadius: 10 }}
                   alt="Logo PVD"
                 />
-                <b className="app-brand-text">
-                  Ká Điện - Ghép âm
-                </b>
+                <b className="app-brand-text">Ká Điện - Ghép âm</b>
               </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

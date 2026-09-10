@@ -104,7 +104,8 @@ function TTSStartButton() {
       <button onClick={() => handleStart()}>START TO TTSLIST</button>
 
       <button onClick={() => handleStartTV()}>
-        START TO TTSLISTTV(code, text,lang = en or vi)
+        START TO TTSLISTTV(code, text,lang = en or vi, speedRate, pitchShift,
+        volume,slowtrue/false, cutAudio = true/false, cutAudioDuration = 10)
       </button>
 
       <button onClick={() => handleTESTFffmeg()}>TEST FFMPEG</button>

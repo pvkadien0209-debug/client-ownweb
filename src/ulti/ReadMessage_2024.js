@@ -1,5 +1,24 @@
 import read_by_Tts from "./readMessage_TtsServer";
 let imale, ifemale;
+
+// Phát hiện điện thoại (mobile) — trên điện thoại chỉ đọc bằng file mp3, không dùng TTS
+function isMobileDevice() {
+  return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+}
+
+// Ghép đường dẫn tới file audio mp3 từ tên file
+function buildAudioPath(filename) {
+  let link_t_get_audio = "/audio/";
+  if (filename.includes("_")) {
+    link_t_get_audio += filename.split("_")[0] + "/";
+  } else {
+    if (filename.startsWith("B")) {
+      link_t_get_audio += "T1A1/";
+    }
+  }
+  return `${link_t_get_audio}${filename}.mp3`;
+}
+
 function playAudio(filename, disableButton, enableButton, onFail) {
   try {
     // Tạo một đường dẫn đến file audio
@@ -47,6 +66,91 @@ function playAudio(filename, disableButton, enableButton, onFail) {
     }
   }
 }
+
+// Hiển thị popup <audio> cố định giữa màn hình để người dùng tự bấm nghe
+// (dùng thay cho .play() tự động — phù hợp cho điện thoại, không autoplay)
+function showAudioPopup(filename, disableButton, enableButton) {
+  try {
+    const audioPath = buildAudioPath(filename);
+
+    // Xoá popup cũ nếu còn tồn tại trước khi tạo popup mới
+    const oldOverlay = document.getElementById("audioPopupOverlay");
+    if (oldOverlay) oldOverlay.remove();
+
+    const overlay = document.createElement("div");
+    overlay.id = "audioPopupOverlay";
+    overlay.style.position = "fixed";
+    overlay.style.inset = "0";
+    overlay.style.backgroundColor = "rgba(0,0,0,0.5)";
+    overlay.style.zIndex = "9999";
+    overlay.style.display = "flex";
+    overlay.style.alignItems = "center";
+    overlay.style.justifyContent = "center";
+
+    const box = document.createElement("div");
+    box.style.position = "relative";
+    box.style.backgroundColor = "#ffffff";
+    box.style.borderRadius = "12px";
+    box.style.padding = "24px 28px";
+    box.style.boxShadow = "0 4px 20px rgba(0,0,0,0.3)";
+    box.style.textAlign = "center";
+    box.style.minWidth = "260px";
+
+    const closeBtn = document.createElement("button");
+    closeBtn.innerText = "✕";
+    closeBtn.style.position = "absolute";
+    closeBtn.style.top = "6px";
+    closeBtn.style.right = "10px";
+    closeBtn.style.border = "none";
+    closeBtn.style.background = "transparent";
+    closeBtn.style.fontSize = "18px";
+    closeBtn.style.cursor = "pointer";
+    closeBtn.style.color = "#495057";
+
+    const label = document.createElement("div");
+    label.innerText = "Bấm nút bên dưới để nghe";
+    label.style.marginBottom = "12px";
+    label.style.color = "#495057";
+    label.style.fontSize = "16px";
+
+    const audioEl = document.createElement("audio");
+    audioEl.src = audioPath;
+    audioEl.controls = true;
+    audioEl.style.width = "240px";
+
+    const closePopup = () => {
+      overlay.remove();
+    };
+
+    audioEl.addEventListener("play", () => {
+      disableButton();
+    });
+    audioEl.addEventListener("ended", () => {
+      enableButton();
+      closePopup();
+    });
+    audioEl.addEventListener("error", () => {
+      enableButton();
+      console.warn(`Audio file not supported or not found: ${audioPath}`);
+      closePopup();
+    });
+
+    closeBtn.addEventListener("click", () => {
+      enableButton();
+      closePopup();
+    });
+
+    box.appendChild(closeBtn);
+    box.appendChild(label);
+    box.appendChild(audioEl);
+    overlay.appendChild(box);
+    document.body.appendChild(overlay);
+  } catch (error) {
+    console.error("Error in showAudioPopup function:", error);
+    enableButton();
+  }
+}
+
 // Function to set the state of a button
 function setButtonState(buttonId, isEnabled) {
   const button = document.getElementById(buttonId);
@@ -94,6 +198,18 @@ function checkFunctionExecution(functionName) {
 export default async function ReadMessage(ObjVoices, text, voiceNum, audio) {
   if (!checkFunctionExecution("ReadMessage")) {
     console.warn("ReadMessage called too frequently.");
+    return;
+  }
+  // Trên điện thoại: chỉ đọc bằng file mp3 (không dùng TTS), hiển thị popup
+  // <audio> cố định giữa màn hình để người dùng tự bấm nghe (không autoplay,
+  // không hiển thị text)
+  if (isMobileDevice()) {
+    if (Array.isArray(audio) && audio.length > 0) {
+      const randomIndex = Math.floor(Math.random() * audio.length);
+      showAudioPopup(audio[randomIndex].id, disableButton, enableButton);
+    } else {
+      console.warn("Không có file mp3 để đọc trên điện thoại.");
+    }
     return;
   }
   if (audio) {

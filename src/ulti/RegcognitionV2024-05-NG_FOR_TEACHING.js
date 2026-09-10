@@ -7,6 +7,14 @@ import LinkAPI from "./T0_linkApi";
 import read_by_Tts from "./readMessage_TtsServer";
 import YouTubeVideoSearch from "../components/LearningHub/YouTubeVideoSearch";
 import Nguyentacghepam from "../components/A1_BangUEOAI";
+
+// Phát hiện điện thoại (mobile) để tắt gọi API reg-Analyze trên thiết bị di động
+const isMobileDevice = () =>
+  typeof navigator !== "undefined" &&
+  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+    navigator.userAgent,
+  );
+
 const ViewRes = ({ resultSt = [] }) => {
   // Use React hooks for animation effect
   const [prevResultLength, setPrevResultLength] = useState(0);
@@ -46,7 +54,7 @@ const ViewRes = ({ resultSt = [] }) => {
         from { opacity: 0; transform: translateY(8px); }
         to { opacity: 1; transform: translateY(0); }
       }
-      
+
       @keyframes highlightNew {
         0% { background-color: rgba(3, 169, 244, 0.25); }
         100% { background-color: transparent; }
@@ -207,6 +215,10 @@ const Dictaphone = ({ CMDlist }) => {
     // Early return if transcript is too long (more than 2x the command length)
     if (transcript.length > CMDlist.length * 3) {
       stopListening();
+      return;
+    }
+    // Trên điện thoại: không gọi API reg-Analyze (chỉ dùng trên desktop)
+    if (isMobileDevice()) {
       return;
     }
     if (interimTranscript === "" && transcript !== "" && CMDlist?.trim()) {
