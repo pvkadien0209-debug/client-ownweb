@@ -4,15 +4,15 @@ import SpeechRecognition, {
 } from "react-speech-recognition";
 import InfoPopup from "./InfoPopup";
 
+/* Phát hiện điện thoại/iOS — trên điện thoại không dùng speech-to-text,
+   chỉ dùng ô input để nhập text */
+function isMobileDevice() {
+  return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+}
+
 /* ════════════════════════════════════════════════════════════════════
    DictaphoneONLY — footer bar
-   - Desktop (web): thanh mic Bật/Tắt (speech-to-text) như cũ.
-   - Mobile / iOS: KHÔNG dùng speech-to-text. Thay vào đó là ô input
-     nhập chữ, nằm tách biệt, dính đáy màn hình, full width, không bị
-     ảnh hưởng bởi scroll trang. Nút "Viết/Tắt" chỉ bật/tắt việc HIỂN
-     THỊ ô nhập chữ, không liên quan gì tới speech-to-text.
-   - Nút "Gửi" xử lý lấy dữ liệu tuỳ theo hoàn cảnh: mobile → lấy giá
-     trị ô input; desktop → lấy transcript từ speech-to-text.
+   Layout: [Reset | Tiếp]  [transcript…]  [Bật/Tắt toggle]
 ════════════════════════════════════════════════════════════════════ */
 const DictaphoneONLY = ({
   IsReading,
@@ -23,59 +23,40 @@ const DictaphoneONLY = ({
 }) => {
   const { transcript, resetTranscript, listening } = useSpeechRecognition();
   const [micEnabled, setMicEnabled] = useState(false);
+  const isMobile = isMobileDevice();
 
-  /* ── 4/5: Check ban đầu xem có phải mobile/iOS không ──────────
-     Trên mobile/iOS: không dùng speech-to-text, chỉ dùng input text.
-     Chỉ check 1 lần lúc mount ("check ban đầu").
+  /* ── Điện thoại/iOS: không dùng speech-to-text, chỉ nhập tay ──────
+     Vẫn giữ nút Bật/Tắt trên layout nhưng không cần khởi động STT.
+     "Gửi" sẽ lấy giá trị input.text để xử lý như transcript bình thường.
   ─────────────────────────────────────────────────────────────── */
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const ua =
-      (typeof navigator !== "undefined" &&
-        (navigator.userAgent || navigator.vendor)) ||
-      "";
-    const isIOS =
-      /iPad|iPhone|iPod/.test(ua) &&
-      !(typeof window !== "undefined" && window.MSStream);
-    const isAndroid = /android/i.test(ua);
-    const isNarrowScreen =
-      typeof window !== "undefined" && window.innerWidth <= 768;
-    setIsMobile(isIOS || isAndroid || isNarrowScreen);
-  }, []);
-
-  /* ── 1/2: Ô input nhập chữ dùng cho mobile ────────────────────
-     writeMode: bật/tắt HIỂN THỊ ô input — có thể tắt bất cứ lúc nào,
-     không phụ thuộc việc đang có chữ hay không, và không đụng gì tới
-     speech-to-text.
-  ─────────────────────────────────────────────────────────────── */
-  const [typedText, setTypedText] = useState("");
-  const [writeMode, setWriteMode] = useState(false);
-
-  const handleToggleWrite = () => {
-    setWriteMode((prev) => !prev);
-  };
+  const [mobileText, setMobileText] = useState("");
+  const effectiveTranscript = isMobile ? mobileText : transcript;
+  // Khối nhập tay: tách riêng, nằm cố định full màn hình phía dưới cùng
+  // trên điện thoại. Toggle "Viết/Tắt" chỉ ẩn/hiện khối này — không liên
+  // quan gì tới speech-to-text, có thể bật/tắt bất cứ lúc nào.
+  const [writeOpen, setWriteOpen] = useState(true);
 
   /* ── Popup INFO tra cứu phiên âm ────────────────────────────── */
   const [showInfoPopup, setShowInfoPopup] = useState(false);
-  const [inputString, setInputString] = useState(""); // giá trị đang gõ trong ô tra cứu
+  const [inputString, setInputString] = useState(""); // giá trị đang gõ trong ô input
   const [searchQuery, setSearchQuery] = useState(""); // giá trị thật sự dùng để tìm (chỉ set khi bấm Tìm)
 
-  /* ── Auto-detect mobile browser tự dừng (chỉ áp dụng cho desktop,
-     vì mobile không dùng speech-to-text) ─────────────────────────
+  /* ── Auto-detect mobile browser tự dừng ────────────────────────
      Khi micEnabled=true nhưng listening tắt → reset cờ để nút
      tự chuyển sang trạng thái "cần bật lại"
   ─────────────────────────────────────────────────────────────── */
   useEffect(() => {
-    if (isMobile) return;
     if (micEnabled && !listening) {
       setMicEnabled(false);
     }
-  }, [listening, isMobile]); // eslint-disable-line
+  }, [listening]); // eslint-disable-line
 
-  /* ── Toggle Bật / Tắt mic (chỉ dùng trên web) ─────────────────── */
+  /* ── Toggle Bật / Tắt ───────────────────────────────────────── */
   const handleToggle = () => {
-    if (isMobile) return; // 5/ Không dùng speech-to-text trên mobile/iOS
+    // Điện thoại/iOS: không dùng speech-to-text, không cần khởi động
+    if (isMobile) {
+      return;
+    }
     if (micEnabled) {
       // Đang bật → tắt
       SpeechRecognition.stopListening();
@@ -88,13 +69,9 @@ const DictaphoneONLY = ({
     }
   };
 
-  /* ── 3/: Gửi — lấy dữ liệu tuỳ hoàn cảnh (input chữ hay speech) ─
-     mobile → lấy typedText; desktop → lấy transcript.
-  ─────────────────────────────────────────────────────────────── */
-  const handleSend = () => {
-    const current = (isMobile ? typedText : transcript).trim();
-    if (!current) return;
-
+  /* ── Tiếp: gửi transcript đi xử lý → reset → nghe câu mới ──── */
+  const handleNext = () => {
+    const current = effectiveTranscript.trim();
     // Ghi vào DOM để Dictaphone-check đọc
     const el = document.getElementById("dtphTranscript");
     if (el) el.innerText = current;
@@ -102,33 +79,28 @@ const DictaphoneONLY = ({
     setTimeout(() => {
       document.getElementById("checkBTN")?.click();
     }, 100);
-
     if (onTranscript) onTranscript(current);
-
-    // Reset và tiếp tục nghe/nhập câu mới
-    if (isMobile) {
-      setTypedText("");
-    } else {
-      resetTranscript();
-    }
+    // Reset và tiếp tục nghe câu mới
+    resetTranscript();
+    setMobileText("");
+    // SpeechRecognition.stopListening();
+    // setTimeout(() => {
+    //   SpeechRecognition.startListening({ continuous: true, language: lang });
+    //   setMicEnabled(true);
+    // }, 200);
   };
 
-  /* ── Xóa: xóa nội dung hiện tại (input hoặc transcript) ───────
-     giữ nguyên trạng thái mic / writeMode
-  ─────────────────────────────────────────────────────────────── */
+  /* ── Reset: xóa transcript, giữ nguyên trạng thái mic ──────── */
   const handleReset = () => {
-    if (isMobile) {
-      setTypedText("");
-    } else {
-      resetTranscript();
-    }
+    resetTranscript();
+    setMobileText("");
   };
 
   /* ── Mở popup tra cứu, tự điền câu hiện tại nếu có ─────────── */
   const handleOpenInfo = () => {
-    const prefill = (isMobile ? typedText : transcript).trim();
+    const prefill = effectiveTranscript.trim();
     setInputString(prefill);
-    setSearchQuery(prefill); // hiện kết quả sẵn cho câu vừa đọc/gõ, nếu có
+    setSearchQuery(prefill); // hiện kết quả sẵn cho câu vừa đọc, nếu có
     setShowInfoPopup(true);
   };
 
@@ -141,7 +113,7 @@ const DictaphoneONLY = ({
     setSearchQuery(inputString.trim());
   };
 
-  /* ── Trạng thái toggle button (mic — chỉ dùng trên web) ───────── */
+  /* ── Trạng thái toggle button ───────────────────────────────── */
   // micEnabled=false              → "Bật"   (xanh)
   // micEnabled=true, listening    → "Tắt"   (đỏ, pulse)
   // micEnabled=false sau auto-stop → "Bật lại" (cam) — handled by useEffect above
@@ -152,12 +124,12 @@ const DictaphoneONLY = ({
       ? { label: "Bật lại", cls: "dtph-toggle-warn", icon: "bi-mic" }
       : { label: "Bật", cls: "dtph-toggle-off", icon: "bi-mic-mute-fill" };
 
-  const hasText = (isMobile ? typedText : transcript).trim().length > 0;
+  const hasText = effectiveTranscript.trim().length > 0;
 
   return (
     <>
       <style>{`
-        /* ── Wrapper (thanh desktop) ── */
+        /* ── Wrapper ── */
         .dtph-bar {
           display: flex;
           align-items: center;
@@ -239,6 +211,39 @@ const DictaphoneONLY = ({
           border-color: rgba(74,222,168,0.55);
           box-shadow: 0 0 0 1px rgba(74,222,168,0.15) inset, 0 0 24px rgba(52,211,153,0.15);
         }
+        /* ── Điện thoại/iOS: khối nhập tay tách riêng, cố định full màn
+           hình ở phía dưới cùng — không bị ảnh hưởng bởi scroll ── */
+        .dtph-mobile-writebar {
+          position: fixed;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          width: 100%;
+          z-index: 10000;
+          box-sizing: border-box;
+          padding: 8px 12px calc(8px + env(safe-area-inset-bottom, 0px));
+          background: rgba(15, 23, 42, 0.92);
+          backdrop-filter: blur(6px);
+          border-top: 1px solid rgba(255,255,255,0.12);
+        }
+        .dtph-mobile-input-standalone {
+          width: 100%;
+          box-sizing: border-box;
+          height: 44px;
+          background: rgba(255,255,255,0.08);
+          border: 1px solid rgba(255,255,255,0.18);
+          border-radius: 10px;
+          color: #f1f5f9;
+          font-size: 0.9rem;
+          font-weight: 600;
+          padding: 0 12px;
+          outline: none;
+        }
+        .dtph-mobile-input-standalone::placeholder {
+          color: rgba(241,245,249,0.5);
+          font-weight: 500;
+          font-style: italic;
+        }
         .dtph-transcript-text {
           font-size: 0.82rem;
           line-height: 1.35;
@@ -291,7 +296,7 @@ const DictaphoneONLY = ({
           animation: dtph-blink 1s step-start infinite;
         }
         @keyframes dtph-blink { 50% { opacity: 0; } }
-        /* ══ Toggle button dùng chung (mic bên web / Viết-Tắt bên mobile) ══ */
+        /* ══ RIGHT: Toggle Bật/Tắt ══ */
         .dtph-toggle-btn {
           display: flex;
           flex-direction: column;
@@ -313,8 +318,12 @@ const DictaphoneONLY = ({
           -webkit-tap-highlight-color: transparent;
         }
         .dtph-toggle-btn:active { transform: scale(0.90); }
+        .dtph-toggle-btn:disabled {
+          opacity: 0.4;
+          cursor: not-allowed;
+        }
         .dtph-toggle-btn i { font-size: 1.15rem; line-height: 1; }
-        /* OFF → Bật / Viết (xanh lá tươi) */
+        /* OFF → Bật (xanh lá tươi) */
         .dtph-toggle-off {
           background: linear-gradient(135deg, #6ee7b7, #10b981);
           color: #063d2c;
@@ -342,62 +351,28 @@ const DictaphoneONLY = ({
           0%, 100% { box-shadow: 0 2px 12px rgba(245,158,11,0.55); }
           50%       { box-shadow: 0 2px 26px rgba(245,158,11,0.9); }
         }
-
-        /* ══════════════════════════════════════════════════════════
-           MOBILE — 1/ ô input tách riêng, nằm dưới cùng, full width
-           4/ full màn hình & không bị ảnh hưởng bởi scroll trang
-        ══════════════════════════════════════════════════════════ */
-        .dtph-mobile-wrap {
-          position: fixed;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          width: 100%;
-          max-width: 100vw;
-          box-sizing: border-box;
-          display: flex;
-          flex-direction: column;
-          background: rgba(15,23,42,0.98);
-          backdrop-filter: blur(6px);
-          z-index: 9999;
+        /* Điện thoại: nút Viết/Tắt — không liên quan speech-to-text,
+           chỉ ẩn/hiện khối nhập tay, bấm lúc nào cũng được */
+        .dtph-toggle-write-off {
+          background: linear-gradient(135deg, #93c5fd, #3b82f6);
+          color: #fff;
+          box-shadow: 0 2px 12px rgba(59,130,246,0.55);
         }
-        /* 1/ ô input tách bạch, nằm riêng phía trên nút bấm, full width */
-        .dtph-mobile-input-row {
-          width: 100%;
-          box-sizing: border-box;
-          padding: 8px 10px;
-          border-bottom: 1px solid rgba(255,255,255,0.08);
-        }
-        .dtph-mobile-input {
-          width: 100%;
-          box-sizing: border-box;
-          border-radius: 10px;
-          border: 1px solid rgba(255,255,255,0.18);
-          background: rgba(255,255,255,0.08);
+        .dtph-toggle-write-on {
+          background: rgba(148,163,184,0.35);
           color: #f1f5f9;
-          padding: 10px 12px;
-          font-size: 0.95rem;
-          outline: none;
-          resize: none;
-          max-height: 40vh;
-          overflow-y: auto;
-        }
-        .dtph-mobile-input::placeholder {
-          color: rgba(241,245,249,0.5);
-          font-style: italic;
-        }
-        .dtph-mobile-bar {
-          width: 100%;
-          box-sizing: border-box;
-          padding-top: 6px;
-          padding-bottom: 6px;
+          border: 1px solid rgba(226,232,240,0.35);
         }
       `}</style>
-
-      {/* ══ DESKTOP / WEB — chỉ hiển thị khi KHÔNG phải mobile ══ */}
-      {!isMobile && (
-        <div className={`dtph-bar ${listening ? "is-listening" : ""}`}>
-          {/* ══ CENTER: Transcript ══ */}
+      <div className={`dtph-bar ${listening ? "is-listening" : ""}`}>
+        {/* ══ CENTER: Transcript (desktop) / gợi ý ô nhập ở dưới (điện thoại, iOS) ══ */}
+        {isMobile ? (
+          <div className="dtph-center">
+            <span className="dtph-placeholder-text">
+              ✍️ Nhập ở khung phía dưới màn hình
+            </span>
+          </div>
+        ) : (
           <div className="dtph-center">
             {hasText ? (
               <span className="dtph-transcript-text">
@@ -414,8 +389,9 @@ const DictaphoneONLY = ({
               </span>
             )}
           </div>
-
-          {/* ══ Toggle Bật/Tắt mic — chỉ hiển thị trên web, không liên quan gì tới ô input ══ */}
+        )}
+        {/* ══ LEFT: Toggle Bật/Tắt — chỉ hiển thị trên web ══ */}
+        {!isMobile && (
           <button
             className={`dtph-toggle-btn ${toggleState.cls}`}
             onClick={handleToggle}
@@ -431,112 +407,69 @@ const DictaphoneONLY = ({
               </>
             )}
           </button>
-
-          {/* ══ Xóa + Gửi + INFO ══ */}
-          <div className="dtph-left">
-            <button
-              className="dtph-sm-btn dtph-btn-reset"
-              onClick={handleReset}
-              title="Xóa transcript"
-            >
-              <i className="bi bi-trash3" />
-              <span>Xóa</span>
-            </button>
-            <button
-              className="dtph-sm-btn dtph-btn-next"
-              onClick={handleSend}
-              disabled={!hasText}
-              title="Gửi & nghe câu mới"
-            >
-              <i className="bi bi-arrow-right-circle" />
-              <span>Gửi</span>
-            </button>
-            <button
-              className="dtph-sm-btn dtph-btn-next"
-              onClick={handleOpenInfo}
-              disabled={listening}
-              title="Bảng thông tin tham khảo"
-            >
-              <i className="bi bi-info-circle" />
-              <span>INFO</span>
-            </button>
-          </div>
+        )}
+        {/* ══ Nút "Viết/Tắt" — chỉ hiển thị trên điện thoại, không liên
+           quan speech-to-text, chỉ ẩn/hiện khối nhập tay, bấm lúc nào
+           cũng được (không cần có chữ mới tắt được) ══ */}
+        {isMobile && (
+          <button
+            className={`dtph-toggle-btn ${writeOpen ? "dtph-toggle-write-on" : "dtph-toggle-write-off"}`}
+            onClick={() => setWriteOpen((v) => !v)}
+            title={writeOpen ? "Ẩn ô nhập" : "Hiện ô nhập"}
+          >
+            <i
+              className={`bi ${writeOpen ? "bi-x-circle" : "bi-pencil-fill"}`}
+            />{" "}
+            <span>{writeOpen ? "Tắt" : "Viết"}</span>
+          </button>
+        )}
+        {/* ══ RIGHT: Xóa + Tiếp + INFO ══ */}
+        <div className="dtph-left">
+          {/* Xóa */}
+          <button
+            className="dtph-sm-btn dtph-btn-reset"
+            onClick={handleReset}
+            title="Xóa transcript"
+          >
+            <i className="bi bi-trash3" />
+            <span>Xóa</span>
+          </button>
+          {/* Tiếp — chỉ enable khi có text */}
+          <button
+            className="dtph-sm-btn dtph-btn-next"
+            onClick={handleNext}
+            disabled={!hasText}
+            title="Gửi & nghe câu mới"
+          >
+            <i className="bi bi-arrow-right-circle" />
+            <span>Gửi</span>
+          </button>
+          {/* INFO — mở popup tra cứu phiên âm tham khảo */}
+          <button
+            className="dtph-sm-btn dtph-btn-next"
+            onClick={handleOpenInfo}
+            disabled={listening}
+            title="Bảng thông tin tham khảo"
+          >
+            <i className="bi bi-arrow-right-circle" />
+            <span>INFO</span>
+          </button>
+          AAAAAAAAAAAAAAAAAAAAAa
         </div>
-      )}
+      </div>
 
-      {/* ══ MOBILE / iOS — chỉ hiển thị khi LÀ mobile, không dùng speech-to-text ══ */}
-      {isMobile && (
-        <div className="dtph-mobile-wrap">
-          {/* 1/ ô input tách riêng, nằm ở trên thanh nút, full width — chỉ hiện khi bật "Viết" */}
-          {writeMode && (
-            <div className="dtph-mobile-input-row">
-              <textarea
-                className="dtph-mobile-input"
-                rows={2}
-                value={typedText}
-                onChange={(e) => setTypedText(e.target.value)}
-                placeholder="Nhập câu của bạn ở đây…"
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" && !e.shiftKey) {
-                    e.preventDefault();
-                    handleSend();
-                  }
-                }}
-              />
-            </div>
-          )}
-
-          <div className="dtph-bar dtph-mobile-bar">
-            {/* 2/ Nút "Viết/Tắt" — chỉ bật/tắt hiển thị ô input, KHÔNG liên quan speech-to-text,
-                có thể tắt bất cứ lúc nào chứ không cần phải có chữ mới tắt được */}
-            <button
-              className={`dtph-toggle-btn ${writeMode ? "dtph-toggle-on" : "dtph-toggle-off"}`}
-              onClick={handleToggleWrite}
-              disabled={IsReading}
-              title={writeMode ? "Tắt" : "Viết"}
-            >
-              {IsReading ? (
-                "Chờ đọc xong"
-              ) : (
-                <>
-                  <i
-                    className={`bi ${writeMode ? "bi-x-lg" : "bi-pencil-fill"}`}
-                  />{" "}
-                  <span>{writeMode ? "Tắt" : "Viết"}</span>
-                </>
-              )}
-            </button>
-
-            {/* ══ Xóa + Gửi + INFO ══ */}
-            <div className="dtph-left">
-              <button
-                className="dtph-sm-btn dtph-btn-reset"
-                onClick={handleReset}
-                title="Xóa nội dung đã nhập"
-              >
-                <i className="bi bi-trash3" />
-                <span>Xóa</span>
-              </button>
-              {/* 3/ Gửi — lấy dữ liệu từ ô input (mobile) */}
-              <button
-                className="dtph-sm-btn dtph-btn-next"
-                onClick={handleSend}
-                disabled={!hasText}
-                title="Gửi"
-              >
-                <i className="bi bi-arrow-right-circle" />
-                <span>Gửi</span>
-              </button>
-              <button
-                className="dtph-sm-btn dtph-btn-next"
-                onClick={handleOpenInfo}
-                title="Bảng thông tin tham khảo"
-              >
-                <i className="bi bi-info-circle" />
-                <span>INFO</span>
-              </button>
-            </div>
-          </div>
+      {/* ══ Khối nhập tay — tách riêng khỏi thanh trên, cố định full màn
+         hình ở dưới cùng, không bị ảnh hưởng bởi scroll (chỉ điện thoại) ══ */}
+      {isMobile && writeOpen && (
+        <div className="dtph-mobile-writebar">
+          <input
+            type="text"
+            className="dtph-mobile-input-standalone"
+            value={mobileText}
+            onChange={(e) => setMobileText(e.target.value)}
+            placeholder="Nhập văn bản..."
+            autoFocus
+          />
         </div>
       )}
 
@@ -552,7 +485,7 @@ const DictaphoneONLY = ({
         dataTable={dataTable}
       />
 
-      {/* Hidden triggers — chỉ tác động speech-to-text trên desktop (5/ mobile không dùng STT) */}
+      {/* Hidden triggers */}
       <button
         id="stopListenBTN"
         style={{ display: "none" }}
@@ -562,7 +495,6 @@ const DictaphoneONLY = ({
         id="sttStopBTN"
         style={{ display: "none" }}
         onClick={() => {
-          if (isMobile) return;
           SpeechRecognition.stopListening();
           setMicEnabled(false);
         }}
