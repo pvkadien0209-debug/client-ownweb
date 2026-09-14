@@ -2,6 +2,8 @@ import React, { useEffect, useState, useContext } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { useParams } from "react-router-dom";
 import { ObjREADContext } from "../App"; // Import ObjREADContext
+import LoadingScreen from "./shared/LoadingScreen";
+import ErrorScreen from "./shared/ErrorScreen";
 
 const LearningByHeartHub = ({ STTconnectFN }) => {
   const { id, id01 } = useParams();
@@ -88,13 +90,11 @@ const LearningByHeartHub = ({ STTconnectFN }) => {
   };
 
   if (loading) {
-    return <div style={{ fontSize: "24px", color: "#ff0000" }}>Loading...</div>;
+    return <LoadingScreen />;
   }
 
   if (error) {
-    return (
-      <div style={{ fontSize: "24px", color: "#ff0000" }}>Error: {error}</div>
-    );
+    return <ErrorScreen message={`Đã xảy ra lỗi: ${error}`} />;
   }
 
   function arrayToString(array) {
@@ -116,7 +116,7 @@ const LearningByHeartHub = ({ STTconnectFN }) => {
           textAlign: "center",
           fontFamily: "Arial, sans-serif",
           color: "#333",
-          marginTop: "15vh",
+          marginTop: "var(--app-header-h, 8vh)",
         }}
       >
         <Helmet>

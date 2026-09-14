@@ -9,6 +9,7 @@ import sendMessageToServer from "../ulti/sendMessage";
 import shuffleArray from "../ulti/shuffleArray";
 import DataPracticeComponent from "./pracPages/C_RoomOffline_LAYDULIEUTH";
 import Dictaphone from "../ulti/RegcognitionOnly";
+import LoadingScreen from "./shared/LoadingScreen";
 const Room = ({ setSttRoom }) => {
   const { roomCode, currentIndex } = useParams();
   const locationSet = useLocation();
@@ -223,37 +224,62 @@ const Room = ({ setSttRoom }) => {
   }
 
   if (params && IndexSets && params.get("qstable")) {
+    const cardStyle = {
+      background: "var(--brand-card, #ffffff)",
+      borderRadius: "var(--brand-radius, 14px)",
+      border: "1px solid var(--brand-border, #e2e8f0)",
+      boxShadow:
+        "var(--brand-shadow, 0 1px 3px rgba(15,23,42,0.06), 0 6px 18px rgba(15,23,42,0.05))",
+      padding: "1.25rem 1.5rem",
+      marginBottom: "1rem",
+    };
     return (
-      <div style={{ padding: "5%", fontSize: "larger" }}>
-        <h1 style={{ color: "blue" }}>
-          Buổi phỏng vấn qua video giữa học viên và người hướng dẫn
-        </h1>
-        <h5>
-          Nhiệm vụ của các học viên trong buổi phỏng vấn này bao gồm:
-          <br />
-          + Lắng nghe những câu hỏi từ người hướng dẫn;
-          <br />
-          + Sử dụng bảng thông tin để hỗ trợ quá trình trả lời;
-          <br />+ Phân tích tình huống, đặt câu hỏi để làm rõ thông tin và tìm
-          kiếm đáp án hợp lý.
-        </h5>
-        <i>
-          Qua quá trình trao đổi, người hướng dẫn sẽ có cơ hội đánh giá quá
-          trình thực hành...
-        </i>
-        <hr />
+      <div
+        style={{
+          padding: "3% 5%",
+          fontSize: "larger",
+          background: "var(--brand-bg, #f6f7fb)",
+          minHeight: "100vh",
+        }}
+      >
+        <div style={{ ...cardStyle, padding: "1.5rem 2rem" }}>
+          <h1 style={{ color: "var(--brand-primary, #4f46e5)", fontSize: "1.6rem" }}>
+            Buổi phỏng vấn qua video giữa học viên và người hướng dẫn
+          </h1>
+          <h5>
+            Nhiệm vụ của các học viên trong buổi phỏng vấn này bao gồm:
+            <br />
+            + Lắng nghe những câu hỏi từ người hướng dẫn;
+            <br />
+            + Sử dụng bảng thông tin để hỗ trợ quá trình trả lời;
+            <br />+ Phân tích tình huống, đặt câu hỏi để làm rõ thông tin và tìm
+            kiếm đáp án hợp lý.
+          </h5>
+          <i>
+            Qua quá trình trao đổi, người hướng dẫn sẽ có cơ hội đánh giá quá
+            trình thực hành...
+          </i>
+        </div>
         {IndexSets.map((e, i) => (
-          <div key={i}>
+          <div key={i} style={cardStyle}>
             <b>
               {i + 1}.{DataPracticingCharactor[e].fsp}
             </b>
-            <hr />
+            <hr style={{ margin: "0.75rem 0" }} />
             {DataPracticingCharactor[e].data.map((e1, i1) => (
-              <div key={i1} style={{ padding: "0 5px" }}>
+              <div
+                key={i1}
+                style={{
+                  padding: "0.4rem 0.5rem",
+                  borderBottom:
+                    i1 < DataPracticingCharactor[e].data.length - 1
+                      ? "1px solid var(--brand-border, #e2e8f0)"
+                      : "none",
+                }}
+              >
                 {e1.qs} ==== {e1.aw}
               </div>
             ))}
-            <hr />
           </div>
         ))}
       </div>
@@ -262,17 +288,12 @@ const Room = ({ setSttRoom }) => {
 
   if (roomInfo === null) {
     return (
-      <div className="container mt-3">
-        <h1>Đang tải thông tin bài thực hành</h1>
-        <h1>Vui lòng đợi trong giây lát</h1>
-      </div>
+      <LoadingScreen message="Đang tải thông tin bài thực hành. Vui lòng đợi trong giây lát…" />
     );
   }
   if (DataPracticingCharactor === null) {
     return (
-      <div className="container mt-3">
-        <h1>Đang tải dữ liệu thực hành. Vui lòng đợi trong giây lát!</h1>
-      </div>
+      <LoadingScreen message="Đang tải dữ liệu thực hành. Vui lòng đợi trong giây lát!" />
     );
   }
 

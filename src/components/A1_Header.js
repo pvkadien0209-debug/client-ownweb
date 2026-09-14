@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 // import T0_linkApi from "../ulti/T0_linkApi";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -329,18 +329,27 @@ const pracEnSets = [
   },
 ];
 
+const ROOM_ROUTE_PREFIXES = ["/room/", "/roomn/", "/roomoffline/"];
+function isRoomRoute(pathname) {
+  return ROOM_ROUTE_PREFIXES.some((prefix) => pathname.startsWith(prefix));
+}
+
 export default function Header({ sttRoom, STTcfonnectFN }) {
-  if (sttRoom) {
+  const location = useLocation();
+  if (isRoomRoute(location.pathname)) {
     return null;
   }
 
   return (
     <>
       <style>{`
+        :root {
+          --app-header-h: 8vh;
+        }
         .app-header-fixed {
           position: fixed;
           width: 100%;
-          height: 8vh;
+          height: var(--app-header-h);
           top: 0;
           z-index: 1030;
           background: rgba(255, 255, 255, 0.92);
@@ -351,7 +360,7 @@ export default function Header({ sttRoom, STTcfonnectFN }) {
         }
         .app-header-fixed .navbar {
           background: transparent !important;
-          height: 8vh;
+          height: var(--app-header-h);
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           padding-left: 0.75rem;

@@ -165,7 +165,7 @@ function enableButton() {
   setButtonState("RegButton", true);
   setButtonState("BtnFsp", true);
   const buttonReadingFalse = document.getElementById("readingFalse");
-  buttonReadingFalse.click();
+  if (buttonReadingFalse) buttonReadingFalse.click();
 }
 // Disable specific buttons
 function disableButton() {

@@ -20,19 +20,9 @@ const LearningHub_prac_st_only = () => {
 
   return (
     <>
-      {/* Bootstrap CSS & Icons */}
-      <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-      />
-      <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-        rel="stylesheet"
-      />
-
       <style jsx>{`
         .practice-container {
-          margin-top: 50px;
+          margin-top: var(--app-header-h, 8vh);
           padding: 5%;
           min-height: 100vh;
           background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);

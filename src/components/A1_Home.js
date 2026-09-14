@@ -247,16 +247,7 @@ const audiences = [
 const EnglishLandingPage = () => {
   return (
     <div className="min-vh-100 home-page">
-      <div style={{ height: "8vh" }}></div>
-      {/* Bootstrap CSS */}
-      <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-      />
-      <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-        rel="stylesheet"
-      />
+      <div style={{ height: "var(--app-header-h, 8vh)" }}></div>
       <style>{`
         .home-page {
           background: #f6f7fb;
