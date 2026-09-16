@@ -15,7 +15,7 @@ export function renderContentOftable(
         onChange={(e) => {
           navigate(`/learninghub/${id}?ls=${e.target.value}`);
         }}
-        className="lesson-select w-100"
+        className="lesson-select"
         aria-label="Chọn bài học"
       >
         {dataLearning.map((item, index) => (
@@ -52,19 +52,6 @@ export function rShowLessonTABLE(
           <h1 className="lesson-title">
             {dataLearning[currentIndex]?.SEO?.seo?.metaTitle}
           </h1>
-          {dataLearning.length > 1 ? (
-            <div className="d-flex justify-content-center mb-4">
-              <div style={{ width: "100%", maxWidth: "420px" }}>
-                {renderContentOftable(
-                  dataLearning,
-                  currentIndex,
-                  setCurrentIndex,
-                  navigate,
-                  id,
-                )}
-              </div>
-            </div>
-          ) : null}
           {dataLearning[currentIndex].youtubeSrc ? (
             <>
               <div className="youtube-container">

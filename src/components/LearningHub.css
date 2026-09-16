@@ -23,17 +23,21 @@
           color: var(--lh-ink);
         }
 
-        /* ====== Thanh điều hướng dạng pill (cuộn ngang, dính trên cùng) ====== */
+        /* ====== Thanh điều hướng dạng pill (nằm theo trang, không cố định) ====== */
+        .lh-nav-row {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 0.6rem;
+          padding: 0.6rem 0.25rem;
+          margin: 0 -0.25rem 1.25rem;
+        }
         .lh-nav {
-          position: sticky;
-          top: var(--app-header-h, 8vh);
-          z-index: 100;
           display: flex;
           gap: 0.5rem;
           overflow-x: auto;
-          padding: 0.6rem 0.25rem;
-          margin: 0 -0.25rem 1.25rem;
-          background: linear-gradient(var(--lh-bg) 85%, transparent);
+          flex: 1 1 auto;
+          min-width: 0;
           -webkit-overflow-scrolling: touch;
           scrollbar-width: none;
         }
@@ -80,6 +84,57 @@
         .lh-pill.active .lh-step {
           background: rgba(255, 255, 255, 0.25);
           color: #fff;
+        }
+
+        /* ====== Chọn bài học — đặt riêng, kề bên trái nút "Chọn bài học", không phải pill ====== */
+        .lh-lesson-picker {
+          flex: 0 0 auto;
+          display: flex;
+          align-items: center;
+        }
+        .lh-lesson-picker select {
+          background: var(--lh-card);
+          color: var(--lh-ink);
+          border: 1.5px solid var(--lh-border);
+          border-radius: 10px;
+          padding: 0.45rem 0.75rem;
+          font-size: 0.88rem;
+          font-weight: 500;
+          box-shadow: var(--lh-shadow);
+          max-width: 200px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          cursor: pointer;
+        }
+        .lh-lesson-picker select:focus {
+          outline: none;
+          border-color: var(--lh-primary);
+          box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.18);
+        }
+        .lh-lesson-picker-name {
+          display: inline-block;
+          max-width: 200px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          font-size: 0.88rem;
+          font-weight: 500;
+          color: var(--lh-ink);
+          background: var(--lh-card);
+          border: 1.5px solid var(--lh-border);
+          border-radius: 10px;
+          padding: 0.45rem 0.75rem;
+        }
+        @media (max-width: 576px) {
+          .lh-lesson-picker {
+            flex-basis: 100%;
+          }
+          .lh-lesson-picker select,
+          .lh-lesson-picker-name {
+            max-width: 100%;
+            width: 100%;
+          }
         }
 
         /* ====== Các section ====== */
@@ -286,6 +341,31 @@
           .btn-modern {
             width: 100%;
             margin-bottom: 0.25rem;
+          }
+        }
+
+        /* ====== Custom link (Getlink) — gọn diện tích, tối ưu cho điện thoại ====== */
+        .customlink-panel {
+          max-width: 960px;
+          margin: 0 auto;
+          font-size: 0.92rem;
+        }
+        .customlink-panel h2,
+        .customlink-panel h3 {
+          font-size: 0.95rem;
+        }
+        .customlink-panel .btn-sm {
+          padding: 0.3rem 0.6rem;
+          font-size: 0.82rem;
+        }
+        @media (max-width: 576px) {
+          .customlink-panel {
+            font-size: 0.85rem;
+            padding: 0.75rem !important;
+          }
+          .customlink-panel .btn-sm {
+            padding: 0.25rem 0.5rem;
+            font-size: 0.78rem;
           }
         }
         @media (prefers-reduced-motion: reduce) {

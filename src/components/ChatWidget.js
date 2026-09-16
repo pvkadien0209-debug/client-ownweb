@@ -157,7 +157,7 @@ const ChatWidget = () => {
 
   const containerStyle = {
     position: "fixed",
-    bottom: "20px",
+    bottom: "60px",
     right: "20px",
     width: isOpen ? "400px" : "70px",
     height: isOpen ? "80vh" : "70px",

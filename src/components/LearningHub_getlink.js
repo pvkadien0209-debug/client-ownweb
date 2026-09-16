@@ -145,7 +145,7 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
   function cleanInput(str) {
     return str
       .normalize("NFD") // Tách dấu
-      .replace(/[\u0300-\u036f]/g, "") // Xoá dấu
+      .replace(/[̀-ͯ]/g, "") // Xoá dấu
       .replace(/[^a-zA-Z0-9 ]/g, "") // Xoá ký tự đặc biệt (giữ chữ, số, khoảng trắng)
       .replace(/\s+/g, " "); // Giảm nhiều khoảng trắng về 1
   }
@@ -284,31 +284,31 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
       .catch((err) => console.error("Lỗi khi sao chép: ", err));
   };
   return (
-    <div className="p-4 max-w-4xl mx-auto border border-gray-300 rounded-lg">
-      <div className="row">
-        <div className="col-4">
+    <div className="customlink-panel p-3 p-md-4 border rounded">
+      <div className="row g-3">
+        <div className="col-12 col-md-6 col-lg-4">
           {/* Phần chọn bài học */}
-          <div className="mb-6 p-4 bg-gray-50 rounded-lg">
-            <div className="flex items-center mb-2">
-              <h2 className="text-lg font-semibold">Chọn bài học (a=)</h2>
+          <div className="mb-3 p-3 bg-light rounded">
+            <div className="d-flex flex-wrap align-items-center gap-2 mb-2">
+              <h2 className="fs-6 fw-semibold mb-0">Chọn bài học (a=)</h2>
               <button
                 onClick={handleAllLessonToggle}
-                className="btn btn-primary ml-2"
+                className="btn btn-sm btn-primary"
               >
                 {selectedLessons.length === availableLessons.length
                   ? "Bỏ chọn tất cả"
                   : "Chọn tất cả"}
               </button>
             </div>
-            <div className="grid grid-cols-5 gap-2 sm:grid-cols-10">
+            <div className="d-flex flex-wrap gap-2">
               {availableLessons.map((lesson) => (
                 <button
                   key={`lesson-${lesson}`}
                   onClick={() => handleLessonToggle(lesson)}
-                  className={`p-2 rounded border ${
+                  className={`btn btn-sm ${
                     selectedLessons.includes(lesson)
-                      ? "btn btn-primary"
-                      : "btn btn-light"
+                      ? "btn-primary"
+                      : "btn-outline-secondary"
                   }`}
                 >
                   Bài {lesson + 1}
@@ -318,73 +318,81 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
           </div>
           {/* Phần chọn type */}
           {Object.keys(groupedTypes).length > 0 && (
-            <div className="row mb-6">
-              <h2 className="text-xl font-bold mb-4">Bảng chọn Type (b=)</h2>
-              {Object.keys(groupedTypes).map((prefix) => (
-                <div
-                  key={prefix}
-                  className="col-4 mb-4 p-4 bg-gray-50 rounded-lg"
-                >
-                  <div className="flex items-center mb-2">
-                    <h3 className="text-lg font-semibold">Nhóm {prefix}</h3>
-                    <button
-                      onClick={() => handleGroupToggle(prefix)}
-                      className="btn btn-primary ml-2"
-                    >
-                      {groupedTypes[prefix].every((t) =>
-                        selectedTypes.includes(t),
-                      )
-                        ? "Bỏ chọn tất cả"
-                        : "Chọn tất cả"}
-                    </button>
+            <div className="mb-3">
+              <h2 className="fs-6 fw-bold mb-2">Bảng chọn Type (b=)</h2>
+              <div className="row g-2">
+                {Object.keys(groupedTypes).map((prefix) => (
+                  <div key={prefix} className="col-12">
+                    <div className="p-2 bg-light rounded">
+                      <div className="d-flex flex-wrap align-items-center gap-2 mb-2">
+                        <h3 className="fs-6 fw-semibold mb-0">
+                          Nhóm {prefix}
+                        </h3>
+                        <button
+                          onClick={() => handleGroupToggle(prefix)}
+                          className="btn btn-sm btn-primary"
+                        >
+                          {groupedTypes[prefix].every((t) =>
+                            selectedTypes.includes(t),
+                          )
+                            ? "Bỏ chọn tất cả"
+                            : "Chọn tất cả"}
+                        </button>
+                      </div>
+                      <div className="d-flex flex-wrap gap-2">
+                        {groupedTypes[prefix].map((type) => (
+                          <button
+                            key={type}
+                            onClick={() => handleTypeToggle(type)}
+                            className={`btn btn-sm ${
+                              selectedTypes.includes(type)
+                                ? "btn-primary"
+                                : "btn-outline-secondary"
+                            }`}
+                          >
+                            {type}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
                   </div>
-                  <div className="grid grid-cols-5 gap-2 sm:grid-cols-8">
-                    {groupedTypes[prefix].map((type) => (
-                      <button
-                        key={type}
-                        onClick={() => handleTypeToggle(type)}
-                        className={`p-2 rounded border ${
-                          selectedTypes.includes(type)
-                            ? "btn btn-primary"
-                            : "btn"
-                        }`}
-                      >
-                        {type}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           )}
         </div>
 
-        <div className="col-4">
-          {" "}
+        <div className="col-12 col-md-6 col-lg-4">
           {/* Phần chọn loại bảng */}
-          <div className="mb-6 p-4 bg-gray-50 rounded-lg">
-            <h2 className="text-lg font-semibold mb-2">Chọn loại bảng (tb=)</h2>
-            <div className="flex space-x-4">
+          <div className="mb-3 p-3 bg-light rounded">
+            <h2 className="fs-6 fw-semibold mb-2">Chọn loại bảng (tb=)</h2>
+            <div className="d-flex flex-wrap gap-2">
               <button
                 onClick={() => setTableType("normal")}
-                className={`px-4 py-2 rounded border ${
-                  tableType === "normal" ? "btn btn-primary" : "btn"
+                className={`btn btn-sm ${
+                  tableType === "normal"
+                    ? "btn-primary"
+                    : "btn-outline-secondary"
                 }`}
               >
                 Mặc định
               </button>
               <button
                 onClick={() => setTableType("vietnamese")}
-                className={`px-4 py-2 rounded border ${
-                  tableType === "vietnamese" ? "btn btn-primary" : "btn"
+                className={`btn btn-sm ${
+                  tableType === "vietnamese"
+                    ? "btn-primary"
+                    : "btn-outline-secondary"
                 }`}
               >
                 Tiếng Việt (tb=tv)
               </button>
               <button
                 onClick={() => setTableType("empty")}
-                className={`px-4 py-2 rounded border ${
-                  tableType === "empty" ? "btn btn-primary" : "btn"
+                className={`btn btn-sm ${
+                  tableType === "empty"
+                    ? "btn-primary"
+                    : "btn-outline-secondary"
                 }`}
               >
                 Bảng trống (tb=null)
@@ -474,22 +482,21 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
         </div>
       </div> */}
           {/* Phần chọn trộn lẫn */}
-          <div className="mb-6 p-4 bg-gray-50 rounded-lg">
-            <h2 className="text-lg font-semibold mb-2">Trộn lẫn (random=)</h2>
-            <div className="flex space-x-4">
-              {" "}
+          <div className="mb-3 p-3 bg-light rounded">
+            <h2 className="fs-6 fw-semibold mb-2">Trộn lẫn (random=)</h2>
+            <div className="d-flex flex-wrap gap-2">
               <button
                 onClick={handleRandomDefault}
-                className={`px-4 py-2 rounded border ${
-                  isRandomEnabled ? "btn" : "btn btn-primary"
+                className={`btn btn-sm ${
+                  isRandomEnabled ? "btn-outline-secondary" : "btn-primary"
                 }`}
               >
                 Mặc định
               </button>
               <button
                 onClick={handleRandomToggle}
-                className={`px-4 py-2 rounded border ${
-                  isRandomEnabled ? "btn btn-primary" : "btn"
+                className={`btn btn-sm ${
+                  isRandomEnabled ? "btn-primary" : "btn-outline-secondary"
                 }`}
               >
                 Trộn lẫn
@@ -498,38 +505,37 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
           </div>
         </div>
 
-        <div className="col-4">
-          {" "}
+        <div className="col-12 col-md-6 col-lg-4">
           {/* Phần hiển thị kết quả */}
-          <div className="mt-4 p-4 bg-gray-100 rounded">
-            <h3 className="text-lg font-semibold mb-2">
+          <div className="p-3 border rounded">
+            <h3 className="fs-6 fw-semibold mb-2">
               Link đã tạo:{" "}
               {Note ? (
-                <span className="text-green-600 font-medium">
+                <span className="text-success fw-medium">
                   (Đã có ghi chú)
                 </span>
               ) : (
-                <span
-                  className="text-red-500 font-medium"
-                  style={{ color: "red" }}
-                >
+                <span className="text-danger fw-medium">
                   (Chưa có ghi chú)
                 </span>
               )}
             </h3>
-            <div className="flex items-center">
-              <div className="flex-grow p-2 bg-white border rounded overflow-x-auto">
+            <div className="d-flex flex-wrap align-items-center gap-2">
+              <div
+                className="flex-grow-1 p-2 bg-white border rounded text-break"
+                style={{ minWidth: 0, overflowX: "auto" }}
+              >
                 {generatedLink || "roomoffline/" + id + "/" + numIndex}
               </div>
               <button
                 id="copyid"
                 onClick={copyToClipboard}
-                className="btn btn-primary"
+                className="btn btn-sm btn-primary"
               >
                 Copy
               </button>
             </div>
-            <div className="mt-4">
+            <div className="mt-3 small">
               <p className="mb-1">
                 <strong>Bài học đã chọn:</strong> {selectedLessons.length} /{" "}
                 {numLessonSetLength}
@@ -566,13 +572,13 @@ export default function GetLink({ id, index, lessonSetLength = 10, typeSet }) {
                 </p>
               )}
             </div>
-            <div className="mb-6 p-4 bg-gray-50 rounded-lg">
-              <h2 className="text-lg font-semibold mb-2">GHI CHÚ BÀI TẬP</h2>
+            <div className="mt-3 p-3 bg-light rounded">
+              <h2 className="fs-6 fw-semibold mb-2">GHI CHÚ BÀI TẬP</h2>
               <input
                 type="text"
                 placeholder="Nhập ghi chú bài tập"
                 value={Note}
-                className="form-control"
+                className="form-control form-control-sm"
                 onChange={handleChange}
               />
             </div>

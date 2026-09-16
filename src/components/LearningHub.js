@@ -8,6 +8,7 @@ import LoadingScreen from "./shared/LoadingScreen";
 import ErrorScreen from "./shared/ErrorScreen";
 import { handle_div } from "./LearningHub/utils/domSectionToggle";
 import { arrayToString } from "./LearningHub/utils/renderHelpers";
+import { renderContentOftable } from "./LearningHub/utils/lessonTable";
 import ContentSection from "./LearningHub/sections/ContentSection";
 import LessonTableSection from "./LearningHub/sections/LessonTableSection";
 import PracticeGhepAmSection from "./LearningHub/sections/PracticeGhepAmSection";
@@ -25,23 +26,23 @@ const NAV_ITEMS = [
     label: "Chọn bài học",
     step: "1",
   },
-  {
-    value: "div_01_prac_ghep_am",
-    icon: "bi-music-note-beamed",
-    label: "Ghép âm",
-  },
-  { value: "div_01_content_to_learn", icon: "bi-book", label: "Nội dung" },
-  {
-    value: "div_01_prac_luyen_am",
-    icon: "bi-chat-square-text",
-    label: "Nguyên tắc ghép âm",
-  },
-  { value: "div_01_prac_hoc_thuoc", icon: "bi-lightbulb", label: "Mẫu câu" },
-  {
-    value: "div_01_prac_phuongphaphoc",
-    icon: "bi-mortarboard",
-    label: "Phương pháp học",
-  },
+  // {
+  //   value: "div_01_prac_ghep_am",
+  //   icon: "bi-music-note-beamed",
+  //   label: "Ghép âm",
+  // },
+  // { value: "div_01_content_to_learn", icon: "bi-book", label: "Nội dung" },
+  // {
+  //   value: "div_01_prac_luyen_am",
+  //   icon: "bi-chat-square-text",
+  //   label: "Nguyên tắc ghép âm",
+  // },
+  // { value: "div_01_prac_hoc_thuoc", icon: "bi-lightbulb", label: "Mẫu câu" },
+    // {
+    //   value: "div_01_prac_phuongphaphoc",
+    //   icon: "bi-mortarboard",
+    //   label: "Phương pháp học",
+    // },
   {
     value: "div_01_prac_bangnhap",
     icon: "bi-link-45deg",
@@ -165,26 +166,49 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
           </Helmet>
           <section>
             {/* ====== Điều hướng chức năng: pill cuộn ngang, dính trên cùng ====== */}
-            <nav className="lh-nav" aria-label="Chức năng học tập">
-              {NAV_ITEMS.map((item) => (
-                <button
-                  key={item.value}
-                  type="button"
-                  className={`lh-pill ${activeId === item.value ? "active" : ""}`}
-                  onClick={() => {
-                    navigate(
-                      `/learninghub/${id}?ls=${currentIndex}&&id=${item.value}`,
-                    );
-                  }}
-                >
-                  <i className={`bi ${item.icon}`}></i>
-                  {item.label}
-                  {item.step ? (
-                    <span className="lh-step">{item.step}</span>
-                  ) : null}
-                </button>
-              ))}
-            </nav>
+            <div className="lh-nav-row">
+              {/* Chọn bài học — đặt riêng, kề bên trái nút "Chọn bài học",
+                  không phải pill, để phân biệt với các nút điều hướng */}
+              <div className="lh-lesson-picker">
+                {dataLearning.length > 1 ? (
+                  renderContentOftable(
+                    dataLearning,
+                    currentIndex,
+                    setCurrentIndex,
+                    navigate,
+                    id,
+                  )
+                ) : (
+                  <span className="lh-lesson-picker-name">
+                    Bài học: {dataLearning[0]?.SEO?.seo?.metaTitle || ""}
+                  </span>
+                )}
+              </div>
+
+              <nav className="lh-nav" aria-label="Chức năng học tập">
+                {NAV_ITEMS.map((item) => {
+                  const isActive = activeId === item.value;
+                  return (
+                    <button
+                      key={item.value}
+                      type="button"
+                      className={`lh-pill ${isActive ? "active" : ""}`}
+                      onClick={() => {
+                        navigate(
+                          `/learninghub/${id}?ls=${currentIndex}&&id=${item.value}`,
+                        );
+                      }}
+                    >
+                      <i className={`bi ${item.icon}`}></i>
+                      {item.label}
+                      {item.step ? (
+                        <span className="lh-step">{item.step}</span>
+                      ) : null}
+                    </button>
+                  );
+                })}
+              </nav>
+            </div>
 
             <div className="d-flex">
               <ContentSection
