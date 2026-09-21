@@ -298,13 +298,36 @@ const playFromBlob = (blob) => {
 // ============================================
 // NETWORK FUNCTIONS
 // ============================================
+// Server tách text > 200 ký tự thành nhiều chunk rồi gọi Google TTS tuần tự
+// cho từng chunk trước khi ghép lại (xem TTS_MAX_CHUNK_LENGTH ở server.js).
+// Nếu chưa có cache (đĩa lẫn MongoDB), lần tạo mới với văn bản dài sẽ tốn
+// nhiều thời gian hơn hẳn 1 câu ngắn — timeout cố định 5s trước đây khiến
+// văn bản dài dễ bị rơi về giọng đọc trình duyệt dù server vẫn đang xử lý
+// bình thường. Timeout dưới đây co giãn theo số chunk ước tính.
+const TTS_CHUNK_LENGTH = 200; // khớp TTS_MAX_CHUNK_LENGTH bên server
+const TTS_BASE_TIMEOUT = 6000; // ms - đủ cho 1 chunk + round-trip mạng
+const TTS_PER_EXTRA_CHUNK_TIMEOUT = 2500; // ms - cộng thêm mỗi chunk vượt chunk đầu
+const TTS_TIMEOUT_CAP = 30000; // ms - trần trên, tránh chờ vô hạn với text quá dài
+/**
+ * Ước tính timeout phù hợp dựa trên độ dài text (số chunk server sẽ phải tạo)
+ * @param {string} text - Text cần chuyển thành audio
+ * @returns {number} Timeout (ms)
+ */
+const estimateTtsTimeout = (text) => {
+  const chunkCount = Math.max(1, Math.ceil(text.length / TTS_CHUNK_LENGTH));
+  const extraChunks = Math.max(0, chunkCount - 1);
+  return Math.min(
+    TTS_TIMEOUT_CAP,
+    TTS_BASE_TIMEOUT + extraChunks * TTS_PER_EXTRA_CHUNK_TIMEOUT,
+  );
+};
 /**
  * Fetch audio từ server với timeout
  * @param {string} text - Text cần chuyển thành audio
  * @param {number} timeout - Timeout (ms)
  * @returns {Promise<Blob>} Audio blob
  */
-const fetchAudioFromServer = async (text, timeout = 5000) => {
+const fetchAudioFromServer = async (text, timeout = TTS_BASE_TIMEOUT) => {
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), timeout);
   try {
@@ -380,9 +403,11 @@ export default async function read_by_Tts(
       }
       return;
     }
-    // BƯỚC 2: Fetch từ server
+    // BƯỚC 2: Fetch từ server (timeout co giãn theo độ dài text — xem
+    // estimateTtsTimeout: văn bản dài cần server tạo nhiều chunk hơn)
+    const ttsTimeout = estimateTtsTimeout(text);
     try {
-      const blob = await fetchAudioFromServer(text, 5000);
+      const blob = await fetchAudioFromServer(text, ttsTimeout);
       // BƯỚC 3: Lưu vào cache
       await saveAudioToDB(db, key, blob);
       // BƯỚC 4: Phát audio
@@ -396,7 +421,9 @@ export default async function read_by_Tts(
     } catch (fetchError) {
       // Xử lý lỗi fetch
       if (fetchError.name === "AbortError") {
-        console.log("⏱️ Request timeout sau 5 giây, chuyển sang TTS client");
+        console.log(
+          `⏱️ Request timeout sau ${ttsTimeout}ms, chuyển sang TTS client`,
+        );
       } else {
         console.error("❌ Lỗi fetch audio:", fetchError.message);
       }
