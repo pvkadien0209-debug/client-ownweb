@@ -329,7 +329,12 @@ const pracEnSets = [
   },
 ];
 
-const ROOM_ROUTE_PREFIXES = ["/room/", "/roomn/", "/roomoffline/"];
+const ROOM_ROUTE_PREFIXES = [
+  "/room/",
+  "/roomn/",
+  "/roomoffline/",
+  "/roomofflineV2/",
+];
 function isRoomRoute(pathname) {
   return ROOM_ROUTE_PREFIXES.some((prefix) => pathname.startsWith(prefix));
 }

@@ -1,0 +1,578 @@
+// RoomofflineV2GetLink.js
+//
+// File MỚI — ban đầu là bản "Ver 2.0" của
+// client/src/components/LearningHub_getlink.js (bản cũ), đặt trong folder
+// riêng components/RoomofflineV2/ theo đúng quy tắc "các file đều tạo mới dù
+// có dùng lại logic để dễ sửa đổi" — KHÔNG sửa gì LearningHub_getlink.js.
+//
+// Cập nhật (theo phản hồi "rút gọn lại bằng một nút... thay vì tạo 2 bảng"):
+// gộp lại thành 1 bảng DUY NHẤT, có nút bật/tắt (targetMode) để chọn tạo link
+// cho "Roomoffline" (bản cũ, base path "roomoffline/...") hay "RoomofflineV2"
+// (base path "roomofflineV2/...") — CustomLinkSection.js giờ chỉ còn render
+// 1 component này (đã bỏ render LearningHub_getlink.js cũ), thay vì hiển thị
+// 2 bảng riêng biệt như trước.
+//   - Nút "Đi tới link" — điều hướng thẳng tới trang tương ứng với link vừa
+//     tạo (dùng useNavigate của react-router-dom), tự theo đúng targetMode.
+//
+// LƯU Ý: một số tham số link (tb=, r=, r01=, t=) vốn dùng cho Roomoffline.js/
+// B101_FINAL_PROJECTS.js (loại bảng, tỷ lệ chấm STT, đếm giờ) — RoomofflineV2
+// hiện chưa dùng các tham số này (xem RoomofflineV2.js), nên nếu chọn ở chế độ
+// "RoomofflineV2" sẽ được thêm vào link nhưng chưa có tác dụng gì ở trang V2.
+// Không ảnh hưởng gì, chỉ là chưa có tác dụng — có thể tinh giản sau nếu cần.
+
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+
+export default function RoomofflineV2GetLink({
+  id,
+  index,
+  lessonSetLength = 10,
+  typeSet,
+}) {
+  const navigate = useNavigate();
+
+  // "roomoffline" (bản cũ) | "roomofflineV2" (Ver 2.0) — quyết định base path
+  // của link được tạo ra, thay cho việc hiển thị 2 bảng riêng biệt.
+  const [targetMode, setTargetMode] = useState("roomofflineV2");
+
+  // Chuyển đổi các prop thành số nếu cần
+  const numIndex = parseInt(index) || 0;
+  const numLessonSetLength = parseInt(lessonSetLength) || 10;
+  // Khởi tạo trạng thái - mặc định không chọn types và lessons nào
+  const [selectedTypes, setSelectedTypes] = useState([]);
+  const [selectedLessons, setSelectedLessons] = useState([]);
+  const [tableType, setTableType] = useState("normal"); // normal, vietnamese, empty
+  const [r2Value, setR2Value] = useState(null); // r parameter (Tỷ lệ cho đúng 2)
+  const [r1Value, setR1Value] = useState(null); // r01 parameter (Tỷ lệ cho đúng 1)
+  const [isRandomEnabled, setIsRandomEnabled] = useState(false); // Trạng thái cho param random
+  const [Note, setNote] = useState(""); // Trạng thái cho param note
+  const [timeValue, setTimeValue] = useState(null); // t parameter (Thời gian)
+  const [generatedLink, setGeneratedLink] = useState("");
+  // Giá trị khả dụng cho r và r01
+  const rValues = [0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85];
+  // Giá trị khả dụng cho time (từ 30 đến 600, bội số của 10)
+  const timeValues = Array.from({ length: 58 }, (_, i) => (i + 3) * 10);
+  // Nhóm typeSet thành các nhóm A, B, C để hiển thị
+  const groupedTypes = {};
+  if (Array.isArray(typeSet)) {
+    typeSet.forEach((type) => {
+      if (type && typeof type === "string") {
+        const prefix = type.charAt(0);
+        if (!groupedTypes[prefix]) {
+          groupedTypes[prefix] = [];
+        }
+        groupedTypes[prefix].push(type);
+      }
+    });
+  }
+  // Tạo danh sách bài học từ 0 đến numLessonSetLength-1
+  const availableLessons = Array.from(
+    { length: numLessonSetLength },
+    (_, i) => i,
+  );
+  // Cập nhật link khi có thay đổi
+  useEffect(() => {
+    const link = generateFullLink(
+      id,
+      numIndex,
+      selectedTypes,
+      selectedLessons,
+      tableType,
+      r2Value,
+      r1Value,
+      isRandomEnabled,
+      Note,
+      timeValue,
+      targetMode,
+    );
+    setGeneratedLink(link);
+  }, [
+    selectedTypes,
+    selectedLessons,
+    tableType,
+    r2Value,
+    r1Value,
+    isRandomEnabled,
+    id,
+    numIndex,
+    Note,
+    timeValue,
+    targetMode,
+  ]);
+  // Xử lý khi chọn/bỏ chọn một type
+  const handleTypeToggle = (type) => {
+    if (selectedTypes.includes(type)) {
+      setSelectedTypes(selectedTypes.filter((t) => t !== type));
+    } else {
+      setSelectedTypes([...selectedTypes, type]);
+    }
+  };
+  // Xử lý khi chọn/bỏ chọn một bài học
+  const handleLessonToggle = (lesson) => {
+    if (selectedLessons.includes(lesson)) {
+      setSelectedLessons(selectedLessons.filter((l) => l !== lesson));
+    } else {
+      setSelectedLessons([...selectedLessons, lesson].sort((a, b) => a - b));
+    }
+  };
+  // Xử lý khi chọn/bỏ chọn tất cả các type có cùng prefix
+  const handleGroupToggle = (prefix) => {
+    if (!Array.isArray(typeSet)) return;
+    const groupTypes = typeSet.filter((t) => t && t.startsWith(prefix));
+    const allSelected = groupTypes.every((t) => selectedTypes.includes(t));
+    if (allSelected) {
+      // Bỏ chọn tất cả các type trong nhóm
+      setSelectedTypes(selectedTypes.filter((t) => !t.startsWith(prefix)));
+    } else {
+      // Chọn tất cả các type trong nhóm
+      const newSelected = [...selectedTypes];
+      groupTypes.forEach((t) => {
+        if (!newSelected.includes(t)) {
+          newSelected.push(t);
+        }
+      });
+      setSelectedTypes(newSelected);
+    }
+  };
+  // Xử lý khi chọn tất cả hoặc bỏ chọn tất cả các bài học
+  const handleAllLessonToggle = () => {
+    if (selectedLessons.length === availableLessons.length) {
+      setSelectedLessons([]);
+    } else {
+      setSelectedLessons([...availableLessons]);
+    }
+  };
+  // Xử lý thay đổi giá trị r2 (Tỷ lệ cho đúng 2)
+  const handleR2Change = (value) => {
+    setR2Value(value === r2Value ? null : value);
+  };
+  // Xử lý thay đổi giá trị r1 (Tỷ lệ cho đúng 1)
+  const handleR1Change = (value) => {
+    setR1Value(value === r1Value ? null : value);
+  };
+  // Xử lý thay đổi giá trị thời gian
+  const handleTimeChange = (value) => {
+    setTimeValue(value === timeValue ? null : value);
+  };
+  // Xử lý khi bấm nút mặc định (không có param)
+  const handleDefaultR2 = () => {
+    setR2Value(null);
+  };
+  // Xử lý khi bấm nút mặc định (không có param)
+  const handleDefaultR1 = () => {
+    setR1Value(null);
+  };
+  // Xử lý khi bấm nút mặc định cho thời gian
+  const handleDefaultTime = () => {
+    setTimeValue(null);
+  };
+  // Xử lý khi bật/tắt chế độ trộn lẫn (random)
+  const handleRandomToggle = () => {
+    setIsRandomEnabled(!isRandomEnabled);
+  };
+  // Xử lý khi bật/tắt chế độ trộn lẫn (random)
+  const handleRandomDefault = () => {
+    setIsRandomEnabled(false);
+  };
+  const handleChange = (e) => {
+    const raw = e.target.value;
+    const cleaned = cleanInput(raw.trimStart());
+    setNote(cleaned);
+  };
+  function cleanInput(str) {
+    return str
+      .normalize("NFD") // Tách dấu
+      .replace(/[̀-ͯ]/g, "") // Xoá dấu
+      .replace(/[^a-zA-Z0-9 ]/g, "") // Xoá ký tự đặc biệt (giữ chữ, số, khoảng trắng)
+      .replace(/\s+/g, " "); // Giảm nhiều khoảng trắng về 1
+  }
+  // Hàm tạo link từ các tham số — CHỈ KHÁC bản cũ ở base path (roomofflineV2)
+  function generateFullLink(
+    id,
+    index,
+    selectedTypes,
+    selectedLessons,
+    tableType,
+    r2Value,
+    r1Value,
+    isRandomEnabled,
+    Note,
+    timeValue,
+    targetMode,
+  ) {
+    if (!id || isNaN(index)) return "";
+    // Tạo base link — theo targetMode: "roomoffline" (bản cũ) hoặc
+    // "roomofflineV2" (Ver 2.0), thay vì cố định 1 trong 2 như trước.
+    let link = `${targetMode}/${id}/${index}`;
+    // Thêm các tham số nếu cần
+    const timeString = new Date().toLocaleString([], {
+      day: "2-digit",
+      month: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: false,
+    });
+
+    // Mã hóa thời gian
+    const reversedTimestamp = String(Date.now()).split("").reverse().join("");
+    const encodedTime = encodeURIComponent(reversedTimestamp + timeString);
+
+    // Tạo các tham số
+    const params = ["time=" + encodedTime];
+
+    // Tham số a (bài học)
+    if (selectedLessons.length > 0) {
+      params.push(`a=${optimizeLessonList(selectedLessons)}`);
+    }
+    // Tham số b (type)
+    if (selectedTypes.length > 0) {
+      params.push(`b=${optimizeTypeList(selectedTypes)}`);
+    }
+    // Tham số note
+    if (Note !== "") {
+      params.push("note=" + Note.trim().toLowerCase().split(" ").join("-"));
+    }
+    // Tham số tb (loại bảng)
+    if (tableType === "vietnamese") {
+      params.push("tb=tv");
+    } else if (tableType === "empty") {
+      params.push("tb=null");
+    }
+    // Tham số r (Tỷ lệ cho đúng 2)
+    if (r2Value !== null) {
+      params.push(`r=${r2Value}`);
+    }
+    // Tham số r01 (Tỷ lệ cho đúng 1)
+    if (r1Value !== null) {
+      params.push(`r01=${r1Value}`);
+    }
+    // Tham số t (Thời gian)
+    if (timeValue !== null) {
+      params.push(`t=${timeValue}`);
+    }
+    // Tham số random (Trộn lẫn)
+    if (isRandomEnabled) {
+      params.push("random=true");
+    }
+    // Thêm các tham số vào link
+    if (params.length > 0) {
+      link += "?" + params.join("&&");
+    }
+    const linkLocation = window.location.origin;
+    return linkLocation + "/" + link;
+  }
+  // Hàm tối ưu hóa danh sách bài học đã chọn
+  function optimizeLessonList(selectedLessons) {
+    if (!selectedLessons || selectedLessons.length === 0) {
+      return "";
+    }
+    // Sắp xếp các số theo thứ tự tăng dần
+    const sortedLessons = [...selectedLessons].sort((a, b) => a - b);
+    // Nếu đã chọn tất cả các bài học, trả về "all"
+    if (
+      sortedLessons.length === numLessonSetLength &&
+      sortedLessons.every((val, idx) => val === idx)
+    ) {
+      return "all";
+    }
+    // Tìm và tạo các dải số liên tục
+    const ranges = [];
+    let rangeStart = sortedLessons[0];
+    let prev = rangeStart;
+    for (let i = 1; i <= sortedLessons.length; i++) {
+      const current = sortedLessons[i];
+      // Nếu không còn liên tục hoặc đã đến cuối mảng
+      if (current !== prev + 1 || i === sortedLessons.length) {
+        // Kết thúc dải hiện tại
+        if (rangeStart === prev) {
+          ranges.push(`${rangeStart}`);
+        } else if (prev - rangeStart === 1) {
+          ranges.push(`${rangeStart}`, `${prev}`);
+        } else {
+          ranges.push(`${rangeStart}-${prev}`);
+        }
+        // Bắt đầu dải mới nếu chưa đến cuối
+        if (i < sortedLessons.length) {
+          rangeStart = current;
+        }
+      }
+      prev = current;
+    }
+    return ranges.join("zz");
+  }
+  // Hàm tối ưu hóa danh sách type đã chọn
+  function optimizeTypeList(selectedTypes) {
+    if (!selectedTypes || selectedTypes.length === 0) {
+      return "";
+    }
+    // Giữ nguyên tên type (A0001a, A0001b...), chỉ join bằng "zz"
+    return [...selectedTypes].sort().join("zz");
+  }
+  // Hàm sao chép link vào clipboard
+  const copyToClipboard = () => {
+    navigator.clipboard
+      .writeText(generatedLink)
+      .then(() => {
+        const copyBtn = document.getElementById("copyidV2");
+        if (copyBtn) {
+          const time = new Date().toLocaleTimeString();
+          copyBtn.textContent = "Đã copy lúc " + time;
+        }
+      })
+      .catch((err) => console.error("Lỗi khi sao chép: ", err));
+  };
+  // Nút "Đi tới link" — điều hướng thẳng tới trang RoomofflineV2 vừa tạo link
+  // (dùng useNavigate để chuyển trang trong ứng dụng, không mở tab mới).
+  const handleGoToLink = () => {
+    if (!generatedLink) return;
+    try {
+      const url = new URL(generatedLink);
+      navigate(url.pathname + url.search);
+    } catch (error) {
+      // Dự phòng nếu vì lý do gì đó không parse được URL
+      window.location.href = generatedLink;
+    }
+  };
+  return (
+    <div className="customlink-panel p-3 p-md-4 border rounded">
+      {/* Nút chọn tạo link cho Roomoffline (bản cũ) hay RoomofflineV2 —
+          gộp thành 1 bảng duy nhất thay vì hiển thị 2 bảng riêng biệt. */}
+      <div className="d-flex flex-wrap align-items-center gap-2 mb-3">
+        <span className="fs-6 fw-bold">Tạo link cho:</span>
+        <button
+          type="button"
+          onClick={() => setTargetMode("roomoffline")}
+          className={`btn btn-sm ${
+            targetMode === "roomoffline" ? "btn-primary" : "btn-outline-secondary"
+          }`}
+        >
+          Roomoffline
+        </button>
+        <button
+          type="button"
+          onClick={() => setTargetMode("roomofflineV2")}
+          className={`btn btn-sm ${
+            targetMode === "roomofflineV2" ? "btn-primary" : "btn-outline-secondary"
+          }`}
+        >
+          RoomofflineV2 (Ver 2.0)
+        </button>
+      </div>
+      <div className="row g-3">
+        <div className="col-12 col-md-6 col-lg-4">
+          {/* Phần chọn bài học */}
+          <div className="mb-3 p-3 bg-light rounded">
+            <div className="d-flex flex-wrap align-items-center gap-2 mb-2">
+              <h2 className="fs-6 fw-semibold mb-0">Chọn bài học (a=)</h2>
+              <button
+                onClick={handleAllLessonToggle}
+                className="btn btn-sm btn-primary"
+              >
+                {selectedLessons.length === availableLessons.length
+                  ? "Bỏ chọn tất cả"
+                  : "Chọn tất cả"}
+              </button>
+            </div>
+            <div className="d-flex flex-wrap gap-2">
+              {availableLessons.map((lesson) => (
+                <button
+                  key={`lesson-${lesson}`}
+                  onClick={() => handleLessonToggle(lesson)}
+                  className={`btn btn-sm ${
+                    selectedLessons.includes(lesson)
+                      ? "btn-primary"
+                      : "btn-outline-secondary"
+                  }`}
+                >
+                  Bài {lesson + 1}
+                </button>
+              ))}
+            </div>
+          </div>
+          {/* Phần chọn type */}
+          {Object.keys(groupedTypes).length > 0 && (
+            <div className="mb-3">
+              <h2 className="fs-6 fw-bold mb-2">Bảng chọn Type (b=)</h2>
+              <div className="row g-2">
+                {Object.keys(groupedTypes).map((prefix) => (
+                  <div key={prefix} className="col-12">
+                    <div className="p-2 bg-light rounded">
+                      <div className="d-flex flex-wrap align-items-center gap-2 mb-2">
+                        <h3 className="fs-6 fw-semibold mb-0">
+                          Nhóm {prefix}
+                        </h3>
+                        <button
+                          onClick={() => handleGroupToggle(prefix)}
+                          className="btn btn-sm btn-primary"
+                        >
+                          {groupedTypes[prefix].every((t) =>
+                            selectedTypes.includes(t),
+                          )
+                            ? "Bỏ chọn tất cả"
+                            : "Chọn tất cả"}
+                        </button>
+                      </div>
+                      <div className="d-flex flex-wrap gap-2">
+                        {groupedTypes[prefix].map((type) => (
+                          <button
+                            key={type}
+                            onClick={() => handleTypeToggle(type)}
+                            className={`btn btn-sm ${
+                              selectedTypes.includes(type)
+                                ? "btn-primary"
+                                : "btn-outline-secondary"
+                            }`}
+                          >
+                            {type}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+
+        <div className="col-12 col-md-6 col-lg-4">
+          {/* Phần chọn loại bảng */}
+          <div className="mb-3 p-3 bg-light rounded">
+            <h2 className="fs-6 fw-semibold mb-2">Chọn loại bảng (tb=)</h2>
+            <div className="d-flex flex-wrap gap-2">
+              <button
+                onClick={() => setTableType("normal")}
+                className={`btn btn-sm ${
+                  tableType === "normal"
+                    ? "btn-primary"
+                    : "btn-outline-secondary"
+                }`}
+              >
+                Mặc định
+              </button>
+              <button
+                onClick={() => setTableType("vietnamese")}
+                className={`btn btn-sm ${
+                  tableType === "vietnamese"
+                    ? "btn-primary"
+                    : "btn-outline-secondary"
+                }`}
+              >
+                Tiếng Việt (tb=tv)
+              </button>
+              <button
+                onClick={() => setTableType("empty")}
+                className={`btn btn-sm ${
+                  tableType === "empty"
+                    ? "btn-primary"
+                    : "btn-outline-secondary"
+                }`}
+              >
+                Bảng trống (tb=null)
+              </button>
+            </div>
+          </div>
+          {/* Phần chọn trộn lẫn */}
+          <div className="mb-3 p-3 bg-light rounded">
+            <h2 className="fs-6 fw-semibold mb-2">Trộn lẫn (random=)</h2>
+            <div className="d-flex flex-wrap gap-2">
+              <button
+                onClick={handleRandomDefault}
+                className={`btn btn-sm ${
+                  isRandomEnabled ? "btn-outline-secondary" : "btn-primary"
+                }`}
+              >
+                Mặc định
+              </button>
+              <button
+                onClick={handleRandomToggle}
+                className={`btn btn-sm ${
+                  isRandomEnabled ? "btn-primary" : "btn-outline-secondary"
+                }`}
+              >
+                Trộn lẫn
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-12 col-md-6 col-lg-4">
+          {/* Phần hiển thị kết quả */}
+          <div className="p-3 border rounded">
+            <h3 className="fs-6 fw-semibold mb-2">
+              Link{" "}
+              {targetMode === "roomofflineV2" ? "RoomofflineV2" : "Roomoffline"}{" "}
+              đã tạo:{" "}
+              {Note ? (
+                <span className="text-success fw-medium">
+                  (Đã có ghi chú)
+                </span>
+              ) : (
+                <span className="text-danger fw-medium">
+                  (Chưa có ghi chú)
+                </span>
+              )}
+            </h3>
+            <div className="d-flex flex-wrap align-items-center gap-2">
+              <div
+                className="flex-grow-1 p-2 bg-white border rounded text-break"
+                style={{ minWidth: 0, overflowX: "auto" }}
+              >
+                {generatedLink || `${targetMode}/${id}/${numIndex}`}
+              </div>
+              <button
+                id="copyidV2"
+                onClick={copyToClipboard}
+                className="btn btn-sm btn-primary"
+              >
+                Copy
+              </button>
+              <button
+                type="button"
+                onClick={handleGoToLink}
+                className="btn btn-sm btn-success"
+                disabled={!generatedLink}
+                title="Đi thẳng tới trang tương ứng với link vừa tạo"
+              >
+                Đi tới link
+              </button>
+            </div>
+            <div className="mt-3 small">
+              <p className="mb-1">
+                <strong>Bài học đã chọn:</strong> {selectedLessons.length} /{" "}
+                {numLessonSetLength}
+              </p>
+              <p className="mb-1">
+                <strong>Type đã chọn:</strong> {selectedTypes.length}
+              </p>
+              <p className="mb-1">
+                <strong>Loại bảng:</strong>{" "}
+                {tableType === "normal"
+                  ? "Bình thường"
+                  : tableType === "vietnamese"
+                    ? "Tiếng Việt"
+                    : "Bảng trống"}
+              </p>
+              {isRandomEnabled && (
+                <p className="mb-1">
+                  <strong>Trộn lẫn:</strong> Có
+                </p>
+              )}
+            </div>
+            <div className="mt-3 p-3 bg-light rounded">
+              <h2 className="fs-6 fw-semibold mb-2">GHI CHÚ BÀI TẬP</h2>
+              <input
+                type="text"
+                placeholder="Nhập ghi chú bài tập"
+                value={Note}
+                className="form-control form-control-sm"
+                onChange={handleChange}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

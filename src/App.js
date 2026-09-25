@@ -7,6 +7,7 @@ import NameDiv from "./components/A1_Name";
 import RoomN from "./components/RoomN";
 import Room from "./components/Room";
 import RoomOffline from "./components/Roomoffline";
+import RoomOfflineV2 from "./components/RoomofflineV2/RoomofflineV2";
 import NotExist from "./components/NotExist";
 import LinkToday from "./components/LinkToday";
 import LearningHub from "./components/LearningHub";
@@ -110,6 +111,10 @@ const App = () => {
               <Route
                 path="/roomoffline/:roomCode/:currentIndex"
                 element={<RoomOffline setSttRoom={setSttRoom} />}
+              />
+              <Route
+                path="/roomofflineV2/:roomCode/:currentIndex"
+                element={<RoomOfflineV2 setSttRoom={setSttRoom} />}
               />
               <Route path="/" element={<HomeView />} />
               <Route

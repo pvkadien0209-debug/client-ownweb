@@ -95,6 +95,17 @@ const Lobby = ({
 
     // });
   };
+
+  // Mới thêm — không đổi handleCreateRoomOffline ở trên: dẫn sang bản
+  // RoomofflineV2 (route riêng, file riêng), giữ nguyên logic điều hướng cũ.
+  const handleCreateRoomOfflineV2 = () => {
+    if (id) {
+      navigate(`/roomofflineV2/${id}/${currentIndex}`);
+    } else {
+      navigate(`/roomofflineV2/elementary-a1-lesson-plan/0`);
+    }
+  };
+
   const handleJoinRoom = (roomCode) => {
     if (roomCode.trim()) {
       navigate(`/room/${roomCode}`);
@@ -148,7 +159,7 @@ const Lobby = ({
         </i>
         <hr />
         <div className="row">
-          <div className="col-12">
+          <div className="col-6">
             {" "}
             <button
               style={{ width: "150px", height: "150px" }}
@@ -156,6 +167,16 @@ const Lobby = ({
               onClick={handleCreateRoomOffline}
             >
               <b>Vào thực hành</b>
+            </button>
+          </div>
+          <div className="col-6">
+            {" "}
+            <button
+              style={{ width: "150px", height: "150px" }}
+              className="btn btn-outline-primary mb-4"
+              onClick={handleCreateRoomOfflineV2}
+            >
+              <b>Vào thực hành Ver 2.0</b>
             </button>
           </div>
           {/* <div className="col-6">

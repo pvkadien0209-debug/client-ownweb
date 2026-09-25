@@ -376,3 +376,420 @@
             transition: none;
           }
         }
+
+        /* ====== Popup "Ghép âm" (PracticeGhepAmModal.js — file MỚI, thay cho
+           trang full-width cũ). 85vw x 85vh, mount-once + class "open" để
+           đóng/mở mượt, cùng kiểu đã dùng ở modal Tham khảo của RoomofflineV2.
+           ====== */
+        .gam-modal-backdrop {
+          position: fixed;
+          inset: 0;
+          background: rgba(15, 23, 42, 0.55);
+          z-index: 1000;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 16px;
+          opacity: 0;
+          pointer-events: none;
+          transition: opacity 0.25s ease;
+        }
+        .gam-modal-backdrop.open {
+          opacity: 1;
+          pointer-events: auto;
+        }
+        .gam-modal-panel {
+          background: var(--lh-card);
+          border-radius: var(--lh-radius);
+          width: 85vw;
+          height: 85vh;
+          display: flex;
+          flex-direction: column;
+          overflow: hidden;
+          box-shadow: 0 10px 40px rgba(0, 0, 0, 0.28);
+          opacity: 0;
+          transform: scale(0.94) translateY(10px);
+          transition: opacity 0.25s ease, transform 0.25s ease;
+        }
+        .gam-modal-backdrop.open .gam-modal-panel {
+          opacity: 1;
+          transform: scale(1) translateY(0);
+        }
+        .gam-modal-header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 14px 20px;
+          border-bottom: 1px solid var(--lh-border);
+          flex-shrink: 0;
+        }
+        .gam-modal-title {
+          color: var(--lh-primary);
+          font-weight: 800;
+          margin: 0;
+          font-size: 1.05rem;
+        }
+        .gam-modal-close {
+          border: none;
+          background: var(--lh-primary-soft);
+          color: var(--lh-primary);
+          width: 34px;
+          height: 34px;
+          border-radius: 9px;
+          cursor: pointer;
+          flex-shrink: 0;
+        }
+        .gam-tabbar {
+          display: flex;
+          gap: 6px;
+          padding: 10px 20px 0;
+          flex-shrink: 0;
+          overflow-x: auto;
+        }
+        .gam-tab-btn {
+          border: 1px solid var(--lh-border);
+          background: var(--lh-bg);
+          color: var(--lh-muted);
+          font-weight: 700;
+          font-size: 0.85rem;
+          padding: 8px 16px;
+          border-radius: 10px 10px 0 0;
+          cursor: pointer;
+          white-space: nowrap;
+        }
+        .gam-tab-btn.active {
+          background: var(--lh-card);
+          color: var(--lh-primary);
+          border-color: var(--lh-primary);
+          border-bottom-color: var(--lh-card);
+        }
+        .gam-tab-body {
+          flex: 1;
+          min-height: 0;
+          overflow-y: auto;
+          padding: 14px 20px;
+        }
+        .gam-tab-panel-hidden {
+          display: none;
+        }
+        .gam-modal-footer {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.6rem;
+          padding: 10px 20px;
+          border-top: 1px solid var(--lh-border);
+          flex-shrink: 0;
+        }
+
+        /* ── Thu gọn: các khối tham khảo dùng chung (info-card/step-guide/
+           vowel-guide/status-check) được SCOPE riêng bên trong popup Ghép âm
+           để giảm khoảng cách/scroll — KHÔNG đổi style gốc của các class này
+           (đang dùng chung ở ThucHanhSection.js/PhuongPhapHocSection.js…). ── */
+        .gam-tab-body .info-card,
+        .gam-tab-body .step-guide {
+          padding: 0.75rem 1rem;
+          margin: 0.5rem 0;
+        }
+        .gam-tab-body .vowel-guide {
+          padding: 0.5rem;
+          margin: 0.5rem 0;
+        }
+        .gam-compact-card {
+          margin-top: 0;
+        }
+        .gam-compact-textarea {
+          font-size: clamp(1.1rem, 3.2vw, 1.5rem) !important;
+        }
+
+        /* ── Tab 2 "Luyện đọc" (LuyenDocPanel.js) — ô transcript tạm thời,
+           khối % giống nhau, và vùng kết quả khi đã tắt mic. Gọn hơn bản gốc
+           trong Dictaphone (đã bỏ khối tip dài dòng "***..."). ── */
+        .gam-luyendoc-interim {
+          width: 100%;
+          font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+          line-height: 1.5;
+          font-size: 1.05rem;
+          font-style: italic;
+          padding: 10px 12px;
+          background: var(--lh-bg);
+          border-radius: 8px;
+          border: 1px solid var(--lh-border);
+          color: #0d47a1;
+        }
+        .gam-luyendoc-simcheck {
+          color: #6f42c1;
+          background: #f8f5ff;
+          padding: 8px 10px;
+          border-radius: 8px;
+          border: 1px solid #e2d3f4;
+          font-size: 0.9rem;
+        }
+        .gam-luyendoc-disabled {
+          border-radius: 10px;
+          opacity: 0.6;
+          background: var(--lh-bg);
+          pointer-events: none;
+          cursor: not-allowed;
+          border: 1px solid var(--lh-border);
+          padding: 12px;
+        }
+
+        /* ── Thông báo "đã lưu: đọc đúng >65%" — chỉ còn 1 badge nhỏ cạnh
+           trạng thái mic, hiện liên tục khi đã lưu (đã bỏ toast nổi góc
+           phải theo yêu cầu, dòng nhỏ này là đủ). ── */
+        .gam-readcorrect-badge {
+          font-weight: 600;
+        }
+
+        /* ── Nhóm nút tab "Quy tắc / Video / 4 bước" (cột phải Tab 1) — thay
+           cho 3 accordion xếp chồng trước đây, bấm 1 nút để chọn, chỉ hiện
+           đúng 1 nội dung tại 1 thời điểm, dễ chọn hơn accordion. ── */
+        .gam-subtab-bar {
+          display: flex;
+          gap: 6px;
+          margin-bottom: 0.5rem;
+          flex-wrap: wrap;
+        }
+        .gam-subtab-btn {
+          border: 1px solid var(--lh-border);
+          background: var(--lh-bg);
+          color: var(--lh-muted);
+          font-weight: 700;
+          font-size: 0.8rem;
+          padding: 0.35rem 0.7rem;
+          border-radius: 8px;
+          cursor: pointer;
+          white-space: nowrap;
+        }
+        .gam-subtab-btn.active {
+          background: var(--lh-primary);
+          border-color: var(--lh-primary);
+          color: #fff;
+        }
+        .gam-subtab-panel {
+          border: 1px solid var(--lh-border);
+          border-radius: 10px;
+          padding: 0.65rem 0.85rem;
+        }
+
+        /* ── Accordion gọn (Tab 2: kiểm tra thiết bị) — đóng sẵn theo mặc
+           định để đỡ scroll. ── */
+        .gam-accordion {
+          border: 1px solid var(--lh-border);
+          border-radius: 10px;
+          margin: 0.5rem 0;
+          overflow: hidden;
+        }
+        .gam-accordion-header {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          background: var(--lh-bg);
+          border: none;
+          padding: 0.45rem 0.75rem;
+          font-weight: 700;
+          font-size: 0.88rem;
+          color: var(--lh-ink);
+          cursor: pointer;
+        }
+        .gam-accordion-body {
+          padding: 0.65rem 0.85rem;
+        }
+
+        /* ── Thẻ "Thông tin tham khảo" rút gọn còn ĐÚNG 2 DÒNG (dựng mới ở
+           PracticeGhepAmModal.js từ ipRef — KHÔNG dùng/không đụng
+           similarityMatcher.js nữa): dòng 1 chỉ gồm icon để CHỌN mục (Dịch
+           thô/Phiên âm UK/Phiên âm US) + icon xóa; dòng 2 hiện nội dung mục
+           đang chọn kèm nút "+" dán vào ô phiên âm. ── */
+        .gam-ref-compact {
+          background: var(--lh-primary-soft);
+          border: 1px solid #c7d2fe;
+          border-radius: 10px;
+          padding: 0.5rem 0.6rem;
+          margin-top: 0.6rem;
+        }
+        .gam-ref-icons {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          margin-bottom: 0.4rem;
+        }
+        .gam-ref-icon-btn {
+          border: 1px solid var(--lh-border);
+          background: var(--lh-card);
+          color: var(--lh-muted);
+          width: 28px;
+          height: 26px;
+          border-radius: 7px;
+          cursor: pointer;
+          font-size: 0.9rem;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0;
+        }
+        .gam-ref-icon-btn.active {
+          background: var(--lh-primary);
+          border-color: var(--lh-primary);
+          color: #fff;
+        }
+        .gam-ref-clear-btn {
+          color: #b91c1c;
+        }
+        .gam-ref-value-row {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+        .gam-ref-value-text {
+          flex: 1 1 auto;
+          min-width: 0;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          font-weight: 700;
+          color: #000;
+          font-size: 0.95rem;
+          cursor: default;
+        }
+
+        /* ── Tab 3: trò chơi xếp câu — CHẠM để chọn/bỏ từ ── */
+        .gam-reorder-legend {
+          font-size: 0.82rem;
+          color: var(--lh-muted);
+          margin-bottom: 0.6rem;
+        }
+        .gam-scramble-success {
+          background: #f0fdf4;
+          border: 1px solid #86efac;
+          color: #166534;
+          border-radius: 10px;
+          padding: 0.6rem 0.9rem;
+          font-weight: 700;
+          margin-bottom: 0.75rem;
+        }
+        .gam-scramble-section-label {
+          font-size: 0.75rem;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 0.03em;
+          color: var(--lh-muted);
+          margin: 0.5rem 0 0.35rem;
+        }
+        .gam-scramble-row,
+        .gam-scramble-answer-row {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+        }
+        .gam-scramble-answer-row {
+          min-height: 44px;
+          align-items: center;
+          background: var(--lh-card);
+          border: 1.5px dashed var(--lh-border);
+          border-radius: 10px;
+          padding: 8px 10px;
+        }
+        .gam-scramble-answer-empty {
+          font-size: 0.85rem;
+          color: var(--lh-muted);
+          font-style: italic;
+        }
+        .gam-scramble-chip {
+          border: 1px solid #c7d2fe;
+          border-radius: 10px;
+          padding: 6px 12px;
+          cursor: pointer;
+          transition: transform 0.1s ease, border-color 0.15s ease;
+        }
+        .gam-scramble-chip:active {
+          transform: scale(0.95);
+        }
+        .gam-scramble-word {
+          font-weight: 700;
+          color: var(--lh-ink);
+          white-space: nowrap;
+        }
+        .gam-scramble-pool-chip {
+          background: var(--lh-primary-soft);
+        }
+        .gam-scramble-pool-chip:hover {
+          border-color: var(--lh-primary, #6366f1);
+        }
+        .gam-scramble-answer-chip {
+          background: #fff7ed;
+          border-color: #fdba74;
+        }
+        .gam-scramble-answer-chip:hover {
+          border-color: #f97316;
+        }
+        @media (max-width: 699px) {
+          .gam-modal-panel {
+            width: 95vw;
+            height: 92vh;
+          }
+        }
+
+        /* ── Tab 1 "Hướng dẫn": bố cục 2 CỘT NGANG có thể KÉO GIÃN rộng/hẹp —
+           cột trái (luyện tập chính) / cột phải (tài liệu tham khảo), thanh
+           chia ở giữa kéo được bằng chuột hoặc chạm, bấm đúp để về tỉ lệ mặc
+           định (xử lý % ở PracticeGhepAmModal.js). Điện thoại: xếp dọc, ẩn
+           thanh chia. ── */
+        .gam-tab1-split {
+          display: flex;
+          align-items: flex-start;
+          width: 100%;
+        }
+        .gam-tab1-col {
+          min-width: 0;
+          box-sizing: border-box;
+        }
+        .gam-tab1-col:first-child {
+          padding-right: 14px;
+        }
+        .gam-tab1-col:last-child {
+          padding-left: 14px;
+          border-left: 1px solid var(--lh-border);
+        }
+        .gam-tab1-resizer {
+          flex: 0 0 12px;
+          width: 12px;
+          align-self: stretch;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: var(--lh-muted);
+          cursor: col-resize;
+          user-select: none;
+          touch-action: none;
+        }
+        .gam-tab1-resizer:hover,
+        .gam-tab1-resizer:active {
+          color: var(--lh-primary);
+        }
+        .gam-tab1-resizer i {
+          font-size: 14px;
+          pointer-events: none;
+        }
+        @media (max-width: 699px) {
+          .gam-tab1-split {
+            flex-direction: column;
+          }
+          .gam-tab1-col {
+            width: 100% !important;
+          }
+          .gam-tab1-col:first-child {
+            padding-right: 0;
+          }
+          .gam-tab1-col:last-child {
+            padding-left: 0;
+            padding-top: 12px;
+            margin-top: 12px;
+            border-left: none;
+            border-top: 1px solid var(--lh-border);
+          }
+          .gam-tab1-resizer {
+            display: none;
+          }
+        }

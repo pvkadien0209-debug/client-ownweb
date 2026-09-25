@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from "react";
+import React, { useEffect, useState, useContext, useMemo } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { useParams, useNavigate, useLocation } from "react-router-dom";
 import TableTB from "./pracPages/B101_FINAL_TABLE-TB-NotAdd";
@@ -11,7 +11,11 @@ import { arrayToString } from "./LearningHub/utils/renderHelpers";
 import { renderContentOftable } from "./LearningHub/utils/lessonTable";
 import ContentSection from "./LearningHub/sections/ContentSection";
 import LessonTableSection from "./LearningHub/sections/LessonTableSection";
-import PracticeGhepAmSection from "./LearningHub/sections/PracticeGhepAmSection";
+// PracticeGhepAmSection.js (file cũ, full-width) KHÔNG còn được render nữa —
+// theo yêu cầu mới "trang Ghép âm điều chỉnh thành popup 85x85", đã thay
+// bằng PracticeGhepAmModal.js (file MỚI) bên dưới. File cũ vẫn giữ nguyên,
+// không xoá, không sửa — chỉ không import/render ở đây nữa.
+import PracticeGhepAmModal from "./LearningHub/sections/PracticeGhepAmModal";
 import NguyenTacSection from "./LearningHub/sections/NguyenTacSection";
 import MauCauSection from "./LearningHub/sections/MauCauSection";
 import PhuongPhapHocSection from "./LearningHub/sections/PhuongPhapHocSection";
@@ -66,10 +70,36 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [STTPractice, setSTTPractice] = useState(true);
-  const [choose_a_st, setchoose_a_st] = useState(null);
   const [CMDlist, setCMDlist] = useState("Hi how are you");
   const [StartToGetData, setStartToGetData] = useState(false);
   const navigate = useNavigate();
+
+  // ── Popup "Ghép âm" (thay cho trang full-width cũ) ─────────────────────
+  const [showGhepAm, setShowGhepAm] = useState(false);
+  const [ghepAmTableLabel, setGhepAmTableLabel] = useState("");
+  // Bấm vào 1 ô trong bảng câu (LessonTableSection/MauCauSection) gọi hàm
+  // này để MỞ POPUP — tableLabel chỉ để hiển thị "đang mở từ bảng nào" trên
+  // tiêu đề popup (Tab 3 giờ là trò chơi xáo trộn từ của CÂU ĐANG CHỌN, không
+  // còn cần danh sách rows của cả bảng nữa).
+  const handleOpenGhepAm = (tableLabel) => {
+    setGhepAmTableLabel(tableLabel || "");
+    setShowGhepAm(true);
+  };
+
+  // Tiến trình luyện tập trong phiên hiện tại (mất khi tải lại trang) —
+  // NÂNG LÊN từ PracticeGhepAmModal.js (trước đây là state cục bộ trong đó)
+  // để LessonTableSection/MauCauSection cũng đọc được, phục vụ tô màu TOÀN
+  // BỘ lịch sử các câu đã luyện ở bảng câu (mục tiêu: làm xong chụp hình lại
+  // chứng minh đã làm bài tập) — "Chỉ 2 màu: đọc đúng + sắp xếp đúng".
+  // Nhóm theo TỪNG BÀI HỌC (currentIndex) để khi chuyển sang bài khác không
+  // bị dính màu của câu bài trước:
+  // { [currentIndex]: { [câu]: { readCorrect, matchCorrect, arrangeCorrect } } }
+  const [progressByValue, setProgressByValue] = useState({});
+  // Chỉ lấy đúng phần của bài học đang mở — truyền xuống bảng câu để tô màu.
+  const currentLessonProgress = useMemo(
+    () => progressByValue[currentIndex] || {},
+    [progressByValue, currentIndex],
+  );
 
   // id của section đang mở — để highlight pill đang active
   const activeId = params.get("id") || "div_01_content_table_to_practice";
@@ -122,15 +152,6 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
       } catch (error) {}
     }
   }, [params]);
-
-  useEffect(() => {
-    try {
-      navigate(
-        `/learninghub/${id}?ls=${currentIndex}&&id=div_01_prac_ghep_am&&st=` +
-          choose_a_st.split(" ").join("-"),
-      );
-    } catch (error) {}
-  }, [choose_a_st]);
 
   if (loading) {
     return <LoadingScreen />;
@@ -222,16 +243,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 setCurrentIndex={setCurrentIndex}
                 navigate={navigate}
                 id={id}
-              />
-
-              <PracticeGhepAmSection
-                id={id}
-                currentIndex={currentIndex}
-                navigate={navigate}
-                params={params}
-                choose_a_st={choose_a_st}
-                CMDlist={CMDlist}
-                dataLearning={dataLearning}
+                onOpenGhepAm={handleOpenGhepAm}
+                progressMap={currentLessonProgress}
               />
 
               <NguyenTacSection />
@@ -241,6 +254,8 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 currentIndex={currentIndex}
                 navigate={navigate}
                 id={id}
+                onOpenGhepAm={handleOpenGhepAm}
+                progressMap={currentLessonProgress}
               />
 
               <PhuongPhapHocSection />
@@ -261,6 +276,17 @@ const LearningHub = ({ setSttRoom, STTconnectFN }) => {
                 setSTTPractice={setSTTPractice}
               />
             </div>
+
+            <PracticeGhepAmModal
+              show={showGhepAm}
+              onClose={() => setShowGhepAm(false)}
+              dataLearning={dataLearning}
+              currentIndex={currentIndex}
+              CMDlist={CMDlist}
+              tableLabel={ghepAmTableLabel}
+              progressByValue={progressByValue}
+              setProgressByValue={setProgressByValue}
+            />
           </section>
         </div>
       </HelmetProvider>
