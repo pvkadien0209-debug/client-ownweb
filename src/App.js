@@ -8,6 +8,9 @@ import RoomN from "./components/RoomN";
 import Room from "./components/Room";
 import RoomOffline from "./components/Roomoffline";
 import RoomOfflineV2 from "./components/RoomofflineV2/RoomofflineV2";
+import RoomOfflineV3 from "./components/RoomofflineV3/RoomofflineV3";
+import RoomOfflineV4 from "./components/RoomofflineV4/RoomofflineV4";
+import RoomOfflineV5 from "./components/RoomofflineV5/RoomofflineV5";
 import NotExist from "./components/NotExist";
 import LinkToday from "./components/LinkToday";
 import LearningHub from "./components/LearningHub";
@@ -115,6 +118,18 @@ const App = () => {
               <Route
                 path="/roomofflineV2/:roomCode/:currentIndex"
                 element={<RoomOfflineV2 setSttRoom={setSttRoom} />}
+              />
+              <Route
+                path="/roomofflineV3/:roomCode/:currentIndex"
+                element={<RoomOfflineV3 setSttRoom={setSttRoom} />}
+              />
+              <Route
+                path="/roomofflineV4/:roomCode/:currentIndex"
+                element={<RoomOfflineV4 setSttRoom={setSttRoom} />}
+              />
+              <Route
+                path="/roomofflineV5/:roomCode/:currentIndex"
+                element={<RoomOfflineV5 setSttRoom={setSttRoom} />}
               />
               <Route path="/" element={<HomeView />} />
               <Route

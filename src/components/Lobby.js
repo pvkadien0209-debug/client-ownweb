@@ -106,6 +106,38 @@ const Lobby = ({
     }
   };
 
+  // Mới thêm — cùng cách làm với handleCreateRoomOfflineV2 ở trên: dẫn sang
+  // bài thực hành thứ 3 (RoomofflineV3 — nghe & chọn phiên âm đúng, route
+  // riêng, file riêng), không đổi 2 hàm điều hướng cũ ở trên.
+  const handleCreateRoomOfflineV3 = () => {
+    if (id) {
+      navigate(`/roomofflineV3/${id}/${currentIndex}`);
+    } else {
+      navigate(`/roomofflineV3/elementary-a1-lesson-plan/0`);
+    }
+  };
+
+  // Mới thêm — cùng cách làm với handleCreateRoomOfflineV2/V3 ở trên: dẫn
+  // sang bài thực hành thứ 4 (RoomofflineV4 — nghe & chọn nghĩa phù hợp,
+  // route riêng, file riêng), không đổi các hàm điều hướng cũ ở trên.
+  const handleCreateRoomOfflineV4 = () => {
+    if (id) {
+      navigate(`/roomofflineV4/${id}/${currentIndex}`);
+    } else {
+      navigate(`/roomofflineV4/elementary-a1-lesson-plan/0`);
+    }
+  };
+
+  // Mới thêm — bài thực hành thứ 5 (RoomofflineV5 — đọc nghĩa & chọn từ phù
+  // hợp, route riêng, file riêng), không đổi các hàm điều hướng cũ ở trên.
+  const handleCreateRoomOfflineV5 = () => {
+    if (id) {
+      navigate(`/roomofflineV5/${id}/${currentIndex}`);
+    } else {
+      navigate(`/roomofflineV5/elementary-a1-lesson-plan/0`);
+    }
+  };
+
   const handleJoinRoom = (roomCode) => {
     if (roomCode.trim()) {
       navigate(`/room/${roomCode}`);
@@ -159,7 +191,7 @@ const Lobby = ({
         </i>
         <hr />
         <div className="row">
-          <div className="col-6">
+          <div className="col-4">
             {" "}
             <button
               style={{ width: "150px", height: "150px" }}
@@ -169,7 +201,7 @@ const Lobby = ({
               <b>Vào thực hành</b>
             </button>
           </div>
-          <div className="col-6">
+          <div className="col-4">
             {" "}
             <button
               style={{ width: "150px", height: "150px" }}
@@ -177,6 +209,36 @@ const Lobby = ({
               onClick={handleCreateRoomOfflineV2}
             >
               <b>Vào thực hành Ver 2.0</b>
+            </button>
+          </div>
+          <div className="col-4">
+            {" "}
+            <button
+              style={{ width: "150px", height: "150px" }}
+              className="btn btn-outline-success mb-4"
+              onClick={handleCreateRoomOfflineV3}
+            >
+              <b>Vào thực hành Ver 3.0 (Nghe & chọn phiên âm)</b>
+            </button>
+          </div>
+          <div className="col-4">
+            {" "}
+            <button
+              style={{ width: "150px", height: "150px" }}
+              className="btn btn-outline-warning mb-4"
+              onClick={handleCreateRoomOfflineV4}
+            >
+              <b>Vào thực hành Ver 4.0 (Nghe & chọn nghĩa)</b>
+            </button>
+          </div>
+          <div className="col-4">
+            {" "}
+            <button
+              style={{ width: "150px", height: "150px" }}
+              className="btn btn-outline-info mb-4"
+              onClick={handleCreateRoomOfflineV5}
+            >
+              <b>Vào thực hành Ver 5.0 (Đọc nghĩa & chọn từ)</b>
             </button>
           </div>
           {/* <div className="col-6">

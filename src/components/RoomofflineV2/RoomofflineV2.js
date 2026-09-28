@@ -228,8 +228,19 @@ const RoomofflineV2 = ({ setSttRoom }) => {
   // trang (unmount RoomofflineV2) ngay trong lúc fetch còn đang chạy thì các
   // setState sau khi promise resolve/reject vẫn cứ chạy trên component đã
   // unmount (React cảnh báo "memory leak" + tham chiếu closure cũ vô nghĩa).
+  //
+  // BUG (đã tự gây ra ở lượt sửa trước, phát hiện khi bạn báo "không tải
+  // được"): app đang bật React.StrictMode (client/src/index.js) — ở môi
+  // trường dev, StrictMode tự mount → unmount → mount lại 1 lần ngay khi
+  // component vừa xuất hiện, để lộ đúng lỗi kiểu này. Effect trước đây CHỈ
+  // đặt isMountedRef.current = false lúc cleanup, không đặt lại thành true
+  // lúc setup — nên sau lượt mount giả lập đó, cờ bị kẹt ở false VĨNH VIỄN,
+  // khiến mọi setState trong fetchTitle (kể cả khi fetch thành công) đều bị
+  // chặn, dữ liệu không bao giờ hiển thị. Sửa: đặt lại = true ngay trong
+  // phần setup của effect, không chỉ dựa vào giá trị khởi tạo của useRef.
   const isMountedRef = useRef(true);
   useEffect(() => {
+    isMountedRef.current = true;
     return () => {
       isMountedRef.current = false;
     };
