@@ -1,0 +1,2873 @@
+[
+  {
+    "id": "phone",
+    "ListenList": [],
+    "typeSets": ["A1", "A2", "B1"],
+    "SEO": {
+      "seo": {
+        "metaTitle": "PHONE",
+        "metaDescription": "Rèn kĩ năng - thuộc kiến thức",
+        "keywords": [
+          "thực hành giao tiếp",
+          "thực hành hội thoại",
+          "thực hành tiếng anh"
+        ]
+      }
+    },
+    "HDTB": {
+      "IF": {
+        "IFname": "PHONE",
+        "IFdes": "Mục tiêu: \n1/ Rèn luyện thuần thục về nội dung, mẫu câu.\n2/ Nắm được cấu trúc trình bày một bài.\n2/ Tự trình bày trước người khác và quay video.",
+        "IF-audiocode": "PL01_phone"
+      },
+      "IP": [{ "IPA-01": "/", "IPA-02": "/", "IPA-03": "/", "IPA-04": "/" }],
+      "TB": [],
+      "H0": [
+        {
+          "H0-01": "[MERGE]",
+          "H0-02": "A Phone That Is Useful in Daily Life\n\nA phone is one of the most useful objects in modern life. It is a small electronic device that people use for communication, information and entertainment. Today, phones can be found in almost every part of the world, and they have become an important part of daily life.\n\nThe phone I use is a simple smartphone. It is black, light and easy to carry. It has a large screen, a camera, several buttons and a battery. The phone is designed for making calls, sending messages, taking photos and using different applications.\n\nMy phone has a simple but useful design. The screen allows me to read messages, watch videos and find information. The camera is also important because it helps me take photos and record videos. The battery allows me to use the phone for many hours before I need to charge it.\n\nWhat makes my phone useful is its ability to help me do many things in one place. I can use it to communicate with my family, check my work and learn English. When I travel, I often carry my phone with me because it can help me find places, take photos and contact other people.\n\nMy phone is important not only because it is convenient, but also because it helps me stay connected with people. I can talk to my family and friends even when they are far away. I can also save photos, messages and other information that are important to me.\n\nWhat I find most useful about my phone is the combination of communication and technology. The phone is not simply an electronic device; it also helps me organize my work, learn new things and keep important memories.\n\nI think a phone teaches us that technology can become an important part of everyday life. Technology can bring many benefits, but people also need to use it carefully and responsibly. For this reason, a phone can be more than a machine; it can become a useful tool that supports many parts of our lives.",
+          "H0-03": null,
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": "X",
+          "H0-02": null,
+          "H0-03": "X",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": "STT",
+          "H0-02": "Keyword",
+          "H0-03": "Nội dung tóm tắt",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 1,
+          "H0-02": "WHAT / IMPORTANCE",
+          "H0-03": "Điện thoại là một trong những đồ vật hữu ích nhất trong cuộc sống hiện đại và đã trở thành một phần quan trọng của cuộc sống hàng ngày.",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 2,
+          "H0-02": "DEFINITION",
+          "H0-03": "Điện thoại là một thiết bị điện tử nhỏ được sử dụng để liên lạc, tìm kiếm thông tin và giải trí.",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 3,
+          "H0-02": "DESCRIPTION",
+          "H0-03": "Chiếc điện thoại của người viết là một smartphone đơn giản, màu đen, nhẹ và dễ mang theo.",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 4,
+          "H0-02": "PARTS",
+          "H0-03": "Điện thoại có màn hình lớn, camera, một số nút bấm và pin.",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 5,
+          "H0-02": "FUNCTIONS",
+          "H0-03": "Điện thoại được thiết kế để gọi điện, gửi tin nhắn, chụp ảnh và sử dụng các ứng dụng khác nhau.",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 6,
+          "H0-02": "DESIGN",
+          "H0-03": "Điện thoại có thiết kế đơn giản nhưng hữu ích; màn hình giúp đọc tin nhắn, xem video và tìm thông tin.",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 7,
+          "H0-02": "USE",
+          "H0-03": "Điện thoại giúp người viết liên lạc với gia đình, kiểm tra công việc, học tiếng Anh và tìm địa điểm khi đi du lịch.",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 8,
+          "H0-02": "CONNECTION",
+          "H0-03": "Điện thoại giúp người viết giữ liên lạc với gia đình và bạn bè ngay cả khi họ ở xa.",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 9,
+          "H0-02": "IMPRESSION",
+          "H0-03": "Điều hữu ích nhất là sự kết hợp giữa khả năng liên lạc và công nghệ; điện thoại còn giúp tổ chức công việc, học tập và lưu giữ ký ức.",
+          "H0-04": null,
+          "H0-05": null
+        },
+        {
+          "H0-01": 10,
+          "H0-02": "LESSON & RESPONSIBILITY",
+          "H0-03": "Điện thoại cho thấy công nghệ có thể trở thành một phần quan trọng của cuộc sống; con người cần sử dụng công nghệ cẩn thận và có trách nhiệm.",
+          "H0-04": null,
+          "H0-05": null
+        }
+      ],
+      "TV": [],
+      "HT": [],
+      "MC": [],
+      "HD": [
+        {
+          "HD-01": "X",
+          "HD-02": "BÀI TẬP 1: NỘI DUNG",
+          "HD-03": "X",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "STT",
+          "HD-02": "Hỏi",
+          "HD-03": "Câu A",
+          "HD-04": "Câu B",
+          "HD-05": null
+        },
+        {
+          "HD-01": "1",
+          "HD-02": "What is a phone?",
+          "HD-03": "It is a small electronic device that people use for communication, information and entertainment.",
+          "HD-04": null,
+          "HD-05": "It is a large machine that people use for cooking food."
+        },
+        {
+          "HD-01": "2",
+          "HD-02": "What does the writer's phone look like?",
+          "HD-03": null,
+          "HD-04": "It is black, light and easy to carry.",
+          "HD-05": "It is white, heavy and difficult to carry."
+        },
+        {
+          "HD-01": "3",
+          "HD-02": "What does the phone have?",
+          "HD-03": null,
+          "HD-04": "It has a keyboard, a printer and a television.",
+          "HD-05": "It has a large screen, a camera, several buttons and a battery."
+        },
+        {
+          "HD-01": "4",
+          "HD-02": "What is the phone designed for?",
+          "HD-03": "It is designed for making calls, sending messages, taking photos and using applications.",
+          "HD-04": "It is designed for washing clothes and cooking food.",
+          "HD-05": null
+        },
+        {
+          "HD-01": "5",
+          "HD-02": "What makes the phone useful?",
+          "HD-03": "Its ability to replace all other machines makes it useful.",
+          "HD-04": null,
+          "HD-05": "Its ability to help the writer do many things in one place makes it useful."
+        },
+        {
+          "HD-01": "6",
+          "HD-02": "What can the writer use the phone for?",
+          "HD-03": null,
+          "HD-04": "The writer can use it to communicate with family, check work and learn English.",
+          "HD-05": "The writer can use it to build houses and repair cars."
+        },
+        {
+          "HD-01": "7",
+          "HD-02": "Why does the writer carry the phone when traveling?",
+          "HD-03": "Because it can help find places, take photos and contact other people.",
+          "HD-04": "Because it is necessary for carrying luggage.",
+          "HD-05": null
+        },
+        {
+          "HD-01": "8",
+          "HD-02": "Why is the phone important?",
+          "HD-03": null,
+          "HD-04": "It helps the writer stay connected with family and friends.",
+          "HD-05": "It helps the writer avoid communication with other people."
+        },
+        {
+          "HD-01": "9",
+          "HD-02": "What does the writer find most useful about the phone?",
+          "HD-03": null,
+          "HD-04": "The combination of food and transportation is most useful.",
+          "HD-05": "The combination of communication and technology is most useful."
+        },
+        {
+          "HD-01": "10",
+          "HD-02": "What does a phone teach us?",
+          "HD-03": "It teaches us that technology is never useful.",
+          "HD-04": null,
+          "HD-05": "It teaches us that technology can become an important part of everyday life."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "BÀI TẬP 2: MẪU CÂU",
+          "HD-03": "X",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Stt",
+          "HD-02": "Cấu trúc câu trong bài đã dùng",
+          "HD-03": "Nội dung trong bài",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 1,
+          "HD-02": "S + be + one of the + superlative + plural N",
+          "HD-03": "A phone is one of the most useful objects in modern life.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 2,
+          "HD-02": "S + be + a/an + Adj + N + that + S + V",
+          "HD-03": "It is a small electronic device that people use for communication.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 3,
+          "HD-02": "S + can be found in + place",
+          "HD-03": "Phones can be found in almost every part of the world.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 4,
+          "HD-02": "S + have + a/an + Adj + N",
+          "HD-03": "The phone has a large screen.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 5,
+          "HD-02": "S + be + Adj + and + Adj",
+          "HD-03": "It is black, light and easy to carry.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 6,
+          "HD-02": "S + be + designed for + V-ing",
+          "HD-03": "The phone is designed for making calls and sending messages.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 7,
+          "HD-02": "S + allow + O + to + V",
+          "HD-03": "The screen allows me to read messages.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 8,
+          "HD-02": "S + be + Adj + because + clause",
+          "HD-03": "The camera is important because it helps me take photos.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 9,
+          "HD-02": "S + allow + O + to + V + for + period",
+          "HD-03": "The battery allows me to use the phone for many hours.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 10,
+          "HD-02": "What + make + O + Adj + is + N",
+          "HD-03": "What makes my phone useful is its ability to help me do many things in one place.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 11,
+          "HD-02": "S + can + V + O + to + V",
+          "HD-03": "I can use it to communicate with my family.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 12,
+          "HD-02": "S + carry + O + with + O",
+          "HD-03": "I often carry my phone with me.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 13,
+          "HD-02": "S + be + important + not only because..., but also because...",
+          "HD-03": "My phone is important not only because it is convenient, but also because it helps me stay connected with people.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 14,
+          "HD-02": "S + help + O + V",
+          "HD-03": "It helps me stay connected with people.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 15,
+          "HD-02": "S + can + V + O + even when + clause",
+          "HD-03": "I can talk to my family even when they are far away.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 16,
+          "HD-02": "What + S + find + most + Adj + about + N + is + N",
+          "HD-03": "What I find most useful about my phone is the combination of communication and technology.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 17,
+          "HD-02": "S + be + not simply + N; it also + V",
+          "HD-03": "The phone is not simply an electronic device; it also helps me organize my work.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 18,
+          "HD-02": "S + bring + N + but + S + also + need to + V",
+          "HD-03": "Technology can bring many benefits, but people also need to use it carefully.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 19,
+          "HD-02": "S + teach + O + that + clause",
+          "HD-03": "A phone teaches us that technology can become an important part of everyday life.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": 20,
+          "HD-02": "S + can + be + more than + N; S + can + become + N",
+          "HD-03": "A phone can be more than a machine; it can become a useful tool.",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Câu tương tự:",
+          "HD-02": null,
+          "HD-03": null,
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "",
+          "HD-02": "These products can be found in many stores.",
+          "HD-03": "The house has a beautiful garden.",
+          "HD-04": "A laptop is a useful device that students use for studying.",
+          "HD-05": "A computer is one of the most useful tools for students."
+        },
+        {
+          "HD-01": "",
+          "HD-02": "Exercise is important because it keeps people healthy.",
+          "HD-03": "This application allows students to practice English.",
+          "HD-04": "The bag is small and easy to carry.",
+          "HD-05": "This room is designed for studying English."
+        },
+        {
+          "HD-01": "",
+          "HD-02": "I always carry my notebook with me.",
+          "HD-03": "This battery allows me to use the laptop for several hours.",
+          "HD-04": "I can use my phone to learn English.",
+          "HD-05": "What makes this computer useful is its speed."
+        },
+        {
+          "HD-01": "",
+          "HD-02": "Education is important not only because it provides knowledge, but also because it develops skills.",
+          "HD-03": "This book helps me learn new words.",
+          "HD-04": "What I find most interesting about this book is its simple language.",
+          "HD-05": "I can study English even when I am busy."
+        },
+        {
+          "HD-01": "",
+          "HD-02": "A school is not simply a building; it also provides education.",
+          "HD-03": "Experience teaches us that practice is important.",
+          "HD-04": "Travel can bring many opportunities, but people also need to plan carefully.",
+          "HD-05": "A book can be more than a source of information; it can become a good friend."
+        },
+        {
+          "HD-01": "X",
+          "HD-02": "Bài tập 3",
+          "HD-03": "Hiểu sâu nghĩa của cụm từ",
+          "HD-04": null,
+          "HD-05": null
+        },
+        {
+          "HD-01": "Stt",
+          "HD-02": "Hỏi",
+          "HD-03": "A",
+          "HD-04": "B",
+          "HD-05": "C"
+        },
+        {
+          "HD-01": "1",
+          "HD-02": "“one of the most useful objects” means what?",
+          "HD-03": "It is among the objects that are very useful.",
+          "HD-04": "It is one of the least useful objects.",
+          "HD-05": "It is the only useful object."
+        },
+        {
+          "HD-01": "2",
+          "HD-02": "“modern life” means what?",
+          "HD-03": "Life in a fictional world.",
+          "HD-04": "Life in the present time.",
+          "HD-05": "Life hundreds of years ago."
+        },
+        {
+          "HD-01": "3",
+          "HD-02": "“small electronic device” means what?",
+          "HD-03": "A small machine that uses electronic technology.",
+          "HD-04": "A natural object.",
+          "HD-05": "A large mechanical machine."
+        },
+        {
+          "HD-01": "4",
+          "HD-02": "“easy to carry” means what?",
+          "HD-03": "Impossible to move.",
+          "HD-04": "Easy to take from one place to another.",
+          "HD-05": "Difficult to move."
+        },
+        {
+          "HD-01": "5",
+          "HD-02": "“designed for making calls” means what?",
+          "HD-03": "Made for repairing phones.",
+          "HD-04": "Made for watching television.",
+          "HD-05": "Made for the purpose of making phone calls."
+        },
+        {
+          "HD-01": "6",
+          "HD-02": "“allows me to read messages” means what?",
+          "HD-03": "Gives me the ability to read messages.",
+          "HD-04": "Deletes all messages.",
+          "HD-05": "Prevents me from reading messages."
+        },
+        {
+          "HD-01": "7",
+          "HD-02": "“take photos” means what?",
+          "HD-03": "Draw pictures by hand.",
+          "HD-04": "Delete pictures.",
+          "HD-05": "Capture pictures with a camera."
+        },
+        {
+          "HD-01": "8",
+          "HD-02": "“record videos” means what?",
+          "HD-03": "Delete video files.",
+          "HD-04": "Capture and save moving images.",
+          "HD-05": "Watch old videos."
+        },
+        {
+          "HD-01": "9",
+          "HD-02": "“in one place” means what?",
+          "HD-03": "In a place that does not exist.",
+          "HD-04": "In many different countries.",
+          "HD-05": "In a single place or through one device."
+        },
+        {
+          "HD-01": "10",
+          "HD-02": "“stay connected with people” means what?",
+          "HD-03": "Continue communicating with other people.",
+          "HD-04": "Stop talking to everyone.",
+          "HD-05": "Meet everyone in person."
+        },
+        {
+          "HD-01": "11",
+          "HD-02": "“far away” means what?",
+          "HD-03": "Very close.",
+          "HD-04": "At a long distance.",
+          "HD-05": "Inside the same room."
+        },
+        {
+          "HD-01": "12",
+          "HD-02": "“keep important memories” means what?",
+          "HD-03": "Preserve memories of important experiences.",
+          "HD-04": "Create memories without experiencing anything.",
+          "HD-05": "Forget important experiences."
+        },
+        {
+          "HD-01": "13",
+          "HD-02": "“the combination of communication and technology” means what?",
+          "HD-03": "Communication without technology.",
+          "HD-04": "Communication and technology working together.",
+          "HD-05": "Technology without communication."
+        },
+        {
+          "HD-01": "14",
+          "HD-02": "“not simply an electronic device” means what?",
+          "HD-03": "It is not electronic at all.",
+          "HD-04": "It is only an electronic device.",
+          "HD-05": "It has a purpose beyond being an electronic device."
+        },
+        {
+          "HD-01": "15",
+          "HD-02": "“organize my work” means what?",
+          "HD-03": "Avoid all work activities.",
+          "HD-04": "Arrange and manage work activities.",
+          "HD-05": "Stop working completely."
+        },
+        {
+          "HD-01": "16",
+          "HD-02": "“learn new things” means what?",
+          "HD-03": "Stop learning completely.",
+          "HD-04": "Forget information.",
+          "HD-05": "Gain knowledge about new subjects."
+        },
+        {
+          "HD-01": "17",
+          "HD-02": "“bring many benefits” means what?",
+          "HD-03": "Create many positive effects.",
+          "HD-04": "Cause only problems.",
+          "HD-05": "Have no effect."
+        },
+        {
+          "HD-01": "18",
+          "HD-02": "“use it carefully and responsibly” means what?",
+          "HD-03": "Never use it at all.",
+          "HD-04": "Use it without thinking.",
+          "HD-05": "Use it in a careful and sensible way."
+        },
+        {
+          "HD-01": "19",
+          "HD-02": "“an important part of everyday life” means what?",
+          "HD-03": "Something people use only once.",
+          "HD-04": "Something that plays an important role in daily activities.",
+          "HD-05": "Something that has no practical value."
+        },
+        {
+          "HD-01": "20",
+          "HD-02": "“more than a machine” means what?",
+          "HD-03": "It has a greater role or meaning than simply being a machine.",
+          "HD-04": "It is not a machine.",
+          "HD-05": "It is only a machine with no other purpose."
+        }
+      ]
+    },
+    "charactor": [
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It has a keyboard, a printer and a television.",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It has a keyboard, a printer and a television.",
+            "id": "PL01_phonea63"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Experience teaches us that practice is important.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "A phone teaches us that technology can become an important part of everyday life."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["Experience teaches us that practice is important."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Experience teaches us that practice is important.",
+            "id": "PL01_phonea198"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "What does the writer find most useful about the phone?",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "The combination of communication and technology is most useful."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "The combination of food and transportation is most useful."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What does the writer find most useful about the phone?",
+            "id": "PL01_phonea21"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? Because it is necessary for carrying luggage.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? Because it is necessary for carrying luggage.",
+            "id": "PL01_phonea75"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Exercise is important because it keeps people healthy.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The camera is important because it helps me take photos."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["Exercise is important because it keeps people healthy."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Exercise is important because it keeps people healthy.",
+            "id": "PL01_phonea165"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "What does a phone teach us?",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "It teaches us that technology can become an important part of everyday life."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["It teaches us that technology is never useful."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What does a phone teach us?", "id": "PL01_phonea24" }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Why does the writer carry the phone when traveling?",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "Because it can help find places, take photos and contact other people."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["Because it is necessary for carrying luggage."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Why does the writer carry the phone when traveling?",
+            "id": "PL01_phonea15"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? Its ability to help the writer do many things in one place makes it useful.",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? Its ability to help the writer do many things in one place makes it useful.",
+            "id": "PL01_phonea39"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...A book can be more than a source of information; it can become a good friend.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "A phone can be more than a machine; it can become a useful tool."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "A book can be more than a source of information; it can become a good friend."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...A book can be more than a source of information; it can become a good friend.",
+            "id": "PL01_phonea201"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...It is a small electronic device that people use for communication.",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "A laptop is a useful device that students use for studying."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "It is a small electronic device that people use for communication."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...It is a small electronic device that people use for communication.",
+            "id": "PL01_phonea90"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It is black, light and easy to carry.",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It is black, light and easy to carry.",
+            "id": "PL01_phonea30"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "Why is the phone important?",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "It helps the writer stay connected with family and friends."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "It helps the writer avoid communication with other people."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "Why is the phone important?", "id": "PL01_phonea18" }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It teaches us that technology is never useful.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It teaches us that technology is never useful.",
+            "id": "PL01_phonea84"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "What does the phone have?",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "It has a large screen, a camera, several buttons and a battery."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["It has a keyboard, a printer and a television."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What does the phone have?", "id": "PL01_phonea3" }]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The bag is small and easy to carry.",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["It is black, light and easy to carry."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["The bag is small and easy to carry."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The bag is small and easy to carry.",
+            "id": "PL01_phonea156"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...This book helps me learn new words.",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["It helps me stay connected with people."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["This book helps me learn new words."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...This book helps me learn new words.",
+            "id": "PL01_phonea183"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "What can the writer use the phone for?",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "The writer can use it to communicate with family, check work and learn English."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["The writer can use it to build houses and repair cars."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What can the writer use the phone for?",
+            "id": "PL01_phonea12"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? Because it can help find places, take photos and contact other people.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? Because it can help find places, take photos and contact other people.",
+            "id": "PL01_phonea45"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The camera is important because it helps me take photos.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Exercise is important because it keeps people healthy."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["The camera is important because it helps me take photos."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The camera is important because it helps me take photos.",
+            "id": "PL01_phonea108"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "What makes the phone useful?",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "Its ability to help the writer do many things in one place makes it useful."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "Its ability to replace all other machines makes it useful."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What makes the phone useful?", "id": "PL01_phonea9" }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It has a large screen, a camera, several buttons and a battery.",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It has a large screen, a camera, several buttons and a battery.",
+            "id": "PL01_phonea33"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? The writer can use it to build houses and repair cars.",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? The writer can use it to build houses and repair cars.",
+            "id": "PL01_phonea72"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...These products can be found in many stores.",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["Phones can be found in almost every part of the world."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["These products can be found in many stores."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...These products can be found in many stores.",
+            "id": "PL01_phonea150"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "What does the writer's phone look like?",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["It is black, light and easy to carry."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["It is white, heavy and difficult to carry."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "What does the writer's phone look like?",
+            "id": "PL01_phonea0"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "What is the phone designed for?",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "It is designed for making calls, sending messages, taking photos and using applications."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["It is designed for washing clothes and cooking food."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          { "st": "What is the phone designed for?", "id": "PL01_phonea6" }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It is designed for washing clothes and cooking food.",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It is designed for washing clothes and cooking food.",
+            "id": "PL01_phonea66"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...I often carry my phone with me.",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I always carry my notebook with me."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["I often carry my phone with me."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...I often carry my phone with me.",
+            "id": "PL01_phonea120"
+          }
+        ]
+      },
+      {
+        "type": "A1",
+        "fsp": "What is a phone?",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "It is a small electronic device that people use for communication, information and entertainment."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["It is a large machine that people use for cooking food."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [{ "st": "What is a phone?", "id": "PL01_phonea27" }]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It is white, heavy and difficult to carry.",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It is white, heavy and difficult to carry.",
+            "id": "PL01_phonea60"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...A phone teaches us that technology can become an important part of everyday life.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["Experience teaches us that practice is important."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "A phone teaches us that technology can become an important part of everyday life."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...A phone teaches us that technology can become an important part of everyday life.",
+            "id": "PL01_phonea141"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...What I find most interesting about this book is its simple language.",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "What I find most useful about my phone is the combination of communication and technology."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "What I find most interesting about this book is its simple language."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...What I find most interesting about this book is its simple language.",
+            "id": "PL01_phonea189"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? Its ability to replace all other machines makes it useful.",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? Its ability to replace all other machines makes it useful.",
+            "id": "PL01_phonea69"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The phone has a large screen.",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The house has a beautiful garden."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["The phone has a large screen."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The phone has a large screen.",
+            "id": "PL01_phonea96"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? The writer can use it to communicate with family, check work and learn English.",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? The writer can use it to communicate with family, check work and learn English.",
+            "id": "PL01_phonea42"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...I can use it to communicate with my family.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I can use my phone to learn English."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["I can use it to communicate with my family."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...I can use it to communicate with my family.",
+            "id": "PL01_phonea117"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It helps the writer avoid communication with other people.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It helps the writer avoid communication with other people.",
+            "id": "PL01_phonea78"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The phone is designed for making calls and sending messages.",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["This room is designed for studying English."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "The phone is designed for making calls and sending messages."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The phone is designed for making calls and sending messages.",
+            "id": "PL01_phonea102"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It is designed for making calls, sending messages, taking photos and using applications.",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It is designed for making calls, sending messages, taking photos and using applications.",
+            "id": "PL01_phonea36"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The battery allows me to use the phone for many hours.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "This battery allows me to use the laptop for several hours."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["The battery allows me to use the phone for many hours."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The battery allows me to use the phone for many hours.",
+            "id": "PL01_phonea111"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? The combination of food and transportation is most useful.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? The combination of food and transportation is most useful.",
+            "id": "PL01_phonea81"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? The combination of communication and technology is most useful.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? The combination of communication and technology is most useful.",
+            "id": "PL01_phonea51"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The screen allows me to read messages.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["This application allows students to practice English."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["The screen allows me to read messages."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The screen allows me to read messages.",
+            "id": "PL01_phonea105"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It teaches us that technology can become an important part of everyday life.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It teaches us that technology can become an important part of everyday life.",
+            "id": "PL01_phonea54"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...My phone is important not only because it is convenient, but also because it helps me stay connected with people.",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "Education is important not only because it provides knowledge, but also because it develops skills."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "My phone is important not only because it is convenient, but also because it helps me stay connected with people."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...My phone is important not only because it is convenient, but also because it helps me stay connected with people.",
+            "id": "PL01_phonea123"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...It is black, light and easy to carry.",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The bag is small and easy to carry."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["It is black, light and easy to carry."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...It is black, light and easy to carry.",
+            "id": "PL01_phonea99"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It is a small electronic device that people use for communication, information and entertainment.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It is a small electronic device that people use for communication, information and entertainment.",
+            "id": "PL01_phonea57"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It is a large machine that people use for cooking food.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It is a large machine that people use for cooking food.",
+            "id": "PL01_phonea87"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...I can talk to my family even when they are far away.",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I can study English even when I am busy."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["I can talk to my family even when they are far away."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...I can talk to my family even when they are far away.",
+            "id": "PL01_phonea129"
+          }
+        ]
+      },
+      {
+        "type": "A2",
+        "fsp": "Is this sentence correct or incorrect? It helps the writer stay connected with family and friends.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["correct", "This is correct"],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["incorrect", "This is incorrect"],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Is this sentence correct or incorrect? It helps the writer stay connected with family and friends.",
+            "id": "PL01_phonea48"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...This application allows students to practice English.",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The screen allows me to read messages."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["This application allows students to practice English."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...This application allows students to practice English.",
+            "id": "PL01_phonea162"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...I can study English even when I am busy.",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I can talk to my family even when they are far away."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["I can study English even when I am busy."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...I can study English even when I am busy.",
+            "id": "PL01_phonea186"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...What I find most useful about my phone is the combination of communication and technology.",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "What I find most interesting about this book is its simple language."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "What I find most useful about my phone is the combination of communication and technology."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...What I find most useful about my phone is the combination of communication and technology.",
+            "id": "PL01_phonea132"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The house has a beautiful garden.",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["The phone has a large screen."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["The house has a beautiful garden."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The house has a beautiful garden.",
+            "id": "PL01_phonea153"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Phones can be found in almost every part of the world.",
+        "img": "https://i.postimg.cc/s2GYz4SL/David-20.jpg",
+        "name": "David",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["These products can be found in many stores."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["Phones can be found in almost every part of the world."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Phones can be found in almost every part of the world.",
+            "id": "PL01_phonea93"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...A laptop is a useful device that students use for studying.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "It is a small electronic device that people use for communication."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "A laptop is a useful device that students use for studying."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...A laptop is a useful device that students use for studying.",
+            "id": "PL01_phonea147"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Travel can bring many opportunities, but people also need to plan carefully.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "Technology can bring many benefits, but people also need to use it carefully."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "Travel can bring many opportunities, but people also need to plan carefully."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Travel can bring many opportunities, but people also need to plan carefully.",
+            "id": "PL01_phonea195"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...This room is designed for studying English.",
+        "img": "https://i.postimg.cc/HkRM68K9/Michael-30.jpg",
+        "name": "Michael",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "The phone is designed for making calls and sending messages."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["This room is designed for studying English."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...This room is designed for studying English.",
+            "id": "PL01_phonea159"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Technology can bring many benefits, but people also need to use it carefully.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "Travel can bring many opportunities, but people also need to plan carefully."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "Technology can bring many benefits, but people also need to use it carefully."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Technology can bring many benefits, but people also need to use it carefully.",
+            "id": "PL01_phonea138"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...I always carry my notebook with me.",
+        "img": "https://i.postimg.cc/wj7J5QWB/Joshua-70.jpg",
+        "name": "Joshua",
+        "gender": "male",
+        "data": [
+          {
+            "qs": ["I often carry my phone with me."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["I always carry my notebook with me."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...I always carry my notebook with me.",
+            "id": "PL01_phonea177"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...What makes this computer useful is its speed.",
+        "img": "https://i.postimg.cc/vBW5g80L/Christopher-60.jpg",
+        "name": "Christopher",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "What makes my phone useful is its ability to help me do many things in one place."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": ["What makes this computer useful is its speed."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...What makes this computer useful is its speed.",
+            "id": "PL01_phonea171"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...What makes my phone useful is its ability to help me do many things in one place.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["What makes this computer useful is its speed."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "What makes my phone useful is its ability to help me do many things in one place."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...What makes my phone useful is its ability to help me do many things in one place.",
+            "id": "PL01_phonea114"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...Education is important not only because it provides knowledge, but also because it develops skills.",
+        "img": "https://i.postimg.cc/vTh9hqF4/Emily-21.jpg",
+        "name": "Emily",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "My phone is important not only because it is convenient, but also because it helps me stay connected with people."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "Education is important not only because it provides knowledge, but also because it develops skills."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...Education is important not only because it provides knowledge, but also because it develops skills.",
+            "id": "PL01_phonea180"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...A phone can be more than a machine; it can become a useful tool.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "A book can be more than a source of information; it can become a good friend."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "A phone can be more than a machine; it can become a useful tool."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...A phone can be more than a machine; it can become a useful tool.",
+            "id": "PL01_phonea144"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...It helps me stay connected with people.",
+        "img": "https://i.postimg.cc/GhMGs5xN/Jessica-23.jpg",
+        "name": "Jessica",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["This book helps me learn new words."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["It helps me stay connected with people."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...It helps me stay connected with people.",
+            "id": "PL01_phonea126"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...A school is not simply a building; it also provides education.",
+        "img": "https://i.postimg.cc/wBNmZTY8/Sarah-27.jpg",
+        "name": "Sarah",
+        "gender": "female",
+        "data": [
+          {
+            "qs": [
+              "The phone is not simply an electronic device; it also helps me organize my work."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "A school is not simply a building; it also provides education."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...A school is not simply a building; it also provides education.",
+            "id": "PL01_phonea192"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...This battery allows me to use the laptop for several hours.",
+        "img": "https://i.postimg.cc/zv8KnmMm/Ashley-34.jpg",
+        "name": "Ashley",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["The battery allows me to use the phone for many hours."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": [
+              "This battery allows me to use the laptop for several hours."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...This battery allows me to use the laptop for several hours.",
+            "id": "PL01_phonea168"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...I can use my phone to learn English.",
+        "img": "https://i.postimg.cc/3RHvT53y/Jennifer-39.jpg",
+        "name": "Jennifer",
+        "gender": "female",
+        "data": [
+          {
+            "qs": ["I can use it to communicate with my family."],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea1b1" },
+              { "st": "Good", "id": "PL01_phonea1b2" },
+              { "st": "Very good", "id": "PL01_phonea1b3" }
+            ]
+          },
+          {
+            "qs": ["I can use my phone to learn English."],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea2" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...I can use my phone to learn English.",
+            "id": "PL01_phonea174"
+          }
+        ]
+      },
+      {
+        "type": "B1",
+        "fsp": "Which sentence shares the same structure as the sentence...The phone is not simply an electronic device; it also helps me organize my work.",
+        "img": "https://i.postimg.cc/KzXn83D8/Andrew-40.jpg",
+        "name": "Andrew",
+        "gender": "male",
+        "data": [
+          {
+            "qs": [
+              "A school is not simply a building; it also provides education."
+            ],
+            "aw": ["Great", "Good", "Very good"],
+            "submit": ["FN01"],
+            "action": ["FN01"],
+            "aw01": [
+              { "st": "Great", "id": "PL01_phonea4b1" },
+              { "st": "Good", "id": "PL01_phonea4b2" },
+              { "st": "Very good", "id": "PL01_phonea4b3" }
+            ]
+          },
+          {
+            "qs": [
+              "The phone is not simply an electronic device; it also helps me organize my work."
+            ],
+            "aw": ["That is a wrong answer!"],
+            "action": ["Wrong"],
+            "aw01": [{ "st": "That is a wrong answer!", "id": "PL01_phonea5" }]
+          }
+        ],
+        "submit": ["FN01"],
+        "fspSets": [
+          {
+            "st": "Which sentence shares the same structure as the sentence...The phone is not simply an electronic device; it also helps me organize my work.",
+            "id": "PL01_phonea135"
+          }
+        ]
+      }
+    ],
+    "charactor_UP_01": [],
+    "charactor_UP_02": []
+  }
+]

@@ -114,6 +114,13 @@ const pracEnSets = [
   },
   {
     root: "learninghub",
+    preName: "Object",
+    name: "Phone",
+    link: "object_phone",
+    id: "socap1",
+  },
+  {
+    root: "learninghub",
     preName: "(D) Vỡ lòng",
     name: "40 câu hỏi và trả lời",
     link: "yyy_0a1",
@@ -334,6 +341,14 @@ const ROOM_ROUTE_PREFIXES = [
   "/roomn/",
   "/roomoffline/",
   "/roomofflineV2/",
+  // Mới thêm — V3-V6 bị sót khỏi danh sách này (chỉ dừng ở V2), khiến header
+  // cố định (position: fixed, đè lên đầu trang) không tự ẩn ở các trang
+  // luyện tập mới hơn, che mất phần trên cùng của giao diện đố. Thêm đủ 4
+  // route còn thiếu, không đổi cách hoạt động của isRoomRoute/Header.
+  "/roomofflineV3/",
+  "/roomofflineV4/",
+  "/roomofflineV5/",
+  "/roomofflineV6/",
 ];
 function isRoomRoute(pathname) {
   return ROOM_ROUTE_PREFIXES.some((prefix) => pathname.startsWith(prefix));

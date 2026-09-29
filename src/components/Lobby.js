@@ -138,6 +138,33 @@ const Lobby = ({
     }
   };
 
+  // Mới thêm — bài thực hành thứ 6 (RoomofflineV6 — chơi CHUNG nhiều người
+  // qua socket, route riêng, file riêng), không đổi các hàm điều hướng cũ ở
+  // trên. Khác V2-V5: KHÔNG truyền sẵn tên phòng chơi chung ở đây — việc đó
+  // do chính RoomofflineV6 hỏi/tạo ngay khi vào (xem ghi chú đầu file
+  // RoomofflineV6.js).
+  const handleCreateRoomOfflineV6 = () => {
+    if (id) {
+      navigate(`/roomofflineV6/${id}/${currentIndex}`);
+    } else {
+      navigate(`/roomofflineV6/elementary-a1-lesson-plan/0`);
+    }
+  };
+
+  // Mới thêm — chế độ chơi chung thứ 2 "Vườn đảo" (RoomofflineGardenV1: mỗi
+  // người luyện ĐỘC LẬP, không cùng đánh chung 1 Boss như V6, route riêng,
+  // file riêng), không đổi các hàm điều hướng cũ ở trên. Giống V6: KHÔNG
+  // truyền sẵn tên phòng chơi chung ở đây — việc đó do chính
+  // RoomofflineGardenV1 hỏi/tạo ngay khi vào (xem ghi chú đầu file
+  // RoomofflineGardenV1.js).
+  const handleCreateRoomOfflineGardenV1 = () => {
+    if (id) {
+      navigate(`/roomofflinegarden/${id}/${currentIndex}`);
+    } else {
+      navigate(`/roomofflinegarden/elementary-a1-lesson-plan/0`);
+    }
+  };
+
   const handleJoinRoom = (roomCode) => {
     if (roomCode.trim()) {
       navigate(`/room/${roomCode}`);
@@ -239,6 +266,26 @@ const Lobby = ({
               onClick={handleCreateRoomOfflineV5}
             >
               <b>Vào thực hành Ver 5.0 (Đọc nghĩa & chọn từ)</b>
+            </button>
+          </div>
+          <div className="col-4">
+            {" "}
+            <button
+              style={{ width: "150px", height: "150px" }}
+              className="btn btn-outline-dark mb-4"
+              onClick={handleCreateRoomOfflineV6}
+            >
+              <b>🎮 Chơi cùng nhau Ver 6.0 (thử nghiệm)</b>
+            </button>
+          </div>
+          <div className="col-4">
+            {" "}
+            <button
+              style={{ width: "150px", height: "150px" }}
+              className="btn btn-outline-info mb-4"
+              onClick={handleCreateRoomOfflineGardenV1}
+            >
+              <b>🏝️ Vườn đảo (chơi độc lập, thử nghiệm)</b>
             </button>
           </div>
           {/* <div className="col-6">

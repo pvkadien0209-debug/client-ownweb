@@ -1,0 +1,438 @@
+[
+  {
+    "audioCode": "PL01_phonea0",
+    "text": "What does the writer's phone look like?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea2",
+    "text": "That is a wrong answer!",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea3",
+    "text": "What does the phone have?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea5",
+    "text": "That is a wrong answer!",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea6",
+    "text": "What is the phone designed for?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea9",
+    "text": "What makes the phone useful?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea12",
+    "text": "What can the writer use the phone for?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea15",
+    "text": "Why does the writer carry the phone when traveling?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea18",
+    "text": "Why is the phone important?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea21",
+    "text": "What does the writer find most useful about the phone?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea24",
+    "text": "What does a phone teach us?",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea27",
+    "text": "What is a phone?",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea30",
+    "text": "Is this sentence correct or incorrect? It is black, light and easy to carry.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea33",
+    "text": "Is this sentence correct or incorrect? It has a large screen, a camera, several buttons and a battery.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea36",
+    "text": "Is this sentence correct or incorrect? It is designed for making calls, sending messages, taking photos and using applications.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea39",
+    "text": "Is this sentence correct or incorrect? Its ability to help the writer do many things in one place makes it useful.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea42",
+    "text": "Is this sentence correct or incorrect? The writer can use it to communicate with family, check work and learn English.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea45",
+    "text": "Is this sentence correct or incorrect? Because it can help find places, take photos and contact other people.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea48",
+    "text": "Is this sentence correct or incorrect? It helps the writer stay connected with family and friends.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea51",
+    "text": "Is this sentence correct or incorrect? The combination of communication and technology is most useful.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea54",
+    "text": "Is this sentence correct or incorrect? It teaches us that technology can become an important part of everyday life.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea57",
+    "text": "Is this sentence correct or incorrect? It is a small electronic device that people use for communication, information and entertainment.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea60",
+    "text": "Is this sentence correct or incorrect? It is white, heavy and difficult to carry.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea63",
+    "text": "Is this sentence correct or incorrect? It has a keyboard, a printer and a television.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea66",
+    "text": "Is this sentence correct or incorrect? It is designed for washing clothes and cooking food.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea69",
+    "text": "Is this sentence correct or incorrect? Its ability to replace all other machines makes it useful.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea72",
+    "text": "Is this sentence correct or incorrect? The writer can use it to build houses and repair cars.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea75",
+    "text": "Is this sentence correct or incorrect? Because it is necessary for carrying luggage.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea78",
+    "text": "Is this sentence correct or incorrect? It helps the writer avoid communication with other people.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea81",
+    "text": "Is this sentence correct or incorrect? The combination of food and transportation is most useful.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea84",
+    "text": "Is this sentence correct or incorrect? It teaches us that technology is never useful.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea87",
+    "text": "Is this sentence correct or incorrect? It is a large machine that people use for cooking food.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea90",
+    "text": "Which sentence shares the same structure as the sentence...It is a small electronic device that people use for communication.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea93",
+    "text": "Which sentence shares the same structure as the sentence...Phones can be found in almost every part of the world.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea96",
+    "text": "Which sentence shares the same structure as the sentence...The phone has a large screen.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea99",
+    "text": "Which sentence shares the same structure as the sentence...It is black, light and easy to carry.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea102",
+    "text": "Which sentence shares the same structure as the sentence...The phone is designed for making calls and sending messages.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea105",
+    "text": "Which sentence shares the same structure as the sentence...The screen allows me to read messages.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea108",
+    "text": "Which sentence shares the same structure as the sentence...The camera is important because it helps me take photos.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea111",
+    "text": "Which sentence shares the same structure as the sentence...The battery allows me to use the phone for many hours.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea114",
+    "text": "Which sentence shares the same structure as the sentence...What makes my phone useful is its ability to help me do many things in one place.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea117",
+    "text": "Which sentence shares the same structure as the sentence...I can use it to communicate with my family.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea120",
+    "text": "Which sentence shares the same structure as the sentence...I often carry my phone with me.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea123",
+    "text": "Which sentence shares the same structure as the sentence...My phone is important not only because it is convenient, but also because it helps me stay connected with people.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea126",
+    "text": "Which sentence shares the same structure as the sentence...It helps me stay connected with people.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea129",
+    "text": "Which sentence shares the same structure as the sentence...I can talk to my family even when they are far away.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea132",
+    "text": "Which sentence shares the same structure as the sentence...What I find most useful about my phone is the combination of communication and technology.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea135",
+    "text": "Which sentence shares the same structure as the sentence...The phone is not simply an electronic device; it also helps me organize my work.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea138",
+    "text": "Which sentence shares the same structure as the sentence...Technology can bring many benefits, but people also need to use it carefully.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea141",
+    "text": "Which sentence shares the same structure as the sentence...A phone teaches us that technology can become an important part of everyday life.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea144",
+    "text": "Which sentence shares the same structure as the sentence...A phone can be more than a machine; it can become a useful tool.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea147",
+    "text": "Which sentence shares the same structure as the sentence...A laptop is a useful device that students use for studying.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea150",
+    "text": "Which sentence shares the same structure as the sentence...These products can be found in many stores.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea153",
+    "text": "Which sentence shares the same structure as the sentence...The house has a beautiful garden.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea156",
+    "text": "Which sentence shares the same structure as the sentence...The bag is small and easy to carry.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea159",
+    "text": "Which sentence shares the same structure as the sentence...This room is designed for studying English.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea162",
+    "text": "Which sentence shares the same structure as the sentence...This application allows students to practice English.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea165",
+    "text": "Which sentence shares the same structure as the sentence...Exercise is important because it keeps people healthy.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea168",
+    "text": "Which sentence shares the same structure as the sentence...This battery allows me to use the laptop for several hours.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea171",
+    "text": "Which sentence shares the same structure as the sentence...What makes this computer useful is its speed.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea174",
+    "text": "Which sentence shares the same structure as the sentence...I can use my phone to learn English.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea177",
+    "text": "Which sentence shares the same structure as the sentence...I always carry my notebook with me.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea180",
+    "text": "Which sentence shares the same structure as the sentence...Education is important not only because it provides knowledge, but also because it develops skills.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea183",
+    "text": "Which sentence shares the same structure as the sentence...This book helps me learn new words.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea186",
+    "text": "Which sentence shares the same structure as the sentence...I can study English even when I am busy.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea189",
+    "text": "Which sentence shares the same structure as the sentence...What I find most interesting about this book is its simple language.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea192",
+    "text": "Which sentence shares the same structure as the sentence...A school is not simply a building; it also provides education.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea195",
+    "text": "Which sentence shares the same structure as the sentence...Travel can bring many opportunities, but people also need to plan carefully.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea198",
+    "text": "Which sentence shares the same structure as the sentence...Experience teaches us that practice is important.",
+    "lang": 101,
+    "rate": 0.75
+  },
+  {
+    "audioCode": "PL01_phonea201",
+    "text": "Which sentence shares the same structure as the sentence...A book can be more than a source of information; it can become a good friend.",
+    "lang": 102,
+    "rate": 0.75
+  },
+  { "audioCode": "PL01_phonea4b1", "text": "Great", "lang": 102, "rate": 0.75 },
+  { "audioCode": "PL01_phonea4b2", "text": "Good", "lang": 102, "rate": 0.75 },
+  {
+    "audioCode": "PL01_phonea4b3",
+    "text": "Very good",
+    "lang": 102,
+    "rate": 0.75
+  },
+  { "audioCode": "PL01_phonea1b1", "text": "Great", "lang": 101, "rate": 0.75 },
+  { "audioCode": "PL01_phonea1b2", "text": "Good", "lang": 101, "rate": 0.75 },
+  {
+    "audioCode": "PL01_phonea1b3",
+    "text": "Very good",
+    "lang": 101,
+    "rate": 0.75
+  }
+]

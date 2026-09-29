@@ -11,6 +11,10 @@ import RoomOfflineV2 from "./components/RoomofflineV2/RoomofflineV2";
 import RoomOfflineV3 from "./components/RoomofflineV3/RoomofflineV3";
 import RoomOfflineV4 from "./components/RoomofflineV4/RoomofflineV4";
 import RoomOfflineV5 from "./components/RoomofflineV5/RoomofflineV5";
+import RoomOfflineV6 from "./components/RoomofflineV6/RoomofflineV6";
+// Mới thêm — chế độ chơi chung thứ 2 "Vườn đảo" (luyện tập ĐỘC LẬP, không
+// đánh Boss chung như V6), đặt trong folder riêng, KHÔNG sửa RoomofflineV6.
+import RoomOfflineGardenV1 from "./components/RoomofflineGardenV1/RoomofflineGardenV1";
 import NotExist from "./components/NotExist";
 import LinkToday from "./components/LinkToday";
 import LearningHub from "./components/LearningHub";
@@ -130,6 +134,22 @@ const App = () => {
               <Route
                 path="/roomofflineV5/:roomCode/:currentIndex"
                 element={<RoomOfflineV5 setSttRoom={setSttRoom} />}
+              />
+              <Route
+                path="/roomofflineV6/:roomCode/:currentIndex"
+                element={<RoomOfflineV6 setSttRoom={setSttRoom} />}
+              />
+              <Route
+                path="/roomofflineV6/:roomCode/:currentIndex/:gameRoom"
+                element={<RoomOfflineV6 setSttRoom={setSttRoom} />}
+              />
+              <Route
+                path="/roomofflinegarden/:roomCode/:currentIndex"
+                element={<RoomOfflineGardenV1 setSttRoom={setSttRoom} />}
+              />
+              <Route
+                path="/roomofflinegarden/:roomCode/:currentIndex/:gameRoom"
+                element={<RoomOfflineGardenV1 setSttRoom={setSttRoom} />}
               />
               <Route path="/" element={<HomeView />} />
               <Route
