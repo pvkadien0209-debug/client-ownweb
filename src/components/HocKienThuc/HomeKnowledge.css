@@ -1,0 +1,52 @@
+/* SP04 — Trang chủ mới. Dùng token trong KnowledgeLesson.css. */
+.hkt-home .hkt-btn--lg { padding: 14px 22px; font-size: 17px; text-decoration: none; }
+.hkt-link-plain { color: var(--hkt-pine); font-weight: 600; text-underline-offset: 3px; }
+.hkt-home-hero {
+  display: grid; grid-template-columns: 1.15fr 1fr; gap: 48px; align-items: center;
+  padding: 24px 0 56px;
+}
+.hkt-home-hero h1 { margin: 0 0 16px; font-size: 44px; line-height: 1.12; letter-spacing: -0.025em; max-width: 16ch; }
+.hkt-home-hero p { margin: 0 0 28px; font-size: 18px; color: var(--hkt-muted); max-width: 52ch; }
+.hkt-home-actions { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; }
+
+/* Minh hoạ: một thẻ câu hỏi với đáp án được tô vàng bằng bút dạ quang */
+.hkt-home-card { margin: 0; padding: 22px 24px; background: var(--hkt-surface); border: 1px solid var(--hkt-line); border-radius: 20px; transform: rotate(-1.2deg); }
+.hkt-home-card-q { display: flex; align-items: center; gap: 8px; margin: 0 0 14px !important; font-size: 14px !important; font-weight: 600; color: var(--hkt-pine) !important; }
+.hkt-home-card ul { list-style: none; margin: 0; padding: 0; }
+.hkt-home-card li { display: grid; grid-template-columns: 36px 1fr; gap: 12px; align-items: center; padding: 10px 0; border-top: 1px solid var(--hkt-line); }
+.hkt-home-card li:first-child { border-top: 0; }
+.hkt-home-card li > span:first-child { display: grid; place-items: center; width: 34px; height: 34px; border: 2px solid var(--hkt-ink); border-radius: 10px; font-weight: 700; }
+.hkt-home-card li > span[lang] { font-family: "Literata", Georgia, serif; font-size: 16px; }
+.hkt-home-card .is-match { background: linear-gradient(100deg, transparent 1%, var(--hkt-marker) 3%, var(--hkt-marker) 97%, transparent 99%); padding: 2px 6px; margin-left: -6px; border-radius: 4px; }
+.hkt-home-card figcaption { margin-top: 12px; font-size: 14px; color: var(--hkt-muted); }
+
+.hkt-home-sec { margin-top: 44px; padding: 44px 0 0; }
+/* SP07 — gạch ngang cấp 1: mỗi phần lớn bắt đầu bằng gạch mảnh; dải nền thay gạch */
+.hkt-home-sec { border-top: 1px solid var(--hkt-line); }
+.hkt-home-band { border-top: 0; padding: 44px 0; background: var(--hkt-surface); box-shadow: 0 0 0 100vmax var(--hkt-surface); clip-path: inset(0 -100vmax); }
+.hkt-home-band + .hkt-home-sec { border-top: 0; margin-top: 0; }
+.hkt-eyebrow { display: block; margin-bottom: 6px; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--hkt-pine); }
+.hkt-home-sec h2 { margin: 0 0 18px; font-size: 24px; letter-spacing: -0.01em; }
+.hkt-home-sec-head { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+.hkt-steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.hkt-steps li { display: flex; gap: 14px; align-items: flex-start; }
+.hkt-steps h3 { margin: 2px 0 6px; font-size: 18px; }
+.hkt-steps p { margin: 0; color: var(--hkt-muted); }
+.hkt-home-articles { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+.hkt-home-articles a { display: flex; flex-direction: column; gap: 6px; height: 100%; padding: 18px; border: 1px solid var(--hkt-line); border-radius: 14px; background: var(--hkt-surface); color: var(--hkt-ink); text-decoration: none; }
+.hkt-home-articles a:hover { background: var(--hkt-pine-soft); color: var(--hkt-ink); }
+.hkt-home-art-title { font-size: 18px; font-weight: 600; line-height: 1.35; }
+.hkt-home-articles .hkt-topic-meta { margin: 0; }
+.hkt-why { margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.hkt-why dt { font-weight: 700; margin-bottom: 6px; }
+.hkt-why dd { margin: 0; color: var(--hkt-muted); }
+.hkt-home-legacy { margin-top: 56px; padding: 20px 24px; display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; border: 1.5px dashed var(--hkt-line); border-radius: 14px; }
+.hkt-home-legacy p { margin: 0; }
+.hkt-home-legacy .hkt-btn { text-decoration: none; }
+
+@media (max-width: 860px) {
+  .hkt-home-hero { grid-template-columns: 1fr; gap: 28px; padding-bottom: 36px; }
+  .hkt-home-hero h1 { font-size: 32px; }
+  .hkt-home-card { transform: none; }
+  .hkt-steps, .hkt-why { grid-template-columns: 1fr; gap: 18px; }
+}

@@ -1,0 +1,2297 @@
+{
+  "id": "lesson-1",
+  "branch": "career",
+  "topic": "job-interview-preparation",
+  "title": {
+    "vi": "Tìm hiểu công ty và vị trí ứng tuyển",
+    "en": "Research the company and the role"
+  },
+  "level": "B1",
+  "status": "draft",
+  "updatedAt": "2026-10-14",
+  "reviewNote": "Bản nháp do Claude soạn và tự kiểm (2026-10-14): 50 câu (D1) + tổng quan, cây, tóm tắt, từ khoá (D2). Chờ DIENPHAM duyệt.",
+  "overview": [
+    {
+      "heading": {
+        "en": "Why research matters",
+        "vi": "Vì sao cần tìm hiểu trước"
+      },
+      "paragraphs": [
+        {
+          "en": "Researching the company and the role is the most useful preparation you can do before an interview. It helps you give specific answers instead of general ones, and it shows the interviewer that you are genuinely interested.",
+          "vi": "Tìm hiểu công ty và vị trí ứng tuyển là việc chuẩn bị hữu ích nhất trước buổi phỏng vấn. Nó giúp bạn trả lời cụ thể thay vì chung chung, và cho người phỏng vấn thấy bạn thật sự quan tâm."
+        },
+        {
+          "en": "Research also has a second goal: it helps you decide whether this company and this job are right for you. An interview is a two-way conversation.",
+          "vi": "Việc tìm hiểu còn có mục tiêu thứ hai: giúp bạn quyết định công ty và công việc này có hợp với mình không. Phỏng vấn là cuộc trò chuyện hai chiều."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Know the company",
+        "vi": "Hiểu về công ty"
+      },
+      "paragraphs": [
+        {
+          "en": "Start with the company's identity: its mission (why it exists), its vision (the future it wants), and its core values (how people are expected to behave). You can usually find these on the About page of the official website.",
+          "vi": "Bắt đầu từ bản sắc của công ty: sứ mệnh (vì sao công ty tồn tại), tầm nhìn (tương lai công ty muốn hướng tới) và giá trị cốt lõi (cách mọi người được mong đợi hành xử). Bạn thường tìm thấy những điều này ở trang Giới thiệu (About) trên website chính thức."
+        },
+        {
+          "en": "Then look at its history, its leaders, its size and its culture. These explain how the company makes decisions and what working there might feel like.",
+          "vi": "Sau đó tìm hiểu lịch sử, đội ngũ lãnh đạo, quy mô và văn hoá. Những điều này giải thích cách công ty ra quyết định và cảm giác làm việc ở đó sẽ ra sao."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Know the business",
+        "vi": "Hiểu về hoạt động kinh doanh"
+      },
+      "paragraphs": [
+        {
+          "en": "Learn the main products or services, who the customers are and what problems the company solves for them. Look at the main competitors and the trends in the industry, so you can explain what makes this company different.",
+          "vi": "Tìm hiểu sản phẩm, dịch vụ chính, khách hàng là ai và công ty giải quyết vấn đề gì cho họ. Xem các đối thủ chính và xu hướng của ngành để giải thích được điểm khác biệt của công ty."
+        },
+        {
+          "en": "Recent news, awards and challenges give you current, specific topics to mention, and good questions to ask.",
+          "vi": "Tin tức, giải thưởng và khó khăn gần đây cho bạn những chủ đề cụ thể, cập nhật để nhắc đến, và những câu hỏi hay để đặt ra."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Know the role and the team",
+        "vi": "Hiểu về vị trí và đội nhóm"
+      },
+      "paragraphs": [
+        {
+          "en": "Read the job description closely. It tells you the tasks, the skills and the experience the employer needs. For each important skill, prepare one real example from your experience, ideally told with the STAR method: situation, task, action and result.",
+          "vi": "Đọc kỹ bản mô tả công việc. Nó cho biết nhiệm vụ, kỹ năng và kinh nghiệm nhà tuyển dụng cần. Với mỗi kỹ năng quan trọng, hãy chuẩn bị một ví dụ thật từ kinh nghiệm của bạn, tốt nhất kể theo phương pháp STAR: tình huống, nhiệm vụ, hành động và kết quả."
+        },
+        {
+          "en": "Find out how the team works, who you would report to, how success is measured and what the typical salary range is for similar roles.",
+          "vi": "Tìm hiểu đội nhóm làm việc ra sao, bạn sẽ báo cáo cho ai, hiệu quả được đánh giá thế nào và mức lương phổ biến cho các vị trí tương tự."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Use reliable sources",
+        "vi": "Dùng nguồn thông tin đáng tin"
+      },
+      "paragraphs": [
+        {
+          "en": "Good sources include the official website, press releases, annual reports, the company's social media, employee review sites and conversations with people who work there. Always check information from unofficial websites against official sources before you use it.",
+          "vi": "Nguồn tốt gồm website chính thức, thông cáo báo chí, báo cáo thường niên, mạng xã hội của công ty, trang đánh giá của nhân viên và trò chuyện với người làm ở đó. Luôn kiểm tra thông tin từ trang không chính thức với nguồn chính thức trước khi dùng."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Turn research into a good interview",
+        "vi": "Biến việc tìm hiểu thành buổi phỏng vấn tốt"
+      },
+      "paragraphs": [
+        {
+          "en": "Keep short notes and review a one page summary on the morning of the interview. Plan your route, the format of the interview and what to wear. Do not memorise facts: understand a few key points and connect them naturally to your own story and to the questions you ask at the end.",
+          "vi": "Ghi chú ngắn và ôn lại bản tóm tắt một trang vào sáng hôm phỏng vấn. Lên kế hoạch đường đi, nắm hình thức phỏng vấn và chọn trang phục. Đừng học thuộc: hãy hiểu vài điểm chính và liên hệ tự nhiên với câu chuyện của bạn và với những câu hỏi bạn đặt ra cuối buổi."
+        }
+      ]
+    }
+  ],
+  "tree": [
+    {
+      "title": {
+        "en": "Why research before an interview",
+        "vi": "Vì sao cần tìm hiểu trước"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Show genuine interest",
+            "vi": "Thể hiện sự quan tâm thật sự"
+          },
+          "note": {
+            "en": "Specific facts make your answers stand out.",
+            "vi": "Thông tin cụ thể giúp câu trả lời của bạn nổi bật."
+          },
+          "questions": [
+            "q03",
+            "q15",
+            "q39"
+          ]
+        },
+        {
+          "title": {
+            "en": "Answer well and briefly",
+            "vi": "Trả lời tốt và ngắn gọn"
+          },
+          "note": {
+            "en": "About one minute, understood rather than memorised.",
+            "vi": "Khoảng một phút, hiểu chứ không học thuộc."
+          },
+          "questions": [
+            "q40",
+            "q45"
+          ]
+        },
+        {
+          "title": {
+            "en": "Decide if the job suits you",
+            "vi": "Quyết định công việc có hợp không"
+          },
+          "questions": [
+            "q50"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Know the company",
+        "vi": "Hiểu về công ty"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Mission, vision and values",
+            "vi": "Sứ mệnh, tầm nhìn, giá trị"
+          },
+          "note": {
+            "en": "Mission: why it exists. Vision: its future goal. Values: expected behaviour.",
+            "vi": "Sứ mệnh: vì sao tồn tại. Tầm nhìn: mục tiêu tương lai. Giá trị: cách hành xử được mong đợi."
+          },
+          "questions": [
+            "q01",
+            "q02",
+            "q06",
+            "q31",
+            "q32",
+            "q44"
+          ]
+        },
+        {
+          "title": {
+            "en": "History and leaders",
+            "vi": "Lịch sử và lãnh đạo"
+          },
+          "questions": [
+            "q19",
+            "q22"
+          ]
+        },
+        {
+          "title": {
+            "en": "Size and culture",
+            "vi": "Quy mô và văn hoá"
+          },
+          "questions": [
+            "q13",
+            "q17",
+            "q46"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Know the business",
+        "vi": "Hiểu về hoạt động kinh doanh"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Products and customers",
+            "vi": "Sản phẩm và khách hàng"
+          },
+          "questions": [
+            "q18",
+            "q33"
+          ]
+        },
+        {
+          "title": {
+            "en": "Competitors and industry trends",
+            "vi": "Đối thủ và xu hướng ngành"
+          },
+          "questions": [
+            "q07",
+            "q35"
+          ]
+        },
+        {
+          "title": {
+            "en": "Results, news and challenges",
+            "vi": "Kết quả, tin tức và khó khăn"
+          },
+          "questions": [
+            "q08",
+            "q41",
+            "q47"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Know the role and the team",
+        "vi": "Hiểu về vị trí và đội nhóm"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Job description and keywords",
+            "vi": "Mô tả công việc và từ khoá"
+          },
+          "questions": [
+            "q04",
+            "q05",
+            "q11",
+            "q42"
+          ]
+        },
+        {
+          "title": {
+            "en": "Skills and STAR examples",
+            "vi": "Kỹ năng và ví dụ theo STAR"
+          },
+          "note": {
+            "en": "One real example for each important skill.",
+            "vi": "Mỗi kỹ năng quan trọng một ví dụ thật."
+          },
+          "questions": [
+            "q23",
+            "q24"
+          ]
+        },
+        {
+          "title": {
+            "en": "Team, salary and other openings",
+            "vi": "Đội nhóm, lương và vị trí khác"
+          },
+          "questions": [
+            "q12",
+            "q25",
+            "q26"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Sources of information",
+        "vi": "Nguồn thông tin"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Official sources",
+            "vi": "Nguồn chính thức"
+          },
+          "note": {
+            "en": "Website, press releases, annual reports, social media.",
+            "vi": "Website, thông cáo báo chí, báo cáo thường niên, mạng xã hội."
+          },
+          "questions": [
+            "q21",
+            "q14"
+          ]
+        },
+        {
+          "title": {
+            "en": "People and reviews",
+            "vi": "Con người và đánh giá"
+          },
+          "questions": [
+            "q09",
+            "q10",
+            "q43"
+          ]
+        },
+        {
+          "title": {
+            "en": "Checking unofficial information",
+            "vi": "Kiểm tra thông tin không chính thức"
+          },
+          "questions": [
+            "q20",
+            "q34"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "On the interview day",
+        "vi": "Vào ngày phỏng vấn"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Notes and review",
+            "vi": "Ghi chú và ôn lại"
+          },
+          "questions": [
+            "q27",
+            "q28",
+            "q49"
+          ]
+        },
+        {
+          "title": {
+            "en": "Location, format and clothes",
+            "vi": "Địa điểm, hình thức, trang phục"
+          },
+          "questions": [
+            "q29",
+            "q30",
+            "q37",
+            "q38"
+          ]
+        },
+        {
+          "title": {
+            "en": "Using your research in the conversation",
+            "vi": "Dùng hiểu biết trong cuộc trò chuyện"
+          },
+          "questions": [
+            "q16",
+            "q36",
+            "q48"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "en": "Research shows real interest and helps you decide if the job suits you.",
+      "vi": "Tìm hiểu trước cho thấy sự quan tâm thật và giúp bạn quyết định công việc có hợp không."
+    },
+    {
+      "en": "Start with the mission, vision and core values on the official website.",
+      "vi": "Bắt đầu từ sứ mệnh, tầm nhìn và giá trị cốt lõi trên website chính thức."
+    },
+    {
+      "en": "Learn the products, customers, competitors and recent news.",
+      "vi": "Nắm sản phẩm, khách hàng, đối thủ và tin tức gần đây."
+    },
+    {
+      "en": "Read the job description and prepare one STAR example for each key skill.",
+      "vi": "Đọc mô tả công việc và chuẩn bị một ví dụ STAR cho mỗi kỹ năng chính."
+    },
+    {
+      "en": "Use reliable sources and check unofficial information.",
+      "vi": "Dùng nguồn đáng tin và kiểm tra thông tin không chính thức."
+    },
+    {
+      "en": "Keep short notes and review a one page summary on the day.",
+      "vi": "Ghi chú ngắn và ôn bản tóm tắt một trang vào hôm phỏng vấn."
+    },
+    {
+      "en": "Understand, do not memorise, and ask a smart question at the end.",
+      "vi": "Hiểu chứ đừng học thuộc, và đặt một câu hỏi hay ở cuối buổi."
+    }
+  ],
+  "glossary": [
+    {
+      "en": "mission",
+      "vi": "sứ mệnh"
+    },
+    {
+      "en": "vision",
+      "vi": "tầm nhìn"
+    },
+    {
+      "en": "core values",
+      "vi": "giá trị cốt lõi"
+    },
+    {
+      "en": "company culture",
+      "vi": "văn hoá công ty"
+    },
+    {
+      "en": "job description",
+      "vi": "bản mô tả công việc"
+    },
+    {
+      "en": "keyword",
+      "vi": "từ khoá"
+    },
+    {
+      "en": "competitor",
+      "vi": "đối thủ cạnh tranh"
+    },
+    {
+      "en": "industry trend",
+      "vi": "xu hướng ngành"
+    },
+    {
+      "en": "annual report",
+      "vi": "báo cáo thường niên"
+    },
+    {
+      "en": "financial statements",
+      "vi": "báo cáo tài chính"
+    },
+    {
+      "en": "press release",
+      "vi": "thông cáo báo chí"
+    },
+    {
+      "en": "recruiter",
+      "vi": "người tuyển dụng"
+    },
+    {
+      "en": "hiring manager",
+      "vi": "quản lý tuyển dụng"
+    },
+    {
+      "en": "panel interview",
+      "vi": "phỏng vấn hội đồng"
+    },
+    {
+      "en": "salary range",
+      "vi": "khoảng lương"
+    },
+    {
+      "en": "responsibilities",
+      "vi": "trách nhiệm công việc"
+    },
+    {
+      "en": "STAR method",
+      "vi": "phương pháp STAR (tình huống, nhiệm vụ, hành động, kết quả)"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "question": {
+        "text": "What should you research first about a company before a job interview?",
+        "audioId": "",
+        "vi": "Trước buổi phỏng vấn, bạn nên tìm hiểu điều gì về công ty trước tiên?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Its mission, its main products and the values it cares about most",
+          "audioId": "",
+          "variants": [
+            "The company mission, its products and its core values"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "The personal life and family background of the person who will interview you",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Which nearby cafes sell the cheapest coffee during the lunch break",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Nothing in advance, because honest answers are always better than prepared ones",
+          "audioId": "",
+          "variants": [
+            "Nothing, honest answers are better than prepared ones"
+          ]
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Interviewers expect you to know what the company does and what it stands for. Knowing its mission, products and values helps you explain why you want to work there and how you fit in.",
+        "vi": "Nhà tuyển dụng mong bạn biết công ty làm gì và theo đuổi điều gì. Nắm được sứ mệnh, sản phẩm và giá trị cốt lõi giúp bạn giải thích vì sao muốn làm ở đó và mình phù hợp thế nào."
+      }
+    },
+    {
+      "id": "q02",
+      "question": {
+        "text": "Where can you usually find the official mission statement of a company?",
+        "audioId": "",
+        "vi": "Thường có thể tìm sứ mệnh chính thức của công ty ở đâu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "In random comments that strangers leave under popular online videos",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "On the About Us page of the official company website",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "On the back of a paper receipt from a supermarket nearby",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Only inside private documents that employees are never allowed to share",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Most companies publish their mission, vision and values on the \"About\" page of their website. It is the most reliable starting point because the company wrote it itself.",
+        "vi": "Hầu hết công ty đăng sứ mệnh, tầm nhìn và giá trị trên trang \"Giới thiệu\" (About) của website. Đây là nguồn đáng tin nhất để bắt đầu vì chính công ty viết ra."
+      }
+    },
+    {
+      "id": "q03",
+      "question": {
+        "text": "Why is it useful to read recent news about the company before your interview?",
+        "audioId": "",
+        "vi": "Vì sao nên đọc tin tức gần đây về công ty trước buổi phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because you can mention their latest projects and show real interest",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because interviewers always ask you to repeat yesterday's headlines word for word",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Because reading news makes you look busy while you wait in the lobby",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Because it is the only way to find out the office address",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Mentioning a recent launch, award or expansion shows that you follow the company and are genuinely interested. It also gives you good topics for questions at the end of the interview.",
+        "vi": "Nhắc đến một sản phẩm mới, giải thưởng hay kế hoạch mở rộng gần đây cho thấy bạn thật sự quan tâm đến công ty. Đó cũng là chủ đề tốt để đặt câu hỏi cuối buổi phỏng vấn."
+      }
+    },
+    {
+      "id": "q04",
+      "question": {
+        "text": "What is the main purpose of reading the job description carefully?",
+        "audioId": "",
+        "vi": "Mục đích chính của việc đọc kỹ bản mô tả công việc là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "To count how many words the recruiter used in the whole advertisement",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "To copy every sentence and read it aloud during the interview",
+          "audioId": "",
+          "variants": [
+            "To copy the sentences and read them out loud"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "To understand which skills and experience the employer needs for this role",
+          "audioId": "",
+          "variants": [
+            "To see which skills and experience they need for the job"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "To find spelling mistakes so you can correct the hiring manager",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The job description lists the tasks, skills and experience the employer is looking for. Use it to choose which of your experiences to talk about.",
+        "vi": "Bản mô tả công việc liệt kê nhiệm vụ, kỹ năng và kinh nghiệm mà nhà tuyển dụng cần. Hãy dùng nó để chọn những kinh nghiệm phù hợp nhất của bạn để kể."
+      }
+    },
+    {
+      "id": "q05",
+      "question": {
+        "text": "How can you use keywords from the job description in your interview?",
+        "audioId": "",
+        "vi": "Bạn có thể dùng từ khoá trong bản mô tả công việc khi phỏng vấn như thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Repeat each keyword loudly at the start of every single answer",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Use the same important words when you describe your own skills and results",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Avoid those words completely so the interviewer thinks you are original",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Write the keywords on your hand and show them to the panel",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Using the employer's own words, such as \"teamwork\" or \"data analysis\", makes it easy for them to see that your skills match the role. Use them naturally inside real examples.",
+        "vi": "Dùng chính những từ khoá của nhà tuyển dụng, như \"teamwork\" hay \"data analysis\", giúp họ dễ thấy kỹ năng của bạn khớp với vị trí. Hãy lồng chúng tự nhiên vào ví dụ thật."
+      }
+    },
+    {
+      "id": "q06",
+      "question": {
+        "text": "What can the core values of a company tell you before an interview?",
+        "audioId": "",
+        "vi": "Giá trị cốt lõi của công ty cho bạn biết điều gì trước buổi phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The exact salary every employee receives at the end of each month",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The names of all the customers who bought products last year",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "How many floors the main office building has in total",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "How people are expected to behave and what the company truly cares about",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Core values such as \"customer first\" or \"integrity\" describe the behaviour the company rewards. You can prepare stories that show you already act in that way.",
+        "vi": "Giá trị cốt lõi như \"khách hàng là trên hết\" hay \"chính trực\" mô tả cách hành xử mà công ty coi trọng. Bạn có thể chuẩn bị câu chuyện cho thấy mình đã hành động như vậy."
+      }
+    },
+    {
+      "id": "q07",
+      "question": {
+        "text": "Why should you learn about the main competitors of the company?",
+        "audioId": "",
+        "vi": "Vì sao bạn nên tìm hiểu các đối thủ cạnh tranh chính của công ty?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It helps you understand the market and what makes this company different",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "So you can switch to a rival employer if this meeting goes badly",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Because competitors usually send spies to sit in on the interview",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It lets you criticise other brands loudly to impress the interviewer",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Knowing the competitors shows you understand the industry. You can then explain what makes this company stronger or different, which is exactly what interviewers like to hear.",
+        "vi": "Hiểu đối thủ cạnh tranh cho thấy bạn nắm được thị trường. Từ đó bạn giải thích được điểm mạnh hay khác biệt của công ty, đúng điều nhà tuyển dụng muốn nghe."
+      }
+    },
+    {
+      "id": "q08",
+      "question": {
+        "text": "Which source gives reliable information about the financial health of a large public company?",
+        "audioId": "",
+        "vi": "Nguồn nào cung cấp thông tin đáng tin cậy về tình hình tài chính của một công ty niêm yết lớn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A rumour you heard from a friend of a friend at a party",
+          "audioId": "",
+          "variants": [
+            "Rumours from a friend of a friend"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "The number of likes on its most recent social media post",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Its annual report and the official financial statements published for investors",
+          "audioId": "",
+          "variants": [
+            "The annual report and the official financial statements"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "The colour and design of the logo on its main website",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Listed companies must publish annual reports and financial statements. They show revenue, profit and plans, so they are far more reliable than rumours or social media numbers.",
+        "vi": "Công ty niêm yết phải công bố báo cáo thường niên và báo cáo tài chính. Các tài liệu này cho thấy doanh thu, lợi nhuận và kế hoạch, đáng tin hơn nhiều so với tin đồn hay lượt thích trên mạng xã hội."
+      }
+    },
+    {
+      "id": "q09",
+      "question": {
+        "text": "What can employee review websites help you learn about a company?",
+        "audioId": "",
+        "vi": "Các trang đánh giá của nhân viên giúp bạn biết gì về công ty?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The secret questions that every interviewer will definitely ask you tomorrow",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The official legal address registered with the national tax office",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "How current and former staff feel about the culture and the management",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Nothing useful, since every single review online is always completely fake",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Review sites such as Glassdoor show opinions from current and former employees about culture, workload and managers. Read many reviews and look for patterns instead of trusting one extreme comment.",
+        "vi": "Các trang đánh giá như Glassdoor cho thấy ý kiến của nhân viên cũ và hiện tại về văn hoá, khối lượng công việc và quản lý. Hãy đọc nhiều đánh giá và tìm điểm chung thay vì tin một bình luận cực đoan."
+      }
+    },
+    {
+      "id": "q10",
+      "question": {
+        "text": "Why is it a good idea to look at the professional profile of your interviewer?",
+        "audioId": "",
+        "vi": "Vì sao nên xem hồ sơ nghề nghiệp của người phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "To find out where they live and visit their house before the interview",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "To send them many private messages asking for the interview questions",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "To criticise their past jobs and show that you know more than them",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "To understand their role and background so you can connect more easily",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Seeing your interviewer's role and career on a site like LinkedIn helps you understand what they care about. Keep it professional: use it to prepare, not to contact them privately.",
+        "vi": "Xem vai trò và quá trình làm việc của người phỏng vấn trên LinkedIn giúp bạn hiểu họ quan tâm điều gì. Hãy giữ chừng mực: dùng để chuẩn bị, không nhắn tin riêng cho họ."
+      }
+    },
+    {
+      "id": "q11",
+      "question": {
+        "text": "What is the best way to learn about the daily tasks of the role?",
+        "audioId": "",
+        "vi": "Cách tốt nhất để biết công việc hằng ngày của vị trí ứng tuyển là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Guess everything from the job title and never ask any questions about it",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Read the job description closely and ask about a typical day in the interview",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Wait until your first week to discover what the job actually involves",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask your family members to imagine what the work might look like",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The job description gives the main tasks, and asking \"What does a typical day look like?\" fills the gaps. This also shows that you are thinking seriously about the work.",
+        "vi": "Bản mô tả công việc cho biết nhiệm vụ chính, còn câu hỏi \"Một ngày làm việc điển hình như thế nào?\" sẽ lấp chỗ trống. Câu hỏi này cũng cho thấy bạn nghiêm túc với công việc."
+      }
+    },
+    {
+      "id": "q12",
+      "question": {
+        "text": "Why should you research the typical salary range for the role?",
+        "audioId": "",
+        "vi": "Vì sao bạn nên tìm hiểu mức lương phổ biến của vị trí này?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "So you can demand double the amount and refuse to discuss it",
+          "audioId": "",
+          "variants": [
+            "To ask for twice the money and refuse to negotiate"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Because the interviewer will pay you extra for knowing the market price",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It is not useful, because salary is never discussed during interviews",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "So you can answer salary questions with a realistic and confident number",
+          "audioId": "",
+          "variants": [
+            "To give a realistic salary figure with confidence"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "If you know the market range for similar jobs in your city, you can give a realistic answer when asked about salary expectations. This protects you from asking too little or too much.",
+        "vi": "Khi biết mức lương thị trường cho vị trí tương tự ở thành phố của mình, bạn trả lời câu hỏi về mức lương mong muốn một cách thực tế. Điều này giúp bạn không đòi quá thấp hay quá cao."
+      }
+    },
+    {
+      "id": "q13",
+      "question": {
+        "text": "What should you learn about the company culture before the interview?",
+        "audioId": "",
+        "vi": "Bạn nên tìm hiểu gì về văn hoá công ty trước buổi phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Which famous singers the chief executive likes to listen to at home",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "How people work together, communicate and make decisions inside the company",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The brand of computers that the cleaning team prefers to use",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "How to change the company culture on your very first working day",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Culture is the way people work together: formal or relaxed, fast or careful, team-based or independent. Knowing it helps you decide if you will be happy there and how to present yourself.",
+        "vi": "Văn hoá công ty là cách mọi người làm việc với nhau: trang trọng hay thoải mái, nhanh hay cẩn trọng, theo nhóm hay độc lập. Hiểu điều này giúp bạn biết mình có hợp không và nên thể hiện bản thân thế nào."
+      }
+    },
+    {
+      "id": "q14",
+      "question": {
+        "text": "How can the social media pages of a company help your preparation?",
+        "audioId": "",
+        "vi": "Trang mạng xã hội của công ty giúp bạn chuẩn bị như thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "They tell you the exact time your interview will finish today",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "They let you skip the interview by sending a friendly comment",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "They contain the private phone numbers of every manager in the office",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "They show recent events, achievements and the tone the brand uses publicly",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Social media shows what the company celebrates, such as new products, awards or community events, and how it speaks to the public. These details make your answers more current and specific.",
+        "vi": "Mạng xã hội cho thấy công ty đang tự hào về điều gì, như sản phẩm mới, giải thưởng hay hoạt động cộng đồng, và cách thương hiệu giao tiếp. Những chi tiết này giúp câu trả lời của bạn cập nhật và cụ thể hơn."
+      }
+    },
+    {
+      "id": "q15",
+      "question": {
+        "text": "When the interviewer asks why you want to work here, what makes a strong answer?",
+        "audioId": "",
+        "vi": "Khi người phỏng vấn hỏi vì sao bạn muốn làm ở đây, câu trả lời thế nào là tốt?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Saying you simply need any job because your savings are running low",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Explaining that the office is close to your favourite shopping mall",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Admitting that you know nothing about them but sound very excited",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Linking what you know about the company to your own goals and skills",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A strong answer connects specific facts about the company, such as its mission or a recent project, with your own experience and career goals. General answers sound like you would accept any job.",
+        "vi": "Câu trả lời tốt nối những thông tin cụ thể về công ty, như sứ mệnh hay một dự án gần đây, với kinh nghiệm và mục tiêu nghề nghiệp của bạn. Câu trả lời chung chung nghe như bạn nhận bất kỳ việc gì."
+      }
+    },
+    {
+      "id": "q16",
+      "question": {
+        "text": "What is a smart question to ask the interviewer at the end?",
+        "audioId": "",
+        "vi": "Câu hỏi nào là khôn ngoan để hỏi người phỏng vấn vào cuối buổi?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "What are the biggest challenges the team will face in the next year",
+          "audioId": "",
+          "variants": [
+            "What will the biggest challenges be for the team next year"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "How many days off can I take during my very first month",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Can you tell me whether I passed the interview right now",
+          "audioId": "",
+          "variants": [
+            "Did I pass the interview"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Why does your company website look so old and boring",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Asking about the team's challenges shows that you are thinking about how you can help. Questions about holidays or instant results are better saved for later or not asked at all.",
+        "vi": "Hỏi về thách thức của nhóm cho thấy bạn đang nghĩ cách đóng góp. Những câu về ngày nghỉ hay hỏi kết quả ngay nên để sau hoặc không hỏi."
+      }
+    },
+    {
+      "id": "q17",
+      "question": {
+        "text": "Why is it useful to know the size of the company?",
+        "audioId": "",
+        "vi": "Vì sao biết quy mô công ty lại hữu ích?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It decides whether you must wear a suit or a uniform at home",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It tells you how structured the work is and how wide your role may be",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Larger companies never hire people who have less than ten years of experience",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It is the only thing that interviewers will ask you about",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "In a small company you may handle many different tasks, while a large company usually has clearer roles and processes. Knowing this helps you set the right expectations and examples.",
+        "vi": "Ở công ty nhỏ, bạn có thể đảm nhận nhiều việc khác nhau; công ty lớn thường có vai trò và quy trình rõ ràng hơn. Biết điều này giúp bạn đặt kỳ vọng và chọn ví dụ phù hợp."
+      }
+    },
+    {
+      "id": "q18",
+      "question": {
+        "text": "Which information about the customers of the company is helpful to know?",
+        "audioId": "",
+        "vi": "Thông tin nào về khách hàng của công ty là hữu ích cần biết?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The home addresses and phone numbers of their most loyal buyers",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "How much money each individual customer earns from their own jobs",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The favourite colours of shoppers who left a negative online review",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Who their main customers are and what problems the company solves for them",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Understanding who the customers are and what they need helps you talk about how your work would create value for them. Personal data about customers is private and not something you should look for.",
+        "vi": "Hiểu khách hàng là ai và họ cần gì giúp bạn nói được công việc của mình tạo ra giá trị cho họ như thế nào. Thông tin cá nhân của khách hàng là riêng tư, bạn không nên tìm kiếm."
+      }
+    },
+    {
+      "id": "q19",
+      "question": {
+        "text": "Why should you check the history of the company?",
+        "audioId": "",
+        "vi": "Vì sao bạn nên tìm hiểu lịch sử của công ty?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Knowing how it started and grew helps you understand its present direction",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because the interviewer will give you a written history test with grades",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "So you can tell them which of their past decisions were silly",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It is pointless, since only the future of a business matters at all",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A company's history, such as how it was founded and the big changes it has made, explains many of its current choices. A short, accurate fact can make your answer memorable.",
+        "vi": "Lịch sử công ty, như cách thành lập và những thay đổi lớn, giải thích nhiều lựa chọn hiện tại của họ. Một chi tiết ngắn và chính xác có thể khiến câu trả lời của bạn đáng nhớ."
+      }
+    },
+    {
+      "id": "q20",
+      "question": {
+        "text": "How should you treat information you find on unofficial websites?",
+        "audioId": "",
+        "vi": "Bạn nên xử lý thông tin tìm thấy trên các trang web không chính thức như thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Repeat it immediately as a proven fact to impress the hiring manager",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Post it online so other candidates can share the same answers",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Check it against official sources before you mention it in the interview",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ignore every official source because unofficial ones are always more honest",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Blogs, forums and rumours can be outdated or wrong. Confirm important facts on the company website, press releases or trusted news before you use them, so you do not repeat mistakes.",
+        "vi": "Blog, diễn đàn và tin đồn có thể đã cũ hoặc sai. Hãy kiểm tra thông tin quan trọng trên website công ty, thông cáo báo chí hoặc báo chí uy tín trước khi dùng, để không nhắc lại thông tin sai."
+      }
+    },
+    {
+      "id": "q21",
+      "question": {
+        "text": "What is a press release?",
+        "audioId": "",
+        "vi": "Thông cáo báo chí là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A private letter that managers send to staff who arrive late",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A machine used in factories to flatten metal into thin sheets",
+          "audioId": "",
+          "variants": [
+            "A factory machine that flattens metal"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "An official announcement that a company publishes to share important news",
+          "audioId": "",
+          "variants": [
+            "An official company announcement that shares important news"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "A discount coupon given to customers on their birthday each year",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Press releases are official news from the company, such as a new product, partnership or leader. They are usually found in the \"News\" or \"Media\" section of the website and are a great source for recent facts.",
+        "vi": "Thông cáo báo chí là tin chính thức do công ty phát hành, như ra sản phẩm mới, hợp tác hay bổ nhiệm lãnh đạo. Thường có ở mục \"News\" hoặc \"Media\" trên website và là nguồn rất tốt cho thông tin mới."
+      }
+    },
+    {
+      "id": "q22",
+      "question": {
+        "text": "Why is it helpful to know who the leaders of the company are?",
+        "audioId": "",
+        "vi": "Vì sao biết ai là lãnh đạo của công ty lại hữu ích?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Their goals and public messages often show where the company is heading",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "So you can ask them for a personal favour after you are hired",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Because you must bring each leader a small gift on interview day",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Leaders always conduct every first interview themselves without any exception",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Interviews and speeches by the chief executive or founders often reveal the company's priorities, such as growth, innovation or sustainability. You can connect your answers to these priorities.",
+        "vi": "Phỏng vấn hay bài phát biểu của giám đốc điều hành, nhà sáng lập thường cho thấy ưu tiên của công ty, như tăng trưởng, đổi mới hay phát triển bền vững. Bạn có thể nối câu trả lời của mình với những ưu tiên đó."
+      }
+    },
+    {
+      "id": "q23",
+      "question": {
+        "text": "What should you do after reading the list of required skills in the job advert?",
+        "audioId": "",
+        "vi": "Sau khi đọc danh sách kỹ năng yêu cầu trong tin tuyển dụng, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Memorise the list and recite it word for word to the interviewer",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Prepare one real example from your experience for each important skill",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Pretend you have every skill even if you have never used them",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Remove the skills you lack from the advert and send it back",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "For each key skill, prepare a short story that proves it, for example a project where you showed leadership. Real examples are much more convincing than simply saying \"I am a leader\".",
+        "vi": "Với mỗi kỹ năng quan trọng, hãy chuẩn bị một câu chuyện ngắn chứng minh nó, ví dụ một dự án bạn thể hiện khả năng lãnh đạo. Ví dụ thật thuyết phục hơn nhiều so với chỉ nói \"Tôi là người lãnh đạo tốt\"."
+      }
+    },
+    {
+      "id": "q24",
+      "question": {
+        "text": "What is the STAR method used for in interviews?",
+        "audioId": "",
+        "vi": "Phương pháp STAR được dùng để làm gì trong phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "To rate the interviewer with up to five stars after the meeting",
+          "audioId": "",
+          "variants": [
+            "To give the interviewer a star rating"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "To decide which seat in the room will bring you the best luck",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "To tell clear stories about a situation, task, action and the final result",
+          "audioId": "",
+          "variants": [
+            "To tell stories using situation, task, action and result"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "To measure how many famous companies you have applied to this year",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "STAR stands for Situation, Task, Action and Result. It helps you give structured examples: describe the situation, your task, what you did and what happened in the end.",
+        "vi": "STAR là viết tắt của Situation (tình huống), Task (nhiệm vụ), Action (hành động), Result (kết quả). Phương pháp này giúp bạn kể ví dụ có cấu trúc: bối cảnh, nhiệm vụ, bạn đã làm gì và kết quả ra sao."
+      }
+    },
+    {
+      "id": "q25",
+      "question": {
+        "text": "Why should you understand the team you would join?",
+        "audioId": "",
+        "vi": "Vì sao bạn nên hiểu về nhóm mà mình sẽ tham gia?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "So you can choose which colleagues to avoid during lunch every day",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because you will be asked to manage the whole team immediately",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It helps you explain how your skills would support their work and goals",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It is useless, since teams change their members every single week",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Knowing the team's purpose and size helps you picture your contribution. You can ask \"How does this role support the team?\" to learn more during the interview.",
+        "vi": "Hiểu mục tiêu và quy mô của nhóm giúp bạn hình dung mình sẽ đóng góp gì. Bạn có thể hỏi \"Vị trí này hỗ trợ nhóm như thế nào?\" để biết thêm trong buổi phỏng vấn."
+      }
+    },
+    {
+      "id": "q26",
+      "question": {
+        "text": "What is a good reason to look at other job listings from the same company?",
+        "audioId": "",
+        "vi": "Lý do hợp lý để xem các tin tuyển dụng khác của cùng công ty là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "They show which jobs you can apply for if you get bored tomorrow",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "They list the names of people who were recently fired from the company",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "They reveal which departments are growing and what skills the company values",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "They tell you the answers to every question in your own interview",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Many open positions in one department often mean that area is growing. Repeated skills across adverts show what the company values, which helps you highlight the right strengths.",
+        "vi": "Nhiều vị trí đang tuyển ở một bộ phận thường cho thấy bộ phận đó đang phát triển. Những kỹ năng lặp lại trong nhiều tin tuyển dụng cho thấy công ty coi trọng điều gì, giúp bạn nhấn mạnh đúng điểm mạnh."
+      }
+    },
+    {
+      "id": "q27",
+      "question": {
+        "text": "How much time is sensible to spend researching a company before an interview?",
+        "audioId": "",
+        "vi": "Nên dành bao nhiêu thời gian tìm hiểu công ty trước buổi phỏng vấn là hợp lý?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A few focused hours spread over two or three days before the interview",
+          "audioId": "",
+          "variants": [
+            "A few focused hours over two or three days"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "No time at all, because you can look things up during the meeting",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Several months, reading every document the company has ever produced",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Only the five minutes while you are waiting in the reception area",
+          "audioId": "",
+          "variants": [
+            "Just five minutes in reception"
+          ]
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A few focused hours is usually enough to understand the company, the role and the industry. Spreading it over several days helps you remember the key facts without feeling stressed.",
+        "vi": "Vài giờ tập trung thường là đủ để hiểu công ty, vị trí và ngành. Chia ra vài ngày giúp bạn nhớ thông tin chính mà không bị áp lực."
+      }
+    },
+    {
+      "id": "q28",
+      "question": {
+        "text": "What should you do with the facts you collect during your research?",
+        "audioId": "",
+        "vi": "Bạn nên làm gì với những thông tin thu thập được khi tìm hiểu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Print hundreds of pages and read them aloud in the waiting room",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Write short notes with the key points and review them before the interview",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Throw them away so your answers feel more natural and surprising",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Send all of them to the interviewer by email the night before",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Short notes with the mission, a few products, recent news and your questions are easy to review. Reading them again before the interview keeps the most useful facts fresh in your mind.",
+        "vi": "Ghi chú ngắn về sứ mệnh, vài sản phẩm, tin mới và câu hỏi của bạn sẽ dễ ôn lại. Đọc lại trước buổi phỏng vấn giúp những thông tin hữu ích nhất luôn sẵn trong đầu."
+      }
+    },
+    {
+      "id": "q29",
+      "question": {
+        "text": "Why should you check the location of the interview in advance?",
+        "audioId": "",
+        "vi": "Vì sao nên kiểm tra trước địa điểm phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "So you can complain to the company that the office is too far away",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because the address changes every hour and needs constant checking",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It is unnecessary, since interviewers prefer candidates who arrive late",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "So you can plan your route and arrive calmly a little early",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Checking the address, transport and travel time the day before reduces stress. Arriving about ten to fifteen minutes early gives you time to relax and shows that you are reliable.",
+        "vi": "Kiểm tra địa chỉ, phương tiện và thời gian di chuyển từ hôm trước giúp bạn bớt căng thẳng. Đến sớm khoảng mười đến mười lăm phút cho bạn thời gian bình tĩnh và cho thấy bạn đáng tin cậy."
+      }
+    },
+    {
+      "id": "q30",
+      "question": {
+        "text": "How can you find out what to wear to the interview?",
+        "audioId": "",
+        "vi": "Làm sao biết nên mặc gì khi đi phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Look at photos of employees on the company website and social media",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Wear your most colourful party clothes so the interviewer remembers you",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Choose whatever you slept in, because appearance never matters at work",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask a stranger on the street to choose your outfit for you",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Company photos and social media show how people usually dress at work. Choose clothes that are clean, neat and slightly more formal than what employees wear every day.",
+        "vi": "Ảnh công ty và mạng xã hội cho thấy nhân viên thường mặc gì khi làm việc. Hãy chọn trang phục sạch sẽ, gọn gàng và trang trọng hơn một chút so với trang phục hằng ngày của họ."
+      }
+    },
+    {
+      "id": "q31",
+      "question": {
+        "text": "What does the word mission mean when we talk about a company?",
+        "audioId": "",
+        "vi": "Khi nói về một công ty, từ \"sứ mệnh\" có nghĩa là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A dangerous secret trip that only senior managers can join",
+          "audioId": "",
+          "variants": [
+            "A secret dangerous trip for senior managers"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "The main purpose of the company and the reason why it exists",
+          "audioId": "",
+          "variants": [
+            "The main purpose of the company and why it exists"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "The total number of products the company sold last month",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A list of rules about lunch breaks and holiday requests",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A mission is the company's main purpose, for example \"to make clean energy affordable for everyone\". It explains why the company exists, beyond simply making money.",
+        "vi": "Sứ mệnh là mục đích chính của công ty, ví dụ \"đưa năng lượng sạch đến với mọi người với giá hợp lý\". Nó giải thích vì sao công ty tồn tại, chứ không chỉ để kiếm tiền."
+      }
+    },
+    {
+      "id": "q32",
+      "question": {
+        "text": "What is the difference between a mission and a vision?",
+        "audioId": "",
+        "vi": "Sứ mệnh và tầm nhìn khác nhau như thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A mission describes what the company does now, a vision describes its future goal",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A mission is written by customers while a vision is written by lawyers",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "They are exactly the same, only used in different countries",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A vision is about eyesight tests for every employee each year",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The mission explains what the company does today and why. The vision describes the future it wants to create, such as becoming the leading brand in the region.",
+        "vi": "Sứ mệnh nói về việc công ty đang làm và lý do. Tầm nhìn mô tả tương lai công ty muốn tạo ra, chẳng hạn trở thành thương hiệu dẫn đầu khu vực."
+      }
+    },
+    {
+      "id": "q33",
+      "question": {
+        "text": "Why is it useful to know the main products or services of the company?",
+        "audioId": "",
+        "vi": "Vì sao biết các sản phẩm hoặc dịch vụ chính của công ty lại hữu ích?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "You can ask for free samples of everything during the interview",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It lets you sell their products to the interviewer for a profit",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It is only necessary for people who apply to the sales team",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "You can talk about them correctly and explain how your work would help",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Every employee, not only salespeople, works to support the company's products or services. Knowing them helps you give relevant examples and avoid embarrassing mistakes.",
+        "vi": "Mọi nhân viên, không chỉ bộ phận bán hàng, đều làm việc để hỗ trợ sản phẩm hay dịch vụ của công ty. Hiểu chúng giúp bạn đưa ví dụ phù hợp và tránh những sai sót đáng xấu hổ."
+      }
+    },
+    {
+      "id": "q34",
+      "question": {
+        "text": "What should you do if you cannot find much information about a small company?",
+        "audioId": "",
+        "vi": "Bạn nên làm gì nếu không tìm được nhiều thông tin về một công ty nhỏ?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Invent impressive facts so the interviewer believes you did your research",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Cancel the interview because small companies are never worth joining",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Call their competitors and ask for secret information about them",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Use what you find and ask thoughtful questions about them during the interview",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Small companies and start-ups may have little information online. Be honest, share what you found and turn the gaps into good questions, which still shows curiosity and preparation.",
+        "vi": "Công ty nhỏ hay khởi nghiệp có thể có ít thông tin trên mạng. Hãy trung thực, chia sẻ những gì bạn tìm được và biến phần còn thiếu thành câu hỏi hay; điều đó vẫn cho thấy bạn tò mò và có chuẩn bị."
+      }
+    },
+    {
+      "id": "q35",
+      "question": {
+        "text": "Why should you learn about trends in the industry?",
+        "audioId": "",
+        "vi": "Vì sao bạn nên tìm hiểu các xu hướng trong ngành?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It shows you understand the bigger picture and future changes in the field",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "So you can predict the exact questions the interviewer has prepared",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Because trends decide which shoes are allowed in the office",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It is only important for people who want to become journalists",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Knowing the main trends, such as new technology or new laws in the industry, shows that you think beyond the job itself. You can mention how the company is responding to them.",
+        "vi": "Nắm được xu hướng chính, như công nghệ mới hay quy định mới trong ngành, cho thấy bạn nhìn xa hơn công việc. Bạn có thể nói công ty đang thích ứng với các xu hướng đó ra sao."
+      }
+    },
+    {
+      "id": "q36",
+      "question": {
+        "text": "Which of these shows that you did good research during an interview?",
+        "audioId": "",
+        "vi": "Điều nào sau đây cho thấy bạn đã tìm hiểu kỹ khi đi phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Reading facts from your phone while the interviewer is still talking",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Mentioning a recent project of the company and asking a related question",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Correcting the interviewer every time they describe their own business",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Saying that you checked their website but cannot remember anything",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Bringing up a specific, recent fact naturally and following it with a question shows real interest. Reading from your phone or correcting the interviewer looks unprepared or rude.",
+        "vi": "Nhắc tự nhiên một thông tin cụ thể, mới đây rồi đặt câu hỏi liên quan cho thấy bạn quan tâm thật sự. Đọc từ điện thoại hay sửa lời người phỏng vấn trông thiếu chuẩn bị hoặc bất lịch sự."
+      }
+    },
+    {
+      "id": "q37",
+      "question": {
+        "text": "How can you research the interview format before the day?",
+        "audioId": "",
+        "vi": "Làm sao để tìm hiểu trước hình thức của buổi phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Assume it will always be a written exam lasting the whole day",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Guess the format by reading your horoscope on the morning of the interview",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Avoid asking anything at all, because recruiters dislike questions from candidates",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask the recruiter how long it lasts and who you will meet",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "It is normal and polite to ask the recruiter about the format: one or several interviewers, online or in person, any test, and how long it will take. This helps you prepare the right way.",
+        "vi": "Hỏi người tuyển dụng về hình thức phỏng vấn là bình thường và lịch sự: một hay nhiều người phỏng vấn, trực tuyến hay trực tiếp, có bài kiểm tra không, kéo dài bao lâu. Điều này giúp bạn chuẩn bị đúng cách."
+      }
+    },
+    {
+      "id": "q38",
+      "question": {
+        "text": "What is a panel interview?",
+        "audioId": "",
+        "vi": "Phỏng vấn hội đồng là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "An interview that takes place on a stage in front of a large audience",
+          "audioId": "",
+          "variants": [
+            "An interview on a stage before a big audience"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "An interview where several people from the company ask you questions together",
+          "audioId": "",
+          "variants": [
+            "Several company people interview you at the same time"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "A meeting where you design solar panels for the company roof",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A phone call in which a computer reads questions without any person",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "In a panel interview, two or more people interview you at the same time, often from different teams. Research their roles if you can, and make eye contact with everyone when you answer.",
+        "vi": "Phỏng vấn hội đồng là khi hai người trở lên phỏng vấn bạn cùng lúc, thường từ các bộ phận khác nhau. Nếu được, hãy tìm hiểu vai trò của họ và nhìn vào tất cả mọi người khi trả lời."
+      }
+    },
+    {
+      "id": "q39",
+      "question": {
+        "text": "Why should you prepare an answer about what you know about the company?",
+        "audioId": "",
+        "vi": "Vì sao nên chuẩn bị câu trả lời về những gì bạn biết về công ty?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Interviewers often ask it to check if you are truly interested in them",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because it is the only question that decides your final salary",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It is never asked, so preparing for it wastes your time",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "So you can talk about the company for at least one whole hour",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "\"What do you know about us?\" is one of the most common interview questions. A short answer with the mission, main products and one recent fact shows genuine interest.",
+        "vi": "\"Bạn biết gì về công ty chúng tôi?\" là một trong những câu hỏi phỏng vấn phổ biến nhất. Một câu trả lời ngắn gồm sứ mệnh, sản phẩm chính và một tin gần đây cho thấy bạn thật sự quan tâm."
+      }
+    },
+    {
+      "id": "q40",
+      "question": {
+        "text": "How long should your answer be when you are asked what you know about the company?",
+        "audioId": "",
+        "vi": "Khi được hỏi bạn biết gì về công ty, câu trả lời nên dài bao lâu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "At least fifteen minutes covering every product and every manager by name",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Just one single word, because interviewers always prefer very short replies",
+          "audioId": "",
+          "variants": [
+            "Just one word"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "About one minute with a few key facts and why they matter to you",
+          "audioId": "",
+          "variants": [
+            "Around one minute with a few key facts"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "As long as possible, until the interviewer stops you politely",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Around one minute is enough to mention the mission, a product or two, a recent fact and why it attracts you. Longer answers lose attention, while very short ones sound unprepared.",
+        "vi": "Khoảng một phút là đủ để nhắc sứ mệnh, một hai sản phẩm, một tin gần đây và lý do bạn bị thu hút. Trả lời quá dài làm người nghe mất tập trung, quá ngắn thì nghe như chưa chuẩn bị."
+      }
+    },
+    {
+      "id": "q41",
+      "question": {
+        "text": "Why should you look for the recent achievements or awards of the company?",
+        "audioId": "",
+        "vi": "Vì sao nên tìm hiểu các thành tích hoặc giải thưởng gần đây của công ty?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "You can congratulate them sincerely and link the success to your interest",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "So you can ask for a share of the prize money if hired",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Because awards tell you the exact questions they will ask you",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "To prove that their competitors deserved those awards much more",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A recent award or milestone is a positive, natural topic. Mentioning it briefly and explaining why it makes you want to join shows enthusiasm and attention to detail.",
+        "vi": "Một giải thưởng hay cột mốc gần đây là chủ đề tích cực và tự nhiên. Nhắc ngắn gọn và giải thích vì sao điều đó khiến bạn muốn gia nhập cho thấy sự nhiệt tình và tinh ý."
+      }
+    },
+    {
+      "id": "q42",
+      "question": {
+        "text": "What should you know about the role you are applying for, beyond its title?",
+        "audioId": "",
+        "vi": "Ngoài chức danh, bạn nên biết gì về vị trí mình ứng tuyển?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Only the job title, because the details will be explained much later",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Its main responsibilities, who you report to and how success is measured",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The colour of the desk and chair that the company will give you",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "How quickly you can leave this role and move to a better one",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Two jobs with the same title can be very different. Knowing the responsibilities, your future manager and how performance is measured helps you show you are the right fit.",
+        "vi": "Hai công việc cùng chức danh có thể rất khác nhau. Biết rõ trách nhiệm, người quản lý trực tiếp và cách đánh giá hiệu quả giúp bạn chứng minh mình phù hợp."
+      }
+    },
+    {
+      "id": "q43",
+      "question": {
+        "text": "How can a current or former employee help your research?",
+        "audioId": "",
+        "vi": "Nhân viên hiện tại hoặc cũ có thể giúp bạn tìm hiểu như thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "They can share honest insights about the work environment and the team",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Someone inside may secretly pass you every interview question in advance",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A friend who works there could attend the meeting and speak for you",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "They cannot help, because talking to employees is strictly illegal everywhere",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A short, polite conversation with someone who works or worked there can give you real insights into the culture and daily work. Respect their time and never ask for confidential information.",
+        "vi": "Một cuộc trò chuyện ngắn, lịch sự với người đang hoặc từng làm ở đó cho bạn góc nhìn thực tế về văn hoá và công việc hằng ngày. Hãy tôn trọng thời gian của họ và đừng bao giờ hỏi thông tin mật."
+      }
+    },
+    {
+      "id": "q44",
+      "question": {
+        "text": "What is a good way to show that your values match the values of the company?",
+        "audioId": "",
+        "vi": "Cách tốt để cho thấy giá trị của bạn phù hợp với giá trị của công ty là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say that you agree with everything without giving any example at all",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Tell a short story where you acted in the same way they value",
+          "audioId": "",
+          "variants": [
+            "Tell a story where you acted on the same values"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Read their list of values aloud and nod after each one",
+          "audioId": "",
+          "variants": [
+            "Read their values aloud and nod"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Explain that your values change depending on who pays you",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "If a company values teamwork, describe a time you helped your team succeed. Stories prove your values, while simply saying \"I share your values\" proves nothing.",
+        "vi": "Nếu công ty coi trọng tinh thần đồng đội, hãy kể lần bạn giúp nhóm thành công. Câu chuyện chứng minh giá trị của bạn, còn chỉ nói \"Tôi có cùng giá trị với công ty\" thì không chứng minh được gì."
+      }
+    },
+    {
+      "id": "q45",
+      "question": {
+        "text": "Why should you avoid only memorising facts about the company?",
+        "audioId": "",
+        "vi": "Vì sao không nên chỉ học thuộc lòng thông tin về công ty?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because memory is not allowed to be used in professional interviews",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because facts about companies are always kept secret from candidates",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Because interviewers want to see that you understand and can discuss them naturally",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Because writing them on your arm is a much better strategy",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Reciting a list of facts sounds robotic. It is better to understand a few important points and connect them to your own story, so the conversation feels natural.",
+        "vi": "Đọc thuộc lòng một loạt thông tin nghe rất máy móc. Tốt hơn là hiểu vài điểm quan trọng và liên hệ chúng với câu chuyện của bạn để cuộc trò chuyện tự nhiên."
+      }
+    },
+    {
+      "id": "q46",
+      "question": {
+        "text": "What can you learn from the way a company describes itself in job adverts?",
+        "audioId": "",
+        "vi": "Cách công ty tự mô tả trong tin tuyển dụng cho bạn biết điều gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The exact date when the company will close down in the future",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The tone and words they use reveal their culture and priorities",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The personal opinions of the person who will clean your office",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Nothing at all, because job adverts are always written by robots",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Words like \"fast-paced\", \"collaborative\" or \"innovative\" tell you what the company expects. Use similar language when you describe how you like to work, if it is true for you.",
+        "vi": "Những từ như \"nhịp độ nhanh\", \"hợp tác\" hay \"đổi mới\" cho bạn biết công ty mong đợi điều gì. Hãy dùng cách diễn đạt tương tự khi mô tả cách làm việc của mình, nếu điều đó đúng với bạn."
+      }
+    },
+    {
+      "id": "q47",
+      "question": {
+        "text": "Why is it useful to know about a recent challenge the company has faced?",
+        "audioId": "",
+        "vi": "Vì sao biết về một khó khăn gần đây của công ty lại hữu ích?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "So you can blame the interviewer personally for the problem in public",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because you must solve the problem alone before you are hired",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It is better to pretend that no business ever faces any problems",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "You can ask how the team is responding and show mature business awareness",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Every company faces challenges, such as strong competition or slow sales. Asking respectfully how the team is responding shows maturity. Avoid blaming anyone or sounding negative.",
+        "vi": "Công ty nào cũng gặp khó khăn, như cạnh tranh mạnh hay doanh số chậm lại. Hỏi một cách tôn trọng nhóm đang ứng phó thế nào cho thấy sự chín chắn. Tránh đổ lỗi hay tỏ ra tiêu cực."
+      }
+    },
+    {
+      "id": "q48",
+      "question": {
+        "text": "What should you prepare to say about how you found the job?",
+        "audioId": "",
+        "vi": "Bạn nên chuẩn bị nói gì về việc mình biết đến vị trí này từ đâu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say you have no idea how you found the job advertisement",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Claim that the chief executive personally begged you to apply",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Tell them you applied to every job online without reading anything",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Explain clearly where you saw the role and what attracted you to it",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Interviewers sometimes ask how you heard about the role. A clear answer, such as a job site or a friend's recommendation, plus what attracted you, shows that your application was intentional.",
+        "vi": "Người phỏng vấn đôi khi hỏi bạn biết đến vị trí này từ đâu. Câu trả lời rõ ràng, như từ trang tuyển dụng hay bạn bè giới thiệu, kèm lý do bạn bị thu hút, cho thấy bạn ứng tuyển có chủ đích."
+      }
+    },
+    {
+      "id": "q49",
+      "question": {
+        "text": "Which habit helps you remember key facts on the interview day?",
+        "audioId": "",
+        "vi": "Thói quen nào giúp bạn nhớ các thông tin chính vào ngày phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Staying awake all night reading brand new articles until the sun rises",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Avoiding your notes completely so your mind feels empty and free",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Reviewing a one page summary of your notes on the morning of the interview",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Asking the interviewer to remind you of the facts about their company",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A short summary is easy to review in a few minutes and refreshes your memory. Sleeping well matters more than late-night reading, because a tired mind forgets details.",
+        "vi": "Một bản tóm tắt ngắn có thể ôn trong vài phút và giúp bạn nhớ lại nhanh. Ngủ đủ giấc quan trọng hơn đọc khuya, vì đầu óc mệt mỏi dễ quên chi tiết."
+      }
+    },
+    {
+      "id": "q50",
+      "question": {
+        "text": "What is the main goal of researching the company and the role?",
+        "audioId": "",
+        "vi": "Mục tiêu chính của việc tìm hiểu công ty và vị trí ứng tuyển là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "To collect gossip about the staff and share it with your friends",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "To prove that you know more about the business than the managers",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "To show you understand them and to decide whether the job truly suits you",
+          "audioId": "",
+          "variants": [
+            "To show you understand them and check if the job suits you"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "To make the interview longer so you can practise speaking more",
+          "audioId": "",
+          "variants": [
+            "To make the interview longer for speaking practice"
+          ]
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Research has two goals: it helps you impress the interviewer with relevant answers, and it helps you decide if this company and role are right for you. An interview is a two-way conversation.",
+        "vi": "Việc tìm hiểu có hai mục tiêu: giúp bạn gây ấn tượng bằng câu trả lời phù hợp, và giúp bạn quyết định công ty và vị trí này có thật sự hợp với mình không. Phỏng vấn là cuộc trò chuyện hai chiều."
+      }
+    }
+  ]
+}

@@ -1,0 +1,2353 @@
+{
+  "id": "lesson-1",
+  "branch": "skills",
+  "topic": "teamwork",
+  "title": {
+    "vi": "Làm việc nhóm và dẫn dắt nhóm nhỏ",
+    "en": "Teamwork and leading a small team"
+  },
+  "level": "B1",
+  "status": "draft",
+  "updatedAt": "2026-10-14",
+  "reviewNote": "Bản nháp do Claude soạn và tự kiểm (2026-10-14). Chờ DIENPHAM duyệt.",
+  "overview": [
+    {
+      "heading": {
+        "en": "Start with a clear goal and clear owners",
+        "vi": "Bắt đầu bằng mục tiêu rõ và người phụ trách rõ"
+      },
+      "paragraphs": [
+        {
+          "en": "Most team problems begin before the work starts. Agree the shared goal, what done looks like and who owns each part, then write it down in a short note everyone can see.",
+          "vi": "Phần lớn rắc rối của nhóm bắt đầu từ trước khi bắt tay vào việc. Hãy thống nhất mục tiêu chung, thế nào là xong và ai phụ trách phần nào, rồi ghi lại thành một ghi chú ngắn ai cũng xem được."
+        },
+        {
+          "en": "Every task needs one named owner. The owner can get help, but they make sure the task is finished. When people often ask who is doing something, roles are not clear enough.",
+          "vi": "Mỗi việc cần một người phụ trách có tên cụ thể. Người đó có thể nhờ giúp, nhưng phải đảm bảo việc được làm xong. Khi mọi người hay hỏi \"việc này ai làm?\", tức là vai trò chưa đủ rõ."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Divide and delegate the work well",
+        "vi": "Chia việc và giao việc cho đúng"
+      },
+      "paragraphs": [
+        {
+          "en": "Break big work into parts, match parts to skills and real workload, and set mini deadlines. When you delegate, explain the expected result, the deadline, the resources and when you will check in.",
+          "vi": "Chia việc lớn thành từng phần, giao theo kỹ năng và khối lượng thật, và đặt các hạn nhỏ. Khi giao việc, hãy nói rõ kết quả mong muốn, hạn chót, nguồn lực và khi nào bạn sẽ hỏi tiến độ."
+        },
+        {
+          "en": "Delegating means handing over responsibility and authority, not dumping jobs or controlling every step. Do not secretly redo delegated work, give specific feedback instead.",
+          "vi": "Giao việc là trao trách nhiệm và quyền quyết định, không phải đẩy việc hay kiểm soát từng bước. Đừng âm thầm làm lại việc đã giao, hãy góp ý cụ thể."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Short meetings and clear decisions",
+        "vi": "Họp ngắn và quyết định rõ ràng"
+      },
+      "paragraphs": [
+        {
+          "en": "Prepare a short agenda with the goal and the decisions needed. Park side topics, and end with a summary of decisions, owners and deadlines.",
+          "vi": "Chuẩn bị chương trình họp ngắn với mục tiêu và các quyết định cần đưa ra. Ghi lại chuyện bên lề để bàn sau, và kết thúc bằng bản tóm tắt quyết định, người làm và hạn chót."
+        },
+        {
+          "en": "For team decisions, agree the criteria first and say which method you will use, consensus or consultation. Once decided, ask everyone to disagree and commit.",
+          "vi": "Với quyết định của nhóm, hãy thống nhất tiêu chí trước và nói rõ sẽ quyết theo cách nào, đồng thuận hay tham vấn. Đã quyết thì mời mọi người \"bất đồng nhưng cam kết\"."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Keep everyone informed and recognise contributions",
+        "vi": "Giữ mọi người nắm thông tin và ghi nhận đóng góp"
+      },
+      "paragraphs": [
+        {
+          "en": "Share news with the whole team at the same time, use one shared task board, and post quick decisions in the team channel. Give bad news early, with a reason and a new plan.",
+          "vi": "Thông báo cho cả nhóm cùng lúc, dùng một bảng việc chung, và đăng các quyết định nhanh lên kênh nhóm. Báo tin xấu sớm, kèm lý do và kế hoạch mới."
+        },
+        {
+          "en": "Recognise effort specifically: say what the person did and how it helped. Notice quiet contributors too, not only the people who speak most.",
+          "vi": "Ghi nhận cụ thể: nói người đó đã làm gì và giúp được gì. Hãy để ý cả những người lặng lẽ đóng góp, không chỉ người nói nhiều."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "A sample situation analysed",
+        "vi": "Phân tích một tình huống mẫu"
+      },
+      "paragraphs": [
+        {
+          "en": "A team of four must finish a sales report. One member keeps sending his part late. The leader first writes in the group chat that some people are always lazy, then quietly finishes the part herself at night.",
+          "vi": "Một nhóm bốn người phải hoàn thành báo cáo bán hàng. Một thành viên liên tục nộp phần của mình trễ. Trưởng nhóm đầu tiên nhắn vào nhóm chung rằng \"có người lúc nào cũng lười\", rồi tối đó âm thầm tự làm nốt phần của anh ấy."
+        },
+        {
+          "en": "Both actions make things worse: the public label creates shame, and redoing the work hides the real problem. A better way is a private talk using facts, asking what is blocking him, agreeing a plan with a check-in date, and getting firmer only if nothing changes.",
+          "vi": "Cả hai hành động đều làm tình hình tệ hơn: lời gán nhãn công khai gây xấu hổ, còn tự làm thay che mất vấn đề thật. Cách tốt hơn là nói chuyện riêng dựa trên sự việc, hỏi điều gì đang cản trở anh ấy, thống nhất kế hoạch có ngày kiểm tra lại, và chỉ cứng rắn hơn nếu không có thay đổi."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Leading for the first time",
+        "vi": "Lần đầu làm trưởng nhóm"
+      },
+      "paragraphs": [
+        {
+          "en": "Your job changes from doing the work to helping the team succeed. Start with one to one talks, avoid big changes in the first week, and be honest when you do not know something.",
+          "vi": "Công việc của bạn chuyển từ tự làm sang giúp cả nhóm thành công. Hãy bắt đầu bằng các cuộc nói chuyện riêng, tránh thay đổi lớn ngay tuần đầu, và trung thực khi chưa biết điều gì."
+        },
+        {
+          "en": "Ask for ideas before deciding when you can, check results rather than every step, and build trust instead of control.",
+          "vi": "Khi có thể, hãy hỏi ý kiến trước khi quyết định, kiểm tra kết quả thay vì từng bước, và xây dựng niềm tin thay vì kiểm soát."
+        }
+      ]
+    }
+  ],
+  "tree": [
+    {
+      "title": {
+        "en": "Clear goals and roles",
+        "vi": "Mục tiêu và vai trò rõ ràng"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Agreeing the goal",
+            "vi": "Thống nhất mục tiêu"
+          },
+          "note": {
+            "en": "Turn a vague aim into a target everyone can check.",
+            "vi": "Biến mục tiêu mơ hồ thành con số ai cũng kiểm tra được."
+          },
+          "questions": [
+            "q01",
+            "q02",
+            "q07"
+          ]
+        },
+        {
+          "title": {
+            "en": "One owner for every task",
+            "vi": "Mỗi việc một người phụ trách"
+          },
+          "note": {
+            "en": "If a task belongs to someone, it belongs to no one.",
+            "vi": "Việc của \"ai đó\" thường chẳng là việc của ai."
+          },
+          "questions": [
+            "q03",
+            "q04",
+            "q08"
+          ]
+        },
+        {
+          "title": {
+            "en": "Sharing out roles",
+            "vi": "Phân vai"
+          },
+          "note": {
+            "en": "Talk about strengths openly and write roles down.",
+            "vi": "Bàn cởi mở về điểm mạnh và ghi vai trò ra giấy."
+          },
+          "questions": [
+            "q05",
+            "q06"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Dividing tasks and delegating",
+        "vi": "Chia việc và giao việc"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Dividing the work",
+            "vi": "Chia việc"
+          },
+          "note": {
+            "en": "Use skill and real workload, plus mini deadlines.",
+            "vi": "Dựa vào kỹ năng và khối lượng thật, kèm các hạn nhỏ."
+          },
+          "questions": [
+            "q09",
+            "q10",
+            "q11"
+          ]
+        },
+        {
+          "title": {
+            "en": "Handing over a task",
+            "vi": "Bàn giao một việc"
+          },
+          "note": {
+            "en": "Result, deadline, resources and check-in time.",
+            "vi": "Kết quả, hạn chót, nguồn lực và mốc hỏi tiến độ."
+          },
+          "questions": [
+            "q12",
+            "q13",
+            "q15"
+          ]
+        },
+        {
+          "title": {
+            "en": "After you delegate",
+            "vi": "Sau khi giao việc"
+          },
+          "note": {
+            "en": "Check in early, never secretly redo the work.",
+            "vi": "Hỏi tiến độ sớm, đừng âm thầm làm lại."
+          },
+          "questions": [
+            "q14",
+            "q16",
+            "q17"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Short meetings and team decisions",
+        "vi": "Họp ngắn và quyết định của nhóm"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Running the meeting",
+            "vi": "Điều hành cuộc họp"
+          },
+          "note": {
+            "en": "Agenda first, park side topics, end with actions.",
+            "vi": "Có chương trình, gác chuyện bên lề, kết thúc bằng việc cần làm."
+          },
+          "questions": [
+            "q18",
+            "q19",
+            "q20",
+            "q21",
+            "q22"
+          ]
+        },
+        {
+          "title": {
+            "en": "Making decisions together",
+            "vi": "Cùng nhau ra quyết định"
+          },
+          "note": {
+            "en": "Agree criteria, name the method, then disagree and commit.",
+            "vi": "Thống nhất tiêu chí, nói rõ cách quyết, rồi bất đồng nhưng cam kết."
+          },
+          "questions": [
+            "q23",
+            "q24",
+            "q25",
+            "q26"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Keeping everyone informed and recognising effort",
+        "vi": "Giữ mọi người nắm thông tin và ghi nhận đóng góp"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Updates and bad news",
+            "vi": "Cập nhật và tin xấu"
+          },
+          "note": {
+            "en": "Tell bad news early with a new plan.",
+            "vi": "Báo tin xấu sớm, kèm kế hoạch mới."
+          },
+          "questions": [
+            "q27",
+            "q28"
+          ]
+        },
+        {
+          "title": {
+            "en": "One place for information",
+            "vi": "Một nơi chung cho thông tin"
+          },
+          "note": {
+            "en": "Everyone hears it at the same time, in writing.",
+            "vi": "Mọi người cùng biết một lúc, có ghi lại."
+          },
+          "questions": [
+            "q29",
+            "q30",
+            "q31"
+          ]
+        },
+        {
+          "title": {
+            "en": "Recognising contributions",
+            "vi": "Ghi nhận đóng góp"
+          },
+          "note": {
+            "en": "Specific praise, and notice quiet people too.",
+            "vi": "Khen cụ thể và để ý cả người ít nói."
+          },
+          "questions": [
+            "q32",
+            "q33",
+            "q34"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Giving and receiving feedback",
+        "vi": "Góp ý và nhận góp ý"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Giving clear feedback",
+            "vi": "Góp ý rõ ràng"
+          },
+          "note": {
+            "en": "Describe behaviour and impact, and do it soon.",
+            "vi": "Mô tả hành vi và tác động, và góp ý kịp thời."
+          },
+          "questions": [
+            "q36",
+            "q37",
+            "q39"
+          ]
+        },
+        {
+          "title": {
+            "en": "Feedback, not blame",
+            "vi": "Góp ý chứ không đổ lỗi"
+          },
+          "note": {
+            "en": "Facts first, guesses later, and look forward.",
+            "vi": "Sự việc trước, phỏng đoán sau, và nhìn về phía trước."
+          },
+          "questions": [
+            "q42",
+            "q43"
+          ]
+        },
+        {
+          "title": {
+            "en": "Receiving feedback",
+            "vi": "Nhận góp ý"
+          },
+          "note": {
+            "en": "Thank, ask for an example, talk privately.",
+            "vi": "Cảm ơn, hỏi ví dụ, trao đổi riêng."
+          },
+          "questions": [
+            "q38"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Hard situations and leading for the first time",
+        "vi": "Tình huống khó và lần đầu làm trưởng nhóm"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "A member not doing their part",
+            "vi": "Thành viên không làm phần việc của mình"
+          },
+          "note": {
+            "en": "Private talk, find the cause, then get firmer if needed.",
+            "vi": "Nói riêng, tìm nguyên nhân, cần thì cứng rắn hơn."
+          },
+          "questions": [
+            "q35",
+            "q40",
+            "q41"
+          ]
+        },
+        {
+          "title": {
+            "en": "Your first weeks as leader",
+            "vi": "Những tuần đầu làm trưởng nhóm"
+          },
+          "note": {
+            "en": "Listen first and stay honest.",
+            "vi": "Lắng nghe trước và luôn trung thực."
+          },
+          "questions": [
+            "q44",
+            "q45",
+            "q48"
+          ]
+        },
+        {
+          "title": {
+            "en": "Thinking like a leader",
+            "vi": "Tư duy của người dẫn dắt"
+          },
+          "note": {
+            "en": "From doing the work to helping the team succeed.",
+            "vi": "Từ tự làm sang giúp cả nhóm thành công."
+          },
+          "questions": [
+            "q46",
+            "q47",
+            "q49",
+            "q50"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "en": "Agree the goal, what done looks like and who owns each part before you start.",
+      "vi": "Thống nhất mục tiêu, thế nào là xong và ai phụ trách phần nào trước khi bắt đầu."
+    },
+    {
+      "en": "Give every task one named owner and write roles down.",
+      "vi": "Mỗi việc có một người phụ trách cụ thể và ghi lại vai trò."
+    },
+    {
+      "en": "Delegate with a clear result, deadline, resources and check-in time.",
+      "vi": "Giao việc kèm kết quả, hạn chót, nguồn lực và mốc hỏi tiến độ rõ ràng."
+    },
+    {
+      "en": "Run short meetings with an agenda and end with decisions, owners and deadlines.",
+      "vi": "Họp ngắn có chương trình và kết thúc bằng quyết định, người làm, hạn chót."
+    },
+    {
+      "en": "Agree decision criteria first, then disagree and commit.",
+      "vi": "Thống nhất tiêu chí quyết định trước, rồi bất đồng nhưng cam kết."
+    },
+    {
+      "en": "Share news with everyone at once and give bad news early.",
+      "vi": "Thông báo cho mọi người cùng lúc và báo tin xấu sớm."
+    },
+    {
+      "en": "Give feedback privately and soon, describing behaviour and impact, never labels.",
+      "vi": "Góp ý riêng và kịp thời, mô tả hành vi và tác động, không gán nhãn."
+    },
+    {
+      "en": "As a new leader, listen first, be honest and build trust instead of control.",
+      "vi": "Khi mới làm trưởng nhóm, hãy lắng nghe trước, trung thực và xây dựng niềm tin thay vì kiểm soát."
+    }
+  ],
+  "glossary": [
+    {
+      "en": "shared goal",
+      "vi": "mục tiêu chung"
+    },
+    {
+      "en": "task owner",
+      "vi": "người phụ trách một việc"
+    },
+    {
+      "en": "role",
+      "vi": "vai trò"
+    },
+    {
+      "en": "to delegate",
+      "vi": "giao việc, uỷ quyền"
+    },
+    {
+      "en": "workload",
+      "vi": "khối lượng công việc"
+    },
+    {
+      "en": "mini deadline",
+      "vi": "hạn chót nhỏ, mốc trung gian"
+    },
+    {
+      "en": "check-in",
+      "vi": "lần hỏi tiến độ ngắn"
+    },
+    {
+      "en": "agenda",
+      "vi": "chương trình họp"
+    },
+    {
+      "en": "parking list",
+      "vi": "danh sách chủ đề để bàn sau"
+    },
+    {
+      "en": "action item",
+      "vi": "việc cần làm sau cuộc họp"
+    },
+    {
+      "en": "consensus",
+      "vi": "sự đồng thuận"
+    },
+    {
+      "en": "consultation",
+      "vi": "sự tham vấn, hỏi ý kiến"
+    },
+    {
+      "en": "disagree and commit",
+      "vi": "bất đồng nhưng cam kết"
+    },
+    {
+      "en": "blocker",
+      "vi": "điểm vướng, trở ngại"
+    },
+    {
+      "en": "status update",
+      "vi": "bản cập nhật tình hình"
+    },
+    {
+      "en": "recognition",
+      "vi": "sự ghi nhận"
+    },
+    {
+      "en": "feedback",
+      "vi": "góp ý, phản hồi"
+    },
+    {
+      "en": "one to one meeting",
+      "vi": "cuộc nói chuyện riêng một với một"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "question": {
+        "text": "You are starting a new project with three colleagues, what should the group agree on before anyone starts?",
+        "audioId": "",
+        "vi": "Bạn bắt đầu một dự án mới với ba đồng nghiệp, cả nhóm nên thống nhất điều gì trước khi bắt tay vào làm?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Only the deadline, because people will work out everything else on their own",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The shared goal, what success looks like, and who is responsible for each part",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The office seating plan and which chat app looks the most modern",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Nothing at all, since planning too early usually wastes the team's valuable time",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A team moves in the same direction only when everyone knows the goal, how success will be judged and who owns which part. Ten minutes of agreement at the start saves days of confusion later. Try saying: \"Before we start, can we agree what done looks like and who takes each part?\"",
+        "vi": "Nhóm chỉ đi cùng một hướng khi ai cũng biết mục tiêu, cách đánh giá thành công và ai phụ trách phần nào. Mười phút thống nhất lúc đầu tiết kiệm nhiều ngày rối rắm về sau. Bạn có thể nói: \"Trước khi bắt đầu, mình thống nhất thế nào là xong và ai nhận phần nào nhé?\""
+      }
+    },
+    {
+      "id": "q02",
+      "question": {
+        "text": "Your new team has a vague goal to improve customer service, what is the best first step?",
+        "audioId": "",
+        "vi": "Nhóm mới của bạn có mục tiêu mơ hồ là cải thiện dịch vụ khách hàng, bước đầu tiên tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Tell everyone to try harder and check again at the end of the year",
+          "audioId": "",
+          "variants": [
+            "Tell everyone to try harder"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Start buying new software immediately before anyone understands the actual problem",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Wait until your manager gives a clearer goal without asking any questions yourself",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Turn it into a specific target, such as replying to every complaint within one day",
+          "audioId": "",
+          "variants": [
+            "Make it a specific, measurable target"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A vague goal cannot guide daily work, because nobody knows when it is reached. Turn it into something you can see or count, then everyone can check progress. \"Try harder\" gives no direction, and buying tools before understanding the problem often wastes money.",
+        "vi": "Mục tiêu mơ hồ không dẫn dắt được công việc hằng ngày vì không ai biết khi nào đạt. Hãy biến nó thành điều nhìn thấy hoặc đếm được, khi đó cả nhóm tự kiểm tra được tiến độ. \"Cố gắng hơn\" không cho hướng đi nào, còn mua công cụ trước khi hiểu vấn đề thường phí tiền."
+      }
+    },
+    {
+      "id": "q03",
+      "question": {
+        "text": "Two team members both thought the other one was calling the supplier, so nobody called, what was the main problem?",
+        "audioId": "",
+        "vi": "Hai thành viên đều nghĩ người kia sẽ gọi nhà cung cấp nên chẳng ai gọi, vấn đề chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The supplier should have called the team first, so it was really their fault",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Nobody was clearly named as the owner of that task, so responsibility fell between them",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Both members are lazy and should be replaced by more reliable new staff",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The team had too many meetings and not enough time for real work",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "When a task belongs to \"someone\", it often belongs to no one. The fix is not blaming people but naming one owner for every task, out loud and in writing. A quick line like \"Lan calls the supplier by Thursday\" would have prevented this.",
+        "vi": "Khi một việc thuộc về \"ai đó\", nó thường chẳng thuộc về ai. Cách sửa không phải đổ lỗi mà là chỉ định một người phụ trách cho mỗi việc, nói rõ và ghi lại. Chỉ một dòng như \"Lan gọi nhà cung cấp trước thứ Năm\" là đã tránh được chuyện này."
+      }
+    },
+    {
+      "id": "q04",
+      "question": {
+        "text": "What does it mean when one person is the owner of a task?",
+        "audioId": "",
+        "vi": "Một người là người phụ trách một việc nghĩa là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "That person makes sure the task gets done, even if others help with parts",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "That person must do every single piece of work alone without asking for help",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "That person can give orders to the whole team, including the manager",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "That person only reports the result and is never blamed if it fails",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The owner is the one who makes sure the task is finished and on time. They can ask for help and share pieces of the work, but they keep track of the whole thing. Owning a task is about responsibility, not doing everything alone or gaining power over others.",
+        "vi": "Người phụ trách là người đảm bảo việc được làm xong và đúng hạn. Họ có thể nhờ giúp và chia bớt phần việc, nhưng vẫn theo dõi toàn bộ. Phụ trách là chịu trách nhiệm, không phải làm một mình hay có quyền ra lệnh cho người khác."
+      }
+    },
+    {
+      "id": "q05",
+      "question": {
+        "text": "At the start of a group project, two members want to do the same exciting part, what should you do?",
+        "audioId": "",
+        "vi": "Đầu dự án nhóm, hai thành viên cùng muốn làm phần hấp dẫn nhất, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Discuss everyone's strengths and interests openly, then agree roles that cover all the work",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Let them both do it and leave the boring parts for whoever has time",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Pick your closest friend for the part and tell the other to accept it",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Flip a coin quickly so nobody has to talk about it any further",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "An open talk about strengths and interests helps you share out both the exciting and the boring parts fairly. People accept roles more easily when they understand the reason. If the boring parts are left for later, they are often forgotten.",
+        "vi": "Một cuộc trao đổi cởi mở về điểm mạnh và sở thích giúp bạn chia đều cả phần hấp dẫn lẫn phần nhàm chán. Mọi người dễ nhận vai hơn khi hiểu lý do. Nếu phần nhàm chán bị để lại \"ai rảnh thì làm\", nó thường bị bỏ quên."
+      }
+    },
+    {
+      "id": "q06",
+      "question": {
+        "text": "Why is writing down the team's goals and roles better than only agreeing on them verbally?",
+        "audioId": "",
+        "vi": "Vì sao ghi lại mục tiêu và vai trò của nhóm tốt hơn chỉ thống nhất bằng lời?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Written notes are only useful when the boss wants to check on people",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Speaking is always enough, because good teams never forget what they agreed",
+          "audioId": "",
+          "variants": [
+            "Speaking is always enough for good teams"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "A short written note removes different memories later and helps new members catch up",
+          "audioId": "",
+          "variants": [
+            "Written notes stop people remembering things differently"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Writing things down makes the team look formal, which is the main benefit",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "After a few weeks, people remember the same conversation differently. A short note in the team chat or a shared document gives everyone one version to come back to. It also lets a new or absent member catch up without asking everyone.",
+        "vi": "Sau vài tuần, mỗi người nhớ cùng một cuộc trao đổi theo một kiểu. Một ghi chú ngắn trong nhóm chat hoặc tài liệu chung cho cả nhóm một phiên bản duy nhất để xem lại. Nó cũng giúp người mới hoặc người vắng mặt nắm lại mà không phải hỏi từng người."
+      }
+    },
+    {
+      "id": "q07",
+      "question": {
+        "text": "A team member asks why the project matters, and you are not sure yourself, what should you do?",
+        "audioId": "",
+        "vi": "Một thành viên hỏi vì sao dự án này quan trọng, và chính bạn cũng không chắc, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Tell them it is not their business and that they should just do the work",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Invent an impressive reason quickly so the team does not lose motivation",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ignore the question and hope they forget about it by the next week",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Admit it honestly, find out the purpose from the manager, and share it with everyone",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "People work better when they understand why their work matters. If you do not know, say \"Good question, let me check with our manager and get back to you.\" An invented reason may be discovered later and damage trust.",
+        "vi": "Mọi người làm tốt hơn khi hiểu công việc của mình quan trọng vì sao. Nếu chưa biết, hãy nói \"Câu hỏi hay, để mình hỏi lại quản lý rồi báo mọi người nhé.\" Một lý do bịa ra có thể bị phát hiện và làm mất lòng tin."
+      }
+    },
+    {
+      "id": "q08",
+      "question": {
+        "text": "Which sign shows that team roles are not clear enough?",
+        "audioId": "",
+        "vi": "Dấu hiệu nào cho thấy vai trò trong nhóm chưa đủ rõ?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Members sometimes disagree about ideas during meetings before reaching a decision",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The team finishes work early and has time to help other teams",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "People often ask who is handling something, and some tasks are done twice",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Everyone has a different working style and prefers a different time to focus",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Repeated questions like \"Who is doing this?\" and duplicated work are classic signs of unclear roles. Disagreeing about ideas is normal and healthy, and different working styles are not a problem in themselves. When you see these signs, review the task list and name an owner for each item.",
+        "vi": "Những câu hỏi lặp đi lặp lại như \"Việc này ai làm?\" và việc bị làm trùng là dấu hiệu điển hình của vai trò không rõ. Bất đồng về ý tưởng là bình thường và lành mạnh, phong cách làm việc khác nhau cũng không phải vấn đề. Khi thấy các dấu hiệu này, hãy rà lại danh sách việc và ghi tên người phụ trách cho từng mục."
+      }
+    },
+    {
+      "id": "q09",
+      "question": {
+        "text": "Your team has a big report due in two weeks, what is the best way to divide the work?",
+        "audioId": "",
+        "vi": "Nhóm bạn có một báo cáo lớn phải nộp trong hai tuần, cách chia việc tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Give everyone the whole report and choose the best version at the end",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Do most of it yourself, because explaining the parts takes too much time",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Break it into clear parts, match each part to a person, and set mini deadlines",
+          "audioId": "",
+          "variants": [
+            "Split it into parts with owners and mini deadlines"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Divide the pages equally by number without thinking about difficulty or skills",
+          "audioId": "",
+          "variants": [
+            "Give everyone the same number of pages"
+          ]
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Big work becomes manageable when it is broken into parts, each with one owner and its own small deadline. Mini deadlines show problems early instead of on the last day. Equal page counts look fair but ignore that some sections are much harder.",
+        "vi": "Việc lớn trở nên dễ quản lý khi được chia thành từng phần, mỗi phần một người phụ trách và một hạn nhỏ riêng. Hạn nhỏ giúp lộ vấn đề sớm thay vì đến ngày cuối. Chia đều số trang trông có vẻ công bằng nhưng bỏ qua việc có phần khó hơn nhiều."
+      }
+    },
+    {
+      "id": "q10",
+      "question": {
+        "text": "What is the main difference between dividing tasks by skill and dividing them equally by amount?",
+        "audioId": "",
+        "vi": "Khác biệt chính giữa chia việc theo kỹ năng và chia đều theo số lượng là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "There is no real difference, since every task in a team takes equal effort",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "By skill puts work where people do it best, while equal amounts may ignore difficulty",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Dividing by skill is always unfair, so managers should never use that method",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Equal amounts are only used in big companies, never in small teams",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Dividing by skill gives each task to the person who can do it best, which usually means better quality and speed. Dividing by amount feels fair but can give one person all the hard tasks. A good leader looks at both skill and real workload, and explains the reason.",
+        "vi": "Chia theo kỹ năng giao mỗi việc cho người làm tốt nhất, thường cho chất lượng và tốc độ cao hơn. Chia đều theo số lượng tạo cảm giác công bằng nhưng có thể dồn hết việc khó cho một người. Người dẫn dắt tốt nhìn cả kỹ năng lẫn khối lượng thật, và giải thích lý do."
+      }
+    },
+    {
+      "id": "q11",
+      "question": {
+        "text": "One member is very good at design and always gets the design work, what might you consider?",
+        "audioId": "",
+        "vi": "Một thành viên rất giỏi thiết kế và luôn nhận hết việc thiết kế, bạn có thể cân nhắc điều gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Keep giving them all design work forever, since changing anything is risky",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Stop giving them design work completely so they do not feel too proud",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Sometimes pair them with a learner, so skills spread and the team is less dependent",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask them to do design at night in addition to their normal workload",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "If only one person can do a job, the team is stuck when that person is sick or leaves. Pairing them with a learner spreads the skill and gives the expert a chance to teach. You might say: \"Could you show Minh how you build the layout on the next task?\"",
+        "vi": "Nếu chỉ một người làm được một việc, cả nhóm sẽ kẹt khi người đó ốm hoặc nghỉ. Ghép họ với một người đang học giúp lan toả kỹ năng và cho người giỏi cơ hội hướng dẫn. Bạn có thể nói: \"Lần tới em chỉ cho Minh cách em dựng bố cục được không?\""
+      }
+    },
+    {
+      "id": "q12",
+      "question": {
+        "text": "What does delegating a task mean for a team leader?",
+        "audioId": "",
+        "vi": "Với trưởng nhóm, giao việc nghĩa là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Passing jobs you dislike to others so you can relax and avoid work",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Giving someone responsibility and authority for a task while staying available for support",
+          "audioId": "",
+          "variants": [
+            "Handing over responsibility and authority while still supporting"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Telling someone exactly how to do each small step and watching them all day",
+          "audioId": "",
+          "variants": [
+            "Giving step by step orders and watching all day"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Sending a task to another department and forgetting about it completely afterwards",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Real delegation hands over both the responsibility and the right to make decisions about the task. The leader stays available, checks in at agreed points and still owns the overall result. Dumping unwanted jobs or controlling every step are not delegation.",
+        "vi": "Giao việc thật sự là trao cả trách nhiệm lẫn quyền quyết định trong phạm vi công việc đó. Người dẫn dắt vẫn sẵn sàng hỗ trợ, kiểm tra ở các mốc đã hẹn và vẫn chịu trách nhiệm về kết quả chung. Đẩy việc mình không thích hay kiểm soát từng bước đều không phải là giao việc."
+      }
+    },
+    {
+      "id": "q13",
+      "question": {
+        "text": "You delegate a task to a colleague, what should you make clear when you hand it over?",
+        "audioId": "",
+        "vi": "Khi giao một việc cho đồng nghiệp, bạn cần nói rõ những gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Only the deadline, because adults should figure out the rest without any guidance",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Every tiny step in order, so they never need to make any decision themselves",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The expected result, the deadline, the resources available, and when you will check in",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Nothing specific, since a quick chat message saying please handle this is enough",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A clear handover covers what good looks like, when it is due, what help or tools are available and when you will check progress. This gives the person freedom on how to do it while avoiding surprises. A message like \"please handle this\" leaves too much to guess.",
+        "vi": "Một lần giao việc rõ ràng gồm: kết quả mong muốn, hạn chót, nguồn lực hỗ trợ và khi nào bạn sẽ hỏi tiến độ. Như vậy người nhận được tự do chọn cách làm mà không có bất ngờ. Một tin nhắn \"em xử lý giúp nhé\" để lại quá nhiều điều phải đoán."
+      }
+    },
+    {
+      "id": "q14",
+      "question": {
+        "text": "A leader delegates a task but then redoes it secretly at night, what is the main mistake?",
+        "audioId": "",
+        "vi": "Trưởng nhóm giao việc rồi lại âm thầm làm lại vào buổi tối, sai lầm chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The leader should have redone it during office hours so everyone could see",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The leader did nothing wrong, because quality always matters more than anything else",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The member should have been fired for not reaching the leader's standard",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It wastes effort and teaches the member nothing, so trust and skills never grow",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Secretly redoing work doubles the effort and hides the real gap, so the member never learns what was missing. If the quality is not right, give specific feedback and let them fix it. Say: \"This part needs more detail, here is an example, can you update it by Friday?\"",
+        "vi": "Âm thầm làm lại tốn gấp đôi công sức và che mất khoảng trống thật, nên người được giao không bao giờ biết mình thiếu gì. Nếu chất lượng chưa đạt, hãy góp ý cụ thể và để họ tự sửa. Ví dụ: \"Phần này cần chi tiết hơn, đây là ví dụ, em cập nhật trước thứ Sáu nhé?\""
+      }
+    },
+    {
+      "id": "q15",
+      "question": {
+        "text": "You feel that doing a task yourself is faster than explaining it, but it repeats every week, what should you do?",
+        "audioId": "",
+        "vi": "Bạn thấy tự làm nhanh hơn giải thích, nhưng việc đó lặp lại mỗi tuần, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Keep doing it yourself forever, since explaining is always slower than doing",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Give it to someone without any explanation and let them learn by failing",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Stop doing the task entirely and hope nobody notices that it is missing",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Spend time teaching it once, because the team saves time every week after that",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "For a one-time task, doing it yourself may be faster. For a task that repeats, teaching it once pays back every week and frees you for leader work. A short written checklist makes the handover even easier.",
+        "vi": "Với việc chỉ làm một lần, tự làm có thể nhanh hơn. Với việc lặp lại, dạy một lần sẽ được đền đáp hằng tuần và giải phóng bạn cho việc của người dẫn dắt. Một bảng các bước ngắn gọn giúp việc bàn giao dễ hơn nữa."
+      }
+    },
+    {
+      "id": "q16",
+      "question": {
+        "text": "A team member says they already have too much work when you give them a new task, what is the best response?",
+        "audioId": "",
+        "vi": "Khi bạn giao việc mới, một thành viên nói họ đã quá nhiều việc, cách phản hồi tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Tell them everyone is busy and they simply need to work longer hours",
+          "audioId": "",
+          "variants": [
+            "Tell them to work longer hours like everyone"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Take the task back silently and never ask them to help again",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Give the task anyway and remind them that complaining looks unprofessional",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Look at their current list together and agree what to drop, delay, or move",
+          "audioId": "",
+          "variants": [
+            "Review their list together and agree what to move"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A complaint about workload is useful information, not disobedience. Reviewing the list together shows real priorities and lets you decide what can wait. Try: \"Let's look at what you have this week, which item can move so this one fits?\"",
+        "vi": "Lời than quá tải là thông tin hữu ích, không phải sự chống đối. Cùng xem danh sách việc giúp thấy ưu tiên thật và quyết định việc nào có thể chờ. Bạn có thể nói: \"Mình cùng xem tuần này em đang có gì, việc nào lùi được để vừa việc mới?\""
+      }
+    },
+    {
+      "id": "q17",
+      "question": {
+        "text": "Why should you check in during a delegated task instead of only at the end?",
+        "audioId": "",
+        "vi": "Vì sao nên hỏi tiến độ giữa chừng khi đã giao việc, thay vì chỉ xem lúc cuối?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It shows the member clearly that you do not trust them at all",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Only new members need check-ins, experienced people never need them at work",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Early check-ins catch misunderstandings while they are still small and easy to fix",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Looking only at the end is enough, since problems usually solve themselves",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A short check-in at an agreed point finds wrong assumptions before much work is wasted. Agreeing the check-in time at handover makes it feel like support, not control. Even experienced people benefit from a quick \"How is it going, anything blocking you?\"",
+        "vi": "Một lần hỏi tiến độ ngắn ở mốc đã hẹn giúp phát hiện hiểu sai trước khi lãng phí nhiều công sức. Hẹn sẵn mốc này khi giao việc khiến nó giống sự hỗ trợ chứ không phải kiểm soát. Ngay cả người nhiều kinh nghiệm cũng được lợi từ câu hỏi nhanh \"Việc thế nào rồi, có gì vướng không?\""
+      }
+    },
+    {
+      "id": "q18",
+      "question": {
+        "text": "You need a thirty minute team meeting to plan next week, what should you prepare first?",
+        "audioId": "",
+        "vi": "Bạn cần một buổi họp nhóm ba mươi phút để lên kế hoạch tuần sau, bạn nên chuẩn bị gì trước?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A long slide presentation covering every project the company has ever done",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Nothing, because the best meetings are relaxed and have no fixed topics",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A list of people to blame for the problems from last week",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A short agenda with the goal of the meeting and the decisions you need",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A short agenda tells people why they are meeting and what must be decided, so they can come prepared. Send it a day before if possible. Without a goal, a meeting easily turns into a long chat with no result.",
+        "vi": "Một chương trình họp ngắn cho mọi người biết họp để làm gì và cần quyết định điều gì, nhờ đó họ chuẩn bị trước. Nếu được, hãy gửi trước một ngày. Không có mục tiêu, cuộc họp dễ thành buổi nói chuyện dài mà không có kết quả."
+      }
+    },
+    {
+      "id": "q19",
+      "question": {
+        "text": "Which sign shows that a team meeting has gone off track?",
+        "audioId": "",
+        "vi": "Dấu hiệu nào cho thấy một cuộc họp nhóm đã đi lạc hướng?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Someone asks a question to understand a point before the group moves on",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The leader summarises the decisions and owners at the end of the meeting",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Two members share different opinions politely and then the group agrees",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "People discuss side topics for a long time and the agenda items stay undecided",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A meeting is off track when time goes to side topics while the planned decisions are not made. Questions for understanding and polite disagreement are normal parts of a good meeting. When you notice drift, say \"Let's come back to the agenda, we still need to decide the budget.\"",
+        "vi": "Cuộc họp đi lạc khi thời gian dành cho chuyện bên lề còn các quyết định dự kiến chưa được đưa ra. Hỏi để hiểu và bất đồng lịch sự là phần bình thường của một cuộc họp tốt. Khi thấy lạc đề, hãy nói \"Mình quay lại chương trình nhé, mình vẫn cần chốt ngân sách.\""
+      }
+    },
+    {
+      "id": "q20",
+      "question": {
+        "text": "During a meeting, a member starts a long debate about a topic that is not on the agenda, what should you do?",
+        "audioId": "",
+        "vi": "Đang họp, một thành viên mở một cuộc tranh luận dài về chủ đề không có trong chương trình, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Note it in a parking list and offer to discuss it later with the right people",
+          "audioId": "",
+          "variants": [
+            "Put it on a parking list for later"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Let the debate continue, because interrupting a colleague is always rude",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Tell the member loudly that their topic is not important to anyone",
+          "audioId": "",
+          "variants": [
+            "Say loudly that their topic does not matter"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "End the meeting immediately and send everyone back to their desks",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A parking list respects the idea without letting it take over the meeting. You might say: \"That's an important point, let's park it and discuss it after this with the people involved.\" Then make sure you really follow up, or people will stop trusting the list.",
+        "vi": "Danh sách \"để sau\" tôn trọng ý kiến mà không để nó chiếm cuộc họp. Bạn có thể nói: \"Ý này quan trọng, mình ghi lại và bàn sau buổi này với những người liên quan nhé.\" Sau đó phải thật sự quay lại, nếu không mọi người sẽ không còn tin danh sách này."
+      }
+    },
+    {
+      "id": "q21",
+      "question": {
+        "text": "What should every meeting end with to make sure work actually happens?",
+        "audioId": "",
+        "vi": "Mỗi cuộc họp nên kết thúc bằng điều gì để đảm bảo công việc thật sự được làm?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A long round of thanks and compliments for everyone who joined the call",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A promise to meet again soon without saying what will happen next",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A quick summary of decisions, who does each action, and by when",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A vote on whether the meeting was useful or not for each member",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Many meetings end with good ideas but no clear actions. A two-minute summary of decisions, owners and deadlines turns talk into work. Send the same summary in writing right after the meeting.",
+        "vi": "Nhiều cuộc họp kết thúc với ý hay nhưng không có việc cụ thể. Hai phút tóm tắt quyết định, người làm và hạn chót biến lời nói thành việc làm. Hãy gửi lại bản tóm tắt đó bằng văn bản ngay sau buổi họp."
+      }
+    },
+    {
+      "id": "q22",
+      "question": {
+        "text": "Why is a short daily check-in often better than one long weekly meeting for a busy small team?",
+        "audioId": "",
+        "vi": "Vì sao với một nhóm nhỏ bận rộn, buổi cập nhật ngắn mỗi ngày thường tốt hơn một cuộc họp dài mỗi tuần?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Short meetings are better simply because people dislike sitting together for long",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Daily meetings let the leader watch people more closely, which is the goal",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Problems surface quickly and nobody waits a whole week to ask for help",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Daily check-ins replace all planning, so the team never needs longer meetings",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A ten or fifteen minute daily check-in, where each person says what they did, what is next and what blocks them, brings problems to light fast. It is not for control, and it does not replace deeper planning sessions. Keep it short and move long discussions to a separate talk.",
+        "vi": "Một buổi cập nhật hằng ngày mười đến mười lăm phút, mỗi người nói đã làm gì, sắp làm gì và đang vướng gì, giúp vấn đề lộ ra nhanh. Nó không nhằm kiểm soát và cũng không thay thế các buổi lập kế hoạch sâu hơn. Giữ nó ngắn và chuyển những thảo luận dài sang buổi riêng."
+      }
+    },
+    {
+      "id": "q23",
+      "question": {
+        "text": "The team must choose between two suppliers and opinions are split, what is the best way to decide?",
+        "audioId": "",
+        "vi": "Nhóm phải chọn giữa hai nhà cung cấp và ý kiến chia đôi, cách quyết định tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Choose the supplier the loudest person prefers so the meeting can end quickly",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Agree the criteria first, compare both options against them, then make a clear call",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Keep discussing until everyone agrees completely, even if it takes many weeks",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Postpone the decision and keep using neither supplier until problems appear",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "When people argue about options, they often use different criteria without saying so. Agreeing first on what matters, such as price, quality and delivery time, turns opinions into a fair comparison. Then someone must make the call so the work can move.",
+        "vi": "Khi tranh luận về các lựa chọn, mỗi người thường dùng một tiêu chí khác nhau mà không nói ra. Thống nhất trước điều gì quan trọng, như giá, chất lượng và thời gian giao hàng, biến ý kiến thành một phép so sánh công bằng. Sau đó phải có người chốt để công việc tiếp tục."
+      }
+    },
+    {
+      "id": "q24",
+      "question": {
+        "text": "What is the difference between deciding by consensus and the leader deciding after consultation?",
+        "audioId": "",
+        "vi": "Quyết định theo đồng thuận khác với trưởng nhóm quyết định sau khi tham vấn như thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Consensus needs everyone's agreement, while consultation gathers views and then one person decides",
+          "audioId": "",
+          "variants": [
+            "Consensus is full agreement, consultation is listening and then one person decides"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Consensus means the leader decides alone, and consultation means a secret vote",
+          "audioId": "",
+          "variants": [
+            "Consensus is the leader alone, consultation is a secret vote"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "There is no difference, because both methods always take exactly the same time",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Consultation is only for big companies, and consensus is only for families",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Consensus means the group keeps talking until everyone can accept the decision, which builds support but takes time. With consultation, the leader listens to everyone and then decides, which is faster. Tell the team at the start which method you will use, so nobody feels tricked.",
+        "vi": "Đồng thuận nghĩa là cả nhóm bàn đến khi ai cũng chấp nhận được, tạo sự ủng hộ nhưng tốn thời gian. Tham vấn là người dẫn dắt lắng nghe mọi người rồi tự quyết, nhanh hơn. Hãy nói trước với nhóm sẽ quyết theo cách nào để không ai cảm thấy bị qua mặt."
+      }
+    },
+    {
+      "id": "q25",
+      "question": {
+        "text": "After a team decision, one member who disagreed keeps reopening the debate, what should you do?",
+        "audioId": "",
+        "vi": "Sau khi nhóm đã quyết định, một thành viên không đồng ý cứ mở lại cuộc tranh luận, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Acknowledge their concern, explain why the decision stands, and ask them to commit for now",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Change the decision again so that this member finally stops complaining",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Exclude the member from future meetings so the debate cannot return",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Pretend not to hear the comments and hope the member gives up",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Reopening every decision stops the team from moving. Recognise the concern, repeat the reason, and agree when the decision can be reviewed, for example after a month of results. Say: \"I hear your worry, we'll check the numbers next month, until then let's go with this plan.\"",
+        "vi": "Liên tục mở lại mọi quyết định khiến cả nhóm không tiến lên được. Hãy ghi nhận băn khoăn, nhắc lại lý do, và hẹn thời điểm xem lại, ví dụ sau một tháng có kết quả. Bạn có thể nói: \"Anh hiểu em lo, tháng sau mình xem số liệu, còn bây giờ mình làm theo kế hoạch này nhé.\""
+      }
+    },
+    {
+      "id": "q26",
+      "question": {
+        "text": "What does disagree and commit mean in a team?",
+        "audioId": "",
+        "vi": "\"Bất đồng nhưng cam kết\" trong nhóm nghĩa là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "You should agree with everything quietly and never share a different opinion",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "You commit to the decision only when it matches your own original idea",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "You can voice disagreement, but once the team decides, you support the decision fully",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "You keep arguing after the decision until the team finally changes its mind",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Disagree and commit means honest debate before the decision and full effort after it. It protects both open discussion and fast action. Half-hearted work on a decision you dislike usually makes it fail, which helps nobody.",
+        "vi": "\"Bất đồng nhưng cam kết\" nghĩa là tranh luận thẳng thắn trước khi quyết định và làm hết sức sau khi đã quyết. Nó bảo vệ cả sự cởi mở lẫn tốc độ hành động. Làm nửa vời với quyết định mình không thích thường khiến nó thất bại, chẳng có lợi cho ai."
+      }
+    },
+    {
+      "id": "q27",
+      "question": {
+        "text": "Your project deadline will slip by a few days, when should you tell the team and manager?",
+        "audioId": "",
+        "vi": "Hạn chót dự án sẽ trễ vài ngày, khi nào bạn nên báo cho nhóm và quản lý?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "On the deadline day itself, since there may still be a small chance",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Never, because maybe nobody will notice a delay of just a few days",
+          "audioId": "",
+          "variants": [
+            "Never, hoping nobody notices the delay"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Only after it is finished, so you can explain everything at once",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "As soon as you know, with the reason, the new date, and your plan",
+          "audioId": "",
+          "variants": [
+            "Right away, with the reason and new plan"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Early bad news gives others time to adjust their own plans. Late bad news feels like a surprise and damages trust. A good message: \"We will be three days late because the data arrived late, the new date is Monday, and here is how we will get there.\"",
+        "vi": "Tin xấu báo sớm cho người khác thời gian điều chỉnh kế hoạch của họ. Tin xấu báo muộn thành bất ngờ và làm mất lòng tin. Một tin nhắn tốt: \"Bên em sẽ trễ ba ngày vì dữ liệu về muộn, ngày mới là thứ Hai, và đây là cách bên em sẽ kịp.\""
+      }
+    },
+    {
+      "id": "q28",
+      "question": {
+        "text": "Your manager asks for a weekly written update from your team, what should it contain?",
+        "audioId": "",
+        "vi": "Quản lý yêu cầu nhóm bạn gửi bản cập nhật hằng tuần, bản cập nhật nên có những gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Short points on what is done, what is next, and any blockers needing help",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A long story of every hour you worked, written in one big paragraph",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Only good news, because problems should stay hidden until they are solved",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A list of complaints about other teams who slowed your work down",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Busy readers want three things: progress, next steps and problems where they can help. Short bullet points are easier to scan than a long paragraph. Mention blockers clearly with what you need, rather than hiding them or blaming others.",
+        "vi": "Người đọc bận rộn cần ba điều: tiến độ, bước tiếp theo, và vấn đề họ có thể giúp. Gạch đầu dòng ngắn dễ đọc lướt hơn một đoạn dài. Nêu rõ điểm vướng và điều bạn cần, thay vì giấu đi hay đổ lỗi cho người khác."
+      }
+    },
+    {
+      "id": "q29",
+      "question": {
+        "text": "A leader shares important changes only with the two members who sit nearest, what is the main mistake?",
+        "audioId": "",
+        "vi": "Trưởng nhóm chỉ báo thay đổi quan trọng cho hai người ngồi gần nhất, sai lầm chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Others hear it late or second hand, which creates confusion and feelings of exclusion",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The leader should have told only one member to keep the news private",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "There is no mistake, because nearby members can always pass on everything perfectly",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The leader should have waited until the end of the year to announce it",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Information passed from person to person arrives late and often changed. People who hear news last may feel left out or less valued. Share important changes with the whole team at the same time, then write them down in the shared channel.",
+        "vi": "Thông tin truyền miệng qua nhiều người đến muộn và thường bị sai lệch. Người biết tin sau cùng có thể thấy mình bị bỏ rơi hoặc ít được coi trọng. Hãy thông báo thay đổi quan trọng cho cả nhóm cùng lúc, rồi ghi lại trong kênh chung."
+      }
+    },
+    {
+      "id": "q30",
+      "question": {
+        "text": "Why is one shared task board better than updates scattered across many private chats?",
+        "audioId": "",
+        "vi": "Vì sao một bảng việc chung tốt hơn những cập nhật rải rác trong nhiều tin nhắn riêng?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Private chats are always better, since they feel friendlier and more personal",
+          "audioId": "",
+          "variants": [
+            "Private chats feel friendlier, so they are better"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "A task board is useful only for managers to punish slow members",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Scattered updates are fine, because people enjoy searching through messages",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Everyone sees the same current information in one place without asking around",
+          "audioId": "",
+          "variants": [
+            "Everyone sees the same information in one place"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "When updates live in many private chats, each person sees only part of the picture. A shared board or sheet shows who is doing what and the status of each task. It can be a simple spreadsheet, the tool matters less than everyone using the same one.",
+        "vi": "Khi cập nhật nằm rải rác trong nhiều tin nhắn riêng, mỗi người chỉ thấy một phần bức tranh. Một bảng việc chung cho thấy ai đang làm gì và tình trạng từng việc. Chỉ cần một bảng tính đơn giản, công cụ không quan trọng bằng việc cả nhóm cùng dùng một chỗ."
+      }
+    },
+    {
+      "id": "q31",
+      "question": {
+        "text": "A remote member often misses information decided in quick office conversations, what should you do?",
+        "audioId": "",
+        "vi": "Một thành viên làm từ xa thường lỡ thông tin được chốt trong các cuộc trao đổi nhanh ở văn phòng, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Tell the remote member they must come to the office if they want news",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Write down quick decisions in the team channel so everyone gets them equally",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Accept it, because remote workers cannot expect to know everything",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask a colleague to phone them sometimes when there is time to spare",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Decisions made at someone's desk are invisible to people working elsewhere. A simple habit fixes it: after any quick decision, post one line in the team channel. This also helps office members who were not in that conversation.",
+        "vi": "Quyết định đưa ra ở bàn làm việc của ai đó là vô hình với người làm việc từ xa. Một thói quen đơn giản giải quyết được: sau mỗi quyết định nhanh, đăng một dòng lên kênh chung của nhóm. Điều này cũng giúp cả những người ở văn phòng không có mặt lúc đó."
+      }
+    },
+    {
+      "id": "q32",
+      "question": {
+        "text": "A member stayed late to fix a client problem that saved the project, how should you recognise it?",
+        "audioId": "",
+        "vi": "Một thành viên ở lại muộn sửa sự cố cho khách và cứu được dự án, bạn nên ghi nhận thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say nothing, since doing a good job is simply part of their salary",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Thank them specifically for what they did and how it helped, in front of the team",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Send a general thanks to the whole team without mentioning anyone by name",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Present the fix to your manager as your own idea to protect the team",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Specific recognition shows you really noticed and tells the team what good work looks like. For example: \"Huy stayed late to fix the client's data, and because of that we kept the contract.\" Taking credit yourself is one of the fastest ways to lose a team's trust.",
+        "vi": "Ghi nhận cụ thể cho thấy bạn thật sự để ý và cho cả nhóm biết thế nào là làm tốt. Ví dụ: \"Huy ở lại muộn sửa dữ liệu cho khách, nhờ vậy mình giữ được hợp đồng.\" Nhận công về mình là một trong những cách nhanh nhất để mất lòng tin của nhóm."
+      }
+    },
+    {
+      "id": "q33",
+      "question": {
+        "text": "Why is specific praise more useful than saying good job to everyone?",
+        "audioId": "",
+        "vi": "Vì sao khen cụ thể có ích hơn nói \"làm tốt lắm\" với tất cả mọi người?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "General praise is better, because specific praise makes other members feel jealous",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Specific praise takes too long, so leaders should only give it once a year",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "There is no difference, because people only care about money, not words",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It shows exactly which behaviour to repeat and proves you noticed the real effort",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "\"Good job\" said to everyone quickly loses meaning. Naming the action and its effect teaches the team what to repeat and makes the person feel seen. It takes only one or two sentences, so it can be done often.",
+        "vi": "Câu \"Làm tốt lắm\" nói với mọi người nhanh chóng mất ý nghĩa. Nêu rõ hành động và tác dụng của nó dạy cả nhóm điều nên lặp lại và khiến người được khen thấy mình được nhìn nhận. Chỉ cần một hai câu, nên có thể làm thường xuyên."
+      }
+    },
+    {
+      "id": "q34",
+      "question": {
+        "text": "A leader often praises the members who speak most in meetings but rarely the quiet ones, what is the risk?",
+        "audioId": "",
+        "vi": "Trưởng nhóm hay khen người nói nhiều trong cuộc họp nhưng hiếm khi khen người ít nói, rủi ro là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Quiet but strong contributors feel unseen and may stop giving extra effort",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Quiet members will become louder and the meetings will be too noisy",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "There is no risk, since quiet members do not want any recognition",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The loud members will start to work less because they get too much praise",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Visible people are easy to praise, but much important work happens quietly. If quiet contributors are never recognised, they may feel their effort does not matter. Look at results, not volume, and thank quiet members privately or in writing if they dislike attention.",
+        "vi": "Người nói nhiều dễ được khen, nhưng nhiều việc quan trọng diễn ra lặng lẽ. Nếu người ít nói không bao giờ được ghi nhận, họ có thể nghĩ công sức của mình không quan trọng. Hãy nhìn vào kết quả, không phải độ ồn, và cảm ơn riêng hoặc bằng tin nhắn nếu họ không thích bị chú ý."
+      }
+    },
+    {
+      "id": "q35",
+      "question": {
+        "text": "A team member keeps missing deadlines for their part, what is the best first step?",
+        "audioId": "",
+        "vi": "Một thành viên liên tục trễ hạn phần việc của mình, bước đầu tiên tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Talk privately, describe the facts, and ask what is getting in their way",
+          "audioId": "",
+          "variants": [
+            "Speak privately, share facts, and ask what is blocking them"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Mention it in the group chat so peer pressure makes them work faster",
+          "audioId": "",
+          "variants": [
+            "Call them out in the group chat"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Quietly do their part yourself so the project is not delayed again",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Report them to the manager immediately without speaking to them first",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The reason behind missed deadlines may be unclear tasks, too much work or a personal problem. A private, factual talk finds the cause and keeps the person's dignity. Try: \"The last two parts came in after the deadline, what is making it hard?\"",
+        "vi": "Lý do trễ hạn có thể là việc không rõ, quá tải hoặc chuyện cá nhân. Một cuộc nói chuyện riêng, dựa trên sự việc, giúp tìm ra nguyên nhân và giữ thể diện cho người đó. Bạn có thể nói: \"Hai phần gần đây đều nộp sau hạn, có điều gì đang làm em khó khăn không?\""
+      }
+    },
+    {
+      "id": "q36",
+      "question": {
+        "text": "A leader tells a member you are always lazy after one late task, what is the main mistake?",
+        "audioId": "",
+        "vi": "Trưởng nhóm nói với một thành viên \"em lúc nào cũng lười\" chỉ sau một lần trễ việc, sai lầm chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The leader should have said it more loudly so the message was clear",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The leader should have waited for three late tasks before saying anything",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It labels the person instead of describing one specific behaviour and its effect",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no mistake, since honest words are always the most helpful feedback",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Words like \"always\" and \"lazy\" attack the person, so they defend themselves instead of improving. Describe the behaviour and its effect instead: \"The report came in a day late, so the client got our numbers late.\" That is honest and gives them something they can change.",
+        "vi": "Những từ như \"lúc nào cũng\" và \"lười\" tấn công con người, nên họ sẽ phòng thủ thay vì cải thiện. Hãy mô tả hành vi và tác động: \"Báo cáo nộp trễ một ngày nên khách nhận số liệu muộn.\" Như vậy vẫn thẳng thắn và cho họ điều cụ thể để thay đổi."
+      }
+    },
+    {
+      "id": "q37",
+      "question": {
+        "text": "Which simple structure helps you give clear feedback to a teammate?",
+        "audioId": "",
+        "vi": "Cấu trúc đơn giản nào giúp bạn góp ý rõ ràng cho đồng đội?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Start with criticism, add more criticism, and finish with a warning about their job",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Describe the situation, the behaviour you saw, and the impact it had on the work",
+          "audioId": "",
+          "variants": [
+            "Situation, behaviour and impact"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Talk about their personality and compare them with the best person on the team",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Send a short emoji reaction and let them guess what you really mean",
+          "audioId": "",
+          "variants": [
+            "Send an emoji and let them guess"
+          ]
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The situation, behaviour, impact structure keeps feedback factual. For example: \"In this morning's client call, you interrupted the client twice, and they seemed annoyed.\" Then ask for their view and agree what to do next time.",
+        "vi": "Cấu trúc tình huống, hành vi, tác động giúp góp ý dựa trên sự việc. Ví dụ: \"Trong cuộc gọi với khách sáng nay, em ngắt lời khách hai lần và khách có vẻ không vui.\" Sau đó hỏi ý họ và thống nhất lần sau sẽ làm gì."
+      }
+    },
+    {
+      "id": "q38",
+      "question": {
+        "text": "A teammate gives you critical feedback about your part in front of others, what is the best response?",
+        "audioId": "",
+        "vi": "Một đồng đội góp ý gay gắt về phần việc của bạn trước mặt người khác, cách phản hồi tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Defend yourself immediately and point out their mistakes from last month too",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Stay calm, thank them, ask for an example, and discuss details privately later",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Stay silent and then refuse to work with them for the rest of the project",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Agree with everything instantly just to end the uncomfortable moment quickly",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Receiving feedback well is a skill too. Thanking the person and asking for an example shows maturity and helps you understand the real point. Say: \"Thanks, can you give me an example? Let's go through it after the meeting.\"",
+        "vi": "Nhận góp ý tốt cũng là một kỹ năng. Cảm ơn và hỏi ví dụ cho thấy bạn chín chắn và giúp bạn hiểu ý thật của họ. Bạn có thể nói: \"Cảm ơn anh, anh cho em một ví dụ được không? Mình trao đổi kỹ sau buổi họp nhé.\""
+      }
+    },
+    {
+      "id": "q39",
+      "question": {
+        "text": "Why is feedback given soon after an event better than feedback saved for the yearly review?",
+        "audioId": "",
+        "vi": "Vì sao góp ý ngay sau sự việc tốt hơn để dành đến buổi đánh giá cuối năm?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Details are still fresh, and the person can improve before the problem grows",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Saving feedback is better, because a big list at once is more impressive",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Quick feedback is only useful for new staff, never for experienced members",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Waiting is kinder, since people should not hear any criticism during the year",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Feedback works best within a day or two, while both people remember what happened. Saved-up feedback arrives as a shock and the person cannot fix something from months ago. Small, timely comments also feel less heavy than one big list.",
+        "vi": "Góp ý hiệu quả nhất trong vòng một hai ngày, khi cả hai còn nhớ rõ sự việc. Góp ý dồn lại đến như một cú sốc và người nghe không thể sửa chuyện từ nhiều tháng trước. Những góp ý nhỏ, kịp thời cũng nhẹ nhàng hơn một danh sách dài."
+      }
+    },
+    {
+      "id": "q40",
+      "question": {
+        "text": "After a private talk, the member who missed deadlines explains they have a family problem, what should you do?",
+        "audioId": "",
+        "vi": "Sau cuộc nói chuyện riêng, thành viên hay trễ hạn cho biết gia đình đang có chuyện, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Tell them personal problems must stay at home and work must come first",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Show understanding, agree a realistic adjustment for now, and set a time to review",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Remove all their tasks permanently without asking what support would actually help",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Promise anything they want, even deadlines the client cannot accept at all",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A good leader balances care for the person with the needs of the work. Agree a temporary change, such as fewer tasks or a later deadline, and a date to check again. Ask: \"What would help most for the next two weeks?\" rather than deciding for them.",
+        "vi": "Người dẫn dắt tốt cân bằng giữa quan tâm con người và yêu cầu công việc. Hãy thống nhất một điều chỉnh tạm thời, như bớt việc hoặc lùi hạn, và hẹn ngày xem lại. Hãy hỏi: \"Trong hai tuần tới, điều gì giúp em nhiều nhất?\" thay vì tự quyết thay họ."
+      }
+    },
+    {
+      "id": "q41",
+      "question": {
+        "text": "You agreed a plan with a member who is not doing their part, but nothing changes after two weeks, what is next?",
+        "audioId": "",
+        "vi": "Bạn đã thống nhất kế hoạch với một thành viên không làm phần việc của mình, nhưng hai tuần sau vẫn không thay đổi, bước tiếp theo là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Have a firmer follow-up talk, state clear consequences, and involve the manager if needed",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Keep waiting patiently, because pushing people too hard always makes things worse",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Complain about them to other members during lunch to share your frustration",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Give the same reminder again in exactly the same way as before",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "If a fair plan has not worked, the next talk should be clearer and more serious. Explain what will happen if things do not change, and bring in the manager when it is beyond your authority. Gossiping with other members only damages the team.",
+        "vi": "Nếu một kế hoạch công bằng không hiệu quả, lần nói chuyện tiếp theo cần rõ ràng và nghiêm túc hơn. Hãy nói điều gì sẽ xảy ra nếu không thay đổi, và nhờ quản lý tham gia khi vượt quá thẩm quyền của bạn. Than phiền với thành viên khác chỉ làm hại cả nhóm."
+      }
+    },
+    {
+      "id": "q42",
+      "question": {
+        "text": "What should you separate when you discuss a problem with a teammate's work?",
+        "audioId": "",
+        "vi": "Khi trao đổi về vấn đề trong công việc của đồng đội, bạn nên tách bạch điều gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Your work life from your feelings, by never showing any emotion at all",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The good members from the bad members, so you know whom to trust",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The facts of what happened from your guesses about why the person did it",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The small mistakes from the big ones, and ignore every small mistake forever",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "\"The file was sent late\" is a fact, \"She doesn't care\" is a guess. Start with facts and ask about reasons, because your guess may be wrong. This keeps the talk calm and focused on solving the problem.",
+        "vi": "\"File gửi trễ\" là sự việc, \"Cô ấy không quan tâm\" là phỏng đoán. Hãy bắt đầu bằng sự việc rồi hỏi lý do, vì phỏng đoán của bạn có thể sai. Cách này giữ cuộc trao đổi bình tĩnh và tập trung vào giải quyết vấn đề."
+      }
+    },
+    {
+      "id": "q43",
+      "question": {
+        "text": "What is the main difference between feedback and blame?",
+        "audioId": "",
+        "vi": "Khác biệt chính giữa góp ý và đổ lỗi là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Feedback is written and blame is spoken, but both have the same purpose",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Feedback aims to improve future work, while blame focuses on punishing past mistakes",
+          "audioId": "",
+          "variants": [
+            "Feedback improves the future, blame punishes the past"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Blame is honest and feedback is polite, so blame is usually more useful",
+          "audioId": "",
+          "variants": [
+            "Blame is more honest, so it is more useful"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "There is no difference, because any comment about work is a kind of blame",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Feedback looks forward and asks what we can do better next time. Blame looks back and asks whose fault it was, which makes people hide mistakes. A team that hides mistakes repeats them.",
+        "vi": "Góp ý nhìn về phía trước và hỏi lần sau làm thế nào tốt hơn. Đổ lỗi nhìn về phía sau và hỏi lỗi của ai, khiến mọi người giấu sai sót. Một nhóm giấu sai sót sẽ lặp lại chúng."
+      }
+    },
+    {
+      "id": "q44",
+      "question": {
+        "text": "You have just been promoted to lead your former teammates, what is a good first step?",
+        "audioId": "",
+        "vi": "Bạn vừa được thăng chức lên dẫn dắt chính những đồng đội cũ, bước đầu tiên tốt là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Meet each person one to one to learn their goals, worries, and working style",
+          "audioId": "",
+          "variants": [
+            "Have one to one talks to learn about each person"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Change all the team's processes in the first week to show you are in charge",
+          "audioId": "",
+          "variants": [
+            "Change every process in week one"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Act as if nothing changed and avoid making any decisions for a few months",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Stop having lunch with them so they see you as a serious boss",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Short one to one talks show respect and help you understand what each person needs from you. Big changes in the first week can feel like a show of power. Ask simple questions like \"What should I keep, and what should I change?\"",
+        "vi": "Những cuộc nói chuyện riêng ngắn cho thấy sự tôn trọng và giúp bạn hiểu mỗi người cần gì ở mình. Thay đổi lớn ngay tuần đầu dễ bị xem như phô trương quyền lực. Hãy hỏi những câu đơn giản như \"Theo em, mình nên giữ gì và thay đổi gì?\""
+      }
+    },
+    {
+      "id": "q45",
+      "question": {
+        "text": "A former teammate, now in your team, jokes that you are the big boss now, how should you respond?",
+        "audioId": "",
+        "vi": "Một đồng đội cũ, giờ trong nhóm bạn, đùa rằng bạn giờ là \"sếp lớn\" rồi, bạn nên đáp lại thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Smile, accept the change openly, and say you want to keep working together well",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Remind them strictly that they must now follow your orders without questions",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Deny that you are a leader and say nothing has changed at all",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Feel hurt and avoid them from now on to protect your new authority",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The joke often hides real uncertainty about how things will change. Acknowledging the new role calmly and warmly reduces that tension. You might say: \"Ha, my role has changed, but I still need your ideas, let's make this work together.\"",
+        "vi": "Câu đùa thường che giấu sự băn khoăn thật về việc mọi thứ sẽ thay đổi ra sao. Thừa nhận vai trò mới một cách bình tĩnh và thân thiện giúp giảm căng thẳng. Bạn có thể nói: \"Vai trò của mình có đổi, nhưng mình vẫn cần ý kiến của bạn, cùng làm cho tốt nhé.\""
+      }
+    },
+    {
+      "id": "q46",
+      "question": {
+        "text": "A new leader keeps doing their old specialist tasks all day and ignores team questions, what is the main mistake?",
+        "audioId": "",
+        "vi": "Một trưởng nhóm mới cả ngày vẫn làm việc chuyên môn cũ và bỏ qua câu hỏi của nhóm, sai lầm chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "They should do even more specialist tasks to show they are the best worker",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "They have not shifted from doing the work to helping the team succeed",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "There is no mistake, because team members should never need any help",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "They should hide in another room so that people stop asking questions",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Many new leaders stay in their comfort zone, doing the work they were promoted for. But the leader's main value now comes from planning, removing obstacles and supporting others. Block time each day for team questions and coaching.",
+        "vi": "Nhiều người mới lên làm trưởng nhóm vẫn ở trong vùng an toàn, làm công việc chuyên môn đã giúp họ được thăng chức. Nhưng giá trị chính của người dẫn dắt giờ đến từ việc lên kế hoạch, gỡ vướng và hỗ trợ người khác. Hãy dành riêng thời gian mỗi ngày cho câu hỏi và kèm cặp nhóm."
+      }
+    },
+    {
+      "id": "q47",
+      "question": {
+        "text": "What is the main job of a team leader compared with a regular team member?",
+        "audioId": "",
+        "vi": "Công việc chính của trưởng nhóm khác gì so với một thành viên bình thường?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "To do the hardest technical work alone and take credit for the results",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "To watch everyone closely and report every small mistake to senior managers",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "To make every decision personally, from big plans to the colour of folders",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "To set direction, remove obstacles, and help the whole team deliver results together",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A team member is judged by their own work, a leader by the results of the whole team. That means making the goal clear, clearing blockers and helping people grow. Making every small decision yourself slows the team down.",
+        "vi": "Thành viên được đánh giá qua công việc của mình, còn người dẫn dắt qua kết quả của cả nhóm. Nghĩa là làm rõ mục tiêu, gỡ vướng và giúp mọi người phát triển. Tự mình quyết từng việc nhỏ chỉ làm cả nhóm chậm lại."
+      }
+    },
+    {
+      "id": "q48",
+      "question": {
+        "text": "As a new leader, you do not know the answer to a member's technical question, what should you say?",
+        "audioId": "",
+        "vi": "Là trưởng nhóm mới, bạn không biết câu trả lời cho câu hỏi chuyên môn của một thành viên, bạn nên nói gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Give a confident answer anyway, because leaders must always look like they know",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Tell them the question is too basic and they should already know it",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Change the subject quickly and hope they forget they ever asked",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Admit you are not sure, then offer to find out or find an expert",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Leaders are not expected to know everything, but they are expected to be honest. A wrong confident answer can cause real mistakes and cost you credibility. Say: \"I'm not sure, let me check with the IT team and get back to you this afternoon.\"",
+        "vi": "Không ai đòi người dẫn dắt biết mọi thứ, nhưng ai cũng mong họ trung thực. Một câu trả lời tự tin nhưng sai có thể gây lỗi thật và làm bạn mất uy tín. Hãy nói: \"Mình chưa chắc, để mình hỏi bên kỹ thuật rồi báo lại em chiều nay.\""
+      }
+    },
+    {
+      "id": "q49",
+      "question": {
+        "text": "Why is asking for the team's ideas before deciding often better than announcing your plan straight away?",
+        "audioId": "",
+        "vi": "Vì sao hỏi ý kiến nhóm trước khi quyết định thường tốt hơn công bố ngay kế hoạch của bạn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Asking for ideas is only a polite show, since the leader's plan never changes",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "People spot problems you missed and commit more to a plan they helped shape",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Announcing plans straight away is always weaker, so leaders should never decide alone",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Asking ideas mainly helps the leader avoid responsibility if the plan fails",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The people doing the work often see risks the leader cannot. When their ideas are used, they feel ownership and work harder to make the plan succeed. This does not mean the leader never decides alone, urgent situations may need a quick call.",
+        "vi": "Người trực tiếp làm việc thường thấy những rủi ro mà người dẫn dắt không thấy. Khi ý kiến của họ được dùng, họ thấy kế hoạch là của mình và cố gắng hơn để nó thành công. Điều này không có nghĩa người dẫn dắt không bao giờ tự quyết, lúc khẩn cấp vẫn cần chốt nhanh."
+      }
+    },
+    {
+      "id": "q50",
+      "question": {
+        "text": "What is the difference between a boss who controls every detail and a leader who builds trust?",
+        "audioId": "",
+        "vi": "Một người sếp kiểm soát từng chi tiết khác gì với một người dẫn dắt xây dựng niềm tin?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A controlling boss always gets better results, since people work harder when watched",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A trusting leader never checks any work and lets the team do whatever they like",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Control creates dependence and slow work, while trust lets people take initiative and grow",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no real difference, since both simply give instructions to the team",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "When every detail needs the boss's approval, people stop thinking and wait, and the boss becomes a bottleneck. Trust, with clear goals and agreed check-ins, lets people decide and learn. Trust is not the same as never checking, it means checking results rather than every step.",
+        "vi": "Khi mọi chi tiết đều phải chờ sếp duyệt, mọi người ngừng suy nghĩ và chỉ chờ, còn sếp thành điểm nghẽn. Sự tin tưởng, đi kèm mục tiêu rõ và mốc kiểm tra đã hẹn, giúp mọi người tự quyết và học hỏi. Tin tưởng không phải là không bao giờ kiểm tra, mà là kiểm tra kết quả thay vì từng bước."
+      }
+    }
+  ]
+}

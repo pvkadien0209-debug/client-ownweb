@@ -1,0 +1,2377 @@
+{
+  "id": "lesson-1",
+  "branch": "skills",
+  "topic": "handling-conflict",
+  "title": {
+    "vi": "Bình tĩnh, lắng nghe và hoá giải mâu thuẫn",
+    "en": "Stay calm, listen and resolve conflict"
+  },
+  "level": "B1",
+  "status": "draft",
+  "updatedAt": "2026-10-14",
+  "reviewNote": "Bản nháp do Claude soạn và tự kiểm (2026-10-14). Chờ DIENPHAM duyệt.",
+  "overview": [
+    {
+      "heading": {
+        "en": "Conflict is normal, the way you handle it matters",
+        "vi": "Mâu thuẫn là chuyện bình thường, cách xử lý mới quan trọng"
+      },
+      "paragraphs": [
+        {
+          "en": "Disagreements happen at work, at home and with neighbours. They become harmful when people attack each other, avoid the problem or try to win at any cost. Handled well, a difficult conversation can solve a problem and even build trust.",
+          "vi": "Bất đồng xảy ra ở công sở, trong nhà và với hàng xóm. Nó chỉ gây hại khi người ta tấn công nhau, né tránh vấn đề hoặc cố thắng bằng mọi giá. Xử lý tốt, một cuộc nói chuyện khó có thể giải quyết vấn đề và thậm chí tăng thêm lòng tin."
+        },
+        {
+          "en": "The skills in this lesson follow one order: calm yourself, understand the other person, say what you need clearly, take responsibility for your part, and agree on next steps.",
+          "vi": "Các kỹ năng trong bài đi theo một trình tự: làm mình bình tĩnh, hiểu người kia, nói rõ điều mình cần, nhận phần trách nhiệm của mình và thống nhất bước tiếp theo."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Calm first, then talk",
+        "vi": "Bình tĩnh trước, nói sau"
+      },
+      "paragraphs": [
+        {
+          "en": "Learn your own warning signs, like a hot face or a fast heartbeat. When you notice them, pause and breathe before you answer. If emotions are too strong, ask for a break with a clear time to continue, and then really come back.",
+          "vi": "Hãy nhận biết dấu hiệu báo động của chính bạn, như mặt nóng hay tim đập nhanh. Khi thấy chúng, hãy dừng lại hít thở trước khi trả lời. Nếu cảm xúc quá mạnh, hãy xin tạm dừng và hẹn rõ lúc nói tiếp, rồi thật sự quay lại."
+        },
+        {
+          "en": "Avoid replying to angry emails at once and avoid serious talks when everyone is tired. Good timing is part of good communication.",
+          "vi": "Tránh trả lời ngay những email làm bạn bực và tránh nói chuyện nghiêm túc khi ai cũng mệt. Chọn thời điểm đúng cũng là một phần của giao tiếp tốt."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Separate facts from feelings and listen actively",
+        "vi": "Tách sự việc khỏi cảm xúc và lắng nghe chủ động"
+      },
+      "paragraphs": [
+        {
+          "en": "Describe what happened in specific terms that a camera could record, then name your feeling separately. Avoid words like always and never, and avoid labels such as lazy or selfish.",
+          "vi": "Mô tả chuyện đã xảy ra bằng những chi tiết cụ thể mà máy quay ghi lại được, rồi nói cảm xúc của bạn tách riêng. Tránh những từ như 'lúc nào cũng', 'không bao giờ' và những cái nhãn như 'lười', 'ích kỷ'."
+        },
+        {
+          "en": "Listen to understand, not to reply. Let the other person finish, ask open questions and summarise what you heard before giving your side.",
+          "vi": "Nghe để hiểu, không phải để đáp trả. Hãy để người kia nói hết, đặt câu hỏi mở và tóm tắt điều bạn nghe được trước khi nói phần của mình."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Sample situation: the stolen idea",
+        "vi": "Tình huống mẫu: ý tưởng bị nhận vơ"
+      },
+      "paragraphs": [
+        {
+          "en": "In a weekly meeting, a colleague presents a cost saving plan that you wrote. You feel angry. A common reaction is to stay silent and complain to friends later, or to accuse the colleague in front of everyone. Both damage your position.",
+          "vi": "Trong buổi họp tuần, một đồng nghiệp trình bày kế hoạch tiết kiệm chi phí mà bạn đã viết. Bạn thấy giận. Phản ứng thường gặp là im lặng rồi đi kể với bạn bè, hoặc buộc tội đồng nghiệp trước mặt mọi người. Cả hai đều làm bạn yếu thế."
+        },
+        {
+          "en": "A better approach: breathe, then calmly add a detail only the author would know. After the meeting, talk privately with facts and a question, and agree how to show who did what in future. Start sending short progress emails so your contribution is visible.",
+          "vi": "Cách tốt hơn: hít thở, rồi bình tĩnh bổ sung một chi tiết mà chỉ người viết mới biết. Sau buổi họp, nói chuyện riêng bằng sự việc và một câu hỏi, rồi thống nhất cách ghi nhận ai làm phần nào về sau. Bắt đầu gửi email cập nhật ngắn để đóng góp của bạn được nhìn thấy."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Say what you need and take responsibility",
+        "vi": "Nói điều mình cần và nhận trách nhiệm"
+      },
+      "paragraphs": [
+        {
+          "en": "Use I-statements: I feel this, when that happens, because of this effect, could we try this. Disagree with your boss privately, start from the shared goal, and support the final decision once it is made.",
+          "vi": "Dùng câu nói ngôi 'tôi': tôi thấy thế này, khi chuyện kia xảy ra, vì ảnh hưởng này, mình thử cách này được không. Phản biện sếp ở chỗ riêng, bắt đầu từ mục tiêu chung, và ủng hộ quyết định cuối cùng khi đã chốt."
+        },
+        {
+          "en": "When you are wrong, apologise fully: name the action, admit the effect, say sorry and explain the fix, with no but and no excuses. Saying sorry for your part often helps the other person admit theirs.",
+          "vi": "Khi sai, hãy xin lỗi trọn vẹn: nêu hành động, thừa nhận ảnh hưởng, nói xin lỗi và cách khắc phục, không 'nhưng' và không viện cớ. Xin lỗi phần của mình thường giúp người kia nhận phần của họ."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Mediating and handling disputes at home",
+        "vi": "Hoà giải và xử lý mâu thuẫn ở nhà"
+      },
+      "paragraphs": [
+        {
+          "en": "When you help two people, stay neutral, set simple ground rules and look for interests behind positions. With family and neighbours, talk early and privately, keep to one issue and avoid audiences.",
+          "vi": "Khi giúp hai người hoà giải, hãy giữ trung lập, đặt vài nguyên tắc đơn giản và tìm lợi ích đằng sau lập trường. Với gia đình và hàng xóm, hãy nói sớm, nói riêng, mỗi lần một chuyện và tránh có người ngoài chứng kiến."
+        },
+        {
+          "en": "A conflict is truly resolved when both sides agree on next steps and feel heard, not when one side simply goes quiet.",
+          "vi": "Mâu thuẫn chỉ thật sự được giải quyết khi hai bên thống nhất bước tiếp theo và thấy mình được lắng nghe, chứ không phải khi một bên chỉ im lặng."
+        }
+      ]
+    }
+  ],
+  "tree": [
+    {
+      "title": {
+        "en": "Staying calm and stepping back",
+        "vi": "Giữ bình tĩnh và biết tạm dừng"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Catching anger early",
+            "vi": "Nhận ra cơn giận sớm"
+          },
+          "note": {
+            "en": "Notice the body signs, pause and breathe before you answer.",
+            "vi": "Nhận ra dấu hiệu cơ thể, dừng lại hít thở trước khi trả lời."
+          },
+          "questions": [
+            "q01",
+            "q02",
+            "q03"
+          ]
+        },
+        {
+          "title": {
+            "en": "Taking a real break",
+            "vi": "Tạm dừng đúng cách"
+          },
+          "note": {
+            "en": "A break needs a set time to come back, and you must return.",
+            "vi": "Tạm dừng cần hẹn giờ quay lại, và phải thật sự quay lại."
+          },
+          "questions": [
+            "q04",
+            "q05",
+            "q06"
+          ]
+        },
+        {
+          "title": {
+            "en": "Coming back calmly",
+            "vi": "Quay lại một cách bình tĩnh"
+          },
+          "note": {
+            "en": "Wait before angry emails and restart with curiosity.",
+            "vi": "Chờ trước khi trả lời email đang giận, mở lại bằng sự muốn hiểu."
+          },
+          "questions": [
+            "q07",
+            "q08"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Facts, feelings and listening",
+        "vi": "Sự việc, cảm xúc và lắng nghe"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Facts versus judgements",
+            "vi": "Sự việc và phán xét"
+          },
+          "note": {
+            "en": "Say what a camera would record, then your feeling.",
+            "vi": "Nói điều máy quay ghi lại được, rồi mới nói cảm xúc."
+          },
+          "questions": [
+            "q09",
+            "q10",
+            "q11"
+          ]
+        },
+        {
+          "title": {
+            "en": "Listening to understand",
+            "vi": "Nghe để hiểu"
+          },
+          "note": {
+            "en": "Let them finish and reflect back what you heard.",
+            "vi": "Để người kia nói hết và nói lại điều bạn nghe được."
+          },
+          "questions": [
+            "q12",
+            "q13",
+            "q16"
+          ]
+        },
+        {
+          "title": {
+            "en": "Asking before deciding",
+            "vi": "Hỏi trước khi kết luận"
+          },
+          "note": {
+            "en": "Open questions and both sides before any decision.",
+            "vi": "Câu hỏi mở và nghe đủ hai bên trước khi quyết."
+          },
+          "questions": [
+            "q14",
+            "q15",
+            "q17"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Saying it with I-statements",
+        "vi": "Nói bằng câu ngôi tôi"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "What an I-statement is",
+            "vi": "Câu nói ngôi tôi là gì"
+          },
+          "note": {
+            "en": "Feeling, not blame, and no hidden labels.",
+            "vi": "Nói cảm xúc chứ không đổ lỗi, không cài nhãn trá hình."
+          },
+          "questions": [
+            "q18",
+            "q19",
+            "q20",
+            "q21"
+          ]
+        },
+        {
+          "title": {
+            "en": "Using it in real life",
+            "vi": "Dùng trong đời thật"
+          },
+          "note": {
+            "en": "Feeling, situation, effect and a clear request.",
+            "vi": "Cảm xúc, tình huống, ảnh hưởng và một đề nghị rõ."
+          },
+          "questions": [
+            "q22",
+            "q23",
+            "q24"
+          ]
+        },
+        {
+          "title": {
+            "en": "Assertive, not aggressive",
+            "vi": "Quyết đoán, không hung hăng"
+          },
+          "note": {
+            "en": "Speak up clearly while respecting the other person.",
+            "vi": "Lên tiếng rõ ràng nhưng vẫn tôn trọng người kia."
+          },
+          "questions": [
+            "q25"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Your boss and your colleagues",
+        "vi": "Với sếp và đồng nghiệp"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Disagreeing with your boss",
+            "vi": "Phản biện sếp"
+          },
+          "note": {
+            "en": "Privately, from the shared goal, then commit to the decision.",
+            "vi": "Nói riêng, bắt đầu từ mục tiêu chung, rồi cam kết với quyết định."
+          },
+          "questions": [
+            "q26",
+            "q27",
+            "q28"
+          ]
+        },
+        {
+          "title": {
+            "en": "When someone takes your credit",
+            "vi": "Khi bị nhận vơ công sức"
+          },
+          "note": {
+            "en": "Calm facts in the moment, a private talk later, written updates.",
+            "vi": "Bổ sung sự việc bình tĩnh, nói riêng sau đó, cập nhật bằng văn bản."
+          },
+          "questions": [
+            "q29",
+            "q30",
+            "q31"
+          ]
+        },
+        {
+          "title": {
+            "en": "Direct, private and fair",
+            "vi": "Trực tiếp, riêng tư và công bằng"
+          },
+          "note": {
+            "en": "Talk to the person first, in private, and stay calm.",
+            "vi": "Nói với chính người đó trước, ở chỗ riêng, và giữ bình tĩnh."
+          },
+          "questions": [
+            "q32",
+            "q33",
+            "q34"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Apologising and taking responsibility",
+        "vi": "Xin lỗi và nhận trách nhiệm"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "A real apology",
+            "vi": "Lời xin lỗi thật"
+          },
+          "note": {
+            "en": "Name the action and its effect, no if and no but.",
+            "vi": "Nêu hành động và ảnh hưởng, không 'nếu', không 'nhưng'."
+          },
+          "questions": [
+            "q35",
+            "q36",
+            "q37"
+          ]
+        },
+        {
+          "title": {
+            "en": "Owning your mistakes",
+            "vi": "Nhận lỗi của mình"
+          },
+          "note": {
+            "en": "Admit quickly, give space, say sorry for your part.",
+            "vi": "Nhận nhanh, cho người kia thời gian, xin lỗi phần của mình."
+          },
+          "questions": [
+            "q38",
+            "q39",
+            "q40"
+          ]
+        },
+        {
+          "title": {
+            "en": "Blame versus responsibility",
+            "vi": "Đổ lỗi và nhận trách nhiệm"
+          },
+          "note": {
+            "en": "No insult after sorry, and look for what you can do now.",
+            "vi": "Không chê sau lời xin lỗi, và tìm việc mình làm được ngay."
+          },
+          "questions": [
+            "q41",
+            "q42"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Mediating, family and neighbours",
+        "vi": "Hoà giải, gia đình và hàng xóm"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Being a fair mediator",
+            "vi": "Làm người hoà giải công bằng"
+          },
+          "note": {
+            "en": "Stay neutral and look for interests behind positions.",
+            "vi": "Giữ trung lập, tìm lợi ích đằng sau lập trường."
+          },
+          "questions": [
+            "q43",
+            "q44",
+            "q45"
+          ]
+        },
+        {
+          "title": {
+            "en": "Disputes at home and next door",
+            "vi": "Mâu thuẫn trong nhà và với hàng xóm"
+          },
+          "note": {
+            "en": "Talk early, privately, and one issue at a time.",
+            "vi": "Nói sớm, nói riêng, mỗi lần một chuyện."
+          },
+          "questions": [
+            "q46",
+            "q47",
+            "q48",
+            "q49"
+          ]
+        },
+        {
+          "title": {
+            "en": "Knowing it is resolved",
+            "vi": "Biết khi nào đã giải quyết xong"
+          },
+          "note": {
+            "en": "Clear next steps and both sides feel heard, not silence.",
+            "vi": "Có bước tiếp theo rõ và hai bên thấy được lắng nghe, không phải im lặng."
+          },
+          "questions": [
+            "q50"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "en": "Notice your warning signs, pause and breathe before you answer.",
+      "vi": "Nhận ra dấu hiệu báo động, dừng lại hít thở trước khi trả lời."
+    },
+    {
+      "en": "Take a break with a clear time to return, and really come back.",
+      "vi": "Tạm dừng có hẹn giờ quay lại, và thật sự quay lại."
+    },
+    {
+      "en": "Describe facts a camera could record, then name your feeling separately.",
+      "vi": "Mô tả sự việc như máy quay ghi lại, rồi nói cảm xúc tách riêng."
+    },
+    {
+      "en": "Listen to understand: let people finish, ask open questions, summarise.",
+      "vi": "Nghe để hiểu: để người khác nói hết, hỏi câu mở, tóm tắt lại."
+    },
+    {
+      "en": "Use I-statements with a clear request instead of blame.",
+      "vi": "Dùng câu nói ngôi 'tôi' kèm đề nghị rõ ràng thay vì đổ lỗi."
+    },
+    {
+      "en": "Disagree privately and respectfully, then support the final decision.",
+      "vi": "Phản biện riêng và tôn trọng, rồi ủng hộ quyết định cuối cùng."
+    },
+    {
+      "en": "Apologise fully with no excuses, and say sorry for your part.",
+      "vi": "Xin lỗi trọn vẹn không viện cớ, và nhận phần lỗi của mình."
+    },
+    {
+      "en": "As a mediator, stay neutral, find interests and agree next steps.",
+      "vi": "Khi hoà giải, giữ trung lập, tìm lợi ích và thống nhất bước tiếp theo."
+    }
+  ],
+  "glossary": [
+    {
+      "en": "conflict",
+      "vi": "mâu thuẫn, xung đột"
+    },
+    {
+      "en": "difficult conversation",
+      "vi": "cuộc nói chuyện khó"
+    },
+    {
+      "en": "to calm down",
+      "vi": "bình tĩnh lại"
+    },
+    {
+      "en": "to take a break",
+      "vi": "tạm dừng, nghỉ một lát"
+    },
+    {
+      "en": "trigger",
+      "vi": "điều khơi dậy cảm xúc mạnh"
+    },
+    {
+      "en": "fact versus judgement",
+      "vi": "sự việc và phán xét"
+    },
+    {
+      "en": "active listening",
+      "vi": "lắng nghe chủ động"
+    },
+    {
+      "en": "open question",
+      "vi": "câu hỏi mở"
+    },
+    {
+      "en": "I-statement",
+      "vi": "câu nói ngôi 'tôi' (nói về cảm xúc, nhu cầu của mình)"
+    },
+    {
+      "en": "assertive",
+      "vi": "quyết đoán, thẳng thắn mà tôn trọng"
+    },
+    {
+      "en": "aggressive",
+      "vi": "hung hăng, áp đặt"
+    },
+    {
+      "en": "disagree and commit",
+      "vi": "không đồng ý nhưng vẫn cam kết thực hiện"
+    },
+    {
+      "en": "to take credit",
+      "vi": "nhận công, nhận vơ công sức"
+    },
+    {
+      "en": "sincere apology",
+      "vi": "lời xin lỗi chân thành"
+    },
+    {
+      "en": "excuse",
+      "vi": "lời bào chữa, viện cớ"
+    },
+    {
+      "en": "to take responsibility",
+      "vi": "nhận trách nhiệm"
+    },
+    {
+      "en": "mediator",
+      "vi": "người hoà giải"
+    },
+    {
+      "en": "interests and positions",
+      "vi": "lợi ích và lập trường"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "question": {
+        "text": "Your colleague criticises your report loudly in a meeting and you feel your face getting hot, what should you do first?",
+        "audioId": "",
+        "vi": "Đồng nghiệp lớn tiếng chê báo cáo của bạn trong cuộc họp và bạn thấy mặt nóng bừng, bạn nên làm gì trước tiên?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Answer immediately and point out the mistakes in their own work in front of everyone",
+          "audioId": "",
+          "variants": [
+            "Point out their mistakes straight away"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Leave the meeting room without a word and refuse to come back today",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Pause, take a slow breath and wait a moment before you say anything back",
+          "audioId": "",
+          "variants": [
+            "Pause and breathe before you reply"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Laugh it off loudly so nobody can see that you are upset at all",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "When anger rises, it is harder to think clearly, so the first skill is to buy yourself a few seconds. A slow breath lets you choose a calm reply such as \"Thanks, can we look at that part together after the meeting?\" Hitting back at once usually turns one comment into a public fight.",
+        "vi": "Khi cơn giận dâng lên, bạn khó suy nghĩ sáng suốt, nên kỹ năng đầu tiên là câu thêm vài giây. Một hơi thở chậm giúp bạn chọn câu trả lời bình tĩnh như 'Cảm ơn anh, sau buổi họp mình cùng xem lại phần đó nhé?' Đáp trả ngay thường biến một lời nhận xét thành cuộc cãi nhau trước mặt mọi người."
+      }
+    },
+    {
+      "id": "q02",
+      "question": {
+        "text": "Why does it help to notice the physical signs of anger, like a fast heartbeat, early?",
+        "audioId": "",
+        "vi": "Vì sao nhận ra sớm các dấu hiệu cơ thể của cơn giận, như tim đập nhanh, lại có ích?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because those signs prove that the other person is completely wrong about the issue",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because you should hide every feeling at work and never show any emotion",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Noticing them early gives you time to calm down before you say something you regret",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Because once you notice them it is already too late to change anything",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Your body often reacts before your words do: a hot face, a tight jaw, a fast heartbeat. If you learn your own warning signs, you can slow down, breathe or ask for a pause before the anger speaks for you. The goal is not to hide feelings but to stay in control of what you say.",
+        "vi": "Cơ thể thường phản ứng trước lời nói: mặt nóng, hàm nghiến, tim đập nhanh. Nếu nhận ra dấu hiệu báo động của chính mình, bạn có thể chậm lại, hít thở hoặc xin tạm dừng trước khi cơn giận nói thay bạn. Mục tiêu không phải giấu cảm xúc mà là làm chủ lời mình nói."
+      }
+    },
+    {
+      "id": "q03",
+      "question": {
+        "text": "A phone call with an angry customer is getting louder and you feel you are about to snap, what is the best move?",
+        "audioId": "",
+        "vi": "Cuộc gọi với một khách hàng đang giận ngày càng to tiếng và bạn sắp mất bình tĩnh, cách xử lý tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Raise your voice too so the customer understands that you will not be pushed around",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Say you want to solve this properly and ask for a short break to check details",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Hang up suddenly and hope the customer does not call back again later",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Agree to everything the customer demands just to make the shouting stop quickly",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A short, honest pause protects both sides: \"I want to get this right for you, let me check the order and call you back in fifteen minutes.\" Shouting back makes the customer angrier, hanging up breaks trust, and promising everything creates new problems later.",
+        "vi": "Một khoảng dừng ngắn và thẳng thắn bảo vệ cả hai bên: 'Em muốn giải quyết đúng cho anh, cho em kiểm tra đơn hàng và gọi lại anh sau mười lăm phút nhé.' Lớn tiếng lại làm khách giận hơn, cúp máy làm mất niềm tin, còn hứa mọi thứ sẽ tạo ra rắc rối mới sau này."
+      }
+    },
+    {
+      "id": "q04",
+      "question": {
+        "text": "What is the difference between taking a break in a conflict and simply walking away?",
+        "audioId": "",
+        "vi": "Tạm dừng trong một cuộc mâu thuẫn khác với bỏ đi như thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "There is no difference, because both of them show that you have lost the argument",
+          "audioId": "",
+          "variants": [
+            "There is no difference between them"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Walking away is always more polite, because it avoids any uncomfortable talk forever",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A break comes with a clear time to continue, while walking away leaves the problem open",
+          "audioId": "",
+          "variants": [
+            "A break has a set time to come back"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "A break means the other person must apologise first before anyone can talk again",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A healthy break sounds like \"I need twenty minutes to calm down, then let's talk again at three.\" The other person knows you are coming back. Walking away without a time feels like rejection and leaves the problem growing.",
+        "vi": "Một lần tạm dừng lành mạnh nghe như 'Mình cần hai mươi phút để bình tĩnh, ba giờ mình nói tiếp nhé.' Người kia biết bạn sẽ quay lại. Bỏ đi mà không hẹn giờ giống như sự từ chối và để vấn đề ngày càng lớn."
+      }
+    },
+    {
+      "id": "q05",
+      "question": {
+        "text": "Your partner wants to discuss a money problem late at night when you are both tired and irritated, what is wiser?",
+        "audioId": "",
+        "vi": "Người bạn đời muốn bàn chuyện tiền bạc lúc đêm khuya khi cả hai đều mệt và cáu, làm gì thì khôn ngoan hơn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Agree it matters and suggest a set time tomorrow when you are both rested",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Start the discussion right away and keep going until one of you finally gives up",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Say the problem is not important and go to sleep without answering anything",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Bring up every old money mistake your partner has made over the past years",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Timing matters in difficult conversations. Tired people hear criticism more strongly and say harsher things. Saying \"This is important to me too, can we sit down tomorrow after dinner?\" shows respect and gives the talk a better chance.",
+        "vi": "Thời điểm rất quan trọng với cuộc nói chuyện khó. Khi mệt, người ta nghe lời phê bình nặng hơn và nói những câu gay gắt hơn. Nói 'Chuyện này với anh cũng quan trọng, mai ăn tối xong mình ngồi nói nhé?' cho thấy sự tôn trọng và giúp cuộc nói chuyện có cơ hội tốt hơn."
+      }
+    },
+    {
+      "id": "q06",
+      "question": {
+        "text": "During an argument your colleague asks for a short break but then avoids the topic for a whole week, what is the main mistake?",
+        "audioId": "",
+        "vi": "Trong lúc tranh cãi, đồng nghiệp xin tạm dừng nhưng rồi né chuyện đó cả tuần, sai lầm chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Asking for a break at all, because strong people should finish arguments immediately",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Asking for too short a break, since a real break should last at least a month",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Nothing is wrong, because time always solves problems without any conversation",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A break only works if you actually come back to the conversation as promised",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A pause is a promise to return. If it turns into silence, the other person feels ignored and the problem gets worse. Whoever asks for the break should be the one who restarts the talk, for example \"I'm ready now, can we finish what we started?\"",
+        "vi": "Tạm dừng là một lời hứa sẽ quay lại. Nếu nó biến thành im lặng, người kia thấy bị phớt lờ và vấn đề nặng thêm. Ai xin tạm dừng thì nên là người mở lại câu chuyện, ví dụ 'Giờ mình sẵn sàng rồi, mình nói nốt chuyện hôm trước nhé?'"
+      }
+    },
+    {
+      "id": "q07",
+      "question": {
+        "text": "You receive an email from a colleague that makes you very angry, what should you do before replying?",
+        "audioId": "",
+        "vi": "Bạn nhận email của đồng nghiệp khiến bạn rất giận, bạn nên làm gì trước khi trả lời?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Reply within a minute so the colleague knows exactly how angry they made you",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Write a draft if you need to, but wait and reread it before sending",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Forward the email to the whole team and ask everyone to judge it",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Copy your boss and the director to show you are not afraid",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Written words stay forever and can be forwarded. Writing a draft helps you let the feeling out, but rereading it later, or even calling the person instead, usually leads to a calmer and clearer reply. Forwarding or copying managers in anger turns a small issue into a big one.",
+        "vi": "Chữ viết tồn tại mãi và có thể bị chuyển tiếp. Viết nháp giúp bạn xả cảm xúc, nhưng đọc lại sau đó, hoặc gọi điện trực tiếp, thường cho câu trả lời bình tĩnh và rõ hơn. Chuyển tiếp hay đồng gửi sếp trong lúc giận biến chuyện nhỏ thành chuyện lớn."
+      }
+    },
+    {
+      "id": "q08",
+      "question": {
+        "text": "You return to a difficult conversation after a break, which opening sentence is the best way to restart calmly?",
+        "audioId": "",
+        "vi": "Khi quay lại một cuộc nói chuyện khó sau lúc tạm dừng, câu mở đầu nào giúp bắt đầu lại bình tĩnh nhất?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Let's start again, but first you need to admit that you were wrong earlier",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "I have thought about it and decided that I was right all along",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Thanks for waiting, I'd like to understand your view better and find a solution",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Let's just forget it, nothing we say will change anything anyway",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The first sentence after a break sets the tone. Thanking the person and showing curiosity tells them you came back to solve the problem, not to win. Opening with a demand or a verdict restarts the fight immediately.",
+        "vi": "Câu đầu tiên sau khi tạm dừng quyết định không khí. Cảm ơn người kia và tỏ ra muốn hiểu cho thấy bạn quay lại để giải quyết vấn đề chứ không phải để thắng. Mở đầu bằng yêu cầu hay phán xét sẽ khơi lại cuộc cãi nhau ngay lập tức."
+      }
+    },
+    {
+      "id": "q09",
+      "question": {
+        "text": "What does it mean to separate facts from feelings in a conflict?",
+        "audioId": "",
+        "vi": "Tách sự việc khỏi cảm xúc khi có mâu thuẫn nghĩa là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Talk only about feelings because facts make other people feel attacked and defensive",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Hide your feelings completely and talk about numbers and rules only",
+          "audioId": "",
+          "variants": [
+            "Hide your feelings and talk only about rules"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Describe what actually happened first, then say separately how it made you feel",
+          "audioId": "",
+          "variants": [
+            "Say what happened, then how you felt"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Mix both together quickly so the other person cannot argue with any point",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Facts are things a camera could record, like \"the report arrived on Friday evening\". Feelings are your inner reaction, like \"I felt stressed\". Keeping them apart makes it easier for the other person to accept the facts and understand your feeling without feeling attacked.",
+        "vi": "Sự việc là thứ một chiếc máy quay ghi lại được, như 'báo cáo đến lúc tối thứ Sáu'. Cảm xúc là phản ứng bên trong bạn, như 'tôi thấy căng thẳng'. Tách hai thứ ra giúp người kia dễ chấp nhận sự việc và hiểu cảm xúc của bạn mà không thấy bị tấn công."
+      }
+    },
+    {
+      "id": "q10",
+      "question": {
+        "text": "Which sentence describes a fact rather than a judgement about a colleague who is often late?",
+        "audioId": "",
+        "vi": "Câu nào mô tả sự việc chứ không phải phán xét về một đồng nghiệp hay đi muộn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "You are always late because you clearly do not care about this team",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "You arrived twenty minutes after the meeting started on Monday and Wednesday this week",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "You are the laziest person in the department and everyone knows it",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "You never respect anyone's time and you probably never will change",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A fact names what happened, when and how often, without guessing at reasons or character. Judgements like \"lazy\" or \"you don't care\" invite the person to defend themselves instead of discussing the behaviour.",
+        "vi": "Sự việc nêu rõ chuyện gì xảy ra, khi nào và bao nhiêu lần, không đoán lý do hay phán xét tính cách. Những lời như 'lười' hay 'bạn không quan tâm' khiến người kia tự vệ thay vì bàn về hành vi."
+      }
+    },
+    {
+      "id": "q11",
+      "question": {
+        "text": "Why is saying you were late twice this week better than saying you are always late?",
+        "audioId": "",
+        "vi": "Vì sao nói \"tuần này bạn đến muộn hai lần\" tốt hơn nói \"bạn lúc nào cũng muộn\"?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because always is a difficult English word that many colleagues do not understand",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A specific fact is hard to deny, while always sounds like an attack on character",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Because it is shorter, and short sentences always end every argument immediately",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Because specific facts let you add more blame without the person noticing",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Words like \"always\" and \"never\" are almost never true, so the other person will argue about the exception instead of the problem. A precise fact keeps the talk on what can be changed.",
+        "vi": "Những từ như 'lúc nào cũng' hay 'không bao giờ' hầu như không đúng, nên người kia sẽ cãi về ngoại lệ thay vì bàn vấn đề. Một sự việc cụ thể giữ câu chuyện ở điều có thể thay đổi."
+      }
+    },
+    {
+      "id": "q12",
+      "question": {
+        "text": "What is active listening in a difficult conversation?",
+        "audioId": "",
+        "vi": "Lắng nghe chủ động trong một cuộc nói chuyện khó là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Giving full attention, asking questions and checking that you understood the other person",
+          "audioId": "",
+          "variants": [
+            "Full attention, questions and checking understanding"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Waiting quietly until the other person stops so you can give your answer",
+          "audioId": "",
+          "variants": [
+            "Waiting until they stop so you can answer"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Nodding all the time while you plan your own reply in your head",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Repeating every word the other person says exactly like a recording machine",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Active listening means you are trying to understand, not just waiting for your turn. You look at the person, ask open questions and summarise what you heard, for example \"So the main problem is the short deadline, is that right?\"",
+        "vi": "Lắng nghe chủ động là cố gắng hiểu, không chỉ chờ đến lượt mình nói. Bạn nhìn người kia, đặt câu hỏi mở và tóm tắt điều mình nghe, ví dụ 'Vậy vấn đề chính là hạn chót quá gấp, đúng không?'"
+      }
+    },
+    {
+      "id": "q13",
+      "question": {
+        "text": "An upset colleague says nobody ever helps her with the monthly report, what is the best first response?",
+        "audioId": "",
+        "vi": "Một đồng nghiệp bức xúc nói chẳng ai giúp chị ấy làm báo cáo tháng, câu đáp đầu tiên tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Tell her that is not true because you helped her once last year",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Reflect her feeling back, showing you understand she feels alone with the work",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Give her a list of time management tips straight away without asking anything",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Change the subject to your own workload, which is even heavier than hers",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "When people are upset, they first need to feel heard. Reflecting the feeling calms them and invites them to explain more. Correcting her words or giving quick advice makes her feel dismissed, even if your point is true.",
+        "vi": "Khi đang bức xúc, người ta cần được lắng nghe trước tiên. Nói lại cảm xúc của họ giúp họ dịu xuống và muốn giải thích thêm. Bắt bẻ lời nói hay khuyên vội khiến chị ấy thấy bị gạt đi, dù ý của bạn có đúng."
+      }
+    },
+    {
+      "id": "q14",
+      "question": {
+        "text": "Why is asking open questions often better than giving advice straight away in a conflict?",
+        "audioId": "",
+        "vi": "Vì sao hỏi câu hỏi mở thường tốt hơn khuyên ngay khi có mâu thuẫn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Advice is always wrong, so you should never share your opinion with anyone",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Questions help you understand the real problem before you suggest any solution",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Questions make the other person tired, so they stop complaining much faster",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Open questions let you avoid taking any responsibility for the situation",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Quick advice often solves the wrong problem. Open questions such as \"What worries you most about this?\" reveal what the person really needs, and the solution you suggest afterwards will fit much better.",
+        "vi": "Lời khuyên vội thường giải quyết nhầm vấn đề. Câu hỏi mở như 'Điều gì làm bạn lo nhất trong chuyện này?' giúp lộ ra nhu cầu thật, và giải pháp bạn đưa ra sau đó sẽ phù hợp hơn nhiều."
+      }
+    },
+    {
+      "id": "q15",
+      "question": {
+        "text": "A team leader hears only one side of a quarrel and decides who is right immediately, what is the main mistake?",
+        "audioId": "",
+        "vi": "Trưởng nhóm chỉ nghe một bên rồi quyết ngay ai đúng, sai lầm chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Listening to anyone at all, since leaders should solve quarrels without talking",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Making a decision, because leaders should let quarrels continue until people get tired",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Taking too long, since the first person to complain is usually the right one",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Deciding before hearing both sides, which makes the decision look unfair and incomplete",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The first story you hear always sounds convincing. A fair leader says \"Thanks for telling me, I'll talk to both of you before deciding.\" Deciding early damages trust, and the other side will feel judged without a chance to speak.",
+        "vi": "Câu chuyện nghe đầu tiên luôn có vẻ thuyết phục. Người trưởng nhóm công bằng sẽ nói 'Cảm ơn em đã báo, anh sẽ nói chuyện với cả hai trước khi quyết.' Quyết sớm làm mất lòng tin, và bên kia sẽ thấy bị phán xét mà không được lên tiếng."
+      }
+    },
+    {
+      "id": "q16",
+      "question": {
+        "text": "While your friend explains why she is hurt, you feel like interrupting to defend yourself, what should you do?",
+        "audioId": "",
+        "vi": "Khi bạn mình đang giải thích vì sao bị tổn thương, bạn muốn ngắt lời để thanh minh, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Interrupt quickly, because if you wait she will remember only her version",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Look at your phone so she understands that you have heard this before",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Agree with everything immediately so the conversation ends as soon as possible",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Let her finish, then summarise what you heard before you give your side",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Interrupting tells the other person that your story matters more than her pain. If you let her finish and summarise, she feels heard and becomes much more ready to listen to your side afterwards.",
+        "vi": "Ngắt lời cho người kia thấy câu chuyện của bạn quan trọng hơn nỗi buồn của họ. Nếu để bạn ấy nói hết rồi tóm tắt lại, bạn ấy thấy được lắng nghe và sẵn sàng nghe phía bạn hơn nhiều."
+      }
+    },
+    {
+      "id": "q17",
+      "question": {
+        "text": "An angry customer is complaining loudly at the counter, which question best helps you find their real need?",
+        "audioId": "",
+        "vi": "Một khách hàng đang lớn tiếng phàn nàn ở quầy, câu hỏi nào giúp bạn tìm ra nhu cầu thật của họ?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "What would a good result look like for you in this situation?",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Why are you always so sensitive about such small things at work?",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Do you know how much trouble you are causing for everyone else?",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Can you calm down first and then tell me later by email?",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Behind every angry complaint there is a need, such as a refund, an apology or simply speed. Asking what a good result looks like moves the person from anger to solutions. Telling someone to calm down usually has the opposite effect.",
+        "vi": "Đằng sau mỗi lời phàn nàn giận dữ là một nhu cầu, như được hoàn tiền, được xin lỗi hay đơn giản là được xử lý nhanh. Hỏi kết quả nào là tốt với họ giúp chuyển từ giận sang tìm giải pháp. Bảo ai đó 'bình tĩnh đi' thường có tác dụng ngược."
+      }
+    },
+    {
+      "id": "q18",
+      "question": {
+        "text": "What is an I-statement?",
+        "audioId": "",
+        "vi": "Câu nói ngôi \"tôi\" là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A sentence that starts with I and then lists everything the other person did wrong",
+          "audioId": "",
+          "variants": [
+            "Starting with I and listing their mistakes"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "A formal written complaint that you send to human resources about a colleague",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A promise that you will never disagree with anyone in your team again",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A sentence that describes your own feelings and needs instead of blaming the other person",
+          "audioId": "",
+          "variants": [
+            "Talking about your feelings and needs, not blame"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "An I-statement puts the focus on your experience, for example \"I feel worried when I get the files late, because I can't check them properly.\" It is harder to argue with your own feeling than with an accusation.",
+        "vi": "Câu nói ngôi 'tôi' đặt trọng tâm vào trải nghiệm của bạn, ví dụ 'Tôi thấy lo khi nhận tài liệu muộn, vì tôi không kịp kiểm tra kỹ.' Người kia khó cãi lại cảm xúc của bạn hơn là một lời buộc tội."
+      }
+    },
+    {
+      "id": "q19",
+      "question": {
+        "text": "Which of these sentences is a real I-statement?",
+        "audioId": "",
+        "vi": "Câu nào dưới đây là một câu nói ngôi \"tôi\" thực sự?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "I feel that you are the most selfish person I have ever worked with",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "You make me stressed every single time you change the plans at the last minute",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "I feel stressed when plans change late, and I need a day's notice",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "I think everyone agrees that you are terrible at planning anything properly",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A real I-statement names your feeling, the situation and what you need. Starting with \"I feel that you are\" is just a judgement in disguise, and \"you make me\" puts all the blame on the other person.",
+        "vi": "Câu nói ngôi 'tôi' thật sự nêu cảm xúc, tình huống và điều bạn cần. Mở đầu bằng 'tôi thấy bạn là' chỉ là phán xét trá hình, còn 'bạn làm tôi' đổ hết lỗi lên người kia."
+      }
+    },
+    {
+      "id": "q20",
+      "question": {
+        "text": "Why does I feel worried when deadlines move work better than you always ruin our deadlines?",
+        "audioId": "",
+        "vi": "Vì sao câu \"tôi thấy lo khi hạn chót bị dời\" hiệu quả hơn câu \"bạn lúc nào cũng làm hỏng hạn chót\"?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because it sounds weaker, and showing weakness makes the other person feel sorry for you",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because it hides the real problem so that nobody has to change anything",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Because it is longer, and longer sentences always sound more professional at work",
+          "audioId": "",
+          "variants": [
+            "Longer sentences sound more professional"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "It shares your feeling without attacking, so the listener is less likely to defend",
+          "audioId": "",
+          "variants": [
+            "It shares a feeling without attacking"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "When people feel attacked, they stop listening and start defending. A sentence about your worry still names the problem, but it leaves room for the other person to help instead of fight.",
+        "vi": "Khi thấy bị tấn công, người ta ngừng nghe và bắt đầu tự vệ. Câu nói về nỗi lo của bạn vẫn nêu đúng vấn đề, nhưng chừa chỗ cho người kia cùng giúp thay vì đối đầu."
+      }
+    },
+    {
+      "id": "q21",
+      "question": {
+        "text": "Someone says I feel that you are lazy, why is this not a true I-statement?",
+        "audioId": "",
+        "vi": "Có người nói \"tôi cảm thấy bạn lười\", vì sao đây không phải câu nói ngôi \"tôi\" đúng nghĩa?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because I-statements must never include the word feel in any part of the sentence",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because the sentence is too polite and does not show enough strong emotion",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It starts with I feel but still contains a judgement about the other person",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Because real I-statements should always be written down and never spoken aloud",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "\"Lazy\" is not a feeling, it is a label. A true version would be \"I feel frustrated when the task is still open on Friday, because I have to finish it at the weekend.\" Check that the word after \"I feel\" is an emotion.",
+        "vi": "'Lười' không phải cảm xúc mà là cái nhãn. Câu đúng sẽ là 'Tôi thấy bực khi việc vẫn chưa xong vào thứ Sáu, vì tôi phải làm nốt vào cuối tuần.' Hãy kiểm tra từ sau 'tôi thấy' có phải là một cảm xúc không."
+      }
+    },
+    {
+      "id": "q22",
+      "question": {
+        "text": "Your flatmate often leaves dirty dishes in the sink and it annoys you, what is a good way to raise it?",
+        "audioId": "",
+        "vi": "Bạn cùng phòng hay để bát đĩa bẩn trong bồn rửa khiến bạn khó chịu, cách nêu chuyện này thế nào là tốt?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Describe how the overnight dishes make you feel, then suggest washing them each day",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Leave an angry note on the fridge and stop talking to your flatmate for days",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Put all the dirty dishes on your flatmate's bed so they learn a lesson",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Say nothing for months and then complain about everything at once one evening",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Small irritations grow if you wait. Raise it early, describe the situation and your feeling, and end with a concrete request. Notes, silence and revenge make the other person defensive and the home atmosphere worse.",
+        "vi": "Những bực bội nhỏ sẽ lớn dần nếu bạn chờ. Hãy nói sớm, mô tả tình huống và cảm xúc, rồi kết bằng một đề nghị cụ thể. Giấy nhắn, im lặng hay trả đũa khiến người kia tự vệ và không khí trong nhà tệ hơn."
+      }
+    },
+    {
+      "id": "q23",
+      "question": {
+        "text": "What are the usual parts of a complete I-statement?",
+        "audioId": "",
+        "vi": "Một câu nói ngôi \"tôi\" đầy đủ thường gồm những phần nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Your feeling, the other person's mistakes, and a warning about what will happen",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A compliment, a long complaint, and then another compliment to soften everything",
+          "audioId": "",
+          "variants": [
+            "A compliment, a complaint, then a compliment"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Your feeling, the specific situation, its effect, and a clear request for change",
+          "audioId": "",
+          "variants": [
+            "Feeling, situation, effect and a request"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Only your feeling, because adding a request sounds too bossy for most people",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A simple pattern is: \"I feel ... when ... because ... Could we ...?\" Without the request, the other person knows you are unhappy but not what would help. With a warning, it becomes a threat.",
+        "vi": "Một khuôn đơn giản là: 'Tôi thấy ... khi ... vì ... Mình có thể ... được không?' Thiếu đề nghị, người kia biết bạn không vui nhưng không biết làm gì giúp được. Thêm lời doạ thì nó thành lời đe doạ."
+      }
+    },
+    {
+      "id": "q24",
+      "question": {
+        "text": "A teammate keeps sending you tasks late on Friday afternoon, what is the best way to raise it?",
+        "audioId": "",
+        "vi": "Một đồng đội cứ giao việc cho bạn vào chiều thứ Sáu, cách nêu vấn đề tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Complain about it in the team group chat so the manager notices the problem",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Accept every task silently, but do them slowly to show your unhappiness",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Start sending your own tasks to the teammate late on Friday as revenge",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Talk privately, describe the pattern and its effect, then suggest an earlier cut-off time",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A private, specific talk works best: \"The last three Fridays I got tasks after four o'clock, so I had to stay late. Could we agree on Thursday as the cut-off?\" Public complaints and silent protest damage the relationship without fixing the habit.",
+        "vi": "Một cuộc nói chuyện riêng và cụ thể hiệu quả nhất: 'Ba thứ Sáu vừa rồi mình nhận việc sau bốn giờ chiều nên phải ở lại muộn. Mình thống nhất hạn gửi là thứ Năm được không?' Phàn nàn công khai hay phản đối ngầm làm hỏng quan hệ mà không sửa được thói quen."
+      }
+    },
+    {
+      "id": "q25",
+      "question": {
+        "text": "What is the main difference between being assertive and being aggressive?",
+        "audioId": "",
+        "vi": "Khác biệt chính giữa quyết đoán và hung hăng là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Assertive people always get what they want, while aggressive people usually lose arguments",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "There is no real difference, they are two words for exactly the same behaviour",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Assertive people stay silent and agree, while aggressive people say what they think",
+          "audioId": "",
+          "variants": [
+            "Assertive people stay silent and agree"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Assertive people state their needs clearly and respectfully, aggressive people ignore others' needs",
+          "audioId": "",
+          "variants": [
+            "Assertive is clear and respectful, aggressive ignores others"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Being assertive means you speak up for yourself while respecting the other person. Aggressive behaviour wins by pressure, and passive behaviour keeps quiet and builds resentment. Assertiveness sits between the two.",
+        "vi": "Quyết đoán nghĩa là bạn lên tiếng cho mình nhưng vẫn tôn trọng người kia. Hung hăng là thắng bằng áp lực, còn thụ động là im lặng rồi tích tụ ấm ức. Quyết đoán nằm giữa hai cách đó."
+      }
+    },
+    {
+      "id": "q26",
+      "question": {
+        "text": "You disagree with your manager's plan for a project, what is the most effective way to say so?",
+        "audioId": "",
+        "vi": "Bạn không đồng ý với kế hoạch dự án của sếp, cách nói ra hiệu quả nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say in the big meeting that the plan will obviously fail and needs changing",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Ask for a private moment, show you understand the goal, then explain your concern",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Keep quiet, follow the plan, and complain about it to colleagues at lunch",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ignore the plan and do the project your own way without telling anyone",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Managers listen better when they do not have to defend themselves in public. Start with the shared goal, then give your concern with facts: \"I agree we need to launch fast. My worry is testing time, could we add two days?\"",
+        "vi": "Sếp dễ lắng nghe hơn khi không phải tự bảo vệ trước đám đông. Hãy bắt đầu bằng mục tiêu chung, rồi nêu điều bạn lo kèm dữ kiện: 'Em đồng ý mình cần ra mắt nhanh. Em chỉ lo thời gian kiểm thử, mình thêm hai ngày được không ạ?'"
+      }
+    },
+    {
+      "id": "q27",
+      "question": {
+        "text": "Your manager proposes a plan you think is risky, which phrase is the best way to begin?",
+        "audioId": "",
+        "vi": "Sếp đưa ra một kế hoạch bạn thấy rủi ro, câu nào là cách mở lời tốt nhất?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "With respect, that plan is wrong and I will not be part of it",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "You are the boss, so whatever you say is fine with me always",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "I see why we're doing this, could I suggest another option to consider?",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Everyone in the team thinks your idea is bad, but nobody will tell you",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Showing that you understand the reason first makes your alternative sound like help, not opposition. Refusing outright sounds disrespectful, and agreeing with everything hides a risk your manager may need to know.",
+        "vi": "Cho thấy bạn hiểu lý do trước sẽ khiến phương án khác của bạn nghe như sự hỗ trợ chứ không phải phản đối. Từ chối thẳng thừng nghe thiếu tôn trọng, còn gật đầu mọi thứ lại giấu đi rủi ro mà sếp cần biết."
+      }
+    },
+    {
+      "id": "q28",
+      "question": {
+        "text": "Your manager listens to your concern but still decides to keep the original plan, what should you do?",
+        "audioId": "",
+        "vi": "Sếp đã nghe ý kiến của bạn nhưng vẫn giữ kế hoạch ban đầu, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Keep arguing in every meeting until your manager finally changes the decision",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Work slowly on purpose so the plan fails and proves that you were right",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Accept the decision, support the plan, and keep a short note of your concerns",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Tell the client directly that you personally disagree with your manager's plan",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "This is often called \"disagree and commit\". You said your view, the decision maker decided, and now you help the plan succeed. A short written note of the risks you raised is professional and useful if things change later.",
+        "vi": "Cách này thường gọi là 'không đồng ý nhưng vẫn cam kết'. Bạn đã nói ý kiến, người có quyền đã quyết, giờ bạn giúp kế hoạch thành công. Ghi lại ngắn gọn các rủi ro đã nêu là chuyên nghiệp và hữu ích nếu sau này tình hình thay đổi."
+      }
+    },
+    {
+      "id": "q29",
+      "question": {
+        "text": "In a meeting, a colleague presents your idea as their own, what is the best first step?",
+        "audioId": "",
+        "vi": "Trong cuộc họp, một đồng nghiệp trình bày ý tưởng của bạn như của họ, bước đầu tiên tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Shout that the idea is yours and accuse the colleague of stealing in front of everyone",
+          "audioId": "",
+          "variants": [
+            "Accuse them of stealing in front of everyone"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Calmly add details that show your work, then talk to the colleague privately afterwards",
+          "audioId": "",
+          "variants": [
+            "Add your details calmly, then talk privately later"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Say nothing at all and secretly decide never to share ideas with anyone again",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Go straight to the director and demand that the colleague be punished today",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "You can claim your work without attacking: \"Yes, when I drafted this idea last week, I also looked at the costs, let me add that.\" This shows ownership calmly. Then talk privately to understand what happened and agree how to give credit next time.",
+        "vi": "Bạn có thể khẳng định công sức của mình mà không tấn công ai: 'Vâng, khi em soạn ý này tuần trước, em cũng đã tính chi phí, em xin bổ sung phần đó.' Cách này thể hiện quyền sở hữu một cách bình tĩnh. Sau đó nói chuyện riêng để hiểu chuyện gì đã xảy ra và thống nhất cách ghi nhận lần sau."
+      }
+    },
+    {
+      "id": "q30",
+      "question": {
+        "text": "When you talk privately to a colleague who took credit for your work, what should you open with?",
+        "audioId": "",
+        "vi": "Khi nói chuyện riêng với đồng nghiệp đã nhận công của bạn, bạn nên mở đầu thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Describe what happened factually and ask how they saw it before drawing conclusions",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Tell them you have always known they were dishonest and selfish from the start",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Demand a written apology and threaten to tell the whole company immediately",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Pretend everything is fine and just make small talk about the weekend",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Sometimes credit is taken on purpose, sometimes by careless wording. Start with facts and a question: \"In the meeting the plan was presented as yours, but I wrote the first draft. How did you see it?\" This keeps the door open for a fair fix.",
+        "vi": "Có khi bị nhận công là cố ý, có khi chỉ do nói không khéo. Hãy mở đầu bằng sự việc và một câu hỏi: 'Trong buổi họp, kế hoạch được trình bày như của anh, nhưng em là người viết bản nháp đầu. Anh thấy chuyện đó thế nào?' Cách này để ngỏ cơ hội sửa sai công bằng."
+      }
+    },
+    {
+      "id": "q31",
+      "question": {
+        "text": "You often work on shared projects where others present the results, what simple habit helps protect your credit?",
+        "audioId": "",
+        "vi": "Bạn hay làm dự án chung mà người khác đứng ra trình bày kết quả, thói quen đơn giản nào giúp bảo vệ công sức của bạn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Share progress updates by email and mention who did which part of the work",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Keep all your work secret and refuse to share anything until the very end",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Put your name in large letters on every single page of every document",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Avoid working with other people so nobody can ever use your ideas",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Regular written updates create a clear, friendly record of your contribution, and they help the whole team. Hiding your work or refusing to cooperate makes you look difficult and hurts your career more than a lost credit.",
+        "vi": "Cập nhật tiến độ bằng văn bản đều đặn tạo ra ghi nhận rõ ràng, nhẹ nhàng về phần đóng góp của bạn, lại có ích cho cả nhóm. Giấu việc hay từ chối hợp tác khiến bạn trông khó làm việc cùng và hại sự nghiệp hơn là bị mất một lần ghi công."
+      }
+    },
+    {
+      "id": "q32",
+      "question": {
+        "text": "Why is raising a problem with your colleague first usually better than going straight to your boss?",
+        "audioId": "",
+        "vi": "Vì sao nêu vấn đề với đồng nghiệp trước thường tốt hơn đi thẳng lên sếp?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It gives the colleague a fair chance to fix it and keeps trust between you",
+          "audioId": "",
+          "variants": [
+            "It gives them a fair chance to fix it"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Because bosses should never hear about any problems that happen inside the team",
+          "audioId": "",
+          "variants": [
+            "Bosses should never hear about team problems"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Because going to the boss first is against the law in most companies",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Because the colleague will be too scared to ever repeat the same mistake again",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Most people prefer to hear about a problem directly before their manager does. If the direct talk fails, or the issue is serious such as harassment, then going to your manager is the right next step.",
+        "vi": "Phần lớn mọi người muốn được nghe về vấn đề trực tiếp trước khi sếp biết. Nếu nói trực tiếp không được, hoặc chuyện nghiêm trọng như quấy rối, thì báo cho quản lý là bước tiếp theo đúng đắn."
+      }
+    },
+    {
+      "id": "q33",
+      "question": {
+        "text": "A worker criticises a teammate's mistake in the team chat in front of the whole team, what is the main mistake?",
+        "audioId": "",
+        "vi": "Một nhân viên chê lỗi của đồng đội trong nhóm chat trước cả nhóm, sai lầm chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The message was too short, it should have been a long public report instead",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The worker should have waited and criticised the teammate at the yearly party",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Nothing is wrong, because public criticism is the fastest way to improve people",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Public criticism embarrasses the person and makes them defend themselves instead of fixing things",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A useful rule is to praise in public and correct in private. When people lose face in front of others, they focus on protecting themselves. A private message like \"Can we talk about the numbers in the report?\" gets a better result.",
+        "vi": "Một quy tắc hữu ích là khen nơi đông người, góp ý ở chỗ riêng. Khi bị mất mặt trước người khác, người ta chỉ lo bảo vệ mình. Một tin nhắn riêng như 'Mình nói chuyện về số liệu trong báo cáo một chút nhé?' sẽ có kết quả tốt hơn."
+      }
+    },
+    {
+      "id": "q34",
+      "question": {
+        "text": "A colleague snaps at you rudely during a busy morning, what is a mature response?",
+        "audioId": "",
+        "vi": "Một đồng nghiệp gắt gỏng với bạn trong một buổi sáng bận rộn, phản ứng chín chắn là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Snap back even louder so the colleague learns not to speak to you that way",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Stay calm, say you can talk when things are quieter, and check in later",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Report the colleague to human resources immediately without saying anything to them",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Stop helping that colleague with any work for the rest of the month",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "One rude moment under pressure is not always a pattern. Staying calm and checking in later, for example \"You seemed stressed this morning, is everything okay?\", often brings an apology. If the rudeness keeps happening, raise it clearly.",
+        "vi": "Một lần nói cộc trong lúc áp lực chưa chắc là thói quen. Giữ bình tĩnh và hỏi han sau đó, ví dụ 'Sáng nay trông anh căng thẳng, mọi chuyện ổn chứ?', thường nhận được lời xin lỗi. Nếu sự thô lỗ lặp lại, hãy nói rõ với người đó."
+      }
+    },
+    {
+      "id": "q35",
+      "question": {
+        "text": "What are the key parts of a sincere apology?",
+        "audioId": "",
+        "vi": "Một lời xin lỗi chân thành gồm những phần chính nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say sorry quickly, then explain why the other person was also partly to blame",
+          "audioId": "",
+          "variants": [
+            "Say sorry, then blame them too"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Name what you did, admit its effect, say sorry, and explain how you'll fix it",
+          "audioId": "",
+          "variants": [
+            "Name it, admit the effect, say sorry, and fix it"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Give a small gift and avoid talking about what happened between you",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Say sorry many times in a row until the other person feels uncomfortable",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A full apology sounds like: \"I sent the wrong price to your client, and that made you look bad. I'm sorry. I've already sent a correction and I'll double check prices from now on.\" Each part shows you understand and will act.",
+        "vi": "Một lời xin lỗi đầy đủ nghe như: 'Em đã gửi sai giá cho khách của chị, khiến chị bị ảnh hưởng uy tín. Em xin lỗi. Em đã gửi bản sửa và từ giờ em sẽ kiểm tra giá hai lần.' Mỗi phần cho thấy bạn hiểu chuyện và sẽ hành động."
+      }
+    },
+    {
+      "id": "q36",
+      "question": {
+        "text": "Someone says I'm sorry if you felt upset, what is wrong with this apology?",
+        "audioId": "",
+        "vi": "Có người nói \"tôi xin lỗi nếu bạn thấy buồn\", lời xin lỗi này sai ở đâu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It focuses on the other person's feelings and avoids taking responsibility for the action",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It is too long and detailed, so the listener will stop paying attention",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It uses the word sorry, which sounds weak in a professional setting",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Nothing is wrong, it is the most sincere apology a person can give",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "\"Sorry if you felt\" suggests the problem is the other person's sensitivity. A real apology names your action: \"I'm sorry I criticised you in front of the team.\"",
+        "vi": "'Xin lỗi nếu bạn thấy buồn' ngụ ý vấn đề nằm ở sự nhạy cảm của người kia. Lời xin lỗi thật nêu hành động của bạn: 'Mình xin lỗi vì đã phê bình bạn trước cả nhóm.'"
+      }
+    },
+    {
+      "id": "q37",
+      "question": {
+        "text": "What is the difference between I'm sorry I missed the deadline and I'm sorry but the system was slow?",
+        "audioId": "",
+        "vi": "Câu \"tôi xin lỗi vì trễ hạn\" khác câu \"tôi xin lỗi nhưng hệ thống chậm\" ở điểm nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The first sounds weak, while the second shows you are smart and well informed",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "There is no difference, because both sentences contain the word sorry somewhere",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The second is better because blaming systems is always safer than blaming people",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The first takes responsibility, while the second uses an excuse that cancels the apology",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The word \"but\" tends to erase everything before it. If a reason is useful, give it after you have taken responsibility and as part of the fix: \"I'm sorry I missed the deadline. I'll start earlier when the system is busy.\"",
+        "vi": "Chữ 'nhưng' thường xoá sạch mọi điều đứng trước nó. Nếu lý do có ích, hãy nói sau khi đã nhận trách nhiệm và như một phần của cách khắc phục: 'Em xin lỗi vì trễ hạn. Lần sau hệ thống chậm em sẽ bắt đầu sớm hơn.'"
+      }
+    },
+    {
+      "id": "q38",
+      "question": {
+        "text": "You forgot to send a client file you promised and your colleague got blamed, what should you do?",
+        "audioId": "",
+        "vi": "Bạn quên gửi tài liệu đã hứa cho khách và đồng nghiệp bị trách thay, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Tell your manager and colleague it was your mistake and send the file immediately",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Stay quiet, since the colleague will forget about it in a few days anyway",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Say the email system must have failed and that nobody is really at fault",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Apologise to your colleague privately but let the manager keep blaming them",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Owning a mistake quickly protects your colleague and your own reputation. People respect someone who says \"That was my fault, I've sent it now.\" Hiding it or blaming a system is often discovered later and costs much more trust.",
+        "vi": "Nhận lỗi nhanh vừa bảo vệ đồng nghiệp vừa giữ uy tín của chính bạn. Người ta tôn trọng người nói 'Lỗi là của em, em đã gửi ngay rồi.' Giấu lỗi hay đổ cho hệ thống thường bị phát hiện sau đó và mất lòng tin nhiều hơn."
+      }
+    },
+    {
+      "id": "q39",
+      "question": {
+        "text": "After you apologise, your friend says she still needs time before she is ready to talk, what should you do?",
+        "audioId": "",
+        "vi": "Sau khi bạn xin lỗi, người bạn nói cần thêm thời gian mới sẵn sàng nói chuyện, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Respect her need for time and let her know you are ready when she is",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Keep messaging her every hour until she finally accepts your apology",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Tell her that you already apologised, so she has no right to stay upset",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Take back your apology because she did not accept it straight away",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "An apology is not a ticket that the other person must accept immediately. Giving space shows your apology was sincere. A short message like \"I understand, I'm here when you want to talk\" is enough.",
+        "vi": "Lời xin lỗi không phải tấm vé buộc người kia nhận ngay. Cho bạn ấy thời gian cho thấy lời xin lỗi là thật lòng. Một tin nhắn ngắn như 'Mình hiểu, khi nào bạn muốn nói chuyện thì mình luôn sẵn sàng' là đủ."
+      }
+    },
+    {
+      "id": "q40",
+      "question": {
+        "text": "Why does saying sorry for your part help even when the other person was also wrong?",
+        "audioId": "",
+        "vi": "Vì sao xin lỗi phần của mình vẫn có ích ngay cả khi người kia cũng sai?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because the person who apologises first always loses and must accept all the blame",
+          "audioId": "",
+          "variants": [
+            "The first to apologise loses and takes all blame"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "It lowers tension and often encourages the other person to admit their part too",
+          "audioId": "",
+          "variants": [
+            "It lowers tension and invites them to admit their part"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Because it means you never have to talk about the problem again",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Because it proves that you are better than the other person in every way",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Most conflicts have mistakes on both sides. Saying \"I'm sorry I raised my voice\" does not mean everything was your fault. It breaks the standoff and makes it easier for the other person to say \"I'm sorry too.\"",
+        "vi": "Phần lớn mâu thuẫn đều có lỗi từ hai phía. Nói 'Mình xin lỗi vì đã lớn tiếng' không có nghĩa mọi lỗi là của bạn. Nó phá thế giằng co và giúp người kia dễ nói 'Mình cũng xin lỗi.'"
+      }
+    },
+    {
+      "id": "q41",
+      "question": {
+        "text": "A manager apologises to a customer, then adds that customers like them are always complaining, what is the mistake?",
+        "audioId": "",
+        "vi": "Một quản lý xin lỗi khách rồi nói thêm rằng khách như họ lúc nào cũng phàn nàn, sai lầm là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The apology was too short, he should have apologised for at least an hour",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Managers should never apologise to customers because it shows the company is weak",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The manager should have apologised by email instead of speaking in person",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The insult at the end destroys the apology and makes the customer even angrier",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "An apology followed by a criticism is heard only as criticism. Stop after the apology and move to the solution: \"I'm sorry for the wait. Here is what I can do for you now.\"",
+        "vi": "Lời xin lỗi đi kèm lời chê chỉ còn được nghe như lời chê. Hãy dừng sau lời xin lỗi và chuyển sang giải pháp: 'Tôi xin lỗi vì để anh chị chờ. Đây là điều tôi có thể làm ngay cho anh chị.'"
+      }
+    },
+    {
+      "id": "q42",
+      "question": {
+        "text": "What is the main difference between blaming and taking responsibility in a conflict?",
+        "audioId": "",
+        "vi": "Khác biệt chính giữa đổ lỗi và nhận trách nhiệm khi có mâu thuẫn là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Blaming is honest, while taking responsibility means pretending you did everything wrong",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "They mean the same thing, since both of them are about finding the guilty person",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Taking responsibility is only for managers, while blaming is normal for regular staff",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Blaming looks for who is at fault, responsibility looks for what you can do now",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Blame looks backwards and makes everyone defensive. Responsibility asks \"What part was mine, and what will I do now?\" Teams that work this way fix problems faster and argue less.",
+        "vi": "Đổ lỗi nhìn về phía sau và khiến ai cũng tự vệ. Nhận trách nhiệm hỏi 'Phần nào là của mình, và giờ mình sẽ làm gì?' Nhóm làm việc theo cách này sửa vấn đề nhanh hơn và ít cãi nhau hơn."
+      }
+    },
+    {
+      "id": "q43",
+      "question": {
+        "text": "Two team members are arguing about who should handle a task and ask you to decide, what should you do first?",
+        "audioId": "",
+        "vi": "Hai thành viên trong nhóm cãi nhau xem ai làm một việc và nhờ bạn quyết, bạn nên làm gì trước tiên?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Pick the person you like more and tell the other one to accept it",
+          "audioId": "",
+          "variants": [
+            "Pick the one you like more"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Tell them both to sort it out themselves and stay out of it completely",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Meet them together, let each explain without interruption, and agree some ground rules",
+          "audioId": "",
+          "variants": [
+            "Hear each side with simple ground rules"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Give the task to yourself so that nobody has to argue about it anymore",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A good mediator first creates a safe structure: one person speaks at a time, no insults, and the goal is a solution both can live with. Taking sides or taking the task away hides the conflict instead of solving it.",
+        "vi": "Người hoà giải giỏi trước hết tạo ra khung an toàn: mỗi lần một người nói, không xúc phạm, và mục tiêu là giải pháp cả hai chấp nhận được. Đứng về một phía hay tự ôm việc chỉ che giấu mâu thuẫn chứ không giải quyết nó."
+      }
+    },
+    {
+      "id": "q44",
+      "question": {
+        "text": "When you help two colleagues resolve a disagreement, what is your main role?",
+        "audioId": "",
+        "vi": "Khi giúp hai đồng nghiệp giải quyết bất đồng, vai trò chính của bạn là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "To decide who is right and announce the winner in front of the team",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "To tell each person privately that you secretly agree with them more",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "To find the person who started it and give them a formal warning",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "To stay neutral and help them find a solution they can both accept",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A mediator is not a judge. Your job is to keep the talk fair, summarise each side and ask questions like \"What could work for both of you?\" Once you secretly take sides, both people stop trusting you.",
+        "vi": "Người hoà giải không phải quan toà. Việc của bạn là giữ cuộc nói chuyện công bằng, tóm tắt ý mỗi bên và hỏi những câu như 'Cách nào ổn cho cả hai người?' Khi bạn ngầm đứng về một phía, cả hai sẽ không còn tin bạn."
+      }
+    },
+    {
+      "id": "q45",
+      "question": {
+        "text": "Why is focusing on interests better than focusing on positions when two people disagree?",
+        "audioId": "",
+        "vi": "Vì sao tập trung vào lợi ích tốt hơn tập trung vào lập trường khi hai người bất đồng?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Positions are always wrong, while interests are always right in every argument",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Focusing on interests helps you decide quickly who should win the argument",
+          "audioId": "",
+          "variants": [
+            "It helps you decide who should win"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Interests show why people want something, which opens more possible solutions for both",
+          "audioId": "",
+          "variants": [
+            "Interests show the why, which opens more solutions"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Interests are easier to ignore, so the argument finishes much more quickly",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A position is what someone demands, like \"I want the window seat.\" An interest is why, like \"I get headaches without fresh air.\" When you understand the why, you can often find a solution that satisfies both people.",
+        "vi": "Lập trường là điều người ta đòi, như 'Tôi muốn ngồi cạnh cửa sổ.' Lợi ích là lý do, như 'Tôi hay đau đầu khi thiếu không khí.' Khi hiểu lý do, bạn thường tìm được cách làm cả hai bên đều hài lòng."
+      }
+    },
+    {
+      "id": "q46",
+      "question": {
+        "text": "Your neighbour's loud music late at night keeps you awake, what is the best first step?",
+        "audioId": "",
+        "vi": "Hàng xóm mở nhạc to lúc đêm khuya khiến bạn mất ngủ, bước đầu tiên tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Knock at a calm time, explain the problem politely, and suggest a quiet hour",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Call the police immediately the first time the music is too loud",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Play your own music even louder the next night so they understand how it feels",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Post an angry message about them in the building group without their name",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Many neighbours simply do not know the noise travels. A friendly visit in the daytime, such as \"Sound carries a lot into my bedroom, could we agree to keep it down after ten?\", usually works. Use the building management or authorities only if talking fails.",
+        "vi": "Nhiều hàng xóm đơn giản là không biết tiếng ồn vọng sang. Một lần ghé thăm thân thiện ban ngày, như 'Tiếng nhạc vọng sang phòng ngủ nhà em rõ lắm, mình thống nhất sau mười giờ vặn nhỏ được không ạ?', thường hiệu quả. Chỉ nhờ ban quản lý hay chính quyền khi nói chuyện không được."
+      }
+    },
+    {
+      "id": "q47",
+      "question": {
+        "text": "Your parents and your spouse disagree about how to raise your child, what is a wise first step?",
+        "audioId": "",
+        "vi": "Bố mẹ và vợ hoặc chồng bạn bất đồng về cách nuôi dạy con, bước đầu khôn ngoan là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Take your parents' side every time because older people always know better",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Listen to each side calmly in private, then agree a shared approach with your spouse",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Avoid the topic completely and hope everyone forgets about it with time",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Tell your spouse in front of your parents that they are being unreasonable",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "In family conflicts, the person in the middle has an important role. Listen to each side separately, agree a plan with your spouse first, then speak to your parents respectfully together, for example \"We are grateful for your help, and we have decided to try this way.\"",
+        "vi": "Trong mâu thuẫn gia đình, người đứng giữa có vai trò rất quan trọng. Hãy nghe riêng từng bên, thống nhất với vợ hoặc chồng trước, rồi cùng nói chuyện với bố mẹ một cách tôn trọng, ví dụ 'Bố mẹ giúp chúng con nhiều lắm, chúng con xin thử làm theo cách này.'"
+      }
+    },
+    {
+      "id": "q48",
+      "question": {
+        "text": "At a family dinner, two brothers bring up old arguments from many years ago, what is the main mistake?",
+        "audioId": "",
+        "vi": "Trong bữa cơm gia đình, hai anh em lôi chuyện cãi nhau từ nhiều năm trước ra, sai lầm chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Bringing up old issues moves away from today's problem and makes everyone defensive",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "They should have discussed the arguments by text message instead of talking face to face",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Family dinners are the perfect place to solve every old argument at once",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Nothing is wrong, older arguments are always more important than new ones",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "When old stories are added, the conversation becomes a list of every past hurt and nobody can win. Keep to one issue at a time, for example \"Let's talk about the house repair today, the other things another time.\"",
+        "vi": "Khi chuyện cũ bị lôi ra, cuộc nói chuyện thành danh sách mọi tổn thương trong quá khứ và chẳng ai thắng được. Hãy giữ mỗi lần một vấn đề, ví dụ 'Hôm nay mình bàn chuyện sửa nhà thôi, chuyện khác để lúc khác.'"
+      }
+    },
+    {
+      "id": "q49",
+      "question": {
+        "text": "A family argument starts at a big holiday meal in front of relatives, what is the best move?",
+        "audioId": "",
+        "vi": "Một cuộc cãi vã gia đình nổ ra trong bữa cơm ngày lễ trước mặt họ hàng, cách xử lý tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Settle it right there so all the relatives can see who is right",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Suggest talking about it calmly later, in private, when the meal is over",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Leave the house immediately and refuse to attend family events again",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask every relative at the table to vote on who is right and wrong",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "An audience makes people fight to save face. A gentle line like \"This matters, let's talk about it properly after the meal\" protects everyone's dignity and the occasion, and the issue can still be solved later.",
+        "vi": "Có người xem thì ai cũng cố cãi để giữ thể diện. Một câu nhẹ nhàng như 'Chuyện này quan trọng, ăn xong mình nói chuyện đàng hoàng nhé' giữ thể diện cho mọi người và cho bữa cơm, mà vấn đề vẫn được giải quyết sau đó."
+      }
+    },
+    {
+      "id": "q50",
+      "question": {
+        "text": "What is a good sign that a difficult conversation has really been resolved?",
+        "audioId": "",
+        "vi": "Dấu hiệu nào cho thấy một cuộc nói chuyện khó đã thật sự được giải quyết?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Both people agree on clear next steps and feel they were heard fairly",
+          "audioId": "",
+          "variants": [
+            "Clear next steps and both felt heard"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "One person has stopped talking because they are tired of arguing",
+          "audioId": "",
+          "variants": [
+            "One person stopped talking because they were tired"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Everybody avoids each other so the topic never comes up again",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The louder person has won and the other has nothing more to say",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Silence is not agreement. A conflict is resolved when both sides know what will happen next, who will do what, and feel they were treated fairly. It helps to end with a summary: \"So from Monday, we will...\"",
+        "vi": "Im lặng không phải là đồng ý. Mâu thuẫn được giải quyết khi cả hai biết điều gì sẽ diễn ra tiếp, ai làm gì, và thấy mình được đối xử công bằng. Nên kết thúc bằng một câu tóm tắt: 'Vậy từ thứ Hai, mình sẽ...'"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2305 @@
+{
+  "id": "lesson-1",
+  "branch": "skills",
+  "topic": "learning-how-to-learn",
+  "title": {
+    "vi": "Học cách học: mục tiêu, ghi nhớ và thói quen",
+    "en": "Learning how to learn: goals, memory and habits"
+  },
+  "level": "B1",
+  "status": "draft",
+  "updatedAt": "2026-10-14",
+  "reviewNote": "Bản nháp do Claude soạn và tự kiểm (2026-10-14). Chờ DIENPHAM duyệt.",
+  "overview": [
+    {
+      "heading": {
+        "en": "Start with a goal you can check",
+        "vi": "Bắt đầu bằng một mục tiêu kiểm tra được"
+      },
+      "paragraphs": [
+        {
+          "en": "Self-study fails most often because the goal is vague. Turn 'get better at English' into an ability, a check and a deadline, such as leading a short meeting in English by the end of the quarter. Then break it into weekly targets.",
+          "vi": "Tự học thất bại thường vì mục tiêu mơ hồ. Hãy biến “giỏi tiếng Anh hơn” thành một năng lực, một cách kiểm tra và một mốc thời gian, ví dụ tự chủ trì một cuộc họp ngắn bằng tiếng Anh trước cuối quý. Sau đó chia thành mục tiêu từng tuần."
+        },
+        {
+          "en": "Choose one or two goals, write down why they matter to you, and test your progress each month with the same kind of real task.",
+          "vi": "Chọn một hai mục tiêu, ghi lại vì sao chúng quan trọng với bạn, và mỗi tháng kiểm tra tiến bộ bằng cùng một loại việc thật."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Recall and spacing beat rereading",
+        "vi": "Nhớ lại và ôn ngắt quãng hiệu quả hơn đọc lại"
+      },
+      "paragraphs": [
+        {
+          "en": "Rereading and highlighting feel productive but mostly create familiarity. Pulling information out of memory, by closing the book and answering questions, makes it last. A little difficulty is a good sign.",
+          "vi": "Đọc lại và tô đậm cảm giác hiệu quả nhưng chủ yếu tạo cảm giác quen thuộc. Chủ động lấy thông tin ra từ trí nhớ, bằng cách gập sách và trả lời câu hỏi, giúp nhớ lâu. Một chút khó khăn là dấu hiệu tốt."
+        },
+        {
+          "en": "Spread reviews out: the next day, a few days later, then a week later. Mixing different types of problems is harder but teaches you to choose the right method, as in real work.",
+          "vi": "Hãy giãn các lần ôn: hôm sau, vài ngày sau, rồi một tuần sau. Trộn nhiều dạng bài khó hơn nhưng dạy bạn tự chọn cách làm đúng, giống công việc thật."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Learning with little time",
+        "vi": "Học khi có ít thời gian"
+      },
+      "paragraphs": [
+        {
+          "en": "Working adults rarely have long free blocks. Short, focused sessions with the phone out of reach, placed at a time with good energy, add up over weeks. When you miss sessions, restart small instead of giving up or cramming.",
+          "vi": "Người đi làm hiếm khi có khoảng trống dài. Những buổi ngắn, tập trung, điện thoại để xa, đặt vào lúc còn năng lượng sẽ cộng dồn qua nhiều tuần. Khi lỡ buổi, hãy bắt đầu lại nhỏ thay vì bỏ cuộc hay học dồn."
+        },
+        {
+          "en": "To learn a new skill at work quickly, start from the real tasks you must do, learn the core parts first, practise on real work and ask specific questions when stuck.",
+          "vi": "Để học nhanh một kỹ năng mới ở chỗ làm, hãy bắt đầu từ việc thật phải làm, học phần cốt lõi trước, luyện trên việc thật và hỏi câu cụ thể khi bị kẹt."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "A sample situation analysed",
+        "vi": "Phân tích một tình huống mẫu"
+      },
+      "paragraphs": [
+        {
+          "en": "A new accountant must use a reporting tool in two weeks. She watches tutorials every evening, highlights the manual and feels ready, but on her first real report she gets stuck on basic steps and is too embarrassed to ask.",
+          "vi": "Một nhân viên kế toán mới phải dùng công cụ báo cáo trong hai tuần. Tối nào cô cũng xem video hướng dẫn, tô đậm tài liệu và thấy đã sẵn sàng, nhưng đến báo cáo thật đầu tiên thì kẹt ngay ở các bước cơ bản và ngại không dám hỏi."
+        },
+        {
+          "en": "What went wrong: watching and highlighting gave a false sense of skill. A better plan is to list the three reports she must make, practise each on sample data, write the steps from memory the next day, and bring two specific questions to a senior colleague.",
+          "vi": "Chỗ chưa ổn: xem và tô đậm tạo cảm giác sai là đã biết. Kế hoạch tốt hơn là liệt kê ba báo cáo phải làm, luyện từng cái trên dữ liệu mẫu, hôm sau tự viết lại các bước từ trí nhớ, và mang hai câu hỏi cụ thể đến hỏi đồng nghiệp có kinh nghiệm."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Notes, sources, habits and feedback",
+        "vi": "Ghi chép, nguồn học, thói quen và phản hồi"
+      },
+      "paragraphs": [
+        {
+          "en": "Good notes are short, in your own words and include questions you can test yourself on. Choose sources by who made them and how up to date they are, and prefer one structured path over random clips.",
+          "vi": "Ghi chép tốt thì ngắn, bằng lời của bạn và có câu hỏi để tự kiểm tra. Chọn nguồn dựa vào ai làm ra và có cập nhật không, ưu tiên một lộ trình có cấu trúc hơn là các đoạn video ngẫu nhiên."
+        },
+        {
+          "en": "Build habits by linking a small action to a daily cue and shaping your environment. Treat mistakes and feedback as information, and practise your weak points deliberately.",
+          "vi": "Xây thói quen bằng cách gắn một việc nhỏ với một tín hiệu hằng ngày và sắp xếp môi trường. Xem lỗi sai và phản hồi là thông tin, và luyện có chủ đích vào điểm yếu."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Teach to learn, and help others learn",
+        "vi": "Dạy để học, và giúp người khác học"
+      },
+      "paragraphs": [
+        {
+          "en": "Explaining a topic in simple words reveals your gaps. When you teach others, show once, let them try, give short feedback and ask guiding questions instead of giving answers. Protect your sleep, because it helps new memories settle.",
+          "vi": "Giải thích một chủ đề bằng lời đơn giản sẽ lộ ra lỗ hổng của bạn. Khi dạy người khác, hãy làm mẫu một lần, để họ tự làm, góp ý ngắn và đặt câu hỏi gợi mở thay vì đưa đáp án. Giữ giấc ngủ, vì nó giúp trí nhớ mới được củng cố."
+        }
+      ]
+    }
+  ],
+  "tree": [
+    {
+      "title": {
+        "en": "Setting learning goals",
+        "vi": "Đặt mục tiêu học"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Making goals specific",
+            "vi": "Làm mục tiêu cụ thể"
+          },
+          "note": {
+            "en": "An ability, a check and a deadline, broken into weekly steps.",
+            "vi": "Một năng lực, một cách kiểm tra và một mốc thời gian, chia thành bước từng tuần."
+          },
+          "questions": [
+            "q01",
+            "q02",
+            "q03",
+            "q05"
+          ]
+        },
+        {
+          "title": {
+            "en": "Planning and checking progress",
+            "vi": "Lập kế hoạch và kiểm tra tiến bộ"
+          },
+          "note": {
+            "en": "Few goals, real tasks first, a personal reason, monthly checks.",
+            "vi": "Ít mục tiêu, việc thật trước, có lý do riêng, kiểm tra hằng tháng."
+          },
+          "questions": [
+            "q04",
+            "q06",
+            "q07",
+            "q08"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Active recall and spaced repetition",
+        "vi": "Chủ động nhớ lại và ôn ngắt quãng"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Recall instead of rereading",
+            "vi": "Nhớ lại thay vì đọc lại"
+          },
+          "note": {
+            "en": "Close the book and answer from memory; some difficulty helps.",
+            "vi": "Gập sách và trả lời từ trí nhớ; hơi khó một chút là tốt."
+          },
+          "questions": [
+            "q09",
+            "q10",
+            "q11",
+            "q16"
+          ]
+        },
+        {
+          "title": {
+            "en": "Spacing your reviews",
+            "vi": "Giãn cách các lần ôn"
+          },
+          "note": {
+            "en": "Tomorrow, in a few days, in a week; focus on weak cards.",
+            "vi": "Hôm sau, vài ngày sau, một tuần sau; dồn vào thẻ còn yếu."
+          },
+          "questions": [
+            "q12",
+            "q13",
+            "q14",
+            "q15"
+          ]
+        },
+        {
+          "title": {
+            "en": "Mixing practice",
+            "vi": "Luyện xen kẽ"
+          },
+          "note": {
+            "en": "Mixed problems teach you to choose the method.",
+            "vi": "Bài trộn dạng dạy bạn tự chọn cách làm."
+          },
+          "questions": [
+            "q17"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Learning with little time and at work",
+        "vi": "Học khi ít thời gian và ở chỗ làm"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Short sessions in a busy day",
+            "vi": "Buổi học ngắn trong ngày bận"
+          },
+          "note": {
+            "en": "Short, focused, at a good time; restart small after missing.",
+            "vi": "Ngắn, tập trung, đúng lúc; lỡ buổi thì bắt đầu lại nhỏ."
+          },
+          "questions": [
+            "q18",
+            "q19",
+            "q20",
+            "q25",
+            "q26"
+          ]
+        },
+        {
+          "title": {
+            "en": "Learning a new skill at work",
+            "vi": "Học kỹ năng mới ở chỗ làm"
+          },
+          "note": {
+            "en": "Core parts, real tasks, try first, then ask.",
+            "vi": "Phần cốt lõi, việc thật, thử trước rồi hỏi."
+          },
+          "questions": [
+            "q21",
+            "q22",
+            "q23",
+            "q24"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Notes and sources",
+        "vi": "Ghi chép và nguồn học"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Notes that work",
+            "vi": "Ghi chép hiệu quả"
+          },
+          "note": {
+            "en": "Own words, keywords, questions to test yourself.",
+            "vi": "Lời của mình, từ khoá, câu hỏi để tự kiểm tra."
+          },
+          "questions": [
+            "q27",
+            "q28",
+            "q29",
+            "q30"
+          ]
+        },
+        {
+          "title": {
+            "en": "Choosing good sources online",
+            "vi": "Chọn nguồn học tốt trên mạng"
+          },
+          "note": {
+            "en": "Check the author and date; one structured path; use what you save.",
+            "vi": "Xem tác giả và ngày cập nhật; một lộ trình có cấu trúc; dùng thứ đã lưu."
+          },
+          "questions": [
+            "q31",
+            "q32",
+            "q33",
+            "q34"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Habits, motivation, mistakes and feedback",
+        "vi": "Thói quen, động lực, lỗi sai và phản hồi"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Habits and motivation",
+            "vi": "Thói quen và động lực"
+          },
+          "note": {
+            "en": "Small action on a daily cue; design your environment.",
+            "vi": "Việc nhỏ gắn với tín hiệu hằng ngày; sắp xếp môi trường."
+          },
+          "questions": [
+            "q35",
+            "q36",
+            "q37",
+            "q38"
+          ]
+        },
+        {
+          "title": {
+            "en": "Learning from mistakes and feedback",
+            "vi": "Học từ lỗi sai và phản hồi"
+          },
+          "note": {
+            "en": "Mistakes are information; ask for one specific point; practise weak spots.",
+            "vi": "Lỗi sai là thông tin; xin một góp ý cụ thể; luyện điểm yếu."
+          },
+          "questions": [
+            "q39",
+            "q40",
+            "q41",
+            "q42",
+            "q43"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Teaching others and learning how to learn",
+        "vi": "Dạy người khác và học cách học"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Teaching to learn",
+            "vi": "Dạy để học"
+          },
+          "note": {
+            "en": "Explain simply, show then let them try, ask guiding questions.",
+            "vi": "Giải thích đơn giản, làm mẫu rồi để họ làm, hỏi gợi mở."
+          },
+          "questions": [
+            "q44",
+            "q45",
+            "q46",
+            "q47"
+          ]
+        },
+        {
+          "title": {
+            "en": "Principles of learning how to learn",
+            "vi": "Nguyên tắc học cách học"
+          },
+          "note": {
+            "en": "Methods matter more than styles; protect your sleep.",
+            "vi": "Phương pháp quan trọng hơn “phong cách”; giữ giấc ngủ."
+          },
+          "questions": [
+            "q48",
+            "q49",
+            "q50"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "en": "Turn vague wishes into goals with an ability, a check and a deadline.",
+      "vi": "Biến mong muốn mơ hồ thành mục tiêu có năng lực, cách kiểm tra và mốc thời gian."
+    },
+    {
+      "en": "Test yourself from memory instead of rereading or highlighting.",
+      "vi": "Tự kiểm tra từ trí nhớ thay vì đọc lại hay tô đậm."
+    },
+    {
+      "en": "Space your reviews out over days and weeks instead of cramming.",
+      "vi": "Giãn các lần ôn qua nhiều ngày, nhiều tuần thay vì học dồn."
+    },
+    {
+      "en": "Use short, focused sessions and restart small after missed days.",
+      "vi": "Dùng những buổi ngắn, tập trung và bắt đầu lại nhỏ sau những ngày lỡ."
+    },
+    {
+      "en": "Learn new work skills from real tasks: core parts first, try, then ask.",
+      "vi": "Học kỹ năng mới qua việc thật: phần cốt lõi trước, thử làm, rồi hỏi."
+    },
+    {
+      "en": "Take notes in your own words and judge sources by author and date.",
+      "vi": "Ghi chép bằng lời của mình và đánh giá nguồn qua tác giả và ngày cập nhật."
+    },
+    {
+      "en": "Build habits with daily cues and treat mistakes and feedback as information.",
+      "vi": "Xây thói quen bằng tín hiệu hằng ngày và xem lỗi sai, phản hồi là thông tin."
+    },
+    {
+      "en": "Teach others to deepen your own understanding, and protect your sleep.",
+      "vi": "Dạy người khác để hiểu sâu hơn, và giữ giấc ngủ đủ."
+    }
+  ],
+  "glossary": [
+    {
+      "en": "active recall",
+      "vi": "chủ động nhớ lại"
+    },
+    {
+      "en": "retrieval practice",
+      "vi": "luyện truy xuất, tự kiểm tra từ trí nhớ"
+    },
+    {
+      "en": "spaced repetition",
+      "vi": "lặp lại ngắt quãng"
+    },
+    {
+      "en": "cramming",
+      "vi": "học dồn, học nhồi"
+    },
+    {
+      "en": "interleaving",
+      "vi": "học xen kẽ nhiều dạng"
+    },
+    {
+      "en": "desirable difficulty",
+      "vi": "khó khăn có ích"
+    },
+    {
+      "en": "illusion of knowing",
+      "vi": "ảo tưởng mình đã biết"
+    },
+    {
+      "en": "flashcard",
+      "vi": "thẻ ghi nhớ"
+    },
+    {
+      "en": "deliberate practice",
+      "vi": "luyện tập có chủ đích"
+    },
+    {
+      "en": "feedback",
+      "vi": "phản hồi, góp ý"
+    },
+    {
+      "en": "growth mindset",
+      "vi": "tư duy phát triển"
+    },
+    {
+      "en": "habit cue",
+      "vi": "tín hiệu kích hoạt thói quen"
+    },
+    {
+      "en": "if then plan",
+      "vi": "kế hoạch nếu… thì…"
+    },
+    {
+      "en": "lateral reading",
+      "vi": "đọc ngang, kiểm tra nguồn qua nguồn khác"
+    },
+    {
+      "en": "self-study",
+      "vi": "tự học"
+    },
+    {
+      "en": "memory consolidation",
+      "vi": "củng cố trí nhớ"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "question": {
+        "text": "You want to improve your English for work but your only goal is to get better, what should you do first?",
+        "audioId": "",
+        "vi": "Bạn muốn cải thiện tiếng Anh cho công việc nhưng mục tiêu chỉ là “giỏi hơn”, bạn nên làm gì trước tiên?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Buy several thick grammar books and start reading them from the very first page",
+          "audioId": "",
+          "variants": [
+            "Buy thick grammar books and read from page one"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Wait until you feel really motivated before you decide what you will study",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Sign up for every free online course you can find on the internet this week",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Turn it into a specific goal with a clear result and a realistic deadline",
+          "audioId": "",
+          "variants": [
+            "Make it a specific goal with a clear result and deadline"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A vague wish like \"get better\" gives you nothing to plan or check. A specific goal, such as \"lead a short meeting in English by the end of the quarter\", tells you what to practise and when you have succeeded. Buying books or joining many courses without a target usually ends in unfinished material.",
+        "vi": "Một mong muốn mơ hồ như “giỏi hơn” không cho bạn gì để lên kế hoạch hay kiểm tra. Mục tiêu cụ thể, ví dụ “tự chủ trì một cuộc họp ngắn bằng tiếng Anh trước cuối quý”, cho bạn biết cần luyện gì và khi nào là đạt. Mua sách hay đăng ký nhiều khoá học khi chưa có đích thường dẫn đến một đống tài liệu dang dở."
+      }
+    },
+    {
+      "id": "q02",
+      "question": {
+        "text": "What makes a learning goal useful rather than vague?",
+        "audioId": "",
+        "vi": "Điều gì làm một mục tiêu học tập trở nên hữu ích thay vì mơ hồ?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It says what you will be able to do, how you will check it, and when",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It sounds impressive and ambitious, even if you cannot measure any progress at all",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It copies exactly the same goal that a successful friend shared on social media",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It focuses only on the number of hours you spend sitting at your desk",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A useful goal describes an ability, a way to check it and a time frame. For example: \"By June I can write a clear weekly report in English that my manager approves without corrections.\" Impressive but unmeasurable goals, or goals borrowed from others, give no direction.",
+        "vi": "Một mục tiêu hữu ích mô tả một năng lực, một cách kiểm tra và một mốc thời gian. Ví dụ: “Đến tháng Sáu, tôi viết được báo cáo tuần bằng tiếng Anh rõ ràng mà sếp duyệt không cần sửa.” Mục tiêu nghe hoành tráng nhưng không đo được, hoặc chép của người khác, không chỉ đường cho bạn."
+      }
+    },
+    {
+      "id": "q03",
+      "question": {
+        "text": "Why is a goal about what you can do better than a goal about hours studied?",
+        "audioId": "",
+        "vi": "Vì sao mục tiêu về việc bạn làm được tốt hơn mục tiêu về số giờ học?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Counting hours is forbidden by most teachers and training centres in the country",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Hours can pass without progress, but a skill goal shows whether you really improved",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Skill goals are always easier and need much less effort than goals about time",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Hours are very hard to count, so people usually give up on that kind of goal",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "You can sit with a book for many hours and still not be able to do anything new. A goal about ability, like \"answer customer emails in English without a translation tool\", forces you to practise the real thing. Time is a useful input to plan, but it is not the result.",
+        "vi": "Bạn có thể ngồi với cuốn sách hàng giờ mà vẫn chưa làm được điều gì mới. Mục tiêu về năng lực, như “trả lời email khách hàng bằng tiếng Anh không cần công cụ dịch”, buộc bạn luyện đúng việc thật. Thời gian là đầu vào hữu ích để lập kế hoạch, nhưng không phải kết quả."
+      }
+    },
+    {
+      "id": "q04",
+      "question": {
+        "text": "Your company wants you to use a new spreadsheet tool within a month, how should you plan your learning?",
+        "audioId": "",
+        "vi": "Công ty muốn bạn dùng một công cụ bảng tính mới trong vòng một tháng, bạn nên lên kế hoạch học thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Watch every tutorial about the tool from beginning to end before you touch it",
+          "audioId": "",
+          "variants": [
+            "Watch every tutorial before touching the tool"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "List the real tasks you must do with it and learn those tasks first",
+          "audioId": "",
+          "variants": [
+            "List your real tasks and learn those first"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Wait for the company to organise a formal training course for the whole team",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Learn the most advanced features first so that you look impressive in meetings",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "When time is short, start from the work you actually have to do: for example, making the monthly sales summary and a simple chart. Learn exactly those steps, then add more. Watching everything first delays real practice, and advanced features you do not need yet are quickly forgotten.",
+        "vi": "Khi thời gian ngắn, hãy bắt đầu từ công việc bạn thật sự phải làm, ví dụ lập bảng tổng hợp doanh số tháng và một biểu đồ đơn giản. Học đúng những bước đó trước rồi mới mở rộng. Xem hết mọi video trước sẽ trì hoãn việc thực hành, còn tính năng nâng cao chưa cần dùng thì nhanh quên."
+      }
+    },
+    {
+      "id": "q05",
+      "question": {
+        "text": "Your big goal of becoming fluent in English feels too far away, what is the best next step?",
+        "audioId": "",
+        "vi": "Mục tiêu lớn là nói tiếng Anh trôi chảy có vẻ quá xa vời, bước tiếp theo tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Give up the goal, because big goals are only for people with lots of free time",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Break it into small weekly targets that you can finish and check off",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Study ten hours every weekend to make the goal feel closer much more quickly",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Keep the goal in your head and study whatever you feel like each day",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A big goal becomes manageable when you turn it into small targets, such as \"this week, learn and use fifteen phrases for meetings\". Finishing a small target gives a sense of progress, which keeps you going. Huge weekend sessions are hard to keep, and studying randomly makes progress hard to see.",
+        "vi": "Mục tiêu lớn trở nên dễ quản lý khi bạn chia thành những mục tiêu nhỏ, ví dụ “tuần này học và dùng được mười lăm cụm từ cho cuộc họp”. Hoàn thành mục tiêu nhỏ cho bạn cảm giác tiến bộ, giúp bạn đi tiếp. Học dồn nhiều giờ cuối tuần rất khó duy trì, còn học tuỳ hứng thì khó thấy tiến bộ."
+      }
+    },
+    {
+      "id": "q06",
+      "question": {
+        "text": "A colleague sets ten learning goals for the new year at once, what is the main mistake?",
+        "audioId": "",
+        "vi": "Một đồng nghiệp đặt cùng lúc mười mục tiêu học cho năm mới, sai lầm chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ten goals are too few, because ambitious people should set at least twenty goals",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Too many goals split attention, so few of them get real time and effort",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Goals should never be written down, only kept privately inside your own mind",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The real mistake is starting in the new year instead of on a birthday",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A working adult has limited time and energy. With ten goals, each one gets a few minutes and none moves forward clearly. Choosing one or two main goals and finishing them usually brings more real change than ten half-started ones.",
+        "vi": "Người đi làm có thời gian và sức lực giới hạn. Với mười mục tiêu, mỗi mục tiêu chỉ được vài phút và không cái nào tiến rõ rệt. Chọn một hai mục tiêu chính và làm đến nơi thường mang lại thay đổi thật nhiều hơn mười mục tiêu bắt đầu dở dang."
+      }
+    },
+    {
+      "id": "q07",
+      "question": {
+        "text": "You have set a learning goal, how can you check your progress each month?",
+        "audioId": "",
+        "vi": "Bạn đã đặt mục tiêu học, làm sao để kiểm tra tiến bộ mỗi tháng?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Count how many pages of notes you have written since the very beginning",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Ask yourself whether you feel more confident without testing anything at all",
+          "audioId": "",
+          "variants": [
+            "Ask whether you feel more confident without testing"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Do a small real task or test and compare it with last month's result",
+          "audioId": "",
+          "variants": [
+            "Do a small real task and compare with last month"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Look at how much money you have spent on courses and books so far",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Progress should be checked with the same kind of task each time, for example recording a two minute self introduction every month and comparing. Pages of notes, money spent or a vague feeling of confidence do not show what you can actually do.",
+        "vi": "Tiến bộ nên được kiểm tra bằng cùng một loại việc mỗi lần, ví dụ mỗi tháng ghi âm phần tự giới thiệu hai phút rồi so sánh. Số trang ghi chép, số tiền đã chi hay cảm giác tự tin mơ hồ không cho thấy bạn thật sự làm được gì."
+      }
+    },
+    {
+      "id": "q08",
+      "question": {
+        "text": "Why should you write down why a learning goal matters to you?",
+        "audioId": "",
+        "vi": "Vì sao nên viết ra lý do mục tiêu học đó quan trọng với bạn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because writing reasons is required before any company will pay for your course",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because the reason guarantees that you will never feel tired or lazy again",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "So that you can post it online and get many likes from your friends",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A clear personal reason helps you continue when the work becomes hard or boring",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Every learning plan reaches a boring or difficult stage. A written reason, such as \"I want to handle foreign clients myself and qualify for the team lead role\", reminds you what the effort is for. It will not remove tiredness, but it makes it easier to restart.",
+        "vi": "Kế hoạch học nào cũng có lúc nhàm chán hoặc khó khăn. Một lý do được viết ra, ví dụ “tôi muốn tự làm việc với khách nước ngoài và đủ điều kiện làm trưởng nhóm”, nhắc bạn nỗ lực này để làm gì. Nó không xoá được mệt mỏi, nhưng giúp bạn dễ bắt đầu lại hơn."
+      }
+    },
+    {
+      "id": "q09",
+      "question": {
+        "text": "Why is testing yourself usually better than rereading your notes?",
+        "audioId": "",
+        "vi": "Vì sao tự kiểm tra thường tốt hơn đọc lại ghi chép?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Pulling information from memory strengthens it, while rereading only makes it feel familiar",
+          "audioId": "",
+          "variants": [
+            "Recalling from memory strengthens it, rereading only feels familiar"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Rereading is always better, because seeing the words again puts them into memory",
+          "audioId": "",
+          "variants": [
+            "Rereading is better because seeing words again stores them"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Testing yourself is only useful for children who are preparing for school exams",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no difference, because both methods use the same amount of time",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "This is one of the best supported ideas in learning science: actively recalling information makes it easier to recall again later. Rereading feels comfortable because the page looks familiar, but recognising something is not the same as being able to produce it. Close the notes and try to say the answer first.",
+        "vi": "Đây là một trong những ý được ủng hộ vững chắc nhất trong khoa học về việc học: chủ động nhớ lại thông tin giúp lần sau nhớ lại dễ hơn. Đọc lại thấy dễ chịu vì trang giấy trông quen, nhưng nhận ra một điều không giống với tự nói ra được điều đó. Hãy gập vở và thử tự nói câu trả lời trước."
+      }
+    },
+    {
+      "id": "q10",
+      "question": {
+        "text": "You have just finished reading a chapter of a work manual, what should you do next?",
+        "audioId": "",
+        "vi": "Bạn vừa đọc xong một chương tài liệu hướng dẫn công việc, tiếp theo bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Highlight almost every line in bright colours so the page looks well studied",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Read the same chapter again immediately, three or four more times in a row",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Move straight on to the next chapter without checking what you remember",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Close the book and write or say the main points from memory",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Right after reading, a quick recall, like writing three main points without looking, shows what you really took in. Then open the book only to check gaps. Heavy highlighting and immediate rereading feel productive but involve little thinking.",
+        "vi": "Ngay sau khi đọc, hãy nhớ lại nhanh, chẳng hạn viết ba ý chính mà không nhìn sách, để thấy mình thật sự nắm được gì. Sau đó mới mở sách để kiểm tra chỗ thiếu. Tô đậm khắp trang và đọc lại ngay trông có vẻ chăm chỉ nhưng rất ít phải suy nghĩ."
+      }
+    },
+    {
+      "id": "q11",
+      "question": {
+        "text": "A learner feels confident after rereading slides many times but fails the test, what went wrong?",
+        "audioId": "",
+        "vi": "Một người học thấy tự tin sau khi đọc lại slide nhiều lần nhưng vẫn trượt bài kiểm tra, sai ở đâu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "He did not reread the slides enough times, so he simply needed more rereading",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The test was unfair, because tests never show what people really know",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Familiar slides felt like knowledge, but he never practised recalling it without help",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "He studied too much, and too much study always makes people forget things",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "This is called an illusion of knowing. Slides seen many times look familiar, so the learner feels ready, but in the test there are no slides to look at. The fix is to practise the way you will be tested: answer questions from memory, then check.",
+        "vi": "Đây gọi là ảo tưởng mình đã biết. Slide xem nhiều lần trông quen nên người học thấy đã sẵn sàng, nhưng khi kiểm tra thì không còn slide để nhìn. Cách sửa là luyện đúng như cách bị kiểm tra: trả lời câu hỏi từ trí nhớ, rồi mới đối chiếu."
+      }
+    },
+    {
+      "id": "q12",
+      "question": {
+        "text": "What is spaced repetition?",
+        "audioId": "",
+        "vi": "Lặp lại ngắt quãng là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Studying the same topic for many hours in one long session without any breaks",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Repeating a sentence aloud very fast until you can say it automatically",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Reviewing material several times with longer and longer gaps between each review",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Leaving big spaces on your page so your notes look clean and tidy",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Spaced repetition means coming back to the same material after a day, then a few days, then a week or more. Each review comes just as you start to forget, which makes the memory last longer. Many flashcard apps schedule this for you automatically.",
+        "vi": "Lặp lại ngắt quãng nghĩa là quay lại cùng một nội dung sau một ngày, rồi vài ngày, rồi một tuần hoặc lâu hơn. Mỗi lần ôn rơi vào lúc bạn bắt đầu quên, giúp trí nhớ bền hơn. Nhiều ứng dụng thẻ ghi nhớ tự xếp lịch ôn này cho bạn."
+      }
+    },
+    {
+      "id": "q13",
+      "question": {
+        "text": "Why does studying a little over several days usually beat cramming the night before?",
+        "audioId": "",
+        "vi": "Vì sao học một ít trong nhiều ngày thường tốt hơn học dồn vào đêm trước?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Spaced study gives memory time to settle, so knowledge lasts much longer",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Cramming is better, because you remember everything perfectly for many years afterwards",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Studying over several days is only easier, but it does not help memory at all",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Cramming works for everyone if they drink enough coffee late at night",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Cramming can help you pass tomorrow's test, but much of it fades within days. The same total time spread over several days produces memories that last. For skills you need at work for months, spacing is the better choice.",
+        "vi": "Học dồn có thể giúp bạn qua bài kiểm tra ngày mai, nhưng phần lớn sẽ phai đi sau vài ngày. Cùng tổng thời gian đó nếu chia ra nhiều ngày sẽ tạo trí nhớ bền hơn. Với kỹ năng cần dùng trong công việc hàng tháng trời, chia nhỏ là lựa chọn tốt hơn."
+      }
+    },
+    {
+      "id": "q14",
+      "question": {
+        "text": "You learned twenty new work terms today, when should you review them?",
+        "audioId": "",
+        "vi": "Hôm nay bạn học hai mươi thuật ngữ công việc mới, khi nào bạn nên ôn lại?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Review them tomorrow, then after a few days, then after about a week",
+          "audioId": "",
+          "variants": [
+            "Tomorrow, then in a few days, then after a week"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Review them only once, right before you need them in an important meeting",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Review them every hour today and then never look at them again",
+          "audioId": "",
+          "variants": [
+            "Every hour today and then never again"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Never review them, because words you learned once stay in memory forever",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "New words fade fast at first. Reviewing the next day, then a few days later, then about a week later, keeps them alive with little effort. Reviewing many times on the same day mostly repeats what is already fresh.",
+        "vi": "Từ mới phai rất nhanh trong thời gian đầu. Ôn lại vào hôm sau, rồi vài ngày sau, rồi khoảng một tuần sau sẽ giữ chúng trong trí nhớ mà không tốn nhiều công. Ôn nhiều lần trong cùng một ngày chủ yếu là lặp lại thứ đang còn nhớ."
+      }
+    },
+    {
+      "id": "q15",
+      "question": {
+        "text": "When you review flashcards, a card feels very easy every time, what should you do?",
+        "audioId": "",
+        "vi": "Khi ôn thẻ ghi nhớ, có một thẻ lần nào cũng thấy rất dễ, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Show it less often and spend your time on the cards you still miss",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Keep reviewing it every day, because easy cards make you feel good about yourself",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Delete all your hard cards so that studying feels faster and more pleasant",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Stop using flashcards completely, because easy cards prove the method is useless",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Your review time is limited, so put it where memory is weak. Easy cards can wait longer before the next review, while cards you keep missing need to come back soon. Removing hard cards means removing exactly what you need to learn.",
+        "vi": "Thời gian ôn có hạn, nên hãy dồn vào chỗ trí nhớ còn yếu. Thẻ dễ có thể để lâu hơn mới ôn lại, còn thẻ hay sai cần quay lại sớm. Bỏ thẻ khó nghĩa là bỏ đúng thứ bạn cần học."
+      }
+    },
+    {
+      "id": "q16",
+      "question": {
+        "text": "Why does it help when remembering something feels a little difficult?",
+        "audioId": "",
+        "vi": "Vì sao việc nhớ lại hơi khó một chút lại có ích?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The effort of pulling it out of memory makes the memory stronger later",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Difficulty means the method is wrong and you should change it immediately",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Hard practice is useful only for sports, not for learning knowledge or skills",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It does not help, because learning should always feel smooth and comfortable",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Learning researchers call this a desirable difficulty. When you struggle a little to remember and then succeed or check the answer, the memory becomes stronger than after easy rereading. The difficulty should be manageable, not so hard that you cannot do it at all.",
+        "vi": "Các nhà nghiên cứu về việc học gọi đây là “khó khăn có ích”. Khi bạn phải cố một chút để nhớ rồi nhớ ra hoặc kiểm tra đáp án, trí nhớ trở nên vững hơn so với đọc lại dễ dàng. Mức khó phải vừa sức, không khó đến mức hoàn toàn không làm được."
+      }
+    },
+    {
+      "id": "q17",
+      "question": {
+        "text": "What is the difference between practising one type of problem at a time and mixing types?",
+        "audioId": "",
+        "vi": "Luyện từng dạng bài một và trộn nhiều dạng khác nhau ở điểm nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Mixing types is harder but teaches you to choose the right method yourself",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Practising one type is always better, because mixing only confuses learners for good",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "There is no difference, because the brain treats all problems the same way",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Mixing types is only useful for people who already know everything very well",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "When you practise one type in a block, you already know which method to use. Mixing types, sometimes called interleaving, makes you decide first which method fits, just like real work. It feels slower, but it builds more flexible skill.",
+        "vi": "Khi luyện một dạng liên tục, bạn đã biết sẵn phải dùng cách nào. Trộn nhiều dạng, còn gọi là học xen kẽ, buộc bạn tự quyết định cách nào phù hợp trước, giống như công việc thật. Cảm giác chậm hơn, nhưng kỹ năng linh hoạt hơn."
+      }
+    },
+    {
+      "id": "q18",
+      "question": {
+        "text": "You work full time and only have short gaps during the day, how can you still learn?",
+        "audioId": "",
+        "vi": "Bạn đi làm cả ngày và chỉ có những khoảng trống ngắn, làm sao vẫn học được?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Wait for a free weekend, because learning only works in long sessions",
+          "audioId": "",
+          "variants": [
+            "Wait for a free weekend for long sessions"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Play long lecture videos at work while you also answer emails and calls",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Use short sessions of focused review, like flashcards on the bus or at lunch",
+          "audioId": "",
+          "variants": [
+            "Use short focused reviews on the bus or at lunch"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Stop learning until your job becomes less busy sometime in the future",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Short, focused sessions work well for review and recall, and they add up over weeks. Ten minutes of flashcards at lunch is real practice. Waiting for a big free block often means waiting forever, and half listening while working gives little learning.",
+        "vi": "Những buổi ngắn mà tập trung rất hợp để ôn và nhớ lại, và cộng dồn qua nhiều tuần. Mười phút thẻ ghi nhớ giờ nghỉ trưa là luyện tập thật. Chờ một khoảng trống lớn thường là chờ mãi, còn vừa làm vừa nghe nửa vời thì học được rất ít."
+      }
+    },
+    {
+      "id": "q19",
+      "question": {
+        "text": "You keep planning to study after work but are always too tired, what should you try?",
+        "audioId": "",
+        "vi": "Bạn cứ định học sau giờ làm nhưng lúc nào cũng quá mệt, bạn nên thử gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Force yourself to study for hours at night, even when you cannot focus at all",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Blame your job and decide that working adults simply cannot learn new things",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Move a short session to a time when you have more energy, like early morning",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Study in bed with the television on so that you feel more relaxed",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "If the same plan fails every evening, the plan needs changing, not your character. Try twenty minutes before work or during lunch, when your head is clearer. Long tired sessions produce little, and studying with distractions in bed rarely sticks.",
+        "vi": "Nếu cùng một kế hoạch thất bại mỗi tối thì cần đổi kế hoạch, không phải đổi con người bạn. Hãy thử hai mươi phút trước giờ làm hoặc giờ nghỉ trưa, khi đầu óc tỉnh táo hơn. Học lâu khi mệt thu được rất ít, còn nằm học kèm tivi hiếm khi nhớ lâu."
+      }
+    },
+    {
+      "id": "q20",
+      "question": {
+        "text": "Why are twenty focused minutes often worth more than an hour with your phone nearby?",
+        "audioId": "",
+        "vi": "Vì sao hai mươi phút tập trung thường đáng giá hơn một giờ học có điện thoại bên cạnh?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Twenty minutes is never enough to learn anything useful for adults at work",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A phone nearby improves focus, because you can check any fact very quickly",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Longer sessions are always better, no matter how often you get distracted",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Constant interruptions break attention, so the long session gives less real learning",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Every notification pulls your attention away, and it takes time to get back into deep thinking. A short session with the phone in another room often gives more real practice than a long, broken one. Put the phone away before you start, not after the first message.",
+        "vi": "Mỗi thông báo kéo sự chú ý của bạn đi, và cần thời gian để quay lại trạng thái suy nghĩ sâu. Một buổi ngắn với điện thoại để phòng khác thường cho nhiều luyện tập thật hơn một buổi dài bị cắt vụn. Hãy cất điện thoại trước khi bắt đầu, đừng đợi tin nhắn đầu tiên."
+      }
+    },
+    {
+      "id": "q21",
+      "question": {
+        "text": "You have to learn a new software tool at work by next week, what is the fastest effective approach?",
+        "audioId": "",
+        "vi": "Bạn phải học một phần mềm mới ở chỗ làm trước tuần sau, cách nhanh mà hiệu quả nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Learn the basics briefly, then practise on a real task and ask when stuck",
+          "audioId": "",
+          "variants": [
+            "Learn the basics, practise on a real task, ask when stuck"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Read the whole user guide from start to finish before trying anything yourself",
+          "audioId": "",
+          "variants": [
+            "Read the whole user guide before trying anything"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Avoid using the tool and keep doing the work in the old way for now",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Pretend you already know it and hope nobody notices any of your mistakes",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Skills grow by doing. A short introduction gives you enough to start, a real task shows what you actually need, and asking when stuck saves hours of guessing. Reading the whole guide first delays practice, and pretending creates bigger problems later.",
+        "vi": "Kỹ năng lớn lên nhờ làm. Phần giới thiệu ngắn đủ để bạn bắt đầu, việc thật cho thấy bạn cần gì, và hỏi khi bị kẹt giúp tiết kiệm hàng giờ đoán mò. Đọc hết hướng dẫn trước làm chậm việc thực hành, còn giả vờ biết sẽ gây rắc rối lớn hơn về sau."
+      }
+    },
+    {
+      "id": "q22",
+      "question": {
+        "text": "A senior colleague knows the skill you need to learn, what is the best way to use their help?",
+        "audioId": "",
+        "vi": "Một đồng nghiệp có kinh nghiệm biết kỹ năng bạn cần học, cách tốt nhất để nhờ họ giúp là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask them to do the task for you every single time it comes up",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Try the task first, then ask specific questions about the parts you could not do",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Avoid asking anything, because questions make you look weak in front of others",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask them to explain everything they know about the topic all in one go",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Trying first shows you exactly where you are stuck, so your questions are short and useful, for example: \"I got the totals right but the chart will not update, what am I missing?\" Colleagues are happier to help when you have tried. If they always do it for you, you never learn.",
+        "vi": "Thử làm trước cho bạn thấy chính xác mình kẹt ở đâu, nên câu hỏi ngắn và đúng chỗ, ví dụ: “Em ra được tổng rồi nhưng biểu đồ không cập nhật, em thiếu bước nào ạ?” Đồng nghiệp sẵn lòng giúp hơn khi thấy bạn đã thử. Nếu họ luôn làm hộ, bạn sẽ không bao giờ học được."
+      }
+    },
+    {
+      "id": "q23",
+      "question": {
+        "text": "A new employee watches tutorials for weeks but never tries the real work, what is the main mistake?",
+        "audioId": "",
+        "vi": "Một nhân viên mới xem video hướng dẫn nhiều tuần nhưng chưa bao giờ thử làm việc thật, sai lầm chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "He watched too few tutorials, so he needed several more weeks of videos",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Tutorials are always wrong, so he should never watch any videos at work",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Watching feels like learning, but skills only grow through practice and feedback",
+          "audioId": "",
+          "variants": [
+            "Watching feels like learning, but skills need practice and feedback"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "The mistake is watching at home instead of watching during office hours",
+          "audioId": "",
+          "variants": [
+            "He should watch during office hours, not at home"
+          ]
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Watching an expert makes a task look easy, which creates a false sense of skill. Only when you try do you meet the real difficulties and get feedback. A good rule is to watch a short part, then do it yourself straight away.",
+        "vi": "Xem chuyên gia làm khiến công việc trông dễ dàng, tạo cảm giác sai rằng mình đã biết. Chỉ khi tự làm bạn mới gặp khó khăn thật và nhận được phản hồi. Một nguyên tắc tốt là xem một đoạn ngắn, rồi tự làm ngay."
+      }
+    },
+    {
+      "id": "q24",
+      "question": {
+        "text": "Why is it useful to find the few core parts of a new skill first?",
+        "audioId": "",
+        "vi": "Vì sao nên tìm ra vài phần cốt lõi của một kỹ năng mới trước tiên?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Core parts are boring, so experts always skip them and start with details",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It is not useful, because every part of a skill matters exactly the same",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "So you can stop learning after the first day and never improve again",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A small set of core parts often covers most of the real work you do",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "In many skills, a few basic actions are used again and again. In a spreadsheet tool, for example, sorting, filtering and simple formulas cover a lot of daily work. Learning these first makes you useful quickly, and you can add the rest when real tasks require it.",
+        "vi": "Ở nhiều kỹ năng, một số thao tác cơ bản được dùng lặp đi lặp lại. Ví dụ với bảng tính, sắp xếp, lọc và vài công thức đơn giản đã đáp ứng phần lớn việc hằng ngày. Học những phần này trước giúp bạn sớm làm được việc, phần còn lại bổ sung khi công việc thật cần đến."
+      }
+    },
+    {
+      "id": "q25",
+      "question": {
+        "text": "You have a long commute every day, how can you use it for learning?",
+        "audioId": "",
+        "vi": "Ngày nào bạn cũng đi làm xa, làm sao tận dụng thời gian đó để học?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Read dense notes while riding a motorbike through heavy traffic every morning",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Listen to useful audio and then quietly recall the key points before arriving",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Play random videos to relax and call it learning time in your weekly plan",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Do nothing, because commuting time is too noisy for any kind of learning",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Audio lessons or podcasts fit a commute if you are on a bus or train, or listening safely. The key is to recall afterwards: before arriving, say the main points to yourself. Never read while driving or riding, because safety comes first.",
+        "vi": "Bài học dạng nghe hoặc podcast rất hợp khi bạn đi xe buýt, tàu, hoặc có thể nghe an toàn. Điều quan trọng là nhớ lại sau đó: trước khi đến nơi, tự nói lại các ý chính. Đừng bao giờ đọc khi đang lái xe, vì an toàn là trên hết."
+      }
+    },
+    {
+      "id": "q26",
+      "question": {
+        "text": "You missed several study sessions this week because of extra work, what should you do?",
+        "audioId": "",
+        "vi": "Tuần này bạn lỡ vài buổi học vì phải làm thêm, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Give up the whole plan, because missing sessions proves you are not disciplined",
+          "audioId": "",
+          "variants": [
+            "Give up the plan because you are not disciplined"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Study all the missed hours in one exhausting night to catch up quickly",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Feel guilty for several days before you allow yourself to study again",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Restart with the next small session and adjust your plan to fit real life",
+          "audioId": "",
+          "variants": [
+            "Restart with the next small session and adjust the plan"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Busy weeks are normal for working adults. What matters is coming back quickly, not making up every lost minute. If you miss often, make the plan smaller and more realistic. One exhausting catch up night usually leads to burnout and another break.",
+        "vi": "Tuần bận rộn là chuyện bình thường với người đi làm. Điều quan trọng là quay lại nhanh, không phải bù từng phút đã mất. Nếu hay lỡ, hãy làm kế hoạch nhỏ và thực tế hơn. Một đêm học bù đến kiệt sức thường dẫn đến chán nản và lại bỏ dở."
+      }
+    },
+    {
+      "id": "q27",
+      "question": {
+        "text": "Why are notes in your own words better than copying the slides exactly?",
+        "audioId": "",
+        "vi": "Vì sao ghi chép bằng lời của mình tốt hơn chép nguyên văn slide?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Rewording forces you to understand the idea, so you remember it better",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Copying exactly is better, because your own words are always less accurate",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "There is no difference, since all notes are forgotten after a few days",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Own words take less time, which is the only reason people use them",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "To put an idea in your own words, you must first understand it and connect it to what you already know. That thinking is what helps memory. Copying can be done without understanding anything, which is why copied notes are often useless later.",
+        "vi": "Để diễn đạt một ý bằng lời của mình, bạn phải hiểu nó và nối với điều đã biết. Chính quá trình suy nghĩ đó giúp ghi nhớ. Chép nguyên văn có thể làm mà không cần hiểu gì, nên ghi chép kiểu chép lại thường vô dụng về sau."
+      }
+    },
+    {
+      "id": "q28",
+      "question": {
+        "text": "During a training session the trainer speaks fast, what is the best way to take notes?",
+        "audioId": "",
+        "vi": "Trong buổi đào tạo, người dạy nói rất nhanh, cách ghi chép tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Write short keywords and questions, then fill in details soon after the session",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Try to write down every word, even if you stop listening to the meaning",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Take no notes at all, because you will surely remember everything later",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Record the session and never listen to the recording again afterwards",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Trying to write everything means you stop thinking about the meaning. Keywords and quick questions keep you listening. Within the same day, spend ten minutes expanding them from memory, which is also a good recall exercise.",
+        "vi": "Cố ghi từng chữ khiến bạn ngừng suy nghĩ về ý nghĩa. Từ khoá và câu hỏi nhanh giúp bạn vẫn lắng nghe. Ngay trong ngày, dành mười phút viết rõ ra từ trí nhớ, đó cũng là một bài tập nhớ lại rất tốt."
+      }
+    },
+    {
+      "id": "q29",
+      "question": {
+        "text": "Which sign shows that your notes will not help you much when you review?",
+        "audioId": "",
+        "vi": "Dấu hiệu nào cho thấy ghi chép của bạn sẽ không giúp nhiều khi ôn lại?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "They are short, written in your own words and include a few questions",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "They contain examples from your own work that connect to the new ideas",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "They are long copied paragraphs with no questions, summary or own words",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "They have a small summary at the bottom that you can test yourself on",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Notes that work are short, in your own words, and include questions or a summary you can cover and answer. One popular layout puts questions in a side column and a summary at the bottom. Long copied paragraphs can only be reread, which is the weakest way to review.",
+        "vi": "Ghi chép hiệu quả thì ngắn, bằng lời của bạn, và có câu hỏi hoặc tóm tắt để che đi rồi tự trả lời. Một cách trình bày phổ biến là đặt câu hỏi ở cột bên và tóm tắt ở cuối trang. Đoạn chép dài chỉ có thể đọc lại, mà đọc lại là cách ôn kém hiệu quả nhất."
+      }
+    },
+    {
+      "id": "q30",
+      "question": {
+        "text": "A learner highlights almost every sentence in a book, what is the main problem?",
+        "audioId": "",
+        "vi": "Một người học tô đậm gần như mọi câu trong sách, vấn đề chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "She used the wrong colour, because yellow is the only colour that works",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "When everything is highlighted, nothing stands out and little thinking actually happens",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "She should highlight even more, including the page numbers and the titles",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Highlighting is fine, and the real problem is reading a paper book",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Highlighting feels active but requires little decision making when used on everything. A better habit is to read a section, close the book, and write one or two key points in the margin from memory. Then highlight only what you could not recall.",
+        "vi": "Tô đậm cảm giác như đang học tích cực, nhưng khi tô mọi thứ thì gần như không phải quyết định gì. Thói quen tốt hơn là đọc một đoạn, gập sách, rồi viết một hai ý chính ra lề từ trí nhớ. Sau đó chỉ tô những gì bạn không nhớ được."
+      }
+    },
+    {
+      "id": "q31",
+      "question": {
+        "text": "You find a free online course with a very attractive title, how should you judge whether it is good?",
+        "audioId": "",
+        "vi": "Bạn thấy một khoá học trực tuyến miễn phí có tiêu đề rất hấp dẫn, đánh giá chất lượng thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Check who made it, when it was updated, and whether others recommend it",
+          "audioId": "",
+          "variants": [
+            "Check the author, the update date and recommendations"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Trust it immediately, because a course with a nice title must be good",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Choose it only because it has the most views among all the videos",
+          "audioId": "",
+          "variants": [
+            "Choose the one with the most views"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Avoid all free courses, because free material is never accurate or useful",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Quality depends on the source, not the title. Look at who made the course and their real experience, whether the content is up to date, and what people in the field say about it. Many free courses are excellent, and many popular videos are shallow.",
+        "vi": "Chất lượng phụ thuộc vào nguồn, không phải tiêu đề. Hãy xem ai làm khoá học và kinh nghiệm thật của họ, nội dung có cập nhật không, và người trong nghề đánh giá thế nào. Nhiều khoá miễn phí rất tốt, và nhiều video nhiều lượt xem lại rất hời hợt."
+      }
+    },
+    {
+      "id": "q32",
+      "question": {
+        "text": "Two websites give opposite advice about a work topic you are learning, what should you do?",
+        "audioId": "",
+        "vi": "Hai trang web đưa ra lời khuyên trái ngược về một chủ đề công việc bạn đang học, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Follow the website that has the more colourful design and more advertising",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Compare several trusted sources and see what most reliable experts agree on",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Pick the advice you like more, because your feelings are the best judge",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Stop learning the topic, because the internet is always full of lies",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "When sources disagree, look wider before deciding. Check official guides, recognised professional organisations or experienced practitioners, and see where most agree. Checking what other sites say about a source is called lateral reading and is a reliable habit.",
+        "vi": "Khi các nguồn mâu thuẫn, hãy nhìn rộng ra trước khi quyết định. Xem tài liệu chính thức, tổ chức nghề nghiệp uy tín hoặc người làm nghề lâu năm, rồi xem phần lớn họ đồng ý ở điểm nào. Kiểm tra xem các trang khác nói gì về một nguồn gọi là “đọc ngang”, một thói quen đáng tin cậy."
+      }
+    },
+    {
+      "id": "q33",
+      "question": {
+        "text": "Why is one good structured source often better than many random short videos?",
+        "audioId": "",
+        "vi": "Vì sao một nguồn có cấu trúc tốt thường hơn nhiều video ngắn ngẫu nhiên?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Random videos are better, because the algorithm always knows what you need",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A structured source builds ideas in order, while random clips leave big gaps",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "One source is always enough for every topic for the rest of your life",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Short videos are banned by most training managers in modern companies",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A good course or book is designed so each idea prepares the next. Random clips jump between levels and topics, so you may know pieces but miss the basics that connect them. Short videos are fine as extra help once you have a main path.",
+        "vi": "Một khoá học hay cuốn sách tốt được thiết kế để ý trước chuẩn bị cho ý sau. Các đoạn video ngẫu nhiên nhảy qua lại giữa các trình độ và chủ đề, nên bạn có thể biết từng mảnh nhưng thiếu nền tảng nối chúng lại. Video ngắn chỉ nên là phần bổ trợ khi bạn đã có lộ trình chính."
+      }
+    },
+    {
+      "id": "q34",
+      "question": {
+        "text": "You saved fifty useful articles to read later but never open them, what should you change?",
+        "audioId": "",
+        "vi": "Bạn đã lưu năm mươi bài viết hay để đọc sau nhưng chưa bao giờ mở ra, bạn nên thay đổi gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Save even more articles, so you will have more choice when you start",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Pick one or two, read them now, and apply one idea this week",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Feel bad about it and promise yourself to read all fifty this weekend",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Delete your learning goal, because saving articles shows you are not serious",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Saving feels like progress, but nothing is learned until you read and use it. Choose the most relevant pieces, read them with a question in mind, and try one idea at work. Then archive the rest without guilt.",
+        "vi": "Lưu bài cảm giác như đang tiến bộ, nhưng chưa học được gì cho đến khi bạn đọc và dùng. Hãy chọn vài bài sát nhất, đọc với một câu hỏi trong đầu, và thử áp dụng một ý vào công việc. Phần còn lại cứ lưu trữ, không cần áy náy."
+      }
+    },
+    {
+      "id": "q35",
+      "question": {
+        "text": "You want to make daily study a habit, what is the most effective way to start?",
+        "audioId": "",
+        "vi": "Bạn muốn biến việc học hằng ngày thành thói quen, cách bắt đầu hiệu quả nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Start with two hours every day so the habit becomes strong very quickly",
+          "audioId": "",
+          "variants": [
+            "Start with two hours every day"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Wait until you feel strongly motivated before you begin any study routine",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Study only on days when you have nothing else to do at all",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Attach a small session to something you already do every day, like morning coffee",
+          "audioId": "",
+          "variants": [
+            "Link a small session to something you do daily, like coffee"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Habits form more easily when a clear cue triggers a small, easy action. \"After I pour my morning coffee, I review ten flashcards\" is simple to repeat. Starting too big makes it easy to skip, and waiting for motivation leaves the habit to chance.",
+        "vi": "Thói quen dễ hình thành khi có một tín hiệu rõ ràng kích hoạt một hành động nhỏ, dễ làm. “Rót cà phê sáng xong, tôi ôn mười thẻ từ” rất dễ lặp lại. Bắt đầu quá lớn khiến bạn dễ bỏ, còn chờ có động lực thì thói quen phụ thuộc vào may rủi."
+      }
+    },
+    {
+      "id": "q36",
+      "question": {
+        "text": "What is an if then plan in learning?",
+        "audioId": "",
+        "vi": "Kế hoạch “nếu… thì…” trong việc học là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A plan that lists only the rewards you will buy after passing an exam",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A plan that changes every day depending on your mood and free time",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A plan that links a situation to an action, like if I sit down, I review",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A plan written by your manager that you must follow without any choice",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "An if then plan decides in advance what you will do in a specific situation: \"If I get on the bus, then I open my vocabulary app.\" Because the decision is already made, you do not need to negotiate with yourself each time. It also works for obstacles: \"If I miss the morning, then I study at lunch.\"",
+        "vi": "Kế hoạch “nếu… thì…” quyết định trước bạn sẽ làm gì trong một tình huống cụ thể: “Nếu lên xe buýt, thì tôi mở ứng dụng từ vựng.” Vì đã quyết sẵn, bạn không phải mặc cả với bản thân mỗi lần. Cách này cũng dùng được cho trở ngại: “Nếu lỡ buổi sáng, thì tôi học giờ trưa.”"
+      }
+    },
+    {
+      "id": "q37",
+      "question": {
+        "text": "Why is relying on discipline less effective than designing your environment?",
+        "audioId": "",
+        "vi": "Vì sao dựa vào kỷ luật kém hiệu quả hơn sắp xếp môi trường xung quanh?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Discipline never matters at all, so you never need any effort to study",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Environment has no effect, because strong people can study anywhere at any time",
+          "audioId": "",
+          "variants": [
+            "Strong people can study anywhere, so environment has no effect"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Designing an environment means buying expensive furniture before you start learning",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Willpower runs low when tired, but a ready desk and hidden phone make starting easier",
+          "audioId": "",
+          "variants": [
+            "Willpower runs low, but a ready desk and hidden phone help"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "After a long workday, willpower is limited. If your book is already open on the desk and your phone is in another room, starting takes almost no effort. Small changes like these are cheap and work better than promising yourself to be stronger.",
+        "vi": "Sau một ngày làm việc dài, ý chí có hạn. Nếu sách đã mở sẵn trên bàn và điện thoại để phòng khác, bắt đầu gần như không tốn sức. Những thay đổi nhỏ như vậy không tốn kém và hiệu quả hơn việc hứa với bản thân sẽ mạnh mẽ hơn."
+      }
+    },
+    {
+      "id": "q38",
+      "question": {
+        "text": "After two weeks of good progress you suddenly lose motivation, what should you do?",
+        "audioId": "",
+        "vi": "Sau hai tuần tiến bộ tốt, bạn bỗng mất động lực, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Stop until the motivation comes back naturally, however long that may take",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Change to a completely new subject every time you feel a little bored",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Keep a minimum version of the habit and look back at how far you came",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Punish yourself by studying twice as long as usual the next day",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Motivation goes up and down, so a habit should not depend on it. On low days, do the smallest version, such as five minutes, so the chain is not broken. Looking at your progress record, like old recordings, also reminds you that the effort works.",
+        "vi": "Động lực lúc lên lúc xuống, nên thói quen không nên phụ thuộc vào nó. Những ngày uể oải, hãy làm phiên bản nhỏ nhất, như năm phút, để không đứt chuỗi. Xem lại ghi chép tiến bộ, như các bản ghi âm cũ, cũng nhắc bạn rằng nỗ lực đang có kết quả."
+      }
+    },
+    {
+      "id": "q39",
+      "question": {
+        "text": "Your manager points out several errors in a report you wrote with a new skill, what is the best response?",
+        "audioId": "",
+        "vi": "Sếp chỉ ra vài lỗi trong bản báo cáo bạn làm bằng kỹ năng mới học, cách phản hồi tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Explain that the errors were not your fault and the template caused them",
+          "audioId": "",
+          "variants": [
+            "Say the errors were not your fault"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Say nothing, feel embarrassed and avoid using the new skill ever again",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Thank them, ask what to check next time, and write down the lesson",
+          "audioId": "",
+          "variants": [
+            "Thank them, ask what to check, and note the lesson"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Agree quickly to end the talk, then make the same errors next time",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Feedback is free information about what to improve. A response like \"Thank you, what should I check first next time?\" shows maturity and gives you a clear action. Writing the lesson down turns one correction into a checklist you can reuse.",
+        "vi": "Phản hồi là thông tin miễn phí về điều cần cải thiện. Một câu như “Cảm ơn anh, lần sau em nên kiểm tra phần nào trước ạ?” cho thấy sự trưởng thành và cho bạn một việc cụ thể. Ghi lại bài học biến một lần bị sửa thành danh sách kiểm tra dùng lại được."
+      }
+    },
+    {
+      "id": "q40",
+      "question": {
+        "text": "What is the difference between seeing a mistake as failure and seeing it as information?",
+        "audioId": "",
+        "vi": "Xem lỗi sai là thất bại và xem lỗi sai là thông tin khác nhau thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "There is no difference, because mistakes always mean you lack natural talent",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Seeing mistakes as failure is better, because fear makes people learn faster",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Seeing it as information means you can ignore the mistake and move on",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Information tells you what to fix next, while failure thinking makes you stop trying",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "If a mistake means \"I am not good at this\", you tend to avoid the task. If it means \"this step needs work\", you know what to practise. This is the core of a growth mindset: ability improves with good strategies and effort, and mistakes point the way.",
+        "vi": "Nếu lỗi sai mang nghĩa “mình không giỏi việc này”, bạn có xu hướng né tránh. Nếu nó mang nghĩa “bước này cần luyện thêm”, bạn biết phải tập gì. Đây là cốt lõi của tư duy phát triển: năng lực tăng lên nhờ phương pháp tốt và nỗ lực, còn lỗi sai chỉ đường cho bạn."
+      }
+    },
+    {
+      "id": "q41",
+      "question": {
+        "text": "A learner keeps making the same mistake in English emails, what is probably missing?",
+        "audioId": "",
+        "vi": "Một người học cứ mắc cùng một lỗi trong email tiếng Anh, nhiều khả năng họ đang thiếu điều gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "He writes too many emails, so he should write fewer emails each week",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "He needs a new computer, because old computers cause grammar errors",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "He never notes the mistake or practises the correct form on purpose",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "He should stop writing emails in English and ask others to write them",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A mistake that is only corrected by someone else tends to come back. Keep a short list of your repeated errors, practise the correct form a few times, and check that point before sending each email. Avoiding English emails removes the practice you need.",
+        "vi": "Lỗi chỉ được người khác sửa hộ thường sẽ quay lại. Hãy giữ một danh sách ngắn các lỗi hay lặp, luyện dạng đúng vài lần, và kiểm tra đúng điểm đó trước khi gửi mỗi email. Tránh viết email tiếng Anh là bỏ đi chính phần luyện tập bạn cần."
+      }
+    },
+    {
+      "id": "q42",
+      "question": {
+        "text": "You want honest feedback on a presentation skill you are learning, what should you ask a colleague?",
+        "audioId": "",
+        "vi": "Bạn muốn nhận góp ý thật lòng về kỹ năng thuyết trình đang học, nên hỏi đồng nghiệp thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask whether it was good, and accept a quick yes as enough feedback",
+          "audioId": "",
+          "variants": [
+            "Ask if it was good and accept a quick yes"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Ask them to list everything wrong with your personality and speaking style",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Avoid asking anyone, because feedback from colleagues is always biased and useless",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask for one thing that worked and one specific thing to improve",
+          "audioId": "",
+          "variants": [
+            "One thing that worked and one thing to improve"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "\"Was it okay?\" usually gets a polite \"yes\". A specific question, such as \"What is one thing I should change in my next presentation?\", makes honest feedback easier to give. One clear point is more useful than a long list.",
+        "vi": "Hỏi “Ổn không?” thường chỉ nhận được câu “ổn” lịch sự. Một câu hỏi cụ thể như “Lần thuyết trình tới em nên sửa một điều gì?” giúp người khác dễ góp ý thật lòng hơn. Một điểm rõ ràng hữu ích hơn một danh sách dài."
+      }
+    },
+    {
+      "id": "q43",
+      "question": {
+        "text": "What is deliberate practice?",
+        "audioId": "",
+        "vi": "Luyện tập có chủ đích là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Practising only the parts you already do well so that you feel confident",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Focused practice on a weak point, with clear feedback and repeated small corrections",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Doing the same task many times without thinking about how to improve it",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Practising whenever you happen to remember, without any plan or feedback at all",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Deliberate practice means choosing one specific weakness, working on it with full attention, getting feedback and adjusting. Simply repeating a task you already know builds comfort, not new skill. For example, practise only the opening of your presentation until it is smooth.",
+        "vi": "Luyện tập có chủ đích nghĩa là chọn một điểm yếu cụ thể, tập trung luyện nó, nhận phản hồi và điều chỉnh. Lặp lại việc đã biết chỉ tạo sự thoải mái, không tạo kỹ năng mới. Ví dụ, chỉ luyện phần mở đầu bài thuyết trình cho đến khi trôi chảy."
+      }
+    },
+    {
+      "id": "q44",
+      "question": {
+        "text": "Why does explaining a topic to someone else help you learn it better?",
+        "audioId": "",
+        "vi": "Vì sao giải thích một chủ đề cho người khác giúp bạn học tốt hơn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It helps only the listener, while the person explaining learns nothing new",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It is useful only if you are a professional teacher with many years of experience",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Talking a lot always puts information into memory, whatever you actually say",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Explaining shows the gaps in your understanding and makes you organise the ideas",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "When you try to explain in simple words, you quickly find the parts you cannot explain, and those are your gaps. Preparing to teach also makes you put ideas in a clear order. A simple test: explain the topic to a colleague from another department in two minutes.",
+        "vi": "Khi cố giải thích bằng lời đơn giản, bạn nhanh chóng thấy chỗ mình không giải thích được, đó chính là lỗ hổng. Chuẩn bị để dạy cũng buộc bạn sắp xếp ý theo thứ tự rõ ràng. Một phép thử đơn giản: giải thích chủ đề cho đồng nghiệp phòng khác trong hai phút."
+      }
+    },
+    {
+      "id": "q45",
+      "question": {
+        "text": "A new colleague asks you to teach them a task, what is the most helpful approach?",
+        "audioId": "",
+        "vi": "Một đồng nghiệp mới nhờ bạn dạy một việc, cách hữu ích nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Do the task for them every time, because it is faster that way",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Send them a long document and tell them not to ask any questions",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Show it once, let them try while you watch, then give short feedback",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Explain everything in one long talk without letting them try it themselves",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "People learn tasks by doing them with support. Demonstrate once, let them do it while you observe, and give one or two clear comments. Over time, step back more. Doing it for them is faster today but keeps them dependent.",
+        "vi": "Người ta học một việc bằng cách tự làm có người hỗ trợ. Làm mẫu một lần, để họ tự làm trong lúc bạn quan sát, rồi góp một hai ý rõ ràng. Dần dần lùi ra xa hơn. Làm hộ thì nhanh hôm nay nhưng khiến họ phụ thuộc mãi."
+      }
+    },
+    {
+      "id": "q46",
+      "question": {
+        "text": "A younger family member says they are just bad at learning, what is the best thing to tell them?",
+        "audioId": "",
+        "vi": "Một người em trong gia đình nói mình vốn học kém, điều tốt nhất nên nói với em là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Agree with them, because some people are simply born unable to learn",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Tell them to study longer hours every night until they finally get it",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Say that learning does not matter, because success is mostly about luck",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Skills grow with the right methods and practice, so let us try one method together",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Many people who think they are bad at learning have simply used weak methods, like rereading. Show them one concrete method, such as testing themselves with questions, and let them see a small success. More hours with the same method rarely changes the result.",
+        "vi": "Nhiều người nghĩ mình học kém thực ra chỉ đang dùng cách học kém hiệu quả, như đọc đi đọc lại. Hãy chỉ cho họ một phương pháp cụ thể, như tự kiểm tra bằng câu hỏi, và để họ thấy một thành công nhỏ. Tăng giờ học với cùng cách cũ hiếm khi đổi được kết quả."
+      }
+    },
+    {
+      "id": "q47",
+      "question": {
+        "text": "You are helping a team member study, they keep asking you for answers, what should you do?",
+        "audioId": "",
+        "vi": "Bạn đang giúp một thành viên trong nhóm học, họ cứ hỏi bạn đáp án, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask guiding questions so they find the answer and recall it themselves",
+          "audioId": "",
+          "variants": [
+            "Ask guiding questions so they find the answer themselves"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Keep giving full answers quickly, because that saves both of you time",
+          "audioId": "",
+          "variants": [
+            "Keep giving full answers quickly to save time"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Refuse to help completely, so they learn to manage everything alone",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Tell them the answers and ask them to copy everything into a notebook",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "When you give the answer, you do the thinking for them. Questions like \"What did we do last time?\" or \"Where would you look first?\" help them retrieve and connect knowledge. Refusing to help at all is the opposite extreme and can make them give up.",
+        "vi": "Khi bạn đưa đáp án, bạn đã suy nghĩ hộ họ. Những câu hỏi như “Lần trước mình làm thế nào?” hay “Em sẽ tìm ở đâu trước?” giúp họ tự nhớ lại và kết nối kiến thức. Từ chối giúp hoàn toàn là thái cực ngược lại và có thể khiến họ bỏ cuộc."
+      }
+    },
+    {
+      "id": "q48",
+      "question": {
+        "text": "What does learning how to learn mean?",
+        "audioId": "",
+        "vi": "Học cách học nghĩa là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Collecting as many certificates as possible from courses in a short time",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Knowing which methods work for memory and skill, and choosing them on purpose",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Finding the one perfect learning style that you must always use forever",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Learning only from teachers, because self study never works for adults",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Learning how to learn means understanding a few reliable principles, such as recall, spacing, practice with feedback and good habits, and using them deliberately for any new subject. It makes every later course or skill faster to learn. Certificates show attendance, not method.",
+        "vi": "Học cách học nghĩa là hiểu vài nguyên tắc đáng tin cậy, như nhớ lại, ôn ngắt quãng, luyện tập có phản hồi và thói quen tốt, rồi chủ động áp dụng cho bất kỳ môn mới nào. Nhờ vậy mọi khoá học hay kỹ năng sau này đều học nhanh hơn. Chứng chỉ cho thấy bạn đã tham dự, không cho thấy phương pháp."
+      }
+    },
+    {
+      "id": "q49",
+      "question": {
+        "text": "A learner says they are a visual learner, so they only watch videos, what is the problem?",
+        "audioId": "",
+        "vi": "Một người học nói mình thuộc kiểu học bằng hình ảnh nên chỉ xem video, vấn đề là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Matching one style is not proven to help, while recall and practice matter more",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "There is no problem, because visual learners can never learn by reading text",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "They should switch to audio only, because listening is always the best style",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The problem is that videos are too short to teach anything useful",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "People have preferences, but research has not shown that teaching to a preferred style improves results. What helps everyone is how you study: recalling, spacing, practising and combining words with pictures when useful. Limiting yourself to one format can block useful methods.",
+        "vi": "Mỗi người có sở thích riêng, nhưng nghiên cứu chưa cho thấy học theo đúng “phong cách” ưa thích làm kết quả tốt hơn. Điều giúp mọi người là cách học: nhớ lại, ôn ngắt quãng, luyện tập và kết hợp chữ với hình khi phù hợp. Tự giới hạn vào một dạng có thể chặn mất những cách học hữu ích."
+      }
+    },
+    {
+      "id": "q50",
+      "question": {
+        "text": "Why is sleep important when you are learning something new?",
+        "audioId": "",
+        "vi": "Vì sao giấc ngủ quan trọng khi bạn đang học điều mới?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Sleep is not important, because memory only works while you are awake",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "During sleep the brain strengthens what you learned, so tired study is less effective",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Sleeping less gives you more hours, which always means more learning overall",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Sleep only matters for children and students, not for working adults",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Sleep plays an important role in consolidating new memories and skills. Cutting sleep to study more often backfires: you learn less in tired hours and keep less of it. A short review in the evening followed by a good night's sleep is a strong combination.",
+        "vi": "Giấc ngủ đóng vai trò quan trọng trong việc củng cố trí nhớ và kỹ năng mới. Cắt giấc ngủ để học thêm thường phản tác dụng: học lúc mệt thu được ít hơn và nhớ cũng ít hơn. Ôn ngắn vào buổi tối rồi ngủ đủ giấc là một sự kết hợp hiệu quả."
+      }
+    }
+  ]
+}

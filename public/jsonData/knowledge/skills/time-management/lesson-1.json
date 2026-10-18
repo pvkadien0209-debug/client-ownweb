@@ -1,0 +1,2355 @@
+{
+  "id": "lesson-1",
+  "branch": "skills",
+  "topic": "time-management",
+  "title": {
+    "vi": "Quản lý thời gian và sắp xếp ưu tiên",
+    "en": "Time management and priorities"
+  },
+  "level": "B1",
+  "status": "draft",
+  "updatedAt": "2026-10-14",
+  "reviewNote": "Bản nháp do Claude soạn và tự kiểm (2026-10-14). Chờ DIENPHAM duyệt.",
+  "overview": [
+    {
+      "heading": {
+        "en": "Separate urgent from important",
+        "vi": "Tách việc gấp và việc quan trọng"
+      },
+      "paragraphs": [
+        {
+          "en": "Before you start working, sort your tasks with two questions: is it urgent, and is it important? Do urgent and important tasks now, schedule important tasks that are not urgent, delegate or shorten urgent tasks that matter little, and drop the rest.",
+          "vi": "Trước khi bắt tay làm, hãy phân loại việc bằng hai câu hỏi: việc này có gấp không, có quan trọng không? Việc vừa gấp vừa quan trọng thì làm ngay, việc quan trọng chưa gấp thì lên lịch, việc gấp mà ít quan trọng thì giao bớt hoặc làm gọn, còn lại thì bỏ."
+        },
+        {
+          "en": "A useful test is to ask what happens if the task is late and who is affected. Choose one most important task for each day and start with it.",
+          "vi": "Một phép thử hữu ích là hỏi nếu việc này trễ thì chuyện gì xảy ra và ai bị ảnh hưởng. Mỗi ngày hãy chọn một việc quan trọng nhất và bắt đầu bằng nó."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Plan the week, then the day",
+        "vi": "Lập kế hoạch tuần, rồi đến ngày"
+      },
+      "paragraphs": [
+        {
+          "en": "Spend a short time each Friday or Sunday choosing the key results for next week and blocking time for them in your calendar. Each evening, review what got done and pick tomorrow's first step.",
+          "vi": "Mỗi thứ Sáu hoặc Chủ nhật, dành ít phút chọn các kết quả chính cho tuần tới và giữ thời gian cho chúng trong lịch. Mỗi tối, xem lại việc đã xong và chọn bước đầu tiên cho ngày mai."
+        },
+        {
+          "en": "Do not fill every minute. Leave buffer time for surprises, and break big projects into small concrete actions that start with a verb, like draft, call or list.",
+          "vi": "Đừng lấp kín mọi phút. Hãy để thời gian dự phòng cho việc bất ngờ, và chia dự án lớn thành những hành động nhỏ, cụ thể, bắt đầu bằng một động từ như viết nháp, gọi điện hay liệt kê."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Say no and handle competing requests",
+        "vi": "Từ chối và xử lý các yêu cầu chồng chéo"
+      },
+      "paragraphs": [
+        {
+          "en": "Every yes uses time that could go to something else. Before agreeing, check your capacity. When you must decline, explain your current priority and offer a later time or smaller help.",
+          "vi": "Mỗi lời đồng ý đều lấy đi thời gian của một việc khác. Trước khi nhận lời, hãy xem mình còn sức không. Khi cần từ chối, hãy nói ưu tiên hiện tại và đề nghị thời điểm khác hoặc một phần hỗ trợ nhỏ hơn."
+        },
+        {
+          "en": "When two managers both want top priority, do not choose in secret. Show both tasks and the time each needs, and ask them to agree on the order.",
+          "vi": "Khi hai quản lý đều muốn được ưu tiên, đừng tự chọn trong im lặng. Hãy trình bày cả hai việc và thời gian mỗi việc cần, rồi đề nghị họ thống nhất thứ tự."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Control interruptions and messages",
+        "vi": "Kiểm soát việc bị cắt ngang và tin nhắn"
+      },
+      "paragraphs": [
+        {
+          "en": "Switching tasks often makes work slower and adds mistakes. Check messages at set times, turn off notifications during focus blocks and tell people how to reach you if something is urgent.",
+          "vi": "Chuyển việc liên tục làm công việc chậm hơn và nhiều lỗi hơn. Hãy kiểm tra tin nhắn vào giờ cố định, tắt thông báo trong khối giờ tập trung và cho mọi người biết cách liên lạc khi có việc gấp."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Beat procrastination and estimate honestly",
+        "vi": "Vượt qua trì hoãn và ước lượng trung thực"
+      },
+      "paragraphs": [
+        {
+          "en": "Procrastination usually comes from fear, unclear steps or a task that feels too big. Commit to ten minutes on the easiest first step, and set your own deadline earlier than the real one.",
+          "vi": "Trì hoãn thường đến từ nỗi sợ, bước làm mơ hồ hoặc việc có cảm giác quá lớn. Hãy cam kết mười phút cho bước đầu dễ nhất, và tự đặt hạn sớm hơn hạn thật."
+        },
+        {
+          "en": "People tend to underestimate how long work takes. Give a range based on similar past tasks, and if you see a delay coming, tell people early with a new plan.",
+          "vi": "Con người thường ước lượng thiếu thời gian làm việc. Hãy đưa ra một khoảng dựa trên những việc tương tự trước đây, và nếu thấy sắp trễ thì báo sớm kèm kế hoạch mới."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "A sample situation, analysed",
+        "vi": "Phân tích một tình huống mẫu"
+      },
+      "paragraphs": [
+        {
+          "en": "On Monday, a sales assistant receives a price list request from her manager, a slide deck request from the marketing lead, and dozens of chat messages. She says yes to both, answers chats all morning and starts the price list at four in the afternoon. On Wednesday she misses both deadlines.",
+          "vi": "Sáng thứ Hai, một trợ lý kinh doanh nhận yêu cầu làm bảng giá từ quản lý, yêu cầu làm slide từ trưởng nhóm marketing, cùng hàng chục tin nhắn. Cô nhận lời cả hai, trả lời tin nhắn cả buổi sáng và bốn giờ chiều mới bắt đầu làm bảng giá. Đến thứ Tư, cô trễ cả hai hạn."
+        },
+        {
+          "en": "What went wrong: she accepted without checking capacity, let messages take her best hours and stayed silent about the conflict. A better path: estimate both tasks, tell both leaders that the deadlines clash and ask for an order, block the morning for the first task, check chats at set times, and report early if anything slips.",
+          "vi": "Chỗ chưa ổn: cô nhận việc mà không xem mình còn sức, để tin nhắn chiếm những giờ tốt nhất, và im lặng về xung đột. Cách tốt hơn: ước lượng cả hai việc, báo hai người rằng hạn bị chồng nhau và hỏi thứ tự, giữ buổi sáng cho việc đầu tiên, kiểm tra tin nhắn theo giờ cố định, và báo sớm nếu có gì bị trễ."
+        }
+      ]
+    }
+  ],
+  "tree": [
+    {
+      "title": {
+        "en": "Urgent or important",
+        "vi": "Việc gấp hay việc quan trọng"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "The urgent and important matrix",
+            "vi": "Ma trận gấp và quan trọng"
+          },
+          "note": {
+            "en": "Do, schedule, delegate or drop.",
+            "vi": "Làm ngay, lên lịch, giao bớt hoặc bỏ."
+          },
+          "questions": [
+            "q01",
+            "q02",
+            "q07"
+          ]
+        },
+        {
+          "title": {
+            "en": "Choosing what comes first",
+            "vi": "Chọn việc làm trước"
+          },
+          "note": {
+            "en": "Ask what happens if it is late, and pick one most important task.",
+            "vi": "Hỏi nếu trễ thì sao, và chọn một việc quan trọng nhất."
+          },
+          "questions": [
+            "q03",
+            "q04",
+            "q08",
+            "q09"
+          ]
+        },
+        {
+          "title": {
+            "en": "Busy is not productive",
+            "vi": "Bận không có nghĩa là hiệu quả"
+          },
+          "note": {
+            "en": "Rank by impact, not by noise.",
+            "vi": "Xếp theo tác động, không theo độ ồn ào."
+          },
+          "questions": [
+            "q05",
+            "q06"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Planning the day and the week",
+        "vi": "Lập kế hoạch ngày và tuần"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Lists, calendars and buffers",
+            "vi": "Danh sách, lịch và thời gian dự phòng"
+          },
+          "note": {
+            "en": "Give key tasks a time slot and leave space for surprises.",
+            "vi": "Cho việc chính một khung giờ và chừa chỗ cho việc bất ngờ."
+          },
+          "questions": [
+            "q10",
+            "q11",
+            "q12",
+            "q15"
+          ]
+        },
+        {
+          "title": {
+            "en": "Breaking big tasks down",
+            "vi": "Chia nhỏ việc lớn"
+          },
+          "note": {
+            "en": "Next steps start with a clear action.",
+            "vi": "Bước tiếp theo bắt đầu bằng một hành động rõ ràng."
+          },
+          "questions": [
+            "q13",
+            "q14"
+          ]
+        },
+        {
+          "title": {
+            "en": "Focus blocks and daily review",
+            "vi": "Khối giờ tập trung và tổng kết ngày"
+          },
+          "note": {
+            "en": "Protect deep work time and close each day with a short review.",
+            "vi": "Bảo vệ giờ làm việc sâu và khép lại mỗi ngày bằng một lần tổng kết ngắn."
+          },
+          "questions": [
+            "q16",
+            "q17",
+            "q18"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Saying no and competing requests",
+        "vi": "Từ chối và yêu cầu chồng chéo"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Declining politely",
+            "vi": "Từ chối lịch sự"
+          },
+          "note": {
+            "en": "Explain your priority and offer an alternative.",
+            "vi": "Nói rõ ưu tiên và đưa ra phương án khác."
+          },
+          "questions": [
+            "q19",
+            "q20",
+            "q27"
+          ]
+        },
+        {
+          "title": {
+            "en": "When bosses compete",
+            "vi": "Khi các sếp tranh ưu tiên"
+          },
+          "note": {
+            "en": "Make the trade off visible and let them choose.",
+            "vi": "Làm rõ sự đánh đổi và để họ chọn."
+          },
+          "questions": [
+            "q21",
+            "q22"
+          ]
+        },
+        {
+          "title": {
+            "en": "Protecting your capacity",
+            "vi": "Giữ sức chứa của bản thân"
+          },
+          "note": {
+            "en": "Every yes is also a no to something else.",
+            "vi": "Mỗi lời đồng ý cũng là từ chối một điều khác."
+          },
+          "questions": [
+            "q23",
+            "q24",
+            "q25",
+            "q26"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Interruptions and messages",
+        "vi": "Bị cắt ngang và tin nhắn"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Checking messages wisely",
+            "vi": "Kiểm tra tin nhắn khôn ngoan"
+          },
+          "note": {
+            "en": "Batch replies at set times.",
+            "vi": "Trả lời gộp theo giờ cố định."
+          },
+          "questions": [
+            "q28",
+            "q30",
+            "q34",
+            "q35"
+          ]
+        },
+        {
+          "title": {
+            "en": "Handling people who interrupt",
+            "vi": "Xử lý khi bị người khác cắt ngang"
+          },
+          "note": {
+            "en": "Postpone kindly and tell people how to reach you if urgent.",
+            "vi": "Hẹn lại một cách thân thiện và cho mọi người biết cách liên lạc khi gấp."
+          },
+          "questions": [
+            "q29",
+            "q33"
+          ]
+        },
+        {
+          "title": {
+            "en": "The cost of switching",
+            "vi": "Cái giá của việc chuyển đổi liên tục"
+          },
+          "note": {
+            "en": "Switching makes work slower and less accurate.",
+            "vi": "Chuyển việc liên tục làm chậm và dễ sai."
+          },
+          "questions": [
+            "q31",
+            "q32"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Procrastination and deadlines",
+        "vi": "Trì hoãn và hạn chót"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Getting started",
+            "vi": "Bắt đầu được việc"
+          },
+          "note": {
+            "en": "Ten minutes on the easiest first step.",
+            "vi": "Mười phút cho bước đầu dễ nhất."
+          },
+          "questions": [
+            "q36",
+            "q37",
+            "q43"
+          ]
+        },
+        {
+          "title": {
+            "en": "Estimating honestly",
+            "vi": "Ước lượng trung thực"
+          },
+          "note": {
+            "en": "Give a range and add a buffer.",
+            "vi": "Đưa ra một khoảng và cộng thời gian dự phòng."
+          },
+          "questions": [
+            "q39",
+            "q40",
+            "q44"
+          ]
+        },
+        {
+          "title": {
+            "en": "Meeting deadlines",
+            "vi": "Giữ đúng hạn"
+          },
+          "note": {
+            "en": "Set an earlier deadline and warn people early.",
+            "vi": "Đặt hạn sớm hơn và báo sớm khi có trục trặc."
+          },
+          "questions": [
+            "q38",
+            "q41",
+            "q42"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Energy and breaks",
+        "vi": "Năng lượng và nghỉ ngơi"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Working with your energy",
+            "vi": "Làm việc theo nhịp năng lượng"
+          },
+          "note": {
+            "en": "Hard tasks in your sharpest hours.",
+            "vi": "Việc khó vào giờ tỉnh táo nhất."
+          },
+          "questions": [
+            "q45",
+            "q46",
+            "q50"
+          ]
+        },
+        {
+          "title": {
+            "en": "Rest and recovery",
+            "vi": "Nghỉ ngơi và hồi phục"
+          },
+          "note": {
+            "en": "Short real breaks and enough sleep.",
+            "vi": "Nghỉ ngắn đúng nghĩa và ngủ đủ."
+          },
+          "questions": [
+            "q47",
+            "q48",
+            "q49"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "en": "Sort tasks by urgent and important, and start each day with your most important task.",
+      "vi": "Phân loại việc theo gấp và quan trọng, và bắt đầu mỗi ngày bằng việc quan trọng nhất."
+    },
+    {
+      "en": "Plan the week before it starts and give key tasks real time slots, with buffer time.",
+      "vi": "Lập kế hoạch tuần trước khi tuần bắt đầu, cho việc chính khung giờ thật và chừa thời gian dự phòng."
+    },
+    {
+      "en": "Break big tasks into small next steps that start with a clear action.",
+      "vi": "Chia việc lớn thành bước nhỏ, bắt đầu bằng một hành động rõ ràng."
+    },
+    {
+      "en": "Check your capacity before saying yes, and decline with a reason and an alternative.",
+      "vi": "Xem mình còn sức trước khi nhận lời, và từ chối kèm lý do và phương án khác."
+    },
+    {
+      "en": "When managers compete for your time, show the trade off and ask them to agree on the order.",
+      "vi": "Khi các sếp tranh thời gian của bạn, hãy làm rõ sự đánh đổi và đề nghị họ thống nhất thứ tự."
+    },
+    {
+      "en": "Batch messages at set times and protect focus blocks from interruptions.",
+      "vi": "Xử lý tin nhắn theo đợt vào giờ cố định và bảo vệ khối giờ tập trung."
+    },
+    {
+      "en": "Estimate with ranges, set earlier personal deadlines and report delays early.",
+      "vi": "Ước lượng bằng một khoảng, tự đặt hạn sớm hơn và báo trễ thật sớm."
+    },
+    {
+      "en": "Match hard work to your best energy and take short real breaks.",
+      "vi": "Đặt việc khó vào lúc nhiều năng lượng nhất và nghỉ ngắn đúng nghĩa."
+    }
+  ],
+  "glossary": [
+    {
+      "en": "priority",
+      "vi": "việc ưu tiên, mức độ ưu tiên"
+    },
+    {
+      "en": "urgent",
+      "vi": "gấp, khẩn cấp"
+    },
+    {
+      "en": "important",
+      "vi": "quan trọng"
+    },
+    {
+      "en": "urgent and important matrix",
+      "vi": "ma trận gấp và quan trọng"
+    },
+    {
+      "en": "to delegate",
+      "vi": "giao việc cho người khác"
+    },
+    {
+      "en": "time blocking",
+      "vi": "chia lịch theo khối thời gian"
+    },
+    {
+      "en": "buffer time",
+      "vi": "thời gian dự phòng"
+    },
+    {
+      "en": "next step",
+      "vi": "bước tiếp theo"
+    },
+    {
+      "en": "workload",
+      "vi": "khối lượng công việc"
+    },
+    {
+      "en": "capacity",
+      "vi": "sức chứa, khả năng nhận thêm việc"
+    },
+    {
+      "en": "scope",
+      "vi": "phạm vi công việc"
+    },
+    {
+      "en": "trade off",
+      "vi": "sự đánh đổi"
+    },
+    {
+      "en": "interruption",
+      "vi": "sự cắt ngang, gián đoạn"
+    },
+    {
+      "en": "task switching",
+      "vi": "chuyển đổi qua lại giữa các việc"
+    },
+    {
+      "en": "procrastination",
+      "vi": "sự trì hoãn"
+    },
+    {
+      "en": "estimate",
+      "vi": "ước lượng"
+    },
+    {
+      "en": "planning fallacy",
+      "vi": "ngụy biện lập kế hoạch, xu hướng ước lượng thiếu thời gian"
+    },
+    {
+      "en": "deadline",
+      "vi": "hạn chót"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "question": {
+        "text": "What does the urgent and important matrix help you decide?",
+        "audioId": "",
+        "vi": "Ma trận gấp và quan trọng giúp bạn quyết định điều gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Which tasks to do now, which to schedule, delegate, or drop completely",
+          "audioId": "",
+          "variants": [
+            "What to do now, schedule, delegate or drop"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "How many hours you should work every single day to look busy",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Which colleague in your team deserves the highest bonus this year",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "How to finish every task immediately so nothing is ever left waiting",
+          "audioId": "",
+          "variants": [
+            "Finish every task immediately"
+          ]
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The matrix sorts tasks by two questions: is it urgent, and is it important? Urgent and important tasks are done now, important but not urgent ones are scheduled, urgent but unimportant ones can often be delegated, and the rest can be dropped. Trying to do everything immediately is exactly the habit the matrix helps you break.",
+        "vi": "Ma trận chia việc theo hai câu hỏi: việc này có gấp không, có quan trọng không? Việc vừa gấp vừa quan trọng thì làm ngay, việc quan trọng nhưng chưa gấp thì lên lịch, việc gấp nhưng không quan trọng thường có thể giao người khác, còn lại thì bỏ. Cố làm mọi thứ ngay lập tức chính là thói quen mà ma trận giúp bạn bỏ."
+      }
+    },
+    {
+      "id": "q02",
+      "question": {
+        "text": "Which kind of task is important but not urgent?",
+        "audioId": "",
+        "vi": "Loại việc nào là quan trọng nhưng chưa gấp?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Learning a new skill or planning next month, which matters but has no deadline today",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A server crash that stops every customer from paying right now",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A colleague asking you to forward a funny video to the group",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Replying instantly to every notification that appears on your phone screen",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Important but not urgent tasks build your future: learning, planning, improving a process, looking after your health. Nobody chases you for them, so they are easy to postpone forever. A server crash is urgent and important, while forwarding videos and chasing notifications are neither.",
+        "vi": "Việc quan trọng nhưng chưa gấp là việc xây dựng tương lai: học kỹ năng, lập kế hoạch, cải tiến quy trình, chăm sóc sức khoẻ. Không ai thúc bạn làm, nên chúng rất dễ bị hoãn mãi. Máy chủ sập là việc vừa gấp vừa quan trọng, còn chuyển tiếp video hay chạy theo thông báo thì không gấp cũng không quan trọng."
+      }
+    },
+    {
+      "id": "q03",
+      "question": {
+        "text": "Your manager gives you two urgent tasks at the same time, what should you do first?",
+        "audioId": "",
+        "vi": "Quản lý giao cho bạn hai việc gấp cùng lúc, bạn nên làm gì trước tiên?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask your manager which one matters more and confirm the new deadlines together",
+          "audioId": "",
+          "variants": [
+            "Ask the manager which one matters more"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Start whichever task looks easier and hope the other one can wait",
+          "audioId": "",
+          "variants": [
+            "Start the easier task first"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Try to do both at once by switching every few minutes",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Stay late every night quietly without telling anyone about the conflict",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "When two tasks compete, the person who assigned them usually knows which one has bigger consequences. A short question such as \"Both are due today, which one should I finish first?\" turns a guess into an agreed plan. Guessing, switching back and forth or silently working overtime all hide the problem until it is too late.",
+        "vi": "Khi hai việc tranh nhau, người giao việc thường biết việc nào có hậu quả lớn hơn. Một câu hỏi ngắn như \"Cả hai đều cần xong hôm nay, anh muốn em làm việc nào trước?\" biến việc đoán mò thành kế hoạch đã thống nhất. Đoán, nhảy qua nhảy lại hay lặng lẽ làm thêm giờ đều che giấu vấn đề cho đến khi quá muộn."
+      }
+    },
+    {
+      "id": "q04",
+      "question": {
+        "text": "You start your morning with a long to-do list and little time, what is the best first step?",
+        "audioId": "",
+        "vi": "Bạn bắt đầu buổi sáng với danh sách việc dài mà ít thời gian, bước đầu tiên tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Clear all the small easy tasks first so the list looks shorter",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Read every email and message before deciding what to do today",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Pick the two or three tasks that matter most and do them first",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Do the tasks in the order you happened to write them down",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A long list is not a plan until you choose. Picking the two or three tasks with the biggest impact and doing them while your energy is high means the day counts even if the rest slips. Clearing easy tasks feels good but often uses up the best hours of the morning.",
+        "vi": "Một danh sách dài chưa phải kế hoạch cho đến khi bạn chọn. Chọn hai ba việc có tác động lớn nhất và làm chúng lúc còn nhiều năng lượng giúp ngày hôm đó có giá trị dù phần còn lại bị trễ. Làm hết việc dễ trước mang lại cảm giác dễ chịu nhưng thường tiêu mất những giờ tốt nhất của buổi sáng."
+      }
+    },
+    {
+      "id": "q05",
+      "question": {
+        "text": "Why is ranking tasks by importance better than ranking them by who shouts loudest?",
+        "audioId": "",
+        "vi": "Vì sao xếp việc theo mức quan trọng tốt hơn xếp theo người nào giục to nhất?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because loud people are always wrong and should be ignored at work",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because ranking by importance means you never have to talk to anyone",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Importance follows real results, while loud requests may just reflect someone's stress",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no difference, since every request at work is equally important",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The loudest request is not always the most valuable one. Ask what result each task supports and what happens if it is late. You still respond politely to the person under pressure, but you decide the order based on impact, and you explain that order openly.",
+        "vi": "Yêu cầu ồn ào nhất chưa chắc là việc giá trị nhất. Hãy hỏi mỗi việc phục vụ kết quả gì và nếu trễ thì chuyện gì xảy ra. Bạn vẫn trả lời lịch sự người đang bị áp lực, nhưng quyết định thứ tự dựa trên tác động và giải thích rõ thứ tự đó."
+      }
+    },
+    {
+      "id": "q06",
+      "question": {
+        "text": "A colleague spends the whole day answering easy emails and leaves the key report unfinished, what is the main mistake?",
+        "audioId": "",
+        "vi": "Một đồng nghiệp trả lời email dễ cả ngày và bỏ dở bản báo cáo chính, sai lầm chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Confusing being busy with being productive and avoiding the task that matters most",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Answering emails at all, since good workers never read email during work",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Working too slowly on the emails instead of typing much faster",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Not asking a teammate to write the important report for them",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Feeling busy is not the same as making progress. Easy emails give quick satisfaction, so people use them to avoid the hard, important task. A better pattern is to protect a block of time for the report first, then answer emails in a batch afterwards.",
+        "vi": "Cảm thấy bận không có nghĩa là đang tiến bộ. Email dễ mang lại cảm giác hoàn thành nhanh, nên người ta dùng chúng để né việc khó và quan trọng. Cách tốt hơn là giữ một khoảng thời gian cho bản báo cáo trước, rồi trả lời email gộp một lượt sau đó."
+      }
+    },
+    {
+      "id": "q07",
+      "question": {
+        "text": "A small task becomes urgent only because it was ignored for weeks, what should you learn from this?",
+        "audioId": "",
+        "vi": "Một việc nhỏ trở nên gấp chỉ vì bị bỏ quên nhiều tuần, bạn nên rút ra bài học gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Small tasks never matter, so it is fine to keep ignoring them",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Urgent tasks are a normal part of work and nothing can prevent them",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Blame the person who reminded you too late about the task",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Schedule important tasks early so they do not turn into last minute emergencies",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Many emergencies are important tasks that waited too long. Renewing a contract or preparing documents is calm work a month early and a crisis the day before. Put such tasks on the calendar with a reminder well before the real deadline.",
+        "vi": "Nhiều việc khẩn cấp thật ra là việc quan trọng bị để quá lâu. Gia hạn hợp đồng hay chuẩn bị giấy tờ là việc nhẹ nhàng nếu làm trước một tháng, nhưng thành khủng hoảng nếu để đến hôm trước. Hãy đưa những việc này vào lịch với lời nhắc sớm hơn hạn thật."
+      }
+    },
+    {
+      "id": "q08",
+      "question": {
+        "text": "Your team leader asks you to rank five tasks for the week, what is a useful question to ask yourself?",
+        "audioId": "",
+        "vi": "Trưởng nhóm nhờ bạn xếp thứ tự năm việc trong tuần, câu hỏi hữu ích để tự hỏi là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Which task is the most fun and fastest to finish today",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Which task will make me look the busiest in front of the boss",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Which task did my colleague choose so I can copy their order",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "What happens if this task is done late, and who would be affected",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Asking about the cost of delay quickly shows which tasks are critical. If a late task blocks a customer or a whole team, it goes near the top. Fun, visibility or copying others do not tell you anything about real impact.",
+        "vi": "Hỏi về cái giá của việc trễ giúp thấy nhanh việc nào then chốt. Nếu một việc bị trễ làm khách hàng hoặc cả nhóm bị kẹt, nó nên nằm gần đầu danh sách. Việc vui, việc trông có vẻ bận hay chép thứ tự của người khác không nói lên tác động thật."
+      }
+    },
+    {
+      "id": "q09",
+      "question": {
+        "text": "What does the idea of the most important task mean in daily planning?",
+        "audioId": "",
+        "vi": "Khái niệm \"việc quan trọng nhất\" trong kế hoạch ngày có nghĩa là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Doing whatever your manager mentioned most recently in the group chat",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Finishing the longest task first, no matter how useful it really is",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Choosing one task that would make the day successful even if nothing else gets done",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Writing a very long list so you never forget any small thing",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The most important task is the one thing that would make today a good day if it were the only thing you finished. Choosing it the evening before and starting with it gives your day a clear centre. The longest or most recent task is not automatically the most important.",
+        "vi": "Việc quan trọng nhất là việc mà nếu hôm nay chỉ làm xong mỗi nó thì ngày vẫn có ý nghĩa. Chọn nó từ tối hôm trước và bắt đầu ngày bằng nó giúp ngày làm việc có trọng tâm rõ. Việc dài nhất hay việc vừa được nhắc gần nhất không tự động là việc quan trọng nhất."
+      }
+    },
+    {
+      "id": "q10",
+      "question": {
+        "text": "What is the main difference between a to-do list and a time-blocked schedule?",
+        "audioId": "",
+        "vi": "Khác biệt chính giữa danh sách việc cần làm và lịch chia khối thời gian là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A schedule gives each task a real time slot, so you see what fits",
+          "audioId": "",
+          "variants": [
+            "A schedule gives each task a time slot"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "A to-do list is only for students, while schedules are for managers",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A schedule is just a longer list written in nicer handwriting",
+          "audioId": "",
+          "variants": [
+            "A schedule is just a longer list"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "There is no difference, both simply record tasks without any order",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A list tells you what to do; a time-blocked schedule tells you when. Putting tasks into real slots shows at once whether your plan fits into the hours you have. Many people keep a list for capturing tasks and a calendar for deciding when to do the key ones.",
+        "vi": "Danh sách cho biết cần làm gì; lịch chia khung giờ cho biết làm lúc nào. Đặt việc vào khung giờ thật cho thấy ngay kế hoạch có vừa với số giờ bạn có không. Nhiều người dùng danh sách để ghi lại việc, và dùng lịch để quyết định khi nào làm những việc chính."
+      }
+    },
+    {
+      "id": "q11",
+      "question": {
+        "text": "It is Friday afternoon and next week looks busy, what is the most useful thing to do?",
+        "audioId": "",
+        "vi": "Chiều thứ Sáu và tuần tới có vẻ rất bận, việc hữu ích nhất nên làm là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Leave planning until Monday morning when you feel fresher and more awake",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Spend a short time planning next week's key tasks and blocking time for them",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Worry about next week all weekend without writing anything down",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Accept every meeting invitation now so your calendar looks full",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A short weekly plan on Friday lets you rest at the weekend and start Monday with a clear direction. Write down the key results for the week and reserve time for them before meetings fill the calendar. Monday morning planning often gets swallowed by new messages.",
+        "vi": "Dành ít phút lập kế hoạch tuần vào chiều thứ Sáu giúp bạn nghỉ cuối tuần thoải mái và bắt đầu thứ Hai với hướng đi rõ ràng. Ghi ra các kết quả chính của tuần và giữ thời gian cho chúng trước khi lịch họp lấp đầy. Lập kế hoạch sáng thứ Hai thường bị tin nhắn mới cuốn mất."
+      }
+    },
+    {
+      "id": "q12",
+      "question": {
+        "text": "When you plan your day, how much of it should you fill with fixed tasks?",
+        "audioId": "",
+        "vi": "Khi lập kế hoạch ngày, bạn nên lấp kín bao nhiêu thời gian bằng việc cố định?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Fill every minute completely so there is no chance to waste time",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Leave some free buffer time, because surprises and small requests always appear",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Plan only one task for the whole day to avoid any stress",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Do not plan anything and just react to what happens during the day",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A plan with no empty space breaks as soon as one call or question arrives. Leaving buffer time between blocks lets you absorb surprises without giving up the whole plan. If the buffer is not needed, you simply move the next task forward.",
+        "vi": "Một kế hoạch không có khoảng trống sẽ vỡ ngay khi có một cuộc gọi hay một câu hỏi. Để thời gian dự phòng giữa các khối việc giúp bạn đón được việc bất ngờ mà không phải bỏ cả kế hoạch. Nếu không dùng đến, bạn chỉ cần làm việc tiếp theo sớm hơn."
+      }
+    },
+    {
+      "id": "q13",
+      "question": {
+        "text": "You are given a big project due in a month and do not know where to start, what should you do?",
+        "audioId": "",
+        "vi": "Bạn được giao một dự án lớn hạn một tháng và không biết bắt đầu từ đâu, nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Wait until you feel inspired, then try to do it all in one go",
+          "audioId": "",
+          "variants": [
+            "Wait for inspiration and do it all at once"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Start with the most interesting part even if it depends on other parts",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Break it into small concrete steps and put the first step on your calendar",
+          "audioId": "",
+          "variants": [
+            "Break it into small steps and schedule the first one"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Ask a colleague to do the whole project and promise to help later",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Big projects feel heavy because you cannot see the first move. Split the project into steps of an hour or two, put them in order, and schedule the first one this week. Waiting for inspiration usually means a rushed last week.",
+        "vi": "Dự án lớn có cảm giác nặng nề vì bạn chưa thấy bước đi đầu tiên. Hãy chia dự án thành các bước khoảng một hai giờ, sắp thứ tự và đưa bước đầu tiên vào lịch ngay tuần này. Chờ cảm hứng thường dẫn đến một tuần cuối chạy vội."
+      }
+    },
+    {
+      "id": "q14",
+      "question": {
+        "text": "Why is a next step like draft the first slide better than a step like work on the presentation?",
+        "audioId": "",
+        "vi": "Vì sao bước \"viết nháp slide đầu tiên\" tốt hơn bước \"làm bài thuyết trình\"?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Short steps sound more professional when you report them to the boss",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A clear physical action is easy to start, while a vague goal invites delay",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Vague steps are better because they give you more freedom to relax",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no real difference, since both describe the same presentation work",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Your brain resists vague tasks because it must first work out what to do. A step that starts with a visible action, like draft, call or list, can be started in seconds. When a task keeps sitting on your list, rewrite it as the next physical action.",
+        "vi": "Não bạn ngại những việc mơ hồ vì phải nghĩ xem làm gì trước. Một bước bắt đầu bằng hành động nhìn thấy được, như viết nháp, gọi điện hay liệt kê, có thể bắt đầu trong vài giây. Khi một việc nằm mãi trong danh sách, hãy viết lại nó thành hành động cụ thể tiếp theo."
+      }
+    },
+    {
+      "id": "q15",
+      "question": {
+        "text": "Someone writes forty tasks on today's list and finishes only six, what went wrong?",
+        "audioId": "",
+        "vi": "Một người ghi bốn mươi việc cho hôm nay mà chỉ xong sáu việc, đã sai ở đâu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "They worked too slowly and simply need to stop taking any breaks",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "They should have written the list on paper instead of a phone",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The plan was unrealistic, so they should choose fewer tasks that truly fit",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Nothing went wrong, because a longer list always means higher productivity",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "An overloaded list guarantees a feeling of failure every evening. A daily plan should match the hours you really have after meetings and interruptions. Keep the long list somewhere else and copy only what fits into today's plan.",
+        "vi": "Một danh sách quá tải chắc chắn khiến bạn thấy mình thất bại mỗi tối. Kế hoạch ngày nên vừa với số giờ thật sự còn lại sau họp và việc phát sinh. Hãy để danh sách dài ở chỗ khác và chỉ chép sang kế hoạch hôm nay những gì vừa sức."
+      }
+    },
+    {
+      "id": "q16",
+      "question": {
+        "text": "Your week has many meetings, how can you protect time for deep focused work?",
+        "audioId": "",
+        "vi": "Tuần của bạn có nhiều cuộc họp, làm sao giữ được thời gian làm việc tập trung?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Work on difficult tasks during meetings while pretending to listen carefully",
+          "audioId": "",
+          "variants": [
+            "Do hard work during meetings secretly"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Block a few longer focus periods in your calendar and treat them like meetings",
+          "audioId": "",
+          "variants": [
+            "Block focus time in your calendar like a meeting"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Cancel all meetings without telling anyone so you have more free time",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Only do focused work at night after everyone else has gone home",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "If focus time is not on the calendar, other people will fill it. Booking blocks of one or two hours and respecting them like a meeting tells colleagues you are busy and gives you real working time. Half listening in meetings or working every night are not sustainable solutions.",
+        "vi": "Nếu thời gian tập trung không có trong lịch, người khác sẽ lấp đầy nó. Đặt những khối một hai giờ và tôn trọng chúng như một cuộc họp cho đồng nghiệp biết bạn đang bận và cho bạn thời gian làm việc thật. Vừa họp vừa làm việc khác hay tối nào cũng làm khuya đều không bền."
+      }
+    },
+    {
+      "id": "q17",
+      "question": {
+        "text": "What is the purpose of a short review at the end of each day?",
+        "audioId": "",
+        "vi": "Mục đích của việc tổng kết ngắn cuối mỗi ngày là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "To check what got done, move unfinished tasks, and prepare tomorrow's first step",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "To criticise yourself harshly for every small thing that went wrong",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "To send your boss a long report about every minute you worked",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "To delete all unfinished tasks so tomorrow can start completely fresh",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Five or ten minutes at the end of the day closes open loops. You see what was finished, decide where unfinished tasks go and choose tomorrow's first task, so the next morning starts without confusion. The review is for planning, not for blaming yourself.",
+        "vi": "Năm mười phút cuối ngày giúp khép lại những việc còn dang dở trong đầu. Bạn thấy việc gì đã xong, quyết định việc chưa xong sẽ chuyển đi đâu và chọn việc đầu tiên cho ngày mai, nên sáng hôm sau bắt đầu không bối rối. Mục đích là lập kế hoạch, không phải tự trách mình."
+      }
+    },
+    {
+      "id": "q18",
+      "question": {
+        "text": "You must write a long report and also handle many small admin jobs, how should you arrange them?",
+        "audioId": "",
+        "vi": "Bạn phải viết một báo cáo dài và xử lý nhiều việc giấy tờ nhỏ, nên sắp xếp thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Mix them randomly so you never get bored with any single task",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Finish every admin job first, then start the report when the day is ending",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Do the report in your best focus time and group admin jobs together later",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Do a little admin between every paragraph of the report to stay active",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Deep work and shallow work need different kinds of attention. Give the report your sharpest hours without interruptions, then handle forms, approvals and short replies in one batch when your energy is lower. Mixing them makes both slower.",
+        "vi": "Việc cần suy nghĩ sâu và việc lặt vặt đòi hỏi kiểu chú ý khác nhau. Hãy dành cho báo cáo những giờ tỉnh táo nhất, không bị cắt ngang, rồi xử lý giấy tờ, phê duyệt và trả lời ngắn gộp một lượt khi năng lượng thấp hơn. Trộn lẫn hai loại sẽ làm cả hai chậm đi."
+      }
+    },
+    {
+      "id": "q19",
+      "question": {
+        "text": "A colleague asks you to help with their task while you are already overloaded, what is the best response?",
+        "audioId": "",
+        "vi": "Đồng nghiệp nhờ bạn giúp trong khi bạn đã quá tải, cách trả lời tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say yes immediately and then stay late to finish both tasks secretly",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Ignore the message and hope they find someone else to help them",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Explain your current workload kindly and offer a later time or smaller help",
+          "audioId": "",
+          "variants": [
+            "Explain your workload and offer later or smaller help"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Tell them their task is not your problem and you are too busy",
+          "audioId": "",
+          "variants": [
+            "Tell them it is not your problem"
+          ]
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A good refusal is honest about your limits and still helpful. For example: \"I am finishing the sales report today, but I can look at it tomorrow morning, or I can send you last year's file now.\" Silent yes and silent ignoring both damage trust later.",
+        "vi": "Một lời từ chối tốt thì trung thực về giới hạn của bạn mà vẫn có ích. Ví dụ: \"Hôm nay mình phải xong báo cáo doanh số, nhưng sáng mai mình xem được, hoặc mình gửi bạn file năm ngoái ngay bây giờ nhé.\" Nhận lời rồi lặng lẽ ôm việc hoặc lờ đi đều làm mất lòng tin về sau."
+      }
+    },
+    {
+      "id": "q20",
+      "question": {
+        "text": "Why is saying not today, but I can help on Thursday better than a flat no?",
+        "audioId": "",
+        "vi": "Vì sao nói \"hôm nay không được, nhưng thứ Năm mình giúp được\" tốt hơn từ chối thẳng?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A flat no is always rude, so you should never refuse anything",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It protects your priorities and still keeps the relationship and offers a real option",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It sounds polite but you never have to keep the promise later",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It makes your colleague feel guilty, which helps you win next time",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Offering an alternative shows that you take the request seriously while keeping your current priorities safe. The other person can decide whether Thursday works or find someone else. It only works if you really keep the promise you offer.",
+        "vi": "Đưa ra phương án khác cho thấy bạn coi trọng lời nhờ mà vẫn giữ được ưu tiên hiện tại. Người kia có thể quyết định thứ Năm có kịp không hoặc tìm người khác. Cách này chỉ có tác dụng nếu bạn thật sự giữ lời hứa mình đưa ra."
+      }
+    },
+    {
+      "id": "q21",
+      "question": {
+        "text": "Two managers each say their task is your top priority this week, what should you do?",
+        "audioId": "",
+        "vi": "Hai quản lý đều nói việc của họ là ưu tiên số một của bạn tuần này, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Secretly choose the manager you like more and ignore the other request",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Tell both openly about the conflict and ask them to agree on the order",
+          "audioId": "",
+          "variants": [
+            "Tell both and ask them to agree on the order"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Promise both of them you will finish everything on time without problems",
+          "audioId": "",
+          "variants": [
+            "Promise both everything on time"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Do half of each task so that both managers feel equally treated",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Priority conflicts between managers are not yours to solve alone. Put the facts in one message: both tasks, the time each needs, and the fact that you cannot finish both by Friday, then ask them to decide together or ask your direct manager. Promising both usually ends with two disappointed people.",
+        "vi": "Xung đột ưu tiên giữa hai quản lý không phải việc bạn tự giải quyết một mình. Hãy nêu dữ kiện trong một tin nhắn: hai việc, thời gian mỗi việc cần, và việc bạn không thể xong cả hai trước thứ Sáu, rồi đề nghị hai người thống nhất hoặc hỏi quản lý trực tiếp. Hứa với cả hai thường kết thúc bằng hai người thất vọng."
+      }
+    },
+    {
+      "id": "q22",
+      "question": {
+        "text": "Your boss adds a new urgent task while you are busy with an earlier one, what is the best reply?",
+        "audioId": "",
+        "vi": "Sếp giao thêm một việc gấp khi bạn đang làm dở việc trước, cách trả lời tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Accept it silently and try to squeeze it in without changing anything",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Ask which current task can be delayed so the new one gets done properly",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Refuse because you already have enough work to do this week",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Complain to your colleagues that the boss never plans anything properly",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Your boss may not know what is already on your plate. A reply such as \"Sure, I am working on the budget file now, which one should come first?\" lets them choose with full information. You stay cooperative without hiding the trade off.",
+        "vi": "Sếp có thể không biết bạn đang ôm những việc gì. Một câu như \"Dạ được ạ, em đang làm file ngân sách, anh muốn em ưu tiên việc nào trước?\" giúp sếp chọn khi đã đủ thông tin. Bạn vẫn hợp tác mà không giấu đi sự đánh đổi."
+      }
+    },
+    {
+      "id": "q23",
+      "question": {
+        "text": "An employee agrees to every request and then misses three deadlines in one month, what is the root problem?",
+        "audioId": "",
+        "vi": "Một nhân viên nhận mọi yêu cầu rồi trễ ba hạn trong một tháng, gốc rễ vấn đề là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "They are simply lazy and do not care about doing a good job",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Their colleagues send too many requests and should be reported to management",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Deadlines are always unfair, so missing them is never really their fault",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "They say yes without checking their capacity, so they promise more than they can deliver",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Missed deadlines often start at the moment of agreeing, not at the moment of working. Before saying yes, check your calendar and current tasks. A simple habit is to answer \"Let me check my week and confirm by this afternoon.\"",
+        "vi": "Trễ hạn thường bắt đầu từ lúc nhận lời, chứ không phải lúc làm. Trước khi đồng ý, hãy xem lịch và các việc đang làm. Một thói quen đơn giản là trả lời \"Để mình xem lịch tuần này rồi xác nhận lại trong chiều nay nhé.\""
+      }
+    },
+    {
+      "id": "q24",
+      "question": {
+        "text": "What is the main idea behind saying every yes is also a no?",
+        "audioId": "",
+        "vi": "Ý chính của câu \"mỗi lời đồng ý cũng là một lời từ chối\" là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "You should refuse every request, because saying yes makes you look weak",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Agreeing to tasks is always negative and harms your career in the end",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "People who say yes often are secretly saying no to their boss",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Time is limited, so accepting one task means less time for something else",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Your hours are fixed, so each new commitment pushes something else out, maybe a priority task, rest or family time. Remembering this helps you ask what you would be saying no to before you agree. It does not mean refusing everything.",
+        "vi": "Số giờ của bạn có hạn, nên mỗi việc mới nhận sẽ đẩy một thứ khác ra, có thể là việc ưu tiên, thời gian nghỉ hay thời gian cho gia đình. Nhớ điều này giúp bạn tự hỏi mình đang từ chối điều gì trước khi đồng ý. Điều đó không có nghĩa là từ chối mọi thứ."
+      }
+    },
+    {
+      "id": "q25",
+      "question": {
+        "text": "A client keeps adding small extra requests that were not in the agreed plan, what should you do?",
+        "audioId": "",
+        "vi": "Khách hàng liên tục thêm những yêu cầu nhỏ ngoài kế hoạch đã thống nhất, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Do every extra request quietly so the client never feels unhappy",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Stop replying to the client until they apologise for asking too much",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Accept them all now but deliver everything late without saying why",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Remind them politely of the agreed scope and discuss new time or cost",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Small extras add up and quietly destroy your schedule. Stay friendly but clear: \"That is a good idea, it is outside our current plan, so it would add two days, shall we include it?\" The client can then decide with full information.",
+        "vi": "Những yêu cầu thêm nhỏ cộng lại sẽ âm thầm phá vỡ lịch của bạn. Hãy thân thiện nhưng rõ ràng: \"Ý này hay ạ, nhưng nằm ngoài phạm vi đã thống nhất nên sẽ cần thêm hai ngày, mình có đưa vào không ạ?\" Khách hàng sẽ quyết định khi đã đủ thông tin."
+      }
+    },
+    {
+      "id": "q26",
+      "question": {
+        "text": "Why is it better to say no early than to agree and fail later?",
+        "audioId": "",
+        "vi": "Vì sao từ chối sớm tốt hơn nhận lời rồi không làm được?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Agreeing and failing later is better because you avoided an awkward talk",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "An early no lets others find another solution, while late failure surprises everyone",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Saying no early makes you look lazy, so you should always agree first",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Both are the same, because the task does not get done either way",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A clear no today gives the other person time to plan around it. A yes that fails at the deadline leaves them with no time and no options, which hurts trust much more than an honest refusal. The awkward moment is short; the damage of a broken promise lasts.",
+        "vi": "Một lời từ chối rõ ràng hôm nay cho người kia thời gian xoay xở. Một lời đồng ý rồi thất hứa đúng hạn khiến họ không còn thời gian và lựa chọn, làm mất lòng tin hơn nhiều so với từ chối thẳng thắn. Khoảnh khắc ngại ngùng thì ngắn, còn hậu quả của lời hứa không giữ thì kéo dài."
+      }
+    },
+    {
+      "id": "q27",
+      "question": {
+        "text": "You need to decline a meeting that does not need you, what is a polite way?",
+        "audioId": "",
+        "vi": "Bạn cần từ chối một cuộc họp không cần đến mình, cách lịch sự là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Accept the invitation and then simply do not show up to the meeting",
+          "audioId": "",
+          "variants": [
+            "Accept and then not show up"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Reply that the meeting is a waste of time for everyone involved",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Thank the organiser, explain your focus this week, and ask for the notes afterwards",
+          "audioId": "",
+          "variants": [
+            "Thank them, explain your focus and ask for notes"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Join the call with your camera off and work on something else",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Declining with a reason and a way to stay informed respects both the organiser and your time. For example: \"Thanks for including me, I am focused on the launch this week, could you share the notes, and I will reply to any questions.\" Silent no shows look unreliable.",
+        "vi": "Từ chối kèm lý do và cách để vẫn nắm thông tin là tôn trọng cả người tổ chức lẫn thời gian của bạn. Ví dụ: \"Cảm ơn anh đã mời, tuần này em tập trung cho đợt ra mắt, anh gửi em biên bản họp nhé, có gì em trả lời sau.\" Nhận lời rồi không đến trông rất thiếu tin cậy."
+      }
+    },
+    {
+      "id": "q28",
+      "question": {
+        "text": "You keep checking chat messages every few minutes and cannot finish anything, what should you try?",
+        "audioId": "",
+        "vi": "Bạn kiểm tra tin nhắn vài phút một lần và không làm xong việc gì, nên thử cách nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Check messages at set times and turn off notifications while you focus",
+          "audioId": "",
+          "variants": [
+            "Check messages at set times with notifications off"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Reply even faster so the messages stop arriving and you get more done",
+          "audioId": "",
+          "variants": [
+            "Reply faster so messages stop"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Leave every chat group so nobody can contact you at work ever",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Keep the phone on your desk but promise yourself not to look",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Constant checking cuts your work into tiny pieces. Choosing set times, for example once an hour, and switching off notifications in between keeps you reachable without being controlled by every ping. Willpower alone rarely works when the phone is in front of you.",
+        "vi": "Liên tục kiểm tra tin nhắn cắt công việc thành từng mảnh nhỏ. Chọn giờ cố định, ví dụ mỗi giờ một lần, và tắt thông báo ở giữa giúp bạn vẫn liên lạc được mà không bị mỗi tiếng ting điều khiển. Chỉ dựa vào ý chí hiếm khi hiệu quả khi điện thoại nằm ngay trước mặt."
+      }
+    },
+    {
+      "id": "q29",
+      "question": {
+        "text": "A colleague stops at your desk with a question while you are in deep focus, what is a good response?",
+        "audioId": "",
+        "vi": "Đồng nghiệp đến hỏi khi bạn đang tập trung cao độ, cách phản hồi tốt là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask if it can wait until a set time, unless it is truly urgent",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Pretend you did not hear them and keep looking at your screen",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Stop everything and help them for as long as they need",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Tell them loudly that they always disturb you when you are busy",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "You can protect focus and stay friendly at the same time: \"I am in the middle of something, is it urgent, or can I come to you at three?\" Most questions can wait a little. If it is urgent, you help and then return to your task.",
+        "vi": "Bạn có thể vừa giữ tập trung vừa giữ thân thiện: \"Mình đang dở tay chút, việc này có gấp không, hay ba giờ mình qua chỗ bạn nhé?\" Phần lớn câu hỏi có thể chờ một chút. Nếu thật sự gấp, bạn giúp rồi quay lại việc của mình."
+      }
+    },
+    {
+      "id": "q30",
+      "question": {
+        "text": "Why is replying to messages in batches better than replying the moment each one arrives?",
+        "audioId": "",
+        "vi": "Vì sao trả lời tin nhắn theo đợt tốt hơn trả lời ngay khi mỗi tin đến?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Batching means you can ignore messages for several days without any problem",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Batching avoids constant switching, so you keep focus and still reply within a reasonable time",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Replying instantly is always worse because it makes you look too eager",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no difference, since every reply takes exactly the same effort",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Each instant reply pulls your attention away from deeper work and it takes time to come back. Handling messages in a few batches a day gives you longer focus periods while people still get answers the same day. Batching is not the same as ignoring.",
+        "vi": "Mỗi lần trả lời ngay lập tức kéo sự chú ý khỏi việc cần tập trung, và phải mất thời gian mới quay lại được. Xử lý tin nhắn theo vài đợt mỗi ngày cho bạn những khoảng tập trung dài hơn mà mọi người vẫn nhận được trả lời trong ngày. Gộp đợt khác với lờ đi."
+      }
+    },
+    {
+      "id": "q31",
+      "question": {
+        "text": "What is the hidden cost of switching between tasks very often?",
+        "audioId": "",
+        "vi": "Cái giá ẩn của việc chuyển qua lại giữa các việc quá thường xuyên là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It costs nothing, because modern people are trained to multitask well",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It only costs electricity, since your computer has to open more windows",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It makes the day feel shorter, which is good for your energy",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Your brain needs time to refocus, so work becomes slower and has more errors",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Every switch leaves part of your attention on the previous task, so you restart more slowly and miss details. That is why work done in many small fragments often takes longer than the same work done in one block. Fewer switches usually means faster and cleaner work.",
+        "vi": "Mỗi lần chuyển việc, một phần sự chú ý vẫn còn vướng ở việc trước, nên bạn bắt nhịp chậm hơn và dễ sót chi tiết. Vì vậy công việc bị cắt thành nhiều mảnh thường tốn thời gian hơn so với làm liền một khối. Ít chuyển việc hơn thường làm nhanh và sạch hơn."
+      }
+    },
+    {
+      "id": "q32",
+      "question": {
+        "text": "A team member answers every message within seconds but always delivers reports late, what does this show?",
+        "audioId": "",
+        "vi": "Một thành viên trả lời tin nhắn trong vài giây nhưng luôn nộp báo cáo trễ, điều này cho thấy gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "They need a faster computer so they can type the reports more quickly",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The reports are too difficult, so someone else should write them instead",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "They are very productive, and late reports are not a serious issue",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Fast replies are being treated as more important than finishing the real work",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Being instantly responsive looks good but the real output is the report. When quick replies always win, the main work gets only leftover minutes. Agreeing on reasonable reply times in the team helps people protect time for their key deliverables.",
+        "vi": "Trả lời tức thì trông rất tốt nhưng sản phẩm thật là bản báo cáo. Khi trả lời nhanh luôn được ưu tiên, việc chính chỉ còn những phút thừa. Cả nhóm thống nhất thời gian trả lời hợp lý sẽ giúp mỗi người giữ được thời gian cho sản phẩm chính."
+      }
+    },
+    {
+      "id": "q33",
+      "question": {
+        "text": "You expect a quiet focus morning but your manager may need you, how can you handle both?",
+        "audioId": "",
+        "vi": "Bạn định có buổi sáng yên tĩnh để tập trung nhưng sếp có thể cần bạn, xử lý cả hai thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Switch off your phone and disappear without telling anyone where you are",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Stay fully available to everyone and give up on the focus time",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Hide in a meeting room and hope nobody notices you are gone",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Tell your manager you are focusing and how to reach you if urgent",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Transparency makes focus time acceptable to others. A short note such as \"I am finishing the proposal until eleven, call me if something urgent comes up\" gives you quiet time and gives your manager a safe way to reach you. Disappearing creates worry and distrust.",
+        "vi": "Minh bạch giúp người khác chấp nhận thời gian tập trung của bạn. Một lời nhắn ngắn như \"Em tập trung hoàn thiện đề xuất đến mười một giờ, có việc gấp anh gọi em nhé\" vừa cho bạn yên tĩnh vừa cho sếp cách liên lạc khi cần. Biến mất không báo sẽ gây lo lắng và mất tin tưởng."
+      }
+    },
+    {
+      "id": "q34",
+      "question": {
+        "text": "Your inbox has hundreds of unread emails after a holiday, what is the smartest way to start?",
+        "audioId": "",
+        "vi": "Hộp thư có hàng trăm email chưa đọc sau kỳ nghỉ, cách bắt đầu khôn ngoan nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Read every email from oldest to newest before doing any other work",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Delete everything and wait for important people to write again later",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Reply to each one with a long apology for being away so long",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Scan for senders and subjects that matter most, then handle the rest in batches",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Not all emails deserve the same attention. Search first for your manager, key clients and urgent subjects, deal with those, then archive newsletters and handle the remainder in short blocks. Reading everything in order can take a whole day with little result.",
+        "vi": "Không phải email nào cũng cần chú ý như nhau. Hãy lọc trước theo sếp, khách hàng chính và các chủ đề gấp, xử lý những thư đó, rồi lưu trữ bản tin và giải quyết phần còn lại theo từng khối ngắn. Đọc lần lượt từ đầu đến cuối có thể mất cả ngày mà ít kết quả."
+      }
+    },
+    {
+      "id": "q35",
+      "question": {
+        "text": "A message only needs a few seconds to answer, when is it fine to reply immediately?",
+        "audioId": "",
+        "vi": "Một tin nhắn chỉ cần vài giây để trả lời, khi nào thì trả lời ngay là hợp lý?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Never, because every message must wait until the very end of the week",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Always, even in the middle of an important client presentation",
+          "audioId": "",
+          "variants": [
+            "Always, even during a client presentation"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Only if the sender is a senior manager with a bigger title",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "When it takes under two minutes and you are not in protected focus time",
+          "audioId": "",
+          "variants": [
+            "When it is very quick and you are not focusing"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A popular rule says that if something takes less than about two minutes, doing it now is cheaper than tracking it for later. The exception is protected focus time, when even quick replies break your concentration. Then the message joins your next batch.",
+        "vi": "Một nguyên tắc phổ biến nói rằng việc gì mất chưa đến khoảng hai phút thì làm luôn sẽ đỡ tốn công hơn là ghi lại để làm sau. Ngoại lệ là thời gian tập trung đã giữ riêng, khi ngay cả trả lời nhanh cũng làm đứt mạch. Lúc đó tin nhắn sẽ chờ đến đợt xử lý tiếp theo."
+      }
+    },
+    {
+      "id": "q36",
+      "question": {
+        "text": "You keep delaying a report because it feels too big and boring, what is a good way to start?",
+        "audioId": "",
+        "vi": "Bạn cứ trì hoãn một báo cáo vì thấy nó quá lớn và nhàm chán, cách bắt đầu tốt là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Wait until the night before, when pressure will finally give you energy",
+          "audioId": "",
+          "variants": [
+            "Wait for pressure the night before"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Clean your desk and inbox completely before you allow yourself to begin",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Commit to just ten minutes on the easiest first step, then decide again",
+          "audioId": "",
+          "variants": [
+            "Do just ten minutes on the easiest first step"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Tell yourself you are lazy until you feel guilty enough to start",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Starting is usually the hardest part. A tiny commitment such as ten minutes on the outline lowers the barrier, and once you begin, continuing often feels easier. Tidying first and self-blame are both common ways of delaying the real start.",
+        "vi": "Bắt đầu thường là phần khó nhất. Một cam kết rất nhỏ như mười phút viết dàn ý hạ thấp rào cản, và khi đã bắt tay vào thì làm tiếp thường dễ hơn. Dọn dẹp trước và tự trách mình đều là những cách quen thuộc để trì hoãn việc bắt đầu thật."
+      }
+    },
+    {
+      "id": "q37",
+      "question": {
+        "text": "What often lies behind procrastination, apart from simple laziness?",
+        "audioId": "",
+        "vi": "Ngoài sự lười biếng, điều gì thường nằm sau sự trì hoãn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A lack of intelligence that cannot be changed with any practice at all",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Having too much free time and too few hobbies outside of work",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Fear of failing, unclear next steps, or a task that feels too big",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Being too organised, which makes people bored with their own plans",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "People usually delay tasks that make them feel uncomfortable: unclear, overwhelming or risky. Naming the real reason points to the fix, such as clarifying the next step, breaking the task down or lowering the standard for a first draft. Calling yourself lazy rarely helps you start.",
+        "vi": "Người ta thường trì hoãn những việc khiến mình khó chịu: mơ hồ, quá lớn hoặc sợ làm sai. Gọi đúng tên lý do sẽ chỉ ra cách sửa, như làm rõ bước tiếp theo, chia nhỏ việc hoặc hạ chuẩn cho bản nháp đầu tiên. Tự gọi mình là lười hiếm khi giúp bạn bắt đầu."
+      }
+    },
+    {
+      "id": "q38",
+      "question": {
+        "text": "Why is setting your own earlier deadline better than working to the real deadline?",
+        "audioId": "",
+        "vi": "Vì sao tự đặt hạn sớm hơn tốt hơn làm theo đúng hạn thật?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It leaves time to check and fix problems before the work must be delivered",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It lets you tell your boss you finished early and ask for a bonus",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Real deadlines are usually fake, so it is better to ignore them",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It makes no difference, because work always expands to the final minute",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "If you aim for the real deadline, any small problem makes you late. A personal deadline a day or two earlier creates space to review, fix errors and handle surprises. You deliver calmly instead of sending something unchecked at the last minute.",
+        "vi": "Nếu nhắm đúng hạn thật, chỉ một trục trặc nhỏ cũng làm bạn trễ. Tự đặt hạn sớm hơn một hai ngày tạo khoảng trống để rà soát, sửa lỗi và xử lý việc bất ngờ. Bạn nộp bài thong thả thay vì gửi vội thứ chưa kiểm tra vào phút chót."
+      }
+    },
+    {
+      "id": "q39",
+      "question": {
+        "text": "Your manager asks how long a new task will take and you are not sure, what should you say?",
+        "audioId": "",
+        "vi": "Sếp hỏi việc mới mất bao lâu mà bạn chưa chắc, bạn nên nói gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Give the shortest time possible so your manager feels happy right now",
+          "audioId": "",
+          "variants": [
+            "Give the shortest time to please the manager"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Give a range based on similar past tasks and say when you can confirm",
+          "audioId": "",
+          "variants": [
+            "Give a range from past tasks and confirm later"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Refuse to give any time because estimates are never fully accurate",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Say it will take a very long time so you never look late",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "An honest estimate is a range, not a promise of one exact day. For example: \"Similar reports took three to four days, I will confirm tomorrow after I check the data.\" A too short estimate pleases for a moment and disappoints later, while a hugely padded one damages credibility.",
+        "vi": "Một ước lượng trung thực là một khoảng, không phải lời hứa đúng một ngày. Ví dụ: \"Các báo cáo tương tự mất khoảng ba đến bốn ngày, mai em xem dữ liệu rồi xác nhận lại ạ.\" Báo quá ngắn làm vui lúc đầu rồi thất vọng về sau, còn báo phóng đại quá nhiều làm giảm uy tín."
+      }
+    },
+    {
+      "id": "q40",
+      "question": {
+        "text": "Someone always estimates tasks by imagining everything going perfectly, what mistake is this?",
+        "audioId": "",
+        "vi": "Một người luôn ước lượng thời gian bằng cách tưởng tượng mọi thứ suôn sẻ, đây là lỗi gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Being too careful, which makes their estimates far longer than they need",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Asking colleagues for advice, which slows down every decision they make",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Using a calendar, when estimating should be done only from memory",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ignoring delays and surprises, so their deadlines are almost always too optimistic",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Real work includes waiting for replies, fixing errors and handling interruptions. Estimating from the best case ignores all of that. Compare with how long similar tasks really took last time and add a buffer for the unknown.",
+        "vi": "Công việc thật luôn có lúc chờ phản hồi, sửa lỗi và bị cắt ngang. Ước lượng theo trường hợp tốt nhất là bỏ qua tất cả những điều đó. Hãy so với thời gian thực tế của những việc tương tự lần trước và cộng thêm phần dự phòng cho điều chưa biết."
+      }
+    },
+    {
+      "id": "q41",
+      "question": {
+        "text": "Halfway through a task you realise you will miss the deadline, what should you do?",
+        "audioId": "",
+        "vi": "Làm được nửa chừng bạn nhận ra sẽ trễ hạn, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Keep quiet and work harder, hoping nobody notices until the very end",
+          "audioId": "",
+          "variants": [
+            "Keep quiet and hope nobody notices"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Tell the person waiting as early as possible and suggest a new plan",
+          "audioId": "",
+          "variants": [
+            "Tell them early and suggest a new plan"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Submit something unfinished on time without mentioning what is missing",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Wait until the deadline passes, then explain why it was impossible",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Early warning gives everyone options: more time, more help or a smaller scope. Say what is done, what is left, why, and what you propose, for example \"I can send the first part on Friday and the rest on Tuesday.\" Hiding the delay turns a small problem into a broken promise.",
+        "vi": "Báo sớm giúp mọi người còn lựa chọn: thêm thời gian, thêm người hỗ trợ hoặc thu gọn phạm vi. Hãy nói việc gì đã xong, còn gì, vì sao, và bạn đề xuất gì, ví dụ \"Thứ Sáu em gửi phần đầu, thứ Ba gửi phần còn lại ạ.\" Giấu việc trễ biến một vấn đề nhỏ thành lời hứa không giữ."
+      }
+    },
+    {
+      "id": "q42",
+      "question": {
+        "text": "What is the difference between working steadily over a week and doing everything the night before?",
+        "audioId": "",
+        "vi": "Khác biệt giữa làm đều trong cả tuần và dồn hết vào đêm trước là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Steady work leaves time for feedback and fixes, while last night work is rushed",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Night work is more creative, so it always produces higher quality results",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Steady work is only for slow people who cannot handle real pressure",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no difference if the work is submitted before the deadline",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Spreading work over several days lets you think, get feedback and improve. Doing it all the night before leaves no room for mistakes, and tiredness lowers quality. Even if both arrive on time, the results are rarely the same.",
+        "vi": "Chia việc ra nhiều ngày giúp bạn có thời gian suy nghĩ, nhận góp ý và chỉnh sửa. Dồn tất cả vào đêm trước không còn chỗ cho sai sót, và mệt mỏi làm giảm chất lượng. Dù cả hai đều nộp đúng hạn, kết quả hiếm khi giống nhau."
+      }
+    },
+    {
+      "id": "q43",
+      "question": {
+        "text": "You notice you open social media every time a task becomes difficult, what is a practical fix?",
+        "audioId": "",
+        "vi": "Bạn nhận ra mỗi lần việc khó là lại mở mạng xã hội, cách sửa thực tế là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Delete your work tasks so that difficult moments simply never happen",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Allow unlimited scrolling, because it always refreshes your mind quickly",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Feel ashamed about it and promise to work twice as hard tomorrow",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Put your phone out of reach and note the hard point instead of escaping",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Escaping to your phone at the hard moment trains you to escape again. Making the phone harder to reach removes the easy exit, and writing down what exactly is difficult turns the feeling into a problem you can solve or ask about.",
+        "vi": "Lần nào gặp chỗ khó cũng mở điện thoại sẽ tập cho bạn thói quen trốn tránh. Để điện thoại xa tầm tay loại bỏ lối thoát dễ dàng, còn ghi ra chính xác chỗ nào khó biến cảm giác bế tắc thành một vấn đề có thể giải quyết hoặc đi hỏi."
+      }
+    },
+    {
+      "id": "q44",
+      "question": {
+        "text": "What does the planning fallacy describe?",
+        "audioId": "",
+        "vi": "Ngụy biện lập kế hoạch mô tả điều gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The belief that planning is useless, so you should never make plans",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "People's habit of underestimating how long tasks will take, even with past experience",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A rule that every plan must be approved by a senior manager",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The idea that longer plans always lead to more successful projects",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The planning fallacy is the common tendency to expect tasks to take less time than they really do, even when similar tasks ran late before. Knowing about it, you can check past records, ask others and add a buffer to your estimates.",
+        "vi": "Ngụy biện lập kế hoạch là xu hướng phổ biến nghĩ rằng việc sẽ mất ít thời gian hơn thực tế, kể cả khi những việc tương tự trước đây đã bị trễ. Biết điều này, bạn có thể xem lại số liệu cũ, hỏi người khác và cộng thêm thời gian dự phòng khi ước lượng."
+      }
+    },
+    {
+      "id": "q45",
+      "question": {
+        "text": "Why is managing your energy as important as managing your time?",
+        "audioId": "",
+        "vi": "Vì sao quản lý năng lượng cũng quan trọng như quản lý thời gian?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Energy does not matter, because good workers can focus at any time",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Time is not important at all if you drink enough coffee daily",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The same hour produces much better work when you are rested and focused",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Energy only matters for athletes, not for people who work in offices",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "An hour is not always worth the same. Tired, hungry or stressed, you think slower and make more mistakes. Planning demanding work for high energy times and protecting sleep and breaks makes your hours more productive.",
+        "vi": "Một giờ không phải lúc nào cũng có giá trị như nhau. Khi mệt, đói hay căng thẳng, bạn suy nghĩ chậm hơn và dễ sai hơn. Sắp xếp việc khó vào lúc nhiều năng lượng và giữ giấc ngủ, giờ nghỉ sẽ làm mỗi giờ làm việc hiệu quả hơn."
+      }
+    },
+    {
+      "id": "q46",
+      "question": {
+        "text": "You feel most alert in the morning and tired after lunch, how should you plan?",
+        "audioId": "",
+        "vi": "Bạn tỉnh táo nhất buổi sáng và mệt sau bữa trưa, nên sắp xếp việc thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Put demanding thinking tasks in the morning and lighter routine work after lunch",
+          "audioId": "",
+          "variants": [
+            "Hard tasks in the morning, routine work after lunch"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Put the hardest tasks after lunch to train yourself to be stronger",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Spend the morning on email so your mind can slowly warm up",
+          "audioId": "",
+          "variants": [
+            "Spend the morning on email to warm up"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Take no lunch break so the tired feeling never has a chance",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Matching tasks to your energy is one of the simplest ways to work better. Writing, analysis and decisions go into your sharpest hours, while filing, short calls and routine replies fit the afternoon dip. Many people waste their best morning hours on email.",
+        "vi": "Khớp việc với nhịp năng lượng là một trong những cách đơn giản nhất để làm việc tốt hơn. Viết, phân tích và ra quyết định nên đặt vào giờ tỉnh táo nhất, còn sắp xếp giấy tờ, gọi điện ngắn và trả lời thường lệ hợp với lúc uể oải sau trưa. Nhiều người phí những giờ sáng tốt nhất cho email."
+      }
+    },
+    {
+      "id": "q47",
+      "question": {
+        "text": "Why are short regular breaks better than working for hours without stopping?",
+        "audioId": "",
+        "vi": "Vì sao nghỉ ngắn đều đặn tốt hơn làm liền nhiều giờ không nghỉ?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Breaks are only for lazy people, and real professionals never need them",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Long nonstop work always finishes faster because you never lose momentum",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Breaks restore attention, so you make fewer mistakes and keep a steady pace",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no difference, because tiredness does not affect the quality",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Attention drops after a long stretch of focus, even if you do not notice it. Short breaks to stand up, drink water or look away from the screen help you return sharper. Working nonstop often feels productive but leads to more errors later in the day.",
+        "vi": "Sự chú ý giảm dần sau một thời gian dài tập trung, dù bạn không nhận ra. Nghỉ ngắn để đứng dậy, uống nước hay nhìn xa khỏi màn hình giúp bạn quay lại tỉnh táo hơn. Làm liên tục không nghỉ thường tạo cảm giác năng suất nhưng dẫn đến nhiều lỗi hơn về cuối ngày."
+      }
+    },
+    {
+      "id": "q48",
+      "question": {
+        "text": "Someone skips sleep for a week to meet a deadline and then makes many errors, what is the lesson?",
+        "audioId": "",
+        "vi": "Một người thức trắng cả tuần để kịp hạn rồi mắc nhiều lỗi, bài học là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Lost sleep lowers quality, so steady planning beats working through the night",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "They should have drunk more coffee to stay sharp during the whole week",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Errors are normal, so sleep has nothing to do with the problem",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Deadlines should always be ignored when you feel even a little tired",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Lack of sleep reduces concentration and judgment, so extra hours produce work that later needs fixing. The real solution is earlier planning and honest talks about workload. Coffee hides tiredness for a while but does not replace rest.",
+        "vi": "Thiếu ngủ làm giảm khả năng tập trung và phán đoán, nên những giờ làm thêm tạo ra sản phẩm cần sửa lại sau. Giải pháp thật là lên kế hoạch sớm hơn và trao đổi thẳng thắn về khối lượng việc. Cà phê che được sự mệt mỏi một lúc nhưng không thay được nghỉ ngơi."
+      }
+    },
+    {
+      "id": "q49",
+      "question": {
+        "text": "After two hours of focused work you feel your attention slipping, what is the best action?",
+        "audioId": "",
+        "vi": "Sau hai giờ làm việc tập trung bạn thấy mất tập trung, nên làm gì là tốt nhất?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Take a short real break, like a walk or water, away from screens",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Switch to scrolling news on your phone, which counts as a rest",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Push on for several more hours because stopping shows weak discipline",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Start three new tasks at once to wake your brain up quickly",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A real break gives your eyes and mind something different. A short walk, a glass of water or a few stretches work better than scrolling, which keeps your brain busy with new information. After the break, restart with a clear next step.",
+        "vi": "Một lần nghỉ thật cho mắt và đầu óc một thứ khác hẳn. Đi bộ ngắn, uống cốc nước hay vươn vai vài cái hiệu quả hơn lướt điện thoại, vốn vẫn bắt não xử lý thông tin mới. Sau khi nghỉ, hãy bắt đầu lại với một bước tiếp theo rõ ràng."
+      }
+    },
+    {
+      "id": "q50",
+      "question": {
+        "text": "What is the overall goal of good time management?",
+        "audioId": "",
+        "vi": "Mục tiêu chung của quản lý thời gian tốt là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Filling every minute of the day so that you always look busy",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Spending your limited time and energy on what matters most, with less stress",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Doing as many tasks as possible, no matter how important they are",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Working longer hours than everyone else to prove your commitment",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Time management is not about doing more things, it is about doing the right things with the time and energy you have. Clear priorities, realistic plans, honest communication and enough rest let you deliver what matters and still have a life outside work.",
+        "vi": "Quản lý thời gian không phải là làm được nhiều việc hơn, mà là làm đúng việc với thời gian và năng lượng bạn có. Ưu tiên rõ ràng, kế hoạch thực tế, trao đổi thẳng thắn và nghỉ ngơi đủ giúp bạn làm xong điều quan trọng mà vẫn có cuộc sống ngoài công việc."
+      }
+    }
+  ]
+}

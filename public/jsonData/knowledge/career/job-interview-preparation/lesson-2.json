@@ -1,0 +1,2291 @@
+{
+  "id": "lesson-2",
+  "branch": "career",
+  "topic": "job-interview-preparation",
+  "title": {
+    "vi": "Hồ sơ, trang phục và đúng giờ",
+    "en": "Documents, clothes and punctuality"
+  },
+  "level": "B1",
+  "status": "draft",
+  "updatedAt": "2026-10-14",
+  "reviewNote": "Bản nháp do Claude soạn và tự kiểm (2026-10-14). Chờ DIENPHAM duyệt.",
+  "overview": [
+    {
+      "heading": {
+        "en": "First impressions start before you speak",
+        "vi": "Ấn tượng đầu tiên bắt đầu trước khi bạn nói"
+      },
+      "paragraphs": [
+        {
+          "en": "Lesson one was about knowing the company. This lesson is about everything the interviewer sees before and around your answers: your documents, your clothes, your timing, your manners and your body language.",
+          "vi": "Bài một nói về việc hiểu công ty. Bài này nói về mọi thứ người phỏng vấn nhìn thấy trước và xung quanh câu trả lời của bạn: hồ sơ, trang phục, sự đúng giờ, phép lịch sự và ngôn ngữ cơ thể."
+        },
+        {
+          "en": "None of these things will get you the job alone, but small mistakes here can hide your real skills. Good preparation also makes you calmer, so you can focus on the conversation.",
+          "vi": "Không điều nào trong số này tự mang lại công việc cho bạn, nhưng sai sót nhỏ ở đây có thể che lấp năng lực thật. Chuẩn bị tốt còn giúp bạn bình tĩnh hơn để tập trung vào cuộc trò chuyện."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Prepare your documents",
+        "vi": "Chuẩn bị hồ sơ"
+      },
+      "paragraphs": [
+        {
+          "en": "Bring several clean printed copies of the same CV you sent, a cover letter if needed, copies of relevant certificates and, for creative or technical jobs, a short portfolio. Check spelling, dates and contact details before printing.",
+          "vi": "Mang vài bản in sạch đẹp của đúng CV đã gửi, thư xin việc nếu cần, bản sao chứng chỉ liên quan và, với công việc sáng tạo hay kỹ thuật, một portfolio ngắn gọn. Kiểm tra chính tả, ngày tháng và thông tin liên lạc trước khi in."
+        },
+        {
+          "en": "Keep everything in order in one folder, together with a pen, a notebook, your identity card and a list of references who have agreed to help you.",
+          "vi": "Sắp xếp tất cả theo thứ tự trong một bìa hồ sơ, kèm bút, sổ, căn cước và danh sách người tham chiếu đã đồng ý giúp bạn."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Dress for the company",
+        "vi": "Ăn mặc phù hợp với công ty"
+      },
+      "paragraphs": [
+        {
+          "en": "Formal companies such as banks and law firms expect business clothes, while startups and creative agencies are usually smart casual. When you are not sure, dress slightly more formally.",
+          "vi": "Công ty trang trọng như ngân hàng, công ty luật cần trang phục công sở, còn startup và công ty sáng tạo thường theo phong cách smart casual. Khi không chắc, hãy mặc trang trọng hơn một chút."
+        },
+        {
+          "en": "Whatever the style, your clothes should be clean, ironed and the right size. Keep perfume, jewellery and accessories light and simple, and prepare everything the night before.",
+          "vi": "Dù phong cách nào, quần áo cũng phải sạch, phẳng và vừa người. Dùng nước hoa, trang sức và phụ kiện nhẹ nhàng, đơn giản, và chuẩn bị mọi thứ từ tối hôm trước."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Be on time",
+        "vi": "Đúng giờ"
+      },
+      "paragraphs": [
+        {
+          "en": "Aim to arrive ten to fifteen minutes early. Test the route at the same time of day, add extra time for traffic, rain and parking, and save the address, floor, name and phone number of your contact.",
+          "vi": "Hãy cố gắng đến sớm mười đến mười lăm phút. Đi thử tuyến đường vào cùng khung giờ, dự trù thêm thời gian cho kẹt xe, mưa và gửi xe, và lưu sẵn địa chỉ, số tầng, tên và số điện thoại người liên hệ."
+        },
+        {
+          "en": "If you will be late, call before the start time, apologise briefly and give a new arrival time.",
+          "vi": "Nếu sẽ đến muộn, hãy gọi điện trước giờ hẹn, xin lỗi ngắn gọn và báo thời gian bạn sẽ đến."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Online interviews",
+        "vi": "Phỏng vấn trực tuyến"
+      },
+      "paragraphs": [
+        {
+          "en": "Test your camera, microphone, connection and meeting app in advance. Put the light in front of you, the camera at eye level and choose a quiet room with a tidy background.",
+          "vi": "Thử camera, micro, đường truyền và ứng dụng họp từ trước. Đặt nguồn sáng phía trước, camera ngang tầm mắt và chọn phòng yên tĩnh có phông nền gọn gàng."
+        },
+        {
+          "en": "Dress fully, join a few minutes early with your real name displayed, look into the camera when you speak and have a backup plan if the connection fails.",
+          "vi": "Mặc chỉnh tề toàn bộ, vào sớm vài phút với tên thật hiển thị, nhìn vào camera khi nói và có phương án dự phòng nếu mất kết nối."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Manners, body language and follow up",
+        "vi": "Phép lịch sự, ngôn ngữ cơ thể và theo dõi sau phỏng vấn"
+      },
+      "paragraphs": [
+        {
+          "en": "Be polite to everyone, including the receptionist. Silence your phone, greet the interviewer with a smile and a suitable handshake, sit upright, keep natural eye contact and listen actively.",
+          "vi": "Lịch sự với mọi người, kể cả lễ tân. Tắt tiếng điện thoại, chào người phỏng vấn bằng nụ cười và cái bắt tay phù hợp, ngồi thẳng, giao tiếp bằng mắt tự nhiên và lắng nghe chủ động."
+        },
+        {
+          "en": "After the interview, write quick notes, send a short thank you email within a day, and send one polite follow up if you hear nothing by the promised date.",
+          "vi": "Sau buổi phỏng vấn, ghi chú nhanh, gửi thư cảm ơn ngắn trong vòng một ngày, và gửi một email hỏi thăm lịch sự nếu đến hạn hẹn vẫn chưa có tin."
+        }
+      ]
+    }
+  ],
+  "tree": [
+    {
+      "title": {
+        "en": "Documents and papers",
+        "vi": "Hồ sơ và giấy tờ"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "CV and cover letter",
+            "vi": "CV và thư xin việc"
+          },
+          "note": {
+            "en": "Same version, several clean copies, no mistakes.",
+            "vi": "Đúng bản đã gửi, vài bản sạch, không lỗi."
+          },
+          "questions": [
+            "q01",
+            "q02",
+            "q03",
+            "q08"
+          ]
+        },
+        {
+          "title": {
+            "en": "Certificates, portfolio and references",
+            "vi": "Chứng chỉ, portfolio và người tham chiếu"
+          },
+          "note": {
+            "en": "Bring copies, keep originals, ask references first.",
+            "vi": "Mang bản sao, giữ bản gốc, xin phép người tham chiếu trước."
+          },
+          "questions": [
+            "q04",
+            "q05",
+            "q06",
+            "q10"
+          ]
+        },
+        {
+          "title": {
+            "en": "Organise and carry",
+            "vi": "Sắp xếp và mang theo"
+          },
+          "questions": [
+            "q07",
+            "q09",
+            "q11"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Clothes and appearance",
+        "vi": "Trang phục và vẻ ngoài"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Match the company",
+            "vi": "Phù hợp với công ty"
+          },
+          "note": {
+            "en": "Formal for banks, smart casual for startups, a bit formal if unsure.",
+            "vi": "Trang trọng cho ngân hàng, smart casual cho startup, hơi trang trọng nếu không chắc."
+          },
+          "questions": [
+            "q12",
+            "q13",
+            "q14",
+            "q20"
+          ]
+        },
+        {
+          "title": {
+            "en": "Neat details",
+            "vi": "Chi tiết gọn gàng"
+          },
+          "questions": [
+            "q15",
+            "q16",
+            "q17",
+            "q18",
+            "q19"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Punctuality and travel",
+        "vi": "Đúng giờ và di chuyển"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Arrive at the right time",
+            "vi": "Đến đúng lúc"
+          },
+          "note": {
+            "en": "Ten to fifteen minutes early; call if you will be late.",
+            "vi": "Sớm mười đến mười lăm phút; gọi báo nếu sẽ muộn."
+          },
+          "questions": [
+            "q21",
+            "q24",
+            "q27"
+          ]
+        },
+        {
+          "title": {
+            "en": "Plan the journey",
+            "vi": "Lên kế hoạch di chuyển"
+          },
+          "questions": [
+            "q22",
+            "q23",
+            "q25",
+            "q26"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Online interviews",
+        "vi": "Phỏng vấn trực tuyến"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Equipment and connection",
+            "vi": "Thiết bị và đường truyền"
+          },
+          "questions": [
+            "q28",
+            "q34",
+            "q35",
+            "q36"
+          ]
+        },
+        {
+          "title": {
+            "en": "Light, camera and sound",
+            "vi": "Ánh sáng, camera và âm thanh"
+          },
+          "note": {
+            "en": "Light in front, camera at eye level, quiet room.",
+            "vi": "Đèn phía trước, camera ngang mắt, phòng yên tĩnh."
+          },
+          "questions": [
+            "q29",
+            "q30",
+            "q31",
+            "q32",
+            "q33"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Manners and body language",
+        "vi": "Phép lịch sự và ngôn ngữ cơ thể"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Arriving and waiting",
+            "vi": "Khi đến và khi chờ"
+          },
+          "questions": [
+            "q37",
+            "q38",
+            "q39",
+            "q40"
+          ]
+        },
+        {
+          "title": {
+            "en": "Greeting",
+            "vi": "Chào hỏi"
+          },
+          "questions": [
+            "q41",
+            "q42"
+          ]
+        },
+        {
+          "title": {
+            "en": "Body language",
+            "vi": "Ngôn ngữ cơ thể"
+          },
+          "note": {
+            "en": "Upright posture, open hands, natural eye contact.",
+            "vi": "Ngồi thẳng, tay cởi mở, ánh mắt tự nhiên."
+          },
+          "questions": [
+            "q43",
+            "q44",
+            "q45",
+            "q46"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "After the interview",
+        "vi": "Sau buổi phỏng vấn"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Notes and thank you email",
+            "vi": "Ghi chú và thư cảm ơn"
+          },
+          "questions": [
+            "q47",
+            "q48",
+            "q49"
+          ]
+        },
+        {
+          "title": {
+            "en": "Follow up on the result",
+            "vi": "Theo dõi kết quả"
+          },
+          "questions": [
+            "q50"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "en": "Bring several clean copies of the same CV you sent, plus relevant certificates and a portfolio if useful.",
+      "vi": "Mang vài bản sạch của đúng CV đã gửi, kèm chứng chỉ liên quan và portfolio nếu cần."
+    },
+    {
+      "en": "Keep documents in order in one folder and never leave your originals behind.",
+      "vi": "Sắp xếp giấy tờ trong một bìa hồ sơ và không bao giờ để lại bản gốc."
+    },
+    {
+      "en": "Dress for the company; if unsure, be slightly more formal, and always clean and neat.",
+      "vi": "Ăn mặc hợp với công ty; nếu không chắc thì trang trọng hơn một chút, luôn sạch sẽ gọn gàng."
+    },
+    {
+      "en": "Arrive ten to fifteen minutes early, with extra travel time; call ahead if you will be late.",
+      "vi": "Đến sớm mười đến mười lăm phút, dự trù thời gian đi lại; gọi báo trước nếu sẽ muộn."
+    },
+    {
+      "en": "Online: test equipment, light in front, camera at eye level, look into the lens.",
+      "vi": "Trực tuyến: thử thiết bị, đèn phía trước, camera ngang mắt, nhìn vào ống kính."
+    },
+    {
+      "en": "Be polite to everyone, silence your phone and greet the interviewer with a smile.",
+      "vi": "Lịch sự với mọi người, tắt tiếng điện thoại và chào người phỏng vấn bằng nụ cười."
+    },
+    {
+      "en": "Sit upright, keep natural eye contact and listen actively.",
+      "vi": "Ngồi thẳng, giao tiếp bằng mắt tự nhiên và lắng nghe chủ động."
+    },
+    {
+      "en": "Send a thank you email within a day and one polite follow up if needed.",
+      "vi": "Gửi thư cảm ơn trong vòng một ngày và một email hỏi thăm lịch sự nếu cần."
+    }
+  ],
+  "glossary": [
+    {
+      "en": "CV (curriculum vitae)",
+      "vi": "sơ yếu lý lịch, hồ sơ xin việc"
+    },
+    {
+      "en": "cover letter",
+      "vi": "thư xin việc"
+    },
+    {
+      "en": "certificate",
+      "vi": "chứng chỉ"
+    },
+    {
+      "en": "certified copy",
+      "vi": "bản sao công chứng"
+    },
+    {
+      "en": "portfolio",
+      "vi": "danh mục sản phẩm, hồ sơ năng lực"
+    },
+    {
+      "en": "reference",
+      "vi": "người tham chiếu (người xác nhận về bạn)"
+    },
+    {
+      "en": "dress code",
+      "vi": "quy định trang phục"
+    },
+    {
+      "en": "smart casual",
+      "vi": "phong cách lịch sự nhưng thoải mái"
+    },
+    {
+      "en": "grooming",
+      "vi": "chăm chút vẻ ngoài"
+    },
+    {
+      "en": "punctuality",
+      "vi": "sự đúng giờ"
+    },
+    {
+      "en": "buffer time",
+      "vi": "thời gian dự phòng"
+    },
+    {
+      "en": "time zone",
+      "vi": "múi giờ"
+    },
+    {
+      "en": "receptionist",
+      "vi": "lễ tân"
+    },
+    {
+      "en": "handshake",
+      "vi": "cái bắt tay"
+    },
+    {
+      "en": "body language",
+      "vi": "ngôn ngữ cơ thể"
+    },
+    {
+      "en": "posture",
+      "vi": "tư thế"
+    },
+    {
+      "en": "thank you email",
+      "vi": "thư cảm ơn"
+    },
+    {
+      "en": "follow up",
+      "vi": "liên hệ lại, theo dõi kết quả"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "question": {
+        "text": "How many printed copies of your CV should you bring to a face to face interview?",
+        "audioId": "",
+        "vi": "Bạn nên mang bao nhiêu bản CV in sẵn khi đi phỏng vấn trực tiếp?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Several clean copies, enough for each interviewer and one extra for yourself",
+          "audioId": "",
+          "variants": [
+            "A few neat copies, one per interviewer plus a spare"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "No copies at all, because interviewers never look at paper documents anymore",
+          "audioId": "",
+          "variants": [
+            "None, interviewers never read paper anymore"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Only one crumpled copy that you keep folded in your back pocket",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A single photo of your CV saved somewhere on your phone screen",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "You may meet more than one person, and some interviewers have not printed your CV. Bringing three to five clean copies lets you hand one to everyone and keep one for yourself to follow the conversation.",
+        "vi": "Bạn có thể gặp nhiều người, và không phải ai cũng đã in CV của bạn. Mang ba đến năm bản sạch đẹp giúp bạn đưa cho mỗi người một bản và giữ một bản để theo dõi cuộc trò chuyện."
+      }
+    },
+    {
+      "id": "q02",
+      "question": {
+        "text": "Why should the CV you bring be the same version you sent with your application?",
+        "audioId": "",
+        "vi": "Vì sao CV bạn mang theo phải giống bản đã nộp kèm hồ sơ?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because the interviewer will ask about details in the version they already have",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because a new version proves that you can edit documents very quickly",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Because the receptionist checks the spelling of every word before you enter",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It does not matter, so bring a totally different and much longer version",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Interviewers prepare their questions from the CV you submitted. If your printed copy has different dates or job titles, it creates confusion and may look dishonest. If you have updated something, mention the change openly.",
+        "vi": "Người phỏng vấn chuẩn bị câu hỏi dựa trên CV bạn đã nộp. Nếu bản in của bạn có ngày tháng hay chức danh khác, sẽ gây nhầm lẫn và có thể bị nghĩ là thiếu trung thực. Nếu có cập nhật gì, hãy nói rõ."
+      }
+    },
+    {
+      "id": "q03",
+      "question": {
+        "text": "What is the main purpose of a cover letter?",
+        "audioId": "",
+        "vi": "Mục đích chính của thư xin việc là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "To explain why you want this specific job and why you are a good fit",
+          "audioId": "",
+          "variants": [
+            "To say why you want this job and why you suit it"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "To list every school subject you studied from primary school until today",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "To tell the employer the lowest salary you will accept and nothing else",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "To repeat your CV exactly, word for word, in a longer form",
+          "audioId": "",
+          "variants": [
+            "To copy the CV word for word"
+          ]
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A cover letter connects your experience to this particular job and company. It should add motivation and a few highlights, not repeat the CV line by line. Keep it to about one page and adapt it for each application.",
+        "vi": "Thư xin việc liên kết kinh nghiệm của bạn với đúng công việc và công ty này. Thư nên nêu động lực và vài điểm nổi bật, không chép lại CV từng dòng. Hãy giữ khoảng một trang và viết riêng cho từng nơi ứng tuyển."
+      }
+    },
+    {
+      "id": "q04",
+      "question": {
+        "text": "Which certificates should you bring to an interview?",
+        "audioId": "",
+        "vi": "Bạn nên mang những chứng chỉ nào khi đi phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Every certificate you have ever received, including swimming awards from childhood",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "None, because employers never check qualifications in any country at all",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Copies of the degrees and certificates that are relevant to the job you want",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Only the originals, which you should leave with the receptionist for good",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Bring copies of relevant degrees, language certificates and licences, and keep the originals with you in case the employer wants to see them. In Vietnam many employers ask for certified copies, but you should never leave your original documents behind.",
+        "vi": "Hãy mang bản sao bằng cấp, chứng chỉ ngoại ngữ và giấy phép liên quan, đồng thời mang theo bản gốc phòng khi nhà tuyển dụng muốn xem. Ở Việt Nam nhiều nơi yêu cầu bản sao công chứng, nhưng bạn đừng bao giờ để lại bản gốc."
+      }
+    },
+    {
+      "id": "q05",
+      "question": {
+        "text": "What is a portfolio in the context of a job application?",
+        "audioId": "",
+        "vi": "Trong hồ sơ xin việc, portfolio là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A list of all the companies that have rejected you in the past",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A leather bag that every candidate must buy before attending an interview",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A collection of your best work samples that proves what you can do",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A document that shows your bank balance and your personal savings",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A portfolio is a selection of real work, such as designs, articles, reports or code. It shows your skills directly instead of only describing them. Choose a few strong pieces that match the job rather than everything you have made.",
+        "vi": "Portfolio (danh mục sản phẩm) là tập hợp các sản phẩm thật như thiết kế, bài viết, báo cáo hay mã nguồn. Nó cho thấy trực tiếp kỹ năng của bạn thay vì chỉ mô tả. Hãy chọn vài sản phẩm tốt nhất phù hợp với công việc, không phải tất cả."
+      }
+    },
+    {
+      "id": "q06",
+      "question": {
+        "text": "For which kinds of jobs is a portfolio especially useful?",
+        "audioId": "",
+        "vi": "Portfolio đặc biệt hữu ích với những loại công việc nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Creative and technical jobs such as design, writing, marketing or programming",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Only jobs where you never need to show any examples of your work",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Jobs where the employer has asked you not to bring anything at all",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Positions that require you to work alone at night without a computer",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "In design, writing, marketing, architecture or software, employers want to see the quality of your work. A printed portfolio, a tablet or a link to an online portfolio lets you show examples while you answer questions.",
+        "vi": "Trong thiết kế, viết lách, marketing, kiến trúc hay phần mềm, nhà tuyển dụng muốn thấy chất lượng sản phẩm của bạn. Portfolio in, máy tính bảng hoặc đường link portfolio trực tuyến giúp bạn đưa ví dụ khi trả lời."
+      }
+    },
+    {
+      "id": "q07",
+      "question": {
+        "text": "How should you organise your documents for an interview?",
+        "audioId": "",
+        "vi": "Bạn nên sắp xếp giấy tờ cho buổi phỏng vấn như thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Mix them loosely in your bag so they look natural and relaxed",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Staple every page together into one thick block that cannot be opened",
+          "audioId": "",
+          "variants": [
+            "Staple all the pages into one thick block"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Leave them at home and promise to send them sometime next month",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Put them in a clean folder in a clear order so you can find them quickly",
+          "audioId": "",
+          "variants": [
+            "Keep them in order inside a neat folder"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A simple folder with your CV on top, then the cover letter, certificates and portfolio, keeps papers flat and clean. When the interviewer asks for something, you can hand it over in seconds, which looks calm and organised.",
+        "vi": "Một bìa hồ sơ đơn giản với CV ở trên cùng, rồi đến thư xin việc, chứng chỉ và portfolio, giúp giấy tờ phẳng và sạch. Khi được hỏi, bạn đưa ngay trong vài giây, trông bình tĩnh và ngăn nắp."
+      }
+    },
+    {
+      "id": "q08",
+      "question": {
+        "text": "What should you check on your CV before you print it?",
+        "audioId": "",
+        "vi": "Bạn nên kiểm tra những gì trên CV trước khi in?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Whether the printer is the most expensive model sold in the shop",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "That the font is as tiny as possible so you can fit more pages",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Nothing, because small mistakes always make a candidate look more human",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Spelling, dates and contact details, so everything is correct and up to date",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Spelling errors, wrong dates or an old phone number give a careless impression and can stop the employer from contacting you. Read the CV slowly, or ask a friend to check it, before printing.",
+        "vi": "Lỗi chính tả, sai ngày tháng hay số điện thoại cũ tạo ấn tượng cẩu thả và có thể khiến nhà tuyển dụng không liên lạc được với bạn. Hãy đọc chậm hoặc nhờ bạn bè kiểm tra trước khi in."
+      }
+    },
+    {
+      "id": "q09",
+      "question": {
+        "text": "Which small items are useful to carry in your bag on the interview day?",
+        "audioId": "",
+        "vi": "Những vật dụng nhỏ nào nên mang trong túi vào ngày phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A large speaker so you can play music while you wait for your turn",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Snacks with strong smells to share with the interviewer during the questions",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A pen, a small notebook, your identity card and a list of references",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Your entire collection of school textbooks in case they test your memory",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A pen and notebook let you write down names or fill in forms. Many office buildings ask visitors to show an identity card at security, and a reference list is ready if the employer requests it.",
+        "vi": "Bút và sổ nhỏ giúp bạn ghi tên hoặc điền mẫu đơn. Nhiều toà nhà văn phòng yêu cầu khách xuất trình căn cước ở quầy bảo vệ, và danh sách người tham chiếu sẵn sàng nếu nhà tuyển dụng cần."
+      }
+    },
+    {
+      "id": "q10",
+      "question": {
+        "text": "What should you do before you list someone as a reference?",
+        "audioId": "",
+        "vi": "Bạn nên làm gì trước khi ghi tên ai đó làm người tham chiếu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask for their permission and tell them which job you are applying for",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Write their name without asking, because surprises make references more honest",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Pay them money so they will only say good things about you",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Choose a stranger with an impressive job title to look more important",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A reference is a person, usually a former manager or teacher, who can confirm your skills and character. Asking first means they will answer the call and can prepare to talk about the skills this job needs.",
+        "vi": "Người tham chiếu là người, thường là quản lý cũ hoặc thầy cô, có thể xác nhận kỹ năng và tính cách của bạn. Xin phép trước giúp họ sẵn sàng nghe máy và chuẩn bị nói về những kỹ năng công việc này cần."
+      }
+    },
+    {
+      "id": "q11",
+      "question": {
+        "text": "What should you do if the interviewer asks for a document you forgot to bring?",
+        "audioId": "",
+        "vi": "Bạn nên làm gì nếu người phỏng vấn hỏi một giấy tờ mà bạn quên mang?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Pretend the document does not exist and quickly change the subject",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Apologise briefly and offer to send a digital copy by email the same day",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Leave the interview immediately to go home and fetch the paper",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Blame the receptionist for losing the document while you were waiting",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Mistakes happen, and what matters is how you handle them. A short apology and a clear promise, which you then keep, shows honesty and reliability. Keeping scanned copies on your phone or email makes this easy.",
+        "vi": "Sai sót có thể xảy ra, điều quan trọng là bạn xử lý thế nào. Một lời xin lỗi ngắn và lời hứa rõ ràng, rồi làm đúng như hứa, cho thấy sự trung thực và đáng tin. Lưu sẵn bản scan trong điện thoại hay email sẽ giúp việc này dễ dàng."
+      }
+    },
+    {
+      "id": "q12",
+      "question": {
+        "text": "If you are not sure about the dress code, what is the safer choice?",
+        "audioId": "",
+        "vi": "Nếu không chắc về quy định trang phục, lựa chọn nào an toàn hơn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Wear sportswear, since comfortable clothes help you answer questions more quickly",
+          "audioId": "",
+          "variants": [
+            "Wear sportswear for comfort"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Dress slightly more formally, because looking a little overdressed is safer than underdressed",
+          "audioId": "",
+          "variants": [
+            "Dress a bit more formally than you think is needed"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Wear a costume so the interviewer has something fun to talk about",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Choose the clothes you wear for cleaning the house at the weekend",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "When you cannot find out what employees wear, it is better to be a little too formal than too casual. Overdressing slightly still shows respect, while underdressing can look as if you do not take the job seriously.",
+        "vi": "Khi không biết nhân viên thường mặc gì, hãy chọn trang trọng hơn một chút thay vì quá xuề xoà. Mặc hơi trang trọng vẫn thể hiện sự tôn trọng, còn mặc quá tuỳ tiện dễ bị nghĩ là không nghiêm túc."
+      }
+    },
+    {
+      "id": "q13",
+      "question": {
+        "text": "What should you usually wear to an interview at a bank or a law firm?",
+        "audioId": "",
+        "vi": "Khi phỏng vấn ở ngân hàng hay công ty luật, bạn thường nên mặc gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Shorts and flip-flops, because the office is air conditioned all day long",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A bright T-shirt with a funny slogan to show your personality",
+          "audioId": "",
+          "variants": [
+            "A bright shirt with a funny slogan"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "A dark suit or formal business clothes with a neat shirt and clean shoes",
+          "audioId": "",
+          "variants": [
+            "A dark suit or formal business wear"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Gym clothes, so you look healthy and full of energy for work",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Banks, law firms and many large corporations have a formal dress code. A dark suit, or a formal shirt with trousers or a skirt, in calm colours such as navy, grey or black, matches what their staff wear.",
+        "vi": "Ngân hàng, công ty luật và nhiều tập đoàn lớn có quy định trang phục trang trọng. Bộ vest tối màu, hoặc sơ mi trang trọng với quần âu hay chân váy, màu trầm như xanh than, xám, đen sẽ hợp với nhân viên ở đó."
+      }
+    },
+    {
+      "id": "q14",
+      "question": {
+        "text": "What is usually suitable to wear for an interview at a tech startup or a creative agency?",
+        "audioId": "",
+        "vi": "Khi phỏng vấn ở startup công nghệ hay công ty sáng tạo, mặc gì thường phù hợp?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A full evening gown or a tuxedo, like a guest at a wedding party",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Smart casual clothes, such as neat trousers and a clean shirt without a tie",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Pyjamas, because many startup employees work from home and dress very casually",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Torn and dirty clothes to show that you work extremely hard",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Startups and creative companies are often relaxed, so a full suit can look out of place. Smart casual means neat and tidy but not formal, for example chinos or dark jeans with a clean shirt or blouse. Casual never means messy.",
+        "vi": "Startup và công ty sáng tạo thường thoải mái, nên bộ vest đầy đủ có thể lạc lõng. Smart casual là gọn gàng, lịch sự nhưng không quá trang trọng, ví dụ quần kaki hoặc jeans tối màu với áo sơ mi sạch sẽ. Thoải mái không có nghĩa là luộm thuộm."
+      }
+    },
+    {
+      "id": "q15",
+      "question": {
+        "text": "Why should your interview clothes be clean, ironed and fit you well?",
+        "audioId": "",
+        "vi": "Vì sao quần áo đi phỏng vấn cần sạch, phẳng và vừa người?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because interviewers measure your clothes with a tape before you sit down",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Wrinkled clothes are fashionable and prove that you are a busy person",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Neat, well fitting clothes show care, respect and attention to detail",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Because loose clothes allow you to hide your notes inside your sleeves",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The interviewer forms a first impression within moments. Clothes that are clean, ironed and the right size suggest that you prepare carefully, and they also help you feel comfortable and confident.",
+        "vi": "Người phỏng vấn hình thành ấn tượng đầu tiên chỉ trong khoảnh khắc. Quần áo sạch, phẳng và vừa người cho thấy bạn chuẩn bị chu đáo, đồng thời giúp bạn thấy thoải mái và tự tin."
+      }
+    },
+    {
+      "id": "q16",
+      "question": {
+        "text": "How much perfume or cologne should you wear to an interview?",
+        "audioId": "",
+        "vi": "Bạn nên dùng bao nhiêu nước hoa khi đi phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "As much as possible, so the room smells nice for several hours",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Only a little or none, because strong smells can bother other people",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Spray it on your documents so the interviewer remembers your CV",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Carry the bottle and offer some to each interviewer as a gift",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Interview rooms are often small, and some people are sensitive or allergic to strong scents. A light scent or none at all is the safe choice, so people notice your answers rather than your perfume.",
+        "vi": "Phòng phỏng vấn thường nhỏ, và có người nhạy cảm hoặc dị ứng với mùi mạnh. Mùi nhẹ hoặc không dùng nước hoa là lựa chọn an toàn, để người ta chú ý câu trả lời của bạn chứ không phải mùi hương."
+      }
+    },
+    {
+      "id": "q17",
+      "question": {
+        "text": "Why is personal grooming important on the interview day?",
+        "audioId": "",
+        "vi": "Vì sao chăm chút vẻ ngoài lại quan trọng vào ngày phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Clean hair, tidy nails and fresh breath help you look professional and confident",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Grooming does not matter because only your answers are ever noticed",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Dye your hair a new bright colour on the morning of the interview",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Cut your own hair for the first time the night before",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Grooming means looking after small details such as hair, nails, shaving or make up and fresh breath. These details are noticed in close conversation and support a professional image. Avoid big changes right before the interview.",
+        "vi": "Chăm chút vẻ ngoài nghĩa là để ý những chi tiết nhỏ như tóc, móng tay, cạo râu hoặc trang điểm và hơi thở thơm tho. Khi nói chuyện gần, người khác sẽ nhận ra và điều này củng cố hình ảnh chuyên nghiệp. Tránh thay đổi lớn ngay trước buổi phỏng vấn."
+      }
+    },
+    {
+      "id": "q18",
+      "question": {
+        "text": "What is the best advice about jewellery and accessories for an interview?",
+        "audioId": "",
+        "vi": "Lời khuyên tốt nhất về trang sức và phụ kiện khi đi phỏng vấn là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Wear as many as possible to show that you are successful already",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Choose items that make noise when you move, so people notice you",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Keep them simple and small so they do not distract from what you say",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Wear sunglasses inside the room to look calm and mysterious",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A simple watch, small earrings or a plain bag look professional. Large, shiny or noisy accessories pull attention away from your answers, and sunglasses indoors hide your eyes and make communication harder.",
+        "vi": "Đồng hồ đơn giản, bông tai nhỏ hay túi xách trơn trông chuyên nghiệp. Phụ kiện to, sáng loá hay phát ra tiếng làm người nghe mất tập trung, còn đeo kính râm trong phòng che mắt và khiến giao tiếp khó hơn."
+      }
+    },
+    {
+      "id": "q19",
+      "question": {
+        "text": "When is the best time to prepare your interview outfit?",
+        "audioId": "",
+        "vi": "Khi nào là lúc tốt nhất để chuẩn bị trang phục phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Five minutes before you leave, when you will feel the most creative",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Only after you arrive, by buying something from a shop nearby",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The night before, so you can check it is clean, ironed and complete",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Never, because the company will lend you clothes at the reception desk",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Choosing your clothes the night before gives you time to find a missing button, a stain or wrinkles and fix them. It also removes one stressful decision from the morning of the interview.",
+        "vi": "Chuẩn bị trang phục từ tối hôm trước cho bạn thời gian phát hiện cúc áo bị mất, vết bẩn hay nếp nhăn và xử lý. Việc này cũng bớt đi một quyết định căng thẳng vào sáng hôm phỏng vấn."
+      }
+    },
+    {
+      "id": "q20",
+      "question": {
+        "text": "How should you dress for an online video interview?",
+        "audioId": "",
+        "vi": "Bạn nên ăn mặc thế nào khi phỏng vấn trực tuyến qua video?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Only care about your hair, since nobody can see you on a video call",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Dress fully and professionally, just as you would for a face to face meeting",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Wear a hat and a scarf to hide your face from the camera",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Stay in pyjamas because the camera turns off after the first minute",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The interviewer still sees you, and you may need to stand up or move. Dressing fully also puts you in a professional mood. Plain, solid colours usually look better on camera than busy patterns.",
+        "vi": "Người phỏng vấn vẫn nhìn thấy bạn, và có lúc bạn cần đứng dậy hay di chuyển. Mặc chỉnh tề toàn bộ cũng giúp bạn vào trạng thái làm việc chuyên nghiệp. Màu trơn thường lên hình đẹp hơn hoạ tiết rối mắt."
+      }
+    },
+    {
+      "id": "q21",
+      "question": {
+        "text": "How early should you arrive for an in-person interview?",
+        "audioId": "",
+        "vi": "Bạn nên đến sớm bao lâu cho buổi phỏng vấn trực tiếp?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Exactly on the minute, because every second of waiting wastes their time",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "About ten to fifteen minutes before the start, not much earlier or later",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Two hours early, so you can watch the staff arrive for work",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Half an hour late, because important people always arrive a little late",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Ten to fifteen minutes gives you time to sign in, find the room and relax. Arriving much earlier can put pressure on the interviewer, so if you are very early, wait in a nearby cafe and enter later.",
+        "vi": "Mười đến mười lăm phút đủ để bạn đăng ký, tìm phòng và bình tĩnh lại. Đến quá sớm có thể khiến người phỏng vấn bị áp lực, nên nếu đến quá sớm, hãy chờ ở quán cà phê gần đó rồi mới vào."
+      }
+    },
+    {
+      "id": "q22",
+      "question": {
+        "text": "What is a useful way to test your journey to an unfamiliar interview location?",
+        "audioId": "",
+        "vi": "Cách nào hữu ích để thử đường đến một địa điểm phỏng vấn lạ?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask the interviewer to pick you up from your home in their car",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Travel the route at the same time of day before the interview",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Leave without any plan and follow other people walking in the street",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Check the route only on a map drawn by a friend years ago",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A practice trip shows you the real traffic, where to park and which entrance to use. Doing it at the same hour as your interview gives you an honest idea of how long the journey takes.",
+        "vi": "Đi thử một lần cho bạn biết tình hình giao thông thực tế, chỗ gửi xe và lối vào. Đi đúng khung giờ phỏng vấn giúp bạn biết chính xác quãng đường mất bao lâu."
+      }
+    },
+    {
+      "id": "q23",
+      "question": {
+        "text": "Why should you add extra time to your travel plan on the interview day?",
+        "audioId": "",
+        "vi": "Vì sao nên dự trù thêm thời gian di chuyển vào ngày phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Extra time lets you visit the shopping mall near the office first",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because interviewers give bonus points to people who look very tired",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Because buses always leave exactly one hour earlier than their timetable says",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Traffic, rain or parking problems can delay you, especially in busy cities",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "In cities like Hanoi or Ho Chi Minh City, traffic jams and sudden rain are common. Adding a buffer of extra time, often thirty minutes or more, means a small problem will not make you late.",
+        "vi": "Ở các thành phố như Hà Nội hay TP. Hồ Chí Minh, kẹt xe và mưa bất chợt rất thường gặp. Dự trù thêm thời gian, thường từ ba mươi phút trở lên, giúp một sự cố nhỏ không khiến bạn đến muộn."
+      }
+    },
+    {
+      "id": "q24",
+      "question": {
+        "text": "What should you do if you realise you will be late for the interview?",
+        "audioId": "",
+        "vi": "Bạn nên làm gì nếu nhận ra mình sẽ đến phỏng vấn muộn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say nothing and hope that nobody notices when you walk in",
+          "audioId": "",
+          "variants": [
+            "Stay silent and hope nobody notices"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Send a long message blaming the traffic, the weather and the government",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Turn around and go home without telling anybody at the company",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Call the contact person as soon as possible, apologise and give a new arrival time",
+          "audioId": "",
+          "variants": [
+            "Phone them early, say sorry and tell them when you will arrive"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Calling before the start time shows respect and lets the interviewer adjust their schedule. Keep the explanation short and honest; long excuses sound unprofessional. Save the contact number in advance for this reason.",
+        "vi": "Gọi điện trước giờ hẹn thể hiện sự tôn trọng và giúp người phỏng vấn sắp xếp lại lịch. Giải thích ngắn gọn, trung thực; viện cớ dài dòng nghe thiếu chuyên nghiệp. Vì vậy hãy lưu sẵn số điện thoại liên hệ."
+      }
+    },
+    {
+      "id": "q25",
+      "question": {
+        "text": "Which details should you save on your phone before the interview day?",
+        "audioId": "",
+        "vi": "Bạn nên lưu những thông tin nào trong điện thoại trước ngày phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The weather forecast for the next three months in another country",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The names of every restaurant within ten kilometres of the building",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Your favourite song lyrics to sing quietly while you wait",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The address, the floor, the interviewer's name and a contact phone number",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Large buildings have many floors and entrances, and security often asks who you are meeting. Having the exact address, floor, name and phone number ready saves time and helps you if you get lost.",
+        "vi": "Toà nhà lớn có nhiều tầng và lối vào, bảo vệ thường hỏi bạn gặp ai. Có sẵn địa chỉ chính xác, số tầng, tên người phỏng vấn và số điện thoại giúp tiết kiệm thời gian và hữu ích khi bị lạc."
+      }
+    },
+    {
+      "id": "q26",
+      "question": {
+        "text": "If you travel to the interview by motorbike in a busy city, what should you plan for?",
+        "audioId": "",
+        "vi": "Nếu đi xe máy đến phỏng vấn ở thành phố đông đúc, bạn nên tính trước điều gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Riding as fast as possible through red lights to save a few minutes",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Time to park, take off your helmet and raincoat, and tidy your appearance",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Parking directly inside the meeting room next to the interviewer's desk",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Wearing your helmet during the whole interview to protect your hair",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Finding a parking place, walking from the parking area and fixing your hair after the helmet can take ten minutes or more. Bring a raincoat in the rainy season so your clothes stay dry.",
+        "vi": "Tìm chỗ gửi xe, đi bộ từ bãi xe và chỉnh lại tóc sau khi đội mũ bảo hiểm có thể mất mười phút trở lên. Mùa mưa nhớ mang áo mưa để quần áo không bị ướt."
+      }
+    },
+    {
+      "id": "q27",
+      "question": {
+        "text": "Why should you confirm the time zone for an online interview with a foreign company?",
+        "audioId": "",
+        "vi": "Vì sao cần xác nhận múi giờ khi phỏng vấn trực tuyến với công ty nước ngoài?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because time zones change every week depending on the company's mood",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because foreign interviews always happen at midnight in your own country",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Because a time zone mistake could make you join an hour early or late",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It is not necessary, since the whole world uses the same clock",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Different countries use different time zones, and some change their clocks for daylight saving time. Check the time in the calendar invitation and convert it to your local time to avoid missing the call.",
+        "vi": "Mỗi nước dùng múi giờ khác nhau, và một số nước còn đổi giờ theo mùa. Hãy kiểm tra giờ trong lời mời lịch họp và đổi sang giờ địa phương để không lỡ cuộc gọi."
+      }
+    },
+    {
+      "id": "q28",
+      "question": {
+        "text": "What should you test before an online interview starts?",
+        "audioId": "",
+        "vi": "Bạn nên kiểm tra những gì trước khi buổi phỏng vấn trực tuyến bắt đầu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Your camera, microphone, internet connection and the video meeting software",
+          "audioId": "",
+          "variants": [
+            "The camera, the microphone and the internet"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Only your hairstyle, because the technology will work perfectly by itself",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The volume of your music playlist to keep you relaxed during the questions",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Nothing, since the interviewer will fix any technical problems for you",
+          "audioId": "",
+          "variants": [
+            "Nothing, the interviewer solves tech problems"
+          ]
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Install and test the meeting app, such as Zoom, Google Meet or Microsoft Teams, at least a day before. Make a short test call to check that people can see and hear you clearly.",
+        "vi": "Hãy cài và thử ứng dụng họp như Zoom, Google Meet hay Microsoft Teams ít nhất một ngày trước. Gọi thử một cuộc ngắn để chắc chắn người khác nhìn và nghe bạn rõ."
+      }
+    },
+    {
+      "id": "q29",
+      "question": {
+        "text": "Where should the main light be during a video interview?",
+        "audioId": "",
+        "vi": "Khi phỏng vấn qua video, nguồn sáng chính nên đặt ở đâu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "In front of you, so your face is bright and clearly visible",
+          "audioId": "",
+          "variants": [
+            "Facing you so your face looks bright"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Directly behind you, so you appear as a dark and mysterious shadow",
+          "audioId": "",
+          "variants": [
+            "Behind you like a dark shadow"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Under your chin, like someone telling a scary story at night",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Nowhere, because a completely dark room helps you feel less nervous",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A window or lamp in front of you lights your face evenly. A bright window behind you turns you into a dark shape, because the camera adjusts to the brightest part of the picture.",
+        "vi": "Cửa sổ hoặc đèn đặt phía trước chiếu sáng đều khuôn mặt bạn. Cửa sổ sáng phía sau sẽ biến bạn thành một bóng tối, vì camera tự điều chỉnh theo vùng sáng nhất của khung hình."
+      }
+    },
+    {
+      "id": "q30",
+      "question": {
+        "text": "Where should you place the camera for a video interview?",
+        "audioId": "",
+        "vi": "Khi phỏng vấn qua video, bạn nên đặt camera ở đâu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Far below your face, so the interviewer looks up at your nose",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "At about eye level, so you seem to look straight at the interviewer",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "On the ceiling, so they can see the whole room from above",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Behind your screen, so only your hands and keyboard are visible",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A camera at eye level gives a natural, friendly angle, like sitting across a table. Put your laptop on a few books if needed, and sit so your head and shoulders fill the frame.",
+        "vi": "Camera ngang tầm mắt tạo góc nhìn tự nhiên, thân thiện như đang ngồi đối diện. Có thể kê laptop lên vài cuốn sách, và ngồi sao cho đầu và vai nằm gọn trong khung hình."
+      }
+    },
+    {
+      "id": "q31",
+      "question": {
+        "text": "What kind of background is best for a video interview?",
+        "audioId": "",
+        "vi": "Phông nền như thế nào là tốt nhất cho buổi phỏng vấn qua video?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A busy cafe with loud music so you look sociable and relaxed",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Your unmade bed with clothes everywhere to show your real daily life",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A moving video background of a beach with waves and seagulls",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A tidy, quiet and simple background with nothing that distracts the interviewer",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A plain wall or a neat bookshelf keeps attention on you. If your room is messy, a simple blurred background is acceptable, but moving or funny backgrounds look unprofessional and can glitch around your head.",
+        "vi": "Một bức tường trơn hoặc kệ sách gọn gàng giữ sự chú ý vào bạn. Nếu phòng bừa bộn, có thể làm mờ phông nền đơn giản, nhưng phông chuyển động hay hài hước trông thiếu chuyên nghiệp và dễ bị lỗi quanh đầu."
+      }
+    },
+    {
+      "id": "q32",
+      "question": {
+        "text": "How do you make eye contact during a video interview?",
+        "audioId": "",
+        "vi": "Làm sao để giao tiếp bằng mắt khi phỏng vấn qua video?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Stare at your own small picture to check your hair the whole time",
+          "audioId": "",
+          "variants": [
+            "Keep staring at your own picture"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Close your eyes so you can concentrate on every word they say",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Look out of the window to show that you are thinking deeply",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Look into the camera when you speak, not only at the faces on screen",
+          "audioId": "",
+          "variants": [
+            "Look at the camera while you are talking"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "On a video call, the other person feels eye contact only when you look at the lens. Look at the camera when you speak and at their face when you listen. Placing the call window near the camera helps.",
+        "vi": "Trong cuộc gọi video, người kia chỉ cảm nhận được ánh mắt khi bạn nhìn vào ống kính. Hãy nhìn camera khi nói và nhìn mặt họ khi nghe. Đặt cửa sổ cuộc gọi gần camera sẽ giúp ích."
+      }
+    },
+    {
+      "id": "q33",
+      "question": {
+        "text": "How can you reduce noise during an online interview?",
+        "audioId": "",
+        "vi": "Làm sao giảm tiếng ồn trong buổi phỏng vấn trực tuyến?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Turn the television on so the silence does not feel uncomfortable",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Do the interview from a busy street to show you are flexible",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ask your family to talk loudly in the background for moral support",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Choose a quiet room, close the door and turn off phone notifications",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Background noise makes you hard to understand and distracts the interviewer. Tell people at home about the time, use headphones with a microphone if possible, and mute yourself only when someone else is speaking for a long time.",
+        "vi": "Tiếng ồn khiến người khác khó nghe bạn và mất tập trung. Hãy báo người nhà về giờ phỏng vấn, dùng tai nghe có micro nếu được, và chỉ tắt tiếng khi người khác nói lâu."
+      }
+    },
+    {
+      "id": "q34",
+      "question": {
+        "text": "What should you do if your internet connection drops during an online interview?",
+        "audioId": "",
+        "vi": "Bạn nên làm gì nếu mất kết nối mạng giữa buổi phỏng vấn trực tuyến?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Give up and never contact the company again because it is embarrassing",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Pretend the interviewer's connection failed and blame them for the problem",
+          "audioId": "",
+          "variants": [
+            "Blame the interviewer for the bad connection"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Wait silently for several hours until they call you to check",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Reconnect quickly, apologise briefly and continue, or offer to switch to a phone call",
+          "audioId": "",
+          "variants": [
+            "Join again fast, say sorry and carry on"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Connection problems are common and interviewers understand them. What they notice is how calmly you react. Rejoin the call, apologise once, and ask where you stopped, or suggest continuing by phone.",
+        "vi": "Mất kết nối là chuyện thường và người phỏng vấn hiểu điều đó. Điều họ để ý là bạn phản ứng bình tĩnh thế nào. Hãy vào lại cuộc gọi, xin lỗi một lần và hỏi mình đang dừng ở đâu, hoặc đề nghị tiếp tục qua điện thoại."
+      }
+    },
+    {
+      "id": "q35",
+      "question": {
+        "text": "Why should you have a backup plan for an online interview?",
+        "audioId": "",
+        "vi": "Vì sao cần có phương án dự phòng cho buổi phỏng vấn trực tuyến?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Backup plans are only needed by people who are very bad at computers",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "So you can secretly let a friend answer the questions for you",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Because interviewers always cancel online meetings at the very last second",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Technology can fail, so a charged phone or mobile data keeps you connected",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Power cuts, Wi-Fi problems or a laptop that suddenly updates can happen to anyone. Charge your devices, keep mobile data ready and save the interviewer's phone number so you can continue quickly.",
+        "vi": "Mất điện, lỗi Wi-Fi hay laptop bất ngờ cập nhật có thể xảy ra với bất kỳ ai. Hãy sạc đầy thiết bị, chuẩn bị sẵn dữ liệu di động và lưu số điện thoại người phỏng vấn để tiếp tục nhanh chóng."
+      }
+    },
+    {
+      "id": "q36",
+      "question": {
+        "text": "When should you join the video call for an online interview?",
+        "audioId": "",
+        "vi": "Khi nào bạn nên vào cuộc gọi video cho buổi phỏng vấn trực tuyến?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Exactly ten minutes late so the interviewer has time to drink coffee",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Only after the interviewer has sent you several reminder messages",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A few minutes early, after checking your name, sound and camera are ready",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "One hour early and keep asking the host to let you in",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Joining three to five minutes early shows punctuality without pressuring the host. Check that your display name is your real full name, not a nickname, because it is the first thing the interviewer sees.",
+        "vi": "Vào sớm ba đến năm phút thể hiện sự đúng giờ mà không gây áp lực cho người chủ trì. Hãy kiểm tra tên hiển thị là họ tên thật của bạn, không phải biệt danh, vì đó là điều đầu tiên người phỏng vấn nhìn thấy."
+      }
+    },
+    {
+      "id": "q37",
+      "question": {
+        "text": "How should you treat the receptionist when you arrive for an interview?",
+        "audioId": "",
+        "vi": "Bạn nên đối xử với lễ tân thế nào khi đến phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ignore them, since only the interviewer has any influence on the decision",
+          "audioId": "",
+          "variants": [
+            "Ignore them because only the interviewer matters"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Ask them to hurry up because your time is more important",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Politely and warmly, because their opinion of you may reach the hiring manager",
+          "audioId": "",
+          "variants": [
+            "Be polite and friendly, they may share their opinion"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Tell them your life story while other visitors wait behind you",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Your interview really starts the moment you enter the building. Many managers ask receptionists and security staff how candidates behaved, so treat everyone with the same respect.",
+        "vi": "Buổi phỏng vấn thực sự bắt đầu ngay khi bạn bước vào toà nhà. Nhiều quản lý hỏi lễ tân và bảo vệ về cách ứng viên cư xử, vì vậy hãy tôn trọng mọi người như nhau."
+      }
+    },
+    {
+      "id": "q38",
+      "question": {
+        "text": "What should you tell the receptionist when you arrive?",
+        "audioId": "",
+        "vi": "Khi đến nơi, bạn nên nói gì với lễ tân?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Your name, the time of your interview and the person you are meeting",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Your opinion about the furniture and the design of the lobby",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "That you are in a hurry and need the meeting to start now",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Nothing at all, just sit down and wait for someone to guess",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A clear, short introduction such as \"Good morning, I am here for a ten o'clock interview with Ms Lan\" helps the receptionist contact the right person quickly.",
+        "vi": "Một lời giới thiệu ngắn gọn như \"Chào chị, em đến phỏng vấn lúc mười giờ với chị Lan\" giúp lễ tân liên hệ đúng người nhanh chóng."
+      }
+    },
+    {
+      "id": "q39",
+      "question": {
+        "text": "What should you do while you wait in the reception area?",
+        "audioId": "",
+        "vi": "Bạn nên làm gì trong lúc ngồi chờ ở khu vực lễ tân?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Make loud phone calls to friends about other job interviews you have",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Sit calmly, review your notes and stay ready to greet the interviewer",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Walk around the office and open doors to explore the building",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Fall asleep on the sofa so you look relaxed and well rested",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "People may be watching how you wait. Sitting quietly with good posture and looking over your notes keeps you focused, and you can stand up and smile as soon as the interviewer appears.",
+        "vi": "Có thể có người đang quan sát cách bạn chờ. Ngồi yên với tư thế đẹp và xem lại ghi chú giúp bạn tập trung, và bạn có thể đứng dậy mỉm cười ngay khi người phỏng vấn xuất hiện."
+      }
+    },
+    {
+      "id": "q40",
+      "question": {
+        "text": "What should you do with your mobile phone before the interview begins?",
+        "audioId": "",
+        "vi": "Bạn nên làm gì với điện thoại trước khi buổi phỏng vấn bắt đầu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Keep it on the table and reply to messages during the questions",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Turn the ringtone to maximum so you never miss an important call",
+          "audioId": "",
+          "variants": [
+            "Make the ringtone as loud as possible"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Hold it in your hand to check social media between answers",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Switch it to silent or turn it off and put it away",
+          "audioId": "",
+          "variants": [
+            "Put it on silent and keep it in your bag"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A ringing phone or a phone on the table suggests the interview is not your priority. Silence it before you enter the building, and remember that vibration can also be heard in a quiet room.",
+        "vi": "Điện thoại đổ chuông hay đặt trên bàn khiến người ta nghĩ buổi phỏng vấn không phải ưu tiên của bạn. Hãy tắt tiếng trước khi vào toà nhà, và nhớ rằng chế độ rung cũng nghe thấy trong phòng yên tĩnh."
+      }
+    },
+    {
+      "id": "q41",
+      "question": {
+        "text": "What kind of handshake makes a good impression in most professional settings?",
+        "audioId": "",
+        "vi": "Cái bắt tay như thế nào tạo ấn tượng tốt trong hầu hết môi trường công sở?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A very weak handshake using only the tips of your fingers",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A firm but gentle handshake with a smile and brief eye contact",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A painful handshake that lasts as long as possible to show strength",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "No handshake at all, but a loud high five instead",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A firm, short handshake shows confidence; a weak or crushing one feels uncomfortable. Customs differ, so let the interviewer offer their hand first, and if they prefer a nod or a small bow, simply return it.",
+        "vi": "Cái bắt tay chắc chắn, ngắn gọn thể hiện sự tự tin; bắt tay hờ hoặc siết quá mạnh đều gây khó chịu. Phong tục mỗi nơi khác nhau, nên hãy để người phỏng vấn đưa tay trước, nếu họ chỉ gật đầu hay cúi chào nhẹ, bạn đáp lại như vậy."
+      }
+    },
+    {
+      "id": "q42",
+      "question": {
+        "text": "How should you greet the interviewer when you first meet?",
+        "audioId": "",
+        "vi": "Bạn nên chào người phỏng vấn thế nào khi gặp lần đầu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Smile, say good morning or good afternoon and use their name if you know it",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Say hey buddy and ask them straight away how much the job pays",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Stay silent and wait for them to guess who you are",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Hug them warmly as if they were an old friend from school",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A polite greeting with a smile sets a positive tone. Using the person's name, such as \"Good morning, Mr Minh\", shows attention and respect. Wait until you are invited before you sit down.",
+        "vi": "Lời chào lịch sự kèm nụ cười tạo không khí tích cực. Gọi tên người đối diện, ví dụ \"Chào anh Minh\", thể hiện sự chú ý và tôn trọng. Hãy đợi được mời rồi mới ngồi xuống."
+      }
+    },
+    {
+      "id": "q43",
+      "question": {
+        "text": "What does good posture tell the interviewer about you?",
+        "audioId": "",
+        "vi": "Tư thế ngồi tốt cho người phỏng vấn biết điều gì về bạn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Slouching deeply in the chair shows that you feel completely at home",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Leaning far back with your feet on the desk shows natural leadership",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Posture means nothing, because interviewers only listen and never look",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Sitting upright and leaning slightly forward shows confidence and interest",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Body language often speaks before you do. Sitting straight with your back near the chair and leaning a little forward tells the interviewer that you are alert and engaged in the conversation.",
+        "vi": "Ngôn ngữ cơ thể thường nói trước cả lời nói. Ngồi thẳng lưng, tựa gần lưng ghế và hơi nghiêng người về phía trước cho người phỏng vấn thấy bạn tỉnh táo và chú tâm vào cuộc trò chuyện."
+      }
+    },
+    {
+      "id": "q44",
+      "question": {
+        "text": "What should you do with your hands while you answer questions?",
+        "audioId": "",
+        "vi": "Bạn nên làm gì với đôi tay trong lúc trả lời câu hỏi?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Cross your arms tightly the whole time to look strong and serious",
+          "audioId": "",
+          "variants": [
+            "Keep your arms crossed tightly"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Keep them relaxed and use small natural gestures to support your words",
+          "audioId": "",
+          "variants": [
+            "Relax them and use small gestures"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Play with your pen, hair or phone to stay calm",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Hide them under the table and keep them perfectly still all the time",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Open, relaxed hands look honest and confident. Crossed arms can look defensive, and playing with objects shows nervousness. Resting your hands on the table or your lap between gestures is a good habit.",
+        "vi": "Bàn tay thả lỏng, cởi mở trông chân thành và tự tin. Khoanh tay có thể bị hiểu là phòng thủ, còn nghịch đồ vật cho thấy sự lo lắng. Giữa các cử chỉ, đặt tay lên bàn hoặc trên đùi là thói quen tốt."
+      }
+    },
+    {
+      "id": "q45",
+      "question": {
+        "text": "How much eye contact is appropriate during an in-person interview?",
+        "audioId": "",
+        "vi": "Khi phỏng vấn trực tiếp, giao tiếp bằng mắt bao nhiêu là phù hợp?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "None at all, because looking at the floor shows that you are humble",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Constant staring without blinking until the interviewer looks away first",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Regular, natural eye contact, looking away briefly sometimes so it feels comfortable",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Only at the ceiling, as if the answers are written up there",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Steady but relaxed eye contact shows confidence and honesty. Looking away for a moment while you think is normal. In a panel interview, look mainly at the person who asked, and also at the others from time to time.",
+        "vi": "Giao tiếp bằng mắt đều đặn nhưng tự nhiên thể hiện sự tự tin và chân thành. Nhìn đi chỗ khác một chút khi suy nghĩ là bình thường. Khi phỏng vấn hội đồng, hãy nhìn chủ yếu người đặt câu hỏi và thỉnh thoảng nhìn cả những người khác."
+      }
+    },
+    {
+      "id": "q46",
+      "question": {
+        "text": "How should you show you are listening while the interviewer is speaking?",
+        "audioId": "",
+        "vi": "Làm sao thể hiện bạn đang lắng nghe khi người phỏng vấn nói?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Listen actively, nod sometimes and keep a calm, friendly expression",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Yawn openly so they know the question is too long",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Look bored and check the clock on the wall often",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Interrupt with a big laugh before they finish every sentence",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Active listening means showing attention with small signals such as nodding and a friendly face, and letting the person finish before you answer. It makes the conversation feel respectful and natural.",
+        "vi": "Lắng nghe chủ động là thể hiện sự chú ý bằng tín hiệu nhỏ như gật đầu và nét mặt thân thiện, đồng thời để người kia nói hết rồi mới trả lời. Điều này giúp cuộc trò chuyện tôn trọng và tự nhiên."
+      }
+    },
+    {
+      "id": "q47",
+      "question": {
+        "text": "What should you do right after you leave the interview?",
+        "audioId": "",
+        "vi": "Bạn nên làm gì ngay sau khi rời buổi phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Forget everything immediately, because the result is already decided anyway",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Tell everyone online the exact questions and the interviewers' private details",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Write down the questions asked, the names you heard and anything you promised to send",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Go back inside to ask whether you got the job yet",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Your memory fades quickly. Short notes help you write a personal thank you message, keep any promise such as sending a document, and prepare better for the next round or the next interview.",
+        "vi": "Trí nhớ phai nhanh. Ghi chú ngắn giúp bạn viết thư cảm ơn cá nhân hoá, giữ đúng lời hứa như gửi tài liệu, và chuẩn bị tốt hơn cho vòng sau hoặc buổi phỏng vấn khác."
+      }
+    },
+    {
+      "id": "q48",
+      "question": {
+        "text": "When should you send a thank you email after an interview?",
+        "audioId": "",
+        "vi": "Khi nào bạn nên gửi thư cảm ơn sau buổi phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Within one day, while the conversation is still fresh in both your minds",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Three months later, when the company has probably forgotten your name",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "During the interview, by typing it on your phone under the table",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Never, since thanking an interviewer makes you look weak and desperate",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A thank you email sent within twenty four hours is a common professional courtesy. It reminds the interviewer of you while decisions are being made and shows good manners.",
+        "vi": "Thư cảm ơn gửi trong vòng hai mươi bốn giờ là phép lịch sự chuyên nghiệp phổ biến. Nó nhắc người phỏng vấn nhớ đến bạn trong lúc họ đang ra quyết định và thể hiện sự chu đáo."
+      }
+    },
+    {
+      "id": "q49",
+      "question": {
+        "text": "What should a good thank you email include?",
+        "audioId": "",
+        "vi": "Một thư cảm ơn tốt nên có những nội dung gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Thanks for their time, one point you discussed and your continued interest in the role",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A long list of complaints about the questions they asked you",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A demand for a final answer before the end of the day",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Your full CV again with every detail written in capital letters",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Keep it short and personal: thank them, mention one specific topic from the conversation and confirm that you are still interested. A few sentences are enough, and check the spelling of their name carefully.",
+        "vi": "Hãy viết ngắn gọn và cá nhân: cảm ơn, nhắc một chủ đề cụ thể trong buổi trò chuyện và khẳng định bạn vẫn quan tâm đến vị trí. Vài câu là đủ, và nhớ kiểm tra kỹ chính tả tên người nhận."
+      }
+    },
+    {
+      "id": "q50",
+      "question": {
+        "text": "What should you do if you have not heard back by the date the employer gave you?",
+        "audioId": "",
+        "vi": "Bạn nên làm gì nếu đến hạn nhà tuyển dụng hẹn mà vẫn chưa nhận được phản hồi?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Call the interviewer many times every day until somebody finally answers",
+          "audioId": "",
+          "variants": [
+            "Phone them again and again every day"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Send a short, polite follow up email asking about the status of your application",
+          "audioId": "",
+          "variants": [
+            "Write a brief polite email to ask about the progress"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Post an angry review about the company on social media right away",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Visit the office without warning and wait at reception until they decide",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Hiring often takes longer than planned. One polite follow up a few days after the promised date is normal and professional. If there is still no reply, keep applying elsewhere instead of waiting for one company.",
+        "vi": "Quá trình tuyển dụng thường lâu hơn dự kiến. Một email hỏi thăm lịch sự vài ngày sau mốc hẹn là bình thường và chuyên nghiệp. Nếu vẫn không có phản hồi, hãy tiếp tục ứng tuyển nơi khác thay vì chỉ chờ một công ty."
+      }
+    }
+  ]
+}

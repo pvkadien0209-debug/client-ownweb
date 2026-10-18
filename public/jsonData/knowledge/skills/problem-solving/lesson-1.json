@@ -1,0 +1,2309 @@
+{
+  "id": "lesson-1",
+  "branch": "skills",
+  "topic": "problem-solving",
+  "title": {
+    "vi": "Giải quyết vấn đề và ra quyết định",
+    "en": "Problem solving and decision making"
+  },
+  "level": "B1",
+  "status": "draft",
+  "updatedAt": "2026-10-14",
+  "reviewNote": "Bản nháp do Claude soạn và tự kiểm (2026-10-14). Chờ DIENPHAM duyệt.",
+  "overview": [
+    {
+      "heading": {
+        "en": "Define the real problem first",
+        "vi": "Xác định đúng vấn đề trước"
+      },
+      "paragraphs": [
+        {
+          "en": "Most bad solutions begin with a badly defined problem. Before you look for answers, turn a vague complaint into one clear sentence: what is happening, where and when, how big it is and who is affected.",
+          "vi": "Phần lớn giải pháp tồi bắt đầu từ một vấn đề được xác định kém. Trước khi tìm câu trả lời, hãy biến lời phàn nàn mơ hồ thành một câu rõ ràng: điều gì đang xảy ra, ở đâu, khi nào, lớn đến mức nào và ai bị ảnh hưởng."
+        },
+        {
+          "en": "Separate the symptom you see from the problem that produces it. Ask questions, check facts, and agree on the problem sentence with the people involved.",
+          "vi": "Hãy tách triệu chứng bạn thấy khỏi vấn đề sinh ra nó. Đặt câu hỏi, kiểm tra dữ kiện và thống nhất câu mô tả vấn đề với những người liên quan."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Find the root cause",
+        "vi": "Tìm nguyên nhân gốc"
+      },
+      "paragraphs": [
+        {
+          "en": "Ask why several times, the five whys method, until you reach a cause you can change. Look at several cases together to find patterns, and focus on the process rather than on blaming a person.",
+          "vi": "Hỏi tại sao nhiều lần, tức phương pháp năm câu hỏi tại sao, cho tới khi gặp nguyên nhân bạn thay đổi được. Xem nhiều trường hợp cùng lúc để tìm quy luật, và tập trung vào quy trình thay vì đổ lỗi cho một người."
+        },
+        {
+          "en": "A quick fix can stop damage today, but only a root cause solution stops the problem coming back.",
+          "vi": "Cách chữa cháy có thể chặn thiệt hại hôm nay, nhưng chỉ giải pháp tận gốc mới ngăn vấn đề quay lại."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Create options, then weigh them",
+        "vi": "Tạo phương án rồi cân nhắc"
+      },
+      "paragraphs": [
+        {
+          "en": "Never stop at the first idea. Collect several options, including doing nothing and a small middle path, and judge them only after the list is finished.",
+          "vi": "Đừng dừng ở ý tưởng đầu tiên. Hãy gom vài phương án, kể cả không làm gì và một phương án dung hoà nhỏ, và chỉ đánh giá khi danh sách đã xong."
+        },
+        {
+          "en": "Agree on criteria such as cost, time, risk and long term effect, give the important ones more weight, and think about the worst case before you choose.",
+          "vi": "Thống nhất tiêu chí như chi phí, thời gian, rủi ro và tác động lâu dài, cho tiêu chí quan trọng trọng số cao hơn, và nghĩ tới tình huống xấu nhất trước khi chọn."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Deciding with little time or information",
+        "vi": "Quyết định khi thiếu thời gian hoặc thông tin"
+      },
+      "paragraphs": [
+        {
+          "en": "You rarely have all the facts. Decide with the best information you have, write down your assumptions, and set a deadline so waiting does not become a decision of its own.",
+          "vi": "Bạn hiếm khi có đủ mọi dữ kiện. Hãy quyết định với thông tin tốt nhất hiện có, ghi lại giả định và đặt hạn chót để việc chờ đợi không tự biến thành một quyết định."
+        },
+        {
+          "en": "Decide fast when a choice is easy to reverse, take more care when it is not, and use small tests when you are unsure.",
+          "vi": "Quyết nhanh khi lựa chọn dễ đảo ngược, cẩn trọng hơn khi khó đảo ngược, và dùng thử nghiệm nhỏ khi chưa chắc chắn."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "A sample situation analysed",
+        "vi": "Phân tích một tình huống mẫu"
+      },
+      "paragraphs": [
+        {
+          "en": "A shop manager sees more customer complaints and immediately offers everyone a discount. Complaints continue. When she finally reads twenty complaints together, most mention late deliveries from one courier. Asking why shows the courier changed its schedule last month.",
+          "vi": "Một quản lý cửa hàng thấy khiếu nại tăng và lập tức giảm giá cho mọi người. Khiếu nại vẫn tiếp tục. Khi cuối cùng chị đọc hai mươi khiếu nại cùng lúc, phần lớn nhắc tới việc một hãng vận chuyển giao trễ. Hỏi tiếp vì sao thì thấy hãng này đã đổi lịch từ tháng trước."
+        },
+        {
+          "en": "What went well: she reacted quickly to protect customers. What went wrong: she chose a solution before defining the problem. A better path is to read the complaints first, list options such as changing the pickup time or the courier, test one for a week and then review.",
+          "vi": "Điểm được: chị phản ứng nhanh để giữ khách. Điểm chưa được: chị chọn giải pháp trước khi xác định vấn đề. Cách tốt hơn là đọc khiếu nại trước, liệt kê phương án như đổi giờ lấy hàng hay đổi hãng vận chuyển, thử một phương án trong một tuần rồi nhìn lại."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Act, review and avoid the traps",
+        "vi": "Hành động, nhìn lại và tránh bẫy"
+      },
+      "paragraphs": [
+        {
+          "en": "Turn every decision into an action plan with names, deadlines and a sign of success, then review what you expected and what happened.",
+          "vi": "Biến mỗi quyết định thành kế hoạch hành động có tên người, hạn chót và dấu hiệu thành công, rồi nhìn lại điều bạn mong đợi và điều đã xảy ra."
+        },
+        {
+          "en": "Watch for common traps: rushing, letting money already spent control the future, trusting only one source, and agreeing just because everyone else does.",
+          "vi": "Cảnh giác với những bẫy thường gặp: quyết vội, để khoản tiền đã tiêu chi phối tương lai, chỉ tin một nguồn, và đồng ý chỉ vì mọi người đều đồng ý."
+        }
+      ]
+    }
+  ],
+  "tree": [
+    {
+      "title": {
+        "en": "Defining the real problem",
+        "vi": "Xác định đúng vấn đề"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Turning vague complaints into clear problems",
+            "vi": "Biến lời phàn nàn mơ hồ thành vấn đề rõ"
+          },
+          "note": {
+            "en": "Ask what, where, when and who before acting.",
+            "vi": "Hỏi cái gì, ở đâu, khi nào, ai trước khi hành động."
+          },
+          "questions": [
+            "q01",
+            "q03",
+            "q06",
+            "q08"
+          ]
+        },
+        {
+          "title": {
+            "en": "Symptoms and problem statements",
+            "vi": "Triệu chứng và câu mô tả vấn đề"
+          },
+          "note": {
+            "en": "Write the problem in one factual sentence.",
+            "vi": "Viết vấn đề thành một câu nêu sự việc."
+          },
+          "questions": [
+            "q02",
+            "q04",
+            "q05",
+            "q07"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Finding root causes",
+        "vi": "Tìm nguyên nhân gốc"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "The five whys",
+            "vi": "Năm câu hỏi tại sao"
+          },
+          "note": {
+            "en": "Keep asking why until you reach a cause you can fix.",
+            "vi": "Hỏi tại sao cho đến khi gặp nguyên nhân sửa được."
+          },
+          "questions": [
+            "q09",
+            "q10",
+            "q12"
+          ]
+        },
+        {
+          "title": {
+            "en": "Quick fix or real fix",
+            "vi": "Chữa cháy hay chữa tận gốc"
+          },
+          "note": {
+            "en": "Fix the process, not the person.",
+            "vi": "Sửa quy trình, không đổ lỗi cho người."
+          },
+          "questions": [
+            "q11",
+            "q14"
+          ]
+        },
+        {
+          "title": {
+            "en": "Looking at facts and patterns",
+            "vi": "Nhìn vào dữ kiện và quy luật"
+          },
+          "note": {
+            "en": "Check several cases before trusting an explanation.",
+            "vi": "Xem nhiều trường hợp trước khi tin một lời giải thích."
+          },
+          "questions": [
+            "q13",
+            "q15",
+            "q16"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Generating options",
+        "vi": "Tạo ra các phương án"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Beyond the first idea",
+            "vi": "Vượt qua ý tưởng đầu tiên"
+          },
+          "note": {
+            "en": "Always have more than one option, including doing nothing.",
+            "vi": "Luôn có hơn một phương án, kể cả không làm gì."
+          },
+          "questions": [
+            "q17",
+            "q19",
+            "q21",
+            "q23"
+          ]
+        },
+        {
+          "title": {
+            "en": "Getting ideas from people",
+            "vi": "Lấy ý tưởng từ mọi người"
+          },
+          "note": {
+            "en": "Collect first, judge later, and listen to quiet voices.",
+            "vi": "Gom trước, đánh giá sau, và lắng nghe người ít nói."
+          },
+          "questions": [
+            "q18",
+            "q20",
+            "q22",
+            "q24"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Weighing options",
+        "vi": "Cân nhắc các phương án"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Criteria and weights",
+            "vi": "Tiêu chí và trọng số"
+          },
+          "note": {
+            "en": "Agree on criteria before you compare.",
+            "vi": "Thống nhất tiêu chí trước khi so sánh."
+          },
+          "questions": [
+            "q25",
+            "q26",
+            "q28",
+            "q31"
+          ]
+        },
+        {
+          "title": {
+            "en": "Pros, cons and risks",
+            "vi": "Lợi, hại và rủi ro"
+          },
+          "note": {
+            "en": "Imagine the worst case and the hidden costs.",
+            "vi": "Hình dung trường hợp xấu nhất và chi phí ẩn."
+          },
+          "questions": [
+            "q27",
+            "q29",
+            "q30"
+          ]
+        },
+        {
+          "title": {
+            "en": "Thinking ahead",
+            "vi": "Nhìn xa hơn"
+          },
+          "note": {
+            "en": "Compare effects over weeks, months and years.",
+            "vi": "So sánh tác động theo tuần, tháng và năm."
+          },
+          "questions": [
+            "q32",
+            "q33"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Deciding under uncertainty and time pressure",
+        "vi": "Quyết định khi chưa chắc chắn và gấp gáp"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Deciding without all the facts",
+            "vi": "Quyết định khi chưa đủ dữ kiện"
+          },
+          "note": {
+            "en": "Use the best facts now and test when unsure.",
+            "vi": "Dùng dữ kiện tốt nhất hiện có và thử nghiệm khi chưa chắc."
+          },
+          "questions": [
+            "q34",
+            "q35",
+            "q37",
+            "q41"
+          ]
+        },
+        {
+          "title": {
+            "en": "When time is short",
+            "vi": "Khi thời gian gấp"
+          },
+          "note": {
+            "en": "Good enough on time beats perfect too late.",
+            "vi": "Đủ tốt và kịp lúc hơn hoàn hảo mà muộn."
+          },
+          "questions": [
+            "q36",
+            "q38",
+            "q39",
+            "q40"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Acting, reviewing and avoiding traps",
+        "vi": "Hành động, nhìn lại và tránh bẫy"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "From decision to action",
+            "vi": "Từ quyết định đến hành động"
+          },
+          "note": {
+            "en": "Who does what by when, then review.",
+            "vi": "Ai làm gì, xong khi nào, rồi nhìn lại."
+          },
+          "questions": [
+            "q42",
+            "q43",
+            "q44",
+            "q50"
+          ]
+        },
+        {
+          "title": {
+            "en": "Common decision traps",
+            "vi": "Những bẫy quyết định thường gặp"
+          },
+          "note": {
+            "en": "Watch for sunk cost, one-sided facts and rushing.",
+            "vi": "Cảnh giác chi phí chìm, thông tin một chiều và quyết vội."
+          },
+          "questions": [
+            "q45",
+            "q46",
+            "q47",
+            "q48",
+            "q49"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "en": "Define the real problem in one clear sentence before looking for solutions.",
+      "vi": "Xác định vấn đề thật bằng một câu rõ ràng trước khi tìm giải pháp."
+    },
+    {
+      "en": "Ask why several times and fix the process, not the person.",
+      "vi": "Hỏi tại sao nhiều lần và sửa quy trình, không đổ lỗi cho người."
+    },
+    {
+      "en": "Collect several options before judging any of them.",
+      "vi": "Gom nhiều phương án trước khi đánh giá bất kỳ phương án nào."
+    },
+    {
+      "en": "Compare options with agreed criteria, weights and a worst case check.",
+      "vi": "So sánh phương án bằng tiêu chí đã thống nhất, trọng số và kiểm tra tình huống xấu nhất."
+    },
+    {
+      "en": "Decide with the best facts you have, and move fast on reversible choices.",
+      "vi": "Quyết định với dữ kiện tốt nhất hiện có, và quyết nhanh với lựa chọn dễ đảo ngược."
+    },
+    {
+      "en": "Turn decisions into clear actions and review the results.",
+      "vi": "Biến quyết định thành hành động rõ ràng và nhìn lại kết quả."
+    },
+    {
+      "en": "Avoid rushing, the sunk cost trap and trusting only one source.",
+      "vi": "Tránh quyết vội, bẫy chi phí chìm và việc chỉ tin một nguồn."
+    }
+  ],
+  "glossary": [
+    {
+      "en": "problem statement",
+      "vi": "câu mô tả vấn đề"
+    },
+    {
+      "en": "symptom",
+      "vi": "triệu chứng, biểu hiện bề ngoài"
+    },
+    {
+      "en": "root cause",
+      "vi": "nguyên nhân gốc"
+    },
+    {
+      "en": "five whys",
+      "vi": "phương pháp năm câu hỏi tại sao"
+    },
+    {
+      "en": "quick fix",
+      "vi": "cách chữa cháy, giải pháp tạm thời"
+    },
+    {
+      "en": "brainstorming",
+      "vi": "động não, gom ý tưởng"
+    },
+    {
+      "en": "option",
+      "vi": "phương án, lựa chọn"
+    },
+    {
+      "en": "criteria",
+      "vi": "tiêu chí"
+    },
+    {
+      "en": "pros and cons",
+      "vi": "ưu điểm và nhược điểm"
+    },
+    {
+      "en": "trade-off",
+      "vi": "sự đánh đổi"
+    },
+    {
+      "en": "worst case",
+      "vi": "tình huống xấu nhất"
+    },
+    {
+      "en": "assumption",
+      "vi": "giả định"
+    },
+    {
+      "en": "reversible decision",
+      "vi": "quyết định có thể đảo ngược"
+    },
+    {
+      "en": "pilot test",
+      "vi": "thử nghiệm quy mô nhỏ"
+    },
+    {
+      "en": "action plan",
+      "vi": "kế hoạch hành động"
+    },
+    {
+      "en": "sunk cost",
+      "vi": "chi phí chìm, khoản đã bỏ ra không lấy lại được"
+    },
+    {
+      "en": "bias",
+      "vi": "thiên kiến, sự thiên lệch"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "question": {
+        "text": "Your manager says sales are bad and asks you to fix it, what should you do first?",
+        "audioId": "",
+        "vi": "Sếp nói doanh số đang tệ và giao bạn xử lý, bạn nên làm gì đầu tiên?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask questions to define exactly which sales dropped, where, and since when",
+          "audioId": "",
+          "variants": [
+            "Ask which sales dropped, where and since when"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Start a big discount campaign immediately so the numbers go up this week",
+          "audioId": "",
+          "variants": [
+            "Start a big discount campaign right away"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Tell the manager the problem is too vague and wait for clearer orders",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Blame the sales team in the next meeting and ask for new staff",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "\"Sales are bad\" is a feeling, not a defined problem. Asking which products, which areas and since when turns it into something you can study and solve. A discount campaign before that may treat the wrong cause and cost money. A useful sentence is: \"Can we look at which products dropped first?\"",
+        "vi": "\"Doanh số tệ\" là một cảm nhận, chưa phải vấn đề đã được xác định. Hỏi rõ sản phẩm nào, khu vực nào, từ khi nào sẽ biến nó thành thứ bạn phân tích và giải quyết được. Chạy giảm giá ngay có thể chữa sai nguyên nhân và tốn tiền. Câu nói mẫu: \"Mình xem thử sản phẩm nào giảm trước được không anh?\""
+      }
+    },
+    {
+      "id": "q02",
+      "question": {
+        "text": "What does a good problem statement usually include?",
+        "audioId": "",
+        "vi": "Một câu mô tả vấn đề tốt thường gồm những gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The name of the person who caused the problem and their punishment",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "What is happening, where and when, how big it is, and who is affected",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Your favourite solution, written as if it were already the problem",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A long description of every feeling the team has about the situation",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A clear problem statement describes facts: what is wrong, where and when it happens, how serious it is and who feels the effect. It does not include blame or a hidden solution, because both close the discussion too early.",
+        "vi": "Một câu mô tả vấn đề tốt nêu sự việc: điều gì đang sai, xảy ra ở đâu, khi nào, nghiêm trọng đến mức nào và ai chịu ảnh hưởng. Nó không chứa lời đổ lỗi hay một giải pháp cài sẵn, vì cả hai đều khiến cuộc bàn luận khép lại quá sớm."
+      }
+    },
+    {
+      "id": "q03",
+      "question": {
+        "text": "A customer complains the app is slow, but your tests show it is fast, what is the best next step?",
+        "audioId": "",
+        "vi": "Khách phàn nàn ứng dụng chạy chậm nhưng bạn kiểm tra thấy vẫn nhanh, bước tiếp theo tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask the customer when, where and on which device the slowness happens",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Tell the customer the app is fine and close the complaint ticket",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Rebuild the whole app at once because one customer is unhappy",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ignore the complaint until many more customers report the same thing",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Your test and the customer's experience may happen in different conditions, such as an old phone or a weak network. Asking for details helps you see the real problem instead of arguing about who is right. Closing the ticket loses trust, and rebuilding everything is far too much.",
+        "vi": "Bài kiểm tra của bạn và trải nghiệm của khách có thể diễn ra trong điều kiện khác nhau, như điện thoại cũ hay mạng yếu. Hỏi chi tiết giúp bạn thấy vấn đề thật thay vì tranh cãi ai đúng. Đóng phiếu khiếu nại làm mất lòng tin, còn làm lại toàn bộ ứng dụng thì quá tay."
+      }
+    },
+    {
+      "id": "q04",
+      "question": {
+        "text": "What is the main difference between a symptom and the real problem?",
+        "audioId": "",
+        "vi": "Khác biệt chính giữa triệu chứng và vấn đề thật là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A symptom is always more serious than the real problem behind it",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "There is no difference, so you can treat any symptom as the problem",
+          "audioId": "",
+          "variants": [
+            "There is no difference between them"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "A symptom is what you notice, the real problem is what produces it",
+          "audioId": "",
+          "variants": [
+            "A symptom is what you see, the problem causes it"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "A symptom only appears in health, never at work or at home",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Late reports, angry customers or a messy house are symptoms you can see. The real problem is the condition that keeps producing them, such as unclear deadlines. If you only treat the symptom, it usually comes back.",
+        "vi": "Báo cáo trễ, khách bực bội hay nhà bừa bộn là những triệu chứng bạn nhìn thấy. Vấn đề thật là điều kiện liên tục sinh ra chúng, ví dụ hạn chót không rõ ràng. Nếu chỉ xử lý triệu chứng, nó thường quay lại."
+      }
+    },
+    {
+      "id": "q05",
+      "question": {
+        "text": "A team spends a whole meeting arguing about solutions before agreeing on the problem, what is the main mistake?",
+        "audioId": "",
+        "vi": "Cả nhóm tranh cãi cả buổi họp về giải pháp trước khi thống nhất vấn đề, sai lầm chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The meeting was too short to discuss every possible solution fully",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "They skipped defining the problem, so everyone is solving a different one",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "They should have voted on one solution in the first few minutes",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Their manager was not there to choose the solution for them",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "When people argue about solutions, they are often picturing different problems. Agreeing on one problem sentence first makes the later discussion much shorter. A good opening is: \"Before we talk about solutions, what exactly are we trying to fix?\"",
+        "vi": "Khi mọi người cãi nhau về giải pháp, thường là mỗi người đang hình dung một vấn đề khác nhau. Thống nhất một câu mô tả vấn đề trước sẽ khiến phần bàn sau ngắn hơn nhiều. Câu mở đầu nên dùng: \"Trước khi bàn giải pháp, chính xác thì mình đang cần sửa điều gì?\""
+      }
+    },
+    {
+      "id": "q06",
+      "question": {
+        "text": "Your flatmate says the house is always messy, what is a good way to understand the real problem?",
+        "audioId": "",
+        "vi": "Bạn cùng nhà nói nhà lúc nào cũng bừa, cách nào tốt để hiểu vấn đề thật?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Clean everything yourself tonight so the complaint stops right away",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Say the house looks fine to you and change the subject",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Make a long list of rules for everyone without asking anything",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask which areas bother them most and when the mess usually appears",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "\"Always messy\" is too broad to fix. Asking which areas and which times turns it into something specific, for example dirty dishes after dinner. Cleaning alone tonight only treats the symptom, and denying the complaint starts a conflict.",
+        "vi": "\"Lúc nào cũng bừa\" quá rộng để xử lý. Hỏi khu vực nào, lúc nào sẽ biến nó thành điều cụ thể, ví dụ bát đĩa bẩn sau bữa tối. Tự dọn hết tối nay chỉ chữa triệu chứng, còn phủ nhận lời phàn nàn sẽ gây mâu thuẫn."
+      }
+    },
+    {
+      "id": "q07",
+      "question": {
+        "text": "Why is it useful to write the problem in one clear sentence before solving it?",
+        "audioId": "",
+        "vi": "Vì sao nên viết vấn đề thành một câu rõ ràng trước khi giải quyết?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It keeps everyone focused on the same issue and makes success easy to check",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It makes the report look longer and more professional to managers",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It proves that you already know the best solution to the problem",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It means you never need to talk with the people involved",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "One clear sentence, such as \"Orders in the north arrive two days late\", gives the team a shared target. Later you can check success against it: are orders still late or not?",
+        "vi": "Một câu rõ ràng, như \"Đơn hàng ở miền Bắc đến trễ hai ngày\", cho cả nhóm một mục tiêu chung. Sau này bạn đối chiếu với câu đó để biết đã thành công chưa: đơn còn trễ hay không?"
+      }
+    },
+    {
+      "id": "q08",
+      "question": {
+        "text": "Your boss asks for a new report template, but you suspect the real issue is late data, what should you do?",
+        "audioId": "",
+        "vi": "Sếp yêu cầu làm mẫu báo cáo mới, nhưng bạn ngờ rằng vấn đề thật là dữ liệu về muộn, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Design the template quietly even though you think it will not help",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Refuse the task and tell your boss the request is pointless",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ask what problem the new template should solve before you start designing it",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Change the data process yourself without telling anyone about it",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A request often hides the real need. Asking politely what the template should improve lets your boss share the goal, and you can then mention the late data. A sample question: \"What would you like the new template to fix?\"",
+        "vi": "Một yêu cầu thường che giấu nhu cầu thật. Hỏi lịch sự mẫu báo cáo mới cần cải thiện điều gì giúp sếp nói ra mục tiêu, rồi bạn có thể nhắc đến chuyện dữ liệu về muộn. Câu hỏi mẫu: \"Anh muốn mẫu mới giúp khắc phục điều gì ạ?\""
+      }
+    },
+    {
+      "id": "q09",
+      "question": {
+        "text": "What is the five whys method?",
+        "audioId": "",
+        "vi": "Phương pháp năm câu hỏi tại sao là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Asking five different people who made the mistake and punishing them",
+          "audioId": "",
+          "variants": [
+            "Asking five people who made the mistake"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Writing five possible solutions and picking the cheapest one quickly",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Asking why repeatedly until you reach a cause you can actually fix",
+          "audioId": "",
+          "variants": [
+            "Asking why again and again to find the real cause"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Waiting five days before you decide anything about a problem",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The five whys is a simple habit: ask why the problem happened, then ask why again about that answer, and continue until you reach a cause you can change. Five is only a guide; sometimes three questions are enough.",
+        "vi": "Phương pháp năm câu hỏi tại sao là một thói quen đơn giản: hỏi vì sao vấn đề xảy ra, rồi lại hỏi vì sao với câu trả lời đó, cứ thế đến khi gặp một nguyên nhân bạn thay đổi được. Con số năm chỉ là gợi ý; đôi khi ba lần hỏi là đủ."
+      }
+    },
+    {
+      "id": "q10",
+      "question": {
+        "text": "A machine stops and the team just changes the fuse every time, what should they do?",
+        "audioId": "",
+        "vi": "Máy dừng và lần nào cả nhóm cũng chỉ thay cầu chì, họ nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Buy a larger box of fuses so the repair is always faster",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Accept the stops as normal because all machines break sometimes",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Replace the whole machine immediately without checking what went wrong",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask why the fuse keeps blowing until they find the cause behind it",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Changing the fuse is a quick fix that will be needed again and again. Asking why it blows may lead to an overloaded motor, then to missing maintenance, which is a cause the team can fix once.",
+        "vi": "Thay cầu chì là cách chữa cháy, sẽ phải làm lại mãi. Hỏi vì sao cầu chì cháy có thể dẫn tới động cơ quá tải, rồi tới việc thiếu bảo dưỡng, đó mới là nguyên nhân cả nhóm sửa được một lần cho xong."
+      }
+    },
+    {
+      "id": "q11",
+      "question": {
+        "text": "What is the main difference between a quick fix and a root cause solution?",
+        "audioId": "",
+        "vi": "Khác biệt chính giữa cách chữa cháy và giải pháp tận gốc là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A quick fix is always wrong and should never be used at all",
+          "audioId": "",
+          "variants": [
+            "A quick fix is always wrong"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "A quick fix stops the pain today, a root cause solution stops it returning",
+          "audioId": "",
+          "variants": [
+            "A quick fix helps today, a root fix stops it coming back"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "A root cause solution is cheaper and faster in every single case",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "They are the same thing described with different words by managers",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Quick fixes are useful to stop damage now, for example apologising and resending an order. But if you stop there, the same problem returns. The best practice is often both: a quick fix today and a root cause solution next.",
+        "vi": "Cách chữa cháy hữu ích để chặn thiệt hại ngay, ví dụ xin lỗi và gửi lại đơn hàng. Nhưng nếu chỉ dừng ở đó, vấn đề sẽ lặp lại. Cách tốt thường là làm cả hai: chữa cháy hôm nay và xử lý tận gốc ngay sau đó."
+      }
+    },
+    {
+      "id": "q12",
+      "question": {
+        "text": "When a report is late, a manager asks why only once and blames the writer, what is wrong?",
+        "audioId": "",
+        "vi": "Báo cáo bị trễ, người quản lý chỉ hỏi tại sao một lần rồi đổ lỗi cho người viết, sai ở đâu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "He waited too long before blaming someone for the late report",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "He should have punished the whole team instead of one person",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "He asked a question at all instead of fixing it himself",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "He stopped too early and missed causes in the process behind the person",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "\"Because she was slow\" is rarely the full answer. Asking why again might show that the data arrived late or that nobody set a clear deadline. Blaming one person stops the search before the real cause appears.",
+        "vi": "\"Vì cô ấy chậm\" hiếm khi là câu trả lời đầy đủ. Hỏi tiếp vì sao có thể cho thấy dữ liệu về muộn hoặc không ai đặt hạn chót rõ ràng. Đổ lỗi cho một người khiến việc tìm kiếm dừng lại trước khi nguyên nhân thật lộ ra."
+      }
+    },
+    {
+      "id": "q13",
+      "question": {
+        "text": "Many orders at your shop are sent to the wrong address, what is a good first step to find the cause?",
+        "audioId": "",
+        "vi": "Nhiều đơn hàng ở cửa hàng bị gửi sai địa chỉ, bước đầu tốt để tìm nguyên nhân là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Tell the delivery staff to be more careful and hope it improves",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Collect several wrong orders and look for what they have in common",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Change to a new delivery company right away without checking anything",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Apologise to customers but change nothing in the way orders work",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Looking at several cases together shows patterns, such as orders typed by hand or orders from one sales channel. Telling people to be careful changes nothing if the process itself causes the error.",
+        "vi": "Xem nhiều trường hợp cùng lúc sẽ lộ ra quy luật, ví dụ các đơn được gõ tay hoặc các đơn đến từ một kênh bán. Nhắc mọi người cẩn thận hơn không thay đổi gì nếu chính quy trình gây ra lỗi."
+      }
+    },
+    {
+      "id": "q14",
+      "question": {
+        "text": "Why should root cause analysis focus on processes rather than on blaming people?",
+        "audioId": "",
+        "vi": "Vì sao phân tích nguyên nhân gốc nên tập trung vào quy trình thay vì đổ lỗi cho người?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because people never make mistakes, only machines and computers do",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because blaming takes less time and gives faster results for managers",
+          "audioId": "",
+          "variants": [
+            "Blaming is faster for managers"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Because processes are easier to describe in a written report later",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Blame makes people hide mistakes, while fixing processes stops the same errors returning",
+          "audioId": "",
+          "variants": [
+            "Blame makes people hide errors, fixing processes stops them"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "People make mistakes, but a good process makes mistakes hard to make. When people fear blame, they stop reporting problems, so the real cause stays hidden. Ask \"What allowed this to happen?\" instead of \"Who did this?\"",
+        "vi": "Con người ai cũng có lúc sai, nhưng quy trình tốt khiến việc sai khó xảy ra. Khi sợ bị đổ lỗi, mọi người thôi báo cáo vấn đề, nên nguyên nhân thật bị giấu đi. Hãy hỏi \"Điều gì khiến việc này xảy ra được?\" thay vì \"Ai làm?\""
+      }
+    },
+    {
+      "id": "q15",
+      "question": {
+        "text": "Your child keeps forgetting homework, what is the most useful question to ask first?",
+        "audioId": "",
+        "vi": "Con bạn liên tục quên bài tập về nhà, câu hỏi hữu ích nhất nên hỏi trước là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask why they are so lazy compared with other children in class",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Ask the teacher to give less homework to your child from now",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ask nothing and simply take their phone away for a month",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask what happens each evening, to see where the routine breaks down",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Looking at the evening routine may show a simple cause, such as homework being written nowhere or the bag packed in a hurry. Calling a child lazy hurts and gives no information. Punishment without understanding rarely fixes the habit.",
+        "vi": "Xem lại nếp sinh hoạt buổi tối có thể lộ ra nguyên nhân đơn giản, như bài tập không được ghi lại ở đâu hay cặp sách soạn vội. Gọi con là lười làm con tổn thương mà không cho bạn thông tin gì. Phạt mà không hiểu nguyên nhân hiếm khi sửa được thói quen."
+      }
+    },
+    {
+      "id": "q16",
+      "question": {
+        "text": "Why is checking facts better than trusting the first explanation you hear about a problem?",
+        "audioId": "",
+        "vi": "Vì sao kiểm tra dữ kiện tốt hơn tin ngay lời giải thích đầu tiên về một vấn đề?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The first explanation is often a guess, and facts show what really happened",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The first explanation is always a lie told to protect someone",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Checking facts is only needed for very large and expensive problems",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Trusting the first explanation shows respect, so it is usually better",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "People explain problems quickly, often with a guess or with what they want to believe. Checking dates, numbers or messages takes a few minutes and can save you from fixing the wrong thing.",
+        "vi": "Người ta thường giải thích vấn đề rất nhanh, nhiều khi bằng phỏng đoán hoặc điều họ muốn tin. Kiểm tra ngày tháng, con số hay tin nhắn chỉ mất vài phút và giúp bạn tránh sửa nhầm chỗ."
+      }
+    },
+    {
+      "id": "q17",
+      "question": {
+        "text": "Your team needs to cut costs and someone suggests firing staff at once, what should you do next?",
+        "audioId": "",
+        "vi": "Nhóm cần cắt giảm chi phí và có người đề xuất cho nhân viên nghỉ ngay, bạn nên làm gì tiếp theo?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Agree quickly, because the first idea is usually the best one",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Ask the team for several other options before choosing any single one",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Reject the idea angrily and end the meeting without a plan",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Cut every budget by the same amount without any discussion",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The first idea is rarely the only one or the best one. Asking for more options, such as cutting waste or renegotiating contracts, gives you something to compare. You can say: \"That is one option, what else could we try?\"",
+        "vi": "Ý tưởng đầu tiên hiếm khi là duy nhất hay tốt nhất. Hỏi thêm phương án, như cắt lãng phí hay đàm phán lại hợp đồng, giúp bạn có cái để so sánh. Bạn có thể nói: \"Đó là một phương án, mình còn cách nào khác không?\""
+      }
+    },
+    {
+      "id": "q18",
+      "question": {
+        "text": "What is the main rule of a good brainstorming session?",
+        "audioId": "",
+        "vi": "Nguyên tắc chính của một buổi động não tốt là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Criticise each idea immediately so that time is not wasted",
+          "audioId": "",
+          "variants": [
+            "Criticise each idea right away"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Let only the most senior person speak and others take notes",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Stop as soon as the first reasonable idea is mentioned by anyone",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Collect many ideas first and judge them only after the list is finished",
+          "audioId": "",
+          "variants": [
+            "Collect ideas first and judge them later"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Judging ideas too early makes people stop sharing. Separate the two steps: first gather as many ideas as possible, even strange ones, then evaluate them together.",
+        "vi": "Đánh giá ý tưởng quá sớm khiến mọi người ngại chia sẻ. Hãy tách hai bước: trước hết gom càng nhiều ý càng tốt, kể cả ý lạ, rồi mới cùng nhau đánh giá."
+      }
+    },
+    {
+      "id": "q19",
+      "question": {
+        "text": "Why is having three options usually better than choosing between yes and no?",
+        "audioId": "",
+        "vi": "Vì sao có ba phương án thường tốt hơn chỉ chọn có hoặc không?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "More options let you compare and often reveal a better middle path",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Three options always mean three times more work for the whole team",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Yes and no questions are not allowed in professional meetings",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Because people enjoy long meetings more when there are many choices",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A yes or no choice hides other possibilities. With three options, for example do it now, do a small version, or wait a month, you often find a better solution in the middle.",
+        "vi": "Lựa chọn có hoặc không che mất những khả năng khác. Khi có ba phương án, ví dụ làm ngay, làm thử quy mô nhỏ, hoặc chờ một tháng, bạn thường tìm ra lời giải tốt hơn ở khoảng giữa."
+      }
+    },
+    {
+      "id": "q20",
+      "question": {
+        "text": "In a meeting, quiet colleagues never share ideas, how can you get more options?",
+        "audioId": "",
+        "vi": "Trong cuộc họp, đồng nghiệp ít nói không bao giờ đưa ý kiến, làm sao để có thêm phương án?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Let the loudest people decide, since quiet people usually agree anyway",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Call on quiet colleagues suddenly and ask them to speak right now",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ask everyone to write ideas alone first, then share them one by one",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "End the meeting early because ideas are clearly not coming",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Writing alone for a few minutes gives quiet people time to think and stops loud voices from shaping every idea. Sharing in turns makes sure every option is heard.",
+        "vi": "Viết riêng trong vài phút cho người ít nói thời gian suy nghĩ và tránh để vài người nói to chi phối mọi ý tưởng. Chia sẻ lần lượt giúp mọi phương án đều được lắng nghe."
+      }
+    },
+    {
+      "id": "q21",
+      "question": {
+        "text": "You must get to an important meeting but your motorbike will not start, what is the best thinking step?",
+        "audioId": "",
+        "vi": "Bạn phải đến một cuộc họp quan trọng nhưng xe máy không nổ, bước suy nghĩ tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Spend an hour trying to repair the motorbike yourself on the street",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Cancel the meeting at once because your usual plan has failed",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Quickly list several ways to get there, then choose the fastest reliable one",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Wait outside and hope the motorbike starts again by itself soon",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Under pressure, people often stick to the broken plan. Listing options, such as a ride app, a taxi, a colleague or joining online, takes one minute and gives you a real choice. Then send a short message if you may be late.",
+        "vi": "Khi bị áp lực, người ta hay bám vào kế hoạch đã hỏng. Liệt kê phương án, như gọi xe công nghệ, taxi, nhờ đồng nghiệp hay họp trực tuyến, chỉ mất một phút và cho bạn lựa chọn thật. Sau đó nhắn tin báo trước nếu có thể đến muộn."
+      }
+    },
+    {
+      "id": "q22",
+      "question": {
+        "text": "A manager always picks the option that worked last year, what is the risk?",
+        "audioId": "",
+        "vi": "Một người quản lý luôn chọn phương án từng hiệu quả năm ngoái, rủi ro là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Conditions change, so an old answer may no longer fit today's problem",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "There is no risk, because past success always guarantees future success",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The team may become jealous of the manager's very good memory",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Last year's options are always more expensive than new options",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Experience is valuable, but customers, prices and tools change. Before reusing an old solution, check what is different this time and whether new options exist.",
+        "vi": "Kinh nghiệm rất quý, nhưng khách hàng, giá cả và công cụ đều thay đổi. Trước khi dùng lại giải pháp cũ, hãy xem lần này có gì khác và có phương án mới nào không."
+      }
+    },
+    {
+      "id": "q23",
+      "question": {
+        "text": "Why is doing nothing worth including as one of your options?",
+        "audioId": "",
+        "vi": "Vì sao nên đưa phương án không làm gì vào danh sách lựa chọn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because doing nothing is always the safest and cheapest choice available",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It gives a baseline to compare against, and sometimes waiting really is best",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Because it lets you avoid making decisions for as long as possible",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Because managers like to see a very short list of choices",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Asking what happens if we do nothing shows how serious the problem is. If the cost of doing nothing is small, a big expensive solution may not be worth it.",
+        "vi": "Hỏi \"nếu không làm gì thì sao?\" cho thấy vấn đề nghiêm trọng đến đâu. Nếu cái giá của việc không làm gì là nhỏ, một giải pháp lớn và tốn kém có thể không đáng."
+      }
+    },
+    {
+      "id": "q24",
+      "question": {
+        "text": "Your small cafe loses customers to a new shop nearby, what is a smart way to find options?",
+        "audioId": "",
+        "vi": "Quán cà phê nhỏ của bạn mất khách vì một quán mới gần đó, cách thông minh để tìm phương án là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Lower every price immediately to match the new shop exactly",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Post negative reviews about the new shop to win customers back",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Talk to regular customers and ask what would make them come back more",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Change the whole menu overnight without asking any customer at all",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Customers can tell you what they value, such as quiet space, fast service or a loyalty card. Their answers give you options based on real needs, not panic. A price war may hurt you more than the competitor.",
+        "vi": "Khách hàng có thể cho bạn biết họ coi trọng điều gì, như không gian yên tĩnh, phục vụ nhanh hay thẻ tích điểm. Câu trả lời của họ cho bạn phương án dựa trên nhu cầu thật chứ không phải hoảng loạn. Cuộc chiến giá có thể làm bạn thiệt hơn đối thủ."
+      }
+    },
+    {
+      "id": "q25",
+      "question": {
+        "text": "What is a simple way to compare options fairly?",
+        "audioId": "",
+        "vi": "Cách đơn giản để so sánh các phương án một cách công bằng là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Choose the option suggested by the person with the highest position",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Pick the option that was mentioned most recently in the discussion",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Agree on a few criteria first, then score every option against them",
+          "audioId": "",
+          "variants": [
+            "Agree on criteria, then score each option"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Compare only the price and ignore every other factor completely",
+          "audioId": "",
+          "variants": [
+            "Compare only the price"
+          ]
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Criteria such as cost, time, risk and customer impact make the comparison fair. Deciding the criteria before looking at options stops people from choosing a favourite first and then finding reasons.",
+        "vi": "Các tiêu chí như chi phí, thời gian, rủi ro và tác động tới khách hàng giúp so sánh công bằng. Chốt tiêu chí trước khi xem phương án giúp tránh việc chọn phương án mình thích trước rồi mới đi tìm lý do."
+      }
+    },
+    {
+      "id": "q26",
+      "question": {
+        "text": "You have two job offers, one with higher pay and one closer to home, how should you decide?",
+        "audioId": "",
+        "vi": "Bạn có hai lời mời làm việc, một chỗ lương cao hơn, một chỗ gần nhà hơn, bạn nên quyết định thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Always take the higher salary, because money matters more than anything",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Let your friends vote and accept whatever the majority says",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "List what matters most to you, weigh each factor, and compare honestly",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Choose the first offer that arrived so you do not lose it",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Pay, travel time, learning and team all matter, but not equally for everyone. Writing down your own priorities and giving them weights shows which offer fits your life now.",
+        "vi": "Lương, thời gian đi lại, cơ hội học hỏi và đồng nghiệp đều quan trọng, nhưng mức độ khác nhau với mỗi người. Viết ra ưu tiên của chính bạn và gán trọng số sẽ cho thấy lời mời nào hợp với cuộc sống hiện tại của bạn."
+      }
+    },
+    {
+      "id": "q27",
+      "question": {
+        "text": "Why is a pros and cons list better than deciding only by feeling?",
+        "audioId": "",
+        "vi": "Vì sao lập danh sách ưu nhược điểm tốt hơn chỉ quyết định theo cảm giác?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It makes hidden costs and benefits visible, so your feeling is checked by facts",
+          "audioId": "",
+          "variants": [
+            "It shows hidden costs and benefits to check your feeling"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Feelings are always wrong and should be ignored in every decision",
+          "audioId": "",
+          "variants": [
+            "Feelings are always wrong"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "A list makes any decision completely free of risk or mistakes",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Lists are better because they take longer and look more serious",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Feelings carry useful experience, but they can be pushed by mood or fear. A list puts the main points on paper, so you can see if your feeling matches the facts.",
+        "vi": "Cảm giác chứa kinh nghiệm hữu ích, nhưng có thể bị tâm trạng hay nỗi sợ đẩy lệch. Một danh sách đưa các ý chính lên giấy, giúp bạn thấy cảm giác của mình có khớp với sự thật hay không."
+      }
+    },
+    {
+      "id": "q28",
+      "question": {
+        "text": "A team lists pros and cons but treats every point as equally important, what is the problem?",
+        "audioId": "",
+        "vi": "Một nhóm liệt kê ưu nhược điểm nhưng coi mọi ý quan trọng như nhau, vấn đề là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "They wrote the list on paper instead of using a computer program",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Some factors matter far more, so the points need different weights",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "They should have written only the pros and skipped the cons",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The list had too many points, which always leads to bad choices",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Five small pros can lose to one serious con, such as a legal risk. Give each point a weight, for example high, medium or low, before counting. Otherwise the longest column wins, not the best option.",
+        "vi": "Năm điểm lợi nhỏ có thể thua một điểm hại nghiêm trọng, như rủi ro pháp lý. Hãy gán mức quan trọng cho từng ý, ví dụ cao, vừa, thấp, trước khi đếm. Nếu không, cột dài nhất sẽ thắng chứ không phải phương án tốt nhất."
+      }
+    },
+    {
+      "id": "q29",
+      "question": {
+        "text": "Two suppliers offer similar quality, one cheaper and one more reliable, what should you consider?",
+        "audioId": "",
+        "vi": "Hai nhà cung cấp chất lượng tương đương, một bên rẻ hơn, một bên đáng tin cậy hơn, bạn nên cân nhắc điều gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Always choose the cheaper one, because savings appear right away",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Choose the one whose salesperson is friendlier on the phone",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Split every order equally between them without comparing anything about the two",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Think about the cost of a late delivery, not just the price difference",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A cheap supplier who delivers late can stop your work and upset customers. Estimate what one late delivery would cost you, then compare that with the price difference.",
+        "vi": "Nhà cung cấp rẻ mà giao trễ có thể làm ngưng việc và khiến khách phật lòng. Hãy ước tính một lần giao trễ sẽ khiến bạn mất bao nhiêu, rồi so với khoản chênh lệch giá."
+      }
+    },
+    {
+      "id": "q30",
+      "question": {
+        "text": "What does thinking about the worst case help you do when weighing an option?",
+        "audioId": "",
+        "vi": "Nghĩ đến tình huống xấu nhất giúp bạn điều gì khi cân nhắc một phương án?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It shows whether you could survive the downside if things go wrong",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It proves that the option will definitely fail in the end",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It helps you avoid all risks so nothing bad ever happens",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It is only useful for pessimistic people who dislike change",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Asking what is the worst that could happen does not mean you expect failure. It checks whether the risk is acceptable and what backup plan you need before you start.",
+        "vi": "Hỏi \"tệ nhất thì sẽ ra sao?\" không có nghĩa là bạn chờ thất bại. Nó giúp kiểm tra rủi ro có chấp nhận được không và cần kế hoạch dự phòng gì trước khi bắt đầu."
+      }
+    },
+    {
+      "id": "q31",
+      "question": {
+        "text": "Your boss and a key colleague strongly disagree about which option is best, what should you do?",
+        "audioId": "",
+        "vi": "Sếp và một đồng nghiệp chủ chốt bất đồng gay gắt về phương án tốt nhất, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Support your boss immediately because they have more power than anyone else",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Ask each to explain their criteria, so the real difference becomes clear",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Stay silent and let them argue until one of them gives up",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Suggest flipping a coin so the long argument ends as quickly as possible",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Disagreements about options often come from different criteria, for example one person cares about speed and the other about cost. Making the criteria visible turns a fight into a discussion you can solve.",
+        "vi": "Bất đồng về phương án thường đến từ tiêu chí khác nhau, ví dụ một người coi trọng tốc độ, người kia coi trọng chi phí. Làm rõ tiêu chí sẽ biến cuộc tranh cãi thành một cuộc thảo luận có lời giải."
+      }
+    },
+    {
+      "id": "q32",
+      "question": {
+        "text": "Why should you think about short term and long term effects when comparing options?",
+        "audioId": "",
+        "vi": "Vì sao nên nghĩ đến tác động ngắn hạn và dài hạn khi so sánh các phương án?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "An option that helps today can create bigger problems in later months",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Short term effects never matter if the long term looks good",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Long term effects are impossible to guess, so ignore them",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Thinking about time only makes decisions slower and more confusing",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Working overtime every weekend solves this month's backlog but may cause tired staff and resignations later. Ask how each option will look in a week, a month and a year.",
+        "vi": "Tăng ca mọi cuối tuần giải quyết việc tồn đọng tháng này nhưng có thể khiến nhân viên kiệt sức và nghỉ việc về sau. Hãy hỏi mỗi phương án sẽ ra sao sau một tuần, một tháng và một năm."
+      }
+    },
+    {
+      "id": "q33",
+      "question": {
+        "text": "Your family must choose between repairing an old car and buying a new one, what is a useful step?",
+        "audioId": "",
+        "vi": "Gia đình bạn phải chọn giữa sửa xe cũ và mua xe mới, bước nào hữu ích?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Buy the newest model because new things are always better",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Ask the car seller which option is better and do whatever he says",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Decide by which car looks nicer in photos on social media",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Estimate the total cost of each choice over the next few years",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Compare repairs, fuel, insurance and resale value over a few years, not only the price today. A seller has an interest in the answer, so use them as one source among several.",
+        "vi": "Hãy so sánh chi phí sửa chữa, nhiên liệu, bảo hiểm và giá bán lại trong vài năm, không chỉ giá hôm nay. Người bán xe có lợi ích riêng trong câu trả lời, nên chỉ coi họ là một nguồn trong nhiều nguồn."
+      }
+    },
+    {
+      "id": "q34",
+      "question": {
+        "text": "You must decide today but you lack some information, what is the best approach?",
+        "audioId": "",
+        "vi": "Bạn phải quyết định ngay hôm nay nhưng còn thiếu thông tin, cách làm tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Refuse to decide until every single fact is completely certain",
+          "audioId": "",
+          "variants": [
+            "Refuse to decide until everything is certain"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Guess randomly, because missing information makes careful thinking completely useless anyway",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Pass the decision to someone else so you are not blamed",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Decide with the best facts available and note what would change your mind",
+          "audioId": "",
+          "variants": [
+            "Decide with the facts you have and note what could change it"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Most real decisions are made without full information. Decide with what you know, write down your key assumptions, and agree on a signal that would make you change course.",
+        "vi": "Phần lớn quyết định thật được đưa ra khi chưa đủ thông tin. Hãy quyết định với những gì bạn biết, ghi lại các giả định chính, và thống nhất dấu hiệu nào sẽ khiến bạn đổi hướng."
+      }
+    },
+    {
+      "id": "q35",
+      "question": {
+        "text": "What is the difference between a reversible and an irreversible decision?",
+        "audioId": "",
+        "vi": "Khác biệt giữa quyết định có thể đảo ngược và không thể đảo ngược là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A reversible one can be undone easily, so it can be made faster",
+          "audioId": "",
+          "variants": [
+            "A reversible one is easy to undo, so decide faster"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "An irreversible decision is always made by a manager, never by staff",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Reversible decisions are less important, so they need no thinking at all",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no difference, since every decision can be changed later",
+          "audioId": "",
+          "variants": [
+            "There is no difference at all"
+          ]
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Trying a new meeting time is easy to undo, so you can decide quickly and adjust. Signing a long contract or firing someone is hard to reverse, so it deserves more care and more opinions.",
+        "vi": "Thử đổi giờ họp thì dễ quay lại, nên có thể quyết nhanh rồi điều chỉnh. Ký hợp đồng dài hạn hay cho ai đó nghỉ việc thì khó đảo ngược, nên cần cẩn trọng và hỏi ý kiến nhiều hơn."
+      }
+    },
+    {
+      "id": "q36",
+      "question": {
+        "text": "A customer demands an answer now about a refund you are unsure of, what should you say?",
+        "audioId": "",
+        "vi": "Khách đòi trả lời ngay về việc hoàn tiền mà bạn chưa chắc, bạn nên nói gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Promise a full refund immediately to make the customer stop pushing",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Say you will check the policy and promise a clear answer by a set time",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Say no straight away because refusing is always the safer choice",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Tell the customer it is not your job and walk away",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A fast wrong answer is worse than a short, honest delay. Give a specific time so the customer feels taken seriously, for example: \"Let me check the policy and I will call you back before five o'clock.\"",
+        "vi": "Một câu trả lời nhanh mà sai còn tệ hơn chậm một chút nhưng trung thực. Hãy hẹn thời điểm cụ thể để khách thấy được tôn trọng, ví dụ: \"Em kiểm tra chính sách và gọi lại cho anh trước năm giờ chiều nay ạ.\""
+      }
+    },
+    {
+      "id": "q37",
+      "question": {
+        "text": "Why is a small test or pilot useful when you are unsure about an option?",
+        "audioId": "",
+        "vi": "Vì sao một thử nghiệm nhỏ lại hữu ích khi bạn chưa chắc về một phương án?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It lets you avoid making any final decision for many months",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It guarantees that the full plan will succeed later on",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It is only for large companies with big research budgets",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It gives real results at low cost before you commit to the full plan",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Trying a new menu item in one week, or a new process with one team, shows what really happens. If it fails, the loss is small, and if it works, you decide with evidence.",
+        "vi": "Thử một món mới trong một tuần, hay một quy trình mới với một nhóm, cho thấy điều thật sự xảy ra. Nếu thất bại, thiệt hại nhỏ; nếu thành công, bạn quyết định dựa trên bằng chứng."
+      }
+    },
+    {
+      "id": "q38",
+      "question": {
+        "text": "A key supplier calls at closing time to say tomorrow's delivery is cancelled, what should you do first?",
+        "audioId": "",
+        "vi": "Gần giờ đóng cửa, một nhà cung cấp chủ chốt gọi báo huỷ chuyến giao hàng ngày mai, bạn nên làm gì trước tiên?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Go home and deal with it tomorrow morning when you feel fresher",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Decide what must be protected tomorrow, then pick the quickest backup that protects it",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Order from every other supplier at once, whatever the final price is",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Call colleagues one by one for their opinions late into the night",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Under time pressure, start with the goal: which orders or customers must not be hurt tomorrow? Then choose the fastest backup that protects them, such as a partial delivery or another supplier for the urgent items only. Ordering everything everywhere wastes money, and waiting until morning loses the hours you need.",
+        "vi": "Khi gấp, hãy bắt đầu từ mục tiêu: đơn hàng hay khách hàng nào ngày mai không được để ảnh hưởng? Rồi chọn phương án dự phòng nhanh nhất bảo vệ được điều đó, như giao một phần hoặc gọi nhà cung cấp khác chỉ cho các mặt hàng gấp. Đặt hàng tràn lan thì tốn tiền, còn chờ tới sáng thì mất những giờ quý nhất."
+      }
+    },
+    {
+      "id": "q39",
+      "question": {
+        "text": "A manager waits for perfect information and the chance to win a contract passes, what went wrong?",
+        "audioId": "",
+        "vi": "Một người quản lý chờ thông tin hoàn hảo và để lỡ cơ hội giành hợp đồng, điều gì đã sai?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "He treated delay as safe, but not deciding was also a costly decision",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "He should have asked fewer people and trusted only his own feeling",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Contracts are always lost by luck, so nothing really went wrong",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "He collected information, which is always a waste of valuable time",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Waiting feels safe, but it has a cost too. Set a deadline for the decision and decide what information is enough, so a chance does not disappear while you collect more data.",
+        "vi": "Chờ đợi cảm giác an toàn nhưng cũng có cái giá. Hãy đặt hạn chót cho quyết định và xác định bao nhiêu thông tin là đủ, để cơ hội không trôi mất trong lúc bạn còn thu thập thêm."
+      }
+    },
+    {
+      "id": "q40",
+      "question": {
+        "text": "Why is setting a decision deadline better than discussing until everyone feels sure?",
+        "audioId": "",
+        "vi": "Vì sao đặt hạn chót cho quyết định tốt hơn bàn bạc đến khi ai cũng thấy chắc chắn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Deadlines make every decision perfect because people always work much harder",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Discussing until everyone feels sure is always quick and cheap",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It stops endless talk and makes people focus on the most important facts",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Deadlines are only useful when the boss is not in the meeting",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Some people never feel completely sure. A clear deadline, such as Friday noon, pushes the team to collect the key facts and then choose. You can say: \"Let's decide by Friday with what we know then.\"",
+        "vi": "Có người không bao giờ thấy chắc chắn hoàn toàn. Một hạn chót rõ, như trưa thứ Sáu, buộc cả nhóm thu thập dữ kiện chính rồi chọn. Bạn có thể nói: \"Mình chốt trước thứ Sáu với những gì biết được lúc đó nhé.\""
+      }
+    },
+    {
+      "id": "q41",
+      "question": {
+        "text": "Under time pressure, you feel strongly about one option but have no data, what should you do?",
+        "audioId": "",
+        "vi": "Khi gấp gáp, bạn có cảm giác mạnh về một phương án nhưng không có dữ liệu, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Use your feeling as a starting point, then quickly check one or two key facts",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Follow your feeling completely because your instinct is never wrong at all",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ignore your feeling entirely since emotions have no value at work",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Freeze and wait, hoping someone else will decide for you",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Instinct often comes from experience and can point you in the right direction. Checking one or two key facts, such as the price or the deadline, protects you from a feeling that is only stress.",
+        "vi": "Trực giác thường đến từ kinh nghiệm và có thể chỉ đúng hướng. Kiểm tra nhanh một hai dữ kiện chính, như giá hay hạn chót, giúp bạn tránh làm theo một cảm giác thực ra chỉ là căng thẳng."
+      }
+    },
+    {
+      "id": "q42",
+      "question": {
+        "text": "After choosing a solution, what should you do before starting to act?",
+        "audioId": "",
+        "vi": "Sau khi chọn giải pháp, bạn nên làm gì trước khi bắt tay hành động?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Start immediately and trust that everyone knows their own part",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Decide who does what, by when, and how you will measure success",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Tell everyone the problem is solved before anything has been done",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Wait for perfect conditions before taking even the first step",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Many good decisions fail because nobody owns the next step. A short action plan with names, deadlines and a success sign makes the decision real. End the meeting with: \"So who does what by when?\"",
+        "vi": "Nhiều quyết định tốt thất bại vì không ai nhận bước tiếp theo. Một kế hoạch hành động ngắn có tên người, hạn chót và dấu hiệu thành công biến quyết định thành hiện thực. Kết thúc cuộc họp bằng câu: \"Vậy ai làm gì, xong khi nào?\""
+      }
+    },
+    {
+      "id": "q43",
+      "question": {
+        "text": "Why should you review results after a decision is carried out?",
+        "audioId": "",
+        "vi": "Vì sao nên nhìn lại kết quả sau khi thực hiện một quyết định?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "To learn what worked and adjust, so the next decision is better",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "To find someone to blame if the result was not good enough",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Reviews are only needed when the result is a total disaster",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "To prove to managers that your choice was right from the start",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A short review asks three questions: what did we expect, what happened, and what will we do differently? It turns every decision, good or bad, into experience you can use.",
+        "vi": "Một buổi nhìn lại ngắn hỏi ba câu: mình đã mong đợi gì, điều gì đã xảy ra, và lần sau sẽ làm khác thế nào? Nó biến mọi quyết định, dù tốt hay chưa tốt, thành kinh nghiệm dùng được."
+      }
+    },
+    {
+      "id": "q44",
+      "question": {
+        "text": "What is the difference between judging a decision by its result and by its process?",
+        "audioId": "",
+        "vi": "Đánh giá quyết định theo kết quả và theo quá trình khác nhau thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Only results matter, so a lucky choice is always a good decision",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A good process can still meet bad luck, so check how you decided too",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The process never matters as long as the boss is happy",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Judging by process means you never need to look at results",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A careful decision can fail because of bad luck, and a careless one can succeed by chance. Look at both the result and the way you decided, so you repeat good habits, not lucky guesses.",
+        "vi": "Một quyết định cẩn thận vẫn có thể thất bại vì xui, và một quyết định ẩu có thể thành công nhờ may. Hãy xem cả kết quả lẫn cách bạn đã quyết định, để lặp lại thói quen tốt chứ không phải lần đoán trúng."
+      }
+    },
+    {
+      "id": "q45",
+      "question": {
+        "text": "A company keeps funding a failing project because it already spent a lot, what is this trap called?",
+        "audioId": "",
+        "vi": "Một công ty tiếp tục rót tiền vào dự án đang thất bại vì đã chi quá nhiều, cái bẫy này gọi là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Careful planning, because finishing every project you start is always wise",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Good loyalty, because the team worked hard and should not give up",
+          "audioId": "",
+          "variants": [
+            "Good loyalty to the team"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "The sunk cost trap, letting past spending control a decision about the future",
+          "audioId": "",
+          "variants": [
+            "The sunk cost trap"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Smart saving, since stopping now would waste the money already used",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Money and time already spent cannot come back, whatever you decide. The right question is: from today, is it worth spending more? Stopping a failing project is often the cheapest choice.",
+        "vi": "Tiền và thời gian đã bỏ ra không lấy lại được, dù bạn quyết định thế nào. Câu hỏi đúng là: từ hôm nay, có đáng bỏ thêm không? Dừng một dự án đang thất bại thường là lựa chọn ít tốn kém nhất."
+      }
+    },
+    {
+      "id": "q46",
+      "question": {
+        "text": "You have paid for a course that turns out to be useless, how should you decide whether to continue?",
+        "audioId": "",
+        "vi": "Bạn đã trả tiền cho một khoá học hoá ra vô ích, nên quyết định có học tiếp hay không thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Keep going to every class so you do not waste the fee",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Ask only whether future hours there are worth it, ignoring money already paid",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ask for a refund angrily before checking the course rules",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Stop all learning, since one course failed and others will too",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The fee is gone either way. Compare how you would use those hours: in the course, or in a better way to learn. This is the sunk cost idea applied to your own life.",
+        "vi": "Học phí đã mất dù bạn chọn gì. Hãy so sánh cách dùng những giờ còn lại: tiếp tục khoá học, hay một cách học tốt hơn. Đây là cách tránh bẫy chi phí chìm trong chính đời sống của bạn."
+      }
+    },
+    {
+      "id": "q47",
+      "question": {
+        "text": "Before choosing a new supplier, a colleague only looks for facts that support the one he already likes, what is the mistake?",
+        "audioId": "",
+        "vi": "Trước khi chọn nhà cung cấp mới, một đồng nghiệp chỉ tìm những dữ kiện ủng hộ nhà cung cấp anh ấy đã thích sẵn, sai lầm là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "He is being loyal, which is the most important quality when buying",
+          "audioId": "",
+          "variants": [
+            "He is just being loyal"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "He spends time on research, which suppliers never actually expect",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "He should have chosen the cheapest supplier without any research",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "He only notices facts that agree with him, so the risks of that supplier stay hidden",
+          "audioId": "",
+          "variants": [
+            "He only looks for facts that agree with him"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Once we like an option, we tend to notice only the facts that support it. This is called confirmation bias. A simple fix is to look on purpose for the strongest reason not to choose your favourite, or ask a colleague to argue against it.",
+        "vi": "Khi đã thích một phương án, ta thường chỉ để ý những dữ kiện ủng hộ nó. Đây gọi là thiên kiến xác nhận. Cách sửa đơn giản là chủ động tìm lý do mạnh nhất để không chọn phương án mình thích, hoặc nhờ một đồng nghiệp đóng vai phản biện."
+      }
+    },
+    {
+      "id": "q48",
+      "question": {
+        "text": "You feel pressure to agree quickly in a meeting where everyone already supports one idea, what should you do?",
+        "audioId": "",
+        "vi": "Bạn thấy áp lực phải đồng ý nhanh trong một cuộc họp mà ai cũng ủng hộ một ý tưởng, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Agree with the group, since disagreeing will only cause trouble",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Leave the meeting early so you are not part of the decision",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Complain about the idea to colleagues later but say nothing now",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Calmly raise your concern and ask what risks the group may be missing",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "When everyone agrees fast, risks are often not discussed. Raising one concern politely helps the group, for example: \"I like the idea, but what happens if the supplier is late?\"",
+        "vi": "Khi mọi người đồng ý quá nhanh, rủi ro thường bị bỏ qua. Nêu một băn khoăn một cách lịch sự là giúp cả nhóm, ví dụ: \"Em thấy ý này hay, nhưng nếu nhà cung cấp giao trễ thì sao ạ?\""
+      }
+    },
+    {
+      "id": "q49",
+      "question": {
+        "text": "Which sign shows that a decision was rushed?",
+        "audioId": "",
+        "vi": "Dấu hiệu nào cho thấy một quyết định đã được đưa ra vội vàng?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The decision was written down clearly and shared with everyone",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The team took time to list risks before agreeing on a plan",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Nobody can explain the problem, the options considered, or the reasons chosen",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Several people asked questions before the final vote was taken",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A careful decision can be explained in a few sentences: this was the problem, these were the options, and this is why we chose one. If nobody can say that, the decision was probably rushed.",
+        "vi": "Một quyết định cẩn thận có thể giải thích trong vài câu: vấn đề là gì, đã cân nhắc những phương án nào, và vì sao chọn phương án này. Nếu không ai nói được như vậy, có lẽ quyết định đã bị vội."
+      }
+    },
+    {
+      "id": "q50",
+      "question": {
+        "text": "What is the overall goal of a good problem solving process?",
+        "audioId": "",
+        "vi": "Mục tiêu chung của một quy trình giải quyết vấn đề tốt là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "To find the guilty person quickly and close the problem forever",
+          "audioId": "",
+          "variants": [
+            "To find the guilty person quickly"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "To make every decision perfect so mistakes never happen again",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "To fix the real cause with a well chosen action, then learn from the results",
+          "audioId": "",
+          "variants": [
+            "To fix the real cause and learn from the results"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "To follow the manager's first idea with as little discussion as possible",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The full cycle is: define the problem, find the cause, create options, choose, act and review. Perfection is not the aim; steady learning from each decision is.",
+        "vi": "Chu trình đầy đủ là: xác định vấn đề, tìm nguyên nhân, tạo phương án, lựa chọn, hành động và nhìn lại. Mục tiêu không phải sự hoàn hảo, mà là học hỏi đều đặn từ mỗi quyết định."
+      }
+    }
+  ]
+}

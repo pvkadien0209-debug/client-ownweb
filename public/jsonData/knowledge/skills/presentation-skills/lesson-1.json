@@ -1,0 +1,2336 @@
+{
+  "id": "lesson-1",
+  "branch": "skills",
+  "topic": "presentation-skills",
+  "title": {
+    "vi": "Thuyết trình và trình bày ý tưởng",
+    "en": "Presenting your ideas"
+  },
+  "level": "B1",
+  "status": "draft",
+  "updatedAt": "2026-10-14",
+  "reviewNote": "Bản nháp do Claude soạn và tự kiểm (2026-10-14). Chờ DIENPHAM duyệt.",
+  "overview": [
+    {
+      "heading": {
+        "en": "Start from the audience and one message",
+        "vi": "Bắt đầu từ người nghe và một thông điệp"
+      },
+      "paragraphs": [
+        {
+          "en": "Before opening any slide program, answer two questions: who is listening, and what one idea should they remember or act on? Write that idea as one sentence. If you cannot, the talk is not ready yet.",
+          "vi": "Trước khi mở phần mềm làm slide, hãy trả lời hai câu hỏi: ai đang nghe, và họ cần nhớ hoặc làm theo một ý nào? Viết ý đó thành một câu. Nếu chưa viết được, bài nói chưa sẵn sàng."
+        },
+        {
+          "en": "Then fit the depth and the examples to the group. Directors want results and decisions, new staff need background, and people who disagree need to feel their concerns are heard first.",
+          "vi": "Sau đó điều chỉnh độ sâu và ví dụ cho hợp với từng nhóm. Lãnh đạo cần kết quả và việc cần quyết, nhân viên mới cần bối cảnh, còn người đang phản đối cần thấy mối lo của họ được lắng nghe trước."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Build a simple structure",
+        "vi": "Xây dựng bố cục đơn giản"
+      },
+      "paragraphs": [
+        {
+          "en": "Use an opening that names the problem, about three main points, and a close that repeats the message and asks for an action. Preview the points at the start and use short signposts when you move between them.",
+          "vi": "Dùng phần mở đầu nêu vấn đề, khoảng ba ý chính, và phần kết nhắc lại thông điệp kèm một đề nghị hành động. Giới thiệu trước các ý ở đầu bài và dùng câu chuyển ý ngắn khi đi từ ý này sang ý khác."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Make slides that help",
+        "vi": "Làm slide hỗ trợ, không gây rối"
+      },
+      "paragraphs": [
+        {
+          "en": "One idea per slide, a headline that states the point, simple charts instead of big tables, and very few effects. Face the room and explain the slide instead of reading it aloud.",
+          "vi": "Mỗi slide một ý, tiêu đề nói lên ý chính, biểu đồ đơn giản thay cho bảng lớn, và rất ít hiệu ứng. Quay mặt về phía người nghe và giải thích slide thay vì đọc to."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Practise and handle nerves",
+        "vi": "Luyện tập và kiểm soát hồi hộp"
+      },
+      "paragraphs": [
+        {
+          "en": "Rehearse out loud, standing, with a timer, and ask a listener specific questions. Practise key points rather than a full script, and memorise only your first and last lines.",
+          "vi": "Tập nói thành tiếng, đứng, có bấm giờ, và hỏi người nghe thử những câu cụ thể. Tập theo ý chính thay vì kịch bản đầy đủ, chỉ học thuộc câu mở và câu kết."
+        },
+        {
+          "en": "Nerves are normal. Arrive early, breathe slowly with a long out-breath, and if your mind goes blank, pause, check your notes and repeat your last point.",
+          "vi": "Hồi hộp là bình thường. Đến sớm, thở chậm với hơi thở ra dài, và nếu bị quên, hãy dừng lại, nhìn ghi chú và nhắc lại ý vừa nói."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "A sample situation: the five minute pitch",
+        "vi": "Tình huống mẫu: trình bày ý tưởng trong năm phút"
+      },
+      "paragraphs": [
+        {
+          "en": "An accountant wants a shared checklist to cut month-end errors. In her first try she spends three minutes on how she found the problem, then her boss is called away before she asks for anything.",
+          "vi": "Một nhân viên kế toán muốn dùng bảng kiểm chung để giảm lỗi cuối tháng. Lần đầu, chị dành ba phút kể mình phát hiện vấn đề thế nào, rồi sếp bị gọi đi trước khi chị kịp đề nghị gì."
+        },
+        {
+          "en": "The better version takes thirty seconds: we fix the same errors every month, a shared checklist can stop most of them, can our team try it for one month? The problem, the idea and the request come first, and details follow only if the boss asks.",
+          "vi": "Phiên bản tốt hơn chỉ cần ba mươi giây: tháng nào mình cũng sửa cùng những lỗi này, một bảng kiểm chung có thể chặn phần lớn, nhóm em thử trong một tháng được không ạ? Vấn đề, ý tưởng và lời đề nghị đi trước, chi tiết chỉ đưa ra khi sếp hỏi."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Questions, online talks and time limits",
+        "vi": "Câu hỏi, thuyết trình trực tuyến và giới hạn thời gian"
+      },
+      "paragraphs": [
+        {
+          "en": "When you cannot answer, say so and promise a specific follow-up. Rephrase unclear questions and keep answers short. Online, check your tools early, turn off notifications and add an interaction every few minutes.",
+          "vi": "Khi không trả lời được, hãy nói thật và hứa phản hồi cụ thể. Nhắc lại câu hỏi chưa rõ và trả lời ngắn gọn. Khi trực tuyến, kiểm tra công cụ sớm, tắt thông báo và thêm tương tác sau mỗi vài phút."
+        },
+        {
+          "en": "Plan rough timings, finish rehearsal under the limit, and decide in advance what you will drop if your time is cut.",
+          "vi": "Lên thời gian ước lượng cho từng phần, tập sao cho xong sớm hơn giới hạn, và quyết định trước phần sẽ bỏ nếu bị cắt giờ."
+        }
+      ]
+    }
+  ],
+  "tree": [
+    {
+      "title": {
+        "en": "Audience and key message",
+        "vi": "Người nghe và thông điệp chính"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Know your audience",
+            "vi": "Hiểu người nghe"
+          },
+          "note": {
+            "en": "Fit depth and examples to each group.",
+            "vi": "Điều chỉnh độ sâu và ví dụ theo từng nhóm."
+          },
+          "questions": [
+            "q01",
+            "q02",
+            "q06",
+            "q08"
+          ]
+        },
+        {
+          "title": {
+            "en": "One key message",
+            "vi": "Một thông điệp chính"
+          },
+          "note": {
+            "en": "One sentence people can repeat afterwards.",
+            "vi": "Một câu người nghe nhắc lại được sau buổi nói."
+          },
+          "questions": [
+            "q03",
+            "q04",
+            "q05",
+            "q07"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Structure: opening, points, close",
+        "vi": "Bố cục: mở đầu, các ý, kết thúc"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "A strong opening",
+            "vi": "Mở đầu thu hút"
+          },
+          "note": {
+            "en": "Start with the problem, not your history.",
+            "vi": "Mở đầu bằng vấn đề, không phải lịch sử."
+          },
+          "questions": [
+            "q09",
+            "q10",
+            "q11"
+          ]
+        },
+        {
+          "title": {
+            "en": "Three points and signposts",
+            "vi": "Ba ý và câu chuyển ý"
+          },
+          "note": {
+            "en": "Preview the map, then signal each turn.",
+            "vi": "Giới thiệu lộ trình, rồi báo hiệu mỗi lần chuyển ý."
+          },
+          "questions": [
+            "q12",
+            "q13",
+            "q17"
+          ]
+        },
+        {
+          "title": {
+            "en": "A clear close",
+            "vi": "Phần kết rõ ràng"
+          },
+          "note": {
+            "en": "Repeat the message and ask for an action.",
+            "vi": "Nhắc lại thông điệp và đề nghị hành động."
+          },
+          "questions": [
+            "q14",
+            "q15",
+            "q16"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Slides that help",
+        "vi": "Slide hỗ trợ, không gây rối"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "What slides are for",
+            "vi": "Slide để làm gì"
+          },
+          "note": {
+            "en": "You are the talk, slides are the helper.",
+            "vi": "Bạn là bài nói, slide chỉ là trợ thủ."
+          },
+          "questions": [
+            "q18",
+            "q22",
+            "q24"
+          ]
+        },
+        {
+          "title": {
+            "en": "Designing clear slides",
+            "vi": "Thiết kế slide rõ ràng"
+          },
+          "note": {
+            "en": "One idea, a headline, a simple chart.",
+            "vi": "Một ý, một tiêu đề, một biểu đồ đơn giản."
+          },
+          "questions": [
+            "q19",
+            "q20",
+            "q21",
+            "q23"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Practice and nerves",
+        "vi": "Luyện tập và hồi hộp"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "How to rehearse",
+            "vi": "Cách tập dượt"
+          },
+          "note": {
+            "en": "Out loud, with a timer, with specific feedback.",
+            "vi": "Nói thành tiếng, bấm giờ, xin góp ý cụ thể."
+          },
+          "questions": [
+            "q25",
+            "q26",
+            "q27",
+            "q28"
+          ]
+        },
+        {
+          "title": {
+            "en": "Managing stage fright",
+            "vi": "Kiểm soát nỗi sợ sân khấu"
+          },
+          "note": {
+            "en": "Breathe slowly, arrive early, pause when stuck.",
+            "vi": "Thở chậm, đến sớm, dừng lại khi bị quên."
+          },
+          "questions": [
+            "q29",
+            "q30",
+            "q31",
+            "q32"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Voice, body and questions",
+        "vi": "Giọng nói, cơ thể và câu hỏi"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Voice and body language",
+            "vi": "Giọng nói và ngôn ngữ cơ thể"
+          },
+          "note": {
+            "en": "Vary your voice, share eye contact, stand still.",
+            "vi": "Thay đổi giọng, nhìn khắp phòng, đứng vững."
+          },
+          "questions": [
+            "q33",
+            "q34",
+            "q35"
+          ]
+        },
+        {
+          "title": {
+            "en": "Questions you cannot answer",
+            "vi": "Câu hỏi không trả lời được"
+          },
+          "note": {
+            "en": "Be honest and promise a specific follow-up.",
+            "vi": "Trung thực và hứa phản hồi cụ thể."
+          },
+          "questions": [
+            "q36",
+            "q37"
+          ]
+        },
+        {
+          "title": {
+            "en": "Handling tough questions",
+            "vi": "Xử lý câu hỏi khó"
+          },
+          "note": {
+            "en": "Rephrase, stay calm, keep answers short.",
+            "vi": "Nhắc lại câu hỏi, bình tĩnh, trả lời ngắn."
+          },
+          "questions": [
+            "q38",
+            "q39",
+            "q40"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Pitches, online talks and time",
+        "vi": "Trình bày với sếp, trực tuyến và thời gian"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Pitching to your boss",
+            "vi": "Trình bày ý tưởng với sếp"
+          },
+          "note": {
+            "en": "Problem, idea, request, and offer a small trial.",
+            "vi": "Vấn đề, ý tưởng, đề nghị, và đề xuất thử nhỏ."
+          },
+          "questions": [
+            "q41",
+            "q42",
+            "q43",
+            "q44"
+          ]
+        },
+        {
+          "title": {
+            "en": "Presenting online",
+            "vi": "Thuyết trình trực tuyến"
+          },
+          "note": {
+            "en": "Check tools, hide notifications, interact often.",
+            "vi": "Kiểm tra công cụ, tắt thông báo, tương tác thường xuyên."
+          },
+          "questions": [
+            "q45",
+            "q46",
+            "q47"
+          ]
+        },
+        {
+          "title": {
+            "en": "Staying within time",
+            "vi": "Giữ đúng thời gian"
+          },
+          "note": {
+            "en": "Plan timings and know what to drop.",
+            "vi": "Chia thời gian và biết trước phần sẽ bỏ."
+          },
+          "questions": [
+            "q48",
+            "q49",
+            "q50"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "en": "Start from the audience and write your key message as one sentence.",
+      "vi": "Bắt đầu từ người nghe và viết thông điệp chính thành một câu."
+    },
+    {
+      "en": "Open with the problem, give about three points and close with a clear action.",
+      "vi": "Mở đầu bằng vấn đề, đưa khoảng ba ý và kết bằng một đề nghị hành động rõ ràng."
+    },
+    {
+      "en": "Slides support your voice: one idea, a headline, a simple chart.",
+      "vi": "Slide hỗ trợ lời nói: một ý, một tiêu đề, một biểu đồ đơn giản."
+    },
+    {
+      "en": "Rehearse out loud with a timer and ask for specific feedback.",
+      "vi": "Tập nói thành tiếng có bấm giờ và xin góp ý cụ thể."
+    },
+    {
+      "en": "Nerves are normal: breathe slowly, arrive early, pause when you forget.",
+      "vi": "Hồi hộp là bình thường: thở chậm, đến sớm, dừng lại khi quên."
+    },
+    {
+      "en": "If you cannot answer, say so and promise a specific follow-up.",
+      "vi": "Nếu không trả lời được, hãy nói thật và hứa phản hồi cụ thể."
+    },
+    {
+      "en": "With a busy boss, give problem, idea and request in the first minute.",
+      "vi": "Với sếp bận rộn, nêu vấn đề, ý tưởng và đề nghị ngay trong phút đầu."
+    },
+    {
+      "en": "Plan timings and decide in advance what to cut if time runs short.",
+      "vi": "Chia thời gian và quyết định trước phần sẽ cắt nếu thiếu giờ."
+    }
+  ],
+  "glossary": [
+    {
+      "en": "key message",
+      "vi": "thông điệp chính"
+    },
+    {
+      "en": "audience",
+      "vi": "người nghe, khán giả"
+    },
+    {
+      "en": "opening",
+      "vi": "phần mở đầu"
+    },
+    {
+      "en": "closing",
+      "vi": "phần kết"
+    },
+    {
+      "en": "call to action",
+      "vi": "lời kêu gọi hành động"
+    },
+    {
+      "en": "signpost",
+      "vi": "câu chuyển ý, câu báo hiệu"
+    },
+    {
+      "en": "preview",
+      "vi": "giới thiệu trước nội dung"
+    },
+    {
+      "en": "headline",
+      "vi": "tiêu đề nêu ý chính"
+    },
+    {
+      "en": "to rehearse",
+      "vi": "tập dượt"
+    },
+    {
+      "en": "filler words",
+      "vi": "từ đệm như ừm, à"
+    },
+    {
+      "en": "stage fright",
+      "vi": "nỗi sợ sân khấu, run khi lên nói"
+    },
+    {
+      "en": "eye contact",
+      "vi": "giao tiếp bằng mắt"
+    },
+    {
+      "en": "body language",
+      "vi": "ngôn ngữ cơ thể"
+    },
+    {
+      "en": "to rephrase",
+      "vi": "diễn đạt lại"
+    },
+    {
+      "en": "to follow up",
+      "vi": "phản hồi, liên hệ lại sau"
+    },
+    {
+      "en": "pitch",
+      "vi": "phần trình bày đề xuất ngắn"
+    },
+    {
+      "en": "trial",
+      "vi": "đợt thử nghiệm"
+    },
+    {
+      "en": "time limit",
+      "vi": "giới hạn thời gian"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "question": {
+        "text": "What is the first thing you should find out when preparing any presentation?",
+        "audioId": "",
+        "vi": "Điều đầu tiên bạn nên tìm hiểu khi chuẩn bị bất kỳ bài thuyết trình nào là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Which font and colour theme will make your slides look the most modern",
+          "audioId": "",
+          "variants": [
+            "Which font and colours look modern"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Who the audience is, what they already know and what they need",
+          "audioId": "",
+          "variants": [
+            "Who the audience is and what they need"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "How many pages of notes you can fit onto a single slide",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Which famous quotes you can use to open and close the talk",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Every good presentation starts from the listeners, not from the slides. When you know who they are, what they already know and what they need to decide, you can choose the right level of detail and the right examples. Ask yourself: \"After this talk, what should these people know or do?\"",
+        "vi": "Mọi bài thuyết trình tốt đều bắt đầu từ người nghe, không phải từ slide. Khi biết họ là ai, đã biết gì và cần quyết định điều gì, bạn sẽ chọn đúng mức chi tiết và đúng ví dụ. Hãy tự hỏi: sau buổi nói này, những người này cần biết gì hoặc làm gì?"
+      }
+    },
+    {
+      "id": "q02",
+      "question": {
+        "text": "You must present the same sales report to the directors and then to new staff, what should you change?",
+        "audioId": "",
+        "vi": "Bạn phải trình bày cùng một báo cáo doanh số cho ban giám đốc rồi cho nhân viên mới, bạn nên thay đổi gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Adjust the level of detail and examples to what each group needs to know",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Keep everything exactly the same because changing the talk takes too much effort",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Add more technical terms for new staff so they learn faster from you",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Make the directors' version longer because senior people enjoy hearing every detail",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Directors usually want the result, the risk and the decision in a few minutes, while new staff need background and simple examples. The facts stay the same, but the depth, the order and the examples should fit each group. Using one version for everyone usually bores one group and loses the other.",
+        "vi": "Ban giám đốc thường muốn nghe kết quả, rủi ro và việc cần quyết trong vài phút, còn nhân viên mới cần bối cảnh và ví dụ đơn giản. Dữ kiện giữ nguyên, nhưng độ sâu, thứ tự và ví dụ phải hợp với từng nhóm. Dùng một phiên bản cho tất cả thường làm một nhóm chán và nhóm kia không theo kịp."
+      }
+    },
+    {
+      "id": "q03",
+      "question": {
+        "text": "What is the one key message of a presentation?",
+        "audioId": "",
+        "vi": "Thông điệp chính của một bài thuyết trình là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The single idea you want people to remember and act on after you finish",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The title written in large letters on your very first slide",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The longest section of the talk, where you show the most data",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A joke at the start that helps the audience relax and smile",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The key message is the one sentence you want people to repeat to a colleague after the talk, for example: \"We should move the weekly report online to save two hours.\" Everything else in the talk, every point, chart and story, should support that sentence.",
+        "vi": "Thông điệp chính là một câu bạn muốn người nghe kể lại với đồng nghiệp sau buổi nói, ví dụ: chúng ta nên chuyển báo cáo tuần lên hệ thống để tiết kiệm hai giờ. Mọi thứ khác trong bài, từng ý, biểu đồ và câu chuyện, đều phải phục vụ câu đó."
+      }
+    },
+    {
+      "id": "q04",
+      "question": {
+        "text": "You have twenty slides of findings but only ten minutes, what should you do first?",
+        "audioId": "",
+        "vi": "Bạn có hai mươi slide kết quả nhưng chỉ có mười phút, bạn nên làm gì trước tiên?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Decide the one message that matters most and keep only what supports it",
+          "audioId": "",
+          "variants": [
+            "Choose the most important message and keep only what supports it"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Speak much faster so that you can show all twenty slides in time",
+          "audioId": "",
+          "variants": [
+            "Talk faster to show all the slides"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Ask the organiser for an extra half hour without giving any reason",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Remove slides at random until the number feels small enough for ten minutes",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Cutting starts with the message, not with the slides. Once you know the one idea that matters, you can keep the evidence that supports it and move the rest to an appendix or a follow-up email. Speaking faster only means people remember less.",
+        "vi": "Việc cắt bớt phải bắt đầu từ thông điệp, không phải từ slide. Khi biết ý quan trọng nhất, bạn giữ lại những bằng chứng hỗ trợ nó và chuyển phần còn lại vào phụ lục hoặc email gửi sau. Nói nhanh hơn chỉ khiến người nghe nhớ ít hơn."
+      }
+    },
+    {
+      "id": "q05",
+      "question": {
+        "text": "A speaker opens with ten minutes of company history before the actual proposal, what is the main mistake?",
+        "audioId": "",
+        "vi": "Một người mở đầu bằng mười phút kể lịch sử công ty trước khi vào đề xuất, sai lầm chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The audience waits too long to hear the point that actually matters to them",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The company history should have been even longer and much more detailed",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The speaker should have read the history from a printed page instead",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no mistake, because history always builds trust with every audience",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Attention is highest at the start of a talk, so spending it on background wastes your best moment. Give the point or the problem early, then add only the background people need to understand it. A useful test is whether the listeners know why they are there within the first minute.",
+        "vi": "Sự chú ý cao nhất ở đầu buổi nói, nên dùng khoảng đó cho phần bối cảnh là lãng phí. Hãy nêu ý chính hoặc vấn đề sớm, rồi chỉ thêm phần bối cảnh mà người nghe cần để hiểu. Một cách kiểm tra là xem trong phút đầu tiên người nghe đã biết vì sao họ ngồi đây chưa."
+      }
+    },
+    {
+      "id": "q06",
+      "question": {
+        "text": "Before a talk to the finance team, you are not sure what they care about, what is the best step?",
+        "audioId": "",
+        "vi": "Trước buổi nói với phòng tài chính, bạn chưa rõ họ quan tâm điều gì, bước tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask one or two of them beforehand what questions they hope you will answer",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Guess their interests and hope the slides you already have will be enough",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Prepare a very long talk that covers every possible topic just in case",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Wait until the talk begins and ask them to explain their whole job",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A short chat before the talk is the fastest way to learn what the audience wants. You can ask: \"What would make this session useful for your team?\" Their answer tells you which numbers, risks or examples to put first.",
+        "vi": "Một cuộc trò chuyện ngắn trước buổi nói là cách nhanh nhất để biết người nghe cần gì. Bạn có thể hỏi: buổi này cần có gì thì hữu ích cho nhóm anh chị? Câu trả lời cho bạn biết nên đưa con số, rủi ro hay ví dụ nào lên trước."
+      }
+    },
+    {
+      "id": "q07",
+      "question": {
+        "text": "Why is a talk built around one clear message better than one that covers many small topics?",
+        "audioId": "",
+        "vi": "Vì sao bài nói xoay quanh một thông điệp rõ ràng tốt hơn bài nói nhiều chủ đề nhỏ?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Many topics always look lazy, while one message always looks very professional",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "People can remember one strong idea, but many small ones blur together quickly",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "One message means you can finish early and skip any questions afterwards",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Many small topics are against the rules at most company meetings today",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Listeners cannot scroll back like readers, so they keep only a little of what they hear. One clear message, repeated at the start and the end, gives them something firm to hold. Many small topics compete with each other and people leave unsure what the talk was about.",
+        "vi": "Người nghe không thể kéo lên đọc lại như người đọc, nên họ chỉ giữ lại một phần nhỏ những gì nghe được. Một thông điệp rõ, nhắc lại ở đầu và cuối, cho họ một điểm tựa chắc. Quá nhiều chủ đề nhỏ sẽ tranh nhau và người nghe ra về không rõ bài nói về gì."
+      }
+    },
+    {
+      "id": "q08",
+      "question": {
+        "text": "Your audience is mostly people who disagree with your plan, what should your talk do early on?",
+        "audioId": "",
+        "vi": "Phần lớn người nghe đang phản đối kế hoạch của bạn, bài nói nên làm gì ngay từ đầu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ignore their concerns completely and talk only about the benefits you like",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Show you understand their concerns before you explain why the plan still works",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Tell them directly that they are wrong and need to change their minds",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Apologise for the plan many times so that nobody feels upset with you",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "People who disagree listen better once they feel heard. Name their main concern fairly, for example: \"I know the main worry is extra work during the busy season,\" then show how the plan deals with it. Ignoring or attacking the concern makes people defend their position harder.",
+        "vi": "Người đang phản đối sẽ lắng nghe hơn khi họ thấy mình được thấu hiểu. Hãy nêu đúng mối lo chính của họ, ví dụ: tôi biết điều mọi người lo nhất là thêm việc vào mùa cao điểm, rồi cho thấy kế hoạch xử lý điều đó thế nào. Lờ đi hoặc công kích mối lo chỉ khiến người ta bảo vệ quan điểm mạnh hơn."
+      }
+    },
+    {
+      "id": "q09",
+      "question": {
+        "text": "What simple structure works well for most short presentations?",
+        "audioId": "",
+        "vi": "Cấu trúc đơn giản nào phù hợp với hầu hết các bài thuyết trình ngắn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Every fact you know, in the order you happened to find them",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A long introduction, one point, and then a list of thank yous",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A strong opening, about three main points, and a clear closing with an action",
+          "audioId": "",
+          "variants": [
+            "Opening, three main points and a clear close"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Random stories first, then the main point only if time is left",
+          "audioId": "",
+          "variants": [
+            "Random stories first and the main point at the end"
+          ]
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Opening, body and close is the simplest structure that works. The opening gets attention and states the message, the body gives about three supporting points, and the close repeats the message and asks for an action. It is easy for you to remember and easy for listeners to follow.",
+        "vi": "Mở đầu, thân bài và kết thúc là cấu trúc đơn giản mà hiệu quả. Phần mở đầu thu hút sự chú ý và nêu thông điệp, phần thân đưa khoảng ba ý hỗ trợ, phần kết nhắc lại thông điệp và đề nghị một hành động. Bạn dễ nhớ, người nghe dễ theo."
+      }
+    },
+    {
+      "id": "q10",
+      "question": {
+        "text": "You are about to start a talk to a sleepy afternoon audience, what is the best opening?",
+        "audioId": "",
+        "vi": "Bạn sắp nói trước một nhóm người nghe buổi chiều đang buồn ngủ, cách mở đầu tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A long apology about being nervous and not having had enough time",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Reading the full agenda slide word by word before anything else happens",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A joke from the internet that has nothing to do with your topic",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A short real question or story that links directly to the problem you solve",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A real question or a short story from daily work wakes people up because it is about them. For example: \"How many of you waited for approval on a form this week?\" A random joke may get a laugh, but it does not lead into your message, and an apology lowers trust from the first line.",
+        "vi": "Một câu hỏi thật hoặc một câu chuyện ngắn từ công việc hằng ngày đánh thức người nghe vì nó nói về chính họ. Ví dụ: tuần này có bao nhiêu người phải chờ duyệt một tờ đơn? Một câu đùa ngẫu nhiên có thể gây cười nhưng không dẫn vào thông điệp, còn lời xin lỗi làm giảm niềm tin ngay từ câu đầu."
+      }
+    },
+    {
+      "id": "q11",
+      "question": {
+        "text": "Why is opening with the problem better than opening with your name and job title?",
+        "audioId": "",
+        "vi": "Vì sao mở đầu bằng vấn đề tốt hơn mở đầu bằng tên và chức danh của bạn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Your name and job title are private details that you should never share",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Starting with the problem lets you skip the rest of the talk entirely",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Job titles always sound proud, while problems always sound modest and friendly",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The problem shows the audience why they should care and keep listening",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "People listen when they see what is in it for them. Your name can come in one short line, but the problem is what makes the room pay attention. Try: \"Every month we lose two days fixing the same report errors, I want to show you how to stop that.\"",
+        "vi": "Người ta lắng nghe khi thấy điều đó liên quan đến mình. Tên bạn có thể giới thiệu trong một câu ngắn, nhưng chính vấn đề mới khiến cả phòng chú ý. Thử nói: mỗi tháng chúng ta mất hai ngày sửa cùng những lỗi báo cáo, tôi muốn chỉ cho mọi người cách chấm dứt việc đó."
+      }
+    },
+    {
+      "id": "q12",
+      "question": {
+        "text": "Why do many presenters group their content into about three main points?",
+        "audioId": "",
+        "vi": "Vì sao nhiều người thuyết trình gom nội dung thành khoảng ba ý chính?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Three is a lucky number, so it guarantees the audience will agree",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Most rooms only have enough wall space for three slides at once",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Anything more than three points is forbidden by business presentation rules",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Three points are easy to follow and remember without overloading the listeners",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Three is a practical habit, not a law. It is enough to build a case and few enough for people to remember without notes. If you have seven points, group them into three bigger ideas.",
+        "vi": "Ba ý là một thói quen thực tế, không phải quy định. Ba ý đủ để lập luận và đủ ít để người nghe nhớ mà không cần ghi chép. Nếu bạn có bảy ý, hãy gom chúng thành ba ý lớn."
+      }
+    },
+    {
+      "id": "q13",
+      "question": {
+        "text": "In the middle of your talk you move to your second point, what helps the audience follow?",
+        "audioId": "",
+        "vi": "Giữa bài nói, bạn chuyển sang ý thứ hai, điều gì giúp người nghe theo kịp?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Jump straight to the next slide in silence and hope they notice",
+          "audioId": "",
+          "variants": [
+            "Jump to the next slide in silence"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Repeat the whole first point again from the beginning, word for word",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ask the audience to guess what you will talk about next",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A short signpost, such as now let's look at the second reason",
+          "audioId": "",
+          "variants": [
+            "A short signpost like now let's look at the second reason"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Signposts are short phrases that tell listeners where they are in the talk, like \"So that was the cost, now let's look at the timing.\" They act like road signs. Without them, listeners often miss the moment you change topic.",
+        "vi": "Câu chuyển ý là những cụm ngắn cho người nghe biết họ đang ở đâu trong bài, như vậy là phần chi phí, giờ chúng ta xem đến thời gian. Chúng giống biển chỉ đường. Thiếu chúng, người nghe thường không nhận ra lúc bạn chuyển chủ đề."
+      }
+    },
+    {
+      "id": "q14",
+      "question": {
+        "text": "What is the difference between a closing that summarises and one that just stops?",
+        "audioId": "",
+        "vi": "Phần kết có tóm tắt khác gì với phần kết dừng đột ngột?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Just stopping saves time, so it always feels more professional to the audience",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A summary repeats the key message and next step, so people leave clear",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A summary adds brand new information that you forgot to mention earlier",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no real difference because people forget the ending anyway",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "People remember the end of a talk well, so the close is your last chance to fix the message in their minds. A good close says the message again in one sentence and names the next step. A talk that just stops leaves people to guess what mattered.",
+        "vi": "Người nghe nhớ rõ phần cuối, nên phần kết là cơ hội cuối để khắc sâu thông điệp. Một phần kết tốt nhắc lại thông điệp trong một câu và nêu bước tiếp theo. Bài nói dừng đột ngột khiến người nghe phải tự đoán đâu là điều quan trọng."
+      }
+    },
+    {
+      "id": "q15",
+      "question": {
+        "text": "A presenter ends with any questions and then silence, what is the main weakness?",
+        "audioId": "",
+        "vi": "Một người kết thúc bằng câu \"có ai hỏi gì không\" rồi im lặng, điểm yếu chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Asking for questions is rude, so it should never happen at all",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The speaker should have shown one more slide full of detailed numbers",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The talk ends without a clear message or action for the audience to remember",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Silence at the end proves the talk was perfect, so nothing is wrong",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Taking questions is fine, but it should not be the last thing people hear. Give a short summary and your request first, take questions, then finish with one final line that repeats the message. That way the talk ends on your point, not on an awkward silence.",
+        "vi": "Nhận câu hỏi là tốt, nhưng không nên là điều cuối cùng người nghe nghe thấy. Hãy tóm tắt và nêu đề nghị trước, nhận câu hỏi, rồi kết bằng một câu nhắc lại thông điệp. Như vậy bài nói kết thúc bằng ý của bạn, không phải bằng khoảng im lặng ngượng ngùng."
+      }
+    },
+    {
+      "id": "q16",
+      "question": {
+        "text": "You want the team to approve a new checklist, how should you close your talk?",
+        "audioId": "",
+        "vi": "Bạn muốn nhóm duyệt một bảng kiểm mới, bạn nên kết thúc bài nói thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say thank you, that is all, and sit down without asking for anything",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "State the exact decision you need, such as approval to start the trial",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Hint vaguely that someone might want to think about it some day",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Show a final slide of fifty references and let people read them",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "If you want a decision, ask for it clearly. For example: \"I am asking for approval to use this checklist in our team for one month, starting next Monday.\" A vague ending lets the meeting move on and the idea disappears.",
+        "vi": "Nếu cần một quyết định, hãy đề nghị thật rõ. Ví dụ: tôi xin mọi người đồng ý áp dụng bảng kiểm này trong nhóm một tháng, bắt đầu từ thứ Hai tới. Kết thúc mơ hồ khiến cuộc họp chuyển sang việc khác và ý tưởng bị lãng quên."
+      }
+    },
+    {
+      "id": "q17",
+      "question": {
+        "text": "Why do good presenters preview their main points at the start of a talk?",
+        "audioId": "",
+        "vi": "Vì sao người thuyết trình giỏi giới thiệu trước các ý chính ở đầu bài?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A preview gives listeners a map, so they know where the talk is going",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It lets the speaker skip the main points later and finish early",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It proves to the audience that the speaker has memorised the script",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A preview is only needed when the talk is longer than three hours",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A one-line preview such as \"I will cover the problem, two options and my recommendation\" helps people organise what they hear. They can follow the parts and notice when each one starts. It also keeps you on track.",
+        "vi": "Một câu giới thiệu trước như tôi sẽ nói về vấn đề, hai phương án và đề xuất của tôi giúp người nghe sắp xếp những gì họ nghe. Họ theo được từng phần và nhận ra lúc mỗi phần bắt đầu. Nó cũng giúp chính bạn không đi lạc."
+      }
+    },
+    {
+      "id": "q18",
+      "question": {
+        "text": "What is the main job of slides in a presentation?",
+        "audioId": "",
+        "vi": "Vai trò chính của slide trong bài thuyết trình là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "To hold the full script so that the audience can read along",
+          "audioId": "",
+          "variants": [
+            "To hold the full script for people to read"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "To show off design skills with as many effects as possible",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "To give the speaker something to read aloud, line by line",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "To support what you say with simple visuals, not to replace your voice",
+          "audioId": "",
+          "variants": [
+            "To support your words with simple visuals"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "You are the presentation, the slides are your helper. A good slide shows a picture, a chart or a few words that make your spoken point clearer. If the slide can be understood fully without you, it is probably a document, not a slide.",
+        "vi": "Bạn mới là bài thuyết trình, slide chỉ là trợ thủ. Một slide tốt cho thấy một hình ảnh, biểu đồ hay vài chữ giúp ý bạn nói rõ hơn. Nếu slide hiểu được trọn vẹn mà không cần bạn, có lẽ đó là tài liệu chứ không phải slide."
+      }
+    },
+    {
+      "id": "q19",
+      "question": {
+        "text": "Your slide has eight long bullet points, what is the best way to fix it?",
+        "audioId": "",
+        "vi": "Slide của bạn có tám gạch đầu dòng dài, cách sửa tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Make the font smaller so that all the bullet points still fit",
+          "audioId": "",
+          "variants": [
+            "Make the font smaller so everything fits"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Add more colours so each long bullet point looks a little different",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Leave it as it is and tell people to read quickly",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Keep one main idea per slide with a few short words or one image",
+          "audioId": "",
+          "variants": [
+            "One idea per slide with a few words or an image"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "When a slide is full of text, people read instead of listening, and they read faster than you speak. Split the content into several simple slides, each with one idea. Put the full details in a handout or an email after the talk.",
+        "vi": "Khi slide đầy chữ, người nghe sẽ đọc thay vì nghe, và họ đọc nhanh hơn bạn nói. Hãy tách nội dung thành nhiều slide đơn giản, mỗi slide một ý. Phần chi tiết đầy đủ để trong tài liệu phát tay hoặc email gửi sau buổi nói."
+      }
+    },
+    {
+      "id": "q20",
+      "question": {
+        "text": "Why is a slide with a clear headline sentence better than one with just a topic word?",
+        "audioId": "",
+        "vi": "Vì sao slide có tiêu đề là một câu nêu ý chính tốt hơn slide chỉ có một từ chủ đề?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Topic words take more space, so they always make slides look crowded",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Headlines are only allowed in reports, while slides must use single words",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The headline states the point, so people understand it even at a glance",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A full sentence lets you skip speaking about that slide entirely",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A title like \"Sales\" is only a label, while \"Sales rose after we changed the delivery time\" tells the point. People who look away for a moment can still catch your message. You still explain the slide, but the headline does half the work.",
+        "vi": "Tiêu đề như Doanh số chỉ là cái nhãn, còn Doanh số tăng sau khi đổi giờ giao hàng mới nói lên ý chính. Người lỡ nhìn đi chỗ khác một lúc vẫn nắm được thông điệp. Bạn vẫn giải thích slide, nhưng tiêu đề đã làm giúp một nửa."
+      }
+    },
+    {
+      "id": "q21",
+      "question": {
+        "text": "You need to show a big table of monthly numbers, what is the best approach?",
+        "audioId": "",
+        "vi": "Bạn cần trình bày một bảng lớn các con số theo tháng, cách tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Paste the whole spreadsheet on one slide and read each number aloud",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Hide all the numbers and only say that the results look fine",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Split the table across ten slides and click through them very fast",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Show a simple chart of the key trend and highlight the number that matters",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Audiences cannot read a large table from across a room. Choose the one trend or comparison that supports your message, show it as a simple chart, and mark the key number with colour. Offer the full table afterwards for anyone who wants it.",
+        "vi": "Người nghe không thể đọc một bảng lớn từ cuối phòng. Hãy chọn một xu hướng hoặc phép so sánh hỗ trợ thông điệp, thể hiện bằng biểu đồ đơn giản và tô màu con số quan trọng. Gửi bảng đầy đủ sau buổi nói cho ai cần."
+      }
+    },
+    {
+      "id": "q22",
+      "question": {
+        "text": "A presenter turns to read every slide aloud with their back to the room, what is the main problem?",
+        "audioId": "",
+        "vi": "Một người quay lưng về phía phòng để đọc to từng slide, vấn đề chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Their slides should have contained even more text for them to read",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "They lose eye contact and add nothing beyond what people can already read",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "They should have read faster so the audience could not get bored",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no problem, since reading aloud is the clearest method available",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Reading slides aloud breaks contact with the audience and makes the speaker seem unprepared. People also read faster than you speak, so they get bored waiting. Glance at the slide, then face the room and explain what it means.",
+        "vi": "Đọc to slide làm đứt kết nối với người nghe và khiến người nói có vẻ thiếu chuẩn bị. Người nghe lại đọc nhanh hơn bạn nói nên sẽ chán khi phải chờ. Hãy liếc nhìn slide, rồi quay mặt về phía người nghe và giải thích ý nghĩa của nó."
+      }
+    },
+    {
+      "id": "q23",
+      "question": {
+        "text": "Your slides use small animations on every line, what should you do?",
+        "audioId": "",
+        "vi": "Slide của bạn có hiệu ứng chuyển động ở mọi dòng, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Add sound effects too, so the audience stays awake during the talk",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Remove most effects and keep animation only where it shows a change or step",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Keep every animation because effects always look modern and very professional",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Turn every slide into a video so nothing on screen stays still",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Animation should have a purpose, such as showing steps one by one or a number changing over time. Effects on every line pull attention to the movement instead of the message and slow the talk down. Simple and calm slides usually look more professional.",
+        "vi": "Hiệu ứng chuyển động cần có mục đích, như cho hiện từng bước hoặc một con số thay đổi theo thời gian. Hiệu ứng ở mọi dòng kéo sự chú ý về chuyển động thay vì thông điệp và làm chậm bài nói. Slide đơn giản, tĩnh thường trông chuyên nghiệp hơn."
+      }
+    },
+    {
+      "id": "q24",
+      "question": {
+        "text": "The projector suddenly fails five minutes before your talk, what is the best response?",
+        "audioId": "",
+        "vi": "Máy chiếu đột nhiên hỏng năm phút trước giờ bạn nói, cách xử lý tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Cancel the whole presentation and ask everyone to come back next month",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Spend the entire session trying to fix the projector in front of everyone",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Stay calm and give the talk from your notes, using a whiteboard if needed",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Read the slides from your laptop screen with your back to the room",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "If you know your message and structure, you can present without slides. Draw one simple diagram on a whiteboard if it helps and send the slides afterwards. Many audiences actually find a slide-free talk more personal.",
+        "vi": "Nếu nắm chắc thông điệp và bố cục, bạn có thể thuyết trình không cần slide. Vẽ một sơ đồ đơn giản lên bảng nếu cần và gửi slide sau buổi nói. Nhiều người nghe thậm chí thấy bài nói không slide gần gũi hơn."
+      }
+    },
+    {
+      "id": "q25",
+      "question": {
+        "text": "You have a big presentation next week, what is the most useful way to practise?",
+        "audioId": "",
+        "vi": "Tuần sau bạn có bài thuyết trình quan trọng, cách luyện tập hữu ích nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say it out loud standing up, with a timer, several times before the day",
+          "audioId": "",
+          "variants": [
+            "Practise out loud, standing, with a timer, several times"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Read the slides silently once the night before and hope for the best",
+          "audioId": "",
+          "variants": [
+            "Read the slides silently the night before"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Memorise every word of a script so you never have to think",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Skip practice, because natural speakers always do better without any preparation",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Practising in your head feels faster and smoother than the real thing. Speaking out loud shows you where you get stuck, and a timer shows if you are too long. Rehearse at least two or three times, ideally once in front of another person.",
+        "vi": "Tập trong đầu luôn có vẻ nhanh và trôi chảy hơn thực tế. Nói thành tiếng cho bạn thấy chỗ nào bị vấp, còn đồng hồ cho biết bạn có nói quá giờ không. Hãy tập ít nhất hai ba lần, tốt nhất một lần trước mặt người khác."
+      }
+    },
+    {
+      "id": "q26",
+      "question": {
+        "text": "Why is practising key points better than memorising a word for word script?",
+        "audioId": "",
+        "vi": "Vì sao tập theo ý chính tốt hơn học thuộc kịch bản từng chữ?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A script saves time because you never need to rehearse it at all",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Key points are only useful for speakers who already have many years of experience",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Key points let you speak naturally and recover easily if you forget a line",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Memorising a script guarantees you will never feel nervous on stage",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A memorised script sounds stiff, and if you forget one word the whole chain can break. When you practise the key points and the order, you can say them in slightly different words each time and still stay on track. Memorise only your first and last sentences.",
+        "vi": "Kịch bản học thuộc nghe cứng nhắc, và nếu quên một chữ thì cả chuỗi có thể đứt. Khi tập theo ý chính và thứ tự, bạn có thể nói bằng từ hơi khác mỗi lần mà vẫn đúng hướng. Chỉ nên học thuộc câu mở đầu và câu kết."
+      }
+    },
+    {
+      "id": "q27",
+      "question": {
+        "text": "After a rehearsal a friend says only that it was good, why is this feedback not very useful?",
+        "audioId": "",
+        "vi": "Sau buổi tập, một người bạn chỉ nói \"hay lắm\", vì sao góp ý này không mấy hữu ích?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Friends always lie, so you should never rehearse in front of anyone",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Positive feedback is useless because only harsh criticism can improve a talk",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It does not tell you what to keep, what was unclear or what to change",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It is very useful, since confidence matters more than any real content",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "General praise feels nice but gives you nothing to work on. Ask specific questions: \"What was my main message?\", \"Where did you get lost?\", \"Which part felt too long?\" If your friend cannot repeat your message, the talk needs work.",
+        "vi": "Lời khen chung chung dễ nghe nhưng không cho bạn gì để sửa. Hãy hỏi cụ thể: thông điệp chính của mình là gì, bạn bị lạc ở đâu, phần nào thấy dài? Nếu bạn của bạn không nhắc lại được thông điệp, bài nói cần sửa."
+      }
+    },
+    {
+      "id": "q28",
+      "question": {
+        "text": "You record yourself rehearsing and notice you say um constantly, what should you try?",
+        "audioId": "",
+        "vi": "Bạn ghi âm buổi tập và thấy mình nói \"ừm\" liên tục, bạn nên thử cách nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Pause silently for a second instead of filling the gap with a sound",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Speak faster so there is no space left for any filler sounds",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ignore it, since nobody in the audience ever notices filler words",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Replace every um with you know or like to sound more relaxed",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Filler sounds usually appear when you are thinking of the next word. A short silent pause feels long to you, but to the audience it sounds calm and confident. Practise by pausing at the end of each sentence on purpose.",
+        "vi": "Âm đệm thường xuất hiện khi bạn đang nghĩ từ tiếp theo. Một khoảng lặng ngắn có vẻ dài với bạn, nhưng với người nghe lại thấy bình tĩnh và tự tin. Hãy tập bằng cách cố ý dừng lại ở cuối mỗi câu."
+      }
+    },
+    {
+      "id": "q29",
+      "question": {
+        "text": "What is a helpful way to think about feeling nervous before a presentation?",
+        "audioId": "",
+        "vi": "Cách nhìn nhận hữu ích về cảm giác hồi hộp trước khi thuyết trình là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Nerves are normal energy that shows you care, and they can be managed",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Nerves are a clear sign that you are not suited to presenting",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Nerves only affect beginners and disappear completely after the first talk",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Nerves mean the audience will definitely notice and judge you harshly",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Almost everyone feels nervous before speaking, including experienced presenters. The goal is not to remove the feeling but to use it as energy and keep it at a manageable level. Also remember that the audience usually notices far less nervousness than you feel inside.",
+        "vi": "Hầu như ai cũng hồi hộp trước khi nói, kể cả người thuyết trình nhiều kinh nghiệm. Mục tiêu không phải là xoá cảm giác đó, mà là dùng nó như năng lượng và giữ ở mức kiểm soát được. Hãy nhớ người nghe thường nhận ra sự run ít hơn nhiều so với những gì bạn cảm thấy bên trong."
+      }
+    },
+    {
+      "id": "q30",
+      "question": {
+        "text": "Your hands are shaking just before you start speaking, what is a good quick technique?",
+        "audioId": "",
+        "vi": "Tay bạn run ngay trước khi bắt đầu nói, kỹ thuật nhanh nào hữu ích?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Drink several cups of strong coffee to give yourself extra energy",
+          "audioId": "",
+          "variants": [
+            "Drink a lot of strong coffee"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Tell the audience you are terrified and might not finish the talk",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Run through the whole script again very fast in your head",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Take a few slow breaths, breathing out longer than you breathe in",
+          "audioId": "",
+          "variants": [
+            "Take slow breaths and breathe out longer"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Slow breathing with a long out-breath is a simple, widely used way to calm your body. Try breathing in for a count of four and out for a count of six, a few times. Extra caffeine usually makes shaking worse, not better.",
+        "vi": "Thở chậm với hơi thở ra dài là cách đơn giản, phổ biến để làm dịu cơ thể. Thử hít vào đếm đến bốn và thở ra đếm đến sáu, lặp lại vài lần. Uống thêm cà phê thường làm run nhiều hơn chứ không giảm."
+      }
+    },
+    {
+      "id": "q31",
+      "question": {
+        "text": "Halfway through your talk your mind goes blank, what is the best thing to do?",
+        "audioId": "",
+        "vi": "Giữa bài nói, đầu bạn bỗng trống rỗng, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Apologise again and again until you suddenly remember what comes next",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Pause, look at your notes, and repeat your last point to find your place",
+          "audioId": "",
+          "variants": [
+            "Pause, check your notes and repeat your last point"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Skip to the last slide and end the talk immediately without explanation",
+          "audioId": "",
+          "variants": [
+            "Skip to the end and finish immediately"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Start talking about a random topic until the original idea comes back",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A pause of a few seconds feels normal to listeners. Look at your notes, then say something like \"So, as I said, the main cost is time.\" Repeating your last point gives your memory a bridge to the next one.",
+        "vi": "Một khoảng dừng vài giây là bình thường với người nghe. Nhìn vào ghi chú, rồi nói kiểu như vậy, như tôi vừa nói, chi phí chính là thời gian. Nhắc lại ý vừa nói tạo một cây cầu để trí nhớ đi tới ý tiếp theo."
+      }
+    },
+    {
+      "id": "q32",
+      "question": {
+        "text": "Why is arriving early to check the room better than arriving just in time?",
+        "audioId": "",
+        "vi": "Vì sao đến sớm để kiểm tra phòng tốt hơn đến vừa kịp giờ?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Arriving early lets you avoid talking to anybody before the presentation starts",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Arriving just in time always looks more confident and much busier to others",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "There is no difference, because rooms and equipment never cause any problems",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Checking the room and equipment early removes surprises that make nerves worse",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Many nerves come from the unknown: the cable, the clicker, where to stand. Arriving early lets you test everything and stand where you will speak. You can also greet a few listeners, which makes the room feel friendlier when you start.",
+        "vi": "Phần lớn cảm giác run đến từ điều chưa biết: dây cáp, bút trình chiếu, chỗ đứng. Đến sớm giúp bạn thử mọi thứ và đứng thử ở chỗ sẽ nói. Bạn cũng có thể chào vài người nghe, khiến căn phòng thân thiện hơn khi bắt đầu."
+      }
+    },
+    {
+      "id": "q33",
+      "question": {
+        "text": "Colleagues say your voice is flat and hard to follow, what should you practise?",
+        "audioId": "",
+        "vi": "Đồng nghiệp nói giọng bạn đều đều, khó theo dõi, bạn nên luyện điều gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Speak louder all the time so that nobody can possibly fall asleep",
+          "audioId": "",
+          "variants": [
+            "Speak louder all the time"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Talk much faster so that the audience does not notice the flat voice",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Read from a script so that your words at least sound correct",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Vary your pace and pitch, and pause before and after important points",
+          "audioId": "",
+          "variants": [
+            "Change your speed and tone, and pause around key points"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A lively voice changes speed, tone and volume to show what matters. Slowing down and pausing before a key sentence tells listeners this is important. Record yourself reading one paragraph and mark where to slow down and where to stress words.",
+        "vi": "Giọng nói sinh động thay đổi tốc độ, ngữ điệu và âm lượng để cho thấy điều gì quan trọng. Chậm lại và dừng trước câu then chốt báo cho người nghe đây là ý quan trọng. Hãy ghi âm khi đọc một đoạn và đánh dấu chỗ cần chậm lại, chỗ cần nhấn từ."
+      }
+    },
+    {
+      "id": "q34",
+      "question": {
+        "text": "What does good eye contact look like when presenting to a room?",
+        "audioId": "",
+        "vi": "Giao tiếp bằng mắt tốt khi thuyết trình trước cả phòng trông như thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Staring only at your manager because they are the most important listener",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Looking at the ceiling or the back wall so you stay calm",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Looking at different people for a few seconds each, across the whole room",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Keeping your eyes on your slides or notes for the entire talk",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Good eye contact means speaking to one person for about a sentence, then moving to another person in a different part of the room. Everyone feels included and you look confident. Looking only at the boss makes others feel left out.",
+        "vi": "Giao tiếp bằng mắt tốt là nói với một người trong khoảng một câu, rồi chuyển sang người khác ở phía khác của phòng. Ai cũng thấy mình được quan tâm và bạn trông tự tin. Chỉ nhìn sếp khiến những người khác thấy bị bỏ rơi."
+      }
+    },
+    {
+      "id": "q35",
+      "question": {
+        "text": "A presenter keeps arms crossed and walks back and forth nonstop, what message does this send?",
+        "audioId": "",
+        "vi": "Một người khoanh tay và đi qua đi lại liên tục khi nói, điều đó truyền đi thông điệp gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It shows great energy, so every presenter should move like that",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It can look nervous or closed, which distracts people from the content",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It shows the presenter is an expert who does not need notes",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It sends no message, because audiences only listen and never watch",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Body language is read before words. Crossed arms can look defensive, and nonstop walking can look nervous and makes people watch your feet. Stand still with open hands most of the time, and move with a purpose, for example when you change to a new point.",
+        "vi": "Ngôn ngữ cơ thể được người nghe đọc trước cả lời nói. Khoanh tay có thể trông phòng thủ, đi qua đi lại liên tục trông bồn chồn và khiến người nghe nhìn theo bước chân bạn. Phần lớn thời gian hãy đứng yên với bàn tay mở, và chỉ di chuyển có mục đích, ví dụ khi chuyển sang ý mới."
+      }
+    },
+    {
+      "id": "q36",
+      "question": {
+        "text": "Someone asks a question you cannot answer during your talk, what is the best response?",
+        "audioId": "",
+        "vi": "Có người hỏi một câu bạn không trả lời được giữa buổi nói, cách phản hồi tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say honestly that you do not know, and promise to find out and follow up",
+          "audioId": "",
+          "variants": [
+            "Admit you do not know and promise to follow up"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Make up a confident answer quickly so that nobody thinks you are weak",
+          "audioId": "",
+          "variants": [
+            "Make up a confident answer"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Pretend you did not hear the question and move to the next slide",
+          "audioId": "",
+          "variants": [
+            "Pretend you did not hear it"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Tell the person that their question is not relevant to the talk",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Honesty keeps trust, while a guessed answer that turns out wrong damages it badly. Say: \"That is a good question, I do not have the exact figure, I will check and send it to you today.\" Then actually send it.",
+        "vi": "Sự trung thực giữ được niềm tin, còn câu trả lời đoán mò mà sai sẽ làm mất uy tín nặng nề. Hãy nói: câu hỏi hay, tôi chưa có con số chính xác, tôi sẽ kiểm tra và gửi anh chị trong hôm nay. Sau đó gửi thật."
+      }
+    },
+    {
+      "id": "q37",
+      "question": {
+        "text": "Why is saying I will check and email you by Friday better than saying I will look into it?",
+        "audioId": "",
+        "vi": "Vì sao nói \"tôi sẽ kiểm tra và email cho anh trước thứ Sáu\" tốt hơn \"tôi sẽ xem lại\"?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Vague promises sound more polite, so specific promises often annoy listeners",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Fridays are the only day when people actually read their work emails",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A specific promise with a time builds trust, while a vague one is forgotten",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Specific promises are risky, so you should never give any date at all",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A clear what and when shows that you take the question seriously and makes it easy for the other person to follow up. A vague promise often gets lost after the meeting. Write the promise down immediately so you do not forget it.",
+        "vi": "Nói rõ sẽ làm gì và khi nào cho thấy bạn coi trọng câu hỏi và giúp người kia dễ theo dõi. Lời hứa mơ hồ thường bị quên sau cuộc họp. Hãy ghi lại lời hứa ngay để không quên."
+      }
+    },
+    {
+      "id": "q38",
+      "question": {
+        "text": "A listener asks a long, unclear question, what should you do before answering?",
+        "audioId": "",
+        "vi": "Một người nghe đặt câu hỏi dài và chưa rõ, bạn nên làm gì trước khi trả lời?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Answer whatever you think they probably meant without checking anything first",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Tell them their question is confusing and ask somebody else to speak",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Repeat or rephrase the question briefly to check you understood it correctly",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ignore the question and wait for a shorter one from another person",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Rephrasing checks your understanding, lets the whole room hear the question and gives you a few seconds to think. Try: \"So your question is whether this will work for the night shift, is that right?\" Then answer that question directly.",
+        "vi": "Nhắc lại câu hỏi giúp bạn kiểm tra mình hiểu đúng, cho cả phòng nghe rõ câu hỏi và cho bạn vài giây suy nghĩ. Thử nói: vậy anh muốn hỏi cách này có áp dụng được cho ca đêm không, đúng không ạ? Rồi trả lời thẳng vào câu đó."
+      }
+    },
+    {
+      "id": "q39",
+      "question": {
+        "text": "A senior manager challenges your numbers sharply in front of everyone, what is the best response?",
+        "audioId": "",
+        "vi": "Một quản lý cấp cao chất vấn gay gắt số liệu của bạn trước mọi người, cách phản hồi tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Argue back loudly until they admit that your numbers are actually correct",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Agree immediately that everything is wrong, even if you know it is right",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Stay calm, thank them, and explain your source or offer to check together",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Look away, say nothing at all and quickly move to your next slide",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A calm, factual answer protects both your credibility and the relationship. Say where the number comes from, and if there is a real doubt, offer to check it together after the meeting. Arguing or giving in at once both make you look less reliable.",
+        "vi": "Câu trả lời bình tĩnh, dựa trên dữ kiện bảo vệ cả uy tín của bạn lẫn mối quan hệ. Hãy nói con số lấy từ đâu, và nếu có nghi ngờ thật, đề nghị cùng kiểm tra sau buổi họp. Cãi lại hay vội nhận sai đều khiến bạn kém đáng tin."
+      }
+    },
+    {
+      "id": "q40",
+      "question": {
+        "text": "A presenter answers every question with five minutes of extra detail, what is the main problem?",
+        "audioId": "",
+        "vi": "Một người trả lời mỗi câu hỏi bằng năm phút chi tiết thêm, vấn đề chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Long answers use up time and lose the room, so keep answers short and direct",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "There should be even more detail so that nobody asks a second question",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Questions should never be answered during or after any presentation at all",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The answers are fine, but the speaker should have used more slides",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A good answer to a question usually takes under a minute: answer first, give one reason or example, then stop. If the person needs more, they will ask or you can talk after the session. Long answers also stop other people from asking.",
+        "vi": "Một câu trả lời tốt thường chưa đến một phút: trả lời trước, đưa một lý do hoặc ví dụ, rồi dừng. Nếu người hỏi cần thêm, họ sẽ hỏi tiếp hoặc bạn trao đổi sau buổi nói. Trả lời dài còn khiến người khác không có cơ hội hỏi."
+      }
+    },
+    {
+      "id": "q41",
+      "question": {
+        "text": "You have five minutes with your busy boss to propose an idea, how should you start?",
+        "audioId": "",
+        "vi": "Bạn có năm phút với sếp đang bận để đề xuất một ý tưởng, bạn nên bắt đầu thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Start with the full history of how you first came up with the idea",
+          "audioId": "",
+          "variants": [
+            "The full history of the idea"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Start with small talk for several minutes to make the boss relaxed",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Start by listing every detail of the budget, line by line",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Start with the problem, your idea, and the decision you need from them",
+          "audioId": "",
+          "variants": [
+            "Problem, idea and the decision you need"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Busy managers decide fast when they hear the problem, the proposal and the request in the first minute. For example: \"Our customer emails wait two days, I suggest a shared inbox, can I test it for two weeks?\" Details come only if they ask.",
+        "vi": "Người quản lý bận rộn quyết định nhanh khi nghe vấn đề, đề xuất và yêu cầu ngay trong phút đầu. Ví dụ: email khách hàng đang chờ hai ngày, em đề xuất dùng hộp thư chung, em thử trong hai tuần được không ạ? Chi tiết chỉ đưa ra khi sếp hỏi."
+      }
+    },
+    {
+      "id": "q42",
+      "question": {
+        "text": "Why is offering a small trial better than asking your boss to approve a big change immediately?",
+        "audioId": "",
+        "vi": "Vì sao đề xuất thử nghiệm nhỏ tốt hơn xin sếp duyệt ngay một thay đổi lớn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Big changes are always approved faster because bosses prefer bold ideas",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Small trials are a waste of time and show that you lack confidence",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A trial means you can avoid explaining the idea to the boss at all",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A trial lowers the risk, so it is easier for the boss to say yes",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A big change asks the boss to take a big risk based on your words. A short, limited trial with a clear measure of success costs little and produces real evidence. If it works, the next decision becomes much easier.",
+        "vi": "Thay đổi lớn đòi hỏi sếp chấp nhận rủi ro lớn chỉ dựa trên lời bạn nói. Một đợt thử ngắn, có giới hạn và có thước đo thành công rõ ràng thì tốn ít và tạo ra bằng chứng thật. Nếu hiệu quả, quyết định tiếp theo sẽ dễ hơn nhiều."
+      }
+    },
+    {
+      "id": "q43",
+      "question": {
+        "text": "Your boss says they have no time and asks for the short version, what should you say?",
+        "audioId": "",
+        "vi": "Sếp nói không có thời gian và muốn nghe bản ngắn, bạn nên nói gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Insist on going through every slide because the full story is important",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Give the idea and its main benefit in two sentences, then ask for a decision",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Say it is impossible to explain briefly and leave the meeting upset",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Speak twice as fast and try to fit in the full presentation anyway",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Always prepare a thirty-second version of any idea. Say what it is, why it helps and what you need, then stop. If the boss is interested, they will give you more time, and you can offer to send a one-page summary.",
+        "vi": "Hãy luôn chuẩn bị phiên bản ba mươi giây cho mọi ý tưởng. Nói đó là gì, giúp ích gì và bạn cần gì, rồi dừng. Nếu sếp quan tâm, họ sẽ cho bạn thêm thời gian, và bạn có thể đề nghị gửi bản tóm tắt một trang."
+      }
+    },
+    {
+      "id": "q44",
+      "question": {
+        "text": "Your boss raises a concern about cost during your pitch, what is the best way to respond?",
+        "audioId": "",
+        "vi": "Sếp nêu lo ngại về chi phí khi bạn đang trình bày, cách phản hồi tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say that cost is not your responsibility and the finance team should decide",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Acknowledge the concern and show the cost compared with the benefit or savings",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Drop the idea immediately so that the boss does not feel any pressure",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Promise that the idea will cost nothing at all, even if that is untrue",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Cost questions are a normal part of any decision, not a rejection. Agree that cost matters, then compare it with what the company gains, such as hours saved or fewer errors. If you do not have the number yet, say when you will bring it.",
+        "vi": "Câu hỏi về chi phí là phần bình thường của mọi quyết định, không phải lời từ chối. Hãy đồng ý rằng chi phí quan trọng, rồi so sánh nó với lợi ích công ty nhận được, như số giờ tiết kiệm hay ít lỗi hơn. Nếu chưa có con số, hãy nói khi nào bạn sẽ bổ sung."
+      }
+    },
+    {
+      "id": "q45",
+      "question": {
+        "text": "You are presenting online and nobody has their camera on, how can you keep people engaged?",
+        "audioId": "",
+        "vi": "Bạn thuyết trình trực tuyến và không ai bật camera, làm sao giữ người nghe tham gia?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask a quick question every few minutes and invite answers in the chat",
+          "audioId": "",
+          "variants": [
+            "Ask short questions and invite answers in the chat"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Talk for the whole hour without stopping so you finish everything quickly",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Demand that everyone turns their camera on before you say anything at all",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Share a long document and let people read it alone in silence",
+          "audioId": "",
+          "variants": [
+            "Share a long document for them to read"
+          ]
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Online, people are only one click away from their email. Small interactions every few minutes, such as a quick poll, a chat question or asking one person by name, bring attention back. Tell people at the start how they can take part.",
+        "vi": "Khi họp trực tuyến, người nghe chỉ cách hộp thư của họ một cú nhấp chuột. Những tương tác nhỏ sau mỗi vài phút, như khảo sát nhanh, câu hỏi trong khung chat hay gọi tên một người, kéo sự chú ý trở lại. Hãy nói ngay từ đầu cách mọi người có thể tham gia."
+      }
+    },
+    {
+      "id": "q46",
+      "question": {
+        "text": "Why should online slides usually change more often than slides in a room?",
+        "audioId": "",
+        "vi": "Vì sao slide khi thuyết trình trực tuyến thường nên chuyển nhiều hơn khi nói trong phòng?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Online platforms charge less when the slides change more often",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "On a screen people get distracted easily, so regular visual changes hold attention",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Changing slides often hides mistakes that people would notice in a room",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no reason, and online slides should change as rarely as possible",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "In a room, your movement and voice keep attention, but online the slide fills most of the screen. A screen that stays the same for several minutes invites people to switch windows. Use more slides with less on each one, and mark clearly where you are.",
+        "vi": "Trong phòng, cử động và giọng nói của bạn giữ sự chú ý, còn khi trực tuyến, slide chiếm gần hết màn hình. Một màn hình đứng yên nhiều phút khiến người nghe chuyển sang cửa sổ khác. Hãy dùng nhiều slide hơn với ít nội dung trên mỗi slide, và cho biết rõ bạn đang ở phần nào."
+      }
+    },
+    {
+      "id": "q47",
+      "question": {
+        "text": "A presenter shares their whole screen online and private messages pop up, what was the main mistake?",
+        "audioId": "",
+        "vi": "Một người chia sẻ toàn bộ màn hình khi họp trực tuyến và tin nhắn riêng hiện lên, sai lầm chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "They should have shared their screen with the camera turned off instead",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "They used slides at all, since online talks should never have slides",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "They did not turn off notifications or share only the presentation window",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "They spoke too slowly, so the audience had time to read messages",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Before an online talk, turn off notifications, close private apps and share only the window you need. Test sound, camera and screen sharing about ten minutes early. These small checks prevent embarrassing moments and protect private information.",
+        "vi": "Trước buổi thuyết trình trực tuyến, hãy tắt thông báo, đóng ứng dụng riêng tư và chỉ chia sẻ cửa sổ cần thiết. Kiểm tra âm thanh, camera và chia sẻ màn hình trước khoảng mười phút. Những bước kiểm tra nhỏ này tránh được tình huống khó xử và bảo vệ thông tin riêng."
+      }
+    },
+    {
+      "id": "q48",
+      "question": {
+        "text": "You are given ten minutes but your rehearsal takes fifteen, what should you do?",
+        "audioId": "",
+        "vi": "Bạn được mười phút nhưng khi tập lại mất mười lăm phút, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Keep everything and plan to speak much faster on the day itself",
+          "audioId": "",
+          "variants": [
+            "Keep everything and speak faster"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Keep everything and simply ask for more time when you are running over",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Cut whole sections that do not support the key message, then rehearse again",
+          "audioId": "",
+          "variants": [
+            "Cut sections that do not support the message and rehearse again"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Remove the opening and closing, since the middle is the only important part",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Cutting a few words from every slide rarely saves enough time. Remove whole parts that are interesting but not needed for the message. Talks also tend to run longer on the day, so aim to finish your rehearsal a little under the limit.",
+        "vi": "Bớt vài chữ ở mỗi slide hiếm khi tiết kiệm đủ thời gian. Hãy bỏ cả những phần thú vị nhưng không cần cho thông điệp. Bài nói thực tế thường dài hơn khi tập, nên hãy tập sao cho xong sớm hơn giới hạn một chút."
+      }
+    },
+    {
+      "id": "q49",
+      "question": {
+        "text": "The speaker before you overruns and your fifteen minutes becomes eight, what is the best move?",
+        "audioId": "",
+        "vi": "Người nói trước bạn quá giờ và mười lăm phút của bạn chỉ còn tám, cách xử lý tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Present the full fifteen minutes anyway, because your time is your right",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Give your key message and top points only, and share details afterwards",
+          "audioId": "",
+          "variants": [
+            "Give only the key message and top points"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Rush through every slide as fast as possible without stopping to breathe",
+          "audioId": "",
+          "variants": [
+            "Rush through every slide very fast"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Refuse to present and complain about the previous speaker to the organiser",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Respecting the new time limit shows professionalism and wins goodwill. Because you know your message, you can drop the details and keep the core. Say: \"To keep us on time, I will focus on the main point and send the details by email.\"",
+        "vi": "Tôn trọng thời gian mới cho thấy sự chuyên nghiệp và tạo thiện cảm. Vì nắm chắc thông điệp, bạn có thể bỏ phần chi tiết và giữ phần cốt lõi. Hãy nói: để giữ đúng giờ, tôi sẽ tập trung vào ý chính và gửi chi tiết qua email."
+      }
+    },
+    {
+      "id": "q50",
+      "question": {
+        "text": "What is a good habit for keeping a talk within its time limit?",
+        "audioId": "",
+        "vi": "Thói quen tốt nào giúp giữ bài nói trong giới hạn thời gian?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Plan rough timings for each part and mark a section you can drop if late",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Never look at a clock, because watching the time makes you nervous",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Leave all timing to the chair, who will stop you when needed",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Start talking early before the audience arrives to gain a few more minutes",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Give each part a rough time, for example one minute to open, two minutes per point and one minute to close. Decide in advance which section you will skip if you are behind. Keep a watch or timer where you can see it without turning around.",
+        "vi": "Hãy chia thời gian ước lượng cho từng phần, ví dụ một phút mở đầu, hai phút mỗi ý và một phút kết. Quyết định trước phần nào sẽ bỏ nếu bị chậm. Đặt đồng hồ ở chỗ bạn nhìn thấy mà không phải quay người."
+      }
+    }
+  ]
+}

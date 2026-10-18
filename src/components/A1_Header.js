@@ -340,15 +340,9 @@ const ROOM_ROUTE_PREFIXES = [
   "/room/",
   "/roomn/",
   "/roomoffline/",
-  "/roomofflineV2/",
-  // Mới thêm — V3-V6 bị sót khỏi danh sách này (chỉ dừng ở V2), khiến header
-  // cố định (position: fixed, đè lên đầu trang) không tự ẩn ở các trang
-  // luyện tập mới hơn, che mất phần trên cùng của giao diện đố. Thêm đủ 4
-  // route còn thiếu, không đổi cách hoạt động của isRoomRoute/Header.
-  "/roomofflineV3/",
-  "/roomofflineV4/",
-  "/roomofflineV5/",
-  "/roomofflineV6/",
+  // Dọn dẹp — đã xóa toàn bộ RoomofflineV2-V6 (không còn trang nào ở các
+  // route /roomofflineV2/ .. /roomofflineV6/), nên bỏ các prefix tương ứng
+  // khỏi danh sách này, không đổi cách hoạt động của isRoomRoute/Header.
 ];
 function isRoomRoute(pathname) {
   return ROOM_ROUTE_PREFIXES.some((prefix) => pathname.startsWith(prefix));
@@ -508,6 +502,18 @@ export default function Header({ sttRoom, STTcfonnectFN }) {
                   { name: "name", link: "link", preName: "preName" },
                   null,
                 )}{" "}
+                {returnDropdown(
+                  "Học nội dung",
+                  hocNoiDungSets,
+                  { name: "name", link: "link", preName: "preName" },
+                  null,
+                )}
+                {returnDropdown(
+                  "Bài viết",
+                  baiVietSets,
+                  { name: "name", link: "link", preName: "preName" },
+                  null,
+                )}
                 {/* {returnDropdown(
                   "Khác",
                   levele_img_barlist.concat(words_3000, a_prac_100),
@@ -566,6 +572,94 @@ export default function Header({ sttRoom, STTcfonnectFN }) {
     </>
   );
 }
+
+// DetPro SP03 — menu "Bài viết": các chuỗi bài viết (10 chuỗi × 10 bài). Bấm → trang chuỗi.
+const baiVietSets = [
+  {
+    root: "articles",
+    preName: "",
+    name: "Chuẩn bị phỏng vấn xin việc",
+    link: "job-interview",
+  },
+  {
+    root: "articles",
+    preName: "",
+    name: "Giao tiếp nơi công sở",
+    link: "workplace-communication",
+  },
+  {
+    root: "articles",
+    preName: "",
+    name: "Sinh viên chuẩn bị ra trường",
+    link: "graduates",
+  },
+  {
+    root: "articles",
+    preName: "",
+    name: "Giới thiệu bản thân bằng tiếng Anh",
+    link: "self-introduction-english",
+  },
+  {
+    root: "articles",
+    preName: "",
+    name: "Trả lời phỏng vấn bằng tiếng Anh",
+    link: "interview-in-english",
+  },
+  {
+    root: "articles",
+    preName: "",
+    name: "Ngữ pháp tiếng Anh cần biết",
+    link: "english-grammar",
+  },
+  {
+    root: "articles",
+    preName: "",
+    name: "Hệ Mặt Trời và vũ trụ",
+    link: "solar-system",
+  },
+  {
+    root: "articles",
+    preName: "",
+    name: "Di sản và du lịch Việt Nam",
+    link: "vietnam-heritage",
+  },
+  {
+    root: "articles",
+    preName: "",
+    name: "Ẩm thực và dinh dưỡng",
+    link: "food-nutrition",
+  },
+  {
+    root: "articles",
+    preName: "",
+    name: "Chạy bộ cho người mới",
+    link: "running",
+  },
+  {
+    root: "articles",
+    preName: "",
+    name: "Xem tất cả bài viết",
+    link: "",
+  },
+];
+
+// DetPro SP02 — menu "Học nội dung": danh sách CHỦ ĐỀ (nhóm theo nhánh qua preName).
+// Bấm chủ đề → trang chuỗi bài. Thêm chủ đề: thêm 1 phần tử, link = "<nhánh>/<chủ-đề>".
+// Dòng cuối "Xem tất cả chủ đề" → /knowledge (có cả chủ đề "sắp có").
+const hocNoiDungSets = [
+  {
+    root: "knowledge",
+    preName: "Công việc & sự nghiệp",
+    name: "Chuẩn bị trước buổi phỏng vấn xin việc",
+    link: "career/job-interview-preparation",
+  },
+  {
+    root: "knowledge",
+    preName: "",
+    name: "Xem tất cả chủ đề",
+    link: "",
+  },
+];
 
 function returnDropdown(name, inputSets, keysSets, link) {
   return (

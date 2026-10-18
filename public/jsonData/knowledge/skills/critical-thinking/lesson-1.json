@@ -1,0 +1,2343 @@
+{
+  "id": "lesson-1",
+  "branch": "skills",
+  "topic": "critical-thinking",
+  "title": {
+    "vi": "Tư duy phản biện: phân tích, so sánh, đánh giá thông tin",
+    "en": "Critical thinking: analyse, compare, evaluate"
+  },
+  "level": "B1",
+  "status": "draft",
+  "updatedAt": "2026-10-14",
+  "reviewNote": "Bản nháp do Claude soạn và tự kiểm (2026-10-14). Chờ DIENPHAM duyệt.",
+  "overview": [
+    {
+      "heading": {
+        "en": "What critical thinking really means",
+        "vi": "Tư duy phản biện thật ra là gì"
+      },
+      "paragraphs": [
+        {
+          "en": "Critical thinking is not about criticising people or doubting everything. It is the habit of asking how we know something is true, comparing options fairly and reaching conclusions that match the evidence.",
+          "vi": "Tư duy phản biện không phải là chê bai người khác hay nghi ngờ mọi thứ. Đó là thói quen hỏi \"làm sao biết điều này đúng\", so sánh các lựa chọn một cách công bằng và đưa ra kết luận tương xứng với bằng chứng."
+        },
+        {
+          "en": "You use it every day: when you read a forwarded message, choose between two offers, listen to a colleague's proposal or decide whom to believe in a disagreement.",
+          "vi": "Bạn dùng nó mỗi ngày: khi đọc một tin nhắn được chuyển tiếp, chọn giữa hai lời mời, nghe đề xuất của đồng nghiệp hay quyết định nên tin ai trong một cuộc tranh cãi."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Step one: separate facts from opinions and ask good questions",
+        "vi": "Bước một: tách sự thật khỏi ý kiến và đặt câu hỏi tốt"
+      },
+      "paragraphs": [
+        {
+          "en": "Underline the parts that can be checked and the judgment words such as best, terrible or obviously. Then ask open questions: what evidence, since when, compared with what, and what else could explain it.",
+          "vi": "Gạch chân những phần kiểm tra được và những từ nhận định như \"tốt nhất\", \"tệ hại\", \"rõ ràng\". Sau đó đặt câu hỏi mở: bằng chứng là gì, từ khi nào, so với cái gì, và còn điều gì khác có thể giải thích."
+        },
+        {
+          "en": "A useful sentence is: \"That is interesting, what have you seen that makes you think so?\" It keeps the conversation friendly while moving it towards evidence.",
+          "vi": "Một câu hữu ích là: \"Thú vị đấy, anh thấy điều gì mà nghĩ vậy?\" Câu này giữ cuộc trò chuyện thân thiện mà vẫn hướng về bằng chứng."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Checking sources before you believe or share",
+        "vi": "Kiểm tra nguồn trước khi tin hay chia sẻ"
+      },
+      "paragraphs": [
+        {
+          "en": "Ask who wrote it, what evidence it gives, when it was published and why. Read laterally: open a new tab and see what trusted sources say. Be extra careful with posts that make you angry or afraid and push you to share quickly.",
+          "vi": "Hãy hỏi ai viết, bằng chứng là gì, đăng khi nào và để làm gì. Đọc ngang: mở thẻ mới xem các nguồn đáng tin nói gì. Đặc biệt cẩn trọng với bài đăng khiến bạn tức giận hay sợ hãi và thúc bạn chia sẻ ngay."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Comparing options and spotting weak arguments",
+        "vi": "So sánh lựa chọn và nhận ra lập luận yếu"
+      },
+      "paragraphs": [
+        {
+          "en": "Before comparing, agree on criteria and their weights, then judge every option on the same points and under the same conditions. Name the main trade-off when you recommend.",
+          "vi": "Trước khi so sánh, hãy thống nhất tiêu chí và trọng số, rồi đánh giá mọi lựa chọn trên cùng các điểm và trong cùng điều kiện. Khi đề xuất, hãy nêu rõ sự đánh đổi chính."
+        },
+        {
+          "en": "Watch for common fallacies: attacking the person, the straw man, the false choice, the slippery slope, and appeals to popularity or authority. In each case, bring the talk back to reasons and evidence.",
+          "vi": "Để ý các ngụy biện thường gặp: công kích cá nhân, người rơm, lựa chọn giả, dốc trượt, và dựa vào số đông hay uy quyền. Trong mọi trường hợp, hãy đưa cuộc nói chuyện về lại lý do và bằng chứng."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "A sample situation analysed",
+        "vi": "Phân tích một tình huống mẫu"
+      },
+      "paragraphs": [
+        {
+          "en": "A shop manager sees that sales rose in the month the staff started wearing new uniforms, and she wants to buy uniforms for every branch. What she did well: she noticed a pattern and wanted to act. What she missed: the same month had a holiday and a discount campaign, so the uniforms may not be the cause.",
+          "vi": "Một quản lý cửa hàng thấy doanh số tăng đúng tháng nhân viên mặc đồng phục mới, và chị muốn mua đồng phục cho mọi chi nhánh. Điểm tốt: chị nhận ra một xu hướng và muốn hành động. Điểm bỏ sót: tháng đó có ngày lễ và đợt giảm giá, nên đồng phục chưa chắc là nguyên nhân."
+        },
+        {
+          "en": "A better approach: list other changes that month, try the uniforms in one branch while a similar branch keeps the old ones, and compare results after a few weeks. Then she can report: \"Early results suggest a small effect, we will decide next month.\"",
+          "vi": "Cách tốt hơn: liệt kê các thay đổi khác trong tháng, thử đồng phục ở một chi nhánh trong khi một chi nhánh tương tự giữ đồng phục cũ, rồi so sánh sau vài tuần. Khi đó chị có thể báo cáo: \"Kết quả ban đầu cho thấy có tác động nhỏ, tháng sau chúng ta sẽ quyết định.\""
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Fighting bias and reaching a balanced conclusion",
+        "vi": "Vượt qua thiên kiến và đi đến kết luận cân bằng"
+      },
+      "paragraphs": [
+        {
+          "en": "Confirmation bias makes us notice only what agrees with us. Look for the strongest argument on the other side, listen to both people in a disagreement, and do not judge from a single example.",
+          "vi": "Thiên kiến xác nhận khiến ta chỉ thấy điều hợp với mình. Hãy tìm lập luận mạnh nhất của phía bên kia, nghe cả hai người trong một bất đồng, và đừng đánh giá chỉ từ một ví dụ."
+        },
+        {
+          "en": "A balanced conclusion takes a position, shows the main evidence on both sides, admits what is uncertain and says what would change your mind. When new evidence arrives, update your view openly.",
+          "vi": "Kết luận cân bằng vẫn có lập trường, trình bày bằng chứng chính của cả hai phía, thừa nhận điều chưa chắc và nói rõ điều gì sẽ khiến bạn đổi ý. Khi có bằng chứng mới, hãy cập nhật quan điểm một cách công khai."
+        }
+      ]
+    }
+  ],
+  "tree": [
+    {
+      "title": {
+        "en": "Facts, opinions and good questions",
+        "vi": "Sự thật, ý kiến và câu hỏi tốt"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Fact or opinion",
+            "vi": "Sự thật hay ý kiến"
+          },
+          "note": {
+            "en": "A fact can be checked; best and worst are judgments.",
+            "vi": "Sự thật kiểm tra được; \"tốt nhất\", \"tệ nhất\" là nhận định."
+          },
+          "questions": [
+            "q01",
+            "q03",
+            "q06"
+          ]
+        },
+        {
+          "title": {
+            "en": "Asking questions that find the truth",
+            "vi": "Đặt câu hỏi để tìm ra sự thật"
+          },
+          "note": {
+            "en": "Ask what evidence, since when and why, with open questions.",
+            "vi": "Hỏi bằng chứng, từ khi nào, vì sao, bằng câu hỏi mở."
+          },
+          "questions": [
+            "q02",
+            "q04",
+            "q05",
+            "q07",
+            "q08"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Sources and fake news",
+        "vi": "Nguồn tin và tin giả"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Check before you believe or share",
+            "vi": "Kiểm tra trước khi tin hay chia sẻ"
+          },
+          "note": {
+            "en": "Find the original, check the date, say if you are not sure.",
+            "vi": "Tìm bản gốc, xem ngày đăng, nói rõ nếu chưa chắc."
+          },
+          "questions": [
+            "q09",
+            "q10",
+            "q13",
+            "q15",
+            "q17"
+          ]
+        },
+        {
+          "title": {
+            "en": "Judging a source",
+            "vi": "Đánh giá một nguồn tin"
+          },
+          "note": {
+            "en": "Who, what evidence, when, why; read laterally.",
+            "vi": "Ai viết, bằng chứng gì, khi nào, để làm gì; đọc ngang."
+          },
+          "questions": [
+            "q11",
+            "q12",
+            "q14",
+            "q16"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Comparing options fairly",
+        "vi": "So sánh các lựa chọn công bằng"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Criteria and weights first",
+            "vi": "Tiêu chí và trọng số trước"
+          },
+          "note": {
+            "en": "Decide what matters before you look at the options.",
+            "vi": "Quyết định điều gì quan trọng trước khi xem các lựa chọn."
+          },
+          "questions": [
+            "q18",
+            "q19",
+            "q21"
+          ]
+        },
+        {
+          "title": {
+            "en": "Same conditions for every option",
+            "vi": "Cùng điều kiện cho mọi lựa chọn"
+          },
+          "note": {
+            "en": "Compare like with like, now and in the long term.",
+            "vi": "So sánh tương đương, cả trước mắt lẫn lâu dài."
+          },
+          "questions": [
+            "q20",
+            "q22",
+            "q24",
+            "q25"
+          ]
+        },
+        {
+          "title": {
+            "en": "Making a recommendation",
+            "vi": "Đưa ra đề xuất"
+          },
+          "note": {
+            "en": "Recommend clearly and name the trade-off.",
+            "vi": "Đề xuất rõ ràng và nêu sự đánh đổi."
+          },
+          "questions": [
+            "q23"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Weak arguments and fallacies",
+        "vi": "Lập luận yếu và ngụy biện"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Attacking the person or a fake version",
+            "vi": "Công kích cá nhân hoặc bóp méo ý"
+          },
+          "note": {
+            "en": "Bring the talk back to the idea itself.",
+            "vi": "Đưa cuộc nói chuyện về lại chính ý tưởng."
+          },
+          "questions": [
+            "q26",
+            "q27",
+            "q28"
+          ]
+        },
+        {
+          "title": {
+            "en": "Extremes and false choices",
+            "vi": "Cực đoan và lựa chọn giả"
+          },
+          "note": {
+            "en": "Ask what other options exist and what proves each step.",
+            "vi": "Hỏi còn lựa chọn nào khác và điều gì chứng minh từng bước."
+          },
+          "questions": [
+            "q29",
+            "q31",
+            "q32"
+          ]
+        },
+        {
+          "title": {
+            "en": "Popularity, authority and volume",
+            "vi": "Số đông, uy quyền và giọng to"
+          },
+          "note": {
+            "en": "Many people, a title or a loud voice are not evidence.",
+            "vi": "Nhiều người, chức danh hay giọng to đều không phải bằng chứng."
+          },
+          "questions": [
+            "q30",
+            "q33",
+            "q34"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Cause or just correlation",
+        "vi": "Nhân quả hay chỉ là tương quan"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Together is not the same as because",
+            "vi": "Cùng xảy ra chưa phải là vì nhau"
+          },
+          "note": {
+            "en": "Look for reverse cause and hidden third factors.",
+            "vi": "Tìm nhân quả ngược và yếu tố thứ ba ẩn."
+          },
+          "questions": [
+            "q35",
+            "q37",
+            "q38"
+          ]
+        },
+        {
+          "title": {
+            "en": "Looking for other explanations",
+            "vi": "Tìm lời giải thích khác"
+          },
+          "note": {
+            "en": "List everything else that changed at the same time.",
+            "vi": "Liệt kê mọi thứ khác cũng thay đổi cùng lúc."
+          },
+          "questions": [
+            "q36",
+            "q39"
+          ]
+        },
+        {
+          "title": {
+            "en": "Testing and waiting",
+            "vi": "Thử nghiệm và chờ thêm dữ liệu"
+          },
+          "note": {
+            "en": "Compare with a similar group and watch over time.",
+            "vi": "So với nhóm tương tự và theo dõi theo thời gian."
+          },
+          "questions": [
+            "q40",
+            "q41"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Bias, the other side and balanced conclusions",
+        "vi": "Thiên kiến, phía bên kia và kết luận cân bằng"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Confirmation bias",
+            "vi": "Thiên kiến xác nhận"
+          },
+          "note": {
+            "en": "Search for the strongest evidence against your view.",
+            "vi": "Chủ động tìm bằng chứng mạnh nhất chống lại quan điểm của bạn."
+          },
+          "questions": [
+            "q42",
+            "q43",
+            "q46"
+          ]
+        },
+        {
+          "title": {
+            "en": "Seeing the other side",
+            "vi": "Nhìn từ phía bên kia"
+          },
+          "note": {
+            "en": "Understanding is not agreeing; hear both sides.",
+            "vi": "Hiểu không phải là đồng ý; hãy nghe cả hai phía."
+          },
+          "questions": [
+            "q44",
+            "q45"
+          ]
+        },
+        {
+          "title": {
+            "en": "Balanced and honest conclusions",
+            "vi": "Kết luận cân bằng và trung thực"
+          },
+          "note": {
+            "en": "Take a position, show the evidence, admit uncertainty, update openly.",
+            "vi": "Có lập trường, nêu bằng chứng, thừa nhận điều chưa chắc, cập nhật công khai."
+          },
+          "questions": [
+            "q47",
+            "q48",
+            "q49",
+            "q50"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "en": "Separate what can be checked from what is only a judgment.",
+      "vi": "Tách điều kiểm tra được khỏi điều chỉ là nhận định."
+    },
+    {
+      "en": "Ask open questions about evidence, timing and other explanations.",
+      "vi": "Đặt câu hỏi mở về bằng chứng, thời điểm và các cách giải thích khác."
+    },
+    {
+      "en": "Check who, what evidence, when and why before you believe or share.",
+      "vi": "Kiểm tra ai viết, bằng chứng gì, khi nào và để làm gì trước khi tin hay chia sẻ."
+    },
+    {
+      "en": "Agree on criteria and weights, then compare options under the same conditions.",
+      "vi": "Thống nhất tiêu chí và trọng số, rồi so sánh các lựa chọn trong cùng điều kiện."
+    },
+    {
+      "en": "Spot weak arguments: attacks on the person, straw men, false choices, popularity and authority.",
+      "vi": "Nhận ra lập luận yếu: công kích cá nhân, người rơm, lựa chọn giả, số đông và uy quyền."
+    },
+    {
+      "en": "Two things happening together does not prove that one causes the other.",
+      "vi": "Hai điều cùng xảy ra không chứng minh điều này gây ra điều kia."
+    },
+    {
+      "en": "Look for the strongest version of the other side to beat confirmation bias.",
+      "vi": "Tìm phiên bản mạnh nhất của phía bên kia để vượt qua thiên kiến xác nhận."
+    },
+    {
+      "en": "Reach a balanced conclusion, admit uncertainty and update when evidence changes.",
+      "vi": "Đưa ra kết luận cân bằng, thừa nhận điều chưa chắc và cập nhật khi bằng chứng thay đổi."
+    }
+  ],
+  "glossary": [
+    {
+      "en": "critical thinking",
+      "vi": "tư duy phản biện"
+    },
+    {
+      "en": "fact",
+      "vi": "sự thật, dữ kiện kiểm chứng được"
+    },
+    {
+      "en": "opinion",
+      "vi": "ý kiến, nhận định"
+    },
+    {
+      "en": "evidence",
+      "vi": "bằng chứng"
+    },
+    {
+      "en": "reliable source",
+      "vi": "nguồn tin đáng tin cậy"
+    },
+    {
+      "en": "fake news",
+      "vi": "tin giả"
+    },
+    {
+      "en": "lateral reading",
+      "vi": "đọc ngang, đối chiếu với nguồn khác"
+    },
+    {
+      "en": "criteria",
+      "vi": "tiêu chí"
+    },
+    {
+      "en": "trade-off",
+      "vi": "sự đánh đổi"
+    },
+    {
+      "en": "fallacy",
+      "vi": "ngụy biện"
+    },
+    {
+      "en": "ad hominem",
+      "vi": "công kích cá nhân"
+    },
+    {
+      "en": "straw man",
+      "vi": "ngụy biện người rơm, bóp méo ý người khác"
+    },
+    {
+      "en": "false dilemma",
+      "vi": "lựa chọn giả, ngụy biện hai lựa chọn"
+    },
+    {
+      "en": "correlation",
+      "vi": "sự tương quan"
+    },
+    {
+      "en": "causation",
+      "vi": "quan hệ nhân quả"
+    },
+    {
+      "en": "confirmation bias",
+      "vi": "thiên kiến xác nhận"
+    },
+    {
+      "en": "hasty generalisation",
+      "vi": "khái quát vội vàng, vơ đũa cả nắm"
+    },
+    {
+      "en": "balanced conclusion",
+      "vi": "kết luận cân bằng"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "question": {
+        "text": "What is the main difference between a fact and an opinion?",
+        "audioId": "",
+        "vi": "Điểm khác nhau chính giữa sự thật và ý kiến là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A fact is said by an expert, while an opinion comes from ordinary people",
+          "audioId": "",
+          "variants": [
+            "Facts come from experts, opinions from ordinary people"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "A fact can be checked with evidence, while an opinion shows what someone believes",
+          "audioId": "",
+          "variants": [
+            "A fact can be checked, an opinion is a belief"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "A fact is something most people agree with, and an opinion is the minority view",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A fact is always written in numbers, while an opinion is written in words",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A fact can be tested: you can look at a record, a measurement or a document and see whether it is true. An opinion is a judgment or feeling, so it can be reasonable or unreasonable, but not proven true. Experts also give opinions, and many people can agree on something false.",
+        "vi": "Sự thật có thể kiểm chứng: bạn xem hồ sơ, số đo hay tài liệu là biết đúng hay sai. Ý kiến là một nhận định hay cảm nhận, nên có thể hợp lý hoặc không, nhưng không \"chứng minh đúng\" được. Chuyên gia cũng đưa ra ý kiến, và nhiều người cùng tin vẫn có thể là tin sai."
+      }
+    },
+    {
+      "id": "q02",
+      "question": {
+        "text": "A colleague says the new supplier is clearly the best, what should you ask first?",
+        "audioId": "",
+        "vi": "Một đồng nghiệp nói nhà cung cấp mới rõ ràng là tốt nhất, bạn nên hỏi gì trước tiên?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask what evidence or results make them think this supplier is the best",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Agree immediately, because the colleague sounds very confident about the new supplier",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Tell them they are wrong, since you never trust a new supplier",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Say nothing now and complain about the choice to other people later",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "\"Clearly the best\" is an opinion until you see the reasons behind it. A calm question such as \"What results have you seen from them?\" turns the opinion into something you can check. Agreeing because of confidence, or rejecting without reasons, are both decisions without evidence.",
+        "vi": "\"Rõ ràng là tốt nhất\" vẫn chỉ là ý kiến cho đến khi bạn thấy lý do đằng sau. Một câu hỏi bình tĩnh như \"Anh đã thấy kết quả gì từ họ?\" biến ý kiến thành thứ có thể kiểm tra. Đồng ý vì người nói tự tin, hay bác bỏ mà không có lý do, đều là quyết định thiếu bằng chứng."
+      }
+    },
+    {
+      "id": "q03",
+      "question": {
+        "text": "An advert says the shop opened last year and serves the best coffee in town, which part is an opinion?",
+        "audioId": "",
+        "vi": "Quảng cáo nói cửa hàng khai trương năm ngoái và có cà phê ngon nhất thành phố, phần nào là ý kiến?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The opening date, because any date in an advert is always just a guess",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Both parts are facts, because businesses are not allowed to write opinions",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Neither part matters, because adverts never contain any useful information at all",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The claim about the best coffee, because best is a personal judgment, not a fact",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The opening date can be checked, so it is a factual claim. Words like best, amazing or perfect show a judgment, and different customers will judge differently. Train yourself to underline these judgment words when you read adverts or posts.",
+        "vi": "Ngày khai trương có thể kiểm tra được, nên đó là một khẳng định về sự thật. Những từ như \"ngon nhất\", \"tuyệt vời\", \"hoàn hảo\" là nhận định, và mỗi khách hàng sẽ đánh giá khác nhau. Hãy tập gạch chân những từ nhận định này khi đọc quảng cáo hay bài đăng."
+      }
+    },
+    {
+      "id": "q04",
+      "question": {
+        "text": "In a meeting, your manager says sales are falling because of the new website, what is a good question to ask?",
+        "audioId": "",
+        "vi": "Trong cuộc họp, quản lý nói doanh số giảm vì website mới, câu hỏi tốt nên đặt ra là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Who designed the website, so that we can blame that person quickly",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "When did sales start falling, and did it happen before the website changed",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Should we just go back to the old website right now, without checking",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Why do you always find problems with everything the team creates",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A good question tests the claim instead of attacking or accepting it. If sales started falling before the new website, the website cannot be the main cause. Questions about timing, data and other changes help the whole team find the real reason.",
+        "vi": "Câu hỏi tốt là câu kiểm tra nhận định, không công kích cũng không chấp nhận ngay. Nếu doanh số giảm từ trước khi đổi website thì website không thể là nguyên nhân chính. Hỏi về thời điểm, số liệu và những thay đổi khác giúp cả nhóm tìm ra lý do thật."
+      }
+    },
+    {
+      "id": "q05",
+      "question": {
+        "text": "Why are open questions often more useful than yes or no questions when you analyse a problem?",
+        "audioId": "",
+        "vi": "Vì sao khi phân tích vấn đề, câu hỏi mở thường hữu ích hơn câu hỏi có hoặc không?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "They make people explain reasons and details, so you discover more useful information",
+          "audioId": "",
+          "variants": [
+            "They make people explain reasons and details"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "They are shorter, so meetings finish faster and nobody has to think much",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "They let you push people towards the answer you already want to hear",
+          "audioId": "",
+          "variants": [
+            "They push people towards the answer you want"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "They are more polite, but they never give you any real information",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Questions starting with what, how or why invite people to explain, so you hear facts, reasons and doubts you did not expect. A yes or no question often only confirms what you already assumed. Try \"How did you reach that number?\" instead of \"Is that number right?\".",
+        "vi": "Câu hỏi bắt đầu bằng \"cái gì\", \"thế nào\", \"vì sao\" mời người khác giải thích, nên bạn nghe được dữ kiện, lý do và băn khoăn mà mình không đoán trước. Câu hỏi có hoặc không thường chỉ xác nhận điều bạn đã giả định. Hãy thử hỏi \"Anh tính ra con số đó thế nào?\" thay vì \"Con số đó đúng không?\"."
+      }
+    },
+    {
+      "id": "q06",
+      "question": {
+        "text": "A friend shares a strong opinion about a new law but cannot explain it, what is the best response?",
+        "audioId": "",
+        "vi": "Một người bạn chia sẻ ý kiến gay gắt về một luật mới nhưng không giải thích được, cách phản hồi tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Laugh at them in front of others so they learn to stop sharing",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Share the same opinion online immediately, because your friend is usually right",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Avoid the topic forever, because talking about laws always creates arguments",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask calmly what the law actually says and where they read about it",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Many strong opinions come from a headline, not from the law itself. Asking what it says and where they read it moves both of you towards the original source without making your friend feel attacked. You can then read the official text together.",
+        "vi": "Nhiều ý kiến gay gắt xuất phát từ một dòng tít, không phải từ chính văn bản luật. Hỏi luật viết gì và bạn ấy đọc ở đâu giúp cả hai cùng hướng về nguồn gốc mà không khiến bạn mình thấy bị công kích. Sau đó hai người có thể cùng đọc văn bản chính thức."
+      }
+    },
+    {
+      "id": "q07",
+      "question": {
+        "text": "A supplier says their product cuts your costs a lot, what is the best follow-up question?",
+        "audioId": "",
+        "vi": "Nhà cung cấp nói sản phẩm của họ giúp bạn giảm chi phí rất nhiều, câu hỏi tiếp theo tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask whether they can include a free gift with your first order",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Ask compared with what, and over what period the savings were actually measured",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ask nothing, because suppliers know their own products better than anyone else",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask if other customers enjoyed the sales presentation they gave last week",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "\"Cuts costs a lot\" means nothing without a baseline and a time frame. Asking \"Compared with what, and over how many months?\" turns a sales claim into numbers you can check, and you can then ask for a customer you may contact. A gift or a nice presentation tells you nothing about real savings.",
+        "vi": "\"Giảm chi phí nhiều\" chẳng có ý nghĩa gì nếu không có mốc so sánh và khoảng thời gian. Hỏi \"So với cái gì, và đo trong bao nhiêu tháng?\" biến lời chào hàng thành con số kiểm tra được, sau đó bạn có thể xin liên hệ một khách hàng đã dùng. Quà tặng hay bài thuyết trình hay không nói lên gì về mức tiết kiệm thật."
+      }
+    },
+    {
+      "id": "q08",
+      "question": {
+        "text": "A team leader asks only questions that support his plan, what is the main problem?",
+        "audioId": "",
+        "vi": "Một trưởng nhóm chỉ đặt những câu hỏi ủng hộ kế hoạch của mình, vấn đề chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "He asks too many questions, which always makes a team look weak",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "There is no problem, because leaders should always protect their own plans",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "He collects only agreeing answers, so the plan's weak points stay hidden",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "He should ask no questions at all and simply decide alone",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Questions like \"This plan saves money, right?\" invite agreement, not information. A stronger leader also asks \"What could go wrong with this plan?\" so that risks appear before the plan starts. Collecting only agreement is a form of confirmation bias.",
+        "vi": "Những câu như \"Kế hoạch này tiết kiệm chi phí, đúng không?\" mời người khác đồng ý chứ không mời thông tin. Người dẫn dắt giỏi hỏi thêm \"Kế hoạch này có thể hỏng ở đâu?\" để rủi ro lộ ra trước khi bắt đầu. Chỉ thu thập sự đồng tình là một dạng thiên kiến xác nhận."
+      }
+    },
+    {
+      "id": "q09",
+      "question": {
+        "text": "Your aunt forwards a message saying a common food causes cancer, what should you do first?",
+        "audioId": "",
+        "vi": "Cô bạn chuyển tiếp một tin nhắn nói một món ăn quen thuộc gây ung thư, bạn nên làm gì trước tiên?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Forward it to everyone at once, just in case the message is true",
+          "audioId": "",
+          "variants": [
+            "Forward it to everyone just in case"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Stop eating that food forever without checking anything else about the claim",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Reply angrily that she always believes silly things she reads online",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Check whether a reliable health source or official body reports the same claim",
+          "audioId": "",
+          "variants": [
+            "Check if a reliable health source reports the same claim"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Health scares spread fast because they create fear. Before you act or share, look for the claim on the website of a health ministry, a hospital or a trusted news outlet. If you find nothing, you can kindly tell your aunt: \"I could not find this from any official source.\"",
+        "vi": "Tin đồn về sức khoẻ lan rất nhanh vì nó gây sợ hãi. Trước khi làm theo hay chia sẻ, hãy tìm thông tin đó trên trang của Bộ Y tế, bệnh viện hoặc cơ quan báo chí uy tín. Nếu không thấy, bạn có thể nhẹ nhàng nói với cô: \"Con tìm mà không thấy nguồn chính thức nào nói vậy ạ.\""
+      }
+    },
+    {
+      "id": "q10",
+      "question": {
+        "text": "You see a shocking news screenshot with no link or date, what is the best first step?",
+        "audioId": "",
+        "vi": "Bạn thấy một ảnh chụp tin tức gây sốc không có đường dẫn hay ngày đăng, bước đầu tiên tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Believe it, because screenshots show exactly what was published on the page",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Search for the original article on a known news site before believing it",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Share it with a comment asking friends whether they think it is real",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ignore all news forever, because nothing you see online can be trusted",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Screenshots are easy to edit and they remove the context, such as the date and the full article. Search for key words from the headline on known news sites. Sharing it \"to ask\" still spreads it to people who may only read the picture.",
+        "vi": "Ảnh chụp màn hình rất dễ chỉnh sửa và làm mất bối cảnh, như ngày đăng và toàn bộ bài báo. Hãy tìm vài từ khoá của dòng tít trên các trang báo quen thuộc. Chia sẻ \"để hỏi thử\" vẫn khiến tin lan đến những người chỉ xem tấm ảnh."
+      }
+    },
+    {
+      "id": "q11",
+      "question": {
+        "text": "Before using an online article in a report for your boss, which questions should you ask about it?",
+        "audioId": "",
+        "vi": "Trước khi dùng một bài báo trên mạng trong báo cáo gửi sếp, bạn nên đặt những câu hỏi nào về nó?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "How many likes it has and how many times it has been shared",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Whether the design looks modern and the headline uses strong emotional words",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Who wrote it, what evidence they give, when it was published and why",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Whether it agrees with what you already believe about the topic",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Four simple questions cover most checks: who is the author, what evidence supports the claim, when was it published, and why was it written, for example to inform or to sell. Likes and a modern design show popularity and budget, not accuracy.",
+        "vi": "Bốn câu hỏi đơn giản bao quát phần lớn việc kiểm tra: ai viết, bằng chứng là gì, đăng khi nào, và viết để làm gì, ví dụ để cung cấp thông tin hay để bán hàng. Lượt thích và giao diện đẹp chỉ cho thấy độ phổ biến và ngân sách, không cho thấy độ chính xác."
+      }
+    },
+    {
+      "id": "q12",
+      "question": {
+        "text": "Which sign suggests that a social media post may be fake news?",
+        "audioId": "",
+        "vi": "Dấu hiệu nào cho thấy một bài đăng trên mạng xã hội có thể là tin giả?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It names the writer, the date and links to the original report",
+          "audioId": "",
+          "variants": [
+            "It names the writer and links to the report"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "It is written calmly and gives several different views on the issue",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It comes from an official account that has posted for many years",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It uses an emotional headline, has no clear source and urges you to share fast",
+          "audioId": "",
+          "variants": [
+            "Emotional headline, no clear source, and pressure to share"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Fake news often tries to make you feel angry or afraid so that you share before thinking. Phrases like \"share before it is deleted\" are a warning sign. Named authors, dates and links to original documents are signs of more reliable content.",
+        "vi": "Tin giả thường cố khiến bạn tức giận hoặc sợ hãi để bạn chia sẻ trước khi kịp suy nghĩ. Những câu như \"chia sẻ ngay trước khi bị xoá\" là dấu hiệu cảnh báo. Có tên tác giả, ngày đăng và đường dẫn đến tài liệu gốc là dấu hiệu của nội dung đáng tin hơn."
+      }
+    },
+    {
+      "id": "q13",
+      "question": {
+        "text": "A video claims a famous doctor recommends a miracle product, what should you check?",
+        "audioId": "",
+        "vi": "Một video nói một bác sĩ nổi tiếng giới thiệu sản phẩm thần kỳ, bạn nên kiểm tra điều gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "How many people commented that the product worked well for them",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Whether the video looks professional and the doctor seems kind and confident",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Whether the doctor really said it, through official channels or trusted news reports",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Nothing, because a doctor would never appear in a fake advertisement",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Fake adverts often use the face or voice of well known people without permission, and today videos can be edited or generated very easily. Check the doctor's official page or a trusted news site. Positive comments can be written by the seller.",
+        "vi": "Quảng cáo giả thường dùng hình ảnh hay giọng nói của người nổi tiếng mà không xin phép, và ngày nay video có thể bị cắt ghép hoặc tạo ra rất dễ. Hãy kiểm tra trang chính thức của bác sĩ hoặc một trang tin uy tín. Bình luận khen có thể do chính người bán viết."
+      }
+    },
+    {
+      "id": "q14",
+      "question": {
+        "text": "Why is checking two independent sources better than trusting one viral post?",
+        "audioId": "",
+        "vi": "Vì sao kiểm tra hai nguồn độc lập tốt hơn tin vào một bài đăng lan truyền?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Two sources take twice as long, which shows you are a careful worker",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "If separate sources agree, the claim is more likely true and less likely invented",
+          "audioId": "",
+          "variants": [
+            "Separate sources agreeing makes the claim more likely true"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Viral posts are always false, so any second source automatically proves the opposite",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "One viral post is enough, because many people have already checked it",
+          "audioId": "",
+          "variants": [
+            "One viral post is enough because many people checked it"
+          ]
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Independent means the sources did their own reporting, not that they copied the same post. When they agree, the chance of a made up story falls. Being shared many times does not mean anyone checked it.",
+        "vi": "Độc lập nghĩa là các nguồn tự tìm hiểu, không phải cùng chép lại một bài đăng. Khi chúng khớp nhau, khả năng đó là chuyện bịa giảm đi. Được chia sẻ nhiều lần không có nghĩa là đã có ai kiểm tra."
+      }
+    },
+    {
+      "id": "q15",
+      "question": {
+        "text": "A coworker shares an old article as if it were today's news, what is the best response?",
+        "audioId": "",
+        "vi": "Một đồng nghiệp chia sẻ bài báo cũ như thể tin hôm nay, cách phản hồi tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say nothing, because correcting a coworker in a group chat is always rude",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Politely point out the date and share the latest information you can find",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Mock the mistake in the group chat so everyone remembers it",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Share the article further, since old news is usually still true today",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Old news can mislead because prices, rules and situations change. A short, friendly message such as \"This article is from a few years ago, here is a newer update\" helps everyone without embarrassing your coworker.",
+        "vi": "Tin cũ có thể gây hiểu nhầm vì giá cả, quy định và tình hình đã thay đổi. Một tin nhắn ngắn, thân thiện như \"Bài này từ mấy năm trước rồi, đây là thông tin mới hơn\" giúp cả nhóm mà không làm đồng nghiệp ngại."
+      }
+    },
+    {
+      "id": "q16",
+      "question": {
+        "text": "What does lateral reading mean when you check information online?",
+        "audioId": "",
+        "vi": "Đọc ngang nghĩa là gì khi bạn kiểm tra thông tin trên mạng?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Reading the whole article very slowly from the top to the bottom",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Opening other tabs to see what other sources say about the website or claim",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Reading only the headline and the first sentence to save time",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Reading the comments under the post to see what most people think",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Lateral reading means leaving the page and searching what others say about it, instead of judging a site only by how it looks. Professional fact checkers use this habit because a website can look serious and still be unreliable.",
+        "vi": "Đọc ngang nghĩa là rời trang đang xem và tìm xem nơi khác nói gì về nó, thay vì đánh giá trang chỉ qua vẻ ngoài. Người kiểm chứng thông tin chuyên nghiệp dùng thói quen này vì một trang web có thể trông nghiêm túc mà vẫn không đáng tin."
+      }
+    },
+    {
+      "id": "q17",
+      "question": {
+        "text": "You are about to share a useful tip but you are not sure it is true, what should you do?",
+        "audioId": "",
+        "vi": "Bạn định chia sẻ một mẹo hay nhưng chưa chắc nó đúng, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Check it first, or share it clearly saying that you have not confirmed it",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Share it anyway, because if it is wrong someone else will correct it",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Share it and say it comes from an expert, so people take it seriously",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Delete your social media account, because sharing anything is too risky now",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "When you share, people trust the tip partly because they trust you. Take a minute to check, or be honest: \"I have not verified this yet.\" Adding a fake expert makes the problem worse.",
+        "vi": "Khi bạn chia sẻ, người khác tin một phần vì họ tin bạn. Hãy dành một phút kiểm tra, hoặc nói thật: \"Mình chưa kiểm chứng thông tin này.\" Gắn thêm \"chuyên gia nói\" khi không có thì càng làm vấn đề tệ hơn."
+      }
+    },
+    {
+      "id": "q18",
+      "question": {
+        "text": "Your team must choose between two software tools, what should you do before comparing them?",
+        "audioId": "",
+        "vi": "Nhóm bạn phải chọn giữa hai phần mềm, bạn nên làm gì trước khi so sánh?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Agree on the criteria that matter most, such as cost, ease of use and support",
+          "audioId": "",
+          "variants": [
+            "Agree on the criteria first, like cost and ease of use"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Pick the one with the nicer logo and explain the reasons afterwards",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ask the salesperson from each company which tool is the better one",
+          "audioId": "",
+          "variants": [
+            "Ask each salesperson which tool is better"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Choose the tool your boss mentioned first, to avoid any discussion",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "If you decide the criteria first, the comparison is about what the team needs, not about who argues loudest. Write three to five criteria, then score each tool. Choosing first and finding reasons later is a common trap.",
+        "vi": "Nếu thống nhất tiêu chí trước, việc so sánh sẽ dựa trên nhu cầu của nhóm chứ không dựa vào ai nói to hơn. Hãy viết ra ba đến năm tiêu chí rồi chấm điểm từng công cụ. Chọn trước rồi mới tìm lý do là cái bẫy rất phổ biến."
+      }
+    },
+    {
+      "id": "q19",
+      "question": {
+        "text": "Why is comparing options with the same criteria fairer than listing random pros and cons?",
+        "audioId": "",
+        "vi": "Vì sao so sánh các lựa chọn theo cùng tiêu chí công bằng hơn liệt kê ưu nhược điểm tuỳ ý?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Random lists are longer, so they always look more serious in a report",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Each option is judged on the same points, so you do not favour one unfairly",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Using criteria takes the human decision away, so nobody is responsible later",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Pros and cons lists are banned in most professional companies these days",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "With random lists, one option may get ten pros about small things and the other only a few big ones, which is not a fair contest. Using the same criteria for both lets you see where each option is really stronger. People still make the final decision.",
+        "vi": "Với danh sách ưu nhược điểm tuỳ ý, một phương án có thể có mười ưu điểm vụn vặt còn phương án kia chỉ vài điểm lớn, như vậy là không công bằng. Dùng cùng tiêu chí cho cả hai giúp bạn thấy phương án nào thật sự mạnh hơn ở đâu. Con người vẫn là người quyết định cuối cùng."
+      }
+    },
+    {
+      "id": "q20",
+      "question": {
+        "text": "Choosing between two flats, you love the view of one, what should you do?",
+        "audioId": "",
+        "vi": "Khi chọn giữa hai căn hộ, bạn rất thích tầm nhìn của một căn, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Sign the contract today before someone else takes the flat with the view",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Ignore your feelings completely, because emotions should never affect any decision",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ask your friends to vote and follow the majority without thinking further",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Note the view as one criterion, then check price, distance and safety too",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Feelings are real information, but they should not hide everything else. Treat the view as one point on your list, then compare both flats on rent, travel time, noise and safety. If the view still wins after that, you can choose it with confidence.",
+        "vi": "Cảm xúc cũng là thông tin thật, nhưng đừng để nó che hết mọi thứ khác. Hãy coi tầm nhìn là một tiêu chí trong danh sách, rồi so sánh hai căn về giá thuê, thời gian đi lại, tiếng ồn và an ninh. Nếu sau đó tầm nhìn vẫn thắng, bạn có thể chọn mà yên tâm."
+      }
+    },
+    {
+      "id": "q21",
+      "question": {
+        "text": "Comparing two laptops, price matters much more to you than design, how should that affect your comparison?",
+        "audioId": "",
+        "vi": "Khi so sánh hai máy tính, giá quan trọng với bạn hơn thiết kế rất nhiều, điều đó nên ảnh hưởng đến việc so sánh thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Count price and design equally, because every criterion must always be equal",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Give price a higher weight so it counts more in your final decision",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Remove price from the list, since thinking about money makes decisions harder",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Choose the better looking laptop, then find reasons why its price is acceptable",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Criteria are rarely equally important. Giving weights, for example price counts double, makes your comparison reflect your real needs. Without weights, a small advantage in design could wrongly beat a big difference in price.",
+        "vi": "Các tiêu chí hiếm khi quan trọng ngang nhau. Gán trọng số, ví dụ giá tính gấp đôi, giúp việc so sánh phản ánh đúng nhu cầu thật của bạn. Không có trọng số, một lợi thế nhỏ về thiết kế có thể lấn át sai một chênh lệch lớn về giá."
+      }
+    },
+    {
+      "id": "q22",
+      "question": {
+        "text": "A colleague compares a cheap plan's best case with an expensive plan's worst case, what is wrong?",
+        "audioId": "",
+        "vi": "Một đồng nghiệp so trường hợp tốt nhất của phương án rẻ với trường hợp tệ nhất của phương án đắt, sai ở đâu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The comparison is unfair, because both plans should be judged under the same conditions",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Nothing is wrong, because cheap plans are always better for any small company",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The mistake is only that the comparison was not written in a nice table",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "He should compare only the prices and ignore every other possible difference",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Comparing the best result of one option with the worst result of another makes the first look better than it is. A fair comparison uses the same situation for both, for example the normal case for each, then the worst case for each.",
+        "vi": "So kết quả tốt nhất của phương án này với kết quả tệ nhất của phương án kia sẽ khiến phương án đầu trông tốt hơn thực tế. So sánh công bằng là đặt cả hai vào cùng một điều kiện, ví dụ trường hợp bình thường của mỗi bên, rồi trường hợp xấu nhất của mỗi bên."
+      }
+    },
+    {
+      "id": "q23",
+      "question": {
+        "text": "Your manager asks which of two training courses to buy, what is the best way to answer?",
+        "audioId": "",
+        "vi": "Quản lý hỏi nên mua khoá đào tạo nào trong hai khoá, cách trả lời tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Recommend the course a friend once enjoyed, without checking what your team needs",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Say both are fine and let your manager do all the thinking",
+          "audioId": "",
+          "variants": [
+            "Say both are fine and let the manager decide"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Send a very long document with every detail but no clear recommendation",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Compare both on agreed criteria, give a recommendation and explain the main trade-off",
+          "audioId": "",
+          "variants": [
+            "Compare them, recommend one and explain the trade-off"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Managers want a clear recommendation they can trust. A good answer sounds like: \"I recommend course B. It costs more, but it matches our main need for practical skills.\" Naming the trade-off shows that you thought about both sides.",
+        "vi": "Quản lý cần một đề xuất rõ ràng mà họ tin được. Câu trả lời tốt có dạng: \"Em đề xuất khoá B. Khoá này đắt hơn nhưng đúng nhu cầu chính của nhóm là kỹ năng thực hành.\" Nêu rõ sự đánh đổi cho thấy bạn đã cân nhắc cả hai mặt."
+      }
+    },
+    {
+      "id": "q24",
+      "question": {
+        "text": "What is the difference between a short-term cost and a long-term cost when comparing options?",
+        "audioId": "",
+        "vi": "Khi so sánh các lựa chọn, chi phí trước mắt và chi phí lâu dài khác nhau thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Short-term cost is paid now, while long-term cost includes repairs and running costs later",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Short-term cost is always higher, so long-term costs can usually be ignored",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "There is no real difference, because money spent today and later is identical",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Long-term cost only matters for governments, not for families or small businesses",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A cheap printer can have expensive ink, and a cheap motorbike may need frequent repairs. When you compare options, add the price now and the costs over the time you will use them. The cheaper choice today is not always cheaper overall.",
+        "vi": "Một chiếc máy in rẻ có thể tốn mực đắt, một chiếc xe máy rẻ có thể phải sửa thường xuyên. Khi so sánh, hãy cộng giá mua bây giờ với chi phí trong suốt thời gian sử dụng. Lựa chọn rẻ hôm nay chưa chắc rẻ hơn về tổng thể."
+      }
+    },
+    {
+      "id": "q25",
+      "question": {
+        "text": "Two candidates for a job are equally strong on paper, what is a fair next step?",
+        "audioId": "",
+        "vi": "Hai ứng viên mạnh ngang nhau trên hồ sơ, bước tiếp theo công bằng là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Choose the one who went to the same university as you did",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Pick the candidate who talked the most and seemed the most confident",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Hire neither, because a difficult choice means both are probably not good enough",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Give both the same practical task and judge the results with the same criteria",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The same task and the same scoring give you new, comparable evidence. Choosing someone because they are similar to you or because they speak confidently brings in personal bias. Write the criteria before you see the results.",
+        "vi": "Cùng một bài thực hành và cùng cách chấm điểm cho bạn thêm bằng chứng mới, so sánh được. Chọn ai đó vì họ giống mình hay vì họ nói tự tin là để thiên kiến cá nhân chen vào. Hãy viết tiêu chí trước khi xem kết quả."
+      }
+    },
+    {
+      "id": "q26",
+      "question": {
+        "text": "What is an ad hominem attack in an argument?",
+        "audioId": "",
+        "vi": "Công kích cá nhân trong tranh luận là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Giving many examples to support your own idea during a discussion",
+          "audioId": "",
+          "variants": [
+            "Giving many examples to support your idea"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Agreeing with someone too quickly just to finish the meeting early",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Asking an expert to explain a difficult topic to the whole group",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Attacking the person who makes the point instead of answering the point itself",
+          "audioId": "",
+          "variants": [
+            "Attacking the person instead of the point"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Ad hominem is Latin for \"to the person\". Saying \"He is too young to understand\" does not show that his idea is wrong. A good reply always returns to the idea: what is the evidence for it and against it?",
+        "vi": "Ad hominem là tiếng La-tinh, nghĩa là \"nhắm vào con người\". Nói \"Cậu ấy còn trẻ thì biết gì\" không chứng minh được ý tưởng của cậu ấy sai. Phản hồi tốt luôn quay về ý tưởng: bằng chứng ủng hộ và phản bác là gì?"
+      }
+    },
+    {
+      "id": "q27",
+      "question": {
+        "text": "In a meeting, someone says your idea is bad because you are new, what is the best reply?",
+        "audioId": "",
+        "vi": "Trong cuộc họp, có người nói ý tưởng của bạn tệ vì bạn là người mới, cách đáp tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Agree that new people should not share ideas and stay silent from now on",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Point out their own mistakes from last year to show they are not perfect",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Calmly ask them to comment on the idea itself and its possible weaknesses",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Leave the meeting immediately to show that you feel deeply insulted",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "You can bring the discussion back to the idea without fighting: \"I understand I am new. Which part of the idea do you think will not work?\" Attacking back turns a weak argument into a personal conflict.",
+        "vi": "Bạn có thể đưa cuộc thảo luận về lại ý tưởng mà không cần cãi nhau: \"Em hiểu mình còn mới. Anh thấy phần nào của ý tưởng sẽ không hiệu quả ạ?\" Công kích lại chỉ biến một lập luận yếu thành mâu thuẫn cá nhân."
+      }
+    },
+    {
+      "id": "q28",
+      "question": {
+        "text": "What is a straw man argument?",
+        "audioId": "",
+        "vi": "Ngụy biện người rơm là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A strong argument that is supported by many clear facts and examples",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "An argument made by a person who has no power in the company",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A polite way to agree with someone while hiding your real opinion",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Changing someone's point into a weaker version that is easier to attack",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "If you say \"We should check the budget more often\" and someone replies \"So you think nobody can be trusted with money?\", they have built a straw man. To avoid it, repeat the other person's point in their words before you reply.",
+        "vi": "Nếu bạn nói \"Mình nên rà soát ngân sách thường xuyên hơn\" và ai đó đáp \"Vậy là anh nghĩ không ai đáng tin về tiền bạc à?\", họ đã dựng một \"người rơm\". Để tránh lỗi này, hãy nhắc lại ý người kia bằng chính lời của họ trước khi phản hồi."
+      }
+    },
+    {
+      "id": "q29",
+      "question": {
+        "text": "A colleague says if we allow work from home once a week, nobody will ever come to the office again, what is the weakness?",
+        "audioId": "",
+        "vi": "Đồng nghiệp nói nếu cho làm ở nhà một buổi mỗi tuần thì sẽ chẳng ai lên văn phòng nữa, điểm yếu là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "There is no weakness, because small changes always lead to huge disasters",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The only weakness is that the colleague spoke too quietly in the meeting",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It jumps to an extreme result without showing evidence that each step will happen",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It is too detailed, giving too much evidence for the possible future",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "This is a slippery slope argument: one small step is said to lead to a disaster, but the steps in between are not proven. Ask: \"What would make that happen, and can we set rules to prevent it?\" A short trial can give real evidence.",
+        "vi": "Đây là lập luận \"dốc trượt\": một bước nhỏ bị cho là sẽ dẫn đến thảm hoạ, nhưng các bước ở giữa không được chứng minh. Hãy hỏi: \"Điều gì sẽ khiến chuyện đó xảy ra, và mình có thể đặt quy định để ngăn không?\" Một đợt thử ngắn có thể cho bằng chứng thật."
+      }
+    },
+    {
+      "id": "q30",
+      "question": {
+        "text": "A seller says everyone in your neighbourhood has bought this water filter, what should you think?",
+        "audioId": "",
+        "vi": "Người bán nói cả khu nhà bạn đã mua máy lọc nước này, bạn nên nghĩ thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Popularity alone does not prove quality, so ask for test results and real comparisons",
+          "audioId": "",
+          "variants": [
+            "Popularity does not prove quality, ask for test results"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "If everyone bought it, it must be the best, so buy it today",
+          "audioId": "",
+          "variants": [
+            "If everyone bought it, it must be the best"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Buy two filters, so you are not the only family without one",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Sellers always lie, so you should never buy any water filter at all",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "\"Everyone is buying it\" is an appeal to popularity. Many people can be persuaded by the same advert. Ask for independent test results or certificates, and compare with other products on the criteria you care about.",
+        "vi": "\"Ai cũng mua rồi\" là kiểu lập luận dựa vào số đông. Nhiều người có thể cùng bị thuyết phục bởi một quảng cáo. Hãy hỏi kết quả kiểm định độc lập hoặc giấy chứng nhận, và so sánh với sản phẩm khác theo những tiêu chí bạn quan tâm."
+      }
+    },
+    {
+      "id": "q31",
+      "question": {
+        "text": "What is a false choice, sometimes called a false dilemma?",
+        "audioId": "",
+        "vi": "Lựa chọn giả, hay ngụy biện hai lựa chọn, là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Choosing an option that later turns out to be the wrong one",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Presenting only two options when in reality there are other possible choices",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Taking a long time to decide because there are too many good options",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Asking a friend to make an important decision for you instead",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "\"Either you work late every day or you do not care about the team\" ignores many other options. A false choice pushes you towards one answer by hiding the middle ground. The fix is to ask: \"What other options do we have?\"",
+        "vi": "\"Hoặc ngày nào cũng ở lại muộn, hoặc là không quan tâm đến nhóm\" đã bỏ qua nhiều lựa chọn khác. Lựa chọn giả đẩy bạn về một đáp án bằng cách giấu đi các phương án ở giữa. Cách sửa là hỏi: \"Mình còn những lựa chọn nào khác?\""
+      }
+    },
+    {
+      "id": "q32",
+      "question": {
+        "text": "Your boss says we either cut prices or the company will close, what is a good question to ask?",
+        "audioId": "",
+        "vi": "Sếp nói hoặc giảm giá hoặc công ty sẽ đóng cửa, câu hỏi tốt nên đặt ra là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Which day will the company close, so I can start looking for jobs",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Can we cut prices by half today to save the company immediately",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Why do you always panic and make decisions without asking the team",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Are there other options, such as reducing costs or improving service, worth considering",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Under pressure, people often see only two roads. A respectful question about other options opens the discussion without challenging your boss personally. You can offer one or two concrete alternatives to make the question useful.",
+        "vi": "Khi bị áp lực, người ta thường chỉ thấy hai con đường. Một câu hỏi tôn trọng về các phương án khác giúp mở rộng thảo luận mà không thách thức cá nhân sếp. Bạn có thể đưa kèm một hai phương án cụ thể để câu hỏi hữu ích hơn."
+      }
+    },
+    {
+      "id": "q33",
+      "question": {
+        "text": "A report says the policy worked because the director, an expert, says so, what is missing?",
+        "audioId": "",
+        "vi": "Một báo cáo nói chính sách đã hiệu quả vì giám đốc, một chuyên gia, nói vậy, báo cáo còn thiếu gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Nothing is missing, because a director's opinion is always the final proof",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A longer introduction explaining the history of the company and its founders",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Evidence such as data or results, because an expert's word alone is not proof",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "More photos of the director, so readers trust the report even more",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Expert opinion is useful, but a report should show what changed, with numbers, examples or feedback. Relying only on someone's position is an appeal to authority. Ask: \"What results show that the policy worked?\"",
+        "vi": "Ý kiến chuyên gia có giá trị, nhưng báo cáo cần cho thấy điều gì đã thay đổi, bằng số liệu, ví dụ hay phản hồi. Chỉ dựa vào chức vụ của ai đó là lập luận dựa vào uy quyền. Hãy hỏi: \"Kết quả nào cho thấy chính sách đã hiệu quả?\""
+      }
+    },
+    {
+      "id": "q34",
+      "question": {
+        "text": "What is the difference between a strong argument and a loud argument?",
+        "audioId": "",
+        "vi": "Lập luận mạnh và lập luận to tiếng khác nhau thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A strong argument is always longer and uses more difficult words than others",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "There is no difference, since the person who speaks loudest usually knows best",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A strong argument rests on reasons and evidence, while a loud one relies on pressure",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A loud argument is stronger, because confidence shows the speaker has checked facts",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Confidence, repetition and a raised voice can make an idea feel true without making it true. When a discussion gets heated, ask yourself: \"If I remove the tone, what reasons are left?\"",
+        "vi": "Sự tự tin, nói đi nói lại và giọng to có thể khiến một ý tưởng nghe như đúng mà không làm nó đúng. Khi cuộc thảo luận căng thẳng, hãy tự hỏi: \"Bỏ giọng điệu đi thì còn lại những lý do gì?\""
+      }
+    },
+    {
+      "id": "q35",
+      "question": {
+        "text": "What does the phrase correlation is not causation tell you?",
+        "audioId": "",
+        "vi": "Câu nói tương quan không phải là nhân quả cho bạn biết điều gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "If two things happen together, one of them must always be the cause",
+          "audioId": "",
+          "variants": [
+            "If two things happen together, one must be the cause"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Numbers are never useful when you try to understand why something happens",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Two things happening together does not prove that one of them causes the other",
+          "audioId": "",
+          "variants": [
+            "Happening together does not prove one causes the other"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Only scientists are allowed to talk about causes and effects of events",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Two things can rise and fall together by chance, because of a third factor, or because the cause goes the other way. A link is a reason to investigate, not a final answer.",
+        "vi": "Hai hiện tượng có thể cùng tăng cùng giảm do tình cờ, do một yếu tố thứ ba, hoặc do quan hệ nhân quả theo chiều ngược lại. Mối liên hệ là lý do để tìm hiểu thêm, không phải câu trả lời cuối cùng."
+      }
+    },
+    {
+      "id": "q36",
+      "question": {
+        "text": "Sales went up the month your team changed the logo, what should you check before giving credit?",
+        "audioId": "",
+        "vi": "Doanh số tăng đúng tháng nhóm đổi logo, bạn nên kiểm tra gì trước khi ghi công cho logo?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Other changes that month, like holidays, discounts or new products, that could explain it",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Nothing, because the timing clearly proves the new logo caused the increase",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Whether the team liked the new logo more than the old one",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "How to change the logo again next month to raise sales even more",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Something happening after a change does not prove the change caused it. List everything else that happened that month, such as Tet, a promotion or a competitor closing. Then you can say: \"The logo may have helped, but we also had a big discount.\"",
+        "vi": "Điều gì xảy ra sau một thay đổi không chứng minh thay đổi đó là nguyên nhân. Hãy liệt kê mọi thứ khác trong tháng đó, như Tết, khuyến mãi hay đối thủ đóng cửa. Khi đó bạn có thể nói: \"Logo mới có thể có tác dụng, nhưng tháng đó mình cũng giảm giá mạnh.\""
+      }
+    },
+    {
+      "id": "q37",
+      "question": {
+        "text": "People who drink a lot of coffee seem to work longer hours, so someone says coffee makes you hardworking, what is the mistake?",
+        "audioId": "",
+        "vi": "Người uống nhiều cà phê có vẻ làm việc nhiều giờ hơn, nên có người nói cà phê làm bạn chăm chỉ, lỗi ở đâu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "There is no mistake, because coffee obviously gives energy to every person who drinks it",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The mistake is choosing coffee instead of tea as the example to study",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Busy people may simply drink more coffee, so the cause could be the other way",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The only mistake is not telling everyone to drink more coffee every day",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "This is reverse causation: long working hours may lead people to drink coffee, not the other way round. Whenever you see a link, ask: \"Could B be causing A instead?\"",
+        "vi": "Đây là nhân quả đảo ngược: làm việc nhiều giờ có thể khiến người ta uống nhiều cà phê, chứ không phải ngược lại. Mỗi khi thấy một mối liên hệ, hãy hỏi: \"Có thể B mới là nguyên nhân của A không?\""
+      }
+    },
+    {
+      "id": "q38",
+      "question": {
+        "text": "Ice cream sales and drowning both rise in the same months, what best explains the link?",
+        "audioId": "",
+        "vi": "Doanh số kem và số vụ đuối nước cùng tăng vào những tháng giống nhau, điều gì giải thích tốt nhất mối liên hệ này?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Hot weather, because it increases both ice cream sales and the number of swimmers",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Eating ice cream makes people weak swimmers, so they drown more often",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Drowning news makes people sad, so they buy more ice cream to feel better",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It is pure chance, and there is no explanation at all for this link",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Hot weather is a hidden third factor: it makes people buy ice cream and also makes more people swim. When two things move together, look for something that could affect both of them.",
+        "vi": "Thời tiết nóng là yếu tố thứ ba ẩn: nó khiến người ta mua nhiều kem và cũng khiến nhiều người đi bơi hơn. Khi hai hiện tượng cùng biến động, hãy tìm một yếu tố có thể tác động lên cả hai."
+      }
+    },
+    {
+      "id": "q39",
+      "question": {
+        "text": "A child's grades improved after joining extra classes, how can parents judge the real cause fairly?",
+        "audioId": "",
+        "vi": "Điểm của con tăng sau khi đi học thêm, cha mẹ có thể đánh giá công bằng nguyên nhân thật như thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Consider other changes too, such as more sleep, a new teacher or more motivation",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Assume the classes caused everything and sign up for even more classes",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ignore the improvement, because grades go up and down for no reason",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask the extra class centre, because they know the cause best",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The classes may have helped, but other changes can matter just as much. Talking with the child and the teacher gives a fuller picture. The extra class centre is not a neutral judge, because it benefits if you believe the classes worked.",
+        "vi": "Lớp học thêm có thể có ích, nhưng những thay đổi khác cũng có thể quan trọng không kém. Nói chuyện với con và giáo viên sẽ cho bức tranh đầy đủ hơn. Trung tâm dạy thêm không phải bên trung lập, vì họ có lợi khi bạn tin lớp học hiệu quả."
+      }
+    },
+    {
+      "id": "q40",
+      "question": {
+        "text": "Why is a small test with a comparison group better than one success story?",
+        "audioId": "",
+        "vi": "Vì sao một thử nghiệm nhỏ có nhóm đối chứng tốt hơn một câu chuyện thành công?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It shows what happens with and without the change, not just one lucky case",
+          "audioId": "",
+          "variants": [
+            "It compares with and without the change"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "A success story is more emotional, so it is always the stronger proof",
+          "audioId": "",
+          "variants": [
+            "A success story is more emotional, so it is stronger"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Small tests are useless, because only very large studies can teach you anything",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A comparison group makes the work slower, which proves you are being careful",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "One story cannot tell you what would have happened without the change. If one branch tries a new process and a similar branch does not, you can compare results more fairly. Stories are good for ideas, tests are better for proof.",
+        "vi": "Một câu chuyện không cho biết điều gì sẽ xảy ra nếu không có thay đổi. Nếu một chi nhánh thử quy trình mới còn một chi nhánh tương tự thì không, bạn có thể so sánh kết quả công bằng hơn. Câu chuyện hữu ích để nảy ý tưởng, còn thử nghiệm tốt hơn để chứng minh."
+      }
+    },
+    {
+      "id": "q41",
+      "question": {
+        "text": "After a new rule, customer complaints fell for one week, what should you conclude?",
+        "audioId": "",
+        "vi": "Sau một quy định mới, khiếu nại của khách giảm trong một tuần, bạn nên kết luận gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It is a good sign, but watch longer before saying the rule caused it",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The rule clearly solved the problem, so announce the success to everyone today",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The rule failed, because complaints should have disappeared completely within one week",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Data from one week means nothing, so stop collecting complaint numbers altogether",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Numbers go up and down naturally from week to week. Watching for several weeks and comparing with the same period before helps you see a real trend. A careful report sounds like: \"Early results look positive, we will check again next month.\"",
+        "vi": "Số liệu tự nhiên lên xuống theo từng tuần. Theo dõi vài tuần và so với cùng kỳ trước đó giúp bạn thấy xu hướng thật. Một báo cáo thận trọng có dạng: \"Kết quả ban đầu khả quan, chúng tôi sẽ kiểm tra lại vào tháng sau.\""
+      }
+    },
+    {
+      "id": "q42",
+      "question": {
+        "text": "What is confirmation bias?",
+        "audioId": "",
+        "vi": "Thiên kiến xác nhận là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The habit of checking every fact twice before you share it online",
+          "audioId": "",
+          "variants": [
+            "Checking every fact twice before sharing"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "A rule that says you must confirm meetings by email the day before",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The habit of noticing and believing information that supports what we already think",
+          "audioId": "",
+          "variants": [
+            "Believing information that supports what we already think"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "The fear of making decisions without asking your manager for approval first",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Everyone has confirmation bias. We search for, remember and trust information that fits our views, and we ignore the rest. Knowing this helps you deliberately look for evidence against your own opinion.",
+        "vi": "Ai cũng có thiên kiến xác nhận. Chúng ta tìm kiếm, ghi nhớ và tin vào thông tin hợp với quan điểm của mình, và bỏ qua phần còn lại. Biết điều này giúp bạn chủ động tìm bằng chứng phản bác chính ý kiến của mình."
+      }
+    },
+    {
+      "id": "q43",
+      "question": {
+        "text": "You strongly believe a new policy is bad, what is a good way to test your view?",
+        "audioId": "",
+        "vi": "Bạn tin chắc một chính sách mới là tệ, cách tốt để kiểm tra quan điểm của mình là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Read only articles that criticise the policy, since they match what you know",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Look for the best arguments in favour of the policy and consider them honestly",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ask friends who agree with you to confirm that you are right",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Avoid the topic, because changing your mind would make you look weak",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Testing a view means giving the other side its strongest form, not its weakest. If your opinion survives the best counterarguments, it is stronger. If it does not, you have learned something useful.",
+        "vi": "Kiểm tra một quan điểm nghĩa là xem xét phía bên kia ở dạng mạnh nhất, không phải yếu nhất. Nếu ý kiến của bạn vẫn đứng vững trước những phản biện tốt nhất, nó càng chắc chắn. Nếu không, bạn đã học được điều có ích."
+      }
+    },
+    {
+      "id": "q44",
+      "question": {
+        "text": "Why is trying to explain the other side's view better than simply rejecting it?",
+        "audioId": "",
+        "vi": "Vì sao cố gắng giải thích quan điểm của phía bên kia tốt hơn chỉ đơn giản bác bỏ nó?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Understanding their reasons helps you find common ground and the real points of disagreement",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Explaining their view means you must agree with them by the end of it",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Rejecting quickly saves time, and saving time is the most important goal",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Their view is always wrong, so explaining it only spreads bad ideas",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "If you can say \"You worry that this change will add work for your team, is that right?\", the other person feels heard and you see what the disagreement is really about. Understanding is not the same as agreeing.",
+        "vi": "Khi bạn nói được \"Anh lo thay đổi này sẽ tăng việc cho nhóm anh, đúng không?\", người kia thấy mình được lắng nghe và bạn thấy bất đồng thật sự nằm ở đâu. Hiểu không có nghĩa là đồng ý."
+      }
+    },
+    {
+      "id": "q45",
+      "question": {
+        "text": "Two colleagues disagree about a deadline and each tells you their side, what should you do?",
+        "audioId": "",
+        "vi": "Hai đồng nghiệp bất đồng về hạn chót và mỗi người kể phần của mình, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Agree with whoever spoke to you first, since they are probably right",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Support the more senior colleague, because rank decides who is correct",
+          "audioId": "",
+          "variants": [
+            "Support the more senior colleague"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Tell both they are wrong, so you do not have to take any side",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Listen to both, check the facts like the schedule, then form your opinion",
+          "audioId": "",
+          "variants": [
+            "Listen to both and check the facts first"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The first story we hear often feels the most convincing. Hearing both sides and checking shared facts, such as emails or the project plan, keeps your judgment fair. Rank and order of speaking are not evidence.",
+        "vi": "Câu chuyện nghe đầu tiên thường có vẻ thuyết phục nhất. Nghe cả hai bên và kiểm tra dữ kiện chung, như email hay kế hoạch dự án, giúp đánh giá của bạn công bằng. Chức vụ hay ai nói trước đều không phải là bằng chứng."
+      }
+    },
+    {
+      "id": "q46",
+      "question": {
+        "text": "Someone reads one bad online review and decides the whole restaurant is terrible, what is the mistake?",
+        "audioId": "",
+        "vi": "Một người đọc một đánh giá xấu trên mạng rồi kết luận cả nhà hàng đều tệ, lỗi ở đâu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "There is no mistake, because one bad review always tells the full truth",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The mistake is reading reviews at all, since all reviews are paid",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Judging from a single example instead of looking at many reviews and patterns",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The mistake is not writing an even worse review to warn other people",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "One review is one experience on one day. Read many reviews, notice what most people repeat, and check the dates. This is called avoiding a hasty generalisation.",
+        "vi": "Một bài đánh giá chỉ là một trải nghiệm trong một ngày. Hãy đọc nhiều đánh giá, để ý điều mà nhiều người cùng nhắc lại, và xem ngày đăng. Đây gọi là tránh vơ đũa cả nắm, hay khái quát vội vàng."
+      }
+    },
+    {
+      "id": "q47",
+      "question": {
+        "text": "What makes a conclusion balanced?",
+        "audioId": "",
+        "vi": "Điều gì làm nên một kết luận cân bằng?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It gives exactly the same number of words to every opinion, true or not",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It weighs the evidence on all sides and admits what is still uncertain",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It avoids taking any position, so nobody can ever disagree with it",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It follows the view of the most senior person in the room",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Balanced does not mean neutral on everything. A balanced conclusion can still take a clear position, but it shows the main evidence, gives fair weight to the other side and is honest about what is not yet known.",
+        "vi": "Cân bằng không có nghĩa là trung lập về mọi thứ. Một kết luận cân bằng vẫn có thể có lập trường rõ ràng, nhưng nó trình bày bằng chứng chính, đánh giá công bằng phía bên kia và trung thực về những điều chưa rõ."
+      }
+    },
+    {
+      "id": "q48",
+      "question": {
+        "text": "Your manager asks for your view on a plan, but the evidence is mixed, what is the best answer?",
+        "audioId": "",
+        "vi": "Quản lý hỏi ý kiến bạn về một kế hoạch nhưng bằng chứng còn trái chiều, câu trả lời tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say the plan is perfect, because managers prefer confident and positive answers",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Say you cannot decide anything until every possible fact is completely known",
+          "audioId": "",
+          "variants": [
+            "Say you cannot decide until every fact is known"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Repeat the opinion of the most popular person on the team",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Share your view, the main evidence on both sides and what would change your mind",
+          "audioId": "",
+          "variants": [
+            "Your view, evidence on both sides and what would change your mind"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A useful answer might be: \"I lean towards yes, because of the cost savings. My main concern is staff training, and if the trial shows delays, I would change my view.\" This gives a direction and shows your reasoning.",
+        "vi": "Câu trả lời hữu ích có thể là: \"Em nghiêng về đồng ý vì tiết kiệm chi phí. Điều em lo nhất là đào tạo nhân viên, và nếu đợt thử cho thấy chậm trễ thì em sẽ đổi ý.\" Cách này vừa có hướng rõ, vừa cho thấy lập luận của bạn."
+      }
+    },
+    {
+      "id": "q49",
+      "question": {
+        "text": "Why is saying the evidence suggests better than saying this is definitely true when data is limited?",
+        "audioId": "",
+        "vi": "Khi dữ liệu còn hạn chế, vì sao nói bằng chứng cho thấy tốt hơn nói điều này chắc chắn đúng?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It sounds weaker, which helps you avoid any responsibility for the result",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It is honest about uncertainty, so others can trust you and check further",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Definite words are considered rude, so professionals never use them at work",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no difference, because listeners never notice how sure you sound",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Matching your words to the strength of your evidence builds trust. If you say \"definitely\" and turn out to be wrong, people doubt you next time. Phrases like \"the data so far suggests\" invite others to add more evidence.",
+        "vi": "Chọn lời nói tương xứng với độ mạnh của bằng chứng giúp xây dựng lòng tin. Nếu bạn nói \"chắc chắn\" rồi hoá ra sai, lần sau người khác sẽ nghi ngờ bạn. Những cụm như \"số liệu đến nay cho thấy\" mời người khác bổ sung thêm bằng chứng."
+      }
+    },
+    {
+      "id": "q50",
+      "question": {
+        "text": "New information shows your earlier conclusion was wrong, what should you do?",
+        "audioId": "",
+        "vi": "Thông tin mới cho thấy kết luận trước đây của bạn sai, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Keep defending your first conclusion, because changing it would damage your reputation",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Quietly change your view but never tell the people who trusted you",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Admit it openly, update your conclusion and explain what the new information showed",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Attack the new information, because it arrived too late to matter now",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Changing your mind when the evidence changes is a strength of critical thinking, not a weakness. Say clearly: \"Based on the new data, I now think option B is better.\" People trust those who correct themselves openly.",
+        "vi": "Đổi ý khi bằng chứng thay đổi là điểm mạnh của tư duy phản biện, không phải điểm yếu. Hãy nói rõ: \"Dựa trên số liệu mới, giờ tôi nghĩ phương án B tốt hơn.\" Mọi người tin tưởng những ai dám tự sửa sai một cách công khai."
+      }
+    }
+  ]
+}

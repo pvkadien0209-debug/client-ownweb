@@ -1,0 +1,2337 @@
+{
+  "id": "lesson-1",
+  "branch": "travel-vietnam",
+  "topic": "travel-abroad-skills",
+  "title": {
+    "vi": "Xử lý sự cố khi đi du lịch, công tác nước ngoài",
+    "en": "Handling problems when travelling abroad"
+  },
+  "level": "B1",
+  "status": "draft",
+  "updatedAt": "2026-10-14",
+  "reviewNote": "Bản nháp do Claude soạn và tự kiểm (2026-10-14). Chờ DIENPHAM duyệt.",
+  "overview": [
+    {
+      "heading": {
+        "en": "Most travel problems can be handled step by step",
+        "vi": "Phần lớn sự cố khi đi nước ngoài đều xử lý được từng bước"
+      },
+      "paragraphs": [
+        {
+          "en": "Losing a passport, missing a flight or getting sick abroad feels frightening because you are far from home and the language is different. But most problems follow the same pattern: stay safe, stop the damage, report to the right place, keep proof, then find a solution.",
+          "vi": "Mất hộ chiếu, lỡ chuyến bay hay ốm ở nước ngoài thật đáng sợ vì bạn xa nhà và không quen ngôn ngữ. Nhưng phần lớn sự cố theo cùng một trình tự: giữ an toàn, chặn thiệt hại, báo đúng nơi, giữ bằng chứng, rồi tìm giải pháp."
+        },
+        {
+          "en": "Rules vary by country, so this lesson teaches general habits and questions to ask, not fixed procedures. Always confirm details with official sources such as your embassy, airline or insurer.",
+          "vi": "Quy định mỗi nước khác nhau, nên bài này dạy thói quen chung và những câu cần hỏi, không phải thủ tục cố định. Luôn xác nhận chi tiết với nguồn chính thức như đại sứ quán, hãng bay hay công ty bảo hiểm."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Prepare before you go",
+        "vi": "Chuẩn bị trước khi đi"
+      },
+      "paragraphs": [
+        {
+          "en": "Keep copies of your passport on paper and online, write an emergency contact list in two places, tell your bank about the trip if needed, buy travel insurance early and check entry rules yourself.",
+          "vi": "Giữ bản sao hộ chiếu trên giấy và trên mạng, ghi danh sách liên hệ khẩn cấp ở hai nơi, báo ngân hàng về chuyến đi nếu cần, mua bảo hiểm du lịch sớm và tự kiểm tra quy định nhập cảnh."
+        },
+        {
+          "en": "Split money and cards, keep essentials in your cabin bag, and do not let one phone or one wallet carry everything.",
+          "vi": "Chia tiền và thẻ ra nhiều chỗ, để đồ thiết yếu trong hành lý xách tay, và đừng để một chiếc điện thoại hay một cái ví gánh mọi thứ."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "A sample situation analysed",
+        "vi": "Phân tích một tình huống mẫu"
+      },
+      "paragraphs": [
+        {
+          "en": "On a business trip, an employee finds at the hotel that her wallet and passport are gone. She panics, spends two hours searching the street, then calls the bank in the evening and goes to the embassy without any copy or police report.",
+          "vi": "Trong chuyến công tác, một nhân viên về khách sạn thì phát hiện mất ví và hộ chiếu. Cô hoảng hốt, mất hai giờ tìm ngoài phố, đến tối mới gọi ngân hàng, rồi lên đại sứ quán mà không có bản sao hay biên bản công an."
+        },
+        {
+          "en": "A better order: block the cards in the app at once, tell her manager, report the loss to the police and get a copy, then contact the embassy with her passport copy and photos. The same events, handled in the right order, cost less money and fewer days.",
+          "vi": "Thứ tự tốt hơn: khoá thẻ trên ứng dụng ngay, báo quản lý, trình báo công an và xin bản sao biên bản, rồi liên hệ đại sứ quán kèm bản sao hộ chiếu và ảnh. Cùng một sự việc, xử lý đúng thứ tự sẽ ít tốn tiền và ít mất ngày hơn."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Flights, luggage and health",
+        "vi": "Chuyến bay, hành lý và sức khoẻ"
+      },
+      "paragraphs": [
+        {
+          "en": "For missed or cancelled flights, go to the airline quickly, use several channels at once and keep receipts. For lost or damaged luggage, report it before leaving the airport and buy only essentials.",
+          "vi": "Khi lỡ hoặc bị huỷ chuyến, hãy đến quầy hãng bay ngay, dùng nhiều kênh cùng lúc và giữ hoá đơn. Khi hành lý thất lạc hay hư hỏng, báo trước khi rời sân bay và chỉ mua đồ thiết yếu."
+        },
+        {
+          "en": "If you get sick, call the insurance hotline for guidance, but in a real emergency get medical help first. Carry medicine in its original box with a prescription.",
+          "vi": "Nếu bị ốm, gọi đường dây nóng bảo hiểm để được hướng dẫn, nhưng khi thật sự khẩn cấp thì đi cấp cứu trước. Mang thuốc trong hộp gốc kèm đơn thuốc."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Scams, hotels and language barriers",
+        "vi": "Lừa đảo, khách sạn và rào cản ngôn ngữ"
+      },
+      "paragraphs": [
+        {
+          "en": "Watch for pressure, offers that are too good and requests for cash upfront. Confirm prices before you order or ride, and stay calm when you complain, asking for an itemised bill or a clear solution.",
+          "vi": "Cảnh giác với sự hối thúc, ưu đãi quá hời và đòi tiền mặt trước. Xác nhận giá trước khi gọi món hay lên xe, và giữ bình tĩnh khi khiếu nại, đề nghị hoá đơn chi tiết hoặc một giải pháp rõ ràng."
+        },
+        {
+          "en": "When you are lost or not understood, go to a staffed public place, show the address in the local language and use short sentences, gestures and a translation app.",
+          "vi": "Khi lạc đường hay không được hiểu, hãy vào nơi công cộng có nhân viên, đưa địa chỉ bằng tiếng địa phương và dùng câu ngắn, cử chỉ và ứng dụng dịch."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Business trips need extra care",
+        "vi": "Chuyến công tác cần cẩn thận hơn"
+      },
+      "paragraphs": [
+        {
+          "en": "On a work trip, a problem also affects clients and your company. Tell people early, give realistic times, learn basic local customs and separate facts from assumptions when something feels strange.",
+          "vi": "Trong chuyến công tác, sự cố còn ảnh hưởng đến khách hàng và công ty. Hãy báo sớm, đưa thời gian thực tế, tìm hiểu phong tục cơ bản ở nơi đến và tách sự việc khỏi suy đoán khi thấy điều gì lạ."
+        }
+      ]
+    }
+  ],
+  "tree": [
+    {
+      "title": {
+        "en": "Prepare before you go",
+        "vi": "Chuẩn bị trước khi đi"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Documents and contacts",
+            "vi": "Giấy tờ và danh bạ khẩn cấp"
+          },
+          "note": {
+            "en": "Copies and contacts in two places; never keep everything together.",
+            "vi": "Bản sao và danh bạ ở hai nơi; đừng để mọi thứ một chỗ."
+          },
+          "questions": [
+            "q01",
+            "q02",
+            "q03",
+            "q08"
+          ]
+        },
+        {
+          "title": {
+            "en": "Bank and insurance",
+            "vi": "Ngân hàng và bảo hiểm"
+          },
+          "note": {
+            "en": "Buy insurance early and read what it excludes.",
+            "vi": "Mua bảo hiểm sớm và đọc kỹ phần loại trừ."
+          },
+          "questions": [
+            "q04",
+            "q05",
+            "q06"
+          ]
+        },
+        {
+          "title": {
+            "en": "Entry rules",
+            "vi": "Quy định nhập cảnh"
+          },
+          "note": {
+            "en": "Rules vary by country, so check official sources.",
+            "vi": "Quy định mỗi nước khác nhau, hãy xem nguồn chính thức."
+          },
+          "questions": [
+            "q07"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Lost documents and money",
+        "vi": "Mất giấy tờ và tiền"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Lost passport",
+            "vi": "Mất hộ chiếu"
+          },
+          "note": {
+            "en": "Police report first, then the embassy with your copies.",
+            "vi": "Trình báo công an trước, rồi đến đại sứ quán kèm bản sao."
+          },
+          "questions": [
+            "q09",
+            "q10",
+            "q11",
+            "q12",
+            "q13"
+          ]
+        },
+        {
+          "title": {
+            "en": "Lost wallet and cards",
+            "vi": "Mất ví và thẻ"
+          },
+          "note": {
+            "en": "Block cards at once and use a backup.",
+            "vi": "Khoá thẻ ngay và dùng thẻ dự phòng."
+          },
+          "questions": [
+            "q14",
+            "q15",
+            "q16",
+            "q17"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Flights and luggage",
+        "vi": "Chuyến bay và hành lý"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Missed or cancelled flights",
+            "vi": "Lỡ chuyến hoặc chuyến bị huỷ"
+          },
+          "note": {
+            "en": "Act fast, use several channels and keep receipts.",
+            "vi": "Hành động nhanh, dùng nhiều kênh và giữ hoá đơn."
+          },
+          "questions": [
+            "q18",
+            "q19",
+            "q20",
+            "q21",
+            "q22"
+          ]
+        },
+        {
+          "title": {
+            "en": "Lost or damaged luggage",
+            "vi": "Hành lý thất lạc hoặc hư hỏng"
+          },
+          "note": {
+            "en": "Report before leaving the airport.",
+            "vi": "Báo trước khi rời sân bay."
+          },
+          "questions": [
+            "q23",
+            "q24",
+            "q25",
+            "q26"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Health, scams and overcharging",
+        "vi": "Sức khoẻ, lừa đảo và bị chặt chém"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Getting sick and insurance",
+            "vi": "Ốm đau và bảo hiểm"
+          },
+          "note": {
+            "en": "Emergencies first, insurer as early as possible.",
+            "vi": "Cấp cứu trước, gọi bảo hiểm sớm nhất có thể."
+          },
+          "questions": [
+            "q27",
+            "q28",
+            "q29",
+            "q30"
+          ]
+        },
+        {
+          "title": {
+            "en": "Spotting scams",
+            "vi": "Nhận ra chiêu lừa"
+          },
+          "note": {
+            "en": "Pressure and too good deals are warning signs.",
+            "vi": "Hối thúc và ưu đãi quá hời là dấu hiệu cảnh báo."
+          },
+          "questions": [
+            "q31",
+            "q32",
+            "q33"
+          ]
+        },
+        {
+          "title": {
+            "en": "Overcharging",
+            "vi": "Bị tính giá quá cao"
+          },
+          "note": {
+            "en": "Confirm prices first; complain calmly.",
+            "vi": "Hỏi giá trước; khiếu nại bình tĩnh."
+          },
+          "questions": [
+            "q34",
+            "q35"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Hotels and getting around",
+        "vi": "Khách sạn và đi lại"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Hotel booking problems",
+            "vi": "Sự cố đặt phòng"
+          },
+          "note": {
+            "en": "Show proof and ask for a clear solution.",
+            "vi": "Đưa bằng chứng và đề nghị giải pháp rõ ràng."
+          },
+          "questions": [
+            "q36",
+            "q37",
+            "q38"
+          ]
+        },
+        {
+          "title": {
+            "en": "Getting lost",
+            "vi": "Bị lạc đường"
+          },
+          "note": {
+            "en": "Address in the local language and a backup for your phone.",
+            "vi": "Địa chỉ bằng tiếng địa phương và phương án dự phòng cho điện thoại."
+          },
+          "questions": [
+            "q39",
+            "q40",
+            "q43"
+          ]
+        },
+        {
+          "title": {
+            "en": "Language barriers",
+            "vi": "Rào cản ngôn ngữ"
+          },
+          "note": {
+            "en": "Short sentences, gestures and a translation app.",
+            "vi": "Câu ngắn, cử chỉ và ứng dụng dịch."
+          },
+          "questions": [
+            "q41",
+            "q42"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Business trip problems",
+        "vi": "Sự cố trong chuyến công tác"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Running late",
+            "vi": "Đến muộn"
+          },
+          "note": {
+            "en": "Tell people early and give a realistic time.",
+            "vi": "Báo sớm và đưa thời gian thực tế."
+          },
+          "questions": [
+            "q44",
+            "q45"
+          ]
+        },
+        {
+          "title": {
+            "en": "Cultural misunderstandings",
+            "vi": "Hiểu lầm văn hoá"
+          },
+          "note": {
+            "en": "Prepare, apologise briefly and check assumptions.",
+            "vi": "Chuẩn bị, xin lỗi ngắn gọn và kiểm tra suy đoán."
+          },
+          "questions": [
+            "q46",
+            "q47",
+            "q48"
+          ]
+        },
+        {
+          "title": {
+            "en": "Planning work trips",
+            "vi": "Lên kế hoạch chuyến công tác"
+          },
+          "note": {
+            "en": "Share a clear brief and keep backups of work files.",
+            "vi": "Giao việc rõ ràng và sao lưu tài liệu công việc."
+          },
+          "questions": [
+            "q49",
+            "q50"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "en": "Follow one order in any crisis: stay safe, stop the damage, report, keep proof, then solve it.",
+      "vi": "Mọi sự cố đều theo một thứ tự: giữ an toàn, chặn thiệt hại, báo đúng nơi, giữ bằng chứng, rồi giải quyết."
+    },
+    {
+      "en": "Before you go, keep document copies and emergency contacts in two places.",
+      "vi": "Trước khi đi, giữ bản sao giấy tờ và danh bạ khẩn cấp ở hai nơi."
+    },
+    {
+      "en": "Buy travel insurance early and read what it covers and excludes.",
+      "vi": "Mua bảo hiểm du lịch sớm và đọc kỹ phạm vi bảo hiểm và loại trừ."
+    },
+    {
+      "en": "For a lost passport, report to the police and contact your embassy or consulate.",
+      "vi": "Mất hộ chiếu thì trình báo công an và liên hệ đại sứ quán hoặc lãnh sự quán."
+    },
+    {
+      "en": "Block lost cards immediately and keep a backup card in another place.",
+      "vi": "Khoá thẻ bị mất ngay lập tức và giữ thẻ dự phòng ở chỗ khác."
+    },
+    {
+      "en": "Report flight and luggage problems quickly and keep every receipt.",
+      "vi": "Báo sự cố chuyến bay và hành lý thật nhanh và giữ mọi hoá đơn."
+    },
+    {
+      "en": "Confirm prices first, decline pressure politely and complain calmly.",
+      "vi": "Hỏi giá trước, lịch sự từ chối sự hối thúc và khiếu nại bình tĩnh."
+    },
+    {
+      "en": "On business trips, tell people early and check cultural assumptions.",
+      "vi": "Trong chuyến công tác, báo sớm và kiểm tra lại các suy đoán về văn hoá."
+    }
+  ],
+  "glossary": [
+    {
+      "en": "embassy",
+      "vi": "đại sứ quán"
+    },
+    {
+      "en": "consulate",
+      "vi": "lãnh sự quán"
+    },
+    {
+      "en": "emergency travel document",
+      "vi": "giấy thông hành khẩn cấp"
+    },
+    {
+      "en": "police report",
+      "vi": "biên bản trình báo công an"
+    },
+    {
+      "en": "travel insurance",
+      "vi": "bảo hiểm du lịch"
+    },
+    {
+      "en": "excess",
+      "vi": "mức khấu trừ, phần tự chi trả"
+    },
+    {
+      "en": "exclusion",
+      "vi": "điều khoản loại trừ"
+    },
+    {
+      "en": "to block a card",
+      "vi": "khoá thẻ"
+    },
+    {
+      "en": "rebooking",
+      "vi": "đổi sang chuyến khác"
+    },
+    {
+      "en": "refund",
+      "vi": "hoàn tiền"
+    },
+    {
+      "en": "connecting flight",
+      "vi": "chuyến bay nối chuyến"
+    },
+    {
+      "en": "baggage claim",
+      "vi": "khu nhận hành lý"
+    },
+    {
+      "en": "reference number",
+      "vi": "mã hồ sơ, số tham chiếu"
+    },
+    {
+      "en": "receipt",
+      "vi": "hoá đơn, biên lai"
+    },
+    {
+      "en": "itemised bill",
+      "vi": "hoá đơn ghi chi tiết từng món"
+    },
+    {
+      "en": "scam",
+      "vi": "chiêu lừa đảo"
+    },
+    {
+      "en": "language barrier",
+      "vi": "rào cản ngôn ngữ"
+    },
+    {
+      "en": "cultural misunderstanding",
+      "vi": "hiểu lầm do khác biệt văn hoá"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "question": {
+        "text": "Why should you keep both paper and digital copies of your passport before travelling abroad?",
+        "audioId": "",
+        "vi": "Vì sao nên giữ cả bản sao giấy và bản sao điện tử của hộ chiếu trước khi ra nước ngoài?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Copies can be used instead of the real passport at every border",
+          "audioId": "",
+          "variants": [
+            "Copies work instead of the real passport at borders"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Airlines always ask for three photocopies before letting anyone board the plane",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Copies make it much faster to prove your identity and replace a lost passport",
+          "audioId": "",
+          "variants": [
+            "Copies help you prove who you are and replace a lost passport"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Copies are only useful for showing friends where you travelled last year",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A copy is not a travel document, but it gives officials your passport number, issue date and photo at once. That makes the police report and the replacement process at the embassy much quicker. Keep one copy on paper, separate from the passport, and one in secure cloud storage or email.",
+        "vi": "Bản sao không thay được hộ chiếu, nhưng nó cho cơ quan chức năng ngay số hộ chiếu, ngày cấp và ảnh của bạn. Nhờ vậy việc trình báo công an và làm lại giấy tờ ở đại sứ quán nhanh hơn nhiều. Hãy giữ một bản giấy để riêng với hộ chiếu và một bản trên kho lưu trữ đám mây hoặc email bảo mật."
+      }
+    },
+    {
+      "id": "q02",
+      "question": {
+        "text": "You are packing for your first trip abroad, where is the best place to keep your emergency contact list?",
+        "audioId": "",
+        "vi": "Bạn đang chuẩn bị cho chuyến đi nước ngoài đầu tiên, nên giữ danh sách liên hệ khẩn cấp ở đâu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Only in your phone, because a phone never gets lost or runs out of battery",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Keep it in several places, on paper in your bag and saved on your phone",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Nowhere, since you can easily remember every number when you are under stress",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Only inside your checked suitcase, so it stays safe and clean during the flight",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Emergencies often come together: the phone is stolen with the wallet, or the battery dies when you are lost. A paper list in your day bag plus a copy on your phone means at least one survives. Also give a copy to a family member at home.",
+        "vi": "Sự cố hay đến cùng lúc: điện thoại bị lấy cùng ví, hoặc hết pin đúng lúc bạn lạc đường. Một danh sách giấy trong túi mang theo hằng ngày cộng một bản trên điện thoại giúp ít nhất một bản còn dùng được. Hãy gửi thêm một bản cho người thân ở nhà."
+      }
+    },
+    {
+      "id": "q03",
+      "question": {
+        "text": "Before a trip, which contacts should you put on your emergency list?",
+        "audioId": "",
+        "vi": "Trước chuyến đi, nên ghi những số liên hệ nào vào danh sách khẩn cấp?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Only your favourite restaurants and shops near the hotel you have booked",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Just the phone number of the travel agent who sold you the ticket",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Your embassy, insurance hotline, bank card hotline, hotel and a family member at home",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Social media accounts of famous travellers who visited the same country before",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Think about who you would call for each type of problem: documents go to the embassy, medical costs to the insurer, lost cards to the bank, rooms to the hotel, and family can send help or money. Look these up yourself from official websites before you go.",
+        "vi": "Hãy nghĩ mỗi loại sự cố thì gọi ai: giấy tờ thì đại sứ quán, chi phí y tế thì công ty bảo hiểm, mất thẻ thì ngân hàng, phòng ở thì khách sạn, còn người thân có thể hỗ trợ hoặc gửi tiền. Hãy tự tra các số này từ trang chính thức trước khi đi."
+      }
+    },
+    {
+      "id": "q04",
+      "question": {
+        "text": "Why is it a good idea to tell your bank before you travel abroad?",
+        "audioId": "",
+        "vi": "Vì sao nên báo ngân hàng trước khi ra nước ngoài?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "So the bank can send a staff member to travel with you",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because banks give free plane tickets to customers who call them first",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "So your card is less likely to be blocked for unusual foreign payments",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Because foreign shops refuse every card unless the bank has been told",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Banks watch for unusual spending, and a sudden payment in another country can look like fraud. Some banks let you set travel dates in the app, others no longer need it, so check with yours. Also ask about foreign fees and save the card hotline.",
+        "vi": "Ngân hàng theo dõi giao dịch bất thường, và một khoản chi đột ngột ở nước khác có thể bị nghi là gian lận. Có ngân hàng cho khai báo ngày đi trên ứng dụng, có nơi không cần nữa, nên hãy hỏi ngân hàng của bạn. Đồng thời hỏi về phí giao dịch nước ngoài và lưu số đường dây nóng của thẻ."
+      }
+    },
+    {
+      "id": "q05",
+      "question": {
+        "text": "What is the main difference between buying travel insurance before the trip and after a problem happens?",
+        "audioId": "",
+        "vi": "Mua bảo hiểm du lịch trước chuyến đi và sau khi gặp sự cố khác nhau chủ yếu ở đâu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Insurance bought before the trip can cover the problem, but later it usually cannot",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "There is no difference, because insurers pay for every problem whenever you buy",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Buying after the problem is cheaper and covers more things for most travellers",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Insurance bought before the trip only covers problems that happen inside your own country",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Insurance protects against events that have not happened yet. A problem that already exists when you buy is normally excluded. Buy cover soon after booking so it can also include cancellation before departure.",
+        "vi": "Bảo hiểm bảo vệ trước những việc chưa xảy ra. Sự cố đã có từ lúc bạn mua thường bị loại trừ. Hãy mua sớm sau khi đặt vé để gói bảo hiểm có thể bao gồm cả trường hợp huỷ chuyến trước khi đi."
+      }
+    },
+    {
+      "id": "q06",
+      "question": {
+        "text": "You are choosing travel insurance, what should you check most carefully in the policy?",
+        "audioId": "",
+        "vi": "Khi chọn bảo hiểm du lịch, bạn nên đọc kỹ nhất điều gì trong hợp đồng?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "What it covers and excludes, such as medical costs, luggage, delays and the excess",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Only the colour of the logo and how nice the website looks",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Only the price, because the cheapest policy always gives the same protection",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Whether the insurer will also book restaurants and tours for you for free",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Two policies with similar prices can cover very different things. Read the limits for medical treatment, lost luggage and delays, the list of exclusions, and the excess you must pay yourself. If something is unclear, ask the seller in writing.",
+        "vi": "Hai gói có giá gần nhau có thể bảo vệ những thứ rất khác nhau. Hãy đọc hạn mức chi phí y tế, hành lý thất lạc và chậm chuyến, danh sách loại trừ, và mức khấu trừ bạn phải tự trả. Chỗ nào chưa rõ thì hỏi người bán bằng văn bản."
+      }
+    },
+    {
+      "id": "q07",
+      "question": {
+        "text": "Why should you check entry rules for your destination yourself before every trip?",
+        "audioId": "",
+        "vi": "Vì sao trước mỗi chuyến đi bạn nên tự kiểm tra quy định nhập cảnh của nước đến?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because every country in the world uses exactly the same entry rules today",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because airlines never check documents, so you can decide everything at the border",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Because entry rules only matter for people who travel for more than a year",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Rules on visas and passport validity vary by country and can change over time",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Visa needs, how many months your passport must still be valid, and health or customs rules are different for each country and are updated from time to time. Check official government sources a few weeks before you go, not only what a friend did last year.",
+        "vi": "Yêu cầu thị thực, số tháng hộ chiếu còn hạn, và quy định y tế hay hải quan khác nhau ở mỗi nước và thỉnh thoảng thay đổi. Hãy kiểm tra trên nguồn chính thức của chính phủ vài tuần trước khi đi, đừng chỉ dựa vào chuyện bạn bè đi năm ngoái."
+      }
+    },
+    {
+      "id": "q08",
+      "question": {
+        "text": "A traveller keeps his passport, all his cards and all his cash in one wallet, what is the main mistake?",
+        "audioId": "",
+        "vi": "Một du khách để hộ chiếu, toàn bộ thẻ và tiền mặt trong cùng một chiếc ví, sai lầm chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The wallet is too small, so he should buy a much bigger and nicer one",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "He should have left the passport at home and travelled with only a photo",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "If that one wallet is lost or stolen, he loses everything at the same time",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Carrying cash abroad is always illegal, so he should throw it away",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "This is a single point of failure. Split your valuables: one card and some cash in your wallet, a backup card and extra cash in another place such as the hotel safe, and the passport kept securely when you do not need it.",
+        "vi": "Đây là kiểu dồn mọi rủi ro vào một chỗ. Hãy chia đồ quý: một thẻ và ít tiền trong ví, thẻ dự phòng và tiền thêm ở chỗ khác như két an toàn khách sạn, còn hộ chiếu cất cẩn thận khi không cần dùng."
+      }
+    },
+    {
+      "id": "q09",
+      "question": {
+        "text": "You discover that your passport is missing while travelling abroad, what should you do first?",
+        "audioId": "",
+        "vi": "Bạn phát hiện mất hộ chiếu khi đang ở nước ngoài, việc đầu tiên nên làm là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Go straight to the airport and try to board your flight without any passport",
+          "audioId": "",
+          "variants": [
+            "Go to the airport and try to fly without a passport"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Wait a few weeks and hope that someone posts it back to your hotel",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Hide the problem and buy a fake document from a stranger on the street",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Search calmly, then report it to the local police and contact your embassy or consulate",
+          "audioId": "",
+          "variants": [
+            "Search calmly, report to the police and contact your embassy"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "First check your bags and the last places you visited. If it is really gone, report it to the police and contact your embassy or consulate, which will explain the local procedure. Never buy documents from strangers, which is illegal and dangerous.",
+        "vi": "Trước tiên hãy kiểm tra túi và những nơi vừa đến. Nếu thật sự mất, hãy trình báo công an và liên hệ đại sứ quán hoặc lãnh sự quán, nơi sẽ hướng dẫn thủ tục ở nước đó. Tuyệt đối không mua giấy tờ của người lạ, vừa phạm pháp vừa nguy hiểm."
+      }
+    },
+    {
+      "id": "q10",
+      "question": {
+        "text": "Why do you often need a police report after losing your passport abroad?",
+        "audioId": "",
+        "vi": "Vì sao sau khi mất hộ chiếu ở nước ngoài bạn thường cần biên bản trình báo công an?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The police will always find the passport and deliver it within one hour",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Without a police report your home country will cancel your citizenship",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It is official proof of the loss, often needed for new documents and insurance claims",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Police reports are only needed when you want to complain about the hotel",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The report shows when and where the loss happened. Embassies and insurers often ask for it, though rules vary by country. Ask for a copy or a reference number and keep it with your other papers.",
+        "vi": "Biên bản cho biết việc mất xảy ra khi nào, ở đâu. Đại sứ quán và công ty bảo hiểm thường yêu cầu giấy này, dù quy định mỗi nước khác nhau. Hãy xin một bản sao hoặc số hồ sơ và giữ cùng các giấy tờ khác."
+      }
+    },
+    {
+      "id": "q11",
+      "question": {
+        "text": "What can your embassy or consulate usually help you with when your passport is lost?",
+        "audioId": "",
+        "vi": "Khi mất hộ chiếu, đại sứ quán hoặc lãnh sự quán thường có thể giúp bạn việc gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Paying all your hotel bills and buying you a new holiday package",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Issuing a new passport or an emergency travel document so you can go home",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Cancelling any fines you received while you were travelling in the country",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Finding the thief personally and taking your passport back from them",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The main job of the embassy in this case is your documents: a replacement passport or a temporary travel paper. It usually does not pay your bills or cancel local fines. Ask them clearly what you need to bring and how long it takes.",
+        "vi": "Việc chính của đại sứ quán trong trường hợp này là giấy tờ: cấp hộ chiếu mới hoặc giấy thông hành tạm thời. Họ thường không trả tiền phòng hay xoá các khoản phạt ở nước sở tại. Hãy hỏi rõ cần mang gì và mất bao lâu."
+      }
+    },
+    {
+      "id": "q12",
+      "question": {
+        "text": "You go to the embassy to replace a lost passport, what should you bring if you can?",
+        "audioId": "",
+        "vi": "Khi đến đại sứ quán làm lại hộ chiếu, bạn nên mang theo những gì nếu có thể?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Nothing at all, because staff can find all your details from your face",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Only your hotel key card, since it shows clearly where you are staying",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A long letter explaining why the loss was completely someone else's fault",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Your passport copy, the police report, passport photos, other ID and your travel details",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Each document speeds up checks of who you are and what happened. Requirements differ, so call or check the embassy website first. A ticket or booking also helps them understand how urgent your case is.",
+        "vi": "Mỗi giấy tờ giúp xác minh bạn là ai và chuyện gì đã xảy ra nhanh hơn. Yêu cầu mỗi nơi khác nhau, nên hãy gọi hoặc xem trang của đại sứ quán trước. Vé máy bay hoặc xác nhận đặt chỗ cũng giúp họ hiểu mức độ gấp của bạn."
+      }
+    },
+    {
+      "id": "q13",
+      "question": {
+        "text": "Why is asking the embassy for official advice better than following tips from strangers online?",
+        "audioId": "",
+        "vi": "Vì sao hỏi hướng dẫn chính thức từ đại sứ quán tốt hơn làm theo mẹo của người lạ trên mạng?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Strangers online always know more because they are not busy like officials",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Online tips are better because they are free and embassy advice costs money",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The embassy knows the current procedure, while online tips may be old or wrong",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no real difference since every country uses the same procedure",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Forum posts are useful for general ideas, but procedures and fees change and differ between countries. Following old advice can waste days. Use online tips to prepare questions, then confirm everything with the official source.",
+        "vi": "Bài trên diễn đàn có ích để biết ý chung, nhưng thủ tục và phí thay đổi và khác nhau giữa các nước. Làm theo lời khuyên cũ có thể mất thêm nhiều ngày. Hãy dùng thông tin trên mạng để chuẩn bị câu hỏi, rồi xác nhận lại với nguồn chính thức."
+      }
+    },
+    {
+      "id": "q14",
+      "question": {
+        "text": "Your wallet with your bank cards is stolen in a busy market, what should you do first?",
+        "audioId": "",
+        "vi": "Ví có thẻ ngân hàng của bạn bị lấy cắp ở một khu chợ đông người, việc đầu tiên nên làm là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Chase the thief through the crowd and fight to get the wallet back",
+          "audioId": "",
+          "variants": [
+            "Chase the thief and fight for the wallet"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Call your bank immediately to block the cards before anyone can use them",
+          "audioId": "",
+          "variants": [
+            "Call the bank now and block the cards"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Post about it on social media and wait to see if anyone replies",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Wait until you get home next week before telling the bank about it",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Blocking the cards stops more money being lost, and many bank apps let you lock a card in seconds. Chasing a thief can get you hurt. After that, report the theft to the police for your insurance claim.",
+        "vi": "Khoá thẻ giúp chặn mất thêm tiền, và nhiều ứng dụng ngân hàng cho khoá thẻ chỉ trong vài giây. Đuổi theo kẻ trộm có thể khiến bạn bị thương. Sau đó hãy trình báo công an để làm hồ sơ bảo hiểm."
+      }
+    },
+    {
+      "id": "q15",
+      "question": {
+        "text": "You lost your cards and have no cash in a foreign city, what is a sensible next step?",
+        "audioId": "",
+        "vi": "Bạn mất thẻ và không còn tiền mặt ở một thành phố nước ngoài, bước tiếp theo hợp lý là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Borrow money from a friendly stranger who offers to keep your passport",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Stop eating and sleep at the station until your next flight leaves",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Use a backup card or ask family to send money through a trusted transfer service",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Give your card details to someone online who promises a quick loan",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "This is why a backup card kept separately is so useful. If you have none, family can send money through a bank or a well known transfer service, and your embassy can advise. Never hand over your passport or card details to strangers.",
+        "vi": "Đây là lý do thẻ dự phòng để riêng rất hữu ích. Nếu không có, người thân có thể gửi tiền qua ngân hàng hoặc dịch vụ chuyển tiền uy tín, và đại sứ quán có thể tư vấn. Đừng bao giờ giao hộ chiếu hay thông tin thẻ cho người lạ."
+      }
+    },
+    {
+      "id": "q16",
+      "question": {
+        "text": "Why is splitting your money and cards between two places better than keeping them together?",
+        "audioId": "",
+        "vi": "Vì sao chia tiền và thẻ ra hai nơi tốt hơn để chung một chỗ?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Splitting money makes it grow faster because it earns interest in two places",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "If one place is lost or stolen, you still have a backup to use",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It is not better, because thieves always look in both places anyway",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It only matters for business travellers and never for people on holiday",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Splitting does not stop theft, but it limits the damage. One bad moment in a crowd then costs you part of your money, not all of it, and you can keep travelling while you sort out the rest.",
+        "vi": "Chia ra không ngăn được trộm, nhưng giới hạn thiệt hại. Một lúc sơ suất trong đám đông chỉ làm bạn mất một phần chứ không phải tất cả, và bạn vẫn đi tiếp được trong khi giải quyết phần còn lại."
+      }
+    },
+    {
+      "id": "q17",
+      "question": {
+        "text": "A tourist notices her card is missing but waits until the next morning to call the bank, what is the problem?",
+        "audioId": "",
+        "vi": "Một du khách phát hiện mất thẻ nhưng đợi đến sáng hôm sau mới gọi ngân hàng, vấn đề là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Banks are closed at night, so calling later is actually always the best choice",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The only problem is that she will miss her breakfast while making the call",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Someone may use the card overnight, and the delay can make a refund harder",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no problem, since lost cards cannot be used by anyone else",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Card hotlines and app locks usually work day and night. Every hour of delay gives someone time to spend, and banks may ask why you waited. Lock first, then search; you can unlock it if the card turns up.",
+        "vi": "Đường dây nóng và chức năng khoá thẻ trên ứng dụng thường hoạt động cả ngày lẫn đêm. Mỗi giờ chậm trễ là thêm thời gian cho kẻ gian tiêu tiền, và ngân hàng có thể hỏi vì sao bạn chờ. Hãy khoá trước rồi mới tìm; tìm thấy thì mở lại."
+      }
+    },
+    {
+      "id": "q18",
+      "question": {
+        "text": "You arrive at the airport and realise you have missed your flight, what should you do first?",
+        "audioId": "",
+        "vi": "Bạn đến sân bay và nhận ra mình đã lỡ chuyến, việc đầu tiên nên làm là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Go to the airline desk quickly and ask about the next flight and your options",
+          "audioId": "",
+          "variants": [
+            "Go to the airline desk and ask about the next flight"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Go back to the hotel and buy a brand new ticket without asking anyone",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Shout at the gate staff until they agree to stop the plane for you",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Sit and wait at the gate, hoping the plane will come back for you",
+          "audioId": "",
+          "variants": [
+            "Wait at the gate and hope the plane returns"
+          ]
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Airlines sometimes have options for passengers who missed a flight, such as a later seat for a fee, depending on the ticket rules. Asking fast gives you the best choice of seats. A useful sentence: \"I missed my flight, what are my options for the next one?\"",
+        "vi": "Hãng bay đôi khi có phương án cho khách lỡ chuyến, như chuyến sau với một khoản phí, tuỳ điều kiện vé. Hỏi sớm giúp bạn có nhiều lựa chọn chỗ hơn. Câu mẫu: I missed my flight, what are my options for the next one?"
+      }
+    },
+    {
+      "id": "q19",
+      "question": {
+        "text": "Your flight is cancelled and there is a long queue at the airline desk, what is a smart move?",
+        "audioId": "",
+        "vi": "Chuyến bay của bạn bị huỷ và quầy hãng bay xếp hàng rất dài, cách làm thông minh là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Leave the airport immediately and assume the airline will contact you later",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Push to the front of the line and say you are more important",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Buy a ticket with another airline right away without checking your rights first",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Queue, but also contact the airline by phone or app at the same time",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Working on two channels at once often gets you rebooked sooner, because seats on the next flights go fast. Stay in the queue so you do not lose your place. Before paying for a new ticket yourself, ask what the airline must offer.",
+        "vi": "Làm song song hai kênh thường giúp bạn được đổi chuyến sớm hơn, vì ghế trên các chuyến tiếp theo hết rất nhanh. Vẫn đứng trong hàng để không mất lượt. Trước khi tự mua vé mới, hãy hỏi hãng có trách nhiệm hỗ trợ gì."
+      }
+    },
+    {
+      "id": "q20",
+      "question": {
+        "text": "What can passengers often ask for when an airline cancels their flight?",
+        "audioId": "",
+        "vi": "Khi hãng bay huỷ chuyến, hành khách thường có thể đề nghị những gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Nothing at all, because airlines never help when they cancel a flight",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Rebooking or a refund, and sometimes meals or a hotel, depending on local rules",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Free first class seats on every future flight for the rest of their life",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Cash compensation that is exactly the same in every country of the world",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Passenger rights depend on the country, the airline and the reason for the cancellation. In many places you can at least choose a new flight or your money back, and long waits may include meals or a room. Ask staff politely what you are entitled to.",
+        "vi": "Quyền lợi hành khách phụ thuộc vào quốc gia, hãng bay và lý do huỷ chuyến. Ở nhiều nơi bạn ít nhất được chọn chuyến khác hoặc hoàn tiền, và chờ lâu có thể được hỗ trợ bữa ăn hay phòng nghỉ. Hãy lịch sự hỏi nhân viên bạn được hưởng những gì."
+      }
+    },
+    {
+      "id": "q21",
+      "question": {
+        "text": "Why is keeping receipts during a flight delay better than relying on your memory later?",
+        "audioId": "",
+        "vi": "Vì sao giữ hoá đơn khi chuyến bay bị chậm tốt hơn là dựa vào trí nhớ sau này?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Receipts are only useful as souvenirs to remember the trip later",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Receipts prove your extra costs, which you may need for an airline or insurance claim",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Memory is better because airlines refuse any claim that has receipts",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no difference, because insurers pay without asking for any proof",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Claims are decided on evidence. Keep receipts for meals, transport and rooms, plus the delay notice or a screenshot of the flight status. A quick photo of each paper on your phone is enough to start.",
+        "vi": "Hồ sơ bồi thường được xét dựa trên bằng chứng. Hãy giữ hoá đơn ăn uống, đi lại, phòng nghỉ, cùng thông báo chậm chuyến hoặc ảnh chụp màn hình trạng thái chuyến bay. Chụp nhanh từng tờ bằng điện thoại là đủ để bắt đầu."
+      }
+    },
+    {
+      "id": "q22",
+      "question": {
+        "text": "A traveller books a connecting flight with very little time between flights on separate tickets, what is the main risk?",
+        "audioId": "",
+        "vi": "Một người đặt chuyến nối chuyến trên hai vé riêng với thời gian nối rất ngắn, rủi ro chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Separate tickets always mean the bags travel faster than the passengers",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "If the first flight is late, the second airline may not wait or help",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The only risk is having too much free time to visit the airport shops",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Connecting flights are forbidden when the tickets are bought on different days",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "On one ticket, the airline usually rebooks you if you miss a connection. On separate tickets, each airline treats you as a normal passenger, so a short gap can mean buying a new ticket. Leave plenty of time between flights.",
+        "vi": "Khi đi một vé, hãng thường đổi chuyến cho bạn nếu lỡ nối chuyến. Với hai vé riêng, mỗi hãng coi bạn là khách bình thường, nên thời gian nối quá ngắn có thể buộc bạn mua vé mới. Hãy để khoảng cách giữa hai chuyến thật rộng."
+      }
+    },
+    {
+      "id": "q23",
+      "question": {
+        "text": "Your suitcase does not appear on the baggage belt after landing, what should you do before leaving the airport?",
+        "audioId": "",
+        "vi": "Vali của bạn không xuất hiện trên băng chuyền sau khi hạ cánh, bạn nên làm gì trước khi rời sân bay?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Report it at the airline baggage desk and get a written report with a reference",
+          "audioId": "",
+          "variants": [
+            "Report it at the baggage desk and get a reference"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Leave the airport and hope the suitcase will find your hotel by itself",
+          "audioId": "",
+          "variants": [
+            "Leave and hope the bag finds your hotel"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Take a similar suitcase from the belt, because it is probably fine",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Wait silently by the belt for the whole night without speaking to anyone",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The report with a reference number lets the airline trace the bag and deliver it to you. Reporting after you leave is often harder. Give your hotel address and phone, and take a photo of the report.",
+        "vi": "Biên bản kèm mã hồ sơ giúp hãng truy tìm và giao hành lý cho bạn. Báo sau khi đã rời sân bay thường khó hơn. Hãy để lại địa chỉ khách sạn và số điện thoại, rồi chụp ảnh biên bản."
+      }
+    },
+    {
+      "id": "q24",
+      "question": {
+        "text": "Your luggage is delayed for several days and you need basic clothes, what should you do?",
+        "audioId": "",
+        "vi": "Hành lý của bạn đến chậm vài ngày và bạn cần quần áo cơ bản, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Buy a whole new expensive wardrobe and expect the airline to pay for everything",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Buy only essential items, keep the receipts, and ask the airline or insurer about claims",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Wear the same clothes for a week because claiming money is never possible",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Throw away the baggage report, since receipts are all you will ever need",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Airlines and insurers often repay reasonable costs for essentials while bags are delayed, but not luxury shopping. Ask first what they consider reasonable, keep every receipt and keep the baggage report too.",
+        "vi": "Hãng bay và bảo hiểm thường hoàn lại chi phí hợp lý cho đồ thiết yếu khi hành lý đến chậm, nhưng không trả cho mua sắm xa xỉ. Hãy hỏi trước thế nào là hợp lý, giữ mọi hoá đơn và giữ cả biên bản hành lý."
+      }
+    },
+    {
+      "id": "q25",
+      "question": {
+        "text": "Why is packing essentials in your cabin bag better than putting everything in checked luggage?",
+        "audioId": "",
+        "vi": "Vì sao để đồ thiết yếu trong hành lý xách tay tốt hơn để mọi thứ trong hành lý ký gửi?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Cabin bags are always free of security checks, so you can carry anything",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Checked luggage is never lost, so it does not really matter where things go",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "You still have medicine, documents and a change of clothes if your suitcase is lost",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Cabin bags make the plane lighter and help it arrive much earlier than planned",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A delayed suitcase is annoying; a delayed suitcase with your medicine and passport inside is a crisis. Keep anything you cannot replace quickly with you, while still following liquid and safety rules.",
+        "vi": "Vali đến chậm thì phiền; vali đến chậm mà trong đó có thuốc và hộ chiếu thì thành khủng hoảng. Hãy mang theo người những thứ không thể thay nhanh, đồng thời tuân thủ quy định về chất lỏng và an ninh."
+      }
+    },
+    {
+      "id": "q26",
+      "question": {
+        "text": "A passenger finds her suitcase damaged but only complains a month later, what is the main mistake?",
+        "audioId": "",
+        "vi": "Một hành khách thấy vali bị hỏng nhưng một tháng sau mới khiếu nại, sai lầm chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "She should have repaired it herself and never told the airline about it",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The mistake is choosing a suitcase colour that the airline did not like",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Airlines usually set short time limits for reports, so a late complaint may fail",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Complaints are only accepted when you send them by post, never online",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Damage should be reported at the airport if possible, and written claims often have deadlines of only days. Check your bag at the belt, photograph any damage and report it before you leave.",
+        "vi": "Hư hỏng nên báo ngay tại sân bay nếu được, và đơn khiếu nại bằng văn bản thường chỉ có hạn vài ngày. Hãy kiểm tra vali ngay ở băng chuyền, chụp ảnh chỗ hỏng và báo trước khi rời đi."
+      }
+    },
+    {
+      "id": "q27",
+      "question": {
+        "text": "You get a high fever while travelling abroad, what is a sensible first step?",
+        "audioId": "",
+        "vi": "Bạn bị sốt cao khi đang ở nước ngoài, bước đầu tiên hợp lý là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ignore it and keep sightseeing, because illnesses always pass after a day",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Contact your insurance hotline or hotel for advice on a clinic, and seek medical help",
+          "audioId": "",
+          "variants": [
+            "Call your insurer or hotel and get medical help"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Take any strong medicine a stranger offers you without asking a doctor",
+          "audioId": "",
+          "variants": [
+            "Take medicine from a stranger without a doctor"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Wait until you fly home next week before seeing any doctor at all",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A high fever needs proper medical advice. The insurance hotline can point you to a suitable clinic and explain payment, and hotel staff know nearby options. If you feel very unwell, go to a hospital without waiting.",
+        "vi": "Sốt cao cần được tư vấn y tế đúng cách. Đường dây nóng bảo hiểm có thể chỉ bạn đến cơ sở phù hợp và giải thích cách thanh toán, còn nhân viên khách sạn biết các nơi gần đó. Nếu thấy rất mệt, hãy đến bệnh viện ngay, đừng chờ."
+      }
+    },
+    {
+      "id": "q28",
+      "question": {
+        "text": "Why should you call your travel insurer early when you need medical care abroad?",
+        "audioId": "",
+        "vi": "Vì sao nên gọi công ty bảo hiểm du lịch sớm khi cần khám chữa bệnh ở nước ngoài?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "They can guide you to suitable clinics and explain what costs they will cover",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Insurers only want calls after you are completely healthy again",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Calling early cancels the policy, so it is better to wait until later",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The insurer will fly a personal doctor to your hotel room every time",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Some policies require you to contact them before treatment that is not an emergency, or they may pay less. Early contact also means they may pay the clinic directly. In a real emergency, get care first and call them as soon as you can.",
+        "vi": "Một số hợp đồng yêu cầu bạn liên hệ trước khi điều trị không khẩn cấp, nếu không có thể được chi trả ít hơn. Liên hệ sớm cũng giúp họ có thể thanh toán thẳng cho cơ sở y tế. Khi thật sự khẩn cấp, hãy đi cấp cứu trước rồi gọi họ sớm nhất có thể."
+      }
+    },
+    {
+      "id": "q29",
+      "question": {
+        "text": "In a serious emergency abroad, such as chest pain or a bad accident, what should you do?",
+        "audioId": "",
+        "vi": "Khi gặp tình huống khẩn cấp nghiêm trọng ở nước ngoài như đau ngực hay tai nạn nặng, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Call the local emergency number or get help to a hospital straight away",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "First spend an hour comparing hotel reviews to find the cheapest clinic",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Send a long email to your insurer and wait for a reply first",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Search online for symptoms and treat yourself alone in your hotel room",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Life comes before paperwork. Emergency numbers differ by country, so save the local one before you travel and ask hotel staff to call if you cannot. Contact the insurer after the urgent care has started.",
+        "vi": "Tính mạng quan trọng hơn giấy tờ. Số khẩn cấp mỗi nước khác nhau, nên hãy lưu số của nước đến trước khi đi, và nhờ nhân viên khách sạn gọi nếu bạn không tự gọi được. Liên hệ bảo hiểm sau khi đã được cấp cứu."
+      }
+    },
+    {
+      "id": "q30",
+      "question": {
+        "text": "Why is carrying medicine in its original box with a prescription better than loose pills in a bag?",
+        "audioId": "",
+        "vi": "Vì sao mang thuốc trong hộp gốc kèm đơn thuốc tốt hơn để thuốc rời trong túi?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Loose pills are better because they take less space and nobody ever checks",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Boxes are only important for vitamins, not for any prescription medicine at all",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "There is no difference, because every country allows all medicines the same way",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It is clearer for customs and doctors, since rules on medicines vary by country",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Some common medicines are restricted in certain countries. The original box and a prescription or doctor's letter show what the medicine is and why you need it. They also help a foreign doctor give you the right treatment.",
+        "vi": "Một số thuốc thông dụng bị hạn chế ở vài nước. Hộp thuốc gốc kèm đơn hoặc giấy của bác sĩ cho thấy đó là thuốc gì và vì sao bạn cần. Chúng cũng giúp bác sĩ nước ngoài điều trị đúng cho bạn."
+      }
+    },
+    {
+      "id": "q31",
+      "question": {
+        "text": "A taxi driver at the airport refuses to use the meter and names a very high price, what should you do?",
+        "audioId": "",
+        "vi": "Tài xế taxi ở sân bay không chịu bật đồng hồ và hét giá rất cao, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Politely decline and use an official taxi stand or a trusted ride app instead",
+          "audioId": "",
+          "variants": [
+            "Say no politely and use an official taxi or app"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Accept the price and get in, because arguing is always rude abroad",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Shout at the driver loudly until he agrees to give you a free ride",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Get in first and refuse to pay anything when you reach the hotel",
+          "audioId": "",
+          "variants": [
+            "Get in and refuse to pay at the hotel"
+          ]
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Fighting about price in a car is risky; leaving before you get in costs nothing. Official stands and ride apps show a fixed or metered price. A simple line: \"No, thank you, I will take another taxi.\"",
+        "vi": "Cãi nhau về giá khi đã ngồi trong xe rất rủi ro; từ chối trước khi lên xe thì không mất gì. Quầy taxi chính thức và ứng dụng gọi xe có giá cố định hoặc tính theo đồng hồ. Câu đơn giản: No, thank you, I will take another taxi."
+      }
+    },
+    {
+      "id": "q32",
+      "question": {
+        "text": "A friendly stranger says your hotel is closed and offers to take you to another one, what is the best response?",
+        "audioId": "",
+        "vi": "Một người lạ thân thiện nói khách sạn của bạn đã đóng cửa và đề nghị đưa bạn đến chỗ khác, cách phản ứng tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Follow them at once, because locals always know the best places to stay",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Thank them, decline, and check directly with your hotel by phone or message",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Give them your passport so they can check you in more quickly",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Pay them a deposit straight away to make sure you get a room",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Saying a place is closed is a common way to take tourists to shops or hotels that pay commission. Verify with the source yourself. Being polite but firm keeps you safe without starting an argument.",
+        "vi": "Nói rằng nơi bạn định đến đã đóng cửa là cách quen thuộc để dẫn khách đến cửa hàng hay khách sạn có trả hoa hồng. Hãy tự kiểm tra với nơi đó. Lịch sự nhưng dứt khoát giúp bạn an toàn mà không gây tranh cãi."
+      }
+    },
+    {
+      "id": "q33",
+      "question": {
+        "text": "Which warning signs often suggest a tourist scam?",
+        "audioId": "",
+        "vi": "Những dấu hiệu cảnh báo nào thường cho thấy một chiêu lừa du khách?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Pressure to decide fast, deals that seem too good, and requests for cash upfront",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Clear printed prices, official receipts and staff who wear name badges",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Shops that let you take time to compare prices before you decide",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Sellers who explain the return policy and give written details of the deal",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Scams usually rush you so you cannot think, offer something unusually cheap or free, and ask for cash before you get anything. When you notice these signs, slow down, step away and check independently.",
+        "vi": "Chiêu lừa thường hối thúc để bạn không kịp nghĩ, đưa ra thứ rẻ bất thường hoặc miễn phí, và đòi tiền mặt trước khi bạn nhận được gì. Khi thấy những dấu hiệu này, hãy chậm lại, rời đi và tự kiểm tra."
+      }
+    },
+    {
+      "id": "q34",
+      "question": {
+        "text": "A tourist orders food without checking prices and then argues angrily about the bill, what was the earlier mistake?",
+        "audioId": "",
+        "vi": "Một du khách gọi món mà không hỏi giá rồi cãi nhau gay gắt khi thanh toán, sai lầm từ trước đó là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Eating at a restaurant at all instead of cooking every meal in the hotel",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Ordering in English instead of learning the local language perfectly first",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Leaving the hotel without a guide, which is never allowed for tourists",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Not confirming the price before ordering, which would have avoided the surprise",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Most overcharging problems are easier to prevent than to fix. Ask to see a menu with prices, or point and ask \"How much is this?\" before you order. Seafood sold by weight is a common place for surprises.",
+        "vi": "Phần lớn chuyện bị chặt chém dễ phòng hơn dễ sửa. Hãy xin thực đơn có giá, hoặc chỉ vào món và hỏi How much is this trước khi gọi. Hải sản tính theo cân là chỗ hay gây bất ngờ."
+      }
+    },
+    {
+      "id": "q35",
+      "question": {
+        "text": "Why is staying calm and asking for an itemised bill better than shouting when you think you are overcharged?",
+        "audioId": "",
+        "vi": "Vì sao giữ bình tĩnh và xin hoá đơn chi tiết tốt hơn la hét khi bạn nghĩ mình bị tính giá quá cao?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Shouting is better because staff always lower the price for loud customers",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Asking for details is pointless because bills are never wrong anywhere",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Staying calm means you must pay whatever they ask without any question",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A calm request for details often fixes errors, while shouting can make things dangerous",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "An itemised bill shows exactly what you are paying for, and honest mistakes are often fixed at once. Shouting makes people defensive and, in some places, unsafe. If the problem is serious, pay what is safe and report it to the tourist police or the platform later.",
+        "vi": "Hoá đơn chi tiết cho thấy chính xác bạn trả tiền cho những gì, và nhầm lẫn thật thường được sửa ngay. La hét khiến người khác phòng thủ và ở một số nơi còn mất an toàn. Nếu nghiêm trọng, hãy trả khoản an toàn rồi báo cảnh sát du lịch hoặc nền tảng sau."
+      }
+    },
+    {
+      "id": "q36",
+      "question": {
+        "text": "You arrive at your hotel late at night and they say they have no record of your booking, what should you do?",
+        "audioId": "",
+        "vi": "Bạn đến khách sạn lúc khuya và lễ tân nói không có thông tin đặt phòng của bạn, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Leave quietly and sleep in the lobby without showing any proof",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Shout at the receptionist and post angry reviews before they finish checking",
+          "audioId": "",
+          "variants": [
+            "Shout and post angry reviews right away"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Delete your booking email because it clearly did not work anyway",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Stay calm, show your booking confirmation, and ask them to check or find an alternative",
+          "audioId": "",
+          "variants": [
+            "Stay calm, show the confirmation and ask for a solution"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Bookings are sometimes saved under another name or date. The confirmation number helps staff find it. If the room truly is not there, ask them to arrange a similar hotel, and contact the booking platform, which often has a support line for this.",
+        "vi": "Đặt phòng đôi khi bị lưu dưới tên hoặc ngày khác. Mã xác nhận giúp nhân viên tìm ra. Nếu thật sự không có phòng, hãy đề nghị họ sắp xếp khách sạn tương đương, và liên hệ nền tảng đặt phòng, nơi thường có bộ phận hỗ trợ cho việc này."
+      }
+    },
+    {
+      "id": "q37",
+      "question": {
+        "text": "Your hotel room is very different from the photos you booked, what is the best way to complain?",
+        "audioId": "",
+        "vi": "Phòng khách sạn rất khác so với ảnh lúc đặt, cách khiếu nại tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say nothing now and write a furious review after you have checked out",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Refuse to pay anything and leave without speaking to the staff",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Politely explain the difference, show the booking details, and ask for another room",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Damage something in the room so the hotel understands how upset you are",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Hotels can fix problems only while you are still there. Compare the room with what you booked, take photos, and ask for a clear solution such as a room change or partial refund. If that fails, contact the booking platform with your evidence.",
+        "vi": "Khách sạn chỉ sửa được khi bạn còn ở đó. Hãy so phòng với những gì đã đặt, chụp ảnh, và đề nghị một giải pháp rõ ràng như đổi phòng hoặc hoàn một phần tiền. Nếu không được, liên hệ nền tảng đặt phòng kèm bằng chứng."
+      }
+    },
+    {
+      "id": "q38",
+      "question": {
+        "text": "Why is booking through a well known platform or the hotel's official website better than paying a stranger online?",
+        "audioId": "",
+        "vi": "Vì sao đặt phòng qua nền tảng uy tín hoặc trang chính thức của khách sạn tốt hơn chuyển tiền cho người lạ trên mạng?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Strangers online always offer the best rooms because they know the owners",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Official channels give confirmation and support, while unknown sellers may be scams",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "There is no difference, because all online payments are protected the same way",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Official websites are only for business travellers and never for families",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Fake listings and bank transfer requests are common traps. A reputable channel gives you a booking number, a clear cancellation policy and someone to contact when things go wrong.",
+        "vi": "Phòng ảo và yêu cầu chuyển khoản là những cái bẫy phổ biến. Kênh uy tín cho bạn mã đặt phòng, chính sách huỷ rõ ràng và có nơi để liên hệ khi có sự cố."
+      }
+    },
+    {
+      "id": "q39",
+      "question": {
+        "text": "You are lost in a foreign city and your phone battery is dead, what is the safest thing to do?",
+        "audioId": "",
+        "vi": "Bạn bị lạc ở thành phố nước ngoài và điện thoại hết pin, việc an toàn nhất nên làm là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Keep walking randomly into quiet streets until something looks familiar",
+          "audioId": "",
+          "variants": [
+            "Keep walking into quiet streets at random"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Accept a ride from the first stranger who offers to help you",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Sit on the pavement and wait until your phone charges itself",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Go into a shop, hotel or station and show the hotel address to staff",
+          "audioId": "",
+          "variants": [
+            "Go into a shop or hotel and show the address"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Busy, staffed places are safer and the people there can point you or call a taxi. This is why a paper card with your hotel address matters. You can say: \"Excuse me, I am lost, how can I get to this address?\"",
+        "vi": "Nơi đông người và có nhân viên an toàn hơn, và họ có thể chỉ đường hoặc gọi taxi giúp. Đây là lý do nên mang theo tấm thẻ giấy có địa chỉ khách sạn. Bạn có thể nói: Excuse me, I am lost, how can I get to this address?"
+      }
+    },
+    {
+      "id": "q40",
+      "question": {
+        "text": "Why should you carry the hotel's name and address written in the local language?",
+        "audioId": "",
+        "vi": "Vì sao nên mang theo tên và địa chỉ khách sạn viết bằng tiếng địa phương?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Hotels refuse guests who cannot write their address in the local language",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It is a legal document that replaces your passport in most countries",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Taxi drivers and locals can read it easily even if they do not speak English",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It helps you win discounts at every restaurant you visit in the city",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "In many countries, the local script is what drivers recognise fastest. A hotel business card or a screenshot of the address in the local language solves a language barrier in seconds. Ask reception for one when you check in.",
+        "vi": "Ở nhiều nước, tài xế nhận ra chữ bản địa nhanh nhất. Danh thiếp khách sạn hoặc ảnh chụp địa chỉ bằng tiếng địa phương giải quyết rào cản ngôn ngữ trong vài giây. Hãy xin lễ tân một tấm khi nhận phòng."
+      }
+    },
+    {
+      "id": "q41",
+      "question": {
+        "text": "A shop assistant does not understand your English, what is the most effective thing to try?",
+        "audioId": "",
+        "vi": "Nhân viên cửa hàng không hiểu tiếng Anh của bạn, cách hiệu quả nhất nên thử là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Repeat the same long sentence louder and faster until they understand you",
+          "audioId": "",
+          "variants": [
+            "Repeat it louder and faster"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Give up immediately and leave the shop without the thing you need",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Get angry and say that everyone should speak English by now",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Speak slowly with simple words, and use gestures, pictures or a translation app",
+          "audioId": "",
+          "variants": [
+            "Speak slowly and use gestures or a translation app"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Volume does not help understanding; simpler words, pictures and a translation app do. Show a photo of the item or type the key word. Smiling and thanking them keeps the conversation friendly.",
+        "vi": "Nói to hơn không làm người khác hiểu hơn; từ đơn giản, hình ảnh và ứng dụng dịch mới giúp được. Hãy cho xem ảnh món đồ hoặc gõ từ khoá. Mỉm cười và cảm ơn giúp cuộc trò chuyện thân thiện."
+      }
+    },
+    {
+      "id": "q42",
+      "question": {
+        "text": "Why is using short simple sentences better than long complex ones when there is a language barrier?",
+        "audioId": "",
+        "vi": "Vì sao dùng câu ngắn, đơn giản tốt hơn câu dài, phức tạp khi gặp rào cản ngôn ngữ?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Short sentences with key words are easier to understand and to translate",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Long sentences are better because they sound more polite and educated",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "There is no difference, because everyone understands complicated English anyway",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Short sentences are rude in every culture, so you should never use them",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A listener with basic English or a translation app catches key words, not long grammar. Compare \"Where is the station, please?\" with a long polite paragraph. Add please and thank you to stay polite while keeping it short.",
+        "vi": "Người nghe biết ít tiếng Anh hoặc ứng dụng dịch sẽ bắt được từ khoá, không phải câu ngữ pháp dài. Hãy so Where is the station, please với một đoạn dài vòng vo. Thêm please và thank you để vẫn lịch sự mà vẫn ngắn."
+      }
+    },
+    {
+      "id": "q43",
+      "question": {
+        "text": "A traveller relies only on one phone for maps, tickets and bookings with no backup, what is the weakness?",
+        "audioId": "",
+        "vi": "Một du khách chỉ dựa vào một chiếc điện thoại cho bản đồ, vé và đặt chỗ mà không có dự phòng, điểm yếu là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "If the phone is lost or out of battery, he loses everything he needs",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Phones are too heavy to carry when you are walking around a city",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Maps on phones are always wrong in every country outside Vietnam",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Using a phone abroad is never allowed by any hotel or airline",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A phone is a great tool but a fragile single point of failure. Carry a power bank, download offline maps, and keep key bookings and addresses on paper or in an email you can open from another device.",
+        "vi": "Điện thoại là công cụ tuyệt vời nhưng cũng là điểm yếu duy nhất dễ hỏng. Hãy mang sạc dự phòng, tải bản đồ ngoại tuyến, và giữ các xác nhận đặt chỗ, địa chỉ quan trọng trên giấy hoặc trong email mở được từ thiết bị khác."
+      }
+    },
+    {
+      "id": "q44",
+      "question": {
+        "text": "On a business trip, heavy traffic means you will be late for a meeting with a client, what should you do?",
+        "audioId": "",
+        "vi": "Trong chuyến công tác, kẹt xe khiến bạn sẽ đến muộn buổi gặp khách hàng, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say nothing and arrive late, hoping the client will not notice the delay",
+          "audioId": "",
+          "variants": [
+            "Say nothing and hope they do not notice"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Message or call the client early, apologise, and give a realistic new arrival time",
+          "audioId": "",
+          "variants": [
+            "Tell the client early, apologise and give a new time"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Cancel the meeting completely without explaining anything to the client",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Blame the hotel loudly when you arrive and ask the client to agree",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Early notice lets the client use the time well and shows respect. Expectations about punctuality vary by culture, so treat lateness seriously everywhere. Sample message: \"I am very sorry, traffic is heavy, I will arrive in about twenty minutes.\"",
+        "vi": "Báo sớm giúp khách hàng chủ động thời gian và thể hiện sự tôn trọng. Mức coi trọng đúng giờ khác nhau theo văn hoá, nên ở đâu cũng nên nghiêm túc với việc đến muộn. Tin nhắn mẫu: I am very sorry, traffic is heavy, I will arrive in about twenty minutes."
+      }
+    },
+    {
+      "id": "q45",
+      "question": {
+        "text": "Why is giving a realistic arrival time better than saying you are almost there when you are not?",
+        "audioId": "",
+        "vi": "Vì sao đưa ra giờ đến thực tế tốt hơn nói sắp tới nơi khi thực ra chưa?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A realistic time lets the client plan, while false promises damage trust quickly",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Saying you are almost there is better because clients like to hear good news",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "There is no difference, because clients never check the time of a meeting",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Realistic times are only needed when the meeting is with your own team",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Saying \"almost there\" three times is worse than one honest message. Add a little extra time to your estimate; arriving earlier than promised feels good, while arriving later twice looks unreliable.",
+        "vi": "Nói sắp đến ba lần còn tệ hơn một tin nhắn trung thực. Hãy cộng thêm chút thời gian vào ước tính; đến sớm hơn hứa thì dễ chịu, còn trễ hai lần trông thiếu tin cậy."
+      }
+    },
+    {
+      "id": "q46",
+      "question": {
+        "text": "Before meeting a foreign partner for the first time, what is a good way to avoid cultural misunderstandings?",
+        "audioId": "",
+        "vi": "Trước khi gặp đối tác nước ngoài lần đầu, cách tốt để tránh hiểu lầm văn hoá là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Learn their basic customs on greetings, punctuality and gifts, and ask a local colleague",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Assume their customs are exactly the same as those in your own office",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Avoid any preparation, because cultural differences never matter in modern business",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Copy behaviour from films about the country and use it in every meeting",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Small things like how to greet, how to exchange business cards or what gift is suitable can shape the first impression. Read a reliable guide, then check with a colleague who knows the country, since customs vary between regions and companies too.",
+        "vi": "Những điều nhỏ như cách chào, cách trao danh thiếp hay món quà nào phù hợp có thể quyết định ấn tượng đầu tiên. Hãy đọc một nguồn đáng tin, rồi hỏi lại đồng nghiệp hiểu nước đó, vì phong tục còn khác nhau giữa các vùng và các công ty."
+      }
+    },
+    {
+      "id": "q47",
+      "question": {
+        "text": "During a business dinner abroad, you realise you have accidentally offended your host, what is the best response?",
+        "audioId": "",
+        "vi": "Trong bữa tối công việc ở nước ngoài, bạn nhận ra mình vô tình làm chủ nhà phật lòng, cách phản ứng tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Pretend nothing happened and continue as if the host is not upset at all",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Explain at length that your own culture is better and more logical",
+          "audioId": "",
+          "variants": [
+            "Explain that your culture is better"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Leave the dinner immediately without saying goodbye to anybody at the table",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Apologise sincerely and briefly, ask what is appropriate, and learn from it",
+          "audioId": "",
+          "variants": [
+            "Apologise briefly and ask what is appropriate"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Most hosts forgive a visitor who makes an honest mistake and shows respect. A short apology and a real question show you care. You might say: \"I am sorry, I did not know, what is the custom here?\"",
+        "vi": "Phần lớn chủ nhà sẵn lòng bỏ qua cho khách lỡ sai một cách vô tình nhưng biết tôn trọng. Một lời xin lỗi ngắn và một câu hỏi thật lòng cho thấy bạn quan tâm. Bạn có thể nói: I am sorry, I did not know, what is the custom here?"
+      }
+    },
+    {
+      "id": "q48",
+      "question": {
+        "text": "What does it mean to separate facts from assumptions when a cultural misunderstanding happens?",
+        "audioId": "",
+        "vi": "Tách sự việc khỏi suy đoán khi xảy ra hiểu lầm văn hoá nghĩa là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Describe what actually happened before deciding what the other person meant by it",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Always assume the other person wanted to insult you on purpose",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ignore what happened and focus only on how angry you feel about it",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask your colleagues to vote on who was right before talking to anyone",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The fact might be that a partner did not reply to your email for two days; the assumption is that they are not interested. In some cultures slower replies are normal. Check the meaning with a question before reacting.",
+        "vi": "Sự việc có thể là đối tác chưa trả lời email trong hai ngày; suy đoán là họ không quan tâm. Ở một số nền văn hoá, trả lời chậm là bình thường. Hãy hỏi lại để hiểu đúng trước khi phản ứng."
+      }
+    },
+    {
+      "id": "q49",
+      "question": {
+        "text": "A manager sends a junior colleague abroad without sharing contacts, schedule or emergency plans, what is the main mistake?",
+        "audioId": "",
+        "vi": "Một quản lý cử nhân viên trẻ đi công tác nước ngoài mà không chia sẻ liên hệ, lịch trình hay phương án khẩn cấp, sai lầm chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The colleague will have too much free time to explore the new city",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The colleague has no information or support if something goes wrong on the trip",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The trip is too short, so it should have been planned for three months",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Juniors should never travel for work, only senior managers should go",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A good business trip brief includes the schedule, client contacts, a company contact for emergencies, insurance details and spending rules. Five minutes of sharing can save a day of confusion when a flight is cancelled.",
+        "vi": "Một bản giao việc tốt cho chuyến công tác gồm lịch trình, liên hệ khách hàng, người liên hệ của công ty khi khẩn cấp, thông tin bảo hiểm và quy định chi tiêu. Năm phút chia sẻ có thể tiết kiệm cả ngày rối ren khi chuyến bay bị huỷ."
+      }
+    },
+    {
+      "id": "q50",
+      "question": {
+        "text": "Your laptop with a presentation is stolen the day before an important meeting abroad, what is the best plan?",
+        "audioId": "",
+        "vi": "Laptop có bài thuyết trình của bạn bị lấy cắp một ngày trước buổi họp quan trọng ở nước ngoài, phương án tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Cancel the meeting and stay in the hotel until you fly home again",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Present with no slides and pretend the presentation never existed",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Borrow a stranger's laptop and log in to every company account on it",
+          "audioId": "",
+          "variants": [
+            "Use a stranger's laptop for company accounts"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Report the theft, tell your company, rebuild slides on your phone or company-approved device",
+          "audioId": "",
+          "variants": [
+            "Report it, tell your company and use an approved device"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Report to the police for insurance, and tell your company quickly so IT can protect accounts. A cloud backup lets you rebuild the slides on your phone or a company-approved device. Never log in to company accounts on a stranger's computer.",
+        "vi": "Trình báo công an để làm bảo hiểm, và báo công ty ngay để bộ phận IT bảo vệ tài khoản. Bản sao lưu trên đám mây giúp bạn dựng lại slide trên điện thoại hoặc thiết bị được công ty cho phép. Đừng bao giờ đăng nhập tài khoản công ty trên máy của người lạ."
+      }
+    }
+  ]
+}

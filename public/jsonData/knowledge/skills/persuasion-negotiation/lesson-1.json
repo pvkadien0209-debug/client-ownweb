@@ -1,0 +1,2403 @@
+{
+  "id": "lesson-1",
+  "branch": "skills",
+  "topic": "persuasion-negotiation",
+  "title": {
+    "vi": "Thuyết phục và đàm phán",
+    "en": "Persuasion and negotiation"
+  },
+  "level": "B1",
+  "status": "draft",
+  "updatedAt": "2026-10-14",
+  "reviewNote": "Bản nháp do Claude soạn và tự kiểm (2026-10-14). Chờ DIENPHAM duyệt.",
+  "overview": [
+    {
+      "heading": {
+        "en": "Look for the interest behind the position",
+        "vi": "Tìm lợi ích đằng sau lập trường"
+      },
+      "paragraphs": [
+        {
+          "en": "A position is what someone asks for, like a lower price. An interest is why they want it, like a tight monthly budget. Arguing about positions usually leaves one winner, but asking why opens several ways to satisfy both sides.",
+          "vi": "Lập trường là điều người ta đòi, như giá thấp hơn. Lợi ích là lý do họ muốn điều đó, như ngân sách tháng eo hẹp. Tranh cãi về lập trường thường chỉ có một người thắng, còn hỏi \"vì sao\" mở ra nhiều cách đáp ứng cả hai bên."
+        },
+        {
+          "en": "Useful questions are simple: What matters most to you here, and what would make this work for you.",
+          "vi": "Những câu hỏi hữu ích rất đơn giản: \"Điều gì quan trọng nhất với anh chị ở đây?\" và \"Cần gì để phương án này ổn với anh chị?\""
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Prepare your limit and your plan B",
+        "vi": "Chuẩn bị giới hạn và phương án B"
+      },
+      "paragraphs": [
+        {
+          "en": "Before any negotiation, write down three things: your target, your walk-away point and your best alternative if there is no deal, often called a BATNA. A strong plan B lets you stay calm and say no to bad offers.",
+          "vi": "Trước mọi cuộc đàm phán, hãy ghi ra ba điều: mức mục tiêu, điểm dừng, và phương án thay thế tốt nhất nếu không thành, thường gọi là BATNA. Phương án B mạnh giúp bạn bình tĩnh và dám từ chối lời đề nghị tệ."
+        },
+        {
+          "en": "Also guess what the other side needs. This helps you plan trades before you sit down.",
+          "vi": "Hãy đoán thêm bên kia cần gì. Việc này giúp bạn lên sẵn các phương án trao đổi trước khi ngồi vào bàn."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Persuade with reasons, evidence and good listening",
+        "vi": "Thuyết phục bằng lý do, bằng chứng và lắng nghe"
+      },
+      "paragraphs": [
+        {
+          "en": "Strong reasons connect to what the listener cares about and are backed by a concrete example or number. When someone objects, listen fully, check what the real worry is, and then answer that worry.",
+          "vi": "Lý do mạnh gắn với điều người nghe quan tâm và có ví dụ hoặc con số cụ thể đi kèm. Khi ai đó phản đối, hãy nghe hết, kiểm tra mối lo thật là gì, rồi trả lời đúng mối lo đó."
+        },
+        {
+          "en": "When asking for a raise, talk about your results and the market, not your personal costs or what colleagues earn.",
+          "vi": "Khi xin tăng lương, hãy nói về kết quả công việc và mặt bằng thị trường, không nói về chi phí riêng hay lương của đồng nghiệp."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Trade instead of giving in",
+        "vi": "Trao đổi thay vì nhượng bộ không công"
+      },
+      "paragraphs": [
+        {
+          "en": "Every concession should come with something in return: If you can pay this week, I can include delivery. Look for things that are cheap for you but valuable to them, such as timing, quantity, warranty or extra days off.",
+          "vi": "Mỗi lần nhượng bộ nên đi kèm một điều đổi lại: \"Nếu anh thanh toán trong tuần, em sẽ miễn phí giao hàng.\" Hãy tìm những thứ bạn tốn ít mà họ thấy giá trị, như thời gian, số lượng, bảo hành hay ngày nghỉ bù."
+        },
+        {
+          "en": "Silence and patience are tools too. After an offer, wait calmly instead of lowering your price to fill the pause.",
+          "vi": "Im lặng và kiên nhẫn cũng là công cụ. Sau khi đưa ra đề nghị, hãy bình tĩnh chờ thay vì tự hạ giá để lấp khoảng lặng."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "A sample situation analysed",
+        "vi": "Phân tích một tình huống mẫu"
+      },
+      "paragraphs": [
+        {
+          "en": "A young office worker sells her scooter. The first buyer offers far below her price and says he must decide today. She almost accepts out of panic. What went well: she had listed the scooter at a researched price. What went wrong: she had no limit and no second buyer, so the fake deadline worked on her.",
+          "vi": "Một nhân viên văn phòng trẻ bán chiếc xe tay ga. Người mua đầu tiên trả giá thấp hơn nhiều và nói phải quyết ngay hôm nay. Cô suýt đồng ý vì hoảng. Điểm được: cô đăng giá có tìm hiểu. Điểm chưa được: cô không có giới hạn và không có người mua thứ hai, nên hạn chót giả có tác dụng với cô."
+        },
+        {
+          "en": "A better approach: set a limit before posting, keep talking with two or three buyers, reply with a counter offer and reasons, and confirm the final price and handover time in a message.",
+          "vi": "Cách tốt hơn: đặt giới hạn trước khi đăng bán, giữ liên lạc với hai ba người mua, trả lời bằng mức giá đề xuất lại kèm lý do, và xác nhận giá chốt cùng thời gian giao xe qua tin nhắn."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Avoid pressure and close clearly",
+        "vi": "Tránh gây áp lực và chốt rõ ràng"
+      },
+      "paragraphs": [
+        {
+          "en": "Fake deadlines, take it or leave it and guilt can win today but damage trust tomorrow. Notice them, name them calmly and give yourself time to compare with your plan B.",
+          "vi": "Hạn chót giả, \"chịu thì lấy\" và đánh vào cảm giác tội lỗi có thể thắng hôm nay nhưng làm mất lòng tin ngày mai. Hãy nhận ra, gọi tên chúng một cách bình tĩnh và cho mình thời gian so với phương án B."
+        },
+        {
+          "en": "At the end, summarise who does what and by when, then confirm the key points in writing.",
+          "vi": "Cuối cùng, hãy tóm tắt ai làm gì và trước khi nào, rồi xác nhận các điểm chính bằng văn bản."
+        }
+      ]
+    }
+  ],
+  "tree": [
+    {
+      "title": {
+        "en": "Interests and preparation",
+        "vi": "Lợi ích và chuẩn bị"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Interests versus positions",
+            "vi": "Lợi ích và lập trường"
+          },
+          "note": {
+            "en": "Ask why to find the need behind the demand.",
+            "vi": "Hỏi \"vì sao\" để tìm nhu cầu đằng sau lời đòi hỏi."
+          },
+          "questions": [
+            "q01",
+            "q02",
+            "q08",
+            "q09"
+          ]
+        },
+        {
+          "title": {
+            "en": "Walk-away point and plan B",
+            "vi": "Điểm dừng và phương án B"
+          },
+          "note": {
+            "en": "Know your limit and your best alternative before you start.",
+            "vi": "Biết giới hạn và phương án thay thế tốt nhất trước khi bắt đầu."
+          },
+          "questions": [
+            "q03",
+            "q04",
+            "q05"
+          ]
+        },
+        {
+          "title": {
+            "en": "Preparing well",
+            "vi": "Chuẩn bị kỹ"
+          },
+          "note": {
+            "en": "Write down goals, limit, plan B and their needs.",
+            "vi": "Ghi ra mục tiêu, giới hạn, phương án B và nhu cầu của bên kia."
+          },
+          "questions": [
+            "q06",
+            "q07"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Asking for a raise",
+        "vi": "Đề nghị tăng lương"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Building your case",
+            "vi": "Chuẩn bị lý lẽ"
+          },
+          "note": {
+            "en": "Results and market pay, at the right moment.",
+            "vi": "Kết quả công việc và lương thị trường, đúng thời điểm."
+          },
+          "questions": [
+            "q10",
+            "q11",
+            "q12",
+            "q15"
+          ]
+        },
+        {
+          "title": {
+            "en": "During the conversation",
+            "vi": "Trong buổi trao đổi"
+          },
+          "note": {
+            "en": "Give a researched number; turn a no into a plan.",
+            "vi": "Đưa con số có tìm hiểu; biến lời từ chối thành kế hoạch."
+          },
+          "questions": [
+            "q13",
+            "q14",
+            "q16"
+          ]
+        },
+        {
+          "title": {
+            "en": "After a yes",
+            "vi": "Sau khi được đồng ý"
+          },
+          "note": {
+            "en": "Confirm the amount and date by email.",
+            "vi": "Xác nhận mức lương và ngày áp dụng qua email."
+          },
+          "questions": [
+            "q17"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Negotiating price",
+        "vi": "Thương lượng giá khi mua bán"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Opening numbers",
+            "vi": "Con số mở đầu"
+          },
+          "note": {
+            "en": "Research, then set a target and a limit.",
+            "vi": "Tìm hiểu giá, rồi đặt mức mục tiêu và mức giới hạn."
+          },
+          "questions": [
+            "q18",
+            "q19",
+            "q25"
+          ]
+        },
+        {
+          "title": {
+            "en": "Counter offers and extras",
+            "vi": "Trả giá lại và đòi thêm giá trị"
+          },
+          "note": {
+            "en": "Give reasons and ask for extras when price is fixed.",
+            "vi": "Nêu lý do và xin thêm giá trị khi giá không giảm."
+          },
+          "questions": [
+            "q20",
+            "q21",
+            "q24"
+          ]
+        },
+        {
+          "title": {
+            "en": "Common traps",
+            "vi": "Những cái bẫy thường gặp"
+          },
+          "note": {
+            "en": "Do not show too much excitement or accept fake urgency.",
+            "vi": "Đừng tỏ ra quá thích hay chạy theo sự gấp gáp giả."
+          },
+          "questions": [
+            "q22",
+            "q23",
+            "q26"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Persuading and handling objections",
+        "vi": "Thuyết phục và xử lý phản đối"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Reasons and evidence",
+            "vi": "Lý do và bằng chứng"
+          },
+          "note": {
+            "en": "Connect to their concern and show one clear example.",
+            "vi": "Gắn với mối quan tâm của họ và đưa một ví dụ rõ ràng."
+          },
+          "questions": [
+            "q27",
+            "q28",
+            "q29",
+            "q34"
+          ]
+        },
+        {
+          "title": {
+            "en": "Handling objections",
+            "vi": "Xử lý lời phản đối"
+          },
+          "note": {
+            "en": "Listen fully, find the real worry, then answer it.",
+            "vi": "Nghe hết, tìm mối lo thật, rồi trả lời đúng mối lo đó."
+          },
+          "questions": [
+            "q30",
+            "q31",
+            "q32",
+            "q33",
+            "q35"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Win-win trades and patience",
+        "vi": "Trao đổi đôi bên cùng lợi và kiên nhẫn"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Making good trades",
+            "vi": "Trao đổi khéo"
+          },
+          "note": {
+            "en": "Give what is cheap for you and valuable to them, never for free.",
+            "vi": "Cho thứ bạn tốn ít mà họ thấy giá trị, và không bao giờ cho không."
+          },
+          "questions": [
+            "q36",
+            "q37",
+            "q38",
+            "q42",
+            "q43"
+          ]
+        },
+        {
+          "title": {
+            "en": "Silence and patience",
+            "vi": "Im lặng và kiên nhẫn"
+          },
+          "note": {
+            "en": "Wait calmly after an offer instead of filling the pause.",
+            "vi": "Bình tĩnh chờ sau khi đề nghị thay vì lấp khoảng lặng."
+          },
+          "questions": [
+            "q39",
+            "q40",
+            "q41"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Pressure tactics and closing",
+        "vi": "Chiêu gây áp lực và chốt thoả thuận"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Spotting and resisting pressure",
+            "vi": "Nhận ra và đứng vững trước áp lực"
+          },
+          "note": {
+            "en": "Name the tactic calmly and compare with your plan B.",
+            "vi": "Gọi tên chiêu thức bình tĩnh và so với phương án B."
+          },
+          "questions": [
+            "q44",
+            "q45",
+            "q46",
+            "q47"
+          ]
+        },
+        {
+          "title": {
+            "en": "Closing and confirming",
+            "vi": "Chốt và xác nhận"
+          },
+          "note": {
+            "en": "Summarise, then confirm in writing.",
+            "vi": "Tóm tắt lại, rồi xác nhận bằng văn bản."
+          },
+          "questions": [
+            "q48",
+            "q49",
+            "q50"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "en": "Ask why to find the interest behind each position.",
+      "vi": "Hỏi \"vì sao\" để tìm lợi ích đằng sau mỗi lập trường."
+    },
+    {
+      "en": "Decide your target, your limit and your plan B before you start.",
+      "vi": "Quyết định mức mục tiêu, giới hạn và phương án B trước khi bắt đầu."
+    },
+    {
+      "en": "Ask for a raise with results and market data, at a good moment.",
+      "vi": "Xin tăng lương bằng kết quả và dữ liệu thị trường, vào thời điểm phù hợp."
+    },
+    {
+      "en": "Persuade with reasons the listener cares about and one clear example.",
+      "vi": "Thuyết phục bằng lý do người nghe quan tâm và một ví dụ rõ ràng."
+    },
+    {
+      "en": "Listen fully to objections and answer the real worry.",
+      "vi": "Nghe hết lời phản đối và trả lời đúng mối lo thật."
+    },
+    {
+      "en": "Trade concessions instead of giving them away, and let silence work.",
+      "vi": "Trao đổi nhượng bộ thay vì cho không, và để khoảng lặng làm việc của nó."
+    },
+    {
+      "en": "Notice pressure tactics and give yourself time to decide.",
+      "vi": "Nhận ra chiêu gây áp lực và cho mình thời gian quyết định."
+    },
+    {
+      "en": "Summarise the deal and confirm it in writing.",
+      "vi": "Tóm tắt thoả thuận và xác nhận bằng văn bản."
+    }
+  ],
+  "glossary": [
+    {
+      "en": "position",
+      "vi": "lập trường, điều người ta đòi"
+    },
+    {
+      "en": "interest",
+      "vi": "lợi ích, nhu cầu thật đằng sau lời đòi"
+    },
+    {
+      "en": "walk-away point",
+      "vi": "điểm dừng, mức giới hạn không thể vượt"
+    },
+    {
+      "en": "BATNA",
+      "vi": "phương án thay thế tốt nhất khi đàm phán không thành"
+    },
+    {
+      "en": "target price",
+      "vi": "mức giá mục tiêu"
+    },
+    {
+      "en": "anchoring",
+      "vi": "hiệu ứng mỏ neo của con số đầu tiên"
+    },
+    {
+      "en": "counter offer",
+      "vi": "lời đề nghị lại, trả giá lại"
+    },
+    {
+      "en": "concession",
+      "vi": "sự nhượng bộ"
+    },
+    {
+      "en": "trade-off",
+      "vi": "sự đánh đổi"
+    },
+    {
+      "en": "win-win",
+      "vi": "đôi bên cùng có lợi"
+    },
+    {
+      "en": "objection",
+      "vi": "lời phản đối, băn khoăn"
+    },
+    {
+      "en": "evidence",
+      "vi": "bằng chứng"
+    },
+    {
+      "en": "pressure tactic",
+      "vi": "chiêu gây áp lực"
+    },
+    {
+      "en": "deadline",
+      "vi": "hạn chót"
+    },
+    {
+      "en": "to split the difference",
+      "vi": "chia đôi phần chênh lệch"
+    },
+    {
+      "en": "performance review",
+      "vi": "buổi đánh giá hiệu quả công việc"
+    },
+    {
+      "en": "to confirm in writing",
+      "vi": "xác nhận bằng văn bản"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "question": {
+        "text": "What is the difference between a position and an interest in a negotiation?",
+        "audioId": "",
+        "vi": "Lập trường và lợi ích trong đàm phán khác nhau thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A position is a polite request, while an interest is always a rude demand",
+          "audioId": "",
+          "variants": [
+            "Position is polite, interest is rude"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "A position belongs to the buyer and an interest belongs only to the seller",
+          "audioId": "",
+          "variants": [
+            "Positions are for buyers, interests for sellers"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "A position is what someone asks for, an interest is the reason they want it",
+          "audioId": "",
+          "variants": [
+            "Position is the demand, interest is the reason behind it"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "There is no real difference, both words simply mean the final price you accept",
+          "audioId": "",
+          "variants": [
+            "They both just mean the final price"
+          ]
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A position is the demand on the table, such as \"I want a lower rent.\" The interest is the need behind it, such as \"I worry about my monthly budget.\" When you find the interest, you often see more than one way to satisfy it.",
+        "vi": "Lập trường là điều người ta đòi, ví dụ \"tôi muốn giảm tiền thuê\". Lợi ích là nhu cầu đằng sau, ví dụ \"tôi lo ngân sách hằng tháng\". Khi tìm ra lợi ích, bạn thường thấy nhiều cách khác nhau để đáp ứng nó."
+      }
+    },
+    {
+      "id": "q02",
+      "question": {
+        "text": "Your colleague insists on taking Friday off but you also need Friday, what should you ask first?",
+        "audioId": "",
+        "vi": "Đồng nghiệp nhất quyết xin nghỉ thứ Sáu nhưng bạn cũng cần ngày đó, bạn nên hỏi gì trước?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Tell them you asked first, so they must change their plans this time",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Agree to give up your day immediately so that nobody feels any tension",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Go straight to the manager and ask them to decide who gets Friday",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask why Friday matters to them, because the real need may allow another solution",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Asking why turns a fight over one day into a search for options. Maybe they only need the afternoon, or Monday would work too. Try: \"Can I ask what you need Friday for? Maybe we can both make it work.\"",
+        "vi": "Hỏi \"vì sao\" biến cuộc giành một ngày thành việc cùng tìm phương án. Có thể họ chỉ cần buổi chiều, hoặc thứ Hai cũng được. Hãy thử: \"Mình hỏi chút, bạn cần thứ Sáu để làm gì, biết đâu cả hai cùng sắp xếp được.\""
+      }
+    },
+    {
+      "id": "q03",
+      "question": {
+        "text": "What does walk-away point mean when you prepare for a negotiation?",
+        "audioId": "",
+        "vi": "Điểm dừng nghĩa là gì khi bạn chuẩn bị đàm phán?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The least favourable deal you will accept before you stop and leave the talks",
+          "audioId": "",
+          "variants": [
+            "The worst deal you will still accept"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "The exact moment when you physically stand up and walk out of the room",
+          "audioId": "",
+          "variants": [
+            "When you stand up and leave the room"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "The first offer you make, which should always be your lowest possible number",
+          "audioId": "",
+          "variants": [
+            "Your first and lowest offer"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "The point where the other side has agreed to everything that you asked for",
+          "audioId": "",
+          "variants": [
+            "When they agree to everything you want"
+          ]
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Your walk-away point is your limit, decided before the talk starts. Below it, saying no is better than saying yes. Writing it down in advance protects you from agreeing to a bad deal in the heat of the moment.",
+        "vi": "Điểm dừng là giới hạn của bạn, quyết định trước khi bắt đầu. Thấp hơn mức đó thì từ chối tốt hơn đồng ý. Ghi nó ra giấy từ trước giúp bạn không đồng ý một thoả thuận tệ chỉ vì đang bị cuốn theo không khí."
+      }
+    },
+    {
+      "id": "q04",
+      "question": {
+        "text": "What is a BATNA in simple words?",
+        "audioId": "",
+        "vi": "Nói đơn giản, BATNA là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A secret trick that forces the other person to accept your first price",
+          "audioId": "",
+          "variants": [
+            "A secret trick to force your price"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "A formal contract that both sides must sign before any discussion begins",
+          "audioId": "",
+          "variants": [
+            "A contract signed before talks start"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "The average market price that every buyer and seller must agree to pay",
+          "audioId": "",
+          "variants": [
+            "The average market price for everyone"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Your best option if this negotiation fails, such as another job offer or seller",
+          "audioId": "",
+          "variants": [
+            "Your best plan if this deal fails"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "BATNA means best alternative to a negotiated agreement, your plan B. A strong plan B, like another job offer or another shop, lets you negotiate calmly. A weak plan B means you should improve it before you start talking.",
+        "vi": "BATNA là phương án thay thế tốt nhất nếu đàm phán không thành, tức \"phương án B\". Phương án B mạnh, như một lời mời làm việc khác hay một cửa hàng khác, giúp bạn đàm phán bình tĩnh. Nếu phương án B yếu, hãy củng cố nó trước khi bắt đầu nói chuyện."
+      }
+    },
+    {
+      "id": "q05",
+      "question": {
+        "text": "You are selling your motorbike and already have one buyer offering a fair price, how does this help you?",
+        "audioId": "",
+        "vi": "Bạn đang bán xe máy và đã có một người trả giá hợp lý, điều này giúp gì cho bạn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "You can negotiate calmly with others, since you already have a good fallback offer",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It means you should refuse to talk to any other buyers from now on",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It does not help, because every new buyer will always pay much less",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "You should tell everyone a fake higher offer to push the price up quickly",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A fair offer in hand is your BATNA. You no longer need to accept a low offer out of fear, so you can listen, compare and say no politely. Inventing fake offers, however, damages trust if the buyer finds out.",
+        "vi": "Một lời trả giá hợp lý trong tay chính là phương án B của bạn. Bạn không còn phải nhận giá thấp vì sợ, nên có thể lắng nghe, so sánh và từ chối lịch sự. Còn bịa ra lời trả giá giả sẽ làm mất lòng tin nếu người mua phát hiện."
+      }
+    },
+    {
+      "id": "q06",
+      "question": {
+        "text": "Someone goes to negotiate a contract without deciding their limit in advance, what is the main risk?",
+        "audioId": "",
+        "vi": "Một người đi đàm phán hợp đồng mà không quyết định trước giới hạn của mình, rủi ro chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "They will finish the negotiation too quickly and look much too professional",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "They may agree to a bad deal under pressure because they have no clear limit",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The other side will refuse to speak to them for the rest of the day",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "They will always get a better price, since they can stay flexible about everything",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Without a limit, every new offer seems acceptable when you feel tired or rushed. Decide your limit and your plan B at home, when you are calm. Then in the meeting you only need to compare each offer with that line.",
+        "vi": "Không có giới hạn, khi mệt hoặc bị hối thúc thì lời đề nghị nào cũng có vẻ chấp nhận được. Hãy quyết định giới hạn và phương án B ở nhà, lúc đầu óc bình tĩnh. Khi vào cuộc họp, bạn chỉ cần so mỗi lời đề nghị với ranh giới đó."
+      }
+    },
+    {
+      "id": "q07",
+      "question": {
+        "text": "Before meeting a supplier to discuss a new contract, what is the most useful preparation?",
+        "audioId": "",
+        "vi": "Trước khi gặp nhà cung cấp để bàn hợp đồng mới, việc chuẩn bị hữu ích nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Practise a strong speech and plan to talk for most of the meeting yourself",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Decide you will accept whatever they offer so the meeting stays friendly",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Prepare nothing, because good negotiators always rely on their feelings in the moment",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Write down your goals, your limit, your alternatives and what the supplier may need",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Good preparation covers both sides: what you want, where you stop, your plan B, and what the other side probably needs. Guessing their needs helps you plan trades. A long speech or blind trust in feelings leaves you unprepared for surprises.",
+        "vi": "Chuẩn bị tốt là nghĩ cho cả hai phía: bạn muốn gì, dừng ở đâu, phương án B là gì, và bên kia có thể cần gì. Đoán trước nhu cầu của họ giúp bạn lên sẵn các phương án trao đổi. Một bài nói dài hay chỉ dựa vào cảm xúc sẽ khiến bạn lúng túng khi có bất ngờ."
+      }
+    },
+    {
+      "id": "q08",
+      "question": {
+        "text": "Why is focusing on interests often better than arguing about positions?",
+        "audioId": "",
+        "vi": "Vì sao tập trung vào lợi ích thường tốt hơn tranh cãi về lập trường?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Arguing about positions takes longer, but it always ends with a fairer deal",
+          "audioId": "",
+          "variants": [
+            "Arguing positions takes longer but is fairer"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Interests are private, so talking about them makes the other side lose face",
+          "audioId": "",
+          "variants": [
+            "Talking about interests makes people lose face"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Positions are only for lawyers, and normal people never need to think about them",
+          "audioId": "",
+          "variants": [
+            "Positions are only for lawyers"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Interests reveal several ways to satisfy both sides, while positions usually allow only one answer",
+          "audioId": "",
+          "variants": [
+            "Interests open more options than positions"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Two positions often clash directly, like a higher price against a lower price. Interests, such as quick payment or a long relationship, can usually be met in several ways at once. That is why skilled negotiators keep asking what matters most and why.",
+        "vi": "Hai lập trường thường đối đầu trực tiếp, như giá cao và giá thấp. Còn lợi ích, như được thanh toán nhanh hay hợp tác lâu dài, thường có thể đáp ứng bằng nhiều cách cùng lúc. Vì vậy người đàm phán giỏi luôn hỏi điều gì quan trọng nhất và vì sao."
+      }
+    },
+    {
+      "id": "q09",
+      "question": {
+        "text": "A landlord refuses to lower the rent, but you learn he worries about empty months, what can you offer?",
+        "audioId": "",
+        "vi": "Chủ nhà không chịu giảm tiền thuê nhưng bạn biết ông lo nhà bị bỏ trống, bạn có thể đề nghị gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Threaten to leave tomorrow unless he cuts the rent by half right away",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Keep repeating that the rent is too high until he finally gets tired",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Offer a longer contract in return for a small reduction in the monthly rent",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Post negative reviews about the apartment online to put pressure on him",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "His real interest is a stable income without empty months. A longer contract solves that, so a small discount becomes a fair trade for him. You could say: \"If I sign for two years, could we agree on a slightly lower rent?\"",
+        "vi": "Lợi ích thật của chủ nhà là thu nhập ổn định, không có tháng bỏ trống. Hợp đồng dài hơn giải quyết đúng điều đó, nên giảm giá một chút trở thành trao đổi hợp lý với ông. Bạn có thể nói: \"Nếu em ký hai năm, mình có thể giảm tiền thuê một chút được không ạ?\""
+      }
+    },
+    {
+      "id": "q10",
+      "question": {
+        "text": "You want to ask your manager for a raise, what should you prepare first?",
+        "audioId": "",
+        "vi": "Bạn muốn đề nghị quản lý tăng lương, bạn nên chuẩn bị gì trước?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A strong complaint that a colleague earns more money than you do",
+          "audioId": "",
+          "variants": [
+            "A complaint about a colleague's pay"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "A letter saying you will quit if you do not get the raise",
+          "audioId": "",
+          "variants": [
+            "A letter saying you will quit"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Nothing special, since managers usually decide pay only by how long you stay",
+          "audioId": "",
+          "variants": [
+            "Nothing, pay depends on time served"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "A list of your concrete results and the market pay for similar roles",
+          "audioId": "",
+          "variants": [
+            "Your results and the market pay"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A raise request is strongest when it shows value and fairness. Bring two or three concrete results, such as projects finished or costs saved, and a realistic market range from job ads or people in your field. Complaints and threats move the talk away from your value.",
+        "vi": "Đề nghị tăng lương thuyết phục nhất khi cho thấy giá trị và sự hợp lý. Hãy mang theo hai ba kết quả cụ thể, như dự án đã hoàn thành hay chi phí đã tiết kiệm, cùng mức lương thị trường thực tế từ tin tuyển dụng hoặc người trong ngành. Phàn nàn và doạ nghỉ kéo câu chuyện ra xa giá trị của bạn."
+      }
+    },
+    {
+      "id": "q11",
+      "question": {
+        "text": "When is usually a good time to ask for a raise?",
+        "audioId": "",
+        "vi": "Thường thì khi nào là thời điểm tốt để xin tăng lương?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "After a clear success or during a performance review, when your value is easy to see",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "On a busy Monday morning, just as your manager walks into the office",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Right after the company announces bad results and cuts the yearly budget",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "In front of the whole team, so that your manager cannot easily refuse",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Timing changes how your request is heard. Right after a success, or at a planned review, your value is fresh in your manager's mind. Ask for a short private meeting instead of catching them in a rush or in public.",
+        "vi": "Thời điểm ảnh hưởng đến cách lời đề nghị được đón nhận. Ngay sau một thành công, hoặc trong buổi đánh giá định kỳ, giá trị của bạn còn rõ trong đầu quản lý. Hãy xin một buổi gặp riêng ngắn, thay vì chặn họ lúc vội hoặc trước mặt mọi người."
+      }
+    },
+    {
+      "id": "q12",
+      "question": {
+        "text": "Why is saying I delivered these results stronger than saying I need more money for my rent?",
+        "audioId": "",
+        "vi": "Vì sao nói \"tôi đã đạt được những kết quả này\" mạnh hơn nói \"tôi cần thêm tiền trả tiền nhà\"?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Personal problems are rude, so managers will punish anyone who mentions them",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It links pay to your value for the company instead of your personal costs",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It is shorter, and shorter requests are always approved more quickly",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Results do not matter, but confident words always make a request sound stronger",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Companies set pay mainly by the value of the work and the market, not by each person's expenses. Your rent is real, but it gives the manager no business reason to agree. Try: \"This year I led the new client project and cut delivery time, so I would like to discuss my salary.\"",
+        "vi": "Công ty trả lương chủ yếu theo giá trị công việc và mặt bằng thị trường, không theo chi phí riêng của từng người. Tiền nhà của bạn là thật, nhưng không cho quản lý lý do kinh doanh để đồng ý. Hãy thử: \"Năm nay em phụ trách dự án khách hàng mới và rút ngắn thời gian giao hàng, nên em muốn trao đổi về mức lương.\""
+      }
+    },
+    {
+      "id": "q13",
+      "question": {
+        "text": "Your manager says there is no budget for a raise this year, what is the best response?",
+        "audioId": "",
+        "vi": "Quản lý nói năm nay không có ngân sách tăng lương, cách phản hồi tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask what results would earn a raise later and agree on a date to review",
+          "audioId": "",
+          "variants": [
+            "Ask what results earn a raise and set a review date"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Say you understand and never bring up the topic of pay again",
+          "audioId": "",
+          "variants": [
+            "Never mention pay again"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Accuse the manager of lying, since the company clearly has enough money",
+          "audioId": "",
+          "variants": [
+            "Accuse the manager of lying"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Start looking for another job the same day without saying anything more",
+          "audioId": "",
+          "variants": [
+            "Quietly look for another job that day"
+          ]
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A no today can become a plan for tomorrow. Ask for clear goals and a review date, and you can also ask about training or flexible hours now. Then confirm the plan by email so it is not forgotten.",
+        "vi": "Lời từ chối hôm nay có thể thành kế hoạch cho ngày mai. Hãy xin mục tiêu rõ ràng và một ngày xem xét lại, đồng thời có thể hỏi về đào tạo hay giờ làm linh hoạt ngay bây giờ. Sau đó xác nhận kế hoạch qua email để không bị quên."
+      }
+    },
+    {
+      "id": "q14",
+      "question": {
+        "text": "Your manager asks what number you have in mind for your new salary, what should you do?",
+        "audioId": "",
+        "vi": "Quản lý hỏi bạn nghĩ đến mức lương mới bao nhiêu, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say any amount is fine, because you trust the company to be generous",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Name a huge number with no reason, hoping to shock them into agreeing",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Refuse to answer and keep asking them to make the first offer forever",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Give a researched figure or narrow range, slightly above your target, and explain why",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A clear, researched number sets a reasonable anchor and leaves a little room to move. Back it with your results and market data. Saying any amount is fine gives away your power, while an extreme number without reasons hurts your credibility.",
+        "vi": "Một con số rõ ràng, có tìm hiểu sẽ tạo mốc neo hợp lý và chừa chút khoảng để nhượng bộ. Hãy kèm theo kết quả công việc và dữ liệu thị trường. Nói \"bao nhiêu cũng được\" là tự bỏ quyền thương lượng, còn con số quá cao không có lý do làm bạn mất uy tín."
+      }
+    },
+    {
+      "id": "q15",
+      "question": {
+        "text": "An employee asks for a raise by saying everyone else got one, so I deserve one too, what is wrong?",
+        "audioId": "",
+        "vi": "Một nhân viên xin tăng lương bằng câu \"ai cũng được tăng nên tôi cũng xứng đáng\", sai ở đâu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Nothing is wrong, because fairness is the strongest argument in any salary talk",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It compares with others instead of showing the employee's own results and value",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The request is too short, and raises need at least an hour of explanation",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It is too polite, and a raise request should always sound angry and firm",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Comparing with colleagues makes the manager defend the company instead of looking at your work. It can also create tension in the team. Focus on what you did and what the role is worth in the market.",
+        "vi": "So sánh với đồng nghiệp khiến quản lý phải bảo vệ công ty thay vì nhìn vào công việc của bạn. Nó cũng dễ gây căng thẳng trong nhóm. Hãy tập trung vào những gì bạn đã làm và giá trị của vị trí đó trên thị trường."
+      }
+    },
+    {
+      "id": "q16",
+      "question": {
+        "text": "What is the difference between asking for a raise and asking for other benefits like training or flexible hours?",
+        "audioId": "",
+        "vi": "Xin tăng lương khác gì với xin các phúc lợi khác như đào tạo hay giờ làm linh hoạt?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Benefits are always worthless, so you should refuse anything that is not cash",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Asking for benefits is illegal in most companies and may cost you your job",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "There is no difference, because companies give every benefit to every worker",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Benefits can be easier to approve when salary is fixed, and they still add real value",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Salary budgets are often fixed, but training, a better title, extra leave or remote days may come from a different budget or cost little. They can improve your life and your future pay. Keep them in mind as trades when the answer on salary is no.",
+        "vi": "Ngân sách lương thường cố định, nhưng đào tạo, chức danh tốt hơn, thêm ngày phép hay làm việc từ xa có thể nằm ở ngân sách khác hoặc tốn ít chi phí. Chúng vẫn cải thiện cuộc sống và mức lương tương lai của bạn. Hãy giữ chúng làm phương án trao đổi khi câu trả lời về lương là không."
+      }
+    },
+    {
+      "id": "q17",
+      "question": {
+        "text": "Your manager agrees to a raise in a meeting, what should you do next?",
+        "audioId": "",
+        "vi": "Quản lý đồng ý tăng lương trong buổi họp, tiếp theo bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Celebrate with your team and assume the details will be fixed later",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Ask for an even bigger raise straight away while the manager is in a good mood",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Say nothing more, since spoken promises are always enough at every company",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Thank them and send a short email confirming the new amount and start date",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Spoken agreements are easy to forget or remember differently. A short, friendly email protects both sides. For example: \"Thank you for today. Just to confirm, my new salary will be this amount from next month.\"",
+        "vi": "Thoả thuận bằng lời rất dễ bị quên hoặc mỗi người nhớ một kiểu. Một email ngắn, thân thiện bảo vệ cả hai bên. Ví dụ: \"Cảm ơn anh/chị về buổi trao đổi hôm nay, em xin xác nhận mức lương mới là... áp dụng từ tháng sau.\""
+      }
+    },
+    {
+      "id": "q18",
+      "question": {
+        "text": "At a market, a seller asks you to name your price for a jacket, what is a sensible first step?",
+        "audioId": "",
+        "vi": "Ở chợ, người bán bảo bạn tự trả giá chiếc áo khoác, bước đầu hợp lý là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Pay the first price immediately so the seller does not think you are cheap",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Offer a tiny price that is almost insulting, then walk away laughing",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Tell the seller you have plenty of money and really love this jacket",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Check prices at a few stalls first, then make a polite offer below your limit",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Knowing the usual price gives you a realistic starting point and a limit. Then you can open a little below what you are willing to pay, politely, which leaves room to meet in the middle. Insulting offers usually end the conversation.",
+        "vi": "Biết giá phổ biến giúp bạn có điểm xuất phát thực tế và một giới hạn. Sau đó bạn mở lời thấp hơn mức sẵn sàng trả một chút, lịch sự, để còn chỗ gặp nhau ở giữa. Trả giá quá thấp gây phật lòng thường làm cuộc mua bán kết thúc luôn."
+      }
+    },
+    {
+      "id": "q19",
+      "question": {
+        "text": "What is anchoring in a price negotiation?",
+        "audioId": "",
+        "vi": "Hiệu ứng mỏ neo trong thương lượng giá là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Keeping the same price forever and refusing to move even a little bit",
+          "audioId": "",
+          "variants": [
+            "Never moving from your price"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "The first number mentioned often shapes what both sides later see as a fair price",
+          "audioId": "",
+          "variants": [
+            "The first number shapes what feels fair"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Asking a friend to stand next to you while you discuss the price",
+          "audioId": "",
+          "variants": [
+            "Bringing a friend while you bargain"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Paying a deposit first so that the seller keeps the item for you",
+          "audioId": "",
+          "variants": [
+            "Paying a deposit to hold the item"
+          ]
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The first number acts like an anchor that pulls the discussion towards it. That is why a seller opens high and a buyer opens low. Make your own reasonable first offer, or calmly reset a very high anchor with market facts.",
+        "vi": "Con số đầu tiên giống như mỏ neo kéo cả cuộc trao đổi về phía nó. Vì vậy người bán thường hét giá cao, người mua trả giá thấp. Hãy chủ động đưa ra con số hợp lý của mình, hoặc bình tĩnh dùng giá thị trường để \"neo\" lại khi bên kia đưa giá quá cao."
+      }
+    },
+    {
+      "id": "q20",
+      "question": {
+        "text": "You are selling your used laptop online and a buyer offers much less than your price, what should you reply?",
+        "audioId": "",
+        "vi": "Bạn bán laptop cũ trên mạng và người mua trả thấp hơn nhiều so với giá bạn đăng, bạn nên trả lời thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Insult the buyer and block them for making such a low offer",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Explain the condition and value politely, then make a counter offer you can accept",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Accept at once, because the first buyer is always the only buyer",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ignore the message for weeks and hope they raise the price on their own",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A low offer is often just a starting point, not an insult. Give reasons for your price, such as battery health or included accessories, and suggest a number between. For example: \"It is in very good condition with the original charger. I could do a little less than my listed price.\"",
+        "vi": "Lời trả giá thấp thường chỉ là điểm bắt đầu, không phải xúc phạm. Hãy nêu lý do cho giá của bạn, như pin còn tốt hay có đủ phụ kiện, rồi đề xuất một mức ở giữa. Ví dụ: \"Máy còn rất mới, kèm sạc zin, mình bớt cho bạn một chút so với giá đăng nhé.\""
+      }
+    },
+    {
+      "id": "q21",
+      "question": {
+        "text": "Why is offering to buy two items for a lower price better than simply saying it is too expensive?",
+        "audioId": "",
+        "vi": "Vì sao đề nghị mua hai món với giá thấp hơn lại tốt hơn chỉ nói \"đắt quá\"?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Saying it is too expensive is rude, and sellers never reply to rude buyers",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It gives the seller something in return, so lowering the price makes sense for them",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Buying two items is always cheaper, because sellers must follow a fixed rule",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It confuses the seller, so they make a mistake and lose money on the deal",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "\"Too expensive\" only asks the seller to lose money. Buying more, paying cash or coming back regularly gives them a reason to give a discount. This is a simple trade where both sides gain something.",
+        "vi": "Câu \"đắt quá\" chỉ đòi người bán chịu thiệt. Mua nhiều hơn, trả tiền ngay hay hứa quay lại mua tiếp cho họ lý do để giảm giá. Đây là một cuộc trao đổi đơn giản mà cả hai bên đều được lợi."
+      }
+    },
+    {
+      "id": "q22",
+      "question": {
+        "text": "A car salesperson says this price is only valid today, what should you do?",
+        "audioId": "",
+        "vi": "Nhân viên bán xe nói giá này chỉ áp dụng hôm nay, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Sign at once, because the special price will surely disappear tonight",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Shout that the salesperson is a liar and leave the shop angrily",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Stay calm, say you need time to compare, and be ready to come back later",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Borrow money from friends quickly so you do not miss the deal",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A \"today only\" price is a common way to stop you from comparing. Big purchases deserve time. Say politely: \"Thank you, I need to compare and discuss it at home. I will contact you.\" Good offers usually come back.",
+        "vi": "Giá \"chỉ hôm nay\" là cách phổ biến để bạn không kịp so sánh. Món đồ lớn xứng đáng được cân nhắc. Hãy nói lịch sự: \"Cảm ơn anh, em cần so sánh và bàn với gia đình, em sẽ liên hệ lại.\" Lời đề nghị tốt thường vẫn còn đó."
+      }
+    },
+    {
+      "id": "q23",
+      "question": {
+        "text": "A buyer tells the seller this is exactly what I have been looking for everywhere before discussing price, what is the mistake?",
+        "audioId": "",
+        "vi": "Người mua nói với người bán \"đây đúng là thứ tôi tìm khắp nơi\" trước khi bàn giá, sai lầm là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Being honest is always a mistake, so buyers should lie about everything they want",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Showing too much excitement tells the seller you will probably pay a higher price",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The buyer should have spoken in a louder voice to show more confidence",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no mistake, because sellers always lower prices for very happy buyers",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Strong excitement reveals that you have no plan B in your mind. You do not need to lie, just stay neutral. Ask about the price and condition first, and share your enthusiasm after you agree.",
+        "vi": "Tỏ ra quá thích cho người bán biết bạn không có phương án B. Bạn không cần nói dối, chỉ cần giữ thái độ trung lập. Hãy hỏi giá và tình trạng trước, rồi bày tỏ sự hào hứng sau khi đã chốt."
+      }
+    },
+    {
+      "id": "q24",
+      "question": {
+        "text": "The seller will not lower the price of a fridge, what else can you negotiate?",
+        "audioId": "",
+        "vi": "Người bán không chịu giảm giá tủ lạnh, bạn còn có thể thương lượng điều gì khác?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Nothing else, since price is the only thing that can ever be negotiated",
+          "audioId": "",
+          "variants": [
+            "Nothing, only price can be negotiated"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Ask for free delivery, installation or a longer warranty instead of a lower price",
+          "audioId": "",
+          "variants": [
+            "Ask for free delivery or a longer warranty"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Ask the seller to give you a second fridge for free as a gift",
+          "audioId": "",
+          "variants": [
+            "Ask for a second fridge as a gift"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Demand a discount on items you do not even plan to buy later",
+          "audioId": "",
+          "variants": [
+            "Demand discounts on things you will not buy"
+          ]
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Shops often cannot change the label price but can add extras that cost them less than they are worth to you. Delivery, installation, a longer warranty or a small accessory are common. Try: \"If the price is fixed, could you include free delivery and installation?\"",
+        "vi": "Cửa hàng thường không thể đổi giá niêm yết nhưng có thể thêm những thứ họ tốn ít mà bạn thấy có giá trị. Giao hàng, lắp đặt, bảo hành dài hơn hay một phụ kiện nhỏ là phổ biến. Hãy thử: \"Nếu giá không giảm được, anh có thể miễn phí giao và lắp đặt không?\""
+      }
+    },
+    {
+      "id": "q25",
+      "question": {
+        "text": "What is the difference between a firm walk-away price and a target price when buying?",
+        "audioId": "",
+        "vi": "Khi mua hàng, mức giá giới hạn và mức giá mục tiêu khác nhau thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The target is the price you hope for, the limit is the highest you accept",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "They are the same number, so you only need to decide one price before buying",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The target price is always higher than the walk-away price for every buyer",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The walk-away price is the price the seller writes on the label",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Set two numbers before you shop: a target you aim for and a limit you never cross. The space between them is your room to negotiate. Having both stops you from opening too high and from overpaying in the excitement.",
+        "vi": "Hãy đặt hai con số trước khi mua: mức mục tiêu bạn nhắm tới và mức giới hạn không bao giờ vượt. Khoảng giữa hai số là không gian để bạn thương lượng. Có đủ cả hai giúp bạn không trả giá mở đầu quá cao và không trả quá tay khi đang hào hứng."
+      }
+    },
+    {
+      "id": "q26",
+      "question": {
+        "text": "A friend wants to buy your old phone but feels shy about bargaining, how can you keep the deal fair?",
+        "audioId": "",
+        "vi": "Một người bạn muốn mua lại điện thoại cũ của bạn nhưng ngại mặc cả, làm sao giữ cho giao dịch công bằng?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Charge your friend more, since friends usually do not check the price",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Refuse to sell to friends at all, because money always ruins friendships",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Share the typical market price and the phone's condition openly, then agree together",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Give the phone away for free, then feel annoyed about it for months",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "With friends, transparency replaces hard bargaining. Show what similar phones sell for, mention any problems honestly, and let them say what feels fair. A clear, open deal protects both the money and the friendship.",
+        "vi": "Với bạn bè, sự minh bạch thay cho mặc cả gắt. Hãy cho xem giá máy tương tự trên thị trường, nói thật mọi lỗi, và để bạn nói mức họ thấy hợp lý. Một thoả thuận rõ ràng, công khai bảo vệ cả tiền bạc lẫn tình bạn."
+      }
+    },
+    {
+      "id": "q27",
+      "question": {
+        "text": "What makes a reason persuasive at work?",
+        "audioId": "",
+        "vi": "Điều gì làm một lý do có sức thuyết phục trong công việc?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It is repeated many times in a louder voice until people stop arguing",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It comes from the most senior person, even without any facts at all",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It uses many difficult words, so listeners feel it must be clever",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It connects to what the listener cares about and is backed by clear evidence",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "People are persuaded by reasons that solve their own problems, supported by facts they can check. Before you speak, ask what your listener worries about, then bring a number, example or small test result that answers it.",
+        "vi": "Người ta bị thuyết phục bởi lý do giải quyết vấn đề của chính họ, có dữ kiện kiểm chứng được. Trước khi nói, hãy tự hỏi người nghe đang lo điều gì, rồi đưa ra một con số, ví dụ hoặc kết quả thử nghiệm nhỏ trả lời đúng mối lo đó."
+      }
+    },
+    {
+      "id": "q28",
+      "question": {
+        "text": "You want your team to try a new task tracking tool, what is the most persuasive approach?",
+        "audioId": "",
+        "vi": "Bạn muốn nhóm thử một công cụ quản lý công việc mới, cách thuyết phục hiệu quả nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Tell them the tool is modern, so they should simply start using it today",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Send a long list of every feature and expect people to read it all",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Show how it solves a problem they already feel, with a small trial and results",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask the manager to order everyone to use it without any explanation",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Change feels risky, so start from a pain the team already has, like lost tasks in group chats. Then suggest a two week trial and share what improved. A small proof persuades more than a long feature list or an order.",
+        "vi": "Thay đổi luôn có vẻ rủi ro, nên hãy bắt đầu từ cái khó mà cả nhóm đang gặp, như việc bị trôi trong nhóm chat. Sau đó đề xuất dùng thử hai tuần và chia sẻ điều gì tốt lên. Một bằng chứng nhỏ thuyết phục hơn danh sách tính năng dài hay mệnh lệnh."
+      }
+    },
+    {
+      "id": "q29",
+      "question": {
+        "text": "Why is one clear example often more persuasive than a long list of general claims?",
+        "audioId": "",
+        "vi": "Vì sao một ví dụ rõ ràng thường thuyết phục hơn một danh sách dài những nhận định chung chung?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A concrete example is easy to picture and remember, while general claims sound empty",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Long lists are always better, because more points mean more chances to win",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Examples are only useful for children and never work with adult listeners",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "General claims are rude, so listeners stop listening after the first one",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Saying \"this saves time\" is easy to doubt. Saying \"last month this cut our weekly report from three hours to one\" is easy to picture and check. Choose your strongest example instead of many weak points.",
+        "vi": "Nói \"cách này tiết kiệm thời gian\" thì dễ bị nghi ngờ. Nói \"tháng trước cách này rút báo cáo tuần từ ba giờ xuống một giờ\" thì dễ hình dung và kiểm chứng. Hãy chọn ví dụ mạnh nhất thay vì nhiều ý yếu."
+      }
+    },
+    {
+      "id": "q30",
+      "question": {
+        "text": "A client says your proposal is too expensive, what is the best first response?",
+        "audioId": "",
+        "vi": "Khách hàng nói đề xuất của bạn quá đắt, cách phản hồi đầu tiên tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask what they are comparing it with, then explain the value or adjust the scope",
+          "audioId": "",
+          "variants": [
+            "Ask what they compare it with, then explain value"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Cut the price by a large amount immediately before they say anything else",
+          "audioId": "",
+          "variants": [
+            "Cut the price a lot at once"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Tell the client they do not understand quality and should look elsewhere",
+          "audioId": "",
+          "variants": [
+            "Tell them they do not understand quality"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Repeat the same price more slowly as if they did not hear you",
+          "audioId": "",
+          "variants": [
+            "Repeat the price more slowly"
+          ]
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "\"Too expensive\" can mean over budget, unclear value or a cheaper quote elsewhere. Ask first: \"Compared with what, and which part feels too high?\" Then you can show the value or remove some work to fit the budget, instead of cutting price blindly.",
+        "vi": "\"Đắt quá\" có thể nghĩa là vượt ngân sách, chưa thấy rõ giá trị, hoặc có báo giá rẻ hơn ở nơi khác. Hãy hỏi trước: \"Anh chị đang so với phương án nào, phần nào thấy cao?\" Sau đó bạn chứng minh giá trị hoặc bớt hạng mục cho vừa ngân sách, thay vì giảm giá mù quáng."
+      }
+    },
+    {
+      "id": "q31",
+      "question": {
+        "text": "Why should you listen fully to an objection before answering it?",
+        "audioId": "",
+        "vi": "Vì sao nên nghe hết lời phản đối trước khi trả lời?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Listening fully gives you time to plan a clever attack on the other person",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Objections always disappear on their own if you wait long enough in silence",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The real concern behind the words may be different from what you first assume",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It is polite, but it never changes how you should actually answer them",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "An objection is information. If you answer too fast, you may solve the wrong problem. Listen to the end, then check: \"So your main worry is the delivery time, is that right?\" Now your answer targets the real concern.",
+        "vi": "Lời phản đối là thông tin. Trả lời vội, bạn có thể giải quyết sai vấn đề. Hãy nghe hết, rồi kiểm tra lại: \"Vậy điều anh lo nhất là thời gian giao hàng, đúng không ạ?\" Khi đó câu trả lời của bạn trúng mối lo thật."
+      }
+    },
+    {
+      "id": "q32",
+      "question": {
+        "text": "A presenter answers every question from the boss with that is not true, what is the main problem?",
+        "audioId": "",
+        "vi": "Người thuyết trình trả lời mọi câu hỏi của sếp bằng câu \"điều đó không đúng\", vấn đề chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Flat denial makes people defensive, so they listen less and push back harder",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The presenter is too humble and should agree less with the boss",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "There is no problem, since strong denial always shows real expertise",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The presenter should answer in writing instead of speaking in the meeting",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Saying \"that is not true\" turns a question into a contest. First acknowledge the point, then add evidence: \"That is a fair concern. Here is what the data from last quarter shows.\" People accept facts more easily when they do not feel attacked.",
+        "vi": "Nói \"không đúng\" biến câu hỏi thành cuộc đấu. Hãy ghi nhận ý kiến trước rồi mới đưa bằng chứng: \"Đó là băn khoăn hợp lý, số liệu quý trước cho thấy thế này.\" Người ta dễ chấp nhận dữ kiện hơn khi không cảm thấy bị tấn công."
+      }
+    },
+    {
+      "id": "q33",
+      "question": {
+        "text": "Your partner does not want to spend money on a family trip this year, how can you persuade them fairly?",
+        "audioId": "",
+        "vi": "Người bạn đời không muốn chi tiền cho chuyến du lịch gia đình năm nay, làm sao thuyết phục một cách công bằng?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Listen to their worries, then suggest a cheaper plan with a clear budget together",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Book the trip secretly and tell them only after everything is paid",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Keep complaining every day until they finally say yes to stop the noise",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Compare them to other partners who always agree to every trip",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "At home, persuasion works best when both people feel heard. If the worry is money, a short trip nearby with a fixed budget may solve it. Deciding together keeps trust, while secret bookings and nagging damage it.",
+        "vi": "Ở nhà, thuyết phục hiệu quả nhất khi cả hai đều thấy được lắng nghe. Nếu nỗi lo là tiền, một chuyến đi gần với ngân sách cố định có thể giải quyết được. Cùng quyết định giữ được lòng tin, còn đặt vé lén hay cằn nhằn sẽ làm tổn thương nó."
+      }
+    },
+    {
+      "id": "q34",
+      "question": {
+        "text": "What is the difference between persuading and manipulating someone?",
+        "audioId": "",
+        "vi": "Thuyết phục và thao túng ai đó khác nhau thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "There is no difference, since both simply mean getting what you want",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Persuading uses honest reasons they can check, while manipulating hides facts or uses tricks",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Persuading is for work, while manipulating is the normal way at home",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Manipulating is slower, so persuading is just the faster version of it",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Persuasion respects the other person's right to decide with full information. Manipulation hides costs, invents urgency or plays on guilt. A simple test: \"Would I be comfortable if they later saw everything I knew?\"",
+        "vi": "Thuyết phục tôn trọng quyền tự quyết của người kia khi họ có đủ thông tin. Thao túng thì giấu chi phí, tạo gấp gáp giả hoặc đánh vào cảm giác tội lỗi. Một phép thử đơn giản: bạn có thấy thoải mái nếu sau này họ biết hết những gì bạn biết không?"
+      }
+    },
+    {
+      "id": "q35",
+      "question": {
+        "text": "A customer says I need to think about it after your sales talk, what is a good reply?",
+        "audioId": "",
+        "vi": "Khách hàng nói \"để tôi suy nghĩ thêm\" sau phần giới thiệu sản phẩm của bạn, câu trả lời tốt là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask what they still need to decide and offer the information that would help",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Tell them the offer ends in five minutes so they must decide now",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Say goodbye quickly and never contact the customer again after that",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Keep repeating the same benefits louder until they give up and buy",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "\"I need to think\" usually hides a specific doubt, such as price, timing or a person they must ask. Ask gently: \"Of course. Is there anything I can clarify to help you decide?\" Then agree on when to follow up.",
+        "vi": "\"Để tôi suy nghĩ\" thường che giấu một băn khoăn cụ thể, như giá, thời điểm hay cần hỏi ý người khác. Hãy hỏi nhẹ nhàng: \"Dạ vâng, có điều gì em có thể giải thích thêm để anh chị dễ quyết định không ạ?\" Rồi hẹn thời điểm liên lạc lại."
+      }
+    },
+    {
+      "id": "q36",
+      "question": {
+        "text": "What does a win-win trade mean in negotiation?",
+        "audioId": "",
+        "vi": "Trao đổi đôi bên cùng có lợi trong đàm phán nghĩa là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Both sides split every difference exactly in half, whatever the situation is",
+          "audioId": "",
+          "variants": [
+            "Always split everything in half"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "One side wins today, and the other side promises to win next time",
+          "audioId": "",
+          "variants": [
+            "One wins now, the other wins later"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Each side gives something that costs them little but matters a lot to the other",
+          "audioId": "",
+          "variants": [
+            "Each gives what is cheap for them but valuable to the other"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Nobody gives up anything, and both sides simply keep their first positions",
+          "audioId": "",
+          "variants": [
+            "Nobody gives up anything"
+          ]
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "People value things differently. A supplier may care about fast payment, while you care about a lower price. Trading what is cheap for you but valuable for them creates a deal both sides are happy to keep.",
+        "vi": "Mỗi người coi trọng những thứ khác nhau. Nhà cung cấp có thể quan tâm được thanh toán nhanh, còn bạn quan tâm giá thấp hơn. Trao đổi thứ bạn tốn ít nhưng họ thấy giá trị tạo ra thoả thuận mà cả hai đều vui vẻ thực hiện."
+      }
+    },
+    {
+      "id": "q37",
+      "question": {
+        "text": "Your manager wants a project finished early and your team wants extra rest, what trade can you suggest?",
+        "audioId": "",
+        "vi": "Quản lý muốn dự án xong sớm còn nhóm bạn muốn được nghỉ thêm, bạn có thể đề xuất trao đổi gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Refuse to finish early unless everyone gets double pay for a whole year",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Agree to finish early and ask for nothing, so the manager stays happy",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Finish early but quietly lower the quality so that nobody gets tired",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Finish early in exchange for extra days off once the project is delivered",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "This meets both interests: the manager gets speed, the team gets recovery time. Put it as a clear offer: \"If we deliver by Thursday, could the team take Friday and Monday off?\" Extreme demands or silent quality cuts damage trust.",
+        "vi": "Cách này đáp ứng cả hai lợi ích: quản lý có tốc độ, nhóm có thời gian hồi sức. Hãy nói thành đề nghị rõ ràng: \"Nếu nhóm giao trước thứ Năm, mọi người có thể nghỉ thứ Sáu và thứ Hai được không ạ?\" Đòi hỏi quá đáng hay âm thầm giảm chất lượng đều làm mất lòng tin."
+      }
+    },
+    {
+      "id": "q38",
+      "question": {
+        "text": "Why is saying if you can do this, then I can do that better than simply giving a concession?",
+        "audioId": "",
+        "vi": "Vì sao nói \"nếu anh làm được điều này thì tôi làm được điều kia\" tốt hơn là nhượng bộ không điều kiện?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Linking each concession to something in return keeps the deal balanced and respected",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Free concessions always make the other side trust you more and ask less",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It sounds more polite, but in practice it changes nothing about the result",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It is a threat, and threats are the quickest way to close any deal",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Concessions given for free often lead to more requests, because they seem to cost you nothing. A conditional offer shows each step has value. Try: \"If you can pay within a week, I can include delivery.\"",
+        "vi": "Nhượng bộ cho không thường kéo theo đòi hỏi thêm, vì có vẻ bạn chẳng mất gì. Đề nghị có điều kiện cho thấy mỗi bước nhượng đều có giá trị. Hãy thử: \"Nếu anh thanh toán trong một tuần, em sẽ miễn phí giao hàng.\""
+      }
+    },
+    {
+      "id": "q39",
+      "question": {
+        "text": "After you make an offer, the other person stays silent, what should you usually do?",
+        "audioId": "",
+        "vi": "Sau khi bạn đưa ra đề nghị, người kia im lặng, thường thì bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Wait calmly and let them answer, instead of lowering your offer to fill the silence",
+          "audioId": "",
+          "variants": [
+            "Wait calmly and let them reply"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Lower your price straight away, because silence always means they are angry",
+          "audioId": "",
+          "variants": [
+            "Lower your price at once"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Start talking about your offer again and add a few extra free benefits",
+          "audioId": "",
+          "variants": [
+            "Talk again and add free extras"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Leave the room immediately, since silence shows they will never agree",
+          "audioId": "",
+          "variants": [
+            "Leave the room right away"
+          ]
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Silence often means the other person is thinking, not refusing. If you rush to fill it, you may give away value for nothing. Count slowly in your head, keep a relaxed face and let them speak first.",
+        "vi": "Im lặng thường có nghĩa người kia đang suy nghĩ, không phải từ chối. Nếu vội lấp khoảng lặng, bạn có thể nhượng bộ không công. Hãy đếm chậm trong đầu, giữ nét mặt thoải mái và để họ lên tiếng trước."
+      }
+    },
+    {
+      "id": "q40",
+      "question": {
+        "text": "Why can patience help you in a negotiation?",
+        "audioId": "",
+        "vi": "Vì sao kiên nhẫn có thể giúp bạn khi đàm phán?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Patience makes the other side bored, so they eventually accept any offer",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Longer negotiations always end with a higher price for everyone involved",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Rushing leads to quick concessions, while time lets you think and find better options",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Patience is only useful when you have no alternatives and no information",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Under time pressure people skip questions and accept the first workable offer. With patience you can ask for a break, check numbers and come back with a better trade. You can always say: \"Let me check this and reply tomorrow.\"",
+        "vi": "Khi bị áp lực thời gian, người ta bỏ qua câu hỏi và nhận ngay lời đề nghị tạm được đầu tiên. Kiên nhẫn giúp bạn xin nghỉ giải lao, kiểm tra số liệu và quay lại với phương án tốt hơn. Bạn luôn có thể nói: \"Để tôi kiểm tra lại và phản hồi vào ngày mai.\""
+      }
+    },
+    {
+      "id": "q41",
+      "question": {
+        "text": "In a team negotiation, one member keeps offering discounts to end the awkward pause, what is the mistake?",
+        "audioId": "",
+        "vi": "Trong một cuộc đàm phán theo nhóm, một thành viên cứ giảm giá để kết thúc khoảng lặng khó xử, sai lầm là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "They should offer even larger discounts so the meeting can end faster",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "They give away value too easily because silence feels uncomfortable to them",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "There is no mistake, since awkward pauses always damage the relationship",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The member should only speak in writing so nobody hears their voice",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Discomfort with silence is a common and costly habit. Agree before the meeting who will make offers and what the limits are. During pauses, others should simply wait or ask a question instead of cutting the price.",
+        "vi": "Ngại im lặng là thói quen phổ biến và tốn kém. Trước buổi họp, hãy thống nhất ai là người đưa ra đề nghị và giới hạn là bao nhiêu. Khi có khoảng lặng, những người khác chỉ cần chờ hoặc đặt câu hỏi, không tự giảm giá."
+      }
+    },
+    {
+      "id": "q42",
+      "question": {
+        "text": "You and a colleague both want the same project, but you love design and they love client meetings, what is a good solution?",
+        "audioId": "",
+        "vi": "Bạn và đồng nghiệp cùng muốn một dự án, nhưng bạn thích thiết kế còn họ thích gặp khách hàng, giải pháp tốt là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Compete hard for the whole project, and let the manager pick a winner",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Split the project by strengths, with you leading design and them handling clients",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Give up the project completely to avoid any possible conflict with them",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Take the project and promise to help them with something next year",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "When people want different parts of the same thing, a split can give each person what they value most. Suggest it together to your manager as a plan. Both of you win, and the project gets two people working on what they do best.",
+        "vi": "Khi hai người muốn những phần khác nhau của cùng một việc, chia việc có thể cho mỗi người thứ họ coi trọng nhất. Hãy cùng đề xuất với quản lý như một kế hoạch. Cả hai đều được lợi, và dự án có hai người làm đúng thế mạnh."
+      }
+    },
+    {
+      "id": "q43",
+      "question": {
+        "text": "What is the difference between splitting the difference and creating a win-win trade?",
+        "audioId": "",
+        "vi": "Chia đôi chênh lệch khác gì với tạo ra một trao đổi đôi bên cùng có lợi?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Splitting the difference is illegal, while a win-win trade needs a written contract",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "They are exactly the same, since both mean that everyone pays half",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Splitting meets in the middle on one issue, a trade swaps different things both sides value",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A win-win trade means one side gives everything and feels good about it",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Splitting the difference is quick but both sides only half win on a single number. A trade adds more issues, such as timing, quantity or extras, so each side can get what matters most. Look for a trade before you split.",
+        "vi": "Chia đôi chênh lệch thì nhanh, nhưng cả hai chỉ thắng một nửa trên một con số. Trao đổi thêm các yếu tố khác như thời gian, số lượng hay quà kèm, để mỗi bên có được điều họ coi trọng nhất. Hãy tìm cách trao đổi trước khi chia đôi."
+      }
+    },
+    {
+      "id": "q44",
+      "question": {
+        "text": "Which is a common pressure tactic you should notice in a negotiation?",
+        "audioId": "",
+        "vi": "Đâu là một chiêu gây áp lực phổ biến bạn nên nhận ra khi đàm phán?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A clear written offer with prices, terms and a reasonable time to reply",
+          "audioId": "",
+          "variants": [
+            "A clear written offer with time to reply"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "A question about what matters most to you in the final agreement",
+          "audioId": "",
+          "variants": [
+            "A question about what matters to you"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "A fake deadline that pushes you to decide before you have time to think",
+          "audioId": "",
+          "variants": [
+            "A fake deadline that rushes you"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "A polite request for a short break so both sides can check details",
+          "audioId": "",
+          "variants": [
+            "A polite request for a short break"
+          ]
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Pressure tactics include fake deadlines, \"take it or leave it\", guilt and pretending to need a boss's approval at the last minute. Naming the tactic calmly helps: \"I understand there is a deadline, but I need until tomorrow to decide.\"",
+        "vi": "Chiêu gây áp lực gồm hạn chót giả, \"chịu thì lấy không thì thôi\", đánh vào cảm giác tội lỗi, hay giả vờ phút chót cần sếp duyệt. Gọi tên nó một cách bình tĩnh sẽ giúp bạn: \"Tôi hiểu có hạn chót, nhưng tôi cần đến ngày mai để quyết định.\""
+      }
+    },
+    {
+      "id": "q45",
+      "question": {
+        "text": "The other side says take it or leave it and starts to pack up, what is a good response?",
+        "audioId": "",
+        "vi": "Bên kia nói \"chịu thì lấy, không thì thôi\" và bắt đầu thu dọn đồ, phản ứng tốt là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Accept immediately, because walking away now would look very weak",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Raise your voice and threaten them back so you look equally strong",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Stay calm, compare the offer with your alternative, and decide without rushing",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Beg them to stay and offer extra discounts before they leave",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "\"Take it or leave it\" is often a test. Your plan B tells you whether leaving is acceptable. You can say: \"I need a moment to compare this with my other options. Can we talk again this afternoon?\"",
+        "vi": "\"Chịu thì lấy\" thường chỉ là phép thử. Phương án B cho bạn biết rời đi có chấp nhận được không. Bạn có thể nói: \"Tôi cần chút thời gian so với các lựa chọn khác, chiều nay mình nói tiếp được không?\""
+      }
+    },
+    {
+      "id": "q46",
+      "question": {
+        "text": "A manager uses guilt to push a team member into extra unpaid work, saying a good employee would never refuse, what is wrong?",
+        "audioId": "",
+        "vi": "Quản lý dùng cảm giác tội lỗi để ép nhân viên làm thêm không lương, nói rằng nhân viên tốt không bao giờ từ chối, điều gì sai?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Nothing is wrong, since guilt is a normal and fair way to motivate staff",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It pressures with emotion instead of discussing fair terms, which damages trust later",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The manager should add more guilt so the request is accepted faster",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The team member should have agreed silently and complained to colleagues later",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Guilt can get a yes today, but it leaves resentment and lower effort later. A fair request explains the need and offers something back, like time off. If you are the employee, you can ask: \"Can we discuss how this extra time will be compensated?\"",
+        "vi": "Đánh vào cảm giác tội lỗi có thể có cái gật đầu hôm nay, nhưng để lại bực bội và làm việc kém đi về sau. Lời đề nghị công bằng nêu rõ nhu cầu và có bù đắp, như cho nghỉ bù. Nếu bạn là nhân viên, có thể hỏi: \"Mình trao đổi về cách bù cho thời gian làm thêm này được không ạ?\""
+      }
+    },
+    {
+      "id": "q47",
+      "question": {
+        "text": "Why do pressure tactics often hurt you even when they win the deal?",
+        "audioId": "",
+        "vi": "Vì sao chiêu gây áp lực thường gây hại cho bạn kể cả khi bạn thắng thoả thuận?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Pressure tactics always fail, so they can never win any deal at all",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Winning the deal is the only thing that matters, so they never hurt you",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "They are tiring, but the relationship always stays exactly the same afterwards",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The other side may feel cheated, refuse future deals or not keep their promises",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Most negotiations are with people you will meet again: colleagues, suppliers, family. A deal won by pressure may be delivered late, done badly or cancelled. A fair process makes people want to keep the agreement.",
+        "vi": "Phần lớn cuộc đàm phán là với người bạn sẽ gặp lại: đồng nghiệp, nhà cung cấp, gia đình. Thoả thuận thắng nhờ ép có thể bị giao trễ, làm qua loa hoặc huỷ ngang. Một quá trình công bằng khiến người ta muốn giữ lời."
+      }
+    },
+    {
+      "id": "q48",
+      "question": {
+        "text": "At the end of a negotiation meeting, what should you do before everyone leaves?",
+        "audioId": "",
+        "vi": "Cuối buổi đàm phán, bạn nên làm gì trước khi mọi người ra về?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Leave quickly before the other side changes their mind about anything",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Start discussing new topics so that the meeting continues a while longer",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Summarise what was agreed, who does what and by when, and check everyone agrees",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Assume everyone remembers the same details and move on to other work",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A spoken summary catches misunderstandings while everyone is still in the room. Say: \"Let me check. We agreed on this price, delivery on the tenth, and you will send the contract by Friday, is that right?\"",
+        "vi": "Tóm tắt bằng lời giúp phát hiện hiểu lầm khi mọi người còn ngồi đó. Hãy nói: \"Cho tôi kiểm tra lại, chúng ta thống nhất giá này, giao hàng ngày mùng mười, và anh gửi hợp đồng trước thứ Sáu, đúng không?\""
+      }
+    },
+    {
+      "id": "q49",
+      "question": {
+        "text": "You agreed a price and delivery date with a supplier by phone, what is the best next step?",
+        "audioId": "",
+        "vi": "Bạn đã thống nhất giá và ngày giao hàng với nhà cung cấp qua điện thoại, bước tiếp theo tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Send a short message confirming the price, quantities, date and payment terms",
+          "audioId": "",
+          "variants": [
+            "Send a short message confirming the details"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Wait for the delivery and only check details if something goes wrong",
+          "audioId": "",
+          "variants": [
+            "Wait and check only if problems happen"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Call again tomorrow to ask for another discount on the same order",
+          "audioId": "",
+          "variants": [
+            "Call tomorrow for another discount"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Tell your team the deal is done without writing anything down at all",
+          "audioId": "",
+          "variants": [
+            "Tell the team without writing it down"
+          ]
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Phone agreements are easy to remember differently. A short email or chat message with the key numbers gives both sides one shared record. Ask them to reply to confirm, so any mistake is fixed before delivery.",
+        "vi": "Thoả thuận qua điện thoại rất dễ mỗi người nhớ một kiểu. Một email hoặc tin nhắn ngắn ghi các con số chính giúp hai bên có chung một bản ghi. Hãy đề nghị họ trả lời xác nhận, để sai sót được sửa trước khi giao hàng."
+      }
+    },
+    {
+      "id": "q50",
+      "question": {
+        "text": "Why is confirming an agreement in writing better than relying on memory?",
+        "audioId": "",
+        "vi": "Vì sao xác nhận thoả thuận bằng văn bản tốt hơn dựa vào trí nhớ?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Written agreements are only for big companies and never needed between people",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Writing prevents misunderstandings, because both sides can check the same clear details later",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Memory is more reliable, because people rarely forget what they promised",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Writing is just a formality, and nobody ever reads it after signing",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Memory fades and people hear what they hope to hear. A written summary, even a simple message, records numbers, dates and responsibilities. It turns a possible argument later into a quick check.",
+        "vi": "Trí nhớ phai dần và người ta thường nghe điều mình muốn nghe. Một bản tóm tắt bằng văn bản, dù chỉ là tin nhắn, ghi lại con số, ngày tháng và trách nhiệm. Nó biến một cuộc tranh cãi có thể xảy ra thành một lần kiểm tra nhanh."
+      }
+    }
+  ]
+}

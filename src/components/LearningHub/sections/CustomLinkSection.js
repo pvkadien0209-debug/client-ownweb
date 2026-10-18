@@ -1,11 +1,11 @@
-import RoomofflineV2GetLink from "../../RoomofflineV2/RoomofflineV2GetLink";
+import RoomofflineGetLink from "../../RoomofflineGetLink";
 
-// Ghi chú (bổ sung, không sửa logic tạo link cũ ở LearningHub_getlink.js —
-// file đó vẫn còn nguyên, chỉ không còn được render ở đây): trước đây hiển
-// thị 2 bảng riêng (link Roomoffline bản cũ + link RoomofflineV2), theo phản
-// hồi "rút gọn lại bằng một nút... thay vì tạo 2 bảng" nên giờ chỉ còn render
-// 1 component duy nhất (RoomofflineV2GetLink.js — đã gộp thêm nút chọn
-// Roomoffline/RoomofflineV2 bên trong, xem comment đầu file đó).
+// Cập nhật (dọn dẹp — đã xóa toàn bộ RoomofflineV2-V6, chỉ giữ Roomoffline
+// bản gốc): trước đây render RoomofflineV2GetLink.js (có nút chọn
+// Roomoffline/RoomofflineV2), file đó đã bị xóa cùng thư mục RoomofflineV2/.
+// Thay bằng RoomofflineGetLink.js (file mới, cùng chỗ với LearningHub_getlink.js
+// — file gốc vẫn còn nguyên, không bị đổi), chỉ tạo link cho Roomoffline,
+// không còn nút chọn targetMode vì RoomofflineV2 không còn tồn tại.
 export default function CustomLinkSection({ id, currentIndex, dataLearning }) {
   return (
     <div
@@ -18,7 +18,7 @@ export default function CustomLinkSection({ id, currentIndex, dataLearning }) {
         overflow: "hidden",
       }}
     >
-      <RoomofflineV2GetLink
+      <RoomofflineGetLink
         id={id}
         index={currentIndex}
         lessonSetLength={dataLearning.length}

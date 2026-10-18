@@ -7,14 +7,8 @@ import NameDiv from "./components/A1_Name";
 import RoomN from "./components/RoomN";
 import Room from "./components/Room";
 import RoomOffline from "./components/Roomoffline";
-import RoomOfflineV2 from "./components/RoomofflineV2/RoomofflineV2";
-import RoomOfflineV3 from "./components/RoomofflineV3/RoomofflineV3";
-import RoomOfflineV4 from "./components/RoomofflineV4/RoomofflineV4";
-import RoomOfflineV5 from "./components/RoomofflineV5/RoomofflineV5";
-import RoomOfflineV6 from "./components/RoomofflineV6/RoomofflineV6";
-// Mới thêm — chế độ chơi chung thứ 2 "Vườn đảo" (luyện tập ĐỘC LẬP, không
-// đánh Boss chung như V6), đặt trong folder riêng, KHÔNG sửa RoomofflineV6.
-import RoomOfflineGardenV1 from "./components/RoomofflineGardenV1/RoomofflineGardenV1";
+// Dọn dẹp — đã bỏ hết các chế độ chơi chung (Garden/City/Career/Memory/
+// Monopoly V1) theo yêu cầu, không dùng nữa.
 import NotExist from "./components/NotExist";
 import LinkToday from "./components/LinkToday";
 import LearningHub from "./components/LearningHub";
@@ -33,6 +27,14 @@ import PixiCanvas from "./components/prac_componets/inside_01_components/PixiJS"
 // import RootPrac from "./components/prac_componets/B1_RootPrac";
 import TTSStartButton from "./components/serverStart/serverStartTtsList";
 import LessonApp from "./components/huongdanghepamvideo/LessonApp";
+import KnowledgeHome from "./components/HocKienThuc/KnowledgeHome"; // SP02 (DetPro) — test
+import TopicPage from "./components/HocKienThuc/TopicPage"; // SP02
+import HomeKnowledge from "./components/HocKienThuc/HomeKnowledge"; // SP04 — trang chủ mới
+// #061 (U3-Q2): bỏ bài học 50 câu cũ (KnowledgeLesson, LessonPage, LessonCheck) và bài viết cũ (ArticlesHome, SeriesPage, ArticlePage) — đường dẫn cũ chuyển sang bài mới
+import { ArticlesRedirect, OldLessonRedirect } from "./components/HocKienThuc/LegacyRedirect";
+import UnitPage from "./components/HocKienThuc/UnitPage"; // SP08 U3 — bài theo người nghe (5 phần)
+import AudiencePage, { AudiencesHome } from "./components/HocKienThuc/AudiencePage"; // SP08 U3
+import MyPage from "./components/HocKienThuc/MyPage"; // SP09 — Của tôi
 // import JointPharmaWebsite from "./components/A1_JMC";
 const LinkAPI =
   window.location.hostname === "localhost"
@@ -119,39 +121,9 @@ const App = () => {
                 path="/roomoffline/:roomCode/:currentIndex"
                 element={<RoomOffline setSttRoom={setSttRoom} />}
               />
-              <Route
-                path="/roomofflineV2/:roomCode/:currentIndex"
-                element={<RoomOfflineV2 setSttRoom={setSttRoom} />}
-              />
-              <Route
-                path="/roomofflineV3/:roomCode/:currentIndex"
-                element={<RoomOfflineV3 setSttRoom={setSttRoom} />}
-              />
-              <Route
-                path="/roomofflineV4/:roomCode/:currentIndex"
-                element={<RoomOfflineV4 setSttRoom={setSttRoom} />}
-              />
-              <Route
-                path="/roomofflineV5/:roomCode/:currentIndex"
-                element={<RoomOfflineV5 setSttRoom={setSttRoom} />}
-              />
-              <Route
-                path="/roomofflineV6/:roomCode/:currentIndex"
-                element={<RoomOfflineV6 setSttRoom={setSttRoom} />}
-              />
-              <Route
-                path="/roomofflineV6/:roomCode/:currentIndex/:gameRoom"
-                element={<RoomOfflineV6 setSttRoom={setSttRoom} />}
-              />
-              <Route
-                path="/roomofflinegarden/:roomCode/:currentIndex"
-                element={<RoomOfflineGardenV1 setSttRoom={setSttRoom} />}
-              />
-              <Route
-                path="/roomofflinegarden/:roomCode/:currentIndex/:gameRoom"
-                element={<RoomOfflineGardenV1 setSttRoom={setSttRoom} />}
-              />
-              <Route path="/" element={<HomeView />} />
+              {/* SP04: trang chủ mới; trang chủ cũ (khoá Rèn luyện) chuyển sang /ren-luyen */}
+              <Route path="/" element={<HomeKnowledge />} />
+              <Route path="/ren-luyen" element={<HomeView />} />
               <Route
                 path="/coreknowledge/ghep-tach-am"
                 element={<KnowGhepAm />}
@@ -178,6 +150,22 @@ const App = () => {
               <Route path="/rhyming" element={<GHEPAM3000WORDS />} />{" "}
               <Route path="/ttslist" element={<TTSStartButton />} />
               <Route path="/lsapp" element={<LessonApp />} />
+              {/* Học kiến thức (DetPro, code test): SP02 trang chủ đề/bài + SP01 làm bài */}
+              <Route path="/knowledge" element={<KnowledgeHome />} />
+              <Route path="/articles" element={<ArticlesRedirect />} />
+              <Route path="/articles/:series" element={<ArticlesRedirect />} />
+              <Route path="/articles/:series/:slug" element={<ArticlesRedirect />} />
+              <Route path="/knowledge/:branch/:topic" element={<TopicPage />} />
+              {/* SP08 U3: bài theo người nghe — /for/<người-nghe>/<bài>/<phần> */}
+              <Route path="/for" element={<AudiencesHome />} />
+              <Route path="/me" element={<MyPage />} />
+              <Route path="/for/:audience" element={<AudiencePage />} />
+              <Route path="/for/:audience/:slug" element={<UnitPage />} />
+              <Route path="/for/:audience/:slug/:part" element={<UnitPage />} />
+              <Route
+                path="/knowledge/:branch/:topic/:lesson/*"
+                element={<OldLessonRedirect />}
+              />
               <Route
                 path="*"
                 element={

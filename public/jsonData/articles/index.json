@@ -1,0 +1,2114 @@
+{
+  "series": [
+    {
+      "slug": "job-interview",
+      "title": {
+        "vi": "Chuẩn bị phỏng vấn xin việc",
+        "en": "Job interview preparation"
+      },
+      "topic": "career/job-interview-preparation",
+      "articles": [
+        {
+          "slug": "research-the-company-before-interview",
+          "title": "Cần tìm hiểu gì về công ty trước khi đi phỏng vấn?",
+          "titleEn": "What to research about a company before an interview",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Sáu điều cần tìm hiểu về công ty trước buổi phỏng vấn, cách tìm nhanh và cách dùng chúng khi trả lời, kèm cụm từ tiếng Anh hữu ích.",
+          "readingMinutes": 9,
+          "lesson": "career/job-interview-preparation/lesson-1"
+        },
+        {
+          "slug": "how-to-answer-what-do-you-know-about-our-company",
+          "title": "Trả lời câu \"Bạn biết gì về công ty chúng tôi?\" thế nào cho tốt",
+          "titleEn": "How to answer what do you know about our company",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách trả lời câu \"Bạn biết gì về công ty chúng tôi?\" trong khoảng một phút theo khung ba bước, kèm ví dụ mẫu, lỗi cần tránh và cụm từ tiếng Anh.",
+          "readingMinutes": 8,
+          "lesson": "career/job-interview-preparation/lesson-1"
+        },
+        {
+          "slug": "what-is-the-star-method-in-interviews",
+          "title": "Phương pháp STAR là gì? Cách dùng khi trả lời phỏng vấn",
+          "titleEn": "What is the STAR method in interviews",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Phương pháp STAR là cách kể một ví dụ thật theo bốn phần Tình huống, Nhiệm vụ, Hành động, Kết quả. Bài viết hướng dẫn cách dùng, kèm ví dụ và lỗi cần tránh.",
+          "readingMinutes": 8,
+          "lesson": "career/job-interview-preparation/lesson-3"
+        },
+        {
+          "slug": "how-to-read-a-job-description-before-an-interview",
+          "title": "Đọc bản mô tả công việc sao cho đúng trước buổi phỏng vấn",
+          "titleEn": "How to read a job description before an interview",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách đọc bản mô tả công việc trước buổi phỏng vấn: tách yêu cầu bắt buộc và yêu cầu ưu tiên, tìm từ khoá, đoán câu hỏi sẽ gặp và chuẩn bị ví dụ phù hợp.",
+          "readingMinutes": 8,
+          "lesson": "career/job-interview-preparation/lesson-1"
+        },
+        {
+          "slug": "smart-questions-to-ask-at-the-end-of-an-interview",
+          "title": "Nên hỏi nhà tuyển dụng câu gì vào cuối buổi phỏng vấn?",
+          "titleEn": "Smart questions to ask at the end of an interview",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Gợi ý những câu nên hỏi nhà tuyển dụng vào cuối buổi phỏng vấn, chia theo công việc, nhóm, phát triển và bước tiếp theo, kèm những câu nên tránh.",
+          "readingMinutes": 8,
+          "lesson": "career/job-interview-preparation/lesson-3"
+        },
+        {
+          "slug": "how-to-research-salary-before-an-interview",
+          "title": "Cách tìm hiểu mức lương trước khi phỏng vấn",
+          "titleEn": "How to research salary before an interview",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách tìm hiểu mức lương trước khi phỏng vấn: dùng nguồn nào, phân biệt lương gross và net, tự xác định khoảng lương mong muốn và cách nói về lương khi được hỏi.",
+          "readingMinutes": 8,
+          "lesson": "career/job-interview-preparation/lesson-1"
+        },
+        {
+          "slug": "what-is-a-panel-interview-and-how-to-prepare",
+          "title": "Phỏng vấn hội đồng là gì và cách chuẩn bị",
+          "titleEn": "What is a panel interview and how to prepare",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Phỏng vấn hội đồng là buổi phỏng vấn có nhiều người cùng hỏi một ứng viên. Bài viết giải thích vai trò từng người, cách chuẩn bị và cách giao tiếp với cả hội đồng.",
+          "readingMinutes": 8,
+          "lesson": "career/job-interview-preparation/lesson-2"
+        },
+        {
+          "slug": "what-to-wear-to-a-job-interview",
+          "title": "Mặc gì khi đi phỏng vấn: cách đoán đúng phong cách công ty",
+          "titleEn": "What to wear to a job interview",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Mặc gì khi đi phỏng vấn: cách đoán phong cách ăn mặc của công ty, gợi ý trang phục theo từng môi trường, phỏng vấn trực tuyến và những lỗi nên tránh.",
+          "readingMinutes": 7,
+          "lesson": "career/job-interview-preparation/lesson-2"
+        },
+        {
+          "slug": "reliable-sources-of-information-about-a-company",
+          "title": "Những nguồn thông tin đáng tin về một công ty",
+          "titleEn": "Reliable sources of information about a company",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Những nguồn thông tin đáng tin về một công ty: dữ liệu đăng ký kinh doanh, công bố thông tin, báo chí, đánh giá nhân viên, và cách kiểm tra chéo để tránh tin sai.",
+          "readingMinutes": 8,
+          "lesson": "career/job-interview-preparation/lesson-1"
+        },
+        {
+          "slug": "checklist-for-the-day-before-an-interview",
+          "title": "Một ngày trước buổi phỏng vấn: danh sách việc cần làm",
+          "titleEn": "Checklist for the day before an interview",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Danh sách việc cần làm một ngày trước buổi phỏng vấn: xác nhận lịch hẹn, chuẩn bị giấy tờ, trang phục, đường đi, ôn câu trả lời và nghỉ ngơi đúng cách.",
+          "readingMinutes": 7,
+          "lesson": "career/job-interview-preparation/lesson-2"
+        }
+      ]
+    },
+    {
+      "slug": "workplace-communication",
+      "title": {
+        "vi": "Giao tiếp nơi công sở",
+        "en": "Communication at work"
+      },
+      "topic": "career/communication-at-work",
+      "articles": [
+        {
+          "slug": "how-to-write-a-clear-and-polite-work-email",
+          "title": "Cách viết email công việc rõ ràng, lịch sự",
+          "titleEn": "How to write a clear and polite work email",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách viết email công việc rõ ràng, lịch sự: tiêu đề cụ thể, mở đầu đúng mực, nội dung ngắn gọn, lời đề nghị rõ ràng và kết thư chuyên nghiệp.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-give-a-progress-update-to-your-manager",
+          "title": "Cách báo cáo tiến độ công việc với sếp",
+          "titleEn": "How to give a progress update to your manager",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách báo cáo tiến độ công việc với sếp ngắn gọn và đáng tin: nói kết quả trước, nêu rủi ro sớm, đề xuất giải pháp và chọn đúng thời điểm, kênh báo cáo.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-give-feedback-to-a-colleague",
+          "title": "Góp ý cho đồng nghiệp mà không làm mất lòng",
+          "titleEn": "How to give feedback to a colleague",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách góp ý cho đồng nghiệp mà không làm mất lòng: chọn lúc riêng tư, nói về hành vi cụ thể thay vì con người, nêu ảnh hưởng và cùng tìm cách sửa.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-say-no-professionally",
+          "title": "Cách nói \"không\" một cách chuyên nghiệp",
+          "titleEn": "How to say no professionally",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách nói \"không\" một cách chuyên nghiệp ở nơi làm việc: từ chối rõ ràng, nêu lý do ngắn gọn, đưa phương án thay thế và giữ được quan hệ tốt.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-run-effective-online-meetings",
+          "title": "Họp trực tuyến hiệu quả: những điều cần biết",
+          "titleEn": "How to run effective online meetings",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Những điều cần biết để họp trực tuyến hiệu quả: chuẩn bị chương trình, kiểm tra thiết bị, điều phối thảo luận, phép lịch sự khi họp và gửi biên bản sau họp.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-ask-for-leave-at-work",
+          "title": "Cách xin nghỉ phép đúng cách",
+          "titleEn": "How to ask for leave at work",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách xin nghỉ phép đúng cách: nắm quy định nghỉ phép, báo sớm đúng kênh, viết đơn hoặc email xin nghỉ rõ ràng và bàn giao công việc trước khi nghỉ.",
+          "readingMinutes": 8
+        },
+        {
+          "slug": "how-to-handle-disagreement-in-a-team",
+          "title": "Xử lý bất đồng trong nhóm làm việc",
+          "titleEn": "How to handle disagreement in a team",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách xử lý bất đồng trong nhóm làm việc: tách vấn đề khỏi con người, tìm mục tiêu chung, so sánh phương án bằng tiêu chí rõ ràng và chốt quyết định dứt điểm.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-introduce-yourself-on-your-first-day-at-work",
+          "title": "Cách giới thiệu bản thân trong ngày đầu đi làm",
+          "titleEn": "How to introduce yourself on your first day at work",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách giới thiệu bản thân trong ngày đầu đi làm: lời giới thiệu ngắn ba phần, cách chào nhóm, chào sếp, giới thiệu qua email hay nhóm chat và ghi nhớ tên đồng nghiệp.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "active-listening-skills-at-work",
+          "title": "Kỹ năng lắng nghe chủ động trong công việc",
+          "titleEn": "Active listening skills at work",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Kỹ năng lắng nghe chủ động trong công việc là gì, gồm những kỹ thuật nào như tập trung, đặt câu hỏi mở, diễn đạt lại và tóm tắt, cùng cách luyện mỗi ngày.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-present-an-idea-in-a-meeting",
+          "title": "Cách trình bày ý tưởng trong cuộc họp",
+          "titleEn": "How to present an idea in a meeting",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách trình bày ý tưởng trong cuộc họp thuyết phục: nêu vấn đề trước, đề xuất ngắn gọn, đưa bằng chứng, nói rõ chi phí và rủi ro, rồi đề nghị bước tiếp theo.",
+          "readingMinutes": 7
+        }
+      ]
+    },
+    {
+      "slug": "graduates",
+      "title": {
+        "vi": "Sinh viên chuẩn bị ra trường",
+        "en": "Graduates"
+      },
+      "topic": "graduates/before-graduating",
+      "articles": [
+        {
+          "slug": "what-students-should-prepare-before-graduating",
+          "title": "Những điều sinh viên cần chuẩn bị trước khi ra trường",
+          "titleEn": "What students should prepare before graduating",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Danh sách những việc sinh viên năm cuối nên chuẩn bị trước khi ra trường: giấy tờ, hồ sơ xin việc, kỹ năng, tài chính và tinh thần, kèm cụm từ tiếng Anh hữu ích.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-write-a-cv-with-no-experience",
+          "title": "Cách viết CV khi chưa có kinh nghiệm",
+          "titleEn": "How to write a CV with no experience",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách viết CV khi chưa có kinh nghiệm đi làm: nên đưa gì vào, sắp xếp thế nào, viết từng mục ra sao để nhà tuyển dụng thấy được năng lực của sinh viên mới ra trường.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-choose-an-internship",
+          "title": "Thực tập có quan trọng không? Cách chọn nơi thực tập",
+          "titleEn": "How to choose an internship",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Thực tập quan trọng thế nào với sinh viên, và cách chọn nơi thực tập phù hợp: tiêu chí đánh giá, câu hỏi nên hỏi, dấu hiệu cần cảnh giác.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "soft-skills-employers-want-from-graduates",
+          "title": "Kỹ năng mềm nhà tuyển dụng cần ở sinh viên mới ra trường",
+          "titleEn": "Soft skills employers want from graduates",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Bảy kỹ năng mềm nhà tuyển dụng thường tìm ở sinh viên mới ra trường, biểu hiện cụ thể trong công việc, cách luyện từ khi còn đi học và cách chứng minh khi phỏng vấn.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-build-a-linkedin-profile-as-a-student",
+          "title": "Cách xây dựng hồ sơ LinkedIn cho sinh viên",
+          "titleEn": "How to build a LinkedIn profile as a student",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Hướng dẫn sinh viên xây dựng hồ sơ LinkedIn từ đầu: ảnh, dòng tiêu đề, phần giới thiệu, học vấn, dự án, kỹ năng và cách kết nối để nhà tuyển dụng dễ tìm thấy bạn.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "personal-finance-for-your-first-working-year",
+          "title": "Lập kế hoạch tài chính cá nhân cho năm đầu đi làm",
+          "titleEn": "Personal finance for your first working year",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Các nguyên tắc lập kế hoạch tài chính cá nhân cho năm đầu đi làm: hiểu lương thực nhận, lập ngân sách, quỹ dự phòng, tránh nợ tiêu dùng và học cách quản lý tiền.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-choose-the-right-career-path",
+          "title": "Cách chọn ngành nghề phù hợp với bản thân",
+          "titleEn": "How to choose the right career path",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách chọn ngành nghề phù hợp với bản thân khi sắp ra trường: hiểu sở thích, điểm mạnh và giá trị, tìm hiểu nghề thật, thử nghiệm nhỏ trước khi quyết định.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-start-professional-networking",
+          "title": "Mạng lưới quan hệ nghề nghiệp: bắt đầu từ đâu?",
+          "titleEn": "How to start professional networking",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Sinh viên nên bắt đầu xây mạng lưới quan hệ nghề nghiệp từ đâu: tận dụng người quen sẵn có, tham gia sự kiện, cách bắt chuyện, theo dõi sau gặp mặt và giữ liên lạc lâu dài.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "further-study-or-start-working",
+          "title": "Học tiếp lên cao hay đi làm ngay?",
+          "titleEn": "Further study or start working",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Nên học tiếp lên cao hay đi làm ngay sau khi tốt nghiệp? Các câu hỏi giúp bạn quyết định, ưu nhược điểm của từng lựa chọn và phương án vừa học vừa làm.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "time-management-while-studying-and-working",
+          "title": "Quản lý thời gian khi vừa học vừa làm",
+          "titleEn": "Time management while studying and working",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách quản lý thời gian khi vừa học vừa làm: xác định ưu tiên, lập lịch tuần, chọn việc làm thêm phù hợp, dùng thời gian trống hiệu quả và giữ sức khoẻ.",
+          "readingMinutes": 6
+        }
+      ]
+    },
+    {
+      "slug": "self-introduction-english",
+      "title": {
+        "vi": "Giới thiệu bản thân bằng tiếng Anh",
+        "en": "Introducing yourself in English"
+      },
+      "topic": "how-to-in-english/introduce-yourself",
+      "articles": [
+        {
+          "slug": "how-to-introduce-yourself-in-english",
+          "title": "Cách giới thiệu bản thân bằng tiếng Anh ngắn gọn, tự nhiên",
+          "titleEn": "How to introduce yourself in English",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Công thức ba phần để giới thiệu bản thân bằng tiếng Anh ngắn gọn, tự nhiên trong 30 giây, kèm câu mẫu cho từng hoàn cảnh và cụm từ hữu ích.",
+          "readingMinutes": 8
+        },
+        {
+          "slug": "self-introduction-in-english-for-job-interviews",
+          "title": "Giới thiệu bản thân bằng tiếng Anh khi phỏng vấn",
+          "titleEn": "Self introduction in English for job interviews",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách trả lời \"Tell me about yourself\" khi phỏng vấn bằng tiếng Anh theo công thức hiện tại, quá khứ, tương lai, kèm bài mẫu cho sinh viên mới ra trường và người có kinh nghiệm.",
+          "readingMinutes": 8
+        },
+        {
+          "slug": "how-to-talk-about-your-hobbies-in-english",
+          "title": "Nói về sở thích của bạn bằng tiếng Anh",
+          "titleEn": "How to talk about your hobbies in English",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách nói về sở thích bằng tiếng Anh tự nhiên hơn \"My hobby is...\": cấu trúc câu, cách nói tần suất, lý do, chi tiết cụ thể và cách hỏi lại người nghe.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-describe-your-job-in-english",
+          "title": "Giới thiệu công việc hiện tại bằng tiếng Anh",
+          "titleEn": "How to describe your job in English",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách giới thiệu công việc hiện tại bằng tiếng Anh: nói chức danh, nơi làm, nhiệm vụ chính và giải thích dễ hiểu cho người ngoài ngành, kèm lỗi cần tránh.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-talk-about-your-hometown-in-english",
+          "title": "Nói về quê hương của bạn bằng tiếng Anh",
+          "titleEn": "How to talk about your hometown in English",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách nói về quê hương bằng tiếng Anh: nói bạn đến từ đâu, chỉ vị trí cho người nước ngoài dễ hình dung, mô tả nét đặc trưng và những thay đổi của quê.",
+          "readingMinutes": 8
+        },
+        {
+          "slug": "how-to-introduce-yourself-in-an-online-meeting-in-english",
+          "title": "Giới thiệu bản thân trong cuộc họp trực tuyến bằng tiếng Anh",
+          "titleEn": "How to introduce yourself in an online meeting in English",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách giới thiệu bản thân trong cuộc họp trực tuyến bằng tiếng Anh trong 15 đến 20 giây: tên, vai trò, lý do tham gia, kèm câu dùng khi vào muộn, mất tiếng hay giới thiệu qua khung chat.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-talk-about-strengths-and-weaknesses-in-english",
+          "title": "Nói về điểm mạnh và điểm yếu bằng tiếng Anh",
+          "titleEn": "How to talk about strengths and weaknesses in English",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách nói về điểm mạnh và điểm yếu bằng tiếng Anh khi phỏng vấn hay tự giới thiệu: chọn điểm phù hợp, chứng minh bằng ví dụ, nói điểm yếu trung thực kèm cách cải thiện.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-talk-about-your-family-in-english",
+          "title": "Giới thiệu gia đình bằng tiếng Anh",
+          "titleEn": "How to talk about your family in English",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách giới thiệu gia đình bằng tiếng Anh tự nhiên: nói số thành viên, gọi đúng anh chị em, kể về công việc và tính cách người thân, và giữ chừng mực khi trò chuyện.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-talk-about-career-goals-in-english",
+          "title": "Nói về mục tiêu nghề nghiệp bằng tiếng Anh",
+          "titleEn": "How to talk about career goals in English",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách nói về mục tiêu nghề nghiệp bằng tiếng Anh: phân biệt mục tiêu ngắn hạn và dài hạn, dùng đúng cấu trúc tương lai, và trả lời câu \"Where do you see yourself in five years?",
+          "readingMinutes": 8
+        },
+        {
+          "slug": "common-mistakes-when-introducing-yourself-in-english",
+          "title": "Những lỗi thường gặp khi giới thiệu bản thân bằng tiếng Anh",
+          "titleEn": "Common mistakes when introducing yourself in English",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Những lỗi thường gặp khi giới thiệu bản thân bằng tiếng Anh: lỗi ngữ pháp người Việt hay mắc, lỗi phát âm, lỗi về cách nói và cách sửa cho tự nhiên, đúng hơn.",
+          "readingMinutes": 7
+        }
+      ]
+    },
+    {
+      "slug": "interview-in-english",
+      "title": {
+        "vi": "Trả lời phỏng vấn bằng tiếng Anh",
+        "en": "Answering interviews in English"
+      },
+      "topic": "how-to-in-english/answer-interview-questions",
+      "articles": [
+        {
+          "slug": "how-to-answer-tell-me-about-yourself",
+          "title": "Trả lời câu \"Tell me about yourself\" thế nào?",
+          "titleEn": "How to answer tell me about yourself",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách trả lời câu \"Tell me about yourself\" bằng tiếng Anh theo khung hiện tại – quá khứ – tương lai, dài 60–90 giây, kèm câu mẫu và lỗi cần tránh.",
+          "readingMinutes": 8
+        },
+        {
+          "slug": "how-to-answer-why-do-you-want-this-job",
+          "title": "Trả lời câu \"Why do you want this job?\"",
+          "titleEn": "How to answer why do you want this job",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách trả lời câu \"Why do you want this job?\" bằng tiếng Anh: nối công việc, công ty và mục tiêu của bạn, kèm câu mẫu và những lý do không nên nói.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-answer-what-is-your-weakness",
+          "title": "Trả lời câu hỏi về điểm yếu bằng tiếng Anh",
+          "titleEn": "How to answer what is your weakness",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách trả lời câu hỏi \"What is your greatest weakness?\" bằng tiếng Anh: chọn điểm yếu thật, nói cách bạn cải thiện, kèm câu mẫu và cụm từ hữu ích.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-answer-where-do-you-see-yourself-in-five-years",
+          "title": "Trả lời câu \"Where do you see yourself in five years?\"",
+          "titleEn": "How to answer where do you see yourself in five years",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách trả lời câu \"Where do you see yourself in five years?\" bằng tiếng Anh: nói mục tiêu thực tế gắn với vị trí, kèm câu mẫu, ngữ pháp tương lai và lỗi cần tránh.",
+          "readingMinutes": 8
+        },
+        {
+          "slug": "how-to-answer-salary-expectation-questions-in-english",
+          "title": "Trả lời câu hỏi về mức lương mong muốn bằng tiếng Anh",
+          "titleEn": "How to answer salary expectation questions in English",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách trả lời câu hỏi về mức lương mong muốn bằng tiếng Anh: tìm hiểu mặt bằng, đưa ra khoảng lương hợp lý, nói về phúc lợi, kèm câu mẫu tự nhiên.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-describe-a-challenge-you-overcame-in-english",
+          "title": "Kể về một thử thách bạn đã vượt qua bằng tiếng Anh",
+          "titleEn": "How to describe a challenge you overcame in English",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách kể về một thử thách bạn đã vượt qua bằng tiếng Anh khi phỏng vấn: chọn câu chuyện, kể theo STAR, dùng thì quá khứ đúng, kèm câu mẫu và cụm từ.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-answer-why-should-we-hire-you",
+          "title": "Trả lời câu \"Why should we hire you?\"",
+          "titleEn": "How to answer why should we hire you",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách trả lời câu \"Why should we hire you?\" bằng tiếng Anh: chọn ba điểm mạnh khớp với nhu cầu công ty, chứng minh bằng ví dụ, kèm câu mẫu và cụm từ.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "polite-questions-to-ask-an-interviewer-in-english",
+          "title": "Hỏi lại nhà tuyển dụng bằng tiếng Anh cho lịch sự",
+          "titleEn": "Polite questions to ask an interviewer in English",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách hỏi lại nhà tuyển dụng bằng tiếng Anh cho lịch sự: cấu trúc câu hỏi mềm mại, câu hỏi hay theo từng chủ đề, cách xin nhắc lại và những câu nên tránh.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-say-thank-you-after-an-interview-in-english",
+          "title": "Cách cảm ơn sau buổi phỏng vấn bằng tiếng Anh",
+          "titleEn": "How to say thank you after an interview in English",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách cảm ơn sau buổi phỏng vấn bằng tiếng Anh: câu nói khi kết thúc buổi gặp, email cảm ơn trong vòng một ngày, mẫu email ngắn và lỗi cần tránh.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "english-phrases-to-buy-time-in-an-interview",
+          "title": "Những cụm từ tiếng Anh giúp bạn có thêm thời gian suy nghĩ",
+          "titleEn": "English phrases to buy time in an interview",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Những cụm từ tiếng Anh giúp bạn có thêm thời gian suy nghĩ khi phỏng vấn: xin vài giây, nhắc lại câu hỏi, làm rõ ý, và cách dùng tự nhiên không bị lộ.",
+          "readingMinutes": 7
+        }
+      ]
+    },
+    {
+      "slug": "english-grammar",
+      "title": {
+        "vi": "Ngữ pháp tiếng Anh cần biết",
+        "en": "English grammar you need"
+      },
+      "topic": "english-knowledge/grammar-structures",
+      "articles": [
+        {
+          "slug": "present-simple-vs-present-continuous",
+          "title": "Thì hiện tại đơn và hiện tại tiếp diễn khác nhau thế nào?",
+          "titleEn": "Present simple vs present continuous",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Phân biệt thì hiện tại đơn và hiện tại tiếp diễn: khi nào nói về thói quen, sự thật, khi nào nói về việc đang diễn ra, kèm ví dụ công việc.",
+          "readingMinutes": 8
+        },
+        {
+          "slug": "when-to-use-the-present-perfect",
+          "title": "Khi nào dùng thì hiện tại hoàn thành?",
+          "titleEn": "When to use the present perfect",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Khi nào dùng thì hiện tại hoàn thành: kinh nghiệm, việc vừa xong, việc kéo dài đến nay, và cách phân biệt với quá khứ đơn qua ví dụ công việc.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "conditional-sentences-explained",
+          "title": "Câu điều kiện loại 1, 2, 3: hiểu một lần là nhớ",
+          "titleEn": "Conditional sentences explained",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Giải thích dễ nhớ câu điều kiện loại 1, 2, 3 và loại 0: công thức, ý nghĩa thật hay giả định, kèm ví dụ công việc và lỗi người Việt hay mắc.",
+          "readingMinutes": 8
+        },
+        {
+          "slug": "the-passive-voice-at-work",
+          "title": "Câu bị động: cách dùng tự nhiên trong công việc",
+          "titleEn": "The passive voice at work",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Câu bị động tiếng Anh: công thức theo từng thì, khi nào nên dùng trong email, báo cáo, thông báo công việc, và khi nào nên chuyển sang chủ động.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-use-a-an-and-the",
+          "title": "Mạo từ a, an, the: quy tắc đơn giản",
+          "titleEn": "How to use a an and the",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Quy tắc dùng mạo từ a, an, the dễ nhớ: nói lần đầu hay đã biết, a hay an theo âm, khi nào không cần mạo từ, kèm ví dụ công việc.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "prepositions-of-time-in-on-at",
+          "title": "Giới từ chỉ thời gian in, on, at",
+          "titleEn": "Prepositions of time in on at",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách dùng giới từ chỉ thời gian in, on, at: at cho giờ, on cho ngày, in cho tháng, năm, khoảng dài, cùng các trường hợp đặc biệt hay nhầm.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "question-tags-and-how-to-answer-them",
+          "title": "Câu hỏi đuôi và cách trả lời",
+          "titleEn": "Question tags and how to answer them",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Câu hỏi đuôi tiếng Anh: cách lập theo trợ động từ, các trường hợp đặc biệt, ngữ điệu lên xuống, và cách trả lời yes, no đúng với câu hỏi đuôi phủ định.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "modal-verbs-can-could-should-must",
+          "title": "Động từ khuyết thiếu can, could, should, must",
+          "titleEn": "Modal verbs can could should must",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách dùng động từ khuyết thiếu can, could, should, must: khả năng, xin phép, lời khuyên, bắt buộc, phỏng đoán, và mức độ lịch sự trong công việc.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "comparatives-and-superlatives",
+          "title": "So sánh hơn và so sánh nhất",
+          "titleEn": "Comparatives and superlatives",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách lập so sánh hơn và so sánh nhất trong tiếng Anh: tính từ ngắn, tính từ dài, dạng bất quy tắc, so sánh bằng, kèm ví dụ so sánh sản phẩm, công việc.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "reported-speech-explained",
+          "title": "Câu tường thuật: kể lại lời người khác",
+          "titleEn": "Reported speech explained",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Câu tường thuật tiếng Anh: cách kể lại lời người khác, lùi thì, đổi đại từ và từ chỉ thời gian, tường thuật câu hỏi, yêu cầu, kèm ví dụ công việc.",
+          "readingMinutes": 7
+        }
+      ]
+    },
+    {
+      "slug": "solar-system",
+      "title": {
+        "vi": "Hệ Mặt Trời và vũ trụ",
+        "en": "The Solar System and space"
+      },
+      "topic": "science/solar-system",
+      "articles": [
+        {
+          "slug": "how-many-planets-are-in-the-solar-system",
+          "title": "Hệ Mặt Trời có bao nhiêu hành tinh?",
+          "titleEn": "How many planets are in the Solar System",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Hệ Mặt Trời có 8 hành tinh. Bài viết giải thích vì sao Sao Diêm Vương không còn là hành tinh, thứ tự các hành tinh và hành tinh lùn là gì.",
+          "readingMinutes": 8
+        },
+        {
+          "slug": "why-venus-is-hotter-than-mercury",
+          "title": "Vì sao Sao Kim nóng hơn Sao Thủy?",
+          "titleEn": "Why Venus is hotter than Mercury",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Sao Kim xa Mặt Trời gấp đôi Sao Thủy nhưng nóng hơn, vì bầu khí quyển dày đặc CO2 tạo hiệu ứng nhà kính mất kiểm soát. Giải thích dễ hiểu kèm số liệu.",
+          "readingMinutes": 8
+        },
+        {
+          "slug": "how-the-moon-was-formed",
+          "title": "Mặt Trăng hình thành như thế nào?",
+          "titleEn": "How the Moon was formed",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Mặt Trăng hình thành như thế nào? Giả thuyết được ủng hộ nhiều nhất là một vụ va chạm khổng lồ với Trái Đất khoảng 4,5 tỷ năm trước. Bằng chứng và câu hỏi còn mở.",
+          "readingMinutes": 8
+        },
+        {
+          "slug": "why-we-have-day-and-night-and-seasons",
+          "title": "Vì sao có ngày và đêm, có bốn mùa?",
+          "titleEn": "Why we have day and night and seasons",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Ngày và đêm có là do Trái Đất tự quay quanh trục; bốn mùa có là do trục Trái Đất nghiêng khoảng 23,5 độ, không phải do khoảng cách tới Mặt Trời.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "is-there-life-on-mars",
+          "title": "Sao Hỏa có sự sống không?",
+          "titleEn": "Is there life on Mars",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Sao Hỏa có sự sống không? Đến nay chưa có bằng chứng xác nhận, nhưng Sao Hỏa từng có nước lỏng và có thể từng phù hợp cho vi sinh vật. Những gì ta biết và chưa biết.",
+          "readingMinutes": 8
+        },
+        {
+          "slug": "comets-vs-meteors",
+          "title": "Sao chổi và thiên thạch khác nhau thế nào?",
+          "titleEn": "Comets vs meteors",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Sao chổi là khối băng bụi quay quanh Mặt Trời, có đuôi dài; thiên thạch là mảnh đá nhỏ lao vào khí quyển tạo vệt sao băng. Phân biệt rõ các khái niệm dễ nhầm.",
+          "readingMinutes": 8
+        },
+        {
+          "slug": "what-is-a-black-hole",
+          "title": "Hố đen là gì?",
+          "titleEn": "What is a black hole",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Hố đen là vùng không gian có lực hấp dẫn mạnh đến mức cả ánh sáng cũng không thoát ra được. Cách hố đen hình thành, cách quan sát và những điều còn bí ẩn.",
+          "readingMinutes": 8
+        },
+        {
+          "slug": "when-solar-and-lunar-eclipses-happen",
+          "title": "Nhật thực và nguyệt thực xảy ra khi nào?",
+          "titleEn": "When solar and lunar eclipses happen",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Nhật thực xảy ra khi Mặt Trăng che Mặt Trời vào ngày trăng mới; nguyệt thực khi Trái Đất che bóng lên Mặt Trăng lúc trăng tròn. Vì sao không tháng nào cũng có.",
+          "readingMinutes": 8
+        },
+        {
+          "slug": "how-big-is-jupiter",
+          "title": "Sao Mộc lớn đến mức nào?",
+          "titleEn": "How big is Jupiter",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Sao Mộc lớn đến mức nào? Đường kính gấp khoảng 11 lần Trái Đất, chứa được hơn 1.300 Trái Đất và nặng gấp hơn hai lần mọi hành tinh khác cộng lại.",
+          "readingMinutes": 8
+        },
+        {
+          "slug": "how-humans-have-explored-space",
+          "title": "Con người đã khám phá vũ trụ như thế nào?",
+          "titleEn": "How humans have explored space",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Con người khám phá vũ trụ bằng kính thiên văn, tàu thăm dò không người lái và các chuyến bay có người. Những cột mốc chính từ Sputnik đến kính James Webb.",
+          "readingMinutes": 8
+        }
+      ]
+    },
+    {
+      "slug": "vietnam-heritage",
+      "title": {
+        "vi": "Di sản và du lịch Việt Nam",
+        "en": "Heritage and travel in Vietnam"
+      },
+      "topic": "travel-vietnam/world-heritage",
+      "articles": [
+        {
+          "slug": "world-heritage-sites-in-vietnam",
+          "title": "Việt Nam có những di sản thế giới nào?",
+          "titleEn": "World heritage sites in Vietnam",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Danh sách các di sản thế giới của Việt Nam được UNESCO ghi danh, chia theo di sản văn hóa, thiên nhiên và hỗn hợp, kèm điểm nổi bật của từng nơi.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-ha-long-bay-was-formed",
+          "title": "Vịnh Hạ Long được hình thành như thế nào?",
+          "titleEn": "How Ha Long Bay was formed",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Vịnh Hạ Long hình thành từ đá vôi trầm tích, bị nước mưa hòa tan thành địa hình karst rồi bị biển nhấn chìm. Bài giải thích từng giai đoạn dễ hiểu.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "what-makes-hoi-an-special",
+          "title": "Phố cổ Hội An có gì đặc biệt?",
+          "titleEn": "What makes Hoi An special",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Phố cổ Hội An đặc biệt vì là thương cảng cổ còn giữ gần nguyên vẹn, nơi văn hóa Việt, Hoa, Nhật và phương Tây giao thoa. Bài giải thích những điểm đáng xem.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "hue-imperial-city-and-the-nguyen-dynasty",
+          "title": "Kinh thành Huế và câu chuyện triều Nguyễn",
+          "titleEn": "Hue Imperial City and the Nguyen dynasty",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Kinh thành Huế là kinh đô của triều Nguyễn, triều đại phong kiến cuối cùng của Việt Nam. Bài giải thích cấu trúc ba vòng thành, các công trình chính và lịch sử triều đại.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "phong-nha-ke-bang-caves",
+          "title": "Phong Nha – Kẻ Bàng: thế giới hang động",
+          "titleEn": "Phong Nha Ke Bang caves",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Phong Nha – Kẻ Bàng là vùng núi đá vôi cổ với hệ thống hang động đồ sộ và rừng nguyên sinh. Bài giới thiệu các hang nổi bật, giá trị di sản và cách tham quan an toàn.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "my-son-sanctuary-and-cham-culture",
+          "title": "Thánh địa Mỹ Sơn và văn hóa Chăm",
+          "titleEn": "My Son Sanctuary and Cham culture",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Thánh địa Mỹ Sơn là trung tâm tôn giáo của vương quốc Champa, nơi các tháp gạch thờ thần Shiva được xây qua nhiều thế kỷ. Bài giải thích lịch sử, kiến trúc và văn hóa Chăm.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "trang-an-landscape-complex",
+          "title": "Quần thể danh thắng Tràng An",
+          "titleEn": "Trang An Landscape Complex",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Quần thể danh thắng Tràng An ở Ninh Bình là di sản hỗn hợp, kết hợp cảnh quan núi đá vôi, dấu tích người tiền sử và cố đô Hoa Lư. Bài giải thích giá trị và cách khám phá.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "thang-long-imperial-citadel-through-history",
+          "title": "Hoàng thành Thăng Long qua các thời kỳ",
+          "titleEn": "Thang Long Imperial Citadel through history",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Hoàng thành Thăng Long là nơi các lớp di tích từ thời Đại La, Lý, Trần, Lê đến Nguyễn chồng lên nhau. Bài kể lại lịch sử khu di sản qua từng thời kỳ và những gì nên xem.",
+          "readingMinutes": 6
+        },
+        {
+          "slug": "how-to-introduce-vietnamese-heritage-to-tourists-in-english",
+          "title": "Giới thiệu di sản Việt Nam bằng tiếng Anh cho du khách",
+          "titleEn": "How to introduce Vietnamese heritage to tourists in English",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách giới thiệu di sản Việt Nam bằng tiếng Anh cho du khách theo một khung bốn bước đơn giản, kèm mẫu câu, cách giải thích từ khó và lỗi thường gặp.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "responsible-travel-at-heritage-sites",
+          "title": "Du lịch có trách nhiệm tại các di sản",
+          "titleEn": "Responsible travel at heritage sites",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Du lịch có trách nhiệm tại các di sản là tham quan sao cho di tích, thiên nhiên và cộng đồng địa phương không bị tổn hại. Bài nêu những việc cụ thể nên làm và nên tránh.",
+          "readingMinutes": 7
+        }
+      ]
+    },
+    {
+      "slug": "food-nutrition",
+      "title": {
+        "vi": "Ẩm thực và dinh dưỡng",
+        "en": "Food and nutrition"
+      },
+      "topic": "food-health/vietnamese-food",
+      "articles": [
+        {
+          "slug": "the-history-of-pho",
+          "title": "Phở: lịch sử và cách thưởng thức",
+          "titleEn": "The history of pho",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Phở ra đời ở miền Bắc đầu thế kỷ 20, theo dòng người vào Nam rồi ra thế giới. Bài viết kể lịch sử phở, khác biệt vùng miền và cách ăn phở cho ngon.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "why-vietnamese-banh-mi-is-famous",
+          "title": "Bánh mì Việt Nam nổi tiếng thế giới vì sao?",
+          "titleEn": "Why Vietnamese banh mi is famous",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Bánh mì Việt Nam nổi tiếng nhờ vỏ giòn ruột xốp, nhân phong phú, giá rẻ và tiện mang đi. Tìm hiểu lịch sử, cấu tạo và các loại bánh mì phổ biến.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-describe-vietnamese-dishes-in-english",
+          "title": "Giới thiệu món ăn Việt bằng tiếng Anh",
+          "titleEn": "How to describe Vietnamese dishes in English",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách giới thiệu món ăn Việt bằng tiếng Anh theo công thức 4 bước: món gì, làm từ gì, nấu thế nào, vị ra sao, kèm từ vựng và câu mẫu dễ nói.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "what-is-a-balanced-meal",
+          "title": "Bữa ăn cân bằng gồm những gì?",
+          "titleEn": "What is a balanced meal",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Bữa ăn cân bằng gồm rau và trái cây, ngũ cốc hoặc tinh bột, thực phẩm giàu đạm, một ít chất béo tốt và nước. Cách áp dụng với mâm cơm gia đình Việt.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "protein-fat-and-carbohydrates-explained",
+          "title": "Chất đạm, chất béo, tinh bột: hiểu đúng",
+          "titleEn": "Protein fat and carbohydrates explained",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Chất đạm, chất béo và tinh bột đều cần thiết cho cơ thể. Hiểu vai trò, nguồn thực phẩm và cách chọn loại tốt, tránh những hiểu lầm phổ biến.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-much-water-you-need-each-day",
+          "title": "Uống bao nhiêu nước mỗi ngày là đủ?",
+          "titleEn": "How much water you need each day",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Không có con số chung cho mọi người. Tìm hiểu khuyến nghị về lượng nước mỗi ngày, cách nhận biết uống đủ và khi nào cần uống thêm hoặc hỏi bác sĩ.",
+          "readingMinutes": 6
+        },
+        {
+          "slug": "how-to-read-a-nutrition-label",
+          "title": "Đọc nhãn dinh dưỡng trên bao bì",
+          "titleEn": "How to read a nutrition label",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách đọc nhãn dinh dưỡng trên bao bì theo 5 bước: khẩu phần, năng lượng, các chất cần hạn chế, phần trăm giá trị hằng ngày và danh sách thành phần.",
+          "readingMinutes": 6
+        },
+        {
+          "slug": "is-breakfast-really-important",
+          "title": "Ăn sáng có thật sự quan trọng?",
+          "titleEn": "Is breakfast really important",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Ăn sáng quan trọng với trẻ em, người lao động nặng và một số người có bệnh lý; với người lớn khoẻ mạnh, chất lượng bữa ăn cả ngày quan trọng không kém.",
+          "readingMinutes": 6
+        },
+        {
+          "slug": "food-culture-of-vietnam-s-three-regions",
+          "title": "Văn hóa ăn uống ba miền Việt Nam",
+          "titleEn": "Food culture of Vietnam's three regions",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Văn hóa ăn uống ba miền Việt Nam khác nhau ở khẩu vị, nguyên liệu và cách ăn: miền Bắc thanh, miền Trung đậm cay, miền Nam ngọt và nhiều rau.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-order-food-in-english",
+          "title": "Gọi món ở nhà hàng bằng tiếng Anh",
+          "titleEn": "How to order food in English",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Hướng dẫn gọi món ở nhà hàng bằng tiếng Anh theo từng bước: đặt bàn, xem thực đơn, gọi món, yêu cầu riêng, báo dị ứng và thanh toán, kèm câu mẫu.",
+          "readingMinutes": 6
+        }
+      ]
+    },
+    {
+      "slug": "running",
+      "title": {
+        "vi": "Chạy bộ cho người mới",
+        "en": "Running for beginners"
+      },
+      "topic": "sports/running-for-beginners",
+      "articles": [
+        {
+          "slug": "how-to-start-running-from-zero",
+          "title": "Bắt đầu chạy bộ từ con số không",
+          "titleEn": "How to start running from zero",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách bắt đầu chạy bộ khi chưa từng tập: kết hợp đi bộ và chạy chậm, tập ba buổi mỗi tuần, tăng dần và lắng nghe cơ thể, kèm cụm từ tiếng Anh hữu ích.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-choose-running-shoes",
+          "title": "Chọn giày chạy bộ phù hợp",
+          "titleEn": "How to choose running shoes",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách chọn giày chạy bộ phù hợp: ưu tiên cảm giác thoải mái, đúng cỡ, hợp mặt đường, thử giày đúng cách và biết khi nào nên thay, kèm cụm từ tiếng Anh hữu ích.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "warm-up-and-stretching-before-running",
+          "title": "Khởi động và giãn cơ trước khi chạy",
+          "titleEn": "Warm up and stretching before running",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Khởi động và giãn cơ trước khi chạy thế nào cho đúng: đi bộ nhanh, động tác động 5–10 phút trước khi chạy, giãn cơ tĩnh nhẹ nhàng sau khi chạy, kèm cụm từ tiếng Anh.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-much-to-run-each-week",
+          "title": "Chạy bao nhiêu mỗi tuần là đủ?",
+          "titleEn": "How much to run each week",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Chạy bao nhiêu mỗi tuần là đủ cho sức khoẻ và cho người mới: số buổi, số phút, cách tăng khối lượng an toàn và dấu hiệu bạn đang chạy quá nhiều.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-breathe-when-running",
+          "title": "Hít thở đúng cách khi chạy",
+          "titleEn": "How to breathe when running",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Hít thở đúng cách khi chạy: thở tự nhiên bằng cả mũi và miệng, thở sâu bằng bụng, giữ tốc độ nói chuyện được và xử lý khi hụt hơi hay đau sườn.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-avoid-running-injuries",
+          "title": "Phòng tránh chấn thương khi chạy bộ",
+          "titleEn": "How to avoid running injuries",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách phòng tránh chấn thương khi chạy bộ: tăng khối lượng từ từ, tập sức mạnh, nghỉ ngơi đủ, phân biệt mỏi cơ với đau cần chú ý và biết khi nào nên đi khám.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "what-to-eat-before-and-after-running",
+          "title": "Ăn gì trước và sau khi chạy?",
+          "titleEn": "What to eat before and after running",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Ăn gì trước và sau khi chạy: bữa nhẹ dễ tiêu trước khi chạy, bữa có tinh bột và chất đạm sau khi chạy, cách uống nước và gợi ý món ăn quen thuộc của người Việt.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-prepare-for-your-first-five-kilometre-race",
+          "title": "Chuẩn bị cho giải chạy 5 km đầu tiên",
+          "titleEn": "How to prepare for your first five kilometre race",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Chuẩn bị cho giải chạy 5 km đầu tiên: chọn giải, tập đều vài tháng, chuẩn bị đồ và bib, ăn ngủ trước ngày đua và cách phân phối sức trên đường chạy.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "how-to-stay-motivated-to-run",
+          "title": "Giữ động lực chạy bộ lâu dài",
+          "titleEn": "How to stay motivated to run",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách giữ động lực chạy bộ lâu dài: đặt mục tiêu vừa sức, biến chạy thành thói quen, chạy cùng người khác, theo dõi tiến bộ và quay lại nhẹ nhàng sau khi bỏ lỡ.",
+          "readingMinutes": 7
+        },
+        {
+          "slug": "common-english-words-in-running",
+          "title": "Những từ tiếng Anh thường gặp trong chạy bộ",
+          "titleEn": "Common English words in running",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Những từ tiếng Anh thường gặp trong chạy bộ, chia theo nhóm: tốc độ và quãng đường, các kiểu buổi tập, giải chạy, cơ thể và hồi phục, kèm ví dụ cách dùng.",
+          "readingMinutes": 7
+        }
+      ]
+    },
+    {
+      "slug": "problem-solving",
+      "title": {
+        "vi": "Giải quyết vấn đề và ra quyết định",
+        "en": "Problem solving and decision making"
+      },
+      "topic": "skills/problem-solving",
+      "articles": [
+        {
+          "slug": "how-to-define-the-real-problem",
+          "title": "Cách xác định đúng vấn đề trước khi tìm giải pháp",
+          "titleEn": "How to define the real problem before looking for solutions",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách biến một lời phàn nàn mơ hồ thành một vấn đề rõ ràng bằng vài câu hỏi đơn giản, kèm tình huống mẫu, lỗi thường gặp và cụm từ tiếng Anh.",
+          "readingMinutes": 8,
+          "lesson": "skills/problem-solving/lesson-1"
+        },
+        {
+          "slug": "five-whys-root-cause-analysis",
+          "title": "Phương pháp 5 Why là gì và áp dụng thế nào để tìm nguyên nhân gốc?",
+          "titleEn": "What is the five whys method and how to find the root cause",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Giải thích phương pháp 5 Why (năm câu hỏi tại sao), cách hỏi đúng để tìm nguyên nhân gốc thay vì chữa cháy, kèm ví dụ phân tích và lỗi hay gặp.",
+          "readingMinutes": 7,
+          "lesson": "skills/problem-solving/lesson-1"
+        },
+        {
+          "slug": "how-to-come-up-with-more-solutions",
+          "title": "Cách nghĩ ra nhiều phương án khi gặp vấn đề khó",
+          "titleEn": "How to come up with more options for a difficult problem",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách tạo ra nhiều phương án thay vì bám vào ý tưởng đầu tiên, cách tổ chức buổi động não để ai cũng góp ý, kèm tình huống mẫu và bài tập.",
+          "readingMinutes": 7,
+          "lesson": "skills/problem-solving/lesson-1"
+        },
+        {
+          "slug": "how-to-weigh-pros-and-cons",
+          "title": "Cách cân nhắc ưu nhược điểm để chọn phương án tốt nhất",
+          "titleEn": "How to weigh pros and cons to choose the best option",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách so sánh các phương án bằng tiêu chí và trọng số thay vì chỉ đếm ưu nhược điểm, kèm ví dụ chọn việc làm, lỗi thường gặp và cụm từ tiếng Anh.",
+          "readingMinutes": 7,
+          "lesson": "skills/problem-solving/lesson-1"
+        },
+        {
+          "slug": "how-to-make-quick-decisions-under-pressure",
+          "title": "Làm gì khi phải ra quyết định gấp?",
+          "titleEn": "What to do when you must decide quickly",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách giữ bình tĩnh và ra quyết định nhanh mà vẫn hợp lý khi bị áp lực thời gian, với các bước cụ thể, tình huống mẫu và câu nói tiếng Anh dùng ngay.",
+          "readingMinutes": 7,
+          "lesson": "skills/problem-solving/lesson-1"
+        },
+        {
+          "slug": "how-to-decide-without-enough-information",
+          "title": "Cách ra quyết định khi chưa đủ thông tin",
+          "titleEn": "How to make decisions without enough information",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Hướng dẫn ra quyết định khi thông tin chưa đầy đủ: ghi rõ giả định, phân biệt quyết định đảo ngược được, thử nghiệm nhỏ và đặt hạn chót để không chờ mãi.",
+          "readingMinutes": 7,
+          "lesson": "skills/problem-solving/lesson-1"
+        },
+        {
+          "slug": "how-to-turn-a-decision-into-action",
+          "title": "Cách biến quyết định thành hành động và nhìn lại kết quả",
+          "titleEn": "How to turn a decision into action and review the results",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Vì sao nhiều quyết định tốt vẫn thất bại khi triển khai, cách lập kế hoạch hành động ai làm gì xong khi nào, và cách nhìn lại kết quả để rút kinh nghiệm.",
+          "readingMinutes": 7,
+          "lesson": "skills/problem-solving/lesson-1"
+        },
+        {
+          "slug": "what-is-the-sunk-cost-trap",
+          "title": "Bẫy chi phí chìm là gì và làm sao để tránh?",
+          "titleEn": "What is the sunk cost trap and how to avoid it",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Giải thích bẫy chi phí chìm, vì sao ta cứ tiếp tục một việc chỉ vì đã bỏ nhiều tiền và công sức, cùng câu hỏi đơn giản giúp quyết định dừng hay đi tiếp.",
+          "readingMinutes": 7,
+          "lesson": "skills/problem-solving/lesson-1"
+        },
+        {
+          "slug": "common-decision-making-mistakes",
+          "title": "Những sai lầm thường gặp khi ra quyết định và cách tránh",
+          "titleEn": "Common decision making mistakes and how to avoid them",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Năm sai lầm hay gặp khi ra quyết định như quyết vội, chỉ tin một nguồn, chạy theo số đông, chỉ tìm thông tin thuận tai và quyết lúc nóng giận, kèm cách sửa.",
+          "readingMinutes": 7,
+          "lesson": "skills/problem-solving/lesson-1"
+        },
+        {
+          "slug": "how-to-present-a-problem-and-solution-to-your-manager",
+          "title": "Cách báo cáo vấn đề và đề xuất giải pháp với sếp",
+          "titleEn": "How to report a problem and propose a solution to your manager",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách trình bày một vấn đề với sếp theo thứ tự vấn đề, nguyên nhân, phương án và đề xuất, để sếp quyết nhanh và tin tưởng bạn hơn, kèm câu nói mẫu.",
+          "readingMinutes": 7,
+          "lesson": "skills/problem-solving/lesson-1"
+        }
+      ]
+    },
+    {
+      "slug": "time-management",
+      "title": {
+        "vi": "Quản lý thời gian và sắp xếp ưu tiên",
+        "en": "Time management and priorities"
+      },
+      "topic": "skills/time-management",
+      "articles": [
+        {
+          "slug": "how-to-prioritize-urgent-and-important-tasks",
+          "title": "Cách sắp xếp công việc theo mức độ ưu tiên khi việc gì cũng gấp",
+          "titleEn": "How to prioritize tasks when everything feels urgent",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách phân biệt việc gấp và việc quan trọng, xếp thứ tự công việc bằng ma trận ưu tiên, kèm tình huống mẫu, lỗi thường gặp và cụm từ tiếng Anh.",
+          "readingMinutes": 8,
+          "lesson": "skills/time-management/lesson-1"
+        },
+        {
+          "slug": "how-to-plan-your-workday",
+          "title": "Cách lên kế hoạch làm việc mỗi ngày để không bị cuốn theo việc vặt",
+          "titleEn": "How to plan your workday without getting lost in small tasks",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách lập kế hoạch ngày làm việc trong mười phút: chọn việc chính, chia khung giờ, chừa thời gian dự phòng và tổng kết cuối ngày, kèm tình huống mẫu.",
+          "readingMinutes": 7,
+          "lesson": "skills/time-management/lesson-1"
+        },
+        {
+          "slug": "how-to-plan-your-work-week",
+          "title": "Lập kế hoạch tuần như thế nào cho người đi làm?",
+          "titleEn": "How to plan your work week",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách lập kế hoạch tuần cho người đi làm trong ba mươi phút: chọn kết quả chính, giữ khối giờ tập trung, cân bằng họp và việc riêng, kèm lỗi thường gặp.",
+          "readingMinutes": 7,
+          "lesson": "skills/time-management/lesson-1"
+        },
+        {
+          "slug": "how-to-break-down-a-big-task",
+          "title": "Cách chia nhỏ công việc lớn khi không biết bắt đầu từ đâu",
+          "titleEn": "How to break down a big task when you do not know where to start",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Hướng dẫn chia một dự án hay công việc lớn thành các bước nhỏ, cụ thể, có thứ tự và đưa vào lịch, kèm tình huống mẫu, lỗi thường gặp và cụm từ tiếng Anh.",
+          "readingMinutes": 7,
+          "lesson": "skills/time-management/lesson-1"
+        },
+        {
+          "slug": "what-to-do-when-you-have-too-much-work",
+          "title": "Làm gì khi bị giao quá nhiều việc? Cách từ chối khéo mà không mất lòng",
+          "titleEn": "What to do when you have too much work and how to say no politely",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách nhận biết khi mình đã quá tải, kiểm tra sức chứa trước khi nhận lời, từ chối hoặc thương lượng lại việc một cách lịch sự, kèm câu nói mẫu và tình huống phân tích.",
+          "readingMinutes": 8,
+          "lesson": "skills/time-management/lesson-1"
+        },
+        {
+          "slug": "what-to-do-when-two-bosses-give-urgent-tasks",
+          "title": "Làm gì khi hai sếp cùng giao việc gấp?",
+          "titleEn": "What to do when two bosses give you urgent tasks",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách xử lý khi hai quản lý cùng giao việc gấp và đều muốn được ưu tiên: làm rõ xung đột, đưa dữ kiện, đề nghị họ thống nhất thứ tự, kèm câu nói mẫu.",
+          "readingMinutes": 8,
+          "lesson": "skills/time-management/lesson-1"
+        },
+        {
+          "slug": "how-to-focus-with-constant-messages-and-interruptions",
+          "title": "Cách tập trung làm việc khi liên tục bị tin nhắn và đồng nghiệp làm phiền",
+          "titleEn": "How to focus with constant messages and interruptions",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách giữ tập trung khi tin nhắn, email và đồng nghiệp liên tục cắt ngang: kiểm tra tin theo giờ, giữ khối giờ tập trung và từ chối khéo, kèm tình huống mẫu.",
+          "readingMinutes": 7,
+          "lesson": "skills/time-management/lesson-1"
+        },
+        {
+          "slug": "how-to-stop-procrastinating-at-work",
+          "title": "Cách bỏ thói quen trì hoãn công việc",
+          "titleEn": "How to stop procrastinating at work",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Vì sao chúng ta trì hoãn, cách nhận ra lý do thật và các bước nhỏ để bắt đầu công việc ngay hôm nay, kèm tình huống mẫu, lỗi thường gặp và cụm từ tiếng Anh.",
+          "readingMinutes": 7,
+          "lesson": "skills/time-management/lesson-1"
+        },
+        {
+          "slug": "how-to-estimate-time-and-meet-deadlines",
+          "title": "Cách ước lượng thời gian làm việc và giữ đúng deadline",
+          "titleEn": "How to estimate time and meet deadlines",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách ước lượng thời gian cho một công việc sát thực tế, đặt hạn riêng sớm hơn, báo sớm khi sắp trễ và trả lời sếp khi được hỏi việc này mất bao lâu.",
+          "readingMinutes": 7,
+          "lesson": "skills/time-management/lesson-1"
+        },
+        {
+          "slug": "how-to-manage-energy-and-take-breaks-at-work",
+          "title": "Làm việc cả ngày vẫn mệt? Cách quản lý năng lượng và nghỉ giải lao hợp lý",
+          "titleEn": "How to manage your energy and take breaks at work",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách sắp xếp việc theo nhịp năng lượng trong ngày, nghỉ giải lao đúng cách và tránh thức khuya chạy deadline, kèm tình huống mẫu, lỗi thường gặp và cụm từ tiếng Anh.",
+          "readingMinutes": 7,
+          "lesson": "skills/time-management/lesson-1"
+        }
+      ]
+    },
+    {
+      "slug": "critical-thinking",
+      "title": {
+        "vi": "Tư duy phản biện",
+        "en": "Critical thinking"
+      },
+      "topic": "skills/critical-thinking",
+      "articles": [
+        {
+          "slug": "what-is-critical-thinking",
+          "title": "Tư duy phản biện là gì? Cách rèn luyện cho người đi làm",
+          "titleEn": "What is critical thinking and how to practise it at work",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Tư duy phản biện là thói quen hỏi \"làm sao biết điều này đúng\" trước khi tin, chọn hay quyết định. Bài viết hướng dẫn năm bước rèn luyện cụ thể cho người đi làm.",
+          "readingMinutes": 7,
+          "lesson": "skills/critical-thinking/lesson-1"
+        },
+        {
+          "slug": "how-to-tell-fact-from-opinion",
+          "title": "Cách phân biệt sự thật và ý kiến khi đọc tin, nghe người khác nói",
+          "titleEn": "How to tell fact from opinion",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách phân biệt sự thật và ý kiến: dấu hiệu nhận biết bằng từ ngữ, bốn bước tách hai phần trong một câu nói, tình huống mẫu ở công sở và bài tập luyện mỗi ngày.",
+          "readingMinutes": 7,
+          "lesson": "skills/critical-thinking/lesson-1"
+        },
+        {
+          "slug": "how-to-spot-fake-news-on-social-media",
+          "title": "Cách nhận biết tin giả trên mạng xã hội trước khi chia sẻ",
+          "titleEn": "How to spot fake news on social media before sharing",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách nhận biết tin giả trên mạng xã hội: dấu hiệu cảnh báo, sáu bước kiểm tra nhanh trong hai phút và cách nhắc khéo người thân khi họ chia sẻ tin sai.",
+          "readingMinutes": 7,
+          "lesson": "skills/critical-thinking/lesson-1"
+        },
+        {
+          "slug": "how-to-ask-good-questions",
+          "title": "Cách đặt câu hỏi hay để hiểu đúng vấn đề trong công việc",
+          "titleEn": "How to ask good questions to understand a problem",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách đặt câu hỏi hay để hiểu đúng vấn đề: câu hỏi mở và câu hỏi đóng, kỹ thuật năm lần tại sao, bộ câu hỏi kiểm tra nhận định và lỗi khiến câu hỏi thành chất vấn.",
+          "readingMinutes": 7,
+          "lesson": "skills/critical-thinking/lesson-1"
+        },
+        {
+          "slug": "how-to-compare-two-options-fairly",
+          "title": "Cách so sánh hai lựa chọn khi phân vân không biết chọn gì",
+          "titleEn": "How to compare two options fairly",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách so sánh hai lựa chọn công bằng khi phân vân: chọn tiêu chí trước, gán trọng số, so trong cùng điều kiện, tính chi phí lâu dài và trình bày đề xuất rõ ràng.",
+          "readingMinutes": 7,
+          "lesson": "skills/critical-thinking/lesson-1"
+        },
+        {
+          "slug": "common-logical-fallacies",
+          "title": "Ngụy biện là gì? Các lỗi lập luận thường gặp khi tranh luận",
+          "titleEn": "Common logical fallacies in arguments",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Ngụy biện là lập luận nghe có vẻ hợp lý nhưng không chứng minh được kết luận. Bài viết giải thích sáu lỗi ngụy biện thường gặp ở công sở và câu đáp lại bình tĩnh cho từng lỗi.",
+          "readingMinutes": 7,
+          "lesson": "skills/critical-thinking/lesson-1"
+        },
+        {
+          "slug": "correlation-vs-causation",
+          "title": "Tương quan và nhân quả khác nhau như thế nào? Cách tránh kết luận vội",
+          "titleEn": "Correlation vs causation and how to avoid hasty conclusions",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Tương quan là hai hiện tượng cùng thay đổi, nhân quả là cái này gây ra cái kia. Bài viết chỉ cách kiểm tra nguyên nhân thật bằng bốn câu hỏi và một thử nghiệm nhỏ.",
+          "readingMinutes": 7,
+          "lesson": "skills/critical-thinking/lesson-1"
+        },
+        {
+          "slug": "confirmation-bias",
+          "title": "Thiên kiến xác nhận là gì và cách tránh khi ra quyết định",
+          "titleEn": "What is confirmation bias and how to avoid it",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Thiên kiến xác nhận là xu hướng chỉ thấy và tin thông tin hợp với điều mình đã nghĩ. Bài viết chỉ dấu hiệu nhận ra và năm thói quen giúp bạn quyết định khách quan hơn.",
+          "readingMinutes": 7,
+          "lesson": "skills/critical-thinking/lesson-1"
+        },
+        {
+          "slug": "how-to-see-the-other-side",
+          "title": "Làm gì khi bất đồng quan điểm? Cách nhìn vấn đề từ phía người khác",
+          "titleEn": "How to see the other side in a disagreement",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Khi bất đồng quan điểm, hãy nhắc lại ý người kia cho đến khi họ đồng ý là bạn hiểu đúng. Bài viết hướng dẫn các bước, tình huống mẫu và cách nghe cả hai bên công bằng.",
+          "readingMinutes": 7,
+          "lesson": "skills/critical-thinking/lesson-1"
+        },
+        {
+          "slug": "how-to-reach-a-balanced-conclusion",
+          "title": "Cách đưa ra kết luận khách quan khi thông tin trái chiều",
+          "titleEn": "How to reach a balanced conclusion with mixed evidence",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách đưa ra kết luận khách quan khi thông tin trái chiều: cân bằng chứng theo chất lượng, chọn từ ngữ đúng mức chắc chắn, nói rõ điều sẽ khiến bạn đổi ý và cập nhật công khai.",
+          "readingMinutes": 7,
+          "lesson": "skills/critical-thinking/lesson-1"
+        }
+      ]
+    },
+    {
+      "slug": "teamwork",
+      "title": {
+        "vi": "Làm việc nhóm và dẫn dắt nhóm nhỏ",
+        "en": "Teamwork and leading a small team"
+      },
+      "topic": "skills/teamwork",
+      "articles": [
+        {
+          "slug": "how-to-set-clear-goals-and-roles-in-a-team",
+          "title": "Cách phân vai trò rõ ràng khi bắt đầu làm việc nhóm",
+          "titleEn": "How to set clear goals and roles in a team",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Các bước thống nhất mục tiêu và phân vai trò ngay buổi đầu làm việc nhóm, tình huống mẫu được phân tích, lỗi thường gặp và cụm từ tiếng Anh hữu ích.",
+          "readingMinutes": 7,
+          "lesson": "skills/teamwork/lesson-1"
+        },
+        {
+          "slug": "how-to-divide-tasks-fairly-in-a-team",
+          "title": "Cách chia việc trong nhóm sao cho công bằng và hiệu quả",
+          "titleEn": "How to divide tasks fairly in a team",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách chia việc trong nhóm dựa trên độ khó, kỹ năng và khối lượng thật, so sánh chia đều với chia theo năng lực, kèm lỗi thường gặp và cụm từ tiếng Anh.",
+          "readingMinutes": 7,
+          "lesson": "skills/teamwork/lesson-1"
+        },
+        {
+          "slug": "how-to-run-a-short-effective-team-meeting",
+          "title": "Cách tổ chức cuộc họp nhóm ngắn mà hiệu quả",
+          "titleEn": "How to run a short, effective team meeting",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách tổ chức một cuộc họp nhóm nhỏ trong mười lăm đến ba mươi phút: chuẩn bị chương trình, giữ đúng chủ đề, chốt việc cần làm, kèm tình huống mẫu và cụm từ tiếng Anh.",
+          "readingMinutes": 7,
+          "lesson": "skills/teamwork/lesson-1"
+        },
+        {
+          "slug": "what-to-do-when-a-team-member-does-not-do-their-part",
+          "title": "Làm gì khi có thành viên không làm việc trong nhóm?",
+          "titleEn": "What to do when a team member does not do their part",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách xử lý từng bước khi có thành viên trong nhóm trễ hạn hoặc không làm phần việc của mình: nói chuyện riêng, tìm nguyên nhân, thống nhất kế hoạch và khi nào cần cứng rắn.",
+          "readingMinutes": 7,
+          "lesson": "skills/teamwork/lesson-1"
+        },
+        {
+          "slug": "how-to-receive-feedback-from-teammates",
+          "title": "Cách nhận góp ý từ đồng đội mà không tự ái",
+          "titleEn": "How to receive feedback from teammates",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách bình tĩnh nhận góp ý từ đồng đội, kể cả khi bị góp ý trước mặt người khác: các bước phản hồi, khung lọc góp ý, tình huống mẫu và cụm từ tiếng Anh hữu ích.",
+          "readingMinutes": 7,
+          "lesson": "skills/teamwork/lesson-1"
+        },
+        {
+          "slug": "what-to-do-when-leading-a-team-for-the-first-time",
+          "title": "Lần đầu làm trưởng nhóm cần làm gì?",
+          "titleEn": "What to do when leading a team for the first time",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Những việc nên làm trong tháng đầu tiên khi lần đầu làm trưởng nhóm, cách dẫn dắt đồng nghiệp cũ, tình huống mẫu được phân tích và các lỗi trưởng nhóm mới hay mắc.",
+          "readingMinutes": 7,
+          "lesson": "skills/teamwork/lesson-1"
+        },
+        {
+          "slug": "how-to-delegate-work-effectively",
+          "title": "Cách giao việc cho nhân viên hiệu quả, không phải làm lại",
+          "titleEn": "How to delegate work effectively",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách giao việc rõ ràng để nhân viên làm đúng ngay từ đầu: năm điều cần nói khi bàn giao, mức độ trao quyền, mốc kiểm tra, tình huống mẫu và cụm từ tiếng Anh.",
+          "readingMinutes": 7,
+          "lesson": "skills/teamwork/lesson-1"
+        },
+        {
+          "slug": "how-to-keep-the-whole-team-informed",
+          "title": "Làm sao để cả nhóm luôn nắm được tiến độ công việc?",
+          "titleEn": "How to keep the whole team informed",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách giữ cả nhóm nắm tiến độ và thông tin: một nơi chung cho cập nhật, báo tin xấu sớm, ghi lại quyết định nhanh, kèm tình huống mẫu và cụm từ tiếng Anh.",
+          "readingMinutes": 7,
+          "lesson": "skills/teamwork/lesson-1"
+        },
+        {
+          "slug": "how-to-make-decisions-as-a-team",
+          "title": "Ra quyết định trong nhóm như thế nào khi mỗi người một ý?",
+          "titleEn": "How to make decisions as a team",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách nhóm ra quyết định khi ý kiến chia rẽ: thống nhất tiêu chí trước, chọn cách quyết phù hợp, bất đồng nhưng cam kết, kèm tình huống mẫu và cụm từ tiếng Anh.",
+          "readingMinutes": 7,
+          "lesson": "skills/teamwork/lesson-1"
+        },
+        {
+          "slug": "how-to-recognise-team-members-contributions",
+          "title": "Cách khen và ghi nhận đóng góp của thành viên trong nhóm",
+          "titleEn": "How to recognise team members' contributions",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách khen cụ thể và ghi nhận đúng người, đúng lúc trong nhóm: công thức lời khen, khen công khai hay riêng, để ý người ít nói, kèm tình huống mẫu và cụm từ tiếng Anh.",
+          "readingMinutes": 7,
+          "lesson": "skills/teamwork/lesson-1"
+        }
+      ]
+    },
+    {
+      "slug": "handling-conflict",
+      "title": {
+        "vi": "Xử lý xung đột và cuộc nói chuyện khó",
+        "en": "Handling conflict and difficult conversations"
+      },
+      "topic": "skills/handling-conflict",
+      "articles": [
+        {
+          "slug": "how-to-stay-calm-in-an-argument",
+          "title": "Cách giữ bình tĩnh khi cãi nhau hoặc bị nói nặng",
+          "titleEn": "How to stay calm in an argument or when someone speaks harshly",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách giữ bình tĩnh khi bị nói nặng hay đang cãi nhau: nhận ra dấu hiệu cơ thể, câu thêm vài giây, chọn câu đáp và những lỗi khiến cơn giận bùng lên.",
+          "readingMinutes": 8,
+          "lesson": "skills/handling-conflict/lesson-1"
+        },
+        {
+          "slug": "when-to-pause-a-difficult-conversation",
+          "title": "Khi nào nên tạm dừng cuộc cãi vã và nói chuyện lại sau?",
+          "titleEn": "When to pause an argument and talk again later",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Khi nào nên tạm dừng cuộc cãi vã, cách xin tạm dừng mà không giống bỏ chạy, làm gì trong lúc nghỉ và cách mở lại cuộc nói chuyện cho êm.",
+          "readingMinutes": 7,
+          "lesson": "skills/handling-conflict/lesson-1"
+        },
+        {
+          "slug": "separate-facts-from-feelings-in-conflict",
+          "title": "Cách tách sự việc và cảm xúc khi có mâu thuẫn",
+          "titleEn": "How to separate facts from feelings in a conflict",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách tách sự việc khỏi cảm xúc và phán xét khi có mâu thuẫn: phép thử máy quay, cách nói lại cho cụ thể, lắng nghe để hiểu và những lỗi hay mắc.",
+          "readingMinutes": 7,
+          "lesson": "skills/handling-conflict/lesson-1"
+        },
+        {
+          "slug": "how-to-use-i-statements",
+          "title": "Cách nói ra điều khó chịu mà không gây cãi vã",
+          "titleEn": "How to raise something that bothers you without starting a fight",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách nói ra điều khó chịu với đồng nghiệp, bạn cùng phòng hay người thân mà không gây cãi vã, bằng khuôn câu nói ngôi tôi bốn phần và đề nghị rõ ràng.",
+          "readingMinutes": 7,
+          "lesson": "skills/handling-conflict/lesson-1"
+        },
+        {
+          "slug": "how-to-disagree-with-your-boss",
+          "title": "Làm sao để phản biện sếp mà không mất lòng?",
+          "titleEn": "How to disagree with your boss without damaging the relationship",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Làm sao để phản biện sếp mà không mất lòng: chọn lúc nói riêng, bắt đầu từ mục tiêu chung, đưa dữ kiện và phương án, rồi cam kết khi sếp đã quyết.",
+          "readingMinutes": 7,
+          "lesson": "skills/handling-conflict/lesson-1"
+        },
+        {
+          "slug": "colleague-takes-credit-for-your-work",
+          "title": "Làm gì khi đồng nghiệp nhận vơ công sức của mình?",
+          "titleEn": "What to do when a colleague takes credit for your work",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Làm gì khi đồng nghiệp nhận vơ công sức: phản ứng bình tĩnh ngay tại chỗ, nói chuyện riêng bằng sự việc, khi nào báo sếp và thói quen giúp đóng góp được ghi nhận.",
+          "readingMinutes": 7,
+          "lesson": "skills/handling-conflict/lesson-1"
+        },
+        {
+          "slug": "how-to-apologise-sincerely",
+          "title": "Cách xin lỗi chân thành khi mình làm sai",
+          "titleEn": "How to apologise sincerely when you are wrong",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách xin lỗi chân thành khi mình làm sai: bốn phần của một lời xin lỗi trọn vẹn, những câu xin lỗi nửa vời cần tránh, cách xin lỗi sếp, khách hàng và người thân.",
+          "readingMinutes": 7,
+          "lesson": "skills/handling-conflict/lesson-1"
+        },
+        {
+          "slug": "taking-responsibility-instead-of-blaming",
+          "title": "Nhận trách nhiệm hay đổ lỗi: phản ứng thế nào khi có chuyện hỏng?",
+          "titleEn": "Taking responsibility or blaming: how to react when things go wrong",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Khi công việc có chuyện hỏng, nên nhận trách nhiệm hay đổ lỗi? Cách tìm phần của mình, nói ra không viện cớ, họp rút kinh nghiệm không truy lỗi cá nhân.",
+          "readingMinutes": 7,
+          "lesson": "skills/handling-conflict/lesson-1"
+        },
+        {
+          "slug": "how-to-mediate-a-conflict-between-two-people",
+          "title": "Cách hoà giải khi hai người xung quanh mâu thuẫn",
+          "titleEn": "How to mediate when two people around you are in conflict",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách hoà giải khi hai đồng nghiệp hoặc hai người thân mâu thuẫn: giữ trung lập, đặt nguyên tắc, tìm lợi ích sau lập trường và chốt bước tiếp theo rõ ràng.",
+          "readingMinutes": 7,
+          "lesson": "skills/handling-conflict/lesson-1"
+        },
+        {
+          "slug": "how-to-handle-disputes-with-neighbours-and-family",
+          "title": "Cách xử lý mâu thuẫn với hàng xóm và người trong gia đình",
+          "titleEn": "How to handle disputes with neighbours and family",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách xử lý mâu thuẫn với hàng xóm và người trong gia đình: nói sớm, nói riêng, mỗi lần một chuyện, giữ thể diện cho nhau và biết khi nào cần người thứ ba.",
+          "readingMinutes": 8,
+          "lesson": "skills/handling-conflict/lesson-1"
+        }
+      ]
+    },
+    {
+      "slug": "persuasion-negotiation",
+      "title": {
+        "vi": "Thuyết phục và đàm phán",
+        "en": "Persuasion and negotiation"
+      },
+      "topic": "skills/persuasion-negotiation",
+      "articles": [
+        {
+          "slug": "how-to-find-the-real-need-in-a-negotiation",
+          "title": "Cách tìm ra nhu cầu thật của đối phương khi đàm phán",
+          "titleEn": "How to find the other side's real need in a negotiation",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách phân biệt lập trường và lợi ích, những câu hỏi giúp tìm ra nhu cầu thật của đối phương và cách biến nó thành phương án đôi bên cùng chấp nhận.",
+          "readingMinutes": 7,
+          "lesson": "skills/persuasion-negotiation/lesson-1"
+        },
+        {
+          "slug": "what-is-batna-and-how-to-set-a-walk-away-point",
+          "title": "BATNA là gì? Cách xác định điểm dừng trước khi đàm phán",
+          "titleEn": "What is a BATNA? How to set your walk-away point before negotiating",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Giải thích BATNA và điểm dừng bằng ví dụ đời thường, các bước xác định giới hạn trước khi đàm phán và cách củng cố phương án B của bạn.",
+          "readingMinutes": 7,
+          "lesson": "skills/persuasion-negotiation/lesson-1"
+        },
+        {
+          "slug": "how-to-ask-your-boss-for-a-raise",
+          "title": "Cách đề xuất tăng lương với sếp sao cho thuyết phục",
+          "titleEn": "How to ask your boss for a raise persuasively",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Các bước chuẩn bị và đề xuất tăng lương với sếp: chọn thời điểm, gom kết quả, đưa con số, xử lý khi bị từ chối và xác nhận lại bằng email.",
+          "readingMinutes": 7,
+          "lesson": "skills/persuasion-negotiation/lesson-1"
+        },
+        {
+          "slug": "how-to-bargain-when-shopping",
+          "title": "Cách trả giá khi mua hàng mà không bị hớ",
+          "titleEn": "How to bargain when shopping without overpaying",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách trả giá khi mua hàng ở chợ, cửa hàng hay mua món đồ lớn mà không bị hớ: tìm hiểu giá, đặt giới hạn, trả giá có lý do và đòi thêm giá trị khi giá cố định.",
+          "readingMinutes": 7,
+          "lesson": "skills/persuasion-negotiation/lesson-1"
+        },
+        {
+          "slug": "how-to-negotiate-when-selling-used-items-online",
+          "title": "Cách thương lượng giá khi bán đồ cũ trên mạng",
+          "titleEn": "How to negotiate the price when selling used items online",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách đặt giá, trả lời người mua trả giá thấp, giữ nhiều người mua cùng lúc và chốt giao dịch an toàn khi bán đồ cũ trên mạng.",
+          "readingMinutes": 7,
+          "lesson": "skills/persuasion-negotiation/lesson-1"
+        },
+        {
+          "slug": "how-to-persuade-your-boss-to-accept-your-idea",
+          "title": "Làm sao thuyết phục sếp đồng ý với ý tưởng của mình?",
+          "titleEn": "How to persuade your boss to accept your idea",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách thuyết phục sếp đồng ý với ý tưởng bằng lý do gắn với mối quan tâm của sếp, bằng chứng cụ thể và đề xuất thử nghiệm nhỏ, kèm tình huống mẫu.",
+          "readingMinutes": 7,
+          "lesson": "skills/persuasion-negotiation/lesson-1"
+        },
+        {
+          "slug": "what-to-do-when-a-customer-says-it-is-too-expensive",
+          "title": "Xử lý thế nào khi khách hàng chê đắt?",
+          "titleEn": "What to do when a customer says it is too expensive",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách xử lý khi khách hàng chê đắt hoặc nói \"để tôi suy nghĩ\": lắng nghe, hỏi rõ mối lo thật, chứng minh giá trị hoặc điều chỉnh phạm vi thay vì giảm giá vội.",
+          "readingMinutes": 7,
+          "lesson": "skills/persuasion-negotiation/lesson-1"
+        },
+        {
+          "slug": "what-is-win-win-negotiation",
+          "title": "Đàm phán win-win là gì? Cách trao đổi để đôi bên cùng có lợi",
+          "titleEn": "What is win-win negotiation? How to trade so both sides gain",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Đàm phán win-win là gì, khác chia đôi chênh lệch thế nào, và cách tạo trao đổi có điều kiện để đôi bên cùng có lợi ở công sở lẫn trong cuộc sống.",
+          "readingMinutes": 7,
+          "lesson": "skills/persuasion-negotiation/lesson-1"
+        },
+        {
+          "slug": "what-to-do-when-pressured-to-decide-immediately",
+          "title": "Làm gì khi bị ép quyết định ngay trong đàm phán?",
+          "titleEn": "What to do when you are pressured to decide on the spot",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách nhận ra các chiêu gây áp lực như hạn chót giả hay \"chịu thì lấy\", cách xin thêm thời gian và dùng im lặng, kiên nhẫn để không quyết định vội.",
+          "readingMinutes": 7,
+          "lesson": "skills/persuasion-negotiation/lesson-1"
+        },
+        {
+          "slug": "how-to-close-a-deal-and-confirm-in-writing",
+          "title": "Cách chốt thỏa thuận và xác nhận bằng văn bản sau khi đàm phán",
+          "titleEn": "How to close a deal and confirm it in writing",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách chốt thỏa thuận cuối buổi đàm phán: tóm tắt ai làm gì, trước khi nào, rồi gửi tin nhắn hoặc email xác nhận để tránh hiểu lầm về sau.",
+          "readingMinutes": 7,
+          "lesson": "skills/persuasion-negotiation/lesson-1"
+        }
+      ]
+    },
+    {
+      "slug": "customer-service",
+      "title": {
+        "vi": "Phục vụ khách hàng và xử lý khiếu nại",
+        "en": "Customer service and handling complaints"
+      },
+      "topic": "skills/customer-service",
+      "articles": [
+        {
+          "slug": "how-to-greet-customers-and-understand-their-needs",
+          "title": "Cách chào khách và hỏi đúng nhu cầu của khách hàng",
+          "titleEn": "How to greet customers and understand their needs",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách chào khách trong vài giây đầu và đặt câu hỏi mở để hiểu đúng nhu cầu thật, kèm tình huống mẫu, lỗi thường gặp và cụm từ tiếng Anh.",
+          "readingMinutes": 8,
+          "lesson": "skills/customer-service/lesson-1"
+        },
+        {
+          "slug": "how-to-handle-an-angry-customer",
+          "title": "Cách xử lý khi khách hàng nổi giận",
+          "titleEn": "How to handle an angry customer",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Bốn bước xử lý khách hàng đang nổi giận: lắng nghe, ghi nhận, giải quyết, liên hệ lại, kèm tình huống mẫu, câu nói mẫu và lỗi cần tránh.",
+          "readingMinutes": 7,
+          "lesson": "skills/customer-service/lesson-1"
+        },
+        {
+          "slug": "how-to-say-no-to-a-customer-without-losing-them",
+          "title": "Cách từ chối khách hàng mà không mất khách",
+          "titleEn": "How to say no to a customer without losing them",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Công thức ba phần để từ chối yêu cầu của khách mà vẫn giữ quan hệ: thấu hiểu, lý do ngắn, phương án thay thế, kèm ví dụ và câu nói mẫu.",
+          "readingMinutes": 7,
+          "lesson": "skills/customer-service/lesson-1"
+        },
+        {
+          "slug": "how-to-handle-refund-and-exchange-requests",
+          "title": "Xử lý yêu cầu đổi trả, hoàn tiền như thế nào cho khéo?",
+          "titleEn": "How to handle refund and exchange requests",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách xử lý yêu cầu đổi hàng, trả hàng, hoàn tiền công bằng mà không mất khách: phân loại trường hợp, kiểm tra bằng chứng, viết chính sách rõ ràng.",
+          "readingMinutes": 7,
+          "lesson": "skills/customer-service/lesson-1"
+        },
+        {
+          "slug": "how-to-apologise-when-your-shop-makes-a-mistake",
+          "title": "Cách xin lỗi khách hàng khi cửa hàng làm sai",
+          "titleEn": "How to apologise when your shop makes a mistake",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách xin lỗi khách khi cửa hàng giao nhầm, giao trễ, tính sai tiền: lời xin lỗi năm phần, tình huống mẫu, cách tránh chữ \"nhưng\" và mẫu câu tiếng Anh.",
+          "readingMinutes": 7,
+          "lesson": "skills/customer-service/lesson-1"
+        },
+        {
+          "slug": "how-to-keep-promises-to-customers",
+          "title": "Làm sao để không thất hứa với khách hàng?",
+          "titleEn": "How to keep your promises to customers",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách hứa vừa sức, giữ đúng hẹn giao hàng và hẹn gọi lại, và báo khách sớm khi có thay đổi để không thất hứa và không mất niềm tin của khách.",
+          "readingMinutes": 7,
+          "lesson": "skills/customer-service/lesson-1"
+        },
+        {
+          "slug": "phone-and-chat-customer-service-skills",
+          "title": "Cách chăm sóc khách hàng qua điện thoại và tin nhắn",
+          "titleEn": "Customer service by phone and chat",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Kỹ năng chăm sóc khách qua điện thoại, Zalo, Messenger và khung chat: cách nghe máy, bảo khách giữ máy, viết tin ngắn rõ ràng và trả lời tin nhắn ngoài giờ.",
+          "readingMinutes": 7,
+          "lesson": "skills/customer-service/lesson-1"
+        },
+        {
+          "slug": "how-to-reply-to-negative-reviews-online",
+          "title": "Cách trả lời đánh giá xấu của khách trên mạng",
+          "titleEn": "How to reply to negative reviews online",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách trả lời đánh giá một sao, đánh giá tiêu cực và đánh giá giả trên Google, sàn thương mại điện tử hay fanpage: khung bốn phần, ví dụ và lỗi cần tránh.",
+          "readingMinutes": 7,
+          "lesson": "skills/customer-service/lesson-1"
+        },
+        {
+          "slug": "what-to-do-when-a-customer-complains-on-social-media",
+          "title": "Làm gì khi khách bóc phốt cửa hàng trên mạng xã hội?",
+          "titleEn": "What to do when a customer complains about your shop on social media",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Các bước xử lý khi khách đăng bài bóc phốt cửa hàng trong hội nhóm hay trên trang cá nhân: kiểm tra, phản hồi công khai, xử lý riêng, cập nhật kết quả.",
+          "readingMinutes": 7,
+          "lesson": "skills/customer-service/lesson-1"
+        },
+        {
+          "slug": "turn-complaining-customers-into-regulars",
+          "title": "Biến khách phàn nàn thành khách quen: kinh nghiệm cho shop nhỏ và bán hàng online",
+          "titleEn": "Turning complaining customers into regulars: tips for small and online shops",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Kinh nghiệm cho cửa hàng nhỏ và người bán online ở Việt Nam để biến một lời phàn nàn thành khách quen: xử lý, sửa nguyên nhân, ghi chép và liên hệ lại.",
+          "readingMinutes": 7,
+          "lesson": "skills/customer-service/lesson-1"
+        }
+      ]
+    },
+    {
+      "slug": "presentation-skills",
+      "title": {
+        "vi": "Thuyết trình và trình bày ý tưởng",
+        "en": "Presenting your ideas"
+      },
+      "topic": "skills/presentation-skills",
+      "articles": [
+        {
+          "slug": "how-to-find-the-key-message-of-a-presentation",
+          "title": "Cách xác định thông điệp chính khi chuẩn bị thuyết trình",
+          "titleEn": "How to find the key message of a presentation",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách tìm hiểu người nghe và viết thông điệp chính của bài thuyết trình thành một câu, kèm tình huống mẫu, lỗi thường gặp và cụm từ tiếng Anh.",
+          "readingMinutes": 8,
+          "lesson": "skills/presentation-skills/lesson-1"
+        },
+        {
+          "slug": "how-to-structure-a-presentation",
+          "title": "Bố cục bài thuyết trình gồm những phần nào?",
+          "titleEn": "How to structure a presentation",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Bố cục bài thuyết trình gồm mở đầu, ba ý chính và phần kết. Cách viết từng phần, câu chuyển ý, tình huống mẫu và cụm từ tiếng Anh hữu ích.",
+          "readingMinutes": 7,
+          "lesson": "skills/presentation-skills/lesson-1"
+        },
+        {
+          "slug": "how-to-make-clear-presentation-slides",
+          "title": "Cách làm slide thuyết trình gọn, dễ hiểu",
+          "titleEn": "How to make clear presentation slides",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách làm slide thuyết trình gọn và dễ hiểu: mỗi slide một ý, tiêu đề nêu ý chính, biểu đồ thay bảng số, ít hiệu ứng, và cách đứng nói cùng slide.",
+          "readingMinutes": 7,
+          "lesson": "skills/presentation-skills/lesson-1"
+        },
+        {
+          "slug": "how-to-practise-a-presentation",
+          "title": "Cách tập thuyết trình trước khi lên nói",
+          "titleEn": "How to practise a presentation",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách tập thuyết trình hiệu quả: tập nói thành tiếng, đứng và bấm giờ, tập theo ý chính thay vì học thuộc, tự ghi âm và xin góp ý cụ thể.",
+          "readingMinutes": 7,
+          "lesson": "skills/presentation-skills/lesson-1"
+        },
+        {
+          "slug": "what-to-do-when-nervous-before-presenting",
+          "title": "Làm gì khi run sợ lúc thuyết trình?",
+          "titleEn": "What to do when you feel nervous before presenting",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Làm gì khi run sợ lúc thuyết trình: cách nhìn nhận cảm giác hồi hộp, việc cần làm trước giờ nói, kỹ thuật thở và cách xử lý khi đầu óc trống rỗng.",
+          "readingMinutes": 7,
+          "lesson": "skills/presentation-skills/lesson-1"
+        },
+        {
+          "slug": "voice-and-body-language-when-presenting",
+          "title": "Giọng nói và ngôn ngữ cơ thể khi thuyết trình như thế nào?",
+          "titleEn": "Voice and body language when presenting",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Giọng nói và ngôn ngữ cơ thể khi thuyết trình: cách thay đổi tốc độ, ngắt nghỉ, nhìn người nghe, đứng và dùng tay để trông tự tin và dễ theo dõi.",
+          "readingMinutes": 7,
+          "lesson": "skills/presentation-skills/lesson-1"
+        },
+        {
+          "slug": "what-to-do-when-you-cannot-answer-a-question-in-a-presentation",
+          "title": "Làm gì khi bị hỏi câu không trả lời được lúc thuyết trình?",
+          "titleEn": "What to do when you cannot answer a question in a presentation",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Làm gì khi bị hỏi câu không trả lời được lúc thuyết trình: thừa nhận khéo, hứa phản hồi cụ thể, xử lý câu hỏi khó, câu hỏi gay gắt và câu hỏi lạc đề.",
+          "readingMinutes": 7,
+          "lesson": "skills/presentation-skills/lesson-1"
+        },
+        {
+          "slug": "how-to-pitch-an-idea-to-your-boss-in-five-minutes",
+          "title": "Cách trình bày ý tưởng với sếp trong 5 phút",
+          "titleEn": "How to pitch an idea to your boss in five minutes",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách trình bày ý tưởng với sếp trong 5 phút: chuẩn bị bản 30 giây, nói vấn đề, đề xuất và yêu cầu ngay đầu, đề nghị thử nhỏ và xử lý lo ngại chi phí.",
+          "readingMinutes": 7,
+          "lesson": "skills/presentation-skills/lesson-1"
+        },
+        {
+          "slug": "how-to-give-an-online-presentation",
+          "title": "Cách thuyết trình online hiệu quả, không bị nói một mình",
+          "titleEn": "How to give an online presentation",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách thuyết trình online hiệu quả: kiểm tra thiết bị, chia sẻ đúng cửa sổ, nhìn vào camera, thêm tương tác vài phút một lần và xử lý sự cố mạng.",
+          "readingMinutes": 7,
+          "lesson": "skills/presentation-skills/lesson-1"
+        },
+        {
+          "slug": "how-to-keep-a-presentation-within-the-time-limit",
+          "title": "Làm sao thuyết trình đúng thời gian quy định?",
+          "titleEn": "How to keep a presentation within the time limit",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Làm sao thuyết trình đúng thời gian quy định: chia thời gian cho từng phần, cắt đúng chỗ khi quá giờ, chọn sẵn phần có thể bỏ và xử lý khi bị rút ngắn giờ.",
+          "readingMinutes": 7,
+          "lesson": "skills/presentation-skills/lesson-1"
+        }
+      ]
+    },
+    {
+      "slug": "learning-how-to-learn",
+      "title": {
+        "vi": "Tự học và học cách học",
+        "en": "Self-study and learning how to learn"
+      },
+      "topic": "skills/learning-how-to-learn",
+      "articles": [
+        {
+          "slug": "how-to-set-a-learning-goal",
+          "title": "Cách đặt mục tiêu học tập rõ ràng để không bỏ cuộc giữa chừng",
+          "titleEn": "How to set a clear learning goal and not give up halfway",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách biến mong muốn mơ hồ như \"giỏi tiếng Anh hơn\" thành mục tiêu học tập có năng lực, cách kiểm tra và mốc thời gian, kèm tình huống mẫu và lỗi hay gặp.",
+          "readingMinutes": 8,
+          "lesson": "skills/learning-how-to-learn/lesson-1"
+        },
+        {
+          "slug": "active-recall-vs-rereading",
+          "title": "Đọc đi đọc lại vẫn quên? Cách học chủ động nhớ lại hiệu quả hơn",
+          "titleEn": "Rereading but still forgetting? Use active recall instead",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Vì sao đọc lại và tô đậm khiến bạn tưởng mình đã nhớ, và cách học chủ động nhớ lại (tự kiểm tra từ trí nhớ) giúp kiến thức ở lại lâu hơn.",
+          "readingMinutes": 8,
+          "lesson": "skills/learning-how-to-learn/lesson-1"
+        },
+        {
+          "slug": "spaced-repetition-how-to-review",
+          "title": "Lặp lại ngắt quãng là gì? Cách ôn bài để nhớ lâu",
+          "titleEn": "What is spaced repetition and how to review to remember longer",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Lặp lại ngắt quãng là gì, vì sao giãn các lần ôn giúp nhớ lâu hơn học dồn, và cách xếp lịch ôn từ vựng, thuật ngữ công việc cho người đi làm.",
+          "readingMinutes": 7,
+          "lesson": "skills/learning-how-to-learn/lesson-1"
+        },
+        {
+          "slug": "how-to-study-when-working-full-time",
+          "title": "Đi làm bận rộn thì tự học thế nào cho hiệu quả?",
+          "titleEn": "How to study effectively when you work full time",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách tự học khi đi làm toàn thời gian: dùng buổi học ngắn, chọn đúng khung giờ còn năng lượng, xử lý những tuần bận và không bỏ cuộc khi lỡ buổi.",
+          "readingMinutes": 7,
+          "lesson": "skills/learning-how-to-learn/lesson-1"
+        },
+        {
+          "slug": "how-to-take-notes-that-work",
+          "title": "Cách ghi chép hiệu quả khi học và khi đi đào tạo",
+          "titleEn": "How to take notes that work when studying and in training",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách ghi chép hiệu quả khi tự học và khi tham gia đào tạo ở công ty: ghi từ khoá, viết bằng lời của mình, thêm câu hỏi để tự kiểm tra và hoàn thiện ngay trong ngày.",
+          "readingMinutes": 8,
+          "lesson": "skills/learning-how-to-learn/lesson-1"
+        },
+        {
+          "slug": "how-to-learn-a-new-skill-at-work-quickly",
+          "title": "Làm gì khi phải học nhanh một kỹ năng mới ở chỗ làm?",
+          "titleEn": "What to do when you must learn a new skill at work quickly",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Làm gì khi sếp giao việc cần một kỹ năng bạn chưa có: bắt đầu từ việc thật, học phần cốt lõi trước, thử làm rồi hỏi đúng chỗ, kèm tình huống mẫu và lỗi hay gặp.",
+          "readingMinutes": 8,
+          "lesson": "skills/learning-how-to-learn/lesson-1"
+        },
+        {
+          "slug": "how-to-build-a-study-habit",
+          "title": "Cách duy trì động lực và xây thói quen tự học mỗi ngày",
+          "titleEn": "How to stay motivated and build a daily study habit",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách xây thói quen tự học mỗi ngày mà không phụ thuộc vào động lực: gắn việc học với tín hiệu hằng ngày, kế hoạch nếu thì, sắp xếp môi trường và xử lý ngày uể oải.",
+          "readingMinutes": 8,
+          "lesson": "skills/learning-how-to-learn/lesson-1"
+        },
+        {
+          "slug": "learning-from-mistakes-and-feedback",
+          "title": "Cách học từ sai lầm và góp ý của người khác",
+          "titleEn": "How to learn from mistakes and feedback",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách biến lỗi sai và góp ý thành bài học cụ thể: tách sự việc khỏi cảm xúc, xin góp ý đúng cách, ghi sổ lỗi và luyện có chủ đích vào điểm yếu.",
+          "readingMinutes": 8,
+          "lesson": "skills/learning-how-to-learn/lesson-1"
+        },
+        {
+          "slug": "how-to-choose-good-online-learning-sources",
+          "title": "Cách chọn nguồn học trực tuyến đáng tin cậy",
+          "titleEn": "How to choose reliable online learning sources",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách chọn khoá học, video và bài viết trực tuyến đáng tin cậy: kiểm tra tác giả, ngày cập nhật, đọc ngang để đối chiếu, và ưu tiên một lộ trình có cấu trúc.",
+          "readingMinutes": 7,
+          "lesson": "skills/learning-how-to-learn/lesson-1"
+        },
+        {
+          "slug": "how-to-help-others-learn",
+          "title": "Cách hướng dẫn người khác học và học bằng cách dạy lại",
+          "titleEn": "How to help others learn and learn by teaching",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách hướng dẫn đồng nghiệp mới hoặc người thân học hiệu quả: làm mẫu, để họ tự làm, hỏi gợi mở thay vì đưa đáp án, và dùng việc dạy lại để chính bạn hiểu sâu hơn.",
+          "readingMinutes": 8,
+          "lesson": "skills/learning-how-to-learn/lesson-1"
+        }
+      ]
+    },
+    {
+      "slug": "travel-abroad-skills",
+      "title": {
+        "vi": "Xử lý sự cố khi đi du lịch, công tác nước ngoài",
+        "en": "Handling problems when travelling abroad"
+      },
+      "topic": "travel-vietnam/travel-abroad-skills",
+      "articles": [
+        {
+          "slug": "what-to-do-if-you-lose-your-passport-abroad",
+          "title": "Làm gì khi mất hộ chiếu ở nước ngoài?",
+          "titleEn": "What to do if you lose your passport abroad",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Các bước xử lý khi mất hộ chiếu ở nước ngoài: tìm lại có hệ thống, trình báo công an, liên hệ đại sứ quán và chuẩn bị giấy tờ, kèm cụm từ tiếng Anh cần dùng.",
+          "readingMinutes": 7,
+          "lesson": "travel-vietnam/travel-abroad-skills/lesson-1"
+        },
+        {
+          "slug": "what-to-do-if-you-lose-your-wallet-abroad",
+          "title": "Mất ví, mất thẻ ngân hàng ở nước ngoài phải làm gì?",
+          "titleEn": "What to do if you lose your wallet or bank cards abroad",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Các bước xử lý khi mất ví hoặc thẻ ngân hàng ở nước ngoài: khoá thẻ ngay, trình báo, tìm nguồn tiền dự phòng và cách chia tiền để lần sau ít thiệt hại.",
+          "readingMinutes": 6,
+          "lesson": "travel-vietnam/travel-abroad-skills/lesson-1"
+        },
+        {
+          "slug": "what-to-do-if-your-flight-is-cancelled-or-missed",
+          "title": "Lỡ chuyến bay hoặc bị huỷ chuyến thì phải làm sao?",
+          "titleEn": "What to do if your flight is cancelled or missed",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách xử lý khi lỡ chuyến bay hoặc chuyến bay bị huỷ ở nước ngoài: hỏi hãng bay ngay, dùng nhiều kênh cùng lúc, biết quyền lợi cơ bản và giữ hoá đơn.",
+          "readingMinutes": 6,
+          "lesson": "travel-vietnam/travel-abroad-skills/lesson-1"
+        },
+        {
+          "slug": "what-to-do-when-your-luggage-is-lost",
+          "title": "Hành lý bị thất lạc khi đi máy bay ở nước ngoài thì làm gì?",
+          "titleEn": "What to do when your luggage is lost on a flight abroad",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Làm gì khi vali không xuất hiện ở băng chuyền hay bị hỏng: báo ngay tại sân bay, giữ mã hồ sơ, mua đồ thiết yếu hợp lý và chuẩn bị hồ sơ bồi thường.",
+          "readingMinutes": 6,
+          "lesson": "travel-vietnam/travel-abroad-skills/lesson-1"
+        },
+        {
+          "slug": "getting-sick-abroad-and-travel-insurance",
+          "title": "Bị ốm ở nước ngoài thì làm thế nào? Cách dùng bảo hiểm du lịch",
+          "titleEn": "Getting sick abroad and how to use travel insurance",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Hướng dẫn xử lý khi bị ốm hoặc gặp tai nạn ở nước ngoài, phân biệt lúc nào gọi cấp cứu, lúc nào gọi bảo hiểm, và cách giữ giấy tờ để được chi trả.",
+          "readingMinutes": 6,
+          "lesson": "travel-vietnam/travel-abroad-skills/lesson-1"
+        },
+        {
+          "slug": "how-to-avoid-tourist-scams-abroad",
+          "title": "Cách nhận biết và tránh bị lừa, bị chặt chém khi du lịch nước ngoài",
+          "titleEn": "How to spot and avoid tourist scams and overcharging abroad",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Ba dấu hiệu nhận biết chiêu lừa du khách, cách từ chối lịch sự mà dứt khoát, và cách khiếu nại bình tĩnh khi nghĩ mình bị tính giá quá cao ở nước ngoài.",
+          "readingMinutes": 6,
+          "lesson": "travel-vietnam/travel-abroad-skills/lesson-1"
+        },
+        {
+          "slug": "hotel-booking-problems-abroad",
+          "title": "Cách xử lý khi khách sạn báo không có phòng đã đặt",
+          "titleEn": "What to do when the hotel has no record of your booking",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Làm gì khi khách sạn ở nước ngoài không tìm thấy đặt phòng, hết phòng hoặc phòng khác xa ảnh: giữ bình tĩnh, đưa bằng chứng và đề nghị giải pháp cụ thể.",
+          "readingMinutes": 6,
+          "lesson": "travel-vietnam/travel-abroad-skills/lesson-1"
+        },
+        {
+          "slug": "getting-lost-and-language-barriers-abroad",
+          "title": "Bị lạc và không giỏi ngoại ngữ ở nước ngoài: xử lý thế nào?",
+          "titleEn": "Getting lost and handling language barriers abroad",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách xử lý khi bị lạc đường hoặc gặp rào cản ngôn ngữ ở nước ngoài: tìm nơi an toàn, dùng địa chỉ bằng tiếng địa phương, nói câu ngắn và dùng ứng dụng dịch.",
+          "readingMinutes": 6,
+          "lesson": "travel-vietnam/travel-abroad-skills/lesson-1"
+        },
+        {
+          "slug": "how-to-prepare-documents-before-travelling-abroad",
+          "title": "Cần chuẩn bị giấy tờ gì trước khi đi nước ngoài để phòng sự cố?",
+          "titleEn": "Which documents to prepare before travelling abroad",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Danh sách giấy tờ, bản sao, liên hệ khẩn cấp và bảo hiểm nên chuẩn bị trước khi đi nước ngoài, để khi mất đồ hay gặp sự cố bạn xử lý nhanh hơn.",
+          "readingMinutes": 7,
+          "lesson": "travel-vietnam/travel-abroad-skills/lesson-1"
+        },
+        {
+          "slug": "handling-problems-on-a-business-trip-abroad",
+          "title": "Đi công tác nước ngoài bị trễ họp hoặc gặp hiểu lầm văn hoá thì xử lý sao?",
+          "titleEn": "Handling lateness and cultural misunderstandings on a business trip abroad",
+          "status": "draft",
+          "updatedAt": "2026-10-14",
+          "description": "Cách xử lý khi đến muộn buổi gặp khách hàng, gặp hiểu lầm văn hoá hoặc mất thiết bị trong chuyến công tác nước ngoài, kèm câu tiếng Anh mẫu để báo và xin lỗi.",
+          "readingMinutes": 7,
+          "lesson": "travel-vietnam/travel-abroad-skills/lesson-1"
+        }
+      ]
+    }
+  ]
+}

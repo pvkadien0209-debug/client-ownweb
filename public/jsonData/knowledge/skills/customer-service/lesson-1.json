@@ -1,0 +1,2309 @@
+{
+  "id": "lesson-1",
+  "branch": "skills",
+  "topic": "customer-service",
+  "title": {
+    "vi": "Phục vụ khách hàng và xử lý khiếu nại",
+    "en": "Customer service and handling complaints"
+  },
+  "level": "B1",
+  "status": "draft",
+  "updatedAt": "2026-10-14",
+  "reviewNote": "Bản nháp do Claude soạn và tự kiểm (2026-10-14). Chờ DIENPHAM duyệt.",
+  "overview": [
+    {
+      "heading": {
+        "en": "Start by understanding, not selling",
+        "vi": "Bắt đầu bằng thấu hiểu, chưa vội bán"
+      },
+      "paragraphs": [
+        {
+          "en": "Good service starts in the first few seconds: stop what you are doing, greet the customer and show you are available without following them around. Then ask two or three open questions to find the need behind the request, and summarise it in one sentence before you recommend anything.",
+          "vi": "Phục vụ tốt bắt đầu từ vài giây đầu: dừng việc đang làm, chào khách và cho họ biết bạn sẵn sàng mà không bám theo. Sau đó hỏi hai ba câu hỏi mở để tìm nhu cầu đằng sau lời yêu cầu, và tóm tắt lại trong một câu trước khi gợi ý bất cứ thứ gì."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Four steps with an angry customer",
+        "vi": "Bốn bước với khách đang giận"
+      },
+      "paragraphs": [
+        {
+          "en": "Listen until they have finished, acknowledge how they feel, solve the problem with a clear plan and a time, then follow up a few days later. Acknowledging feelings is not the same as admitting fault, so you can say it honestly before you know the facts.",
+          "vi": "Lắng nghe đến khi khách nói hết, ghi nhận cảm xúc của họ, giải quyết bằng một kế hoạch rõ ràng có mốc thời gian, rồi liên hệ lại sau vài ngày. Ghi nhận cảm xúc không có nghĩa là nhận lỗi, nên bạn có thể nói thật lòng ngay cả khi chưa rõ sự việc."
+        },
+        {
+          "en": "Stay calm, do not repeat policy like a wall, and set a polite limit if the customer becomes insulting.",
+          "vi": "Giữ bình tĩnh, đừng lặp lại quy định như bức tường, và lịch sự đặt giới hạn nếu khách bắt đầu xúc phạm."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Saying no, refunds and promises",
+        "vi": "Từ chối, đổi trả và giữ lời hứa"
+      },
+      "paragraphs": [
+        {
+          "en": "When you cannot do what the customer asks, show understanding, give a short reason and always offer an alternative. Keep return rules written and explained the same way by everyone. Promise only what you can deliver, give exact times, and update the customer before a deadline passes, not after.",
+          "vi": "Khi không làm được điều khách yêu cầu, hãy thể hiện sự thấu hiểu, nêu lý do ngắn và luôn đưa phương án thay thế. Quy định đổi trả nên được viết ra và mọi người giải thích giống nhau. Chỉ hứa điều làm được, nói mốc giờ cụ thể, và báo khách trước khi quá hạn chứ đừng để quá hạn rồi mới báo."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Sample situation: the wrong size",
+        "vi": "Tình huống mẫu: gửi nhầm size"
+      },
+      "paragraphs": [
+        {
+          "en": "An online shop sends a size L instead of M. The seller first replies, \"Did you check your order carefully?\" and the customer becomes angry and writes a bad review. What went wrong is that the seller defended the shop before checking the facts.",
+          "vi": "Một shop online gửi nhầm áo size L thay vì M. Người bán trả lời đầu tiên: \"Chị kiểm tra lại đơn kỹ chưa ạ?\" và khách nổi giận, để lại đánh giá xấu. Chỗ sai là người bán bênh cửa hàng trước khi kiểm tra sự việc."
+        },
+        {
+          "en": "A better reply checks the order, then says, \"We sent the wrong size, I am sorry, we will send size M today and collect the other one for free.\" A message a few days later asking if it fits well can turn the mistake into a loyal customer.",
+          "vi": "Cách tốt hơn là kiểm tra đơn rồi nói: \"Bên em gửi nhầm size, em xin lỗi chị, hôm nay em gửi size M và thu lại áo kia miễn phí ạ.\" Vài ngày sau nhắn hỏi áo mặc có vừa không, lỗi ấy có thể biến thành một khách quen."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Phone, chat and online reviews",
+        "vi": "Điện thoại, tin nhắn và đánh giá trên mạng"
+      },
+      "paragraphs": [
+        {
+          "en": "On the phone, ask before putting someone on hold and read important numbers back. In chat, write short messages and confirm you have received late night messages. Reply to negative reviews publicly with thanks, an apology and a next step, then solve the details privately; never argue in public or post fake reviews.",
+          "vi": "Qua điện thoại, hỏi ý khách trước khi bảo giữ máy và đọc lại các con số quan trọng. Khi nhắn tin, viết tin ngắn và xác nhận đã nhận tin nhắn đến lúc khuya. Trả lời đánh giá xấu công khai bằng lời cảm ơn, xin lỗi và bước tiếp theo, rồi xử lý chi tiết qua tin nhắn riêng; không cãi nhau công khai, không đăng đánh giá giả."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "From complaint to loyalty",
+        "vi": "Từ khiếu nại đến khách trung thành"
+      },
+      "paragraphs": [
+        {
+          "en": "A complaint is free feedback from someone who still cares enough to speak. Fix it for that customer, then fix the cause, keep a simple record of complaints, and tell the customer what changed because of them.",
+          "vi": "Khiếu nại là góp ý miễn phí từ người vẫn đủ quan tâm để lên tiếng. Hãy xử lý cho khách đó, rồi sửa nguyên nhân, ghi lại khiếu nại một cách đơn giản, và cho khách biết điều gì đã thay đổi nhờ họ."
+        }
+      ]
+    }
+  ],
+  "tree": [
+    {
+      "title": {
+        "en": "Greeting and understanding needs",
+        "vi": "Chào khách và hiểu nhu cầu"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Welcoming customers",
+            "vi": "Đón khách"
+          },
+          "note": {
+            "en": "Greet quickly, even when you are busy.",
+            "vi": "Chào nhanh, kể cả khi đang bận."
+          },
+          "questions": [
+            "q01",
+            "q07"
+          ]
+        },
+        {
+          "title": {
+            "en": "Finding the real need",
+            "vi": "Tìm nhu cầu thật"
+          },
+          "note": {
+            "en": "Ask open questions about the need behind the request.",
+            "vi": "Hỏi câu mở về nhu cầu đằng sau lời yêu cầu."
+          },
+          "questions": [
+            "q02",
+            "q03",
+            "q04",
+            "q05"
+          ]
+        },
+        {
+          "title": {
+            "en": "Checking you understood",
+            "vi": "Kiểm tra mình đã hiểu đúng"
+          },
+          "note": {
+            "en": "Let them finish, then summarise in one sentence.",
+            "vi": "Để khách nói hết, rồi tóm tắt trong một câu."
+          },
+          "questions": [
+            "q06",
+            "q08"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Calming an angry customer",
+        "vi": "Làm dịu khách đang giận"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Listen and acknowledge",
+            "vi": "Lắng nghe và ghi nhận"
+          },
+          "note": {
+            "en": "Feelings first, facts next, blame never.",
+            "vi": "Cảm xúc trước, sự việc sau, không đổ lỗi."
+          },
+          "questions": [
+            "q09",
+            "q10",
+            "q11",
+            "q12"
+          ]
+        },
+        {
+          "title": {
+            "en": "Difficult moments",
+            "vi": "Những lúc khó"
+          },
+          "note": {
+            "en": "Offer a way forward and set polite limits.",
+            "vi": "Đưa lối ra và đặt giới hạn lịch sự."
+          },
+          "questions": [
+            "q13",
+            "q14",
+            "q17"
+          ]
+        },
+        {
+          "title": {
+            "en": "Solve and follow up",
+            "vi": "Giải quyết và liên hệ lại"
+          },
+          "note": {
+            "en": "Fix today's problem and its cause, then check back.",
+            "vi": "Xử lý vấn đề hôm nay và cả nguyên nhân, rồi hỏi lại."
+          },
+          "questions": [
+            "q15",
+            "q16"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Saying no, refunds and exchanges",
+        "vi": "Từ chối, hoàn tiền và đổi hàng"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Saying no without losing the customer",
+            "vi": "Từ chối mà không mất khách"
+          },
+          "note": {
+            "en": "Understanding, short reason, alternative.",
+            "vi": "Thấu hiểu, lý do ngắn, phương án thay thế."
+          },
+          "questions": [
+            "q19",
+            "q20",
+            "q24"
+          ]
+        },
+        {
+          "title": {
+            "en": "Refund and exchange cases",
+            "vi": "Các ca hoàn tiền và đổi hàng"
+          },
+          "note": {
+            "en": "Check the facts, then be fair.",
+            "vi": "Kiểm tra sự việc, rồi xử lý công bằng."
+          },
+          "questions": [
+            "q18",
+            "q21",
+            "q22",
+            "q26"
+          ]
+        },
+        {
+          "title": {
+            "en": "A clear return policy",
+            "vi": "Chính sách đổi trả rõ ràng"
+          },
+          "note": {
+            "en": "Write it down and explain it the same way every time.",
+            "vi": "Viết ra và giải thích giống nhau mọi lúc."
+          },
+          "questions": [
+            "q23"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Your own mistakes and promises",
+        "vi": "Lỗi của chính mình và lời hứa"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Owning your mistakes",
+            "vi": "Nhận lỗi của mình"
+          },
+          "note": {
+            "en": "Admit it clearly, apologise specifically, no but.",
+            "vi": "Nhận rõ ràng, xin lỗi cụ thể, không có chữ nhưng."
+          },
+          "questions": [
+            "q27",
+            "q28",
+            "q29",
+            "q30"
+          ]
+        },
+        {
+          "title": {
+            "en": "Keeping promises",
+            "vi": "Giữ lời hứa"
+          },
+          "note": {
+            "en": "Promise less, deliver on time, update early.",
+            "vi": "Hứa vừa phải, làm đúng hạn, báo sớm."
+          },
+          "questions": [
+            "q25",
+            "q31",
+            "q32",
+            "q33"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Phone, chat and online reviews",
+        "vi": "Điện thoại, tin nhắn và đánh giá online"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Phone and chat service",
+            "vi": "Phục vụ qua điện thoại và tin nhắn"
+          },
+          "note": {
+            "en": "Short, personal and never silent.",
+            "vi": "Ngắn gọn, đúng người, không để khách chờ trong im lặng."
+          },
+          "questions": [
+            "q34",
+            "q35",
+            "q36",
+            "q37",
+            "q43"
+          ]
+        },
+        {
+          "title": {
+            "en": "Reviews and social media",
+            "vi": "Đánh giá và mạng xã hội"
+          },
+          "note": {
+            "en": "Reply publicly and calmly, solve privately.",
+            "vi": "Trả lời công khai, bình tĩnh; xử lý riêng."
+          },
+          "questions": [
+            "q38",
+            "q39",
+            "q40",
+            "q41",
+            "q42"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "From complaint to loyalty",
+        "vi": "Từ khiếu nại đến khách trung thành"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Turning complaints into loyalty",
+            "vi": "Biến khiếu nại thành gắn bó"
+          },
+          "note": {
+            "en": "A problem handled well proves you are reliable.",
+            "vi": "Sự cố xử lý tốt là bằng chứng bạn đáng tin."
+          },
+          "questions": [
+            "q44",
+            "q45",
+            "q46",
+            "q50"
+          ]
+        },
+        {
+          "title": {
+            "en": "Small and online shops",
+            "vi": "Cửa hàng nhỏ và shop online"
+          },
+          "note": {
+            "en": "Check facts, keep records, show the item honestly.",
+            "vi": "Kiểm tra dữ kiện, ghi chép, cho xem hàng trung thực."
+          },
+          "questions": [
+            "q47",
+            "q48",
+            "q49"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "en": "Greet every customer quickly and ask open questions to find the real need.",
+      "vi": "Chào mọi khách thật nhanh và hỏi câu mở để tìm nhu cầu thật."
+    },
+    {
+      "en": "With an angry customer: listen, acknowledge, solve, follow up.",
+      "vi": "Với khách đang giận: lắng nghe, ghi nhận, giải quyết, liên hệ lại."
+    },
+    {
+      "en": "Acknowledging feelings is not admitting fault; check facts before deciding.",
+      "vi": "Ghi nhận cảm xúc không phải là nhận lỗi; kiểm tra sự việc trước khi kết luận."
+    },
+    {
+      "en": "When you say no, always offer an alternative the customer can accept.",
+      "vi": "Khi từ chối, luôn đưa một phương án thay thế khách có thể chấp nhận."
+    },
+    {
+      "en": "Own your shop's mistakes with a specific apology and no but.",
+      "vi": "Nhận lỗi của cửa hàng bằng lời xin lỗi cụ thể, không kèm chữ nhưng."
+    },
+    {
+      "en": "Promise only what you can deliver and give exact times.",
+      "vi": "Chỉ hứa điều làm được và nói mốc thời gian cụ thể."
+    },
+    {
+      "en": "Reply to bad reviews publicly and calmly, then solve the details privately.",
+      "vi": "Trả lời đánh giá xấu công khai, bình tĩnh, rồi xử lý chi tiết riêng."
+    },
+    {
+      "en": "Fix the cause, keep records, and turn complaints into loyalty.",
+      "vi": "Sửa nguyên nhân, ghi chép lại, và biến khiếu nại thành sự gắn bó."
+    }
+  ],
+  "glossary": [
+    {
+      "en": "customer need",
+      "vi": "nhu cầu của khách hàng"
+    },
+    {
+      "en": "open question",
+      "vi": "câu hỏi mở"
+    },
+    {
+      "en": "to acknowledge feelings",
+      "vi": "ghi nhận cảm xúc"
+    },
+    {
+      "en": "complaint",
+      "vi": "lời phàn nàn, khiếu nại"
+    },
+    {
+      "en": "to follow up",
+      "vi": "liên hệ lại, theo dõi sau xử lý"
+    },
+    {
+      "en": "root cause",
+      "vi": "nguyên nhân gốc"
+    },
+    {
+      "en": "refund",
+      "vi": "hoàn tiền"
+    },
+    {
+      "en": "exchange",
+      "vi": "đổi hàng"
+    },
+    {
+      "en": "return policy",
+      "vi": "chính sách đổi trả"
+    },
+    {
+      "en": "proof of purchase",
+      "vi": "bằng chứng mua hàng"
+    },
+    {
+      "en": "to put someone on hold",
+      "vi": "bảo ai đó giữ máy chờ"
+    },
+    {
+      "en": "negative review",
+      "vi": "đánh giá tiêu cực"
+    },
+    {
+      "en": "to over promise",
+      "vi": "hứa quá mức"
+    },
+    {
+      "en": "store credit",
+      "vi": "phiếu mua hàng thay cho hoàn tiền"
+    },
+    {
+      "en": "cash on delivery",
+      "vi": "thanh toán khi nhận hàng"
+    },
+    {
+      "en": "customer loyalty",
+      "vi": "lòng trung thành của khách hàng"
+    },
+    {
+      "en": "regular customer",
+      "vi": "khách quen"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "question": {
+        "text": "A customer walks into your small clothes shop while you are busy arranging shelves, what should you do first?",
+        "audioId": "",
+        "vi": "Một khách bước vào cửa hàng quần áo nhỏ của bạn khi bạn đang bận xếp kệ, bạn nên làm gì trước tiên?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Keep arranging the shelves and wait until the customer comes over to ask you",
+          "audioId": "",
+          "variants": [
+            "Keep working and wait for them to ask"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Follow the customer closely around the shop and suggest items every few seconds",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Stop for a moment, smile, greet them and let them know you are available",
+          "audioId": "",
+          "variants": [
+            "Stop, smile, greet them and show you are available"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Call out the prices of the newest products before they have even looked around",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The first few seconds decide whether a customer feels welcome. A short greeting such as \"Hello, take your time, I am right here if you need anything\" shows you are available without putting pressure on them. Ignoring them feels cold, while following them closely feels like being watched.",
+        "vi": "Vài giây đầu quyết định khách có thấy được chào đón hay không. Một lời chào ngắn như \"Chào anh chị, cứ xem thoải mái, cần gì em ở ngay đây ạ\" cho khách biết bạn sẵn sàng mà không tạo áp lực. Lờ khách đi thì lạnh nhạt, còn bám sát khách thì khiến họ thấy bị theo dõi."
+      }
+    },
+    {
+      "id": "q02",
+      "question": {
+        "text": "A customer says they need a gift but gives no details, what is the best next step?",
+        "audioId": "",
+        "vi": "Khách nói cần mua quà nhưng không nói thêm gì, bước tiếp theo tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask a few open questions about who the gift is for and their budget",
+          "audioId": "",
+          "variants": [
+            "Ask open questions about the person and the budget"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Show them the most expensive item in the shop and push them to buy it",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Tell them to come back when they know exactly what they want to buy",
+          "audioId": "",
+          "variants": [
+            "Tell them to come back when they know"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Hand them a catalogue and leave them alone to decide by themselves",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "You cannot suggest a good gift without knowing who it is for, the occasion and the budget. Questions like \"Who is the gift for?\" and \"What price range are you thinking of?\" turn a vague request into a clear one. Pushing an expensive item or sending the customer away loses both trust and the sale.",
+        "vi": "Bạn không thể gợi ý món quà hợp nếu không biết quà tặng ai, dịp gì và ngân sách bao nhiêu. Những câu như \"Anh chị định tặng ai ạ?\" và \"Anh chị muốn trong khoảng giá nào?\" biến một yêu cầu mơ hồ thành rõ ràng. Ép mua món đắt hoặc bảo khách về suy nghĩ đều làm mất cả niềm tin lẫn đơn hàng."
+      }
+    },
+    {
+      "id": "q03",
+      "question": {
+        "text": "Why is asking open questions better than guessing what a customer wants?",
+        "audioId": "",
+        "vi": "Vì sao đặt câu hỏi mở tốt hơn đoán xem khách muốn gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Guessing is slower because you must remember every product in the whole shop",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Open questions let you avoid giving any advice or taking any responsibility",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Open questions reveal the real need, so you suggest something that truly fits",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Customers prefer long interviews before they are allowed to see any products",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Open questions start with what, who, how or why, and let the customer explain in their own words. When you guess, you often suggest the wrong thing and the customer has to correct you, which wastes time and patience. Two or three short questions are usually enough.",
+        "vi": "Câu hỏi mở bắt đầu bằng gì, ai, thế nào, vì sao, giúp khách tự nói ra nhu cầu bằng lời của họ. Khi đoán, bạn hay gợi ý sai và khách phải sửa lại, vừa mất thời gian vừa mất kiên nhẫn. Thường chỉ cần hai ba câu hỏi ngắn là đủ."
+      }
+    },
+    {
+      "id": "q04",
+      "question": {
+        "text": "What does it mean to listen for the need behind a customer's request?",
+        "audioId": "",
+        "vi": "Lắng nghe nhu cầu đằng sau lời yêu cầu của khách nghĩa là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Listening only for the product name and ignoring everything else they say",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Repeating the price of the item again and again until they decide",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Understanding the problem they want solved, not only the product they named",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Guessing their income from their clothes before you start the conversation",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A customer who asks for a bigger bag may really need to carry a laptop safely. When you hear the need behind the request, you can suggest a better solution, maybe a laptop bag rather than just a big one. This is what makes customers feel truly understood.",
+        "vi": "Khách hỏi mua túi to hơn có thể thật ra cần đựng máy tính xách tay cho an toàn. Khi nghe ra nhu cầu đằng sau lời yêu cầu, bạn có thể gợi ý giải pháp tốt hơn, chẳng hạn túi đựng máy tính thay vì chỉ một chiếc túi to. Đó là điều khiến khách thấy mình thật sự được hiểu."
+      }
+    },
+    {
+      "id": "q05",
+      "question": {
+        "text": "A customer asks for a phone charger, what question best helps you find the right one?",
+        "audioId": "",
+        "vi": "Khách hỏi mua cục sạc điện thoại, câu hỏi nào giúp bạn tìm đúng loại nhất?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask why they did not bring their own charger from home today",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Ask nothing and give them the cheapest charger you can find on the shelf",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ask them to choose between all the chargers on the wall by themselves",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask which phone model they use and how fast they want it to charge",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Good questions are practical and linked to the decision. The phone model decides which charger fits, and charging speed decides the price level. Personal questions or no questions at all lead to a wrong product and a likely return.",
+        "vi": "Câu hỏi tốt là câu thực tế và gắn với quyết định mua. Dòng điện thoại quyết định loại sạc nào dùng được, còn tốc độ sạc quyết định mức giá. Hỏi chuyện riêng hoặc không hỏi gì dễ dẫn đến bán sai hàng và khách quay lại đổi trả."
+      }
+    },
+    {
+      "id": "q06",
+      "question": {
+        "text": "A seller recommends a product before the customer finishes explaining, what is the main mistake?",
+        "audioId": "",
+        "vi": "Người bán gợi ý sản phẩm khi khách chưa nói xong, lỗi chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The seller stopped listening, so the advice may not match the real need",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The seller spoke too slowly and wasted the customer's valuable time",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The seller should have asked the manager to recommend the product instead",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The seller did not mention a discount at the very start of the talk",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Interrupting with a suggestion tells the customer that you care more about selling than about their problem. The important detail often comes at the end of what they say. Let them finish, then ask one more question before recommending anything.",
+        "vi": "Chen ngang để gợi ý sản phẩm cho khách thấy bạn quan tâm đến việc bán hơn là vấn đề của họ. Chi tiết quan trọng thường nằm ở cuối câu khách nói. Hãy để khách nói hết, hỏi thêm một câu, rồi mới gợi ý."
+      }
+    },
+    {
+      "id": "q07",
+      "question": {
+        "text": "Two customers arrive while you are helping a third, what is the best way to handle it?",
+        "audioId": "",
+        "vi": "Hai khách bước vào khi bạn đang phục vụ một khách khác, cách xử lý tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Leave the first customer halfway through and rush to serve the new ones",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Briefly greet the new customers, say you will be with them shortly, then continue",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ignore the new customers completely until you have finished with the first one",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask all three customers to sort out among themselves who should be served first",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A quick \"Hello, I will be with you in a moment\" makes waiting customers feel seen, so they are more patient. The customer you are serving still gets your full attention. Abandoning them or ignoring the newcomers both make someone feel unimportant.",
+        "vi": "Một câu nhanh \"Chào anh chị, em ra ngay ạ\" khiến khách đang chờ thấy mình được để ý nên kiên nhẫn hơn. Khách đang được phục vụ vẫn nhận đủ sự chú ý của bạn. Bỏ dở khách đang phục vụ hay lờ khách mới đều khiến một người thấy mình không quan trọng."
+      }
+    },
+    {
+      "id": "q08",
+      "question": {
+        "text": "After explaining options, how can you check that you understood the customer correctly?",
+        "audioId": "",
+        "vi": "Sau khi giới thiệu các lựa chọn, làm sao kiểm tra mình đã hiểu đúng ý khách?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Assume you understood and start wrapping the product without asking anything",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Summarise their need in one sentence and ask if you have got it right",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ask them to write down their needs on paper before you continue",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Repeat your own sales pitch again in a louder and clearer voice",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A short summary such as \"So you need a light jacket for travel, under five hundred thousand, right?\" lets the customer correct you early. It also shows that you were listening. Assuming you understood is how wrong orders and returns begin.",
+        "vi": "Một câu tóm tắt ngắn như \"Vậy chị cần áo khoác mỏng để đi du lịch, dưới năm trăm nghìn đúng không ạ?\" giúp khách sửa bạn sớm. Nó cũng cho thấy bạn đã lắng nghe. Cứ cho là mình hiểu rồi chính là khởi đầu của những đơn sai và đổi trả."
+      }
+    },
+    {
+      "id": "q09",
+      "question": {
+        "text": "What are the usual steps for handling an angry customer?",
+        "audioId": "",
+        "vi": "Các bước thường dùng để xử lý một khách hàng đang tức giận là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Listen fully, acknowledge their feelings, solve the problem, then follow up afterwards",
+          "audioId": "",
+          "variants": [
+            "Listen, acknowledge, solve, then follow up"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Explain the shop rules first, then decide whether they deserve any help",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Offer a discount immediately so they stop talking and leave the shop quickly",
+          "audioId": "",
+          "variants": [
+            "Give a discount at once so they stop talking"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Pass them to another colleague and hope the problem disappears by itself",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A simple four step order works well: listen without interrupting, acknowledge how they feel, solve the problem with a clear plan, and follow up to check it worked. Each step prepares the next one, because people accept solutions more easily once they feel heard. Jumping straight to rules or discounts skips the part that calms them.",
+        "vi": "Trình tự bốn bước đơn giản rất hiệu quả: lắng nghe không ngắt lời, ghi nhận cảm xúc, giải quyết bằng kế hoạch rõ ràng, và liên hệ lại để kiểm tra. Bước trước chuẩn bị cho bước sau, vì khi thấy được lắng nghe, khách dễ chấp nhận giải pháp hơn. Nhảy ngay vào quy định hay giảm giá là bỏ qua phần giúp khách bình tĩnh lại."
+      }
+    },
+    {
+      "id": "q10",
+      "question": {
+        "text": "A customer is shouting about a late delivery, what is the best first response?",
+        "audioId": "",
+        "vi": "Khách đang quát tháo vì giao hàng trễ, phản ứng đầu tiên tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Stay calm, let them finish speaking, and show you take the problem seriously",
+          "audioId": "",
+          "variants": [
+            "Stay calm, let them finish and take it seriously"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Tell them to lower their voice before you agree to listen to anything",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Interrupt to explain that the delivery company caused the delay, not you",
+          "audioId": "",
+          "variants": [
+            "Interrupt and blame the delivery company"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Shout back so they understand that you will not be treated badly",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Anger usually drops once the person has said everything. Keep your voice low, nod, take notes and then say something like \"I understand, a late order is really frustrating, let me check it now.\" Interrupting to explain or blaming others sounds like an excuse and makes the shouting louder.",
+        "vi": "Cơn giận thường dịu xuống khi người ta nói hết. Hãy giữ giọng nhỏ, gật đầu, ghi chép rồi nói kiểu \"Em hiểu, đơn giao trễ thật sự rất bực mình, để em kiểm tra ngay ạ.\" Ngắt lời để giải thích hay đổ cho bên khác nghe như bao biện và khiến khách càng to tiếng."
+      }
+    },
+    {
+      "id": "q11",
+      "question": {
+        "text": "Why is acknowledging feelings different from admitting the shop was wrong?",
+        "audioId": "",
+        "vi": "Vì sao ghi nhận cảm xúc của khách khác với thừa nhận cửa hàng sai?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Acknowledging shows you understand their frustration without accepting blame before checking the facts",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "There is no difference, so you should never acknowledge any feelings at all",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Acknowledging feelings means you must give a full refund straight away",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Admitting fault is always faster, so you should skip acknowledging feelings",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Saying \"I can see this has been really stressful for you\" is about their experience, not about who caused it. You can say it honestly even before you know the facts. Once you have checked, you can admit a mistake if there is one.",
+        "vi": "Câu \"Em thấy chuyện này làm anh chị rất mệt mỏi\" nói về trải nghiệm của khách, chưa phải về lỗi của ai. Bạn có thể nói thật lòng ngay cả khi chưa rõ sự việc. Sau khi kiểm tra, nếu đúng là lỗi của mình thì bạn nhận lỗi."
+      }
+    },
+    {
+      "id": "q12",
+      "question": {
+        "text": "A customer says this is the third time the product has broken, what should you say first?",
+        "audioId": "",
+        "vi": "Khách nói đây là lần thứ ba sản phẩm bị hỏng, bạn nên nói gì trước tiên?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "That is impossible, our products are tested carefully and never break so often",
+          "audioId": "",
+          "variants": [
+            "That is impossible, our products never break"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "You probably used it wrongly, so it is not really our responsibility",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "I'm sorry you've had this trouble again, let me look at it right now",
+          "audioId": "",
+          "variants": [
+            "Sorry about the trouble again, let me check now"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Please fill in a form and we may contact you in a few weeks",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A repeated problem makes customers much angrier than the first one, so start with empathy and immediate action. Denying the problem or blaming the customer turns a product issue into a personal fight. After checking, consider a replacement rather than a third repair.",
+        "vi": "Lỗi lặp lại khiến khách giận hơn nhiều so với lần đầu, nên hãy mở đầu bằng sự cảm thông và hành động ngay. Phủ nhận vấn đề hoặc đổ lỗi cho khách biến chuyện sản phẩm thành chuyện đối đầu cá nhân. Sau khi kiểm tra, nên cân nhắc đổi sản phẩm mới thay vì sửa lần thứ ba."
+      }
+    },
+    {
+      "id": "q13",
+      "question": {
+        "text": "A staff member keeps telling an upset customer that it is company policy, what is the main problem?",
+        "audioId": "",
+        "vi": "Một nhân viên cứ nói với khách đang bực rằng đó là quy định công ty, vấn đề chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The staff member should have explained the policy in a much louder voice",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Repeating policy sounds like a wall and does not offer the customer any way forward",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Policies should never exist in a small shop, so the shop itself is wrong",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The customer must accept the policy, so there is really no problem here",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Policies are fine, but repeating them only tells the customer what you cannot do. Explain the reason once, then move to what you can do, for example \"I cannot refund this, but I can exchange it or repair it today.\" Customers accept limits when they see a way forward.",
+        "vi": "Có quy định là bình thường, nhưng lặp đi lặp lại chỉ cho khách biết bạn không làm được gì. Hãy giải thích lý do một lần rồi chuyển sang điều bạn làm được, ví dụ \"Em không hoàn tiền được, nhưng có thể đổi hoặc sửa cho chị ngay hôm nay.\" Khách chấp nhận giới hạn khi thấy có lối ra."
+      }
+    },
+    {
+      "id": "q14",
+      "question": {
+        "text": "An angry customer starts insulting your staff personally, what should you do?",
+        "audioId": "",
+        "vi": "Khách đang giận bắt đầu xúc phạm cá nhân nhân viên của bạn, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Calmly set a limit, say you want to help, and continue only if respect returns",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Insult the customer back so they understand how rude they are being",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Accept every insult silently because the customer is always right",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Call the police immediately even though nobody is in any danger",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "You can respect an angry customer and still protect your staff. Say calmly, \"I want to help you, but I need us to speak respectfully.\" If the insults continue, a manager can take over or end the conversation politely. Insulting back or staying silent both make the situation worse.",
+        "vi": "Bạn có thể tôn trọng khách đang giận mà vẫn bảo vệ nhân viên. Hãy nói bình tĩnh: \"Em muốn giúp anh chị, nhưng mình nói chuyện tôn trọng nhau nhé.\" Nếu khách vẫn xúc phạm, quản lý có thể tiếp nhận hoặc lịch sự kết thúc cuộc nói chuyện. Cãi lại hay im lặng chịu đựng đều làm tình hình tệ hơn."
+      }
+    },
+    {
+      "id": "q15",
+      "question": {
+        "text": "You have fixed an angry customer's problem, what is a good follow up step?",
+        "audioId": "",
+        "vi": "Bạn đã xử lý xong vấn đề cho một khách từng rất giận, bước liên hệ lại nào là tốt?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Never mention the problem again so they forget about it as soon as possible",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Contact them a few days later to check that everything is working well",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Send them advertising messages every day to keep the shop in their mind",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask them to post a five star review before the problem is fully solved",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A short follow up message such as \"Is the machine working well now?\" shows that you cared about the result, not just about ending the complaint. It also catches any problem that remains. Many customers remember this step more than the original mistake.",
+        "vi": "Một tin nhắn hỏi thăm ngắn như \"Máy dùng ổn chưa ạ?\" cho thấy bạn quan tâm đến kết quả chứ không chỉ muốn khép lại khiếu nại. Nó cũng giúp phát hiện vấn đề còn sót. Nhiều khách nhớ bước này hơn cả lỗi ban đầu."
+      }
+    },
+    {
+      "id": "q16",
+      "question": {
+        "text": "What is the main difference between a quick fix and solving the root cause of a complaint?",
+        "audioId": "",
+        "vi": "Khác biệt chính giữa xử lý nhanh tạm thời và giải quyết nguyên nhân gốc của khiếu nại là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A quick fix calms one customer, while the root cause fix stops the same problem returning",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A quick fix is always more expensive and should never be used in any shop",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Root cause fixes are only for big companies and not for small shops",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no difference because every complaint is caused by the customer",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Replacing one broken item solves today's complaint. Asking why it broke, for example weak packing, and changing the packing stops the next ten complaints. Good shops do both: fix it for the customer now, then fix the process.",
+        "vi": "Đổi một món hàng hỏng giải quyết khiếu nại hôm nay. Hỏi vì sao hàng hỏng, chẳng hạn đóng gói yếu, rồi sửa cách đóng gói sẽ ngăn mười khiếu nại tiếp theo. Cửa hàng tốt làm cả hai: xử lý ngay cho khách, rồi sửa quy trình."
+      }
+    },
+    {
+      "id": "q17",
+      "question": {
+        "text": "A customer is very angry but you cannot solve the problem today, what should you tell them?",
+        "audioId": "",
+        "vi": "Khách rất giận nhưng hôm nay bạn chưa giải quyết được, bạn nên nói gì với họ?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Promise it will be fixed today even though you know it is not possible",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Explain honestly what you will do next and give a clear time for an update",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Say there is nothing you can do and let them leave without a plan",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Avoid answering and tell them to check the website later for information",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "When a solution takes time, a clear plan calms people more than a fast but false promise. Say, \"I will contact the supplier this afternoon and call you before ten tomorrow morning.\" Then keep that time, even if you only have partial news.",
+        "vi": "Khi cần thời gian để giải quyết, một kế hoạch rõ ràng làm khách yên tâm hơn một lời hứa nhanh mà sai. Hãy nói: \"Chiều nay em liên hệ nhà cung cấp và gọi lại cho anh trước mười giờ sáng mai.\" Rồi giữ đúng giờ đó, kể cả khi mới có tin một phần."
+      }
+    },
+    {
+      "id": "q18",
+      "question": {
+        "text": "A customer wants a refund on a sale item your shop clearly marked as final sale, what is the best response?",
+        "audioId": "",
+        "vi": "Khách muốn hoàn tiền món hàng giảm giá mà cửa hàng đã ghi rõ không đổi trả, phản hồi tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Explain the rule kindly, then offer what you can do, such as an exchange or repair",
+          "audioId": "",
+          "variants": [
+            "Explain the rule kindly and offer an exchange or repair"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Refuse in one word and turn away to serve the next customer",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Give the refund quietly to avoid an argument, even though it breaks the rule",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Blame the customer for not reading the sign carefully before paying",
+          "audioId": "",
+          "variants": [
+            "Blame them for not reading the sign"
+          ]
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "You can keep the rule and still keep the customer. Say, \"Sale items cannot be refunded, but I can help you exchange it for another size or colour.\" Breaking the rule quietly creates unfair treatment, and blaming the customer turns a small issue into a fight.",
+        "vi": "Bạn có thể giữ quy định mà vẫn giữ được khách. Hãy nói: \"Hàng giảm giá bên em không hoàn tiền được, nhưng em có thể đổi cho chị size hoặc màu khác.\" Lén phá lệ tạo ra sự bất công giữa các khách, còn trách khách thì biến chuyện nhỏ thành cãi vã."
+      }
+    },
+    {
+      "id": "q19",
+      "question": {
+        "text": "What is the best structure for saying no without losing the customer?",
+        "audioId": "",
+        "vi": "Cấu trúc tốt nhất để từ chối mà không mất khách là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say no several times until the customer finally stops asking you",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Give a long technical explanation so the customer cannot argue back",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Show understanding, give a short reason, then offer an alternative they can accept",
+          "audioId": "",
+          "variants": [
+            "Understand, give a reason, offer an alternative"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Say maybe and hope the customer forgets about the request later",
+          "audioId": "",
+          "variants": [
+            "Say maybe and hope they forget"
+          ]
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A good refusal has three parts: \"I understand why you need this\", \"we cannot do it because\", and \"what I can do is\". The alternative is the most important part, because it moves the conversation from conflict to choice. A vague maybe only delays the disappointment.",
+        "vi": "Một lời từ chối tốt có ba phần: \"Em hiểu vì sao anh chị cần việc này\", \"bên em không làm được vì\", và \"điều em có thể làm là\". Phương án thay thế là phần quan trọng nhất, vì nó chuyển cuộc nói chuyện từ đối đầu sang lựa chọn. Câu \"để xem\" mơ hồ chỉ trì hoãn sự thất vọng."
+      }
+    },
+    {
+      "id": "q20",
+      "question": {
+        "text": "Why is offering an alternative better than a flat no?",
+        "audioId": "",
+        "vi": "Vì sao đưa ra phương án thay thế tốt hơn một câu từ chối cụt lủn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A flat no is rude only when the customer is a regular buyer",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "An alternative keeps the conversation going and shows you still want to help",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Alternatives are a trick to make the customer spend much more money",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A flat no takes too long to explain to most customers",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "A flat no ends the conversation, and the customer leaves with only the disappointment. An alternative, even a small one, gives them something to say yes to. For example, if you cannot deliver today, offer delivery tomorrow morning or pickup this evening.",
+        "vi": "Một câu \"không\" cụt lủn kết thúc cuộc nói chuyện, khách ra về chỉ với sự thất vọng. Một phương án thay thế, dù nhỏ, cho khách điều gì đó để đồng ý. Ví dụ, nếu không giao được hôm nay, hãy đề nghị giao sáng mai hoặc khách ghé lấy tối nay."
+      }
+    },
+    {
+      "id": "q21",
+      "question": {
+        "text": "A customer wants to exchange shoes they have clearly worn outside for weeks, what should you do?",
+        "audioId": "",
+        "vi": "Khách muốn đổi đôi giày rõ ràng đã đi ngoài đường nhiều tuần, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Exchange them immediately because refusing will always lead to a bad review",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Accuse the customer of trying to cheat the shop in front of others",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Pretend the manager is away so you do not have to decide anything",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Politely explain the exchange conditions and check whether there is a real product fault",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Worn items usually cannot be exchanged, but a real fault such as a sole coming off is different. Look at the shoes, separate normal wear from a defect, and explain the conditions calmly. Accusing a customer in public humiliates them, even when you are right.",
+        "vi": "Hàng đã dùng thường không được đổi, nhưng lỗi thật như bong đế lại là chuyện khác. Hãy xem kỹ đôi giày, phân biệt hao mòn bình thường với lỗi sản phẩm, rồi giải thích điều kiện một cách bình tĩnh. Buộc tội khách trước mặt người khác làm họ bẽ mặt, kể cả khi bạn đúng."
+      }
+    },
+    {
+      "id": "q22",
+      "question": {
+        "text": "A product is faulty and the customer wants a refund, what is the fair and smart response?",
+        "audioId": "",
+        "vi": "Sản phẩm bị lỗi và khách muốn hoàn tiền, cách phản hồi công bằng và khôn ngoan là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask them to contact the factory directly because the shop only sells the product",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Apologise, check the fault quickly, and offer a refund or replacement as they prefer",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Offer only store credit so the money stays inside the shop",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask them to wait a month while you think about the request",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "When the fault is real, the shop that sold the product should take care of it. Giving the customer the choice between a refund and a replacement shows respect and ends the problem quickly. Sending them to the factory or forcing store credit feels like the shop is avoiding responsibility.",
+        "vi": "Khi lỗi là thật, cửa hàng đã bán sản phẩm nên đứng ra xử lý. Cho khách chọn hoàn tiền hay đổi hàng mới thể hiện sự tôn trọng và khép lại vấn đề nhanh. Bảo khách tự liên hệ nhà sản xuất hay ép nhận phiếu mua hàng khiến khách thấy cửa hàng đang né trách nhiệm."
+      }
+    },
+    {
+      "id": "q23",
+      "question": {
+        "text": "Which return policy is most likely to cause arguments with customers?",
+        "audioId": "",
+        "vi": "Chính sách đổi trả nào dễ gây tranh cãi với khách nhất?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A policy that is short, written down and shown at the payment counter",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A policy that is unclear, unwritten and explained differently by each staff member",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A policy that tells customers how many days they have to return items",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A policy that staff can explain in the same simple words every time",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Most return arguments start when the customer heard one thing and the shop says another. Write the policy down, show it at the counter and on your online page, and make sure every staff member explains it the same way. A clear rule protects both the customer and the shop.",
+        "vi": "Phần lớn tranh cãi đổi trả bắt đầu khi khách được nói một đằng, cửa hàng lại làm một nẻo. Hãy viết chính sách ra, để ở quầy thanh toán và trên trang bán hàng, và đảm bảo mọi nhân viên giải thích giống nhau. Quy định rõ ràng bảo vệ cả khách lẫn cửa hàng."
+      }
+    },
+    {
+      "id": "q24",
+      "question": {
+        "text": "A loyal customer asks for a discount you are not allowed to give, how can you say no well?",
+        "audioId": "",
+        "vi": "Một khách quen xin giảm giá mà bạn không được phép giảm, làm sao từ chối cho khéo?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Give the discount secretly and hope the owner never finds out about it",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Thank them for their loyalty, explain the limit, and suggest a benefit you can offer",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Tell them loyal customers should not ask for discounts like other people",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Say you will think about it and then never reply to them again",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Regular customers deserve special attention, but not secret rule breaking. Say, \"Thank you for always coming back, I cannot change the price, but I can add free delivery for you.\" Ignoring the request or making them feel greedy damages a valuable relationship.",
+        "vi": "Khách quen xứng đáng được quan tâm đặc biệt, nhưng không phải bằng cách lén phá lệ. Hãy nói: \"Cảm ơn chị luôn ủng hộ bên em, giá thì em không đổi được, nhưng em miễn phí giao hàng cho chị nhé.\" Lờ yêu cầu đi hoặc khiến khách thấy mình bị coi là tham đều làm hỏng một mối quan hệ quý."
+      }
+    },
+    {
+      "id": "q25",
+      "question": {
+        "text": "Why is saying I will call you back by five o'clock better than saying I will try?",
+        "audioId": "",
+        "vi": "Vì sao nói \"Em sẽ gọi lại trước năm giờ\" tốt hơn nói \"Em sẽ cố\"?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Saying I will try sounds more confident and professional to most customers",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Exact times are only important when the product is very expensive",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Customers never remember times, so it does not matter what you say",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A clear time creates a promise the customer can trust and you can keep",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "\"I will try\" gives the customer nothing to hold on to, so they keep worrying and calling. A specific time turns your words into a commitment and lets them plan their day. Choose a time you are sure you can meet, with a little extra room.",
+        "vi": "Câu \"em sẽ cố\" không cho khách điều gì để bám vào, nên họ cứ lo và gọi lại. Một mốc giờ cụ thể biến lời nói thành cam kết và giúp khách sắp xếp thời gian. Hãy chọn mốc giờ bạn chắc chắn làm được, có dư một chút."
+      }
+    },
+    {
+      "id": "q26",
+      "question": {
+        "text": "A customer wants to return an item but has lost the receipt, what is a reasonable approach?",
+        "audioId": "",
+        "vi": "Khách muốn trả hàng nhưng đã làm mất hoá đơn, cách xử lý hợp lý là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Refuse immediately because rules without a receipt can never have any exceptions",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Accept any return from anyone without checking where the item was bought",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ask the customer to come back with two witnesses who saw them buy it",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Look for other proof of purchase, such as a bank transfer or order message",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "The receipt is only proof, and many purchases today leave other traces such as a transfer, a chat order or a delivery code. Checking these is fair to the customer and still protects the shop. Refusing at once or accepting anything without checking are both extremes.",
+        "vi": "Hoá đơn chỉ là một bằng chứng, và nhiều giao dịch ngày nay còn để lại dấu vết khác như lệnh chuyển khoản, tin nhắn đặt hàng hay mã vận đơn. Kiểm tra những thứ này vừa công bằng với khách vừa bảo vệ cửa hàng. Từ chối ngay hay nhận bừa không kiểm tra đều là hai thái cực."
+      }
+    },
+    {
+      "id": "q27",
+      "question": {
+        "text": "Your shop sent the wrong size to an online customer, what is the best first message?",
+        "audioId": "",
+        "vi": "Cửa hàng của bạn gửi nhầm size cho khách mua online, tin nhắn đầu tiên tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Admit the mistake clearly, apologise, and explain how you will fix it at your cost",
+          "audioId": "",
+          "variants": [
+            "Admit it, apologise and fix it at your cost"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Ask the customer to check again whether they really ordered that size",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Say the warehouse made the mistake, so it is not really your fault",
+          "audioId": "",
+          "variants": [
+            "Say the warehouse made the mistake"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Offer to fix it only if the customer pays the return shipping",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "When the mistake is yours, own it quickly and completely. A message like \"We sent the wrong size, I am sorry, we will send the right one today and collect the wrong one for free\" stops the anger before it grows. Blaming the warehouse or charging the customer makes them pay for your error.",
+        "vi": "Khi lỗi là của mình, hãy nhận nhanh và nhận trọn. Một tin nhắn kiểu \"Bên em gửi nhầm size, em xin lỗi chị, hôm nay em gửi đúng size và thu lại hàng nhầm miễn phí ạ\" chặn cơn giận trước khi nó lớn lên. Đổ cho kho hay bắt khách trả phí là bắt khách gánh lỗi của bạn."
+      }
+    },
+    {
+      "id": "q28",
+      "question": {
+        "text": "Why is a specific apology better than a vague one like sorry for any inconvenience?",
+        "audioId": "",
+        "vi": "Vì sao lời xin lỗi cụ thể tốt hơn câu chung chung như \"xin lỗi vì sự bất tiện\"?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Vague apologies are always better because they protect the shop from legal problems",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Specific apologies take too long and make customers feel more angry",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "There is no difference as long as the apology is written politely",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A specific apology names the exact mistake, which shows you really understand what happened",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "\"Sorry for any inconvenience\" sounds copied and could be sent to anyone. \"I am sorry we delivered your cake two hours late for the birthday party\" shows you know exactly what went wrong and why it mattered. Customers forgive faster when they feel understood.",
+        "vi": "Câu \"Xin lỗi vì sự bất tiện\" nghe như chép sẵn, gửi cho ai cũng được. Câu \"Em xin lỗi vì bên em giao bánh sinh nhật trễ hai tiếng\" cho thấy bạn biết chính xác điều gì sai và vì sao nó quan trọng. Khách tha thứ nhanh hơn khi thấy mình được hiểu."
+      }
+    },
+    {
+      "id": "q29",
+      "question": {
+        "text": "A seller says sorry, but you should have checked the order too, what is wrong with this apology?",
+        "audioId": "",
+        "vi": "Người bán nói \"Em xin lỗi, nhưng chị cũng nên kiểm tra đơn\", lời xin lỗi này sai ở đâu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The apology is too short and should include a long story about the shop",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The word but cancels the apology and moves the blame back onto the customer",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The seller should not apologise at all for any kind of mistake",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Nothing is wrong, because customers do share the responsibility for errors",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Everything after \"but\" is what the customer remembers, so this sounds like an accusation, not an apology. Apologise fully first and fix the problem. If you want to prevent it next time, add a helpful tip later, such as \"Next time I will send you a photo to confirm before shipping.\"",
+        "vi": "Khách nhớ phần sau chữ \"nhưng\", nên câu này nghe như lời trách chứ không phải lời xin lỗi. Hãy xin lỗi trọn vẹn và xử lý xong trước. Muốn tránh lặp lại thì sau đó gợi ý nhẹ nhàng, ví dụ \"Lần sau em sẽ gửi ảnh để chị xác nhận trước khi giao.\""
+      }
+    },
+    {
+      "id": "q30",
+      "question": {
+        "text": "You realise a delivery will be two days late because of your mistake, what should you do?",
+        "audioId": "",
+        "vi": "Bạn nhận ra đơn sẽ giao trễ hai ngày do lỗi của mình, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Wait and say nothing, hoping the customer will not notice the delay",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Cancel the order without explaining so you do not have to apologise",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Tell the customer before they ask, apologise, and give the new delivery date",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Blame the bad weather even though the real cause was your mistake",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Bad news told early feels like respect, while bad news discovered by the customer feels like hiding. A message sent first, with a real reason and a new date, often prevents the complaint completely. Inventing an excuse destroys trust if the customer later finds out.",
+        "vi": "Tin xấu báo sớm được xem là tôn trọng, còn tin xấu để khách tự phát hiện bị xem là giấu giếm. Một tin nhắn chủ động, nêu lý do thật và ngày giao mới, thường ngăn được khiếu nại từ đầu. Bịa lý do sẽ phá huỷ niềm tin nếu khách biết được sự thật."
+      }
+    },
+    {
+      "id": "q31",
+      "question": {
+        "text": "What is the main rule for keeping promises to customers?",
+        "audioId": "",
+        "vi": "Nguyên tắc chính để giữ lời hứa với khách hàng là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Promise the fastest possible time to win the sale, then explain delays later",
+          "audioId": "",
+          "variants": [
+            "Promise the fastest time to win the sale"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Avoid making any promises at all so nobody can ever complain",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Make big promises only to new customers and small ones to regular buyers",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Promise only what you can deliver, then deliver on time or update them early",
+          "audioId": "",
+          "variants": [
+            "Promise what you can do, and update early if needed"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Trust is built when what you say and what happens are the same. It is better to promise three days and deliver in two than to promise one day and deliver in three. If something changes, tell the customer before the promised time, not after.",
+        "vi": "Niềm tin được xây khi điều bạn nói và điều xảy ra trùng nhau. Hứa ba ngày mà giao trong hai ngày tốt hơn hứa một ngày mà giao mất ba. Nếu có thay đổi, hãy báo khách trước thời điểm đã hứa, đừng để quá hạn rồi mới nói."
+      }
+    },
+    {
+      "id": "q32",
+      "question": {
+        "text": "You promised to call a customer back today but cannot get the answer in time, what should you do?",
+        "audioId": "",
+        "vi": "Bạn hứa gọi lại cho khách trong hôm nay nhưng chưa có câu trả lời kịp, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Skip the call and wait until you have the full answer to share",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Send a message saying you are very busy and will contact them someday",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Call anyway, explain the progress so far, and give a new time for the answer",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask a colleague to say you are sick so the customer does not complain",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "The promise was to call, so keep it even without the full answer. Saying \"I have contacted the supplier, they will confirm tomorrow, I will call you by noon\" shows you are working on it. Missing the call makes the customer feel forgotten.",
+        "vi": "Lời hứa là gọi lại, nên hãy giữ nó dù chưa có câu trả lời đầy đủ. Câu \"Em đã liên hệ nhà cung cấp, mai họ xác nhận, em sẽ gọi chị trước trưa mai\" cho thấy bạn đang làm việc. Không gọi khiến khách thấy mình bị bỏ quên."
+      }
+    },
+    {
+      "id": "q33",
+      "question": {
+        "text": "A shop often promises next day delivery but usually delivers in three days, what is the main risk?",
+        "audioId": "",
+        "vi": "Một shop hay hứa giao hàng ngày hôm sau nhưng thường giao mất ba ngày, rủi ro chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Customers stop trusting every promise, even when the shop does deliver on time",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Customers will only complain about the colour and size of the products",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Delivery companies may refuse to work with the shop because of the delays",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "There is no real risk, because customers expect online shops to be late",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Over promising wins a sale today but loses trust tomorrow. Once customers learn that your times are not real, they doubt everything you say, including true information. Give honest delivery times and try to beat them.",
+        "vi": "Hứa quá mức giúp chốt đơn hôm nay nhưng mất niềm tin ngày mai. Khi khách biết thời gian bạn hứa không thật, họ nghi ngờ mọi điều bạn nói, kể cả thông tin đúng. Hãy đưa thời gian giao hàng trung thực và cố gắng giao sớm hơn."
+      }
+    },
+    {
+      "id": "q34",
+      "question": {
+        "text": "A customer calls about a problem and you need to look something up, what should you do?",
+        "audioId": "",
+        "vi": "Khách gọi điện báo sự cố và bạn cần tra cứu thông tin, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Put the phone down on the desk silently and go look for the information",
+          "audioId": "",
+          "variants": [
+            "Put the phone down silently and go look"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Ask permission to put them on hold and tell them roughly how long it will take",
+          "audioId": "",
+          "variants": [
+            "Ask to put them on hold and say how long"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Ask them to call back later without telling them a good time to call",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Guess the answer quickly so the customer does not have to wait at all",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "On the phone, silence feels much longer than it is. Say, \"May I put you on hold for about two minutes while I check your order?\" and come back when you said you would. If it takes longer, return to the line and update them.",
+        "vi": "Qua điện thoại, khoảng im lặng dài hơn nhiều so với thực tế. Hãy nói: \"Anh chị vui lòng giữ máy khoảng hai phút để em kiểm tra đơn nhé?\" và quay lại đúng như đã nói. Nếu lâu hơn, hãy quay lại máy để báo cho khách."
+      }
+    },
+    {
+      "id": "q35",
+      "question": {
+        "text": "Why do short, clear chat replies work better than one long block of text?",
+        "audioId": "",
+        "vi": "Vì sao những tin nhắn ngắn, rõ ràng hiệu quả hơn một khối chữ dài?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Long blocks of text show that you are working harder for the customer",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Short replies are only useful for young customers who do not like reading",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Chat customers never read anything, so the length of the message does not matter",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Short messages are easier to read on a phone and help the customer follow each step",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Most chat customers read on a small screen, often while doing something else. Break your answer into short messages, one idea each, and put the action they need to take first. A long wall of text gets skipped, and the important part is missed.",
+        "vi": "Phần lớn khách nhắn tin đọc trên màn hình nhỏ, thường vừa đọc vừa làm việc khác. Hãy chia câu trả lời thành vài tin ngắn, mỗi tin một ý, và đưa việc khách cần làm lên đầu. Một khối chữ dài dễ bị lướt qua và bỏ sót phần quan trọng."
+      }
+    },
+    {
+      "id": "q36",
+      "question": {
+        "text": "A customer messages your online shop late at night and you cannot answer fully until morning, what is a good reply?",
+        "audioId": "",
+        "vi": "Khách nhắn tin cho shop online lúc khuya và bạn chỉ trả lời đầy đủ được vào sáng mai, nên trả lời thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Leave the message unread until morning so they know you are not available",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Reply with only a sticker so they know someone has seen the message",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Thank them, say you have received the message, and say when you will reply in full",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Give a quick guess about the answer even though you have not checked the facts",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A short reply such as \"Thank you, we have your message and will answer before nine tomorrow\" stops the customer from worrying or messaging again. An automatic reply can do this too. A guessed answer at night may create a bigger problem in the morning.",
+        "vi": "Một tin ngắn như \"Cảm ơn anh chị, bên em đã nhận tin và sẽ trả lời trước chín giờ sáng mai\" giúp khách bớt lo và không nhắn dồn. Tin nhắn trả lời tự động cũng làm được việc này. Trả lời đoán mò lúc đêm khuya có thể sinh ra vấn đề lớn hơn vào sáng hôm sau."
+      }
+    },
+    {
+      "id": "q37",
+      "question": {
+        "text": "Which chat reply is most likely to make an upset customer feel ignored?",
+        "audioId": "",
+        "vi": "Tin nhắn trả lời nào dễ khiến khách đang bực thấy mình bị phớt lờ nhất?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A message that repeats their problem in one sentence and suggests a next step",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A message that apologises for the wait and explains what you are checking",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A copied standard message that does not mention their name or their problem",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A message that asks for their order code so you can find the details",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Templates save time, but an upset customer notices immediately when a reply could have been sent to anyone. Add their name and one sentence about their actual problem. That small change shows a real person is reading.",
+        "vi": "Mẫu tin soạn sẵn giúp tiết kiệm thời gian, nhưng khách đang bực nhận ra ngay khi câu trả lời gửi cho ai cũng được. Hãy thêm tên khách và một câu nói đúng vấn đề của họ. Thay đổi nhỏ đó cho thấy có một người thật đang đọc."
+      }
+    },
+    {
+      "id": "q38",
+      "question": {
+        "text": "A customer leaves a one star review saying your staff were rude, what is the best public reply?",
+        "audioId": "",
+        "vi": "Khách để lại đánh giá một sao nói nhân viên của bạn thô lỗ, câu trả lời công khai tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Argue in the comments and explain why the customer is lying about your staff",
+          "audioId": "",
+          "variants": [
+            "Argue in the comments that they are lying"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Delete the review and block the customer so others cannot see the complaint",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Thank them, apologise for the experience, and invite them to contact you privately to resolve it",
+          "audioId": "",
+          "variants": [
+            "Thank, apologise and invite them to talk privately"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Ignore it, because replying to bad reviews always makes the situation worse",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "A public reply is read by many future customers, not only the reviewer. A calm, short answer that apologises and offers a private conversation shows that you take feedback seriously. Arguing in public makes the shop look worse than the original complaint.",
+        "vi": "Câu trả lời công khai được rất nhiều khách tương lai đọc, không chỉ người viết đánh giá. Một câu trả lời ngắn, bình tĩnh, có lời xin lỗi và mời trao đổi riêng cho thấy bạn coi trọng góp ý. Cãi nhau công khai khiến cửa hàng trông tệ hơn cả lời phàn nàn ban đầu."
+      }
+    },
+    {
+      "id": "q39",
+      "question": {
+        "text": "Why should you reply to a negative review publicly before moving the conversation to private messages?",
+        "audioId": "",
+        "vi": "Vì sao nên trả lời đánh giá xấu công khai trước rồi mới chuyển sang tin nhắn riêng?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Other readers see that you care, while private details are handled safely in messages",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Public replies let you show everyone that the customer was completely wrong",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Private messages are only used to ask the customer to delete the review",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Replying publicly is pointless because nobody reads replies to reviews anyway",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The public reply is for everyone reading, and the private message is for solving the real problem. Order numbers, phone numbers and addresses belong in private messages. Doing both shows care in public and protects personal information.",
+        "vi": "Câu trả lời công khai dành cho mọi người đang đọc, còn tin nhắn riêng để giải quyết vấn đề thật. Mã đơn, số điện thoại và địa chỉ nên trao đổi qua tin nhắn riêng. Làm cả hai vừa thể hiện sự quan tâm công khai vừa bảo vệ thông tin cá nhân."
+      }
+    },
+    {
+      "id": "q40",
+      "question": {
+        "text": "A customer posts an angry complaint in a big community group on social media, what should you do first?",
+        "audioId": "",
+        "vi": "Khách đăng bài phàn nàn gay gắt trong một hội nhóm lớn trên mạng xã hội, bạn nên làm gì trước tiên?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Ask your friends to post comments praising the shop to cover the complaint",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Threaten to take legal action unless they delete the post at once",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Wait a few weeks until the post is old and nobody remembers it",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Reply calmly and quickly in the group, then contact them directly to solve the problem",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "In a community group, people watch how the shop reacts more than the complaint itself. A quick, polite reply such as \"We are sorry, we have messaged you to fix this today\" shows responsibility. Fake praise or threats usually spread further than the original post.",
+        "vi": "Trong một hội nhóm, mọi người để ý cách cửa hàng phản ứng hơn là bản thân lời phàn nàn. Một câu trả lời nhanh, lịch sự như \"Bên em xin lỗi, em đã nhắn riêng để xử lý ngay hôm nay\" thể hiện tinh thần trách nhiệm. Nhờ người khen ảo hay đe doạ thường lan xa hơn cả bài đăng ban đầu."
+      }
+    },
+    {
+      "id": "q41",
+      "question": {
+        "text": "A review is clearly fake and comes from someone who never bought anything, what is the best approach?",
+        "audioId": "",
+        "vi": "Một đánh giá rõ ràng là giả, từ người chưa từng mua hàng, cách xử lý tốt nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Write a long angry reply accusing a competitor without having any proof",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Post many fake positive reviews to push the bad review further down",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Pay the reviewer some money to remove the comment as quickly as possible",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Reply briefly and politely that you cannot find their order, and report it to the platform",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Even a fake review deserves a calm reply, because real customers read it. Say you cannot find any order under that name and invite them to contact you, then use the platform's report function. Fake positive reviews break platform rules and damage trust when they are noticed.",
+        "vi": "Ngay cả đánh giá giả cũng nên được trả lời bình tĩnh, vì khách thật sẽ đọc. Hãy nói bạn không tìm thấy đơn hàng nào với tên đó và mời họ liên hệ, rồi dùng chức năng báo cáo của nền tảng. Đánh giá tốt giả vi phạm quy định nền tảng và làm mất uy tín khi bị phát hiện."
+      }
+    },
+    {
+      "id": "q42",
+      "question": {
+        "text": "What should a good reply to a negative online review usually include?",
+        "audioId": "",
+        "vi": "Một câu trả lời tốt cho đánh giá tiêu cực trên mạng thường nên có những gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Thanks, a sincere apology, a short note on what you will do, and a contact",
+          "audioId": "",
+          "variants": [
+            "Thanks, an apology, your next step and a contact"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "A detailed story of the customer's mistakes and a copy of their private details",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A copied sentence used for every review, whether it is positive or negative",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A discount code offered only if they change their rating to five stars",
+          "audioId": "",
+          "variants": [
+            "A discount code if they change the rating"
+          ]
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A simple pattern works for most negative reviews: thank the reviewer, apologise for their experience, say briefly what you will do or have changed, and give a way to reach you. Keep it short and human. Offering rewards in exchange for a better rating is usually against platform rules.",
+        "vi": "Một khuôn đơn giản dùng được cho hầu hết đánh giá xấu: cảm ơn người viết, xin lỗi về trải nghiệm của họ, nói ngắn gọn bạn sẽ làm gì hoặc đã thay đổi gì, và để lại cách liên hệ. Viết ngắn và có tính người. Đưa quà để đổi lấy đánh giá cao thường vi phạm quy định của nền tảng."
+      }
+    },
+    {
+      "id": "q43",
+      "question": {
+        "text": "On the phone, a customer speaks very fast and you missed the order number, what should you do?",
+        "audioId": "",
+        "vi": "Qua điện thoại, khách nói rất nhanh và bạn nghe sót mã đơn hàng, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Pretend you heard it and search for the order using a guess",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Tell them they speak too fast and should learn to talk more clearly",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "End the call and wait for them to send the information by message",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Apologise and politely ask them to repeat it slowly, then read it back to check",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Asking again is professional, while guessing an order number leads to wrong information. Say, \"Sorry, could you repeat the order number slowly for me?\" and then read it back. Blaming the customer's way of speaking makes them feel criticised.",
+        "vi": "Hỏi lại là chuyên nghiệp, còn đoán mã đơn sẽ dẫn đến thông tin sai. Hãy nói: \"Xin lỗi, anh chị đọc chậm lại mã đơn giúp em được không ạ?\" rồi đọc lại để xác nhận. Trách cách nói của khách khiến họ thấy bị chê bai."
+      }
+    },
+    {
+      "id": "q44",
+      "question": {
+        "text": "Why can a well handled complaint make a customer more loyal than before?",
+        "audioId": "",
+        "vi": "Vì sao một khiếu nại được xử lý tốt có thể khiến khách gắn bó hơn trước?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Customers enjoy complaining and want more chances to complain in the future",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "They receive free products every time they make any small complaint",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "They see the shop takes responsibility and will look after them when things go wrong",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "They forget the original problem completely after just a few days",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Before a problem, customers only hope the shop is reliable. After a problem handled well, they know it, because they have seen it. That proof is why a fair, fast solution can create a stronger relationship than a sale with no problem at all.",
+        "vi": "Trước khi có sự cố, khách chỉ hy vọng cửa hàng đáng tin. Sau một sự cố được xử lý tốt, khách biết chắc điều đó vì đã tận mắt thấy. Chính bằng chứng ấy khiến một cách xử lý công bằng, nhanh chóng có thể tạo ra mối quan hệ bền hơn cả một lần mua suôn sẻ."
+      }
+    },
+    {
+      "id": "q45",
+      "question": {
+        "text": "After solving a complaint, how can a small shop turn the customer into a regular?",
+        "audioId": "",
+        "vi": "Sau khi giải quyết khiếu nại, cửa hàng nhỏ có thể biến khách đó thành khách quen bằng cách nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Avoid the customer next time so the problem does not come up again",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Give them a huge gift every time they visit the shop in the future",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Thank them for the feedback, tell them what you changed, and remember them next visit",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Tell other customers about the complaint so they know who caused trouble",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Customers feel valued when their complaint leads to a real change, for example \"We now check every order twice because of your feedback.\" Recognising them on the next visit makes the relationship personal. Expensive gifts are not needed; attention and memory are.",
+        "vi": "Khách thấy mình được coi trọng khi lời phàn nàn của họ dẫn đến thay đổi thật, ví dụ \"Nhờ góp ý của chị, giờ bên em kiểm tra mỗi đơn hai lần.\" Nhận ra khách ở lần ghé sau làm mối quan hệ thêm gần gũi. Không cần quà đắt tiền; cần sự quan tâm và ghi nhớ."
+      }
+    },
+    {
+      "id": "q46",
+      "question": {
+        "text": "Why is treating complaints as free feedback better than treating them as attacks?",
+        "audioId": "",
+        "vi": "Vì sao coi khiếu nại là góp ý miễn phí tốt hơn coi đó là sự tấn công?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Attacks must always be answered strongly to protect the reputation of the shop",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Feedback shows weak points you can fix before they drive many other customers away",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Feedback is only useful when it comes from experts, not from normal customers",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Treating complaints as feedback means you must agree with every single word",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Many unhappy customers never complain; they simply do not come back. The one who complains is telling you what others may be thinking. Seeing it as feedback helps you stay calm and look for what to improve, without having to agree with every detail.",
+        "vi": "Nhiều khách không hài lòng không bao giờ phàn nàn; họ chỉ lặng lẽ không quay lại. Người lên tiếng đang nói cho bạn điều mà những người khác có thể cũng nghĩ. Coi đó là góp ý giúp bạn bình tĩnh và tìm điểm cần cải thiện, mà không cần đồng ý với từng chi tiết."
+      }
+    },
+    {
+      "id": "q47",
+      "question": {
+        "text": "You sell clothes on livestream and a buyer says the colour looks different from the video, what should you do?",
+        "audioId": "",
+        "vi": "Bạn bán quần áo qua livestream và khách nói màu áo khác trong video, bạn nên làm gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Apologise, explain that lighting can change colours, and offer an exchange or return",
+          "audioId": "",
+          "variants": [
+            "Apologise, mention lighting, and offer an exchange"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Tell them every screen is different, so the problem is with their phone",
+          "audioId": "",
+          "variants": [
+            "Say the problem is their phone screen"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Block the buyer so they cannot comment during your next livestream",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask them to keep the item because returns cost the shop too much money",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Colour differences are common in livestream selling because of studio lights and screens. Accept that the product did not match their expectation, explain the reason briefly and offer an exchange or return. Next time, show the item in natural light and mention the colour clearly.",
+        "vi": "Lệch màu rất hay gặp khi bán hàng qua livestream vì đèn quay và màn hình. Hãy thừa nhận sản phẩm chưa đúng mong đợi của khách, giải thích ngắn lý do và đề nghị đổi hoặc trả. Lần sau, hãy cho xem hàng dưới ánh sáng tự nhiên và nói rõ màu sắc."
+      }
+    },
+    {
+      "id": "q48",
+      "question": {
+        "text": "A customer who paid on delivery finds an item missing and calls your online shop, what should you do first?",
+        "audioId": "",
+        "vi": "Khách thanh toán khi nhận hàng phát hiện thiếu một món và gọi cho shop online của bạn, bạn nên làm gì trước tiên?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Tell them the delivery driver must have stolen it and refuse to check",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Insist they must have lost it themselves because your packing is always perfect",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ask them to bring the package to the shop before you will do anything",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask for a photo of the package and order, then check your packing record quickly",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A missing item can be caused by packing, delivery or a misunderstanding, so collect facts before deciding. Photos of the package and your own packing photos or video usually show what happened. Blaming the driver or the customer without checking damages trust either way.",
+        "vi": "Thiếu hàng có thể do khâu đóng gói, khâu giao hoặc hiểu nhầm, nên hãy thu thập dữ kiện trước khi kết luận. Ảnh gói hàng của khách và ảnh hoặc video đóng gói của bên bạn thường cho thấy chuyện gì đã xảy ra. Đổ lỗi cho tài xế hay cho khách khi chưa kiểm tra đều làm mất niềm tin."
+      }
+    },
+    {
+      "id": "q49",
+      "question": {
+        "text": "A small shop owner fixes every complaint personally but never writes anything down, what is the main weakness?",
+        "audioId": "",
+        "vi": "Chủ một cửa hàng nhỏ tự xử lý mọi khiếu nại nhưng không bao giờ ghi chép, điểm yếu chính là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The owner is too friendly and customers will start to ask for too much",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The same problems keep returning because nobody can see the pattern in the complaints",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Writing complaints down is illegal for small shops without a special licence",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Customers prefer owners who forget complaints quickly and move on",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Fixing each case is good service, but without a simple record you cannot see that, for example, most complaints are about one supplier. A notebook or a shared sheet with date, problem and solution is enough. Review it once a month to find the real causes.",
+        "vi": "Xử lý từng trường hợp là phục vụ tốt, nhưng không ghi lại thì bạn không thấy được, chẳng hạn, phần lớn khiếu nại đều liên quan một nhà cung cấp. Một cuốn sổ hoặc bảng tính chung ghi ngày, vấn đề, cách xử lý là đủ. Mỗi tháng xem lại một lần để tìm nguyên nhân thật."
+      }
+    },
+    {
+      "id": "q50",
+      "question": {
+        "text": "What is the overall goal of good customer service when something goes wrong?",
+        "audioId": "",
+        "vi": "Mục tiêu chung của phục vụ khách hàng tốt khi có sự cố là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "To win the argument and prove that the shop made no mistake at all",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "To end the conversation as fast as possible, whatever the customer feels",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "To give the customer everything they ask for, even unreasonable requests",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "To fix the problem fairly and keep the customer's trust for the next purchase",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Good service is not about winning or about saying yes to everything. It is about a fair solution delivered in a way that keeps the relationship. If the customer would buy from you again after the problem, you have handled it well.",
+        "vi": "Phục vụ tốt không phải là thắng trong tranh luận, cũng không phải chiều mọi yêu cầu. Đó là một giải pháp công bằng, được thực hiện theo cách giữ được mối quan hệ. Nếu sau sự cố khách vẫn muốn mua lại của bạn, bạn đã xử lý tốt."
+      }
+    }
+  ]
+}

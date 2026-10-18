@@ -1,0 +1,2295 @@
+{
+  "id": "lesson-3",
+  "branch": "career",
+  "topic": "job-interview-preparation",
+  "title": {
+    "vi": "Trả lời các câu hỏi phỏng vấn thường gặp",
+    "en": "Answering common interview questions"
+  },
+  "level": "B1",
+  "status": "draft",
+  "updatedAt": "2026-10-14",
+  "reviewNote": "Bản nháp do Claude soạn và tự kiểm (2026-10-14). Chờ DIENPHAM duyệt.",
+  "overview": [
+    {
+      "heading": {
+        "en": "Every question has a hidden purpose",
+        "vi": "Mỗi câu hỏi đều có mục đích ẩn"
+      },
+      "paragraphs": [
+        {
+          "en": "Common interview questions sound simple, but each one tests something specific. Tell me about yourself checks how you present yourself, the strengths and weaknesses questions check self-awareness, and the question about leaving your last job checks your motivation.",
+          "vi": "Các câu hỏi phỏng vấn phổ biến nghe đơn giản nhưng mỗi câu kiểm tra một điều cụ thể. Câu giới thiệu bản thân kiểm tra cách bạn trình bày, câu về điểm mạnh và điểm yếu kiểm tra sự hiểu mình, còn câu vì sao rời công việc cũ kiểm tra động lực của bạn."
+        },
+        {
+          "en": "In the end, almost every question asks three things: can you do the job, will you fit in, and do you really want it.",
+          "vi": "Rốt cuộc, hầu như câu hỏi nào cũng hỏi ba điều: bạn có làm được việc không, có hoà hợp không, và có thật sự muốn công việc này không."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "The classic questions",
+        "vi": "Những câu hỏi kinh điển"
+      },
+      "paragraphs": [
+        {
+          "en": "Prepare clear answers for the classics: tell me about yourself, your strengths and weaknesses, why you are leaving, where you see yourself in five years, why we should hire you and your salary expectations.",
+          "vi": "Hãy chuẩn bị câu trả lời rõ ràng cho các câu kinh điển: giới thiệu bản thân, điểm mạnh và điểm yếu, vì sao bạn nghỉ việc, bạn thấy mình ở đâu sau năm năm, vì sao nên tuyển bạn và mức lương mong muốn."
+        },
+        {
+          "en": "For each one, link your answer to the needs of the role, stay positive about the past and give a realistic, researched view of the future and of salary.",
+          "vi": "Với mỗi câu, hãy gắn câu trả lời với nhu cầu của vị trí, giữ thái độ tích cực về quá khứ, và đưa ra cái nhìn thực tế, có tìm hiểu về tương lai cũng như mức lương."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Behavioural and situational questions",
+        "vi": "Câu hỏi hành vi và câu hỏi tình huống"
+      },
+      "paragraphs": [
+        {
+          "en": "Behavioural questions ask what you really did in the past, often starting with tell me about a time. Situational questions ask what you would do in an imagined future problem.",
+          "vi": "Câu hỏi hành vi hỏi bạn đã thật sự làm gì trong quá khứ, thường bắt đầu bằng \"hãy kể về một lần\". Câu hỏi tình huống hỏi bạn sẽ làm gì trước một vấn đề giả định trong tương lai."
+        },
+        {
+          "en": "Answer behavioural questions with the STAR structure: keep the situation short, spend most time on your own actions, and finish with a clear result and lesson. For situational questions, explain your thinking step by step.",
+          "vi": "Trả lời câu hỏi hành vi theo cấu trúc STAR: kể bối cảnh ngắn, dành nhiều thời gian nhất cho hành động của chính bạn, và kết thúc bằng kết quả rõ ràng cùng bài học. Với câu hỏi tình huống, hãy giải thích cách bạn suy nghĩ theo từng bước."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Teamwork, pressure and failure",
+        "vi": "Làm việc nhóm, áp lực và thất bại"
+      },
+      "paragraphs": [
+        {
+          "en": "Questions about teamwork, conflict, pressure and failure test your maturity. Use real stories, say what you personally did, stay respectful about other people and show what you learned.",
+          "vi": "Các câu hỏi về làm việc nhóm, mâu thuẫn, áp lực và thất bại kiểm tra sự trưởng thành của bạn. Hãy dùng câu chuyện thật, nói rõ bạn đã làm gì, tôn trọng người khác và cho thấy bài học bạn rút ra."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "What to avoid and what to do when stuck",
+        "vi": "Điều cần tránh và cách xử lý khi bí"
+      },
+      "paragraphs": [
+        {
+          "en": "Avoid speaking badly about former bosses, rambling, clichés and lies or exaggeration. These quickly damage trust, and facts can be checked through references and tests.",
+          "vi": "Tránh nói xấu sếp cũ, nói lan man, dùng câu sáo rỗng, nói dối hoặc phóng đại. Những điều này nhanh chóng làm mất lòng tin, và thông tin có thể được kiểm tra qua người tham chiếu và bài kiểm tra."
+        },
+        {
+          "en": "If you do not know an answer, say so honestly and explain how you would find out. It is fine to pause, to ask for clarification, or to use examples from study and volunteering.",
+          "vi": "Nếu không biết câu trả lời, hãy nói thật và giải thích bạn sẽ tìm hiểu thế nào. Bạn hoàn toàn có thể dừng lại suy nghĩ, hỏi lại cho rõ, hoặc dùng ví dụ từ việc học và hoạt động tình nguyện."
+        }
+      ]
+    },
+    {
+      "heading": {
+        "en": "Your turn to ask",
+        "vi": "Đến lượt bạn hỏi"
+      },
+      "paragraphs": [
+        {
+          "en": "Always prepare a few questions for the end: what success looks like in the first months, how the team works and what the next steps are.",
+          "vi": "Luôn chuẩn bị vài câu hỏi cho cuối buổi: thế nào là thành công trong những tháng đầu, nhóm làm việc ra sao và các bước tiếp theo là gì."
+        }
+      ]
+    }
+  ],
+  "tree": [
+    {
+      "title": {
+        "en": "Questions about you",
+        "vi": "Câu hỏi về bản thân bạn"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Tell me about yourself",
+            "vi": "Giới thiệu bản thân"
+          },
+          "note": {
+            "en": "Present, past, future in one or two minutes.",
+            "vi": "Hiện tại, quá khứ, tương lai trong một đến hai phút."
+          },
+          "questions": [
+            "q01",
+            "q02",
+            "q03"
+          ]
+        },
+        {
+          "title": {
+            "en": "Strengths and weaknesses",
+            "vi": "Điểm mạnh và điểm yếu"
+          },
+          "note": {
+            "en": "Relevant strength with proof; real weakness with a plan.",
+            "vi": "Điểm mạnh phù hợp có minh chứng; điểm yếu thật kèm kế hoạch cải thiện."
+          },
+          "questions": [
+            "q04",
+            "q05",
+            "q06",
+            "q07",
+            "q08"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Questions about your path",
+        "vi": "Câu hỏi về con đường sự nghiệp"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Leaving your last job",
+            "vi": "Vì sao rời công việc cũ"
+          },
+          "note": {
+            "en": "Move towards growth, not away from problems.",
+            "vi": "Hướng tới sự phát triển, không phải chạy trốn vấn đề."
+          },
+          "questions": [
+            "q09",
+            "q10",
+            "q11"
+          ]
+        },
+        {
+          "title": {
+            "en": "Five years and why hire you",
+            "vi": "Năm năm tới và vì sao nên tuyển bạn"
+          },
+          "questions": [
+            "q12",
+            "q13",
+            "q14"
+          ]
+        },
+        {
+          "title": {
+            "en": "Salary expectations",
+            "vi": "Mức lương mong muốn"
+          },
+          "note": {
+            "en": "Give a researched range and consider the full package.",
+            "vi": "Đưa khoảng lương có tìm hiểu và cân nhắc cả gói đãi ngộ."
+          },
+          "questions": [
+            "q15",
+            "q16"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Behavioural and situational questions",
+        "vi": "Câu hỏi hành vi và tình huống"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Recognising the question type",
+            "vi": "Nhận biết loại câu hỏi"
+          },
+          "questions": [
+            "q17",
+            "q18",
+            "q19",
+            "q20"
+          ]
+        },
+        {
+          "title": {
+            "en": "Using STAR well",
+            "vi": "Dùng STAR hiệu quả"
+          },
+          "note": {
+            "en": "Short situation, detailed action, clear result.",
+            "vi": "Bối cảnh ngắn, hành động chi tiết, kết quả rõ ràng."
+          },
+          "questions": [
+            "q21",
+            "q22",
+            "q23",
+            "q24"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Teamwork, pressure and failure",
+        "vi": "Làm việc nhóm, áp lực và thất bại"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Teamwork and conflict",
+            "vi": "Làm việc nhóm và mâu thuẫn"
+          },
+          "questions": [
+            "q25",
+            "q26",
+            "q27"
+          ]
+        },
+        {
+          "title": {
+            "en": "Pressure and deadlines",
+            "vi": "Áp lực và hạn chót"
+          },
+          "questions": [
+            "q28"
+          ]
+        },
+        {
+          "title": {
+            "en": "Talking about failure",
+            "vi": "Nói về thất bại"
+          },
+          "note": {
+            "en": "Own it, learn from it, show the change.",
+            "vi": "Nhận trách nhiệm, rút bài học, cho thấy sự thay đổi."
+          },
+          "questions": [
+            "q29",
+            "q30",
+            "q31"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "How to answer well",
+        "vi": "Cách trả lời tốt"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Things to avoid",
+            "vi": "Những điều nên tránh"
+          },
+          "note": {
+            "en": "No complaints about old bosses, no rambling, no lies.",
+            "vi": "Không nói xấu sếp cũ, không lan man, không nói dối."
+          },
+          "questions": [
+            "q32",
+            "q33",
+            "q34",
+            "q35",
+            "q36",
+            "q37"
+          ]
+        },
+        {
+          "title": {
+            "en": "Good habits",
+            "vi": "Thói quen tốt"
+          },
+          "note": {
+            "en": "Real examples, honest and positive.",
+            "vi": "Ví dụ thật, trung thực và tích cực."
+          },
+          "questions": [
+            "q38",
+            "q39",
+            "q40",
+            "q41",
+            "q50"
+          ]
+        },
+        {
+          "title": {
+            "en": "When you are stuck",
+            "vi": "Khi bạn bị bí"
+          },
+          "questions": [
+            "q42",
+            "q43",
+            "q44",
+            "q45"
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Questions to ask the interviewer",
+        "vi": "Câu hỏi nên hỏi lại nhà tuyển dụng"
+      },
+      "children": [
+        {
+          "title": {
+            "en": "Always have questions ready",
+            "vi": "Luôn chuẩn bị câu hỏi"
+          },
+          "questions": [
+            "q46",
+            "q48"
+          ]
+        },
+        {
+          "title": {
+            "en": "Smart questions to ask",
+            "vi": "Những câu hỏi thông minh"
+          },
+          "questions": [
+            "q47",
+            "q49"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "en": "Every common question checks if you can do the job, fit in and really want it.",
+      "vi": "Mỗi câu hỏi phổ biến đều kiểm tra bạn có làm được việc, có hoà hợp và có thật sự muốn công việc không."
+    },
+    {
+      "en": "Introduce yourself in one or two minutes: present, past, future.",
+      "vi": "Giới thiệu bản thân trong một đến hai phút: hiện tại, quá khứ, tương lai."
+    },
+    {
+      "en": "Prove strengths with examples; give a real weakness and how you are improving.",
+      "vi": "Chứng minh điểm mạnh bằng ví dụ; nêu điểm yếu thật và cách bạn đang cải thiện."
+    },
+    {
+      "en": "Stay positive about past jobs and never speak badly about a former boss.",
+      "vi": "Giữ thái độ tích cực về công việc cũ và không bao giờ nói xấu sếp cũ."
+    },
+    {
+      "en": "Use STAR for behavioural questions and explain your thinking for situational ones.",
+      "vi": "Dùng STAR cho câu hỏi hành vi và giải thích cách suy nghĩ cho câu hỏi tình huống."
+    },
+    {
+      "en": "Be brief, honest and specific; never lie or exaggerate.",
+      "vi": "Ngắn gọn, trung thực, cụ thể; không nói dối hay phóng đại."
+    },
+    {
+      "en": "If you do not know, say so and explain how you would find out.",
+      "vi": "Nếu không biết, hãy nói thật và giải thích bạn sẽ tìm hiểu thế nào."
+    },
+    {
+      "en": "Prepare thoughtful questions to ask the interviewer at the end.",
+      "vi": "Chuẩn bị những câu hỏi có chiều sâu để hỏi lại nhà tuyển dụng cuối buổi."
+    }
+  ],
+  "glossary": [
+    {
+      "en": "elevator pitch",
+      "vi": "lời giới thiệu ngắn gọn về bản thân"
+    },
+    {
+      "en": "strength",
+      "vi": "điểm mạnh"
+    },
+    {
+      "en": "weakness",
+      "vi": "điểm yếu"
+    },
+    {
+      "en": "self-awareness",
+      "vi": "sự tự nhận thức"
+    },
+    {
+      "en": "behavioural question",
+      "vi": "câu hỏi hành vi"
+    },
+    {
+      "en": "situational question",
+      "vi": "câu hỏi tình huống"
+    },
+    {
+      "en": "STAR method",
+      "vi": "phương pháp STAR (Tình huống, Nhiệm vụ, Hành động, Kết quả)"
+    },
+    {
+      "en": "salary expectations",
+      "vi": "mức lương mong muốn"
+    },
+    {
+      "en": "salary range",
+      "vi": "khoảng lương"
+    },
+    {
+      "en": "benefits package",
+      "vi": "gói phúc lợi, đãi ngộ"
+    },
+    {
+      "en": "reference check",
+      "vi": "kiểm tra người tham chiếu"
+    },
+    {
+      "en": "to ramble",
+      "vi": "nói lan man, dài dòng"
+    },
+    {
+      "en": "cliché",
+      "vi": "câu nói sáo rỗng"
+    },
+    {
+      "en": "accountability",
+      "vi": "tinh thần chịu trách nhiệm"
+    },
+    {
+      "en": "to exaggerate",
+      "vi": "phóng đại"
+    },
+    {
+      "en": "clarification",
+      "vi": "sự làm rõ, hỏi lại cho rõ"
+    },
+    {
+      "en": "next steps",
+      "vi": "các bước tiếp theo"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "question": {
+        "text": "What does the interviewer really want when they say tell me about yourself?",
+        "audioId": "",
+        "vi": "Khi hỏi \"Hãy giới thiệu về bản thân\", người phỏng vấn thật sự muốn nghe gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Your full life story starting from your childhood and your school days",
+          "audioId": "",
+          "variants": [
+            "Your whole life story from childhood"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Details about your family, your hobbies and your relationship status",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A short professional summary that shows why your background fits this job",
+          "audioId": "",
+          "variants": [
+            "A short professional summary of why you fit the job"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "A copy of your CV read aloud slowly, line by line, without changes",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "This opening question is a chance to give a short \"pitch\" about your professional self. The interviewer wants to hear what you do, what you are good at and why you are a good match for this role, not your personal life.",
+        "vi": "Câu hỏi mở đầu này là cơ hội để bạn \"chào hàng\" ngắn gọn về bản thân trong công việc. Người phỏng vấn muốn nghe bạn đang làm gì, giỏi điều gì và vì sao bạn hợp với vị trí này, chứ không phải chuyện đời tư."
+      }
+    },
+    {
+      "id": "q02",
+      "question": {
+        "text": "Which simple structure works well for answering tell me about yourself?",
+        "audioId": "",
+        "vi": "Cấu trúc đơn giản nào phù hợp để trả lời câu \"Hãy giới thiệu về bản thân\"?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Present, past and future, meaning your current role, past experience and next goal",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Start with your weaknesses, then complain about your current company for a while",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Begin with the salary you want and then talk about your favourite films",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Answer with only one word and wait for the next question to come",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "A popular structure is \"present, past, future\": say what you do now, mention the past experience that brought you here, then explain why this job is your next step. It keeps the answer clear and focused.",
+        "vi": "Một cấu trúc phổ biến là \"hiện tại, quá khứ, tương lai\": nói bạn đang làm gì, nhắc kinh nghiệm trước đây đã đưa bạn tới đây, rồi giải thích vì sao công việc này là bước tiếp theo. Cách này giúp câu trả lời rõ ràng, tập trung."
+      }
+    },
+    {
+      "id": "q03",
+      "question": {
+        "text": "How long should your answer to tell me about yourself usually be?",
+        "audioId": "",
+        "vi": "Câu trả lời cho phần giới thiệu bản thân thường nên dài bao lâu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "At least fifteen minutes, so the interviewer has no time for other questions",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "About one or two minutes, which is long enough to be clear and interesting",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Just a few seconds, because interviewers never listen to this part anyway",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "As long as possible, since longer answers always show more confidence and skill",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Most career advisers suggest about one to two minutes. That is enough to give a clear summary and leave the interviewer curious to ask more, while a very long answer makes people lose attention.",
+        "vi": "Phần lớn chuyên gia hướng nghiệp khuyên nói khoảng một đến hai phút. Như vậy đủ để tóm tắt rõ ràng và khiến người phỏng vấn muốn hỏi thêm, còn nói quá dài sẽ làm người nghe mất tập trung."
+      }
+    },
+    {
+      "id": "q04",
+      "question": {
+        "text": "Why do interviewers ask about your greatest strength?",
+        "audioId": "",
+        "vi": "Vì sao người phỏng vấn hỏi về điểm mạnh lớn nhất của bạn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "To see if you know your abilities and whether they match the role",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "To find a reason to give you a lower salary than other candidates",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "To test whether you can name every skill that exists in the world",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Because they want you to praise yourself for as long as you can",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "The strengths question checks your self-awareness and whether your best abilities are useful for this job. A strength that the role does not need will not help you much.",
+        "vi": "Câu hỏi về điểm mạnh kiểm tra xem bạn có hiểu bản thân không và năng lực nổi bật của bạn có hữu ích cho công việc này không. Một điểm mạnh mà vị trí không cần sẽ không giúp bạn nhiều."
+      }
+    },
+    {
+      "id": "q05",
+      "question": {
+        "text": "What makes a strong answer when you are asked about your strengths?",
+        "audioId": "",
+        "vi": "Điều gì làm nên một câu trả lời tốt khi được hỏi về điểm mạnh?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "List ten different strengths very quickly without explaining any of them at all",
+          "audioId": "",
+          "variants": [
+            "List ten strengths quickly with no explanation"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Name a strength the job needs and support it with a short real example",
+          "audioId": "",
+          "variants": [
+            "A strength the job needs plus a real example"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Say that you have no special strengths because you want to seem humble",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Choose a strength that has nothing to do with work, like fast eating",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Pick one or two strengths that match the job description and prove each one with a brief story. \"I am organised\" sounds stronger when you add how you planned a busy project and finished it on time.",
+        "vi": "Hãy chọn một hai điểm mạnh khớp với mô tả công việc và chứng minh mỗi điểm bằng một câu chuyện ngắn. \"Tôi là người ngăn nắp\" sẽ thuyết phục hơn khi bạn kể mình đã lên kế hoạch cho một dự án bận rộn và hoàn thành đúng hạn."
+      }
+    },
+    {
+      "id": "q06",
+      "question": {
+        "text": "What is the real purpose of the question about your greatest weakness?",
+        "audioId": "",
+        "vi": "Mục đích thật sự của câu hỏi về điểm yếu lớn nhất là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "To collect reasons to reject you before the interview has even finished",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "To check your honesty, your self-awareness and your effort to keep improving",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "To find out which colleagues you dislike most at your current workplace",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "To see whether you will cry or become angry under strong pressure",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Everybody has weaknesses. The interviewer wants to see that you can recognise yours honestly and that you are doing something about it, which shows maturity and a growth mindset.",
+        "vi": "Ai cũng có điểm yếu. Người phỏng vấn muốn thấy bạn nhận ra điểm yếu của mình một cách trung thực và đang làm gì đó để cải thiện, điều này cho thấy sự trưởng thành và tư duy phát triển."
+      }
+    },
+    {
+      "id": "q07",
+      "question": {
+        "text": "Which answer about a weakness is usually the most effective?",
+        "audioId": "",
+        "vi": "Cách trả lời nào về điểm yếu thường hiệu quả nhất?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A real but manageable weakness, plus the concrete steps you are taking to improve",
+          "audioId": "",
+          "variants": [
+            "A real weakness and the steps you take to improve it"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "A weakness that is central to the job, such as hating customers in sales",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A claim that you honestly have no weaknesses of any kind whatsoever",
+          "audioId": "",
+          "variants": [
+            "Saying you have no weaknesses at all"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "A long list of personal problems that have nothing to do with work",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Choose a genuine weakness that is not essential for the role, for example public speaking for a data job, and explain what you do to improve, such as taking a course. Never choose a weakness that is a core requirement of the job.",
+        "vi": "Hãy chọn một điểm yếu có thật nhưng không phải yêu cầu cốt lõi của vị trí, ví dụ nói trước đám đông với công việc phân tích dữ liệu, và nói bạn đang làm gì để cải thiện, như tham gia một khoá học. Đừng chọn điểm yếu chính là yêu cầu quan trọng của công việc."
+      }
+    },
+    {
+      "id": "q08",
+      "question": {
+        "text": "Why is saying I am a perfectionist often a poor answer about weaknesses?",
+        "audioId": "",
+        "vi": "Vì sao nói \"Tôi là người cầu toàn\" thường là câu trả lời kém về điểm yếu?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because perfectionism is against the law in most modern companies today",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because interviewers do not understand what the word perfectionist actually means",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Interviewers hear it very often and it can sound like you are avoiding honesty",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Because it is too honest and reveals far too much about your private life",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Answers like \"I am a perfectionist\" or \"I work too hard\" are clichés. Interviewers recognise them as a way to hide a real weakness, so they can make you seem less genuine.",
+        "vi": "Những câu như \"Tôi là người cầu toàn\" hay \"Tôi làm việc quá chăm chỉ\" là lối mòn. Người phỏng vấn biết đó là cách né điểm yếu thật, nên chúng khiến bạn kém chân thành."
+      }
+    },
+    {
+      "id": "q09",
+      "question": {
+        "text": "Why do interviewers ask why you left or want to leave your last job?",
+        "audioId": "",
+        "vi": "Vì sao người phỏng vấn hỏi lý do bạn đã nghỉ hoặc muốn rời công việc cũ?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "To get private information about your old company that they can use",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "To understand your motivation and check whether the same problem may happen again",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Because they plan to call your old boss and argue with them",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "To decide which desk in the office you will be given first",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Employers want to know what drives you and whether you will be happy with them. If you left because of something this job also has, they worry you will leave again soon.",
+        "vi": "Nhà tuyển dụng muốn biết điều gì thúc đẩy bạn và bạn có gắn bó được với họ không. Nếu bạn rời đi vì một điều mà công việc này cũng có, họ sẽ lo bạn sớm nghỉ tiếp."
+      }
+    },
+    {
+      "id": "q10",
+      "question": {
+        "text": "What is a positive way to explain why you want to leave your current job?",
+        "audioId": "",
+        "vi": "Đâu là cách tích cực để giải thích vì sao bạn muốn rời công việc hiện tại?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say your manager is lazy and your colleagues are the worst people alive",
+          "audioId": "",
+          "variants": [
+            "Your manager is lazy and your colleagues are terrible"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Say you were bored and usually slept at your desk in the afternoon",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Say you only want to leave because a friend dared you to apply",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Say you are looking for new challenges and growth that this role can offer",
+          "audioId": "",
+          "variants": [
+            "You want new challenges and growth that this role offers"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Focus on what you are moving towards, not what you are running away from. Growth, new skills or a bigger challenge are honest and positive reasons that also connect to the new role.",
+        "vi": "Hãy tập trung vào điều bạn đang hướng tới, chứ không phải điều bạn muốn trốn chạy. Cơ hội phát triển, kỹ năng mới hay thử thách lớn hơn là lý do trung thực, tích cực và gắn với vị trí mới."
+      }
+    },
+    {
+      "id": "q11",
+      "question": {
+        "text": "How should you answer if you were let go from your previous job?",
+        "audioId": "",
+        "vi": "Bạn nên trả lời thế nào nếu từng bị cho nghỉ việc ở công ty trước?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Explain briefly and honestly, then focus on what you learned and improved since then",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Hide it completely and invent a different story about leaving on your own",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Spend most of the interview explaining why the decision was totally unfair",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Refuse to answer and quickly change the subject to the weather outside",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Being let go is common and can be checked through references, so lying is risky. Give a short, honest explanation without blaming others, then show what you learned and how you are stronger now.",
+        "vi": "Bị cho nghỉ việc không hiếm và có thể được kiểm tra qua người tham chiếu, nên nói dối rất rủi ro. Hãy giải thích ngắn gọn, trung thực, không đổ lỗi, rồi cho thấy bạn đã rút ra bài học gì và tiến bộ ra sao."
+      }
+    },
+    {
+      "id": "q12",
+      "question": {
+        "text": "What does the interviewer want to learn when asking where you see yourself in five years?",
+        "audioId": "",
+        "vi": "Khi hỏi bạn thấy mình ở đâu sau năm năm, người phỏng vấn muốn biết điều gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Which country you want to move to for a long holiday in the future",
+          "audioId": "",
+          "variants": [
+            "Where you want to go on holiday in the future"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Whether your career goals fit this role and whether you plan to stay and grow",
+          "audioId": "",
+          "variants": [
+            "Whether your goals fit the role and you plan to stay"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Whether you are planning to take their job away from them very soon",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "How much money you will have saved in your bank account by then",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "This question checks ambition, planning and commitment. Companies spend time and money training new staff, so they want people whose goals can grow inside the company.",
+        "vi": "Câu hỏi này kiểm tra tham vọng, khả năng lên kế hoạch và sự gắn bó. Công ty tốn thời gian và tiền để đào tạo nhân viên mới, nên họ muốn người có mục tiêu phát triển được ngay trong công ty."
+      }
+    },
+    {
+      "id": "q13",
+      "question": {
+        "text": "Which answer about your future plans usually makes the best impression?",
+        "audioId": "",
+        "vi": "Câu trả lời nào về kế hoạch tương lai thường gây ấn tượng tốt nhất?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Opening your own business that will compete directly with this company next year",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Having no idea at all because planning ahead is simply a waste of time",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Retiring early on a quiet beach and never working for anybody ever again",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Growing deeper skills in this field and taking on more responsibility in the company",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A good answer shows realistic ambition that matches the path this role can offer, such as becoming an expert or leading projects. You do not need an exact job title, just a clear direction.",
+        "vi": "Câu trả lời tốt cho thấy tham vọng thực tế, phù hợp với lộ trình mà vị trí này có thể mang lại, như trở thành chuyên gia hay dẫn dắt dự án. Bạn không cần nêu chức danh cụ thể, chỉ cần một hướng đi rõ ràng."
+      }
+    },
+    {
+      "id": "q14",
+      "question": {
+        "text": "What makes a strong answer to the question why should we hire you?",
+        "audioId": "",
+        "vi": "Thế nào là câu trả lời tốt khi được hỏi vì sao công ty nên tuyển bạn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Telling them you really need the money because your rent is due soon",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Saying that every other candidate is probably less intelligent than you are",
+          "audioId": "",
+          "variants": [
+            "Say the other candidates are less smart than you"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "A short summary linking your key skills and past results to the needs of this job",
+          "audioId": "",
+          "variants": [
+            "Link your main skills and results to what the job needs"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Answering that they should decide that themselves because it is their job",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "This is your closing argument. Connect two or three of your strongest skills or achievements to the most important requirements of the role, and show enthusiasm. Do not attack other candidates you have never met.",
+        "vi": "Đây là lời kết thuyết phục của bạn. Hãy nối hai ba kỹ năng hay thành tích nổi bật nhất với các yêu cầu quan trọng nhất của vị trí, và thể hiện sự nhiệt tình. Đừng chê bai những ứng viên khác mà bạn chưa từng gặp."
+      }
+    },
+    {
+      "id": "q15",
+      "question": {
+        "text": "When asked about your expected salary, what is usually the smartest answer?",
+        "audioId": "",
+        "vi": "Khi được hỏi về mức lương mong muốn, cách trả lời khôn ngoan nhất thường là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Any amount the company likes, because you are happy to work for free",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A realistic range based on market research for similar roles in your area",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A number twice as high as your friends earn, just to test their reaction",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A refusal to talk about money because the topic is always rude",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Giving a range, for example based on salary surveys and job sites for your city, shows that you know your value and leaves room to negotiate. Put the number you really want near the bottom of the range.",
+        "vi": "Đưa ra một khoảng lương, dựa trên khảo sát lương và trang tuyển dụng tại thành phố của bạn, cho thấy bạn biết giá trị của mình và vẫn còn chỗ để thương lượng. Hãy đặt mức bạn thật sự mong muốn gần mức thấp của khoảng đó."
+      }
+    },
+    {
+      "id": "q16",
+      "question": {
+        "text": "Why might you mention that the full package matters when you discuss salary?",
+        "audioId": "",
+        "vi": "Vì sao bạn nên nhắc rằng cả gói đãi ngộ đều quan trọng khi bàn về lương?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because the package means the gift box you should bring to the interview",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because companies never pay a basic salary and only give free lunches",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Because benefits like insurance, bonuses and training also add real value to an offer",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Because talking about benefits always makes the interviewer double your pay",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Total compensation includes more than the basic salary: insurance, bonuses, leave, training and flexible work all matter. Saying you are open to the whole package shows flexibility and keeps the discussion positive.",
+        "vi": "Tổng thu nhập không chỉ là lương cơ bản: bảo hiểm, thưởng, ngày nghỉ, đào tạo và làm việc linh hoạt đều có giá trị. Nói rằng bạn cân nhắc cả gói đãi ngộ cho thấy sự linh hoạt và giữ cuộc trao đổi tích cực."
+      }
+    },
+    {
+      "id": "q17",
+      "question": {
+        "text": "What is a behavioural interview question?",
+        "audioId": "",
+        "vi": "Câu hỏi phỏng vấn hành vi là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A question about how politely you behaved while waiting in the reception area",
+          "audioId": "",
+          "variants": [
+            "A question about your manners in the reception area"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "A question about how you actually handled a real situation in your past",
+          "audioId": "",
+          "variants": [
+            "A question about how you handled a real past situation"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "A question that asks you to guess the personality of the interviewer",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A trick question about which animal you would choose to be today",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Behavioural questions are based on the idea that past behaviour predicts future behaviour. They ask for a real example from your experience instead of a theory about what you might do.",
+        "vi": "Câu hỏi hành vi dựa trên ý tưởng: cách bạn từng hành xử là dấu hiệu dự đoán cách bạn sẽ hành xử. Chúng yêu cầu một ví dụ có thật từ kinh nghiệm của bạn, không phải lý thuyết về việc bạn có thể làm gì."
+      }
+    },
+    {
+      "id": "q18",
+      "question": {
+        "text": "Which opening words usually tell you that a question is behavioural?",
+        "audioId": "",
+        "vi": "Những từ mở đầu nào thường cho biết đó là câu hỏi hành vi?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Please describe your dream house and the city where it is located",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "How many languages can you speak and which one sounds most beautiful",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "What is your favourite colour and why do you like it so much",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Tell me about a time when, or give me an example of when",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Phrases such as \"Tell me about a time when...\" or \"Give me an example of...\" signal a behavioural question. When you hear them, answer with a specific real story, ideally using the STAR structure.",
+        "vi": "Những cụm như \"Hãy kể về một lần khi...\" hay \"Cho tôi một ví dụ về...\" báo hiệu câu hỏi hành vi. Khi nghe chúng, hãy trả lời bằng một câu chuyện có thật, cụ thể, tốt nhất theo cấu trúc STAR."
+      }
+    },
+    {
+      "id": "q19",
+      "question": {
+        "text": "How is a situational question different from a behavioural question?",
+        "audioId": "",
+        "vi": "Câu hỏi tình huống khác câu hỏi hành vi như thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It is always asked outside the building while you are standing in the street",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It only asks about your past school results and the grades you received",
+          "audioId": "",
+          "variants": [
+            "It only asks about past school grades"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "It has no correct answer, so you can say anything that comes to mind",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It describes an imagined future problem and asks what you would do about it",
+          "audioId": "",
+          "variants": [
+            "It asks what you would do in an imagined future problem"
+          ]
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Situational questions start with \"What would you do if...\" and describe a hypothetical problem. They test your judgement and problem-solving, while behavioural questions ask what you really did before.",
+        "vi": "Câu hỏi tình huống thường bắt đầu bằng \"Bạn sẽ làm gì nếu...\" và mô tả một vấn đề giả định. Chúng kiểm tra khả năng phán đoán và giải quyết vấn đề, còn câu hỏi hành vi hỏi bạn đã thật sự làm gì trước đây."
+      }
+    },
+    {
+      "id": "q20",
+      "question": {
+        "text": "What is a good way to answer a situational question?",
+        "audioId": "",
+        "vi": "Đâu là cách tốt để trả lời một câu hỏi tình huống?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Give a one word answer quickly so that you look confident and decisive",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Say you would simply ask your manager to solve every problem for you",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Refuse to answer because the situation in the question is not real",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Explain your thinking step by step, including priorities, people involved and possible risks",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Interviewers care about how you think. Walk them through the steps: understand the problem, decide what matters most, talk to the right people and choose an action. If you have faced something similar, mention it briefly.",
+        "vi": "Người phỏng vấn quan tâm cách bạn suy nghĩ. Hãy dẫn họ qua từng bước: hiểu vấn đề, xác định điều quan trọng nhất, trao đổi với đúng người và chọn hành động. Nếu từng gặp tình huống tương tự, hãy nhắc ngắn gọn."
+      }
+    },
+    {
+      "id": "q21",
+      "question": {
+        "text": "In a STAR answer, how much time should you spend describing the situation?",
+        "audioId": "",
+        "vi": "Trong câu trả lời theo STAR, bạn nên dành bao nhiêu thời gian để mô tả bối cảnh?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Only a little, just enough context so the listener understands the story",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Most of the answer, with every name, date and detail you can remember",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "None at all, because the interviewer can easily guess the background",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Exactly half the interview, so the other questions have to be skipped",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Many candidates spend too long on the background. Give a sentence or two of context and move on, because the interviewer mainly wants to hear what you did and what happened.",
+        "vi": "Nhiều ứng viên kể bối cảnh quá dài. Chỉ cần một hai câu giới thiệu rồi chuyển tiếp, vì người phỏng vấn chủ yếu muốn nghe bạn đã làm gì và kết quả ra sao."
+      }
+    },
+    {
+      "id": "q22",
+      "question": {
+        "text": "Which part of a STAR answer should usually receive the most attention?",
+        "audioId": "",
+        "vi": "Phần nào trong câu trả lời theo STAR thường cần được chú trọng nhất?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The situation part, where you describe the weather and the office furniture",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The action part, where you explain the specific steps you personally took",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "The task part, where you repeat the official job title several more times",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The ending, where you thank the interviewer for listening to your story",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "The action is the heart of the story because it shows your skills in practice. Explain what you did, how you did it and why you made those choices.",
+        "vi": "Phần hành động là trọng tâm vì nó cho thấy kỹ năng của bạn trong thực tế. Hãy giải thích bạn đã làm gì, làm thế nào và vì sao bạn chọn cách đó."
+      }
+    },
+    {
+      "id": "q23",
+      "question": {
+        "text": "Why should you say I rather than we when describing your actions in a story?",
+        "audioId": "",
+        "vi": "Vì sao nên nói \"tôi\" thay vì \"chúng tôi\" khi kể về hành động của mình?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because the interviewer needs to know exactly what you contributed yourself",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because using the word we is grammatically wrong in formal English",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Because team members should never receive any credit for shared work",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Because the word I sounds louder and helps the microphone hear you",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Teamwork is important, but the interviewer is hiring you, not your old team. Say \"we\" for the team's goal, then use \"I\" to describe your own decisions and actions.",
+        "vi": "Làm việc nhóm rất quan trọng, nhưng người phỏng vấn tuyển bạn chứ không tuyển cả nhóm cũ. Hãy dùng \"chúng tôi\" khi nói mục tiêu chung, rồi dùng \"tôi\" để mô tả quyết định và hành động của riêng bạn."
+      }
+    },
+    {
+      "id": "q24",
+      "question": {
+        "text": "What makes the result part of a STAR answer stronger?",
+        "audioId": "",
+        "vi": "Điều gì làm phần kết quả trong câu trả lời theo STAR thuyết phục hơn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A clear outcome, ideally measured, plus what you learned from the experience",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "A vague comment that things were probably fine in the end somehow",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "A long complaint about who failed to help you during the project",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "A promise that you will tell the result at the next interview",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Finish with what changed because of your action, for example time saved, sales increased or a happy customer. Adding a short lesson learned shows reflection.",
+        "vi": "Hãy kết thúc bằng điều đã thay đổi nhờ hành động của bạn, ví dụ tiết kiệm thời gian, tăng doanh số hay khách hàng hài lòng. Thêm một bài học ngắn cho thấy bạn biết tự nhìn lại."
+      }
+    },
+    {
+      "id": "q25",
+      "question": {
+        "text": "Why do interviewers ask about your experience of working in a team?",
+        "audioId": "",
+        "vi": "Vì sao người phỏng vấn hỏi về kinh nghiệm làm việc nhóm của bạn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "To find out how many friends you invited to your last birthday party",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "To check whether you prefer to eat lunch alone or with colleagues",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "To learn which sports team you support during the football season",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "To see how you communicate, cooperate and share responsibility with other people",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Almost every job requires working with others. Teamwork questions check whether you listen, share information, support colleagues and deal with differences in a professional way.",
+        "vi": "Hầu như công việc nào cũng cần phối hợp với người khác. Câu hỏi về làm việc nhóm kiểm tra bạn có biết lắng nghe, chia sẻ thông tin, hỗ trợ đồng nghiệp và xử lý khác biệt một cách chuyên nghiệp không."
+      }
+    },
+    {
+      "id": "q26",
+      "question": {
+        "text": "What is a good answer when asked about working in a team?",
+        "audioId": "",
+        "vi": "Đâu là câu trả lời tốt khi được hỏi về làm việc nhóm?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say that you always prefer to do everything alone because others are slow",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Describe a real team project, your specific role and how the team succeeded",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Talk only in general words like teamwork is good without any example",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Explain how you took credit for the work of everyone else on the team",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "General statements like \"I am a team player\" prove nothing. Tell a short story about a real team, what you contributed and what the team achieved together.",
+        "vi": "Những câu chung chung như \"Tôi là người biết làm việc nhóm\" không chứng minh được gì. Hãy kể ngắn về một nhóm có thật, bạn đóng góp gì và cả nhóm đạt được gì."
+      }
+    },
+    {
+      "id": "q27",
+      "question": {
+        "text": "How should you describe a disagreement you had with a colleague?",
+        "audioId": "",
+        "vi": "Bạn nên kể thế nào về một lần bất đồng với đồng nghiệp?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Explain in detail why your colleague was stupid and completely wrong about everything",
+          "audioId": "",
+          "variants": [
+            "Explain why your colleague was stupid and wrong"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Pretend that you have never disagreed with anybody in your whole working life",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Stay calm and respectful, and focus on how you listened and solved the problem",
+          "audioId": "",
+          "variants": [
+            "Stay respectful and focus on how you solved it"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Describe how you shouted until the whole office finally agreed with you",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Conflict questions test emotional maturity. Briefly describe the disagreement without blaming, then focus on how you listened, found common ground and reached a solution.",
+        "vi": "Câu hỏi về mâu thuẫn kiểm tra sự trưởng thành về cảm xúc. Hãy mô tả ngắn gọn bất đồng mà không đổ lỗi, rồi tập trung vào việc bạn lắng nghe, tìm điểm chung và đi đến giải pháp."
+      }
+    },
+    {
+      "id": "q28",
+      "question": {
+        "text": "When asked how you handle pressure or tight deadlines, what should you show?",
+        "audioId": "",
+        "vi": "Khi được hỏi cách xử lý áp lực hay hạn chót gấp, bạn nên thể hiện điều gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "A real example of planning, prioritising and staying calm while finishing on time",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "That you never feel any pressure because you do not care about results",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "That you usually ask for every deadline to be moved to next month",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "That you work best when you leave everything until the final minute",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Employers know pressure is part of work. Show how you organise tasks, decide what is most important, communicate early if there is a risk, and still deliver good work.",
+        "vi": "Nhà tuyển dụng biết áp lực là một phần của công việc. Hãy cho thấy bạn sắp xếp nhiệm vụ, xác định việc quan trọng nhất, báo sớm khi có rủi ro và vẫn hoàn thành tốt."
+      }
+    },
+    {
+      "id": "q29",
+      "question": {
+        "text": "Why do interviewers ask you to describe a failure?",
+        "audioId": "",
+        "vi": "Vì sao người phỏng vấn yêu cầu bạn kể về một lần thất bại?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "To collect embarrassing stories that they can share with other candidates later",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "To see if you take responsibility and learn from mistakes instead of hiding them",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "To prove that you are not good enough to work at their company",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Because they enjoy hearing sad stories during a long working day",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Everyone fails sometimes. The question tests honesty, accountability and the ability to learn, which are valuable qualities in any team.",
+        "vi": "Ai cũng có lúc thất bại. Câu hỏi này kiểm tra sự trung thực, tinh thần chịu trách nhiệm và khả năng học hỏi, đều là phẩm chất quý trong bất kỳ đội nhóm nào."
+      }
+    },
+    {
+      "id": "q30",
+      "question": {
+        "text": "What is the best way to talk about a past failure?",
+        "audioId": "",
+        "vi": "Cách tốt nhất để nói về một thất bại trong quá khứ là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Describe a real mistake, accept your part in it and explain what you changed",
+          "audioId": "",
+          "variants": [
+            "Describe a real mistake, own it and explain what you changed"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Choose a failure that was totally caused by other people and blame them",
+          "audioId": "",
+          "variants": [
+            "Choose a failure caused by others and blame them"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Pick a very serious failure that makes the company worry about hiring you",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Laugh about it and say that the mistake was not important at all",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Pick a genuine but not disastrous failure, take responsibility without excuses, and spend most of the answer on the lesson and how you now work differently.",
+        "vi": "Hãy chọn một thất bại có thật nhưng không quá nghiêm trọng, nhận trách nhiệm mà không biện minh, và dành phần lớn câu trả lời cho bài học và cách bạn làm việc khác đi."
+      }
+    },
+    {
+      "id": "q31",
+      "question": {
+        "text": "Why is it a bad idea to say that you have never failed at anything?",
+        "audioId": "",
+        "vi": "Vì sao nói rằng mình chưa từng thất bại là một ý tồi?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because the interviewer will then ask you to fail on purpose right there",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because it is impossible to pronounce that sentence clearly in English",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Because every company has a strict rule to hire only failed people",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It sounds unrealistic and suggests you either lack self-awareness or avoid taking risks",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Nobody succeeds all the time. Claiming you never fail makes you seem dishonest, unaware of your mistakes, or someone who never tries anything challenging.",
+        "vi": "Không ai thành công mọi lúc. Nói rằng mình chưa từng thất bại khiến bạn có vẻ thiếu trung thực, không nhận ra lỗi của mình, hoặc chưa bao giờ thử điều gì thử thách."
+      }
+    },
+    {
+      "id": "q32",
+      "question": {
+        "text": "Why should you avoid speaking badly about your former boss in an interview?",
+        "audioId": "",
+        "vi": "Vì sao nên tránh nói xấu sếp cũ trong buổi phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because your former boss is probably listening behind the door of the room",
+          "audioId": "",
+          "variants": [
+            "Because your old boss may be listening outside"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Because interviewers are always close friends with every other manager in town",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It makes you seem negative and the interviewer may fear you will criticise them too",
+          "audioId": "",
+          "variants": [
+            "It sounds negative and they fear you will criticise them too"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Because talking about bosses is not allowed by the labour law",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Even if your old boss was difficult, complaining sounds unprofessional. The interviewer imagines you speaking about their company the same way later.",
+        "vi": "Dù sếp cũ có khó tính thật, việc than phiền nghe thiếu chuyên nghiệp. Người phỏng vấn sẽ hình dung sau này bạn cũng nói về công ty họ như vậy."
+      }
+    },
+    {
+      "id": "q33",
+      "question": {
+        "text": "If you really had a difficult manager, how can you mention it professionally?",
+        "audioId": "",
+        "vi": "Nếu thật sự từng gặp sếp khó tính, bạn có thể nhắc đến một cách chuyên nghiệp ra sao?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Share every unkind thing the manager said, so the interviewer feels sorry",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Give the full name of the manager and ask the interviewer to warn others",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Show messages on your phone that prove how terrible the manager was",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Describe the different working style briefly and focus on what it taught you",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Use neutral words such as \"our working styles were different\", then explain what you learned, for example to communicate expectations clearly. Keep it short and move on.",
+        "vi": "Dùng từ trung tính như \"phong cách làm việc của chúng tôi khác nhau\", rồi nói bạn học được gì, chẳng hạn cách thống nhất kỳ vọng rõ ràng. Nói ngắn gọn rồi chuyển sang ý khác."
+      }
+    },
+    {
+      "id": "q34",
+      "question": {
+        "text": "Why is a rambling answer a problem in an interview?",
+        "audioId": "",
+        "vi": "Vì sao trả lời lan man, vòng vo là vấn đề trong buổi phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because the interviewer is paid by the minute and wants to save money",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "The main point gets lost and the interviewer may think you cannot communicate clearly",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Because long answers are always considered rude in every culture of the world",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Because rambling is a sign that you have practised your answers too much",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "When you talk around the topic, the listener stops following and your key message disappears. Clear, focused answers show the communication skills most employers want.",
+        "vi": "Khi bạn nói vòng vo, người nghe sẽ không theo kịp và ý chính bị lạc mất. Câu trả lời rõ ràng, tập trung cho thấy kỹ năng giao tiếp mà hầu hết nhà tuyển dụng mong muốn."
+      }
+    },
+    {
+      "id": "q35",
+      "question": {
+        "text": "What can help you avoid talking for too long?",
+        "audioId": "",
+        "vi": "Điều gì giúp bạn tránh nói quá dài?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Make your main point first, give one example, then stop and check with them",
+          "audioId": "",
+          "variants": [
+            "Main point first, one example, then stop and check"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Speak much faster so that you can say more words in the same time",
+          "audioId": "",
+          "variants": [
+            "Speak faster to say more words"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Keep talking until the interviewer interrupts you, however long that takes",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Memorise very long answers word for word and recite them without pausing",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Start with a one-sentence answer, support it with one example, then finish. You can ask, \"Would you like more detail?\" so the interviewer decides whether to go deeper.",
+        "vi": "Hãy nói ý chính trong một câu trước, minh hoạ bằng một ví dụ rồi dừng. Bạn có thể hỏi \"Anh chị có muốn tôi nói chi tiết hơn không?\" để người phỏng vấn quyết định có đi sâu không."
+      }
+    },
+    {
+      "id": "q36",
+      "question": {
+        "text": "Why is lying in an interview a serious risk?",
+        "audioId": "",
+        "vi": "Vì sao nói dối khi phỏng vấn là một rủi ro nghiêm trọng?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Because interviewers carry a special machine that beeps whenever someone lies",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because lying is only a problem if you forget to smile while doing it",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Facts can be checked through references and tests, and trust is lost immediately",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Because honest candidates are always paid much less than dishonest candidates",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Employers can verify your history through reference checks, certificates and skills tests. If a lie is discovered, even after you are hired, you can lose the job and your reputation.",
+        "vi": "Nhà tuyển dụng có thể xác minh quá khứ của bạn qua người tham chiếu, bằng cấp và bài kiểm tra kỹ năng. Nếu lời nói dối bị phát hiện, kể cả sau khi đã được tuyển, bạn có thể mất việc và uy tín."
+      }
+    },
+    {
+      "id": "q37",
+      "question": {
+        "text": "What is the danger of exaggerating a skill you do not really have?",
+        "audioId": "",
+        "vi": "Phóng đại một kỹ năng bạn không thật sự có sẽ nguy hiểm thế nào?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "You will automatically receive a higher job title and a bigger office",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "You may be hired for tasks you cannot do and struggle badly at work",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "There is no danger, because nobody ever checks skills after the interview",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "The interviewer will feel jealous and refuse to continue the conversation",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "If you claim advanced Excel or fluent English and cannot use it, the problem appears in your first weeks. It is better to say honestly what level you are at and how you are improving.",
+        "vi": "Nếu bạn nhận mình giỏi Excel hay tiếng Anh lưu loát mà thực tế không làm được, vấn đề sẽ lộ ra ngay những tuần đầu. Tốt hơn là nói thật trình độ hiện tại và cách bạn đang cải thiện."
+      }
+    },
+    {
+      "id": "q38",
+      "question": {
+        "text": "Why are real examples better than general claims about yourself?",
+        "audioId": "",
+        "vi": "Vì sao ví dụ có thật tốt hơn những lời tự nhận chung chung về bản thân?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "General claims are banned in interviews, so examples are the only option",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Stories with real details are believable and easy for the interviewer to remember",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Real examples let you avoid answering the actual question that was asked",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Interviewers only score answers that contain the names of famous companies",
+          "audioId": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": {
+        "en": "Anyone can say \"I am hard-working\". A short true story with specific details proves it and helps the interviewer remember you after meeting many candidates.",
+        "vi": "Ai cũng có thể nói \"Tôi chăm chỉ\". Một câu chuyện có thật với chi tiết cụ thể sẽ chứng minh điều đó và giúp người phỏng vấn nhớ bạn sau khi gặp nhiều ứng viên."
+      }
+    },
+    {
+      "id": "q39",
+      "question": {
+        "text": "Why is it useful to prepare a small bank of stories before the interview?",
+        "audioId": "",
+        "vi": "Vì sao nên chuẩn bị sẵn vài câu chuyện trước buổi phỏng vấn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "So you can tell all of them at once in your first answer",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Because the interviewer will ask you to write them down on paper",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "One good story can be adapted to answer several different questions about your skills",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "So you never need to listen to the questions the interviewer asks",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Prepare five to eight strong stories about challenges, teamwork, leadership, mistakes and successes. A single story about a difficult project might answer questions on pressure, problem-solving and teamwork.",
+        "vi": "Hãy chuẩn bị khoảng năm đến tám câu chuyện tốt về thử thách, làm việc nhóm, lãnh đạo, sai lầm và thành công. Một câu chuyện về dự án khó có thể dùng cho câu hỏi về áp lực, giải quyết vấn đề và làm việc nhóm."
+      }
+    },
+    {
+      "id": "q40",
+      "question": {
+        "text": "What is the best way to practise your answers before the interview?",
+        "audioId": "",
+        "vi": "Cách tốt nhất để luyện tập câu trả lời trước buổi phỏng vấn là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Read your answers silently once and hope they come back to you later",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Write every answer word for word and recite it exactly like a robot",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Avoid practising, because natural answers only come when you feel nervous",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Practise key points out loud, but do not memorise every word like a script",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Speaking out loud, alone or with a friend, makes your answers smoother. Remember the key points and stories, not exact sentences, so you sound natural and can adapt to how the question is asked.",
+        "vi": "Luyện nói thành tiếng, một mình hay với bạn bè, giúp câu trả lời trôi chảy hơn. Hãy nhớ ý chính và câu chuyện, không học thuộc từng câu, để bạn nói tự nhiên và linh hoạt theo cách câu hỏi được đặt ra."
+      }
+    },
+    {
+      "id": "q41",
+      "question": {
+        "text": "What does it mean to be honest but positive in your answers?",
+        "audioId": "",
+        "vi": "Trả lời trung thực nhưng tích cực nghĩa là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Tell the truth while focusing on solutions, learning and what you can offer",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Hide every problem from your past and talk only about perfect successes",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Share all your complaints openly because honesty is more important than anything",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Smile all the time and agree with everything the interviewer says to you",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "You do not need to hide difficulties, but you can choose how you frame them. Describe problems briefly and spend more time on what you did, what you learned and how it helps you in this role.",
+        "vi": "Bạn không cần che giấu khó khăn, nhưng có thể chọn cách trình bày. Hãy nói ngắn về vấn đề và dành nhiều thời gian hơn cho việc bạn đã làm, bài học rút ra và cách nó giúp bạn ở vị trí này."
+      }
+    },
+    {
+      "id": "q42",
+      "question": {
+        "text": "What should you do if you do not know the answer to a technical question?",
+        "audioId": "",
+        "vi": "Bạn nên làm gì nếu không biết câu trả lời cho một câu hỏi chuyên môn?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Invent a confident answer quickly and hope that nobody notices the mistake",
+          "audioId": "",
+          "variants": [
+            "Invent a confident answer and hope nobody notices"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "Stay completely silent until the interviewer moves to another question",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Admit it honestly and explain how you would find the answer or solve it",
+          "audioId": "",
+          "variants": [
+            "Admit it and explain how you would find the answer"
+          ]
+        },
+        {
+          "key": "D",
+          "text": "Tell the interviewer that the question is unfair and should be removed",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Interviewers respect honesty. Say what you do know, admit what you are not sure about, and describe how you would find out, for example by checking documentation or asking an expert.",
+        "vi": "Người phỏng vấn tôn trọng sự trung thực. Hãy nói phần bạn biết, thừa nhận phần chưa chắc, và mô tả cách bạn sẽ tìm ra câu trả lời, ví dụ tra tài liệu hoặc hỏi chuyên gia."
+      }
+    },
+    {
+      "id": "q43",
+      "question": {
+        "text": "Is it acceptable to ask for a moment to think before answering?",
+        "audioId": "",
+        "vi": "Xin một chút thời gian suy nghĩ trước khi trả lời có được không?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "No, any silence at all means you will fail the interview immediately",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Only if you leave the room and come back about one hour later",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Yes, and you should ask for a long break before every single question",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Yes, a short pause to organise your thoughts is normal and looks thoughtful",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Saying \"That is a good question, let me think for a moment\" is completely professional. A few seconds of thinking usually leads to a clearer answer than rushing.",
+        "vi": "Nói \"Câu hỏi hay, cho tôi suy nghĩ một chút\" là hoàn toàn chuyên nghiệp. Vài giây suy nghĩ thường giúp câu trả lời rõ ràng hơn là vội vàng."
+      }
+    },
+    {
+      "id": "q44",
+      "question": {
+        "text": "What should you do if you do not fully understand a question?",
+        "audioId": "",
+        "vi": "Bạn nên làm gì nếu chưa hiểu rõ câu hỏi?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Answer a completely different question that you prepared much better at home",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Nod your head and pretend that you understood every word perfectly",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Politely ask the interviewer to repeat or explain what they mean",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask the interviewer to answer their own question first as an example",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Asking for clarification, such as \"Do you mean in my current job or in general?\", is better than giving a wrong answer. It shows that you listen carefully.",
+        "vi": "Hỏi lại cho rõ, như \"Ý anh chị là trong công việc hiện tại hay nói chung?\", tốt hơn là trả lời sai ý. Điều đó cho thấy bạn lắng nghe cẩn thận."
+      }
+    },
+    {
+      "id": "q45",
+      "question": {
+        "text": "What can you say if you have no work experience for a behavioural question?",
+        "audioId": "",
+        "vi": "Nếu chưa có kinh nghiệm đi làm, bạn có thể nói gì khi gặp câu hỏi hành vi?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say the question does not apply to you and wait for the next one",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Invent a story about a big company where you never actually worked",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Talk about a famous film character and describe what they did instead",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Use a real example from your studies, volunteering or a part-time job",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "Skills like teamwork, deadlines and problem-solving can be shown in university projects, clubs, volunteer work or part-time jobs. A real example from any area is better than none, and far better than a made-up one.",
+        "vi": "Các kỹ năng như làm việc nhóm, đúng hạn và giải quyết vấn đề có thể thể hiện qua đồ án đại học, câu lạc bộ, hoạt động tình nguyện hay việc làm thêm. Một ví dụ thật từ bất kỳ lĩnh vực nào cũng tốt hơn không có, và tốt hơn nhiều so với ví dụ bịa đặt."
+      }
+    },
+    {
+      "id": "q46",
+      "question": {
+        "text": "What should you say when the interviewer asks whether you have any questions?",
+        "audioId": "",
+        "vi": "Bạn nên nói gì khi người phỏng vấn hỏi bạn có câu hỏi nào không?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Say no, thank you, because you already know everything you need to",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Ask whether you can leave early because you have another appointment",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Ask one or two thoughtful questions you prepared about the role or team",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Ask the interviewer how old they are and whether they are married",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "Saying \"No questions\" can look like low interest. Prepare a few questions in advance so you still have some left even if the interviewer already answered others.",
+        "vi": "Trả lời \"Không có câu hỏi\" có thể bị coi là thiếu quan tâm. Hãy chuẩn bị sẵn vài câu hỏi để vẫn còn câu để hỏi dù người phỏng vấn đã trả lời một số câu trong buổi."
+      }
+    },
+    {
+      "id": "q47",
+      "question": {
+        "text": "Which question to the interviewer helps you understand what success looks like?",
+        "audioId": "",
+        "vi": "Câu hỏi nào dành cho người phỏng vấn giúp bạn hiểu thế nào là làm tốt công việc?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "What would you expect the new person to achieve in the first few months",
+          "audioId": "",
+          "variants": [
+            "What should the new person achieve in the first months"
+          ]
+        },
+        {
+          "key": "B",
+          "text": "How quickly can I get promoted to your position after I join",
+          "audioId": "",
+          "variants": [
+            "How soon can I get promoted to your job"
+          ]
+        },
+        {
+          "key": "C",
+          "text": "Can I work from home every day starting from my very first week",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Do people here usually leave the office early on Friday afternoons",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Asking about early expectations shows you are already thinking about doing the job well. The answer also tells you the real priorities of the role.",
+        "vi": "Hỏi về kỳ vọng trong những tháng đầu cho thấy bạn đã nghĩ đến việc làm tốt công việc. Câu trả lời cũng cho bạn biết ưu tiên thật sự của vị trí."
+      }
+    },
+    {
+      "id": "q48",
+      "question": {
+        "text": "Why is it useful to ask about the next steps in the hiring process?",
+        "audioId": "",
+        "vi": "Vì sao nên hỏi về các bước tiếp theo trong quy trình tuyển dụng?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "It forces the company to give you the job before you leave today",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "It lets you skip all the remaining interview rounds and tests completely",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "It is a polite way of asking for the answers to the next test",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "It shows interest and tells you when and how you will hear back",
+          "audioId": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": {
+        "en": "A question like \"What are the next steps?\" is a professional way to end. You learn the timeline, so you know when it is reasonable to follow up.",
+        "vi": "Câu hỏi như \"Các bước tiếp theo là gì?\" là cách kết thúc chuyên nghiệp. Bạn biết được tiến trình để biết khi nào nên liên hệ lại cho phù hợp."
+      }
+    },
+    {
+      "id": "q49",
+      "question": {
+        "text": "What can asking about the way the team works together tell you?",
+        "audioId": "",
+        "vi": "Hỏi về cách cả nhóm phối hợp làm việc giúp bạn biết được điều gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The exact amount of money each person on the team earns every month",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "Which team member is most likely to be fired before the end of the year",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "Whether the team culture and communication style suit the way you like to work",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "Nothing important, because every team in the world works in exactly the same way",
+          "audioId": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": {
+        "en": "An interview is two-way. Asking how the team communicates, shares work and makes decisions helps you judge whether you would be comfortable and effective there.",
+        "vi": "Phỏng vấn là cuộc trao đổi hai chiều. Hỏi cách nhóm giao tiếp, phân chia công việc và ra quyết định giúp bạn đánh giá mình có thoải mái và làm việc hiệu quả ở đó không."
+      }
+    },
+    {
+      "id": "q50",
+      "question": {
+        "text": "What is the overall goal when answering common interview questions?",
+        "audioId": "",
+        "vi": "Mục tiêu chung khi trả lời các câu hỏi phỏng vấn phổ biến là gì?"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": "To give honest, clear and relevant answers that prove you can do the job well",
+          "audioId": ""
+        },
+        {
+          "key": "B",
+          "text": "To impress the interviewer with as many difficult words as you possibly can",
+          "audioId": ""
+        },
+        {
+          "key": "C",
+          "text": "To finish the interview as quickly as possible and go home early",
+          "audioId": ""
+        },
+        {
+          "key": "D",
+          "text": "To repeat exactly what other candidates say so that you look normal",
+          "audioId": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": {
+        "en": "Every common question is really asking the same thing: can you do the job, will you fit in, and do you really want it. Honest, structured answers with real examples answer all three.",
+        "vi": "Mọi câu hỏi phổ biến thực chất đều hỏi cùng một điều: bạn có làm được việc không, có hoà hợp không, và có thật sự muốn công việc này không. Câu trả lời trung thực, có cấu trúc và ví dụ thật sẽ trả lời cả ba."
+      }
+    }
+  ]
+}
