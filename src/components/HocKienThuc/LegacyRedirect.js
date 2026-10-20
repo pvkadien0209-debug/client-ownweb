@@ -3,6 +3,8 @@
 //   /articles/<chuỗi>               → /for/<người-nghe của chuỗi>
 //   /articles/<chuỗi>/<bài>         → /for/<người-nghe>/<bài>   (bảng chuyển trong units/index.json → legacy)
 //   /knowledge/<nhánh>/<chủ-đề>/<bài-học>/…  → /knowledge/<nhánh>/<chủ-đề> (trang chủ đề với chuỗi bài mới)
+//   KG-Q1 (#112): /knowledge/<nhánh cũ>/<chủ-đề> → /knowledge/<nhánh mới>/<chủ-đề> khi chủ đề đã chuyển nhánh
+//     (ví dụ science/solar-system, travel-vietnam/world-heritage, food-health/vietnamese-food → explore-world/…) — movedTopicPath, dùng ở TopicPage.
 // File dữ liệu cũ (jsonData/knowledge/**/lesson-N.json, jsonData/articles/**) và code cũ vẫn còn trên máy, chỉ không còn đường vào.
 import React, { useEffect, useState } from "react";
 import { Navigate, useParams } from "react-router-dom";
@@ -29,6 +31,13 @@ export function ArticlesRedirect() {
       </main>
     );
   return <Navigate to={to} replace />;
+}
+
+/** Chủ đề không có ở nhánh `branch` nhưng có ở nhánh khác (đã chuyển nhánh) → đường dẫn mới; không thấy → null. */
+export async function movedTopicPath(branch, topic) {
+  const idx = await loadUnitsIndex();
+  const b = idx.branches.find((x) => x.slug !== branch && x.topics.some((t) => t.slug === topic));
+  return b ? `/knowledge/${b.slug}/${topic}` : null;
 }
 
 export function OldLessonRedirect() {

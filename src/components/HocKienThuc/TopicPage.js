@@ -1,12 +1,14 @@
 // SP02 · P1 — Trang chủ đề: chuỗi bài. /knowledge/:branch/:topic
 // SP08 · U3: chủ đề có bài theo người nghe (bài viết + 40 câu) → hiện chuỗi bài mới; bài học 50 câu cũ chỉ còn một đường dẫn nhỏ.
 import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { loadTopic, lessonPath, readProgress } from "./knowledgeData";
 import { useLang, LangToggle, Bi } from "./Bilingual";
 import { findUnitTopic, loadUnitsIndex } from "./unitData";
 import TopicCourse from "./TopicCourse";
+import { movedTopicPath } from "./LegacyRedirect";
+import VongDet, { SIGN, VongDetLoading } from "./VongDet";
 import "./KnowledgeLesson.css"; // token màu, chữ, nút dùng chung
 import "./KnowledgePages.css";
 
@@ -17,19 +19,28 @@ export default function TopicPage() {
   const [lang, setLang] = useLang();
   const [unitTopic, setUnitTopic] = useState(undefined); // undefined = đang tải, null = chưa có bài mới
   const [persona, setPersona] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     setData(null);
     setError(false);
     setUnitTopic(undefined);
-    loadTopic(branch, topic).then(setData).catch(() => setError(true));
+    // #120: chỉ tải topic.json kiểu cũ khi chủ đề KHÔNG có trong cây bài mới (units). Chủ đề mới không có tệp này;
+    // gọi thừa làm dev server chuyển yêu cầu sang server :5000 → "Proxy error … ECONNREFUSED" khi server tắt.
+    const legacy = () => loadTopic(branch, topic).then(setData).catch(() => setError(true));
     findUnitTopic(branch, topic)
-      .then((t) => {
+      .then(async (t) => {
+        if (!t) {
+          legacy();
+          // KG-Q1 (#112): đường dẫn cũ của chủ đề đã chuyển nhánh → chuyển sang nhánh mới
+          const to = await movedTopicPath(branch, topic).catch(() => null);
+          if (to) return navigate(to + window.location.hash, { replace: true });
+        }
         setUnitTopic(t);
         if (t) loadUnitsIndex().then((i) => setPersona(i.audiences.find((a) => a.slug === t.audience)?.persona || null));
       })
-      .catch(() => setUnitTopic(null));
-  }, [branch, topic]);
+      .catch(() => { setUnitTopic(null); legacy(); });
+  }, [branch, topic]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // SP09 (#063, Đ4): chủ đề có bài theo người nghe → trang kiểu trang khoá học
   if (unitTopic) return <TopicCourse topic={unitTopic} persona={persona} />;
@@ -38,6 +49,7 @@ export default function TopicPage() {
     return (
       <main className="hkt-page">
         <div className="hkt-wrap">
+          <VongDet sweep={SIGN} track={false} size={64} className="vd-missing" />
           <h1>Không tìm thấy chủ đề này</h1>
           <p>
             <Link to="/knowledge">Xem tất cả chủ đề</Link>
@@ -49,7 +61,9 @@ export default function TopicPage() {
     return (
       <main className="hkt-page">
         <div className="hkt-wrap">
-          <p className="hkt-message-inline">Đang tải…</p>
+          <p className="hkt-message-inline">
+            <VongDetLoading />
+          </p>
         </div>
       </main>
     );

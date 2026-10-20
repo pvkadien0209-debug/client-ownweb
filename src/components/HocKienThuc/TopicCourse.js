@@ -1,12 +1,14 @@
 // SP09 (#063, Đ4) — Trang chủ đề kiểu trang khoá học (tham khảo F8):
-// tên to · mô tả · "Chuỗi này viết cho …" · "Bạn sẽ biết cách" (10 dòng ✓) · "Nội dung chuỗi" mở/gập 10 bài × 5 phần (✓ đã xong)
+// tên to · mô tả · "Chuỗi này viết cho …" · "Bạn sẽ biết cách" (mỗi bài một dòng ✓) · "Nội dung chuỗi" mở/gập N bài × 5 phần (số bài lấy từ dữ liệu, #078) (✓ đã xong)
 // · thẻ dính bên phải với nút Bắt đầu học / Học tiếp bài N · điện thoại: nút dính dưới.
+// #079: chọn bài và theo dõi tiến độ ngay ở đây — mỗi bài có nút vào học (Bắt đầu / Học tiếp / Ôn lại) + 5 chấm tiến độ;
+// dòng "Bạn sẽ biết cách" bấm được để vào bài.
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Check, ChevronDown, Layers, Clock, BookOpen, Mic, Users, Table2, MousePointerClick, ListChecks } from "lucide-react";
 import KtShell, { TopicThumb } from "./KtShell";
-import { loadUnitsIndex, unitPath, audiencePath, readUnitProgress, partDone, unitDoneCount, PARTS } from "./unitData";
+import { loadUnitsIndex, unitPath, audiencePath, readUnitProgress, partDone, unitDoneCount, PARTS, learnTypePath, lowerFirst } from "./unitData";
 
 export const PART_ICONS = { "": BookOpen, info: Table2, quiz: MousePointerClick, "listen-speak": Mic, "true-or-false": ListChecks };
 export const partMeta = (key, u) => ({ "": `${u.readMin || 6} phút đọc`, info: "40 câu", quiz: "40 câu", "listen-speak": "40 câu", "true-or-false": "80 câu" }[key]);
@@ -26,6 +28,7 @@ export default function TopicCourse({ topic, persona, active = "topics" }) {
   useEffect(() => {
     loadUnitsIndex().then(setIdx).catch(() => {});
   }, []);
+  const door = (idx?.learnTypes || []).find((x) => x.slug === topic.learnType); // #080
   const minutes = units.reduce((n, u) => n + (u.readMin || 6) + 30, 0);
   const label = (k) => (units[k].kind === "tong" ? "Bài tổng" : `Bài ${k}`);
   const ctaText = started ? `Học tiếp ${label(nuNo).toLowerCase()}` : "Bắt đầu học";
@@ -49,10 +52,24 @@ export default function TopicCourse({ topic, persona, active = "topics" }) {
           <nav className="kt-crumbs" aria-label="Vị trí">
             <Link to="/">Trang chủ</Link>
             <span aria-hidden="true">/</span>
-            <Link to={`/knowledge#${topic.branch}`}>{topic.branchTitle.vi}</Link>
+            {door && (
+              <>
+                <Link to={learnTypePath(door)}>{door.title.vi}</Link>
+                <span aria-hidden="true">/</span>
+              </>
+            )}
+            <Link to={door ? `${learnTypePath(door)}#${topic.branch}` : `/knowledge#${topic.branch}`}>{topic.branchTitle.vi}</Link>
           </nav>
           <h1>{topic.title.vi}</h1>
-          <p className="kt-lead">{topic.intro}</p>
+          <p className="kt-lead">
+            {topic.promise ? (
+              <>
+                <b>Sau chuỗi này, bạn sẽ:</b> {topic.promise.charAt(0).toLowerCase() + topic.promise.slice(1)}
+              </>
+            ) : (
+              topic.intro
+            )}
+          </p>
           <div className="kt-meta">
             <span>
               <Layers size={15} aria-hidden="true" />
@@ -68,7 +85,7 @@ export default function TopicCourse({ topic, persona, active = "topics" }) {
             <Users size={22} aria-hidden="true" />
             <div>
               <b>
-                Chuỗi này viết cho <Link to={audiencePath(topic.audience)}>{topic.audienceTitle.toLowerCase()}</Link>
+                Chuỗi này viết cho <Link to={audiencePath(topic.audience)}>{lowerFirst(topic.audienceTitle)}</Link>
               </b>
               {persona && <p>{persona}</p>}
             </div>
@@ -79,7 +96,7 @@ export default function TopicCourse({ topic, persona, active = "topics" }) {
             {units.map((u) => (
               <li key={u.slug}>
                 <Check size={20} aria-hidden="true" />
-                <span>{u.title.replace(/\?$/, "")}</span>
+                <Link to={unitPath(u.audience, u.slug)}>{u.title.replace(/\?$/, "")}</Link>
               </li>
             ))}
           </ul>
@@ -97,19 +114,30 @@ export default function TopicCourse({ topic, persona, active = "topics" }) {
             const p = readUnitProgress(u.audience, u.slug);
             const n = unitDoneCount(p);
             const isOpen = open.has(k);
+            const isNext = started && k === nuNo && n < 5;
+            const go = n === 5 ? "Ôn lại" : n > 0 || p ? "Học tiếp" : "Bắt đầu";
             return (
-              <div key={u.slug} className={`kt-unit ${isOpen ? "is-open" : ""}`}>
-                <button type="button" onClick={() => toggle(k)} aria-expanded={isOpen}>
-                  <span className={`kt-n ${n === 5 ? "is-done" : ""}`}>{n === 5 ? <Check size={16} aria-hidden="true" /> : u.kind === "tong" ? "T" : k}</span>
-                  <span className="tt">
-                    {u.title}
-                    <small>
-                      {label(k)} · {n}/5 phần đã xong
-                    </small>
-                  </span>
-                  <span className="cnt">5 phần</span>
-                  <ChevronDown size={18} className="kt-chev" aria-hidden="true" />
-                </button>
+              <div key={u.slug} className={`kt-unit ${isOpen ? "is-open" : ""} ${isNext ? "is-next" : ""}`}>
+                <div className="kt-urow">
+                  <button type="button" onClick={() => toggle(k)} aria-expanded={isOpen}>
+                    <span className={`kt-n ${n === 5 ? "is-done" : ""}`}>{n === 5 ? <Check size={16} aria-hidden="true" /> : u.kind === "tong" ? "T" : k}</span>
+                    <span className="tt">
+                      {u.title}
+                      <small>
+                        <span className="kt-dots" aria-hidden="true">
+                          {PARTS.map((pt) => (
+                            <i key={pt.key} className={partDone(p, pt.key) ? "is-done" : ""} />
+                          ))}
+                        </span>
+                        {label(k)} · {n}/5 phần đã xong{isNext ? " · học tiếp ở đây" : ""}
+                      </small>
+                    </span>
+                    <ChevronDown size={18} className="kt-chev" aria-hidden="true" />
+                  </button>
+                  <Link className={`kt-ugo ${isNext || (!started && k === 0) ? "is-pri" : ""}`} to={unitPath(u.audience, u.slug)} aria-label={`${go} ${label(k).toLowerCase()}: ${u.title}`}>
+                    {go}
+                  </Link>
+                </div>
                 {isOpen && (
                   <ol className="kt-parts">
                     {PARTS.map((pt) => {
@@ -142,7 +170,7 @@ export default function TopicCourse({ topic, persona, active = "topics" }) {
             <ul>
               <li>
                 <Layers size={18} aria-hidden="true" />
-                {units.length} bài, bài tổng mở đầu
+                {units.length} bài{units[0]?.kind === "tong" ? ", bài tổng mở đầu" : ""}
               </li>
               <li>
                 <BookOpen size={18} aria-hidden="true" />

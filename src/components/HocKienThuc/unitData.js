@@ -75,6 +75,17 @@ export const PARTS = [
   { key: "true-or-false", label: "True or false", short: "True/False" },
 ];
 export const audiencePath = (audience) => `/for/${audience}`;
+/** Viết thường chữ đầu, giữ hoa tên riêng ("Việt", "Anh") — thay toLowerCase() cả câu (#086). */
+export const lowerFirst = (s = "") => s.charAt(0).toLowerCase() + s.slice(1);
+// #080 (PL-Q1…Q4): hai cửa "Học kỹ năng" / "Học kiến thức" (+ "Học chuyên môn" khi có chuỗi) — /learn/<path>
+export const learnTypePath = (lt) => `/learn/${lt.path}`;
+/** Các cửa đang có chủ đề (cửa trống, ví dụ chuyên môn chưa có chuỗi, không hiện). */
+export const openLearnTypes = (idx) => (idx?.learnTypes || []).filter((x) => x.topics > 0);
+/** Nhánh → chủ đề, chỉ giữ chủ đề thuộc cửa `lt` (nhánh không còn chủ đề thì bỏ). */
+export const branchesOf = (idx, lt) =>
+  idx.branches
+    .map((b) => ({ ...b, topics: b.topics.filter((t) => !lt || t.learnType === lt) }))
+    .filter((b) => b.topics.length);
 export const unitPath = (audience, slug, part) => `/for/${audience}/${slug}${part ? `/${part}` : ""}`;
 
 // ---------- Tiến độ một bài (SP08 §5) ----------
@@ -239,6 +250,57 @@ export function paraKind(text) {
   if (text.startsWith("→ Rút ra")) return "takeaway";
   if (text.startsWith("☐")) return "check";
   return "";
+}
+
+// ---------- KC-Q7 (#112, luật KC-05): "Nhân vật trong bài là minh hoạ." ở cuối bài viết có nhân vật ----------
+// Cách nhận ra (đơn giản, chạy trên trình duyệt, không cần thêm dữ liệu): một đoạn khung 📌 🔀 🧪 ⚖️ có tên người Việt
+// (danh sách GIVEN_NAMES) ở một trong ba chỗ: sau từ xưng hô ("chị Vân", "Anh Sơn"); đầu câu, chữ sau viết thường
+// ("Hà học kế toán…"); giữa câu, chữ trước viết thường hoặc dấu phẩy ("…, Hà gửi"). Loại: chữ sau viết hoa ("Hoa Kỳ"),
+// chữ trước viết hoa ("Thái Bình"), sau từ chỉ nơi chốn/ngày ("miền Nam", "thứ Năm"), từ ghép ("Sang tuần", "Nhân viên").
+// Khung 🗣️ Trải nghiệm thật không xét (chuyện thật có nguồn). Kiểm trên 287 bài (#112): 246 bài có nhân vật.
+const STORY_ICONS = ["📌 ", "🔀 ", "🧪 ", "⚖️ "];
+export const GIVEN_NAMES = new Set(
+  ("An Ân Ánh Đông Hiển Liên Mỹ Thục Bảo Bích Bình Cẩm Châu Cường Diễm Diệp Duy Duyên Dũng Đạt Định Đoan Đức Giang Giao Hà Hải Hảo Hằng Hạnh Hậu " +
+    "Hiền Hiếu Hoa Hoà Hồng Huyền Hùng Hưng Hương Kha Khải Khang Khánh Khoa Khôi Khuê Kiên Kiệt Kiều Lan Lành Lâm Linh Loan " +
+    "Long Lộc Lợi Lụa Lực Ly Mai Mẫn Minh My Na Nam Nga Ngân Nghĩa Ngọc Nguyệt Nhàn Nhân Nhi Nhung Như Ninh Oanh Phát Phong " +
+    "Phúc Phương Phượng Quang Quân Quế Quý Quyên Sang Sơn Tài Tâm Thanh Thành Thảo Thắng Thịnh Thiện Thoa Thơ Thu Thuý Thúy " +
+    "Thuỷ Thuỳ Thư Tiên Tiến Tín Toàn Trâm Trang Trí Trinh Triều Trung Tú Tuấn Tuệ Tùng Tường Uyên Vân Vinh Vũ Vy Xuân Yên Yến").split(" ")
+);
+const HONORIFIC = new Set("anh chị cô chú bác em ông bà bạn".split(" "));
+const NOT_PERSON_BEFORE = new Set("miền phía phương tiếng thứ vua sông núi chùa đền chợ đường phố quận tỉnh cầu hồ biển đảo vịnh làng người nước gia".split(" "));
+// Từ ghép hay gặp ở đầu câu, trùng chữ đầu với tên người ("Sang tuần", "Nhân viên", "Toàn bộ"…)
+const NOT_NAME_PAIR = new Set(
+  ("sang tuần|sang tháng|sang năm|sang ngày|sang hôm|nhân viên|nhân dịp|toàn bộ|phương án|phương pháp|tài xế|tài khoản|tài liệu|bảo hành|bảo hiểm|bảo vệ|" +
+    "lợi ích|lợi nhuận|giao việc|giao hàng|thư mời|thư xin|nghĩa là|định kỳ|an toàn|thanh toán|tâm lý|thu nhập|tiến độ|trung bình|tín dụng|" +
+    "thành công|như vậy|như thế|hoà bình|mai sau|kiên nhẫn|phát hiện|hải sản|lực lượng|my parents|my name|nhân với|nam bán|nam mỹ|liên đoàn|liên hệ|liên tục|mỹ phẩm|đông người|đông khách").split("|")
+);
+const isCap = (w) => !!w && w[0] !== w[0].toLowerCase();
+const word = (t) => t.replace(/^[^\p{L}]+|[^\p{L}]+$/gu, "");
+/** Tên nhân vật minh hoạ đầu tiên tìm thấy trong một đoạn khung (hoặc null). */
+export function storyName(text) {
+  if (!STORY_ICONS.some((ic) => text.startsWith(ic))) return null;
+  const toks = text.replace(/<[^>]+>/g, " ").split(/\s+/);
+  for (let i = 1; i < toks.length; i++) {
+    const raw = toks[i];
+    const w = word(raw);
+    if (!GIVEN_NAMES.has(w) || !raw.startsWith(w)) continue; // tên đứng sau dấu ngoặc kép → lời thoại, bỏ
+    const prevRaw = toks[i - 1];
+    const prev = word(prevRaw);
+    const next = word(toks[i + 1] || "");
+    if (/\p{L}$/u.test(raw) && isCap(next)) continue; // "Hoa Kỳ", "Minh Mạng"
+    if (NOT_NAME_PAIR.has(`${w} ${next}`.toLowerCase())) continue; // "Sang tuần", "Nhân viên"
+    if (HONORIFIC.has(prev.toLowerCase()) && /\p{L}$/u.test(prevRaw)) return w; // "chị Vân", "Anh Sơn"
+    if (/[:.!?…)]$/.test(prevRaw)) {
+      if (next && /\p{L}$/u.test(raw)) return w; // đầu câu, ngay sau là chữ thường: "Hà học kế toán…"
+      continue;
+    }
+    if (/[\p{Ll},]$/u.test(prevRaw) && !isCap(prev) && !NOT_PERSON_BEFORE.has(prev)) return w; // giữa câu: "…, Hà gửi"
+  }
+  return null;
+}
+/** Bài có nhân vật minh hoạ không (xét các đoạn bài viết). */
+export function hasIllustrativeCharacters(unit) {
+  return !!unit?.article?.body?.some((s) => s.paragraphs.some((p) => storyName(p.text)));
 }
 
 // ---------- SP09 (#063): giao diện mới ----------

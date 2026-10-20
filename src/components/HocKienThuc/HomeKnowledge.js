@@ -6,8 +6,10 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Layers, Clock } from "lucide-react";
 import KtShell, { TopicThumb } from "./KtShell";
+import { VongDetLoading } from "./VongDet";
 import {
   loadUnitsIndex, readLastUnit, readUnitProgress, unitPath, audiencePath, PARTS, unitDoneCount, seriesProgress,
+  learnTypePath, openLearnTypes, branchesOf,
 } from "./unitData";
 
 const nf = (n) => n.toLocaleString("vi-VN");
@@ -117,6 +119,18 @@ export default function HomeKnowledge() {
       </section>
 
       {idx && (
+        <div className="kt-doors">
+          {openLearnTypes(idx).map((x) => (
+            <Link key={x.slug} to={learnTypePath(x)} className={`kt-door kt-door--${x.slug}`}>
+              <b>{x.title.vi}</b>
+              <span>{x.intro}</span>
+              <small>{x.topics} chủ đề →</small>
+            </Link>
+          ))}
+        </div>
+      )}
+
+      {idx && (
         <>
           <div className="kt-row-head">
             <h2>Bạn đang ở hoàn cảnh nào?</h2>
@@ -133,25 +147,40 @@ export default function HomeKnowledge() {
               ))}
           </div>
 
-          {idx.branches.map((b) => {
-            const list = topics.filter((t) => t.branch === b.slug);
-            return (
-              <section key={b.slug}>
-                <div className="kt-row-head">
-                  <h2>{b.title.vi}</h2>
-                  {list.length > 4 && <Link to={`/knowledge#${b.slug}`}>Xem tất cả {list.length} chủ đề</Link>}
-                </div>
-                <div className="kt-tiles">
-                  {list.slice(0, 4).map((t) => (
-                    <TopicCard key={t.slug} idx={idx} topic={t} />
-                  ))}
-                </div>
-              </section>
-            );
-          })}
+          {/* #080: hai cửa vào — Học kỹ năng / Học kiến thức (+ Học chuyên môn khi có chuỗi) */}
+          {openLearnTypes(idx).map((x) => (
+            <div key={x.slug} className="kt-door-group">
+              <div className="kt-door-head">
+                <h2>{x.title.vi}</h2>
+                <p>{x.intro}</p>
+                <Link to={learnTypePath(x)}>Xem cả {x.topics} chủ đề</Link>
+              </div>
+              {branchesOf(idx, x.slug).map((b) => {
+                const list = b.topics.map((t) => ({ ...t, branch: b.slug, branchTitle: b.title }));
+                return (
+                  <section key={b.slug}>
+                    <div className="kt-row-head">
+                      <h3>{b.title.vi}</h3>
+                      {list.length > 4 && <Link to={`${learnTypePath(x)}#${b.slug}`}>Xem tất cả {list.length} chủ đề</Link>}
+                    </div>
+                    {b.intro && <p className="kt-branch-intro">{b.intro}</p>}
+                    <div className="kt-tiles">
+                      {list.slice(0, 4).map((t) => (
+                        <TopicCard key={t.slug} idx={idx} topic={t} />
+                      ))}
+                    </div>
+                  </section>
+                );
+              })}
+            </div>
+          ))}
         </>
       )}
-      {!idx && <p className="kt-muted">Đang tải…</p>}
+      {!idx && (
+        <p className="kt-muted">
+          <VongDetLoading />
+        </p>
+      )}
 
       <section className="kt-legacy">
         <p>

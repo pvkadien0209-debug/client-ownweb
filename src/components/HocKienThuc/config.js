@@ -21,3 +21,11 @@ export const MIC_WATCHDOG_MS = 4000;
 // (không phải đổi chế độ mỗi lần bấm mic). Để null = không đặt (mặc định trình duyệt).
 // Lưu ý: khi bật, một số iPhone phát tiếng nhỏ hơn / qua loa trong — cần thử thật rồi mới quyết.
 export const IOS_AUDIO_SESSION = null; // ví dụ: "play-and-record"
+
+// #116 — Video bài học trên Google Drive: render xong, chép NGUYÊN TÊN tệp (<slug>--w01.mp4) vào thư mục DetProMedia
+// (chia sẻ "Bất kỳ ai có đường liên kết"). Web tự tìm tệp theo tên qua Google Drive API — không phải ghi đường dẫn từng tệp.
+// apiKey: khoá API Google Cloud (bật "Google Drive API", giới hạn theo trang web). Để "" = tắt, chỉ dùng videos/dp/index.json.
+export const DRIVE_VIDEO = {
+  folderId: "1fC5sc5PhkKZka66tfjZL98sCzdyN_vLA",
+  apiKey: "AIzaSyBVQ9oJMl9CPVLaFP__YQfVwZCngEBO1cI",
+};

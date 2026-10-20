@@ -5,9 +5,10 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Home, LayoutGrid, PlayCircle, Users, BarChart3, Search, Check } from "lucide-react";
-import { loadUnitsIndex, readLastUnit, unitPath, audiencePath, topicColor } from "./unitData";
+import { loadUnitsIndex, readLastUnit, unitPath, audiencePath, topicColor, lowerFirst } from "./unitData";
 import "./kt.css";
 import TopicArt, { TOPIC_ART } from "./topicArt";
+import { VongDetLoading } from "./VongDet";
 
 export const NAV = [
   { key: "home", to: "/", label: "Trang chủ", Icon: Home },
@@ -81,7 +82,11 @@ function SearchBox() {
       />
       {open && q.trim() && (
         <ul className="kt-search-res" role="listbox">
-          {!idx && <li className="kt-muted">Đang tải…</li>}
+          {!idx && (
+            <li className="kt-muted">
+              <VongDetLoading size={18} />
+            </li>
+          )}
           {idx && !results.length && <li className="kt-muted">Không thấy kết quả cho “{q}”. Thử từ khác, ví dụ: phỏng vấn, du lịch.</li>}
           {results.map((r, i) => (
             <li key={i}>
@@ -144,7 +149,7 @@ export function TopicThumb({ idx, topic, branchTitle, small, className = "" }) {
       {branchTitle && <span className="kt-thumb-cat">{branchTitle}</span>}
       {TOPIC_ART[topic.slug] ? <TopicArt slug={topic.slug} /> : <span className="kt-thumb-q" aria-hidden="true">?</span>}
       <span className="kt-thumb-t">{topic.title?.vi || topic.title}</span>
-      {!small && topic.audienceTitle && <span className="kt-thumb-who">Dành cho {topic.audienceTitle.toLowerCase()}</span>}
+      {!small && topic.audienceTitle && <span className="kt-thumb-who">Dành cho {lowerFirst(topic.audienceTitle)}</span>}
     </div>
   );
 }

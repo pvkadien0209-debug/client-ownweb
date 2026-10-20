@@ -3,13 +3,14 @@
 // Kế hoạch: DetPro/san-pham/sp08-bai-hoc-theo-nguoi-nghe.md §3–§4, §8.
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { Volume2, Square, Mic, Keyboard, Check, X, ClipboardList, ArrowRight, ArrowLeft, RotateCcw, Headphones, Send, Grid3x3, Shuffle } from "lucide-react";
+import { Volume2, Square, Mic, Keyboard, Check, X, ClipboardList, ArrowRight, ArrowLeft, RotateCcw, Headphones, Send, Grid3x3, Shuffle, Languages } from "lucide-react";
 import { KT_STORAGE } from "./config";
 import useStoredState from "./useStoredState";
 import useSpeechInput, { speechSupported } from "./useSpeechInput";
 import { playText, stopAudio } from "./audioPlayer";
 import { matchAnswer } from "./matcher";
-import { shownOptions, shuffle, newQaRun, reshuffleQaRest, qaTotal, paraKind, frameOf } from "./unitData";
+import { shownOptions, shuffle, newQaRun, reshuffleQaRest, qaTotal, paraKind, frameOf, hasIllustrativeCharacters } from "./unitData";
+import VongDet from "./VongDet";
 
 const html = (s) => ({ __html: s });
 
@@ -80,6 +81,40 @@ export function Modal({ open, onClose, title, children, wide }) {
         <div className="hkt-u-sheet-body">{children}</div>
       </div>
     </div>
+  );
+}
+
+/**
+ * #083: câu tiếng Việt trong phần luyện không hiện sẵn — bấm "Tiếng Việt" (hoặc phím V) mới hiện.
+ * Mỗi câu mới lại ẩn (đặt key theo câu ở chỗ dùng). Bảng thông tin, Giải thích, mục Đáp án vẫn hiện đủ.
+ */
+export function ViHint({ text, className = "hkt-u-qvi" }) {
+  const [open, setOpen] = useState(false);
+  useEffect(() => {
+    const onKey = (e) => {
+      if (e.key !== "v" && e.key !== "V") return;
+      const t = e.target;
+      if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable)) return;
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
+      setOpen((v) => !v);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
+  if (!text) return null;
+  return open ? (
+    <p className={`${className} kt-vi is-open`}>
+      {text}{" "}
+      <button type="button" className="kt-vibtn is-on" onClick={() => setOpen(false)} aria-pressed="true" title="Ẩn tiếng Việt (V)">
+        Ẩn
+      </button>
+    </p>
+  ) : (
+    <p className={`${className} kt-vi`}>
+      <button type="button" className="kt-vibtn" onClick={() => setOpen(true)} aria-pressed="false" title="Hiện câu tiếng Việt (V)">
+        <Languages size={14} aria-hidden="true" /> Tiếng Việt
+      </button>
+    </p>
   );
 }
 
@@ -164,6 +199,8 @@ export function ArticleView({ unit, para, onStart, started, prev, next, question
       <section>
         <h2>Kết luận</h2>
         <p dangerouslySetInnerHTML={html(a.outro)} />
+        {/* KC-Q7 (#112): bài có nhân vật minh hoạ → một dòng chữ nhỏ cuối bài viết */}
+        {hasIllustrativeCharacters(unit) && <p className="hkt-u-illus">Nhân vật trong bài là minh hoạ.</p>}
       </section>
       {/* U3-Q1 (#061): mục Đáp án và giải thích chi tiết — 40 câu, mỗi câu gập/mở (B-Q13: cũng là "Câu hỏi thường gặp" cho Google) */}
       <section className="hkt-u-faq" id="dap-an">
@@ -355,6 +392,8 @@ export function PickPart({ unit, prog, update, player, openExplain, refButton, o
     <div className="kt-drill">
       <div className="kt-dhead">
         <div className="hkt-u-pills">
+          {/* NV-Q7 (#112): Vòng Đét lấp theo số câu đã làm đúng, đủ 40 câu thì khép */}
+          <VongDet value={okCount / qs.length} size={30} label={`${okCount}/${qs.length} câu đã làm đúng`} />
           <button type="button" className="hkt-u-pill kt-dpillbtn" onClick={() => setGridOpen(true)} title="Chọn câu">
             <Grid3x3 size={14} aria-hidden="true" /> Câu {i + 1}/{qs.length}
           </button>
@@ -389,7 +428,7 @@ export function PickPart({ unit, prog, update, player, openExplain, refButton, o
           <span className="no">{i + 1}</span>
           <div>
             <b lang="en">{q.q}</b>
-            <span className="vi">{q.vi}</span>
+            <ViHint key={`pk-vi-${i}`} text={q.vi} className="vi" />
           </div>
           <Listen player={player} id={`pk-q-${i}`} text={q.q} className="hkt-u-ico" title="Nghe câu hỏi (Q)" />
         </div>
@@ -431,7 +470,7 @@ export function PickPart({ unit, prog, update, player, openExplain, refButton, o
         ) : (
           <Status fb={badHere ? { tone: "bad", text: "Chưa đúng — chọn lại." } : null} />
         )}
-        <KeyHint>Phím tắt: 1 2 3 chọn đáp án · Q nghe câu hỏi · Enter câu tiếp · ← → đổi câu</KeyHint>
+        <KeyHint>Phím tắt: 1 2 3 chọn đáp án · Q nghe câu hỏi · V tiếng Việt · Enter câu tiếp · ← → đổi câu</KeyHint>
       </div>
       <Modal open={gridOpen} onClose={() => setGridOpen(false)} title="Chọn câu">
         <div className="kt-dgrid">
@@ -701,6 +740,7 @@ export function SayPart({ unit, prog, update, player, openExplain, refButton, on
     <div className="kt-drill">
       <div className="kt-dhead">
         <div className="hkt-u-pills">
+          <VongDet value={okCount / qs.length} size={30} label={`${okCount}/${qs.length} câu đã nói đúng`} />
           <Pill>Câu {at + 1}/{qs.length}</Pill>
           <Pill tone="ok">Đúng {okCount}</Pill>
           <Pill tone="bad">Sai {say.wrong}</Pill>
@@ -736,7 +776,7 @@ export function SayPart({ unit, prog, update, player, openExplain, refButton, on
         {solved ? (
           <div className="hkt-u-reveal">
             <p className="hkt-u-qen" lang="en">{q.q}</p>
-            <p className="hkt-u-qvi">{q.vi}</p>
+            <ViHint key={`sy-vi-${i}`} text={q.vi} />
           </div>
         ) : (
           <p className="kt-dnote">
@@ -788,7 +828,7 @@ export function SayPart({ unit, prog, update, player, openExplain, refButton, on
             <AnswerBox onSubmit={onSubmit} placeholder="Gõ đáp án đúng…" hint="Nghe 3 đáp án rồi nói lại đáp án đúng." compact />
           </>
         )}
-        <KeyHint>Phím tắt: Q nghe câu hỏi · 1 2 3 nghe đáp án · Enter câu tiếp · ← → đổi câu</KeyHint>
+        <KeyHint>Phím tắt: Q nghe câu hỏi · 1 2 3 nghe đáp án · V tiếng Việt (khi đã đúng) · Enter câu tiếp · ← → đổi câu</KeyHint>
       </div>
     </div>
   );
@@ -898,7 +938,7 @@ export function TrueFalsePart({ unit, prog, update, player, openExplain, refButt
         {doneHere ? (
           <div className="hkt-u-reveal">
             <p className="hkt-u-qen" lang="en">{q.q}</p>
-            <p className="hkt-u-qvi">{q.vi}</p>
+            <ViHint key={`tf-vi-${pos}`} text={q.vi} />
             <blockquote className="hkt-u-cand" lang="en">{cand}</blockquote>
           </div>
         ) : (
@@ -936,7 +976,7 @@ export function TrueFalsePart({ unit, prog, update, player, openExplain, refButt
             <AnswerBox onSubmit={onSubmit} placeholder="Gõ true hoặc false…" hint="Bấm nút, hoặc nói “true” / “false”." compact />
           </>
         )}
-        <KeyHint>Phím tắt: Q nghe câu hỏi · A nghe câu trả lời · T true · F false · Enter tiếp</KeyHint>
+        <KeyHint>Phím tắt: Q nghe câu hỏi · A nghe câu trả lời · T true · F false · V tiếng Việt (khi đã chọn) · Enter tiếp</KeyHint>
       </div>
     </div>
   );

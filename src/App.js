@@ -152,6 +152,8 @@ const App = () => {
               <Route path="/lsapp" element={<LessonApp />} />
               {/* Học kiến thức (DetPro, code test): SP02 trang chủ đề/bài + SP01 làm bài */}
               <Route path="/knowledge" element={<KnowledgeHome />} />
+              {/* #080: hai cửa vào Học kỹ năng / Học kiến thức (+ Học chuyên môn) */}
+              <Route path="/learn/:type" element={<KnowledgeHome />} />
               <Route path="/articles" element={<ArticlesRedirect />} />
               <Route path="/articles/:series" element={<ArticlesRedirect />} />
               <Route path="/articles/:series/:slug" element={<ArticlesRedirect />} />
