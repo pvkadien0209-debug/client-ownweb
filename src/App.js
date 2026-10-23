@@ -37,6 +37,7 @@ import AudiencePage, { AudiencesHome } from "./components/HocKienThuc/AudiencePa
 import MyPage from "./components/HocKienThuc/MyPage"; // SP09 — Của tôi
 import VideosPage from "./components/HocKienThuc/VideosPage"; // #163 — tất cả video tóm tắt
 import VideoWatchPage from "./components/HocKienThuc/VideoWatchPage"; // #171 — trang xem một video
+import PostToolPage, { PostToolHome } from "./components/HocKienThuc/PostToolPage"; // #175 — công cụ đăng bài Facebook / Zalo
 // import JointPharmaWebsite from "./components/A1_JMC";
 const LinkAPI =
   window.location.hostname === "localhost"
@@ -167,6 +168,8 @@ const App = () => {
               <Route path="/me" element={<MyPage />} />
               <Route path="/videos" element={<VideosPage />} />
               <Route path="/videos/:slug" element={<VideoWatchPage />} />
+              <Route path="/dang-bai" element={<PostToolHome />} />
+              <Route path="/dang-bai/:audience/:slug" element={<PostToolPage />} />
               <Route path="/for/:audience" element={<AudiencePage />} />
               <Route path="/for/:audience/:slug" element={<UnitPage />} />
               <Route path="/for/:audience/:slug/:part" element={<UnitPage />} />

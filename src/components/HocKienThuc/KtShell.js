@@ -4,7 +4,7 @@
 // Khi vỏ đang hiện, thanh menu cũ của app (A1_Header) được ẩn (body.kt-shell).
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { Home, LayoutGrid, PlayCircle, Users, BarChart3, Search, Clapperboard } from "lucide-react";
+import { Home, LayoutGrid, PlayCircle, Users, BarChart3, Search, Clapperboard, Megaphone } from "lucide-react";
 import { loadUnitsIndex, readLastUnit, unitPath, audiencePath, topicColor, lowerFirst } from "./unitData";
 import "./kt.css";
 import TopicArt, { TOPIC_ART } from "./topicArt";
@@ -17,6 +17,7 @@ export const NAV = [
   { key: "for", to: "/for", label: "Hoàn cảnh", Icon: Users },
   { key: "videos", to: "/videos", label: "Video", Icon: Clapperboard }, // #163
   { key: "me", to: "/me", label: "Của tôi", Icon: BarChart3 },
+  { key: "post", to: "/dang-bai", label: "Đăng bài", Icon: Megaphone }, // #178: mục thanh trái (điện thoại: biểu tượng ở thanh trên)
 ];
 
 /** Đường dẫn của nút "Học tiếp": bài đang học gần nhất, chưa học thì trang Chủ đề. */
@@ -121,6 +122,11 @@ export default function KtShell({ active, children }) {
           </span>
         </Link>
         <SearchBox />
+        {/* #177/#178: trên máy tính "Đăng bài" nằm ở thanh trái; nút này chỉ hiện trên điện thoại (thanh dưới đã đủ 6 mục) */}
+        <Link className={`kt-post ${active === "post" ? "is-on" : ""}`} to="/dang-bai" title="Đăng bài Facebook / Zalo">
+          <Megaphone size={18} aria-hidden="true" />
+          <span>Đăng bài</span>
+        </Link>
         <Link className="kt-go" to={cont}>
           <b aria-hidden="true" />
           Học tiếp
@@ -136,7 +142,7 @@ export default function KtShell({ active, children }) {
       </nav>
       <main className="kt-page">{children}</main>
       <nav className="kt-tabbar" aria-label="Chính">
-        {NAV.map(({ key, label, Icon, ...n }) => (
+        {NAV.filter((n) => n.key !== "post").map(({ key, label, Icon, ...n }) => (
           <Link key={key} to={href({ key, ...n })} className={active === key ? "is-on" : ""} aria-current={active === key ? "page" : undefined}>
             <Icon size={22} aria-hidden="true" />
             {label}
