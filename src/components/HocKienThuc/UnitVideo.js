@@ -16,6 +16,9 @@ export const loadManifest = () => // #163: dùng chung cho trang Video
 
 // #116: danh sách tệp trong thư mục Drive (tên → mã tệp), tải một lần.
 let driveList = null;
+// #171: thông tin thêm của từng tệp (tên → { dur: độ dài ms của video, t: ngày sửa }) cho trang Video
+const driveInfo = {};
+export const getDriveInfo = () => driveInfo;
 // #165: thư mục DetProMedia có thể chia thư mục con (video / img / audio …) → đọc cả thư mục con (sâu tối đa 2 cấp).
 //   Tên tệp vẫn phải là duy nhất: <slug>--w01.mp4, <slug>--w01.jpg …; trùng tên thì lấy tệp sửa gần nhất.
 const FOLDER = "application/vnd.google-apps.folder";
@@ -27,12 +30,15 @@ export const loadDriveList = () => {
   if (!folderId || !apiKey) return (driveList = Promise.resolve({}));
   const listIn = (parent, token, acc, sub) => {
     const q = encodeURIComponent(`'${parent}' in parents and trashed = false`);
-    return fetch(`https://www.googleapis.com/drive/v3/files?q=${q}&fields=nextPageToken,files(id,name,mimeType)&orderBy=modifiedTime desc&pageSize=1000&key=${apiKey}${token ? `&pageToken=${token}` : ""}`)
+    return fetch(`https://www.googleapis.com/drive/v3/files?q=${q}&fields=nextPageToken,files(id,name,mimeType,modifiedTime,videoMediaMetadata(durationMillis))&orderBy=modifiedTime desc&pageSize=1000&key=${apiKey}${token ? `&pageToken=${token}` : ""}`)
       .then((r) => (r.ok ? r.json() : {}))
       .then((d) => {
         for (const f of d.files || []) {
           if (f.mimeType === FOLDER) SKIP_DIR.test(f.name) || sub.push(f.id);
-          else if (!acc[f.name]) acc[f.name] = f.id;
+          else if (!acc[f.name]) {
+            acc[f.name] = f.id;
+            driveInfo[f.name] = { dur: Number(f.videoMediaMetadata?.durationMillis) || 0, t: f.modifiedTime || "" };
+          }
         }
         return d.nextPageToken ? listIn(parent, d.nextPageToken, acc, sub) : sub;
       });
