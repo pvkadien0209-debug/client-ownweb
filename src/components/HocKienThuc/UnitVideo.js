@@ -14,21 +14,34 @@ export const loadManifest = () => // #163: dùng chung cho trang Video
     .then((r) => (r.ok ? r.json() : {}))
     .catch(() => ({})));
 
-// #116: danh sách tệp trong thư mục Drive (tên → mã tệp), tải một lần. Trùng tên thì lấy tệp sửa gần nhất.
+// #116: danh sách tệp trong thư mục Drive (tên → mã tệp), tải một lần.
 let driveList = null;
+// #165: thư mục DetProMedia có thể chia thư mục con (video / img / audio …) → đọc cả thư mục con (sâu tối đa 2 cấp).
+//   Tên tệp vẫn phải là duy nhất: <slug>--w01.mp4, <slug>--w01.jpg …; trùng tên thì lấy tệp sửa gần nhất.
+const FOLDER = "application/vnd.google-apps.folder";
+// Thư mục âm thanh có hàng chục nghìn mp3, web chưa dùng → bỏ qua để trang mở nhanh.
+const SKIP_DIR = /^(audio|am[ -]?thanh|âm thanh)$/i;
 export const loadDriveList = () => {
   if (driveList) return driveList;
   const { folderId, apiKey } = DRIVE_VIDEO;
   if (!folderId || !apiKey) return (driveList = Promise.resolve({}));
-  const q = encodeURIComponent(`'${folderId}' in parents and trashed = false`);
-  const page = (token, acc) =>
-    fetch(`https://www.googleapis.com/drive/v3/files?q=${q}&fields=nextPageToken,files(id,name)&orderBy=modifiedTime desc&pageSize=1000&key=${apiKey}${token ? `&pageToken=${token}` : ""}`)
+  const listIn = (parent, token, acc, sub) => {
+    const q = encodeURIComponent(`'${parent}' in parents and trashed = false`);
+    return fetch(`https://www.googleapis.com/drive/v3/files?q=${q}&fields=nextPageToken,files(id,name,mimeType)&orderBy=modifiedTime desc&pageSize=1000&key=${apiKey}${token ? `&pageToken=${token}` : ""}`)
       .then((r) => (r.ok ? r.json() : {}))
       .then((d) => {
-        for (const f of d.files || []) if (!acc[f.name]) acc[f.name] = f.id;
-        return d.nextPageToken ? page(d.nextPageToken, acc) : acc;
+        for (const f of d.files || []) {
+          if (f.mimeType === FOLDER) SKIP_DIR.test(f.name) || sub.push(f.id);
+          else if (!acc[f.name]) acc[f.name] = f.id;
+        }
+        return d.nextPageToken ? listIn(parent, d.nextPageToken, acc, sub) : sub;
       });
-  return (driveList = page(null, {}).catch(() => ({})));
+  };
+  const walk = (parents, depth, acc) =>
+    Promise.all(parents.map((p) => listIn(p, null, acc, []).catch(() => [])))
+      .then((subs) => subs.flat())
+      .then((next) => (next.length && depth < 2 ? walk(next, depth + 1, acc) : acc));
+  return (driveList = walk([folderId], 0, {}).catch(() => ({})));
 };
 
 /** Lấy mã tệp Drive từ mã trần hoặc đường dẫn /file/d/<mã>/… hoặc ?id=<mã>. */
@@ -52,7 +65,7 @@ export default function UnitVideo({ audience, slug, title }) {
       if (!live) return;
       const row = m[`${audience}/${slug}`] || {};
       const id = row.drive || list[`${slug}--w01.mp4`];
-      setV(id || row.file ? { ...row, drive: id || null } : null);
+      setV(id || row.file ? { ...row, drive: id || null, cover: list[`${slug}--w01.jpg`] || null } : null); // #164: ảnh bìa
     });
     return () => {
       live = false;
@@ -67,7 +80,7 @@ export default function UnitVideo({ audience, slug, title }) {
   const drive = driveId(v.drive);
   if (!drive && !v.file) return null;
   const src = drive ? `https://drive.google.com/file/d/${drive}/preview` : `${base()}/${v.file}`;
-  const poster = v.poster ? `${base()}/${v.poster}` : drive ? `https://drive.google.com/thumbnail?id=${drive}&sz=w1280` : undefined;
+  const poster = v.poster ? `${base()}/${v.poster}` : v.cover || drive ? `https://drive.google.com/thumbnail?id=${v.cover || drive}&sz=w1280` : undefined;
   return (
     <figure className="kt-uvideo">
       {open && drive ? (

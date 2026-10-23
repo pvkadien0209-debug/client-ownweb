@@ -15,7 +15,7 @@ const fold = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-
 function VideoCard({ v, idx }) {
   const [open, setOpen] = useState(false);
   const [noThumb, setNoThumb] = useState(false);
-  const thumb = v.drive ? `https://drive.google.com/thumbnail?id=${v.drive}&sz=w640` : null;
+  const thumb = v.cover || v.drive ? `https://drive.google.com/thumbnail?id=${v.cover || v.drive}&sz=w640` : null; // #164: ưu tiên ảnh bìa
   const title = v.u?.title || v.slug;
   return (
     <article className="kt-vcard">
@@ -81,12 +81,13 @@ export default function VideosPage() {
       const out = {};
       Object.entries(drive || {}).forEach(([name, id]) => {
         const m = name.match(/^(.+)--w01\.mp4$/);
-        if (m && !out[m[1]]) out[m[1]] = { slug: m[1], drive: id, ...(where[m[1]] || {}) };
+        // #164: ảnh bìa <slug>--w01.jpg (render-poster-CSK004) cùng thư mục Drive → làm ảnh đại diện
+        if (m && !out[m[1]]) out[m[1]] = { slug: m[1], drive: id, cover: drive[`${m[1]}--w01.jpg`], ...(where[m[1]] || {}) };
       });
       Object.entries(man || {}).forEach(([k, row]) => {
         const id = driveId(row?.drive);
         const slug = k.split("/").pop();
-        if (id && !out[slug]) out[slug] = { slug, drive: id, ...(where[k] || where[slug] || {}) };
+        if (id && !out[slug]) out[slug] = { slug, drive: id, cover: drive?.[`${slug}--w01.jpg`], ...(where[k] || where[slug] || {}) };
       });
       setList(Object.values(out).sort((a, b) => (a.order ?? 1e9) - (b.order ?? 1e9) || a.slug.localeCompare(b.slug)));
     });
