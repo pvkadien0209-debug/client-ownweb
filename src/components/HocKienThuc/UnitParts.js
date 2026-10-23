@@ -3,12 +3,13 @@
 // Kế hoạch: DetPro/san-pham/sp08-bai-hoc-theo-nguoi-nghe.md §3–§4, §8.
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { Volume2, Square, Mic, Keyboard, Check, X, ClipboardList, ArrowRight, ArrowLeft, RotateCcw, Headphones, Send, Grid3x3, Shuffle, Languages } from "lucide-react";
+import { Volume2, Square, Mic, Keyboard, Check, X, ClipboardList, ArrowRight, ArrowLeft, RotateCcw, Headphones, Send, Grid3x3, Shuffle, Languages, BarChart3, Eraser } from "lucide-react";
 import { KT_STORAGE } from "./config";
 import useStoredState from "./useStoredState";
 import useSpeechInput, { speechSupported } from "./useSpeechInput";
 import { playText, stopAudio } from "./audioPlayer";
-import { matchAnswer } from "./matcher";
+import { matchAnswer, scoreOption } from "./matcher";
+import { MATCH } from "./config";
 import { shownOptions, shuffle, newQaRun, reshuffleQaRest, qaTotal, paraKind, frameOf, hasIllustrativeCharacters } from "./unitData";
 import VongDet from "./VongDet";
 
@@ -328,7 +329,7 @@ export function PickPart({ unit, prog, update, player, openExplain, refButton, o
   const opts = shownOptions(q);
   const solved = !!pick.ok[i];
   const [gridOpen, setGridOpen] = useState(false);
-  const [hold, setHold] = useState(false); // đã bấm Giải thích → không tự sang câu
+  const [review, setReview] = useState(false); // #160: xong cả 40 câu → hiện báo cáo; bấm "Xem lại từng câu" mới về câu hỏi
   const stageRef = useStageTop(i);
   const go = (n) => update({ pick: { ...pick, pos: Math.max(0, Math.min(qs.length - 1, n)) } });
   const nextOpen = (from = i, ok = pick.ok) => {
@@ -340,42 +341,24 @@ export function PickPart({ unit, prog, update, player, openExplain, refButton, o
   };
   const n = nextOpen();
   useEffect(() => {
-    setHold(false);
     player.stop();
   }, [i]); // eslint-disable-line react-hooks/exhaustive-deps
-  // Đúng → tự sang câu chưa làm sau 1,5 giây
-  const [justOk, setJustOk] = useState(null);
-  useEffect(() => {
-    if (justOk === null || hold) return;
-    const t = setTimeout(() => {
-      if (justOk.next !== null) go(justOk.next);
-      setJustOk(null);
-    }, 1500);
-    return () => clearTimeout(t);
-  }, [justOk, hold]); // eslint-disable-line react-hooks/exhaustive-deps
-  useEffect(() => setJustOk(null), [i]);
+  // #160: đúng → KHÔNG tự sang câu; người học tự bấm "Câu tiếp" (hoặc Enter)
 
   const onPick = (k) => {
     const o = opts[k];
     if (solved) {
-      if (o.ok) {
-        setHold(true);
-        openExplain(i);
-      }
+      if (o.ok) openExplain(i);
       return;
     }
     if (o.ok) {
       const ok = { ...pick.ok, [i]: 1 };
       update({ pick: { ...pick, ok, pos: i } });
-      setJustOk({ next: nextOpen(i, ok) });
     } else if (!pick.bad[`${i}-${k}`]) {
       update({ pick: { ...pick, bad: { ...pick.bad, [`${i}-${k}`]: 1 }, wrong: pick.wrong + 1, pos: i } });
     }
   };
-  const explain = () => {
-    setHold(true);
-    openExplain(i);
-  };
+  const explain = () => openExplain(i);
   const keys = {
     1: () => onPick(0),
     2: () => onPick(1),
@@ -387,6 +370,28 @@ export function PickPart({ unit, prog, update, player, openExplain, refButton, o
   if (solved && n !== null) keys.Enter = () => go(n);
   useDrillKeys(keys, [i, solved, n, pick]);
   const badHere = opts.some((o, k) => pick.bad[`${i}-${k}`]);
+  const allDone = okCount === qs.length;
+  if (allDone && !review)
+    return (
+      <PartReport
+        kind="quiz" unit={unit} prog={prog} player={player} openExplain={openExplain}
+        onReview={() => setReview(true)}
+        onRetryWrong={() => {
+          const w = partStats("quiz", unit, prog).wrongList.map((x) => x.i);
+          const ok = { ...pick.ok };
+          const bad = { ...pick.bad };
+          w.forEach((k) => delete ok[k]);
+          Object.keys(bad).forEach((key) => w.includes(+key.split("-")[0]) && delete bad[key]);
+          setReview(true);
+          update({ pick: { ok, bad, wrong: 0, pos: w[0] ?? 0 } });
+        }}
+        onRestart={() => {
+          setReview(true);
+          update({ pick: { ok: {}, bad: {}, wrong: 0, pos: 0 } });
+        }}
+        onNextPart={onNextPart} nextLabel="Sang Nghe nói"
+      />
+    );
 
   return (
     <div className="kt-drill">
@@ -414,14 +419,12 @@ export function PickPart({ unit, prog, update, player, openExplain, refButton, o
         <span style={{ width: `${(okCount / qs.length) * 100}%` }} />
       </div>
       <div className="kt-dstage" ref={stageRef}>
-        {okCount === qs.length && (
+        {allDone && (
           <div className="hkt-u-done">
-            Xong cả 40 câu Trắc nghiệm, sai {pick.wrong} lần.{" "}
-            {onNextPart && (
-              <button type="button" className="hkt-btn hkt-btn--primary" onClick={onNextPart}>
-                Sang Nghe nói <ArrowRight size={16} aria-hidden="true" />
-              </button>
-            )}
+            Xong cả {qs.length} câu Trắc nghiệm.{" "}
+            <button type="button" className="hkt-btn hkt-btn--primary" onClick={() => setReview(false)}>
+              <BarChart3 size={16} aria-hidden="true" /> Xem báo cáo
+            </button>
           </div>
         )}
         <div className="kt-q kt-dq">
@@ -456,7 +459,7 @@ export function PickPart({ unit, prog, update, player, openExplain, refButton, o
         {solved ? (
           <div className="kt-drow is-ok">
             <span className="kt-dmsg">
-              <Check size={18} aria-hidden="true" /> {justOk && !hold ? "Đúng! Sang câu tiếp…" : "Đúng."}
+              <Check size={18} aria-hidden="true" /> Đúng.
             </span>
             <button type="button" className="hkt-btn" onClick={explain}>
               Giải thích
@@ -514,14 +517,30 @@ export function AnswerBox({ onSubmit, placeholder, disabled, hint, quick, compac
   const m = speechSupported ? mode : "type";
   const [typed, setTyped] = useState("");
   const [heard, setHeard] = useState(null); // U3-Q3 (#061): câu máy nghe được — chờ người học bấm "Gửi"
-  const sp = useSpeechInput((alts) => setHeard(alts));
+  const sendNowRef = useRef(false); // #156: bấm Gửi lúc đang nghe → dừng mic rồi gửi luôn
+  const sp = useSpeechInput((alts) => {
+    if (sendNowRef.current) {
+      sendNowRef.current = false;
+      onSubmit(alts, "speak");
+      return;
+    }
+    setHeard(alts);
+  });
   const inputRef = useRef(null);
   useEffect(() => {
     if (disabled) sp.abort();
     setHeard(null);
+    sendNowRef.current = false;
   }, [disabled]); // eslint-disable-line react-hooks/exhaustive-deps
   const send = () => {
-    if (!heard || disabled) return;
+    if (disabled) return;
+    if (sp.recording) {
+      if (!sp.text) return;
+      sendNowRef.current = true;
+      sp.stop();
+      return;
+    }
+    if (!heard) return;
     onSubmit(heard, "speak");
     setHeard(null);
   };
@@ -553,30 +572,53 @@ export function AnswerBox({ onSubmit, placeholder, disabled, hint, quick, compac
         </button>
       </div>
       {m === "speak" ? (
-        <div className="hkt-u-speak">
-          <button
-            type="button"
-            className={`hkt-mic ${sp.recording ? "is-recording" : ""}`}
-            disabled={disabled}
-            onClick={() => {
-              if (sp.recording) return sp.stop();
-              setHeard(null);
-              sp.start();
-            }}
-          >
-            <Mic size={20} aria-hidden="true" /> {sp.recording ? "Đang nghe… bấm để dừng" : heard ? "Nói lại" : "Bấm và nói"}
-          </button>
-          {sp.interim && <p className="hkt-u-interim" lang="en">“{sp.interim}”</p>}
-          {heard && !sp.recording && (
-            <div className="hkt-u-heard">
-              <p lang="en">
-                <span className="hkt-u-label-in">Máy nghe được:</span> “{heard[0]}”
-              </p>
-              <button type="button" className="hkt-btn hkt-btn--primary" onClick={send} disabled={disabled}>
-                <Send size={16} aria-hidden="true" /> Gửi
+        <div className="hkt-u-speak is-v2">
+          {/* #156: khung chữ nghe được là trọng tâm — to, rõ; nút nhỏ gọn bên dưới */}
+          <div className={`hkt-u-tx ${sp.recording ? "is-live" : ""} ${(sp.recording ? sp.text : heard) ? "has-text" : ""}`} aria-live="polite">
+            <span className="hkt-u-tx-label">
+              {sp.recording ? (
+                <>
+                  <span className="hkt-u-tx-dot" aria-hidden="true" /> Đang nghe — nói xong bấm Gửi
+                </>
+              ) : heard ? (
+                "Máy nghe được"
+              ) : (
+                "Câu bạn nói sẽ hiện ở đây"
+              )}
+            </span>
+            <p lang="en">{sp.recording ? sp.text || "…" : heard ? heard[0] : <span className="hkt-u-tx-ph">Bấm mic rồi nói câu trả lời bằng tiếng Anh</span>}</p>
+          </div>
+          <div className="hkt-u-tx-actions">
+            {sp.recording ? (
+              <button type="button" className="hkt-u-sbtn is-stop" onClick={() => sp.stop()} disabled={disabled}>
+                <Square size={14} aria-hidden="true" /> Dừng
               </button>
-            </div>
-          )}
+            ) : (
+              <button
+                type="button"
+                className="hkt-u-sbtn is-mic"
+                disabled={disabled}
+                onClick={() => {
+                  setHeard(null);
+                  sp.start();
+                }}
+              >
+                <Mic size={15} aria-hidden="true" /> {heard ? "Nói lại" : "Nói"}
+              </button>
+            )}
+            {/* #161: nút Xoá — xoá chữ đã nghe để nói lại (đang nghe thì vẫn nghe tiếp) */}
+            <button
+              type="button"
+              className="hkt-u-sbtn is-clear"
+              onClick={() => (sp.recording ? sp.clear() : setHeard(null))}
+              disabled={disabled || (sp.recording ? !sp.text : !heard)}
+            >
+              <Eraser size={14} aria-hidden="true" /> Xoá
+            </button>
+            <button type="button" className="hkt-u-sbtn is-send" onClick={send} disabled={disabled || (sp.recording ? !sp.text : !heard)}>
+              <Send size={14} aria-hidden="true" /> Gửi
+            </button>
+          </div>
           {sp.error && <p className="hkt-u-err">{sp.error}</p>}
           {hint && !compact && <p className="hkt-hint-sm">{hint}</p>}
         </div>
@@ -593,20 +635,34 @@ export function AnswerBox({ onSubmit, placeholder, disabled, hint, quick, compac
   );
 }
 
-/** U3-Q3 (#061): máy không hiểu câu trả lời → hỏi lại bằng tiếng. */
+/** U3-Q3 (#061): máy không hiểu câu trả lời → hỏi lại bằng tiếng. #161: anh giữ lại (#160 đã bỏ). */
 const askAgain = (player) => player.play(`again-${Date.now()}`, "Sorry, what did you say?");
 
 /** Chọn phương án nhận dạng khớp được (nếu có), rồi so khớp với 3 đáp án theo thứ tự hiện. */
-function matchAlts(alts, opts) {
+function matchAlts(alts, opts, cfg) {
   const options = opts.map((o, k) => ({ key: k, text: o.text }));
   let first = null;
   for (const a of alts) {
-    const r = matchAnswer(a, options);
+    const r = matchAnswer(a, options, cfg);
     if (!first) first = { ...r, said: a };
     if (r.status === "match") return { ...r, said: a };
   }
   return first;
 }
+
+// #162: Nghe nói — câu nói khớp ≥ 50% với một đáp án là nhận (bỏ điều kiện 70% số từ); dưới 50% → "máy chưa hiểu".
+const SAY_MATCH = { ...MATCH, sim: 0.5, wordMatch: 0 };
+/** Độ khớp (%) của câu nói với đáp án đúng — lấy phương án nhận dạng khớp nhất. */
+const pctTo = (alts, text) => Math.round(Math.max(0, ...alts.map((a) => scoreOption(a, { text }).sim)) * 100);
+/** Các mức độ khớp cho biểu đồ. */
+export const PCT_BINS = [
+  { label: "Dưới 50%", lo: 0, hi: 50, tone: "bad" },
+  { label: "50–60%", lo: 50, hi: 60, tone: "mid" },
+  { label: "60–70%", lo: 60, hi: 70, tone: "mid" },
+  { label: "70–80%", lo: 70, hi: 80, tone: "ok" },
+  { label: "80–90%", lo: 80, hi: 90, tone: "ok" },
+  { label: "90–100%", lo: 90, hi: 101, tone: "ok" },
+];
 
 // ---------- Khung luyện tập cố định (#067) ----------
 // Nghe nói và True or false: đầu khung (số câu, điểm) + vùng câu hỏi + "dock" thao tác luôn nằm ở đáy khung.
@@ -686,6 +742,7 @@ export function SayPart({ unit, prog, update, player, openExplain, refButton, on
   const at = order.indexOf(i);
   const opts = shownOptions(q);
   const [fb, setFb] = useState(null);
+  const [review, setReview] = useState(false); // #160
   const stageRef = useStageTop(i);
   useEffect(() => {
     setFb(null);
@@ -708,19 +765,24 @@ export function SayPart({ unit, prog, update, player, openExplain, refButton, on
     update({ say: { ...say, order: o, pos: first ?? o[0] } });
   };
 
-  const onSubmit = (alts) => {
+  const onSubmit = (alts, mode) => {
     if (solved) return;
-    const r = matchAlts(alts, opts);
+    const r = matchAlts(alts, opts, SAY_MATCH);
+    const said = { ...say.said, [i]: r.said }; // #160: câu máy nghe được — cho báo cáo cuối
+    // #162: mỗi lượt NÓI ghi độ khớp (%) với đáp án đúng → báo cáo phân theo mức
+    const p = pctTo(alts, opts.find((o) => o.ok).text);
+    const base = { ...say, said, ...(mode === "speak" ? { reads: [...(say.reads || []), { i, p }].slice(-600) } : {}) };
     if (r.status === "match" && opts[r.key].ok) {
-      update({ say: { ...say, ok: { ...say.ok, [i]: k1(r.key) } } });
+      update({ say: { ...base, ok: { ...say.ok, [i]: k1(r.key) } } });
       setFb(null);
     } else if (r.status === "match") {
-      update({ say: { ...say, wrong: say.wrong + 1 } });
-      setFb({ tone: "bad", text: `Bạn vừa nói đáp án ${r.key + 1} — chưa đúng. Nghe lại và thử tiếp.`, said: r.said });
+      update({ say: { ...base, wrong: say.wrong + 1, bad: { ...say.bad, [i]: (say.bad?.[i] || 0) + 1 } } });
+      setFb({ tone: "bad", text: `Bạn vừa nói đáp án ${r.key + 1} — chưa đúng (khớp đáp án đúng ${p}%). Nghe lại và thử tiếp.`, said: r.said });
     } else {
       // U3-Q3 (#061): máy không hiểu (không khớp / gần nhiều đáp án) → không tính Sai, hỏi lại
       askAgain(player);
-      setFb({ tone: "warn", text: "“What did you say?” — máy chưa hiểu, nói lại (hoặc gõ) đầy đủ hơn. Không tính Sai.", said: r.said });
+      update({ say: { ...base, unclear: (say.unclear || 0) + 1, miss: { ...say.miss, [i]: (say.miss?.[i] || 0) + 1 } } });
+      setFb({ tone: "warn", text: `“What did you say?” — khớp đáp án đúng ${p}% (cần từ 50%). Nói lại (hoặc gõ) đầy đủ hơn. Không tính Sai.`, said: r.said });
     }
   };
   const solvedKey = solved ? say.ok[i] - 1 : null;
@@ -735,6 +797,32 @@ export function SayPart({ unit, prog, update, player, openExplain, refButton, on
   };
   if (solved && n !== null) keys.Enter = () => go(n);
   useDrillKeys(keys, [i, solved, n, say]);
+  const allDone = okCount === qs.length;
+  if (allDone && !review)
+    return (
+      <PartReport
+        kind="say" unit={unit} prog={prog} player={player} openExplain={openExplain}
+        onReview={() => setReview(true)}
+        onRetryWrong={() => {
+          const w = partStats("say", unit, prog).wrongList.map((x) => x.i);
+          const ok = { ...say.ok };
+          const bad = { ...say.bad };
+          const miss = { ...say.miss };
+          w.forEach((k) => {
+            delete ok[k];
+            delete bad[k];
+            delete miss[k];
+          });
+          setReview(true);
+          update({ say: { ...say, ok, bad, miss, wrong: 0, unclear: 0, pos: w[0] ?? 0 } });
+        }}
+        onRestart={() => {
+          setReview(true);
+          update({ say: { pos: 0, ok: {}, wrong: 0, order: say.order } }); // làm lại: xoá cả lượt nói (reads)
+        }}
+        onNextPart={onNextPart} nextLabel="Sang True or false"
+      />
+    );
 
   return (
     <div className="kt-drill">
@@ -760,14 +848,12 @@ export function SayPart({ unit, prog, update, player, openExplain, refButton, on
         <span style={{ width: `${(okCount / qs.length) * 100}%` }} />
       </div>
       <div className="kt-dstage" ref={stageRef}>
-        {okCount === qs.length && (
+        {allDone && (
           <div className="hkt-u-done">
-            Xong cả 40 câu Nghe nói, sai {say.wrong} lần.{" "}
-            {onNextPart && (
-              <button type="button" className="hkt-btn hkt-btn--primary" onClick={onNextPart}>
-                Sang True or false <ArrowRight size={16} aria-hidden="true" />
-              </button>
-            )}
+            Xong cả {qs.length} câu Nghe nói.{" "}
+            <button type="button" className="hkt-btn hkt-btn--primary" onClick={() => setReview(false)}>
+              <BarChart3 size={16} aria-hidden="true" /> Xem báo cáo
+            </button>
           </div>
         )}
         <Listen player={player} id={`sy-q-${i}`} text={q.q} className="hkt-listen--lg">
@@ -858,11 +944,11 @@ export function TrueFalsePart({ unit, prog, update, player, openExplain, refButt
   const set = (patch) => update({ qa: { ...qa, ...patch } });
   const next = () => (pos + 1 >= qa.items.length ? set({ finished: true }) : set({ pos: pos + 1 }));
   const cand = live ? q.options[it.cand] : "";
-  const judge = (v) => {
+  const judge = (v, said) => {
     if (!live || doneHere) return;
     const right = v === it.truth;
     setFb(null);
-    set({ d2pt: qa.d2pt + (right ? 1 : -1), d2n: qa.d2n + 1, done: { ...qa.done, [pos]: { right, chose: v } } });
+    set({ d2pt: qa.d2pt + (right ? 1 : -1), d2n: qa.d2n + 1, done: { ...qa.done, [pos]: { right, chose: v, ...(said ? { said } : {}) } } });
   };
   const keys = live
     ? doneHere
@@ -875,26 +961,14 @@ export function TrueFalsePart({ unit, prog, update, player, openExplain, refButt
 
   if (qa.finished) {
     return (
-      <div className="kt-drill">
-        <div className="kt-dstage">
-          <h2 className="hkt-h2">Xong phần True or false</h2>
-          {results}
-          <p>
-            <button
-              type="button"
-              className="hkt-btn hkt-btn--primary"
-              onClick={() => update({ qa: { ...newQaRun(qs.length), runs: (qa.runs || 1) + 1 } })}
-            >
-              <RotateCcw size={16} aria-hidden="true" /> Làm lại (trộn mới)
-            </button>{" "}
-            {onNextPart && (
-              <button type="button" className="hkt-btn" onClick={onNextPart}>
-                Sang bài tiếp <ArrowRight size={16} aria-hidden="true" />
-              </button>
-            )}
-          </p>
-        </div>
-      </div>
+      // #160: báo cáo cuối phần (thay cho bảng kết quả ngắn)
+      <PartReport
+        kind="tf" unit={unit} prog={prog} player={player} openExplain={openExplain}
+        onRestart={() => update({ qa: { ...newQaRun(qs.length), runs: (qa.runs || 1) + 1 } })}
+        restartLabel="Làm lại (trộn mới)"
+        overall={results}
+        onNextPart={onNextPart} nextLabel="Sang bài tiếp"
+      />
     );
   }
 
@@ -902,8 +976,8 @@ export function TrueFalsePart({ unit, prog, update, player, openExplain, refButt
   const badN = Object.keys(qa.done).length - okN;
   const onSubmit = (alts) => {
     const s = alts.join(" ").toLowerCase();
-    if (/\b(true|right|correct|yes)\b|đúng/.test(s)) judge(true);
-    else if (/\b(false|wrong|no|not)\b|sai/.test(s)) judge(false);
+    if (/\b(true|right|correct|yes)\b|đúng/.test(s)) judge(true, alts[0]);
+    else if (/\b(false|wrong|no|not)\b|sai/.test(s)) judge(false, alts[0]);
     else {
       askAgain(player);
       setFb({ tone: "warn", text: "“What did you say?” — máy chưa hiểu, hãy nói “true” hoặc “false”.", said: alts[0] });
@@ -980,6 +1054,294 @@ export function TrueFalsePart({ unit, prog, update, player, openExplain, refButt
       </div>
     </div>
   );
+}
+
+// ---------- #160 Báo cáo cuối mỗi phần luyện: đã làm gì · câu đúng / sai · % đúng (biểu đồ) · câu cần luyện lại ----------
+const PART_NAME = { quiz: "Trắc nghiệm", say: "Nghe nói", tf: "True or false" };
+/** Số liệu một phần. first = đúng ngay lần đầu; fixed = đúng sau khi sai; wrongList = câu từng sai (để luyện lại). */
+export function partStats(kind, unit, prog) {
+  const qs = unit.questions;
+  if (kind === "tf") {
+    const qa = prog.qa;
+    const items = qa?.items || [];
+    const done = qa?.done || {};
+    const answered = Object.keys(done).length;
+    const right = Object.values(done).filter((d) => d.right).length;
+    const wrongList = Object.entries(done)
+      .filter(([, d]) => !d.right)
+      .map(([p, d]) => ({ i: items[p].i, pos: +p, q: qs[items[p].i].q, cand: qs[items[p].i].options[items[p].cand], truth: items[p].truth, chose: d.chose, said: d.said }));
+    return { total: items.length, answered, first: right, fixed: 0, wrong: answered - right, pct: answered ? Math.round((right / answered) * 100) : 0, points: qa?.d2pt || 0, wrongList };
+  }
+  const p = (kind === "quiz" ? prog.pick : prog.say) || {};
+  const ok = p.ok || {};
+  const tries = {};
+  if (kind === "quiz") Object.keys(p.bad || {}).forEach((key) => (tries[+key.split("-")[0]] = (tries[+key.split("-")[0]] || 0) + 1));
+  else Object.entries(p.bad || {}).forEach(([k, n]) => (tries[+k] = n));
+  const miss = p.miss || {};
+  const answered = Object.keys(ok).length;
+  const wrongIs = qs.map((_, k) => k).filter((k) => tries[k]);
+  const first = Object.keys(ok).filter((k) => !tries[k]).length;
+  const wrongList = wrongIs.map((k) => ({ i: k, q: qs[k].q, tries: tries[k], miss: miss[k] || 0, said: p.said?.[k], solved: !!ok[k] }));
+  return {
+    total: qs.length, answered, first, fixed: answered - first, wrong: Object.values(tries).reduce((a, b) => a + b, 0),
+    unclear: p.unclear || 0, pct: qs.length ? Math.round((first / qs.length) * 100) : 0, wrongList,
+    legacy: (p.wrong || 0) > 0 && !wrongIs.length, // tiến độ cũ (trước #160) không ghi câu nào sai
+  };
+}
+
+function StackBar({ parts }) {
+  const sum = parts.reduce((a, p) => a + p.n, 0) || 1;
+  return (
+    <>
+      <div className="kt-rep-bar" role="img" aria-label={parts.map((p) => `${p.label} ${p.n}`).join(", ")}>
+        {parts.map((p) => p.n > 0 && <span key={p.label} className={`is-${p.tone}`} style={{ width: `${(p.n / sum) * 100}%` }} title={`${p.label}: ${p.n}`} />)}
+      </div>
+      <ul className="kt-rep-legend">
+        {parts.map((p) => (
+          <li key={p.label}>
+            <i className={`is-${p.tone}`} aria-hidden="true" /> {p.label} <b>{p.n}</b>
+          </li>
+        ))}
+      </ul>
+    </>
+  );
+}
+
+/** #161: biểu đồ thanh ngang — mỗi dòng: nhãn · thanh (theo giá trị lớn nhất) · số. */
+function HBars({ rows }) {
+  const max = Math.max(1, ...rows.map((r) => r.v));
+  return (
+    <div className="kt-rep-hb">
+      {rows.map((r) => (
+        <div key={r.label} className="row">
+          <span className="n">{r.label}</span>
+          <span className="t" role="img" aria-label={`${r.label}: ${r.v}`}>
+            <span className={`is-${r.tone || "ok"}`} style={{ width: `${(r.v / max) * 100}%` }} />
+          </span>
+          <span className="v">{r.v}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+/** #162: thống kê độ khớp câu nói (máy nghe → chữ) với đáp án đúng — Nghe nói. ≥ 50% là đạt. */
+export function speechStats(prog) {
+  const reads = prog.say?.reads || [];
+  const bins = PCT_BINS.map((b) => ({ ...b, v: reads.filter((r) => r.p >= b.lo && r.p < b.hi).length }));
+  const pass = reads.filter((r) => r.p >= 50).length;
+  const qs = new Set(reads.map((r) => r.i));
+  const best = {};
+  reads.forEach((r) => (best[r.i] = Math.max(best[r.i] ?? 0, r.p)));
+  const qPass = Object.values(best).filter((p) => p >= 50).length;
+  const avg = reads.length ? Math.round(reads.reduce((a, r) => a + r.p, 0) / reads.length) : 0;
+  const last = {};
+  reads.forEach((r) => (last[r.i] = r.p));
+  return { n: reads.length, pass, fail: reads.length - pass, pct: reads.length ? Math.round((pass / reads.length) * 100) : 0, nq: qs.size, qPass, avg, bins, last };
+}
+
+export function PartReport({ kind, unit, prog, player, openExplain, onReview, onRetryWrong, onRestart, restartLabel = "Làm lại từ đầu", onNextPart, nextLabel, overall }) {
+  const s = partStats(kind, unit, prog);
+  const sp = kind === "say" ? speechStats(prog) : null;
+  const name = PART_NAME[kind];
+  const did =
+    kind === "quiz"
+      ? `Đã làm đúng ${s.answered}/${s.total} câu trắc nghiệm, chọn nhầm ${s.wrong} lần.`
+      : kind === "say"
+      ? `Đã nói đúng ${s.answered}/${s.total} câu; nói nhầm đáp án ${s.wrong} lần${s.unclear ? `, máy chưa hiểu ${s.unclear} lần (không tính sai)` : ""}.`
+      : `Đã trả lời ${s.answered}/${s.total} câu: đúng ${s.first}, sai ${s.wrong} · ${s.points} điểm.`;
+  const pctLabel = kind === "tf" ? "Trả lời đúng" : kind === "say" ? "Nói đúng ngay lần đầu" : "Chọn đúng ngay lần đầu";
+  const bar =
+    kind === "tf"
+      ? [
+          { label: "Đúng", n: s.first, tone: "ok" },
+          { label: "Sai", n: s.wrong, tone: "bad" },
+        ]
+      : [
+          { label: "Đúng ngay lần đầu", n: s.first, tone: "ok" },
+          { label: "Đúng sau khi sửa", n: s.fixed, tone: "mid" },
+          ...(s.total - s.answered > 0 ? [{ label: "Chưa xong", n: s.total - s.answered, tone: "none" }] : []),
+        ];
+  const tip = s.pct >= 90 ? "Kết quả tốt — có thể sang phần tiếp." : s.pct >= 70 ? "Nên luyện lại các câu sai trước khi sang phần tiếp." : "Nên luyện lại các câu sai hoặc làm lại cả phần.";
+  const sum = unitSummaryLite(unit, prog);
+  return (
+    <div className="kt-drill">
+      <div className="kt-dstage kt-rep">
+        <div className="kt-rep-head">
+          <h2 className="kt-rep-h">Báo cáo · {name}</h2>
+          <p className="kt-rep-did">{did}</p>
+        </div>
+        <div className="kt-rep-kpi">
+          <div>
+            <b>{s.pct}%</b>
+            <span>{pctLabel}</span>
+          </div>
+          <div>
+            <b>{s.wrong}</b>
+            <span>{kind === "tf" ? "Câu sai" : "Lần sai"}</span>
+          </div>
+          {sp ? (
+            <>
+              <div>
+                <b>{sp.n}</b>
+                <span>Lượt đã nói ({sp.nq} câu)</span>
+              </div>
+              <div>
+                <b>{sp.pct}%</b>
+                <span>Lượt khớp ≥ 50%</span>
+              </div>
+            </>
+          ) : (
+            <>
+              <div>
+                <b>{s.answered}</b>
+                <span>Câu đã xong</span>
+              </div>
+              <div>
+                <b>{s.total - s.answered}</b>
+                <span>Câu chưa xong</span>
+              </div>
+            </>
+          )}
+        </div>
+
+        <section className="kt-rep-sec">
+          <h3 className="kt-rep-h3">Kết quả {s.total} câu</h3>
+          <StackBar parts={bar} />
+          <p className="kt-rep-tip">{tip}</p>
+        </section>
+
+        {sp && (
+          <section className="kt-rep-sec">
+            <h3 className="kt-rep-h3">Độ khớp câu nói với đáp án đúng (≥ 50% là đạt)</h3>
+            {sp.n ? (
+              <>
+                <HBars rows={sp.bins.map((b) => ({ label: b.label, v: b.v, tone: b.tone }))} />
+                <p className="kt-rep-note">
+                  Đã nói {sp.n} lượt cho {sp.nq} câu: {sp.pass} lượt đạt (≥ 50%), {sp.fail} lượt dưới 50% · trung bình {sp.avg}%. Số câu có ít nhất một lượt đạt: {sp.qPass}/{sp.nq}.
+                </p>
+              </>
+            ) : (
+              <p className="kt-rep-note">Chưa có lượt nói nào được ghi (chỉ ghi từ bản cập nhật này, và chỉ khi trả lời bằng giọng nói).</p>
+            )}
+          </section>
+        )}
+
+        <section className="kt-rep-sec">
+          <h3 className="kt-rep-h3">Câu cần luyện lại ({s.wrongList.length})</h3>
+          {s.legacy && <p className="kt-rep-note">Các lượt làm trước bản cập nhật này không ghi lại từng câu sai — chỉ có tổng số lần sai.</p>}
+          {s.wrongList.length ? (
+            <ol className="kt-rep-list">
+              {s.wrongList.map((w) => (
+                <li key={`${w.i}-${w.pos ?? ""}`}>
+                  <div className="q" lang="en">{w.q}</div>
+                  <div className="m">
+                    {kind === "tf" ? (
+                      <>
+                        <span lang="en">“{w.cand}”</span> là <b>{w.truth ? "TRUE" : "FALSE"}</b> — bạn chọn {w.chose ? "TRUE" : "FALSE"}
+                        {w.said && <span lang="en"> (nói: “{w.said}”)</span>}
+                      </>
+                    ) : (
+                      <>
+                        Sai {w.tries} lần{w.miss ? ` · máy chưa hiểu ${w.miss} lần` : ""}
+                        {sp?.last[w.i] != null && ` · khớp lần cuối ${sp.last[w.i]}%`}
+                        {w.said && (
+                          <>
+                            {" "}· Máy nghe được lần cuối: <span lang="en">“{w.said}”</span>
+                          </>
+                        )}
+                      </>
+                    )}
+                  </div>
+                  <div className="a">
+                    <Listen player={player} id={`rep-${kind}-${w.i}-${w.pos ?? ""}`} text={w.q} className="hkt-u-ico" title="Nghe câu hỏi" />
+                    <button type="button" className="hkt-link" onClick={() => openExplain(w.i)}>
+                      Giải thích
+                    </button>
+                  </div>
+                </li>
+              ))}
+            </ol>
+          ) : (
+            !s.legacy && <p className="kt-rep-note">Không có câu nào sai.</p>
+          )}
+        </section>
+
+        <section className="kt-rep-sec">
+          <h3 className="kt-rep-h3">Cả bài</h3>
+          <table className="kt-rep-tbl">
+            <thead>
+              <tr>
+                <th>Phần</th>
+                <th>% đúng ngay lần đầu</th>
+                <th>Lượt nói khớp ≥ 50%</th>
+              </tr>
+            </thead>
+            <tbody>
+              {sum.map((r) => (
+                <tr key={r.k}>
+                  <td>{r.name}</td>
+                  <td>
+                    <span className="kt-rep-mini" role="img" aria-label={`${r.done ? r.pct : 0}%`}>
+                      <span style={{ width: `${r.done ? r.pct : 0}%` }} />
+                    </span>
+                    {r.done ? `${r.pct}%` : "—"}
+                  </td>
+                  <td>
+                    {r.sp ? (
+                      <>
+                        <span className="kt-rep-mini is-mid" role="img" aria-label={`${r.sp.pct}%`}>
+                          <span style={{ width: `${r.sp.pct}%` }} />
+                        </span>
+                        {r.sp.pct}% ({r.sp.pass}/{r.sp.n})
+                      </>
+                    ) : (
+                      "—"
+                    )}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          {overall}
+        </section>
+
+        <div className="kt-rep-act">
+          {onReview && (
+            <button type="button" className="hkt-btn" onClick={onReview}>
+              Xem lại từng câu
+            </button>
+          )}
+          {onRetryWrong && s.wrongList.length > 0 && (
+            <button type="button" className="hkt-btn" onClick={onRetryWrong}>
+              <RotateCcw size={15} aria-hidden="true" /> Luyện lại {s.wrongList.length} câu sai
+            </button>
+          )}
+          {onRestart && (
+            <button type="button" className="hkt-btn" onClick={onRestart}>
+              <RotateCcw size={15} aria-hidden="true" /> {restartLabel}
+            </button>
+          )}
+          {onNextPart && (
+            <button type="button" className="hkt-btn hkt-btn--primary" onClick={onNextPart}>
+              {nextLabel} <ArrowRight size={15} aria-hidden="true" />
+            </button>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+/** % đúng ngay lần đầu của 3 phần + độ khớp câu nói (Nghe nói) để so sánh. */
+function unitSummaryLite(unit, prog) {
+  return [
+    ["quiz", !!Object.keys(prog.pick?.ok || {}).length],
+    ["say", !!Object.keys(prog.say?.ok || {}).length],
+    ["tf", !!Object.keys(prog.qa?.done || {}).length],
+  ].map(([k, done]) => {
+    const sp = k === "say" ? speechStats(prog) : null;
+    return { k, name: PART_NAME[k], done, pct: done ? partStats(k, unit, prog).pct : 0, sp: sp?.n ? sp : null };
+  });
 }
 
 /** 3 kết quả hiện riêng, không gộp (B-Q14). */

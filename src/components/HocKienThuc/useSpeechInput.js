@@ -1,13 +1,12 @@
 // SP08 · U3 — Nhận giọng nói dùng chung cho Nghe – nói và Hỏi – đáp.
 // Cùng cách làm với KnowledgeLesson (SP01 M3 + #045): luôn tạo đối tượng mới, nhả âm thanh trước khi bật mic,
-// tự dừng khi im lặng hoặc sau 10 giây, canh giờ micro (thử lại 1 lần rồi mời gõ).
+// #156: nghe liên tục tới khi bấm Dừng/Gửi; canh giờ micro (thử lại 1 lần rồi mời gõ).
 import { useEffect, useRef, useState } from "react";
 import { MIC_WATCHDOG_MS } from "./config";
 import { releaseAudioForMic } from "./audioPlayer";
 
 const SR = typeof window !== "undefined" ? window.SpeechRecognition || window.webkitSpeechRecognition : null;
 export const speechSupported = !!SR;
-const MAX_REC_MS = 10000;
 
 const SPEECH_ERRORS = {
   "not-allowed": "Bạn chưa cho phép dùng micro. Bấm biểu tượng ổ khoá trên thanh địa chỉ để cho phép, hoặc chuyển sang Gõ.",
@@ -19,24 +18,30 @@ const SPEECH_ERRORS = {
 
 /**
  * onResult(alternatives: string[]) — các phương án nhận dạng, phương án đầu là khả năng cao nhất.
+ * #156: nghe LIÊN TỤC cho tới khi người học bấm Dừng hoặc Gửi (không tự ngắt khi im lặng, không giới hạn 10 giây):
+ *   continuous = true; trình duyệt tự dừng (im lâu, mất mạng ngắn) → tự bật lại, giữ chữ đã nghe.
+ *   Chỉ hiện chữ ĐÃ CHỐT (final), không hiện chữ tạm (interim) nhảy liên tục.
  */
 export default function useSpeechInput(onResult) {
   const [recording, setRecording] = useState(false);
-  const [interim, setInterim] = useState("");
+  const [text, setText] = useState(""); // chữ đã chốt trong lượt nghe hiện tại
   const [error, setError] = useState(null);
   const recRef = useRef(null);
-  const timerRef = useRef(null);
   const watchRef = useRef(null);
+  const userStopRef = useRef(false); // người học bấm Dừng/Gửi → không tự bật lại
+  const partsRef = useRef([]); // [[phương án 1, 2, 3], …] mỗi đoạn đã chốt
   const cbRef = useRef(onResult);
   cbRef.current = onResult;
 
+  const joined = () => partsRef.current.map((p) => p[0]).join(" ").replace(/\s+/g, " ").trim();
+
   const stop = () => {
-    clearTimeout(timerRef.current);
+    userStopRef.current = true;
     if (recRef.current) recRef.current.stop();
   };
 
   const abortAll = () => {
-    clearTimeout(timerRef.current);
+    userStopRef.current = true;
     clearTimeout(watchRef.current);
     const r = recRef.current;
     recRef.current = null;
@@ -49,17 +54,37 @@ export default function useSpeechInput(onResult) {
       }
     }
     setRecording(false);
-    setInterim("");
+    setText("");
+    partsRef.current = [];
   };
-  useEffect(() => abortAll, []); // rời trang → tắt mic
+  useEffect(() => abortAll, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const start = (attempt = 0) => {
-    if (!SR || (recRef.current && attempt === 0)) return;
-    releaseAudioForMic();
-    setError(null);
-    setInterim("");
+  const finish = () => {
+    clearTimeout(watchRef.current);
+    recRef.current = null;
+    setRecording(false);
+    const head = joined();
+    const parts = partsRef.current;
+    partsRef.current = [];
+    setText("");
+    if (!head) return;
+    const alts = parts.length === 1 && parts[0].length > 1 ? parts[0].map((x) => x.trim()) : [head];
+    cbRef.current(alts);
+  };
+
+  // attempt: lần thử micro (canh giờ iPhone); resume: tự bật lại giữa chừng — giữ chữ đã nghe
+  const start = (attempt = 0, resume = false) => {
+    if (!SR || (recRef.current && attempt === 0 && !resume)) return;
+    if (!resume) {
+      releaseAudioForMic();
+      setError(null);
+      setText("");
+      partsRef.current = [];
+      userStopRef.current = false;
+    }
     const rec = new SR();
     let alive = false;
+    let failed = false;
     const markAlive = () => {
       if (alive) return;
       alive = true;
@@ -71,57 +96,63 @@ export default function useSpeechInput(onResult) {
       if (!/iPhone|iPad|iPod/.test(navigator.userAgent)) markAlive();
     };
     rec.lang = "en-US";
-    rec.interimResults = true;
-    rec.continuous = false;
+    rec.interimResults = false;
+    rec.continuous = true;
     rec.maxAlternatives = 3;
-    let finals = [];
-    let lastInterim = "";
     rec.onresult = (e) => {
-      const fin = [];
-      let inter = "";
-      for (let i = 0; i < e.results.length; i++) {
-        const res = e.results[i];
-        if (res.isFinal) fin.push(Array.from(res).map((a) => a.transcript));
-        else inter += res[0].transcript;
-      }
       markAlive();
-      finals = fin;
-      lastInterim = inter;
-      setInterim((fin.map((f) => f[0]).join(" ") + " " + inter).trim());
+      for (let i = e.resultIndex; i < e.results.length; i++) {
+        const res = e.results[i];
+        if (res.isFinal) partsRef.current.push(Array.from(res).map((a) => a.transcript.trim()).filter(Boolean));
+      }
+      partsRef.current = partsRef.current.filter((p) => p.length);
+      setText(joined());
     };
     rec.onerror = (e) => {
       markAlive();
-      if (e.error !== "aborted") setError(SPEECH_ERRORS[e.error] || "Không nhận được giọng nói. Bấm mic thử lại, hoặc chuyển sang Gõ.");
+      if (e.error === "no-speech" || e.error === "aborted") return; // im lặng: không báo lỗi, tự nghe tiếp
+      failed = true;
+      userStopRef.current = true;
+      setError(SPEECH_ERRORS[e.error] || "Không nhận được giọng nói. Bấm mic thử lại, hoặc chuyển sang Gõ.");
     };
     rec.onend = () => {
-      clearTimeout(timerRef.current);
-      clearTimeout(watchRef.current);
-      recRef.current = null;
-      setRecording(false);
-      setInterim("");
-      const head = finals.map((f) => f[0]).join(" ").trim() || lastInterim.trim();
-      if (!head) return;
-      const alts = finals.length === 1 && finals[0].length > 1 ? finals[0].map((s) => s.trim()) : [head];
-      cbRef.current(alts);
+      if (recRef.current !== rec) return;
+      if (!userStopRef.current && !failed) {
+        // trình duyệt tự dừng → bật lại ngay, vẫn giữ chữ
+        recRef.current = null;
+        setTimeout(() => {
+          if (!userStopRef.current) startRef.current(1, true);
+          else finish();
+        }, 120);
+        return;
+      }
+      finish();
     };
     recRef.current = rec;
     try {
       rec.start();
       setRecording(true);
-      timerRef.current = setTimeout(() => rec.stop(), MAX_REC_MS);
       clearTimeout(watchRef.current);
-      watchRef.current = setTimeout(() => {
-        if (alive) return;
-        abortAll();
-        if (attempt === 0) setTimeout(() => startRef.current(1), 250);
-        else setError("Micro chưa sẵn sàng (thường gặp trên iPhone ngay sau khi phát âm thanh). Bấm mic lần nữa, hoặc chuyển sang Gõ.");
-      }, MIC_WATCHDOG_MS);
+      if (!resume)
+        watchRef.current = setTimeout(() => {
+          if (alive) return;
+          abortAll();
+          if (attempt === 0) setTimeout(() => startRef.current(1), 250);
+          else setError("Micro chưa sẵn sàng (thường gặp trên iPhone ngay sau khi phát âm thanh). Bấm mic lần nữa, hoặc chuyển sang Gõ.");
+        }, MIC_WATCHDOG_MS);
     } catch {
+      if (resume) return finish();
       setError("Không bật được micro. Bấm mic thử lại, hoặc chuyển sang Gõ.");
+      setRecording(false);
     }
   };
   const startRef = useRef(start);
   startRef.current = start;
 
-  return { supported: speechSupported, recording, interim, error, start: () => start(0), stop, abort: abortAll, clearError: () => setError(null) };
+  // #161: Xoá chữ đã nghe (đang nghe thì vẫn nghe tiếp, bắt đầu lại từ chữ trống)
+  const clear = () => {
+    partsRef.current = [];
+    setText("");
+  };
+  return { supported: speechSupported, recording, text, interim: text, error, start: () => start(0), stop, clear, abort: abortAll, clearError: () => setError(null) };
 }
