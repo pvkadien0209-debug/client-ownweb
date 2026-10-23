@@ -1,6 +1,6 @@
 import React, { useEffect, useState, createContext } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Header from "./components/A1_Header";
 import Lobby from "./components/Lobby";
 import NameDiv from "./components/A1_Name";
@@ -104,6 +104,8 @@ const App = () => {
   }, []);
   return (
     <HelmetProvider>
+      {/* #167: tiêu đề mọi trang có đuôi thương hiệu; trang không đặt tiêu đề thì dùng tiêu đề mặc định */}
+      <Helmet titleTemplate="%s | DetPro" defaultTitle="DetPro — Mỗi ngày biết thêm một điều hay" />
       <ObjREADContext.Provider value={ObjREAD}>
         <Router>
           {/* <div style={{ height: "8vh" }}></div> */}

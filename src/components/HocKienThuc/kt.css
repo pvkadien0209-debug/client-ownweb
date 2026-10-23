@@ -621,3 +621,9 @@ body.kt-shell .chat-container-mobile { display: none !important; }
   /* 6 mục ở thanh dưới điện thoại */
   .kt-tabbar a { font-size: 10.5px; }
 }
+
+/* ---------- #167 Logo DetPro: Vòng Đét + chữ DetPro + khẩu hiệu ---------- */
+.kt-logo-t { display: flex; flex-wrap: wrap; align-items: baseline; max-width: 230px; line-height: 1.05; font-size: 21px; letter-spacing: -.02em; }
+.kt-logo-t b { color: var(--kt-pine); font-weight: 800; }
+.kt-logo-t small { flex-basis: 100%; margin-top: 2px; font-size: 11.5px; font-weight: 600; letter-spacing: 0; color: var(--kt-muted); }
+@media (max-width: 640px) { .kt-logo-t small { display: none; } }

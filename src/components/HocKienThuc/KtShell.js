@@ -4,11 +4,11 @@
 // Khi vỏ đang hiện, thanh menu cũ của app (A1_Header) được ẩn (body.kt-shell).
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { Home, LayoutGrid, PlayCircle, Users, BarChart3, Search, Check, Clapperboard } from "lucide-react";
+import { Home, LayoutGrid, PlayCircle, Users, BarChart3, Search, Clapperboard } from "lucide-react";
 import { loadUnitsIndex, readLastUnit, unitPath, audiencePath, topicColor, lowerFirst } from "./unitData";
 import "./kt.css";
 import TopicArt, { TOPIC_ART } from "./topicArt";
-import { VongDetLoading } from "./VongDet";
+import VongDet, { SIGN, VongDetLoading } from "./VongDet";
 
 export const NAV = [
   { key: "home", to: "/", label: "Trang chủ", Icon: Home },
@@ -111,10 +111,14 @@ export default function KtShell({ active, children }) {
     <div className="kt">
       <header className="kt-top">
         <Link className="kt-logo" to="/">
+          {/* #167: logo DetPro = Vòng Đét trên nền xanh + chữ DetPro + khẩu hiệu */}
           <i aria-hidden="true">
-            <Check size={20} strokeWidth={3} />
+            <VongDet sweep={SIGN} track={false} size={30} />
           </i>
-          <span>Mỗi ngày biết thêm</span>
+          <span className="kt-logo-t">
+            Det<b>Pro</b>
+            <small>Mỗi ngày biết thêm một điều hay</small>
+          </span>
         </Link>
         <SearchBox />
         <Link className="kt-go" to={cont}>
