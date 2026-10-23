@@ -9,14 +9,14 @@ import { DRIVE_VIDEO } from "./config";
 
 const base = () => `${process.env.PUBLIC_URL || ""}/videos/dp`;
 let manifest = null;
-const loadManifest = () =>
+export const loadManifest = () => // #163: dùng chung cho trang Video
   (manifest ||= fetch(`${base()}/index.json`)
     .then((r) => (r.ok ? r.json() : {}))
     .catch(() => ({})));
 
 // #116: danh sách tệp trong thư mục Drive (tên → mã tệp), tải một lần. Trùng tên thì lấy tệp sửa gần nhất.
 let driveList = null;
-const loadDriveList = () => {
+export const loadDriveList = () => {
   if (driveList) return driveList;
   const { folderId, apiKey } = DRIVE_VIDEO;
   if (!folderId || !apiKey) return (driveList = Promise.resolve({}));
@@ -32,7 +32,7 @@ const loadDriveList = () => {
 };
 
 /** Lấy mã tệp Drive từ mã trần hoặc đường dẫn /file/d/<mã>/… hoặc ?id=<mã>. */
-const driveId = (x) => {
+export const driveId = (x) => {
   if (!x) return null;
   const m = String(x).match(/\/file\/d\/([\w-]{10,})/) || String(x).match(/[?&]id=([\w-]{10,})/);
   return m ? m[1] : /^[\w-]{10,}$/.test(x) ? x : null;

@@ -4,7 +4,7 @@
 // Khi vỏ đang hiện, thanh menu cũ của app (A1_Header) được ẩn (body.kt-shell).
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { Home, LayoutGrid, PlayCircle, Users, BarChart3, Search, Check } from "lucide-react";
+import { Home, LayoutGrid, PlayCircle, Users, BarChart3, Search, Check, Clapperboard } from "lucide-react";
 import { loadUnitsIndex, readLastUnit, unitPath, audiencePath, topicColor, lowerFirst } from "./unitData";
 import "./kt.css";
 import TopicArt, { TOPIC_ART } from "./topicArt";
@@ -15,6 +15,7 @@ export const NAV = [
   { key: "topics", to: "/knowledge", label: "Chủ đề", Icon: LayoutGrid },
   { key: "continue", to: null, label: "Học tiếp", Icon: PlayCircle },
   { key: "for", to: "/for", label: "Hoàn cảnh", Icon: Users },
+  { key: "videos", to: "/videos", label: "Video", Icon: Clapperboard }, // #163
   { key: "me", to: "/me", label: "Của tôi", Icon: BarChart3 },
 ];
 

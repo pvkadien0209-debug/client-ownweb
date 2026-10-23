@@ -594,3 +594,30 @@ body.kt-shell .chat-container-mobile { display: none !important; }
   .kt-rep-hb .row { grid-template-columns: 92px minmax(0, 1fr) 40px; }
   .kt-rep-mini { display: none; }
 }
+
+/* ---------- #163 Trang Video: tất cả video tóm tắt + đường dẫn vào bài ---------- */
+.kt-vbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 6px 0 16px; }
+.kt-vsearch { display: flex; align-items: center; gap: 6px; flex: 1 1 240px; max-width: 420px; padding: 0 10px; height: 38px; border: 1px solid var(--kt-line); border-radius: 8px; background: var(--kt-surface); color: var(--kt-muted); }
+.kt-vsearch input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; font: inherit; font-size: 14.5px; color: var(--kt-ink); }
+.kt-vbar select { height: 38px; max-width: 100%; padding: 0 8px; border: 1px solid var(--kt-line); border-radius: 8px; background: var(--kt-surface); font: inherit; font-size: 14px; color: var(--kt-ink); }
+.kt-vgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 18px; }
+.kt-vcard { display: flex; flex-direction: column; min-width: 0; border: 1px solid var(--kt-line); border-radius: 10px; background: var(--kt-surface); overflow: hidden; }
+.kt-vcard-media { position: relative; aspect-ratio: 16 / 9; background: #0f172a; }
+.kt-vcard-media iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.kt-vcard-cover { position: absolute; inset: 0; display: grid; place-items: center; width: 100%; padding: 0; border: 0; cursor: pointer; overflow: hidden; }
+.kt-vcard-cover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.kt-vcard-ph { padding: 0 16px; color: #fff; font-weight: 700; font-size: 15px; line-height: 1.3; text-align: center; }
+.kt-vcard-play { position: absolute; right: 10px; bottom: 10px; display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; background: rgba(15, 23, 42, .78); color: #fff; }
+.kt-vcard-cover:hover .kt-vcard-play { background: var(--kt-pine); }
+.kt-vcard-body { display: flex; flex-direction: column; gap: 4px; padding: 10px 12px 12px; }
+.kt-vcard-topic { font-size: 12px; font-weight: 600; color: var(--kt-muted); text-transform: uppercase; letter-spacing: .03em; }
+.kt-vcard-body h3 { margin: 0; font-size: 15.5px; line-height: 1.35; }
+.kt-vcard-who { margin: 0; font-size: 13px; color: var(--kt-muted); }
+.kt-vcard-link { align-self: flex-start; display: inline-flex; align-items: center; gap: 4px; margin-top: 4px; color: var(--kt-pine) !important; font-weight: 600; font-size: 14px; text-decoration: none; }
+.kt-vcard-link:hover { text-decoration: underline; }
+@media (max-width: 760px) {
+  .kt-vgrid { grid-template-columns: 1fr; gap: 14px; }
+  .kt-vsearch { max-width: none; }
+  /* 6 mục ở thanh dưới điện thoại */
+  .kt-tabbar a { font-size: 10.5px; }
+}

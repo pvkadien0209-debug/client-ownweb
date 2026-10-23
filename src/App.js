@@ -35,6 +35,7 @@ import { ArticlesRedirect, OldLessonRedirect } from "./components/HocKienThuc/Le
 import UnitPage from "./components/HocKienThuc/UnitPage"; // SP08 U3 — bài theo người nghe (5 phần)
 import AudiencePage, { AudiencesHome } from "./components/HocKienThuc/AudiencePage"; // SP08 U3
 import MyPage from "./components/HocKienThuc/MyPage"; // SP09 — Của tôi
+import VideosPage from "./components/HocKienThuc/VideosPage"; // #163 — tất cả video tóm tắt
 // import JointPharmaWebsite from "./components/A1_JMC";
 const LinkAPI =
   window.location.hostname === "localhost"
@@ -161,6 +162,7 @@ const App = () => {
               {/* SP08 U3: bài theo người nghe — /for/<người-nghe>/<bài>/<phần> */}
               <Route path="/for" element={<AudiencesHome />} />
               <Route path="/me" element={<MyPage />} />
+              <Route path="/videos" element={<VideosPage />} />
               <Route path="/for/:audience" element={<AudiencePage />} />
               <Route path="/for/:audience/:slug" element={<UnitPage />} />
               <Route path="/for/:audience/:slug/:part" element={<UnitPage />} />
